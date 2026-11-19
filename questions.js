@@ -5242,6 +5242,43 @@ const QUESTIONS = [
   "type": "single"
  },
  {
+  "id": "MON-33",
+  "src": "MON",
+  "n": 33,
+  "topic": "math",
+  "q": {
+   "en": "What is the area of the triangle in the figure below?",
+   "ru": "Какова площадь треугольника на рисунке ниже?"
+  },
+  "why": {
+   "en": "Area = base × height ÷ 2 = 4 × 8 ÷ 2 = 16 sq. in. The 8\" height is measured square to the line of the 4\" base, even though it falls outside the triangle. Traps: 32 forgets the ÷ 2, and cu. in. is a volume unit.",
+   "ru": "Площадь = основание × высота ÷ 2 = 4 × 8 ÷ 2 = 16 sq. in. Высота 8\" меряется под прямым углом к линии основания 4\", хотя и падает вне треугольника. Ловушки: 32 — забыли ÷ 2, а cu. in. — единица объёма."
+  },
+  "opts": [
+   {
+    "en": "16 sq. in.",
+    "ru": "16 sq. in."
+   },
+   {
+    "en": "32 sq. in.",
+    "ru": "32 sq. in."
+   },
+   {
+    "en": "32.247 sq. in.",
+    "ru": "32.247 sq. in."
+   },
+   {
+    "en": "32 cu. in.",
+    "ru": "32 cu. in."
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "fig": "mon-q33.svg"
+ },
+ {
   "id": "MON-35",
   "src": "MON",
   "n": 35,
@@ -5414,6 +5451,43 @@ const QUESTIONS = [
   "type": "single"
  },
  {
+  "id": "MON-40",
+  "src": "MON",
+  "n": 40,
+  "topic": "math",
+  "q": {
+   "en": "Find the area of the flat oval.",
+   "ru": "Найдите площадь flat oval."
+  },
+  "why": {
+   "en": "Width = 2 × R4\" = 8\"; the two half-circle ends together make one circle: π × 4² = 50.2655 sq. in.; the 10\" between the arc centers gives a middle rectangle 10\" × 8\" = 80 sq. in.; total 130.2655 → 130.27 sq. in. Trap: 150.27 takes the rectangle as 10\" × 10\".",
+   "ru": "Ширина = 2 × R4\" = 8\"; два полукруга вместе дают один круг: π × 4² = 50.2655 sq. in.; 10\" между центрами дуг — это прямоугольник посередине 10\" × 8\" = 80 sq. in.; итого 130.2655 → 130.27 sq. in. Ловушка: 150.27 — прямоугольник посчитан как 10\" × 10\"."
+  },
+  "opts": [
+   {
+    "en": "130.27 sq.in.",
+    "ru": "130.27 sq.in."
+   },
+   {
+    "en": "150.27 sq. in.",
+    "ru": "150.27 sq. in."
+   },
+   {
+    "en": "178.54 sq. in.",
+    "ru": "178.54 sq. in."
+   },
+   {
+    "en": "52.57 sq. in.",
+    "ru": "52.57 sq. in."
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "fig": "mon-q40.svg"
+ },
+ {
   "id": "MON-41",
   "src": "MON",
   "n": 41,
@@ -5448,6 +5522,154 @@ const QUESTIONS = [
    2
   ],
   "type": "single"
+ },
+ {
+  "id": "MON-42",
+  "src": "MON",
+  "n": 42,
+  "topic": "offsets",
+  "q": {
+   "en": "Calculate the duct offset from the given dimensions.",
+   "ru": "Рассчитайте offset duct по заданным размерам."
+  },
+  "why": {
+   "en": "Wall to column centerline is 6'-8 5/8\" (80.625\"), column to the near edge of the upper 16\"x12\" is 2'-2 3/4\" (26.75\"), wall to the centerline of the lower 16\"x12\" is 2'-1 1/4\" (25.25\"). Upper centerline from the wall = 80.625 − 26.75 − 8 (half of 16) = 45.875\"; offset = 45.875 − 25.25 = 20.625\" = 1'-8-5/8\". Trap: 2'-4-5/8\" (28.625\") treats the edge dimension as if it went to the centerline.",
+   "ru": "От стены до centerline колонны 6'-8 5/8\" (80.625\"), от колонны до ближнего края верхнего 16\"x12\" — 2'-2 3/4\" (26.75\"), от стены до centerline нижнего 16\"x12\" — 2'-1 1/4\" (25.25\"). Centerline верхнего от стены = 80.625 − 26.75 − 8 (половина от 16) = 45.875\"; offset = 45.875 − 25.25 = 20.625\" = 1'-8-5/8\". Ловушка: 2'-4-5/8\" (28.625\") — размер до края приняли за размер до centerline."
+  },
+  "opts": [
+   {
+    "en": "2' 4-5/8\"",
+    "ru": "2' 4-5/8\""
+   },
+   {
+    "en": "12-5/8\"",
+    "ru": "12-5/8\""
+   },
+   {
+    "en": "1' 8-5/8\"",
+    "ru": "1' 8-5/8\""
+   },
+   {
+    "en": "20-1/2\"",
+    "ru": "20-1/2\""
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single",
+  "fig": "mon-q42.svg"
+ },
+ {
+  "id": "MON-43",
+  "src": "MON",
+  "n": 43,
+  "topic": "trig",
+  "q": {
+   "en": "Solve the length of dimension \"x\".",
+   "ru": "Найдите длину размера \"x\"."
+  },
+  "why": {
+   "en": "The 72.4° angle is at the top, between the hypotenuse and side x, so the 94-3/8\" base is opposite it and x is adjacent: x = 94.375 ÷ tan 72.4° = 94.375 ÷ 3.152399 = 29.9375\" → 29.938\". Traps: 297-1/2\" multiplies by tan instead of dividing (94.375 × 3.152399 = 297.508), 99 is the hypotenuse (94.375 ÷ sin 72.4° = 99.010), and 30.9376\" has a wrong digit.",
+   "ru": "Угол 72.4° стоит вверху, между гипотенузой и стороной x, поэтому основание 94-3/8\" лежит напротив него, а x — прилежащий катет: x = 94.375 ÷ tan 72.4° = 94.375 ÷ 3.152399 = 29.9375\" → 29.938\". Ловушки: 297-1/2\" — умножили на tan вместо деления (94.375 × 3.152399 = 297.508), 99 — гипотенуза (94.375 ÷ sin 72.4° = 99.010), а в 30.9376\" неверная цифра."
+  },
+  "opts": [
+   {
+    "en": "30.9376\"",
+    "ru": "30.9376\""
+   },
+   {
+    "en": "297-1/2\"",
+    "ru": "297-1/2\""
+   },
+   {
+    "en": "99",
+    "ru": "99"
+   },
+   {
+    "en": "29.938\"",
+    "ru": "29.938\""
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single",
+  "fig": "mon-q43.svg"
+ },
+ {
+  "id": "MON-44",
+  "src": "MON",
+  "n": 44,
+  "topic": "trig",
+  "q": {
+   "en": "Solve for the missing angle.",
+   "ru": "Найдите неизвестный угол."
+  },
+  "why": {
+   "en": "θ is at the end of the 43.922\" side and the 14.375\" side is opposite it: θ = atan(14.375 ÷ 43.922) = 18.12°. Trap: 71.88° and 71.877° are the other acute angle (90 − 18.12).",
+   "ru": "θ стоит у конца стороны 43.922\", сторона 14.375\" лежит напротив него: θ = atan(14.375 ÷ 43.922) = 18.12°. Ловушка: 71.88° и 71.877° — второй острый угол (90 − 18.12)."
+  },
+  "opts": [
+   {
+    "en": "90 degrees",
+    "ru": "90 градусов"
+   },
+   {
+    "en": "18.12 degrees",
+    "ru": "18.12 градуса"
+   },
+   {
+    "en": "71.88 degrees",
+    "ru": "71.88 градуса"
+   },
+   {
+    "en": "71.877 degrees",
+    "ru": "71.877 градуса"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "fig": "mon-q44.svg"
+ },
+ {
+  "id": "MON-45",
+  "src": "MON",
+  "n": 45,
+  "topic": "trig",
+  "q": {
+   "en": "Solve for the missing angle.",
+   "ru": "Найдите неизвестный угол."
+  },
+  "why": {
+   "en": "θ is at the end of the 94-3/16\" side; the 132-3/16\" side meets that side at the right angle, so it is opposite θ: θ = atan(132.1875 ÷ 94.1875) = atan(1.403451) = 54.53°. Trap: 35.471° is the other acute angle (90 − 54.529), and 35.48° is the same angle misrounded.",
+   "ru": "θ стоит у конца стороны 94-3/16\"; сторона 132-3/16\" сходится с ней под прямым углом, значит, лежит напротив θ: θ = atan(132.1875 ÷ 94.1875) = atan(1.403451) = 54.53°. Ловушка: 35.471° — второй острый угол (90 − 54.529), а 35.48° — он же, неверно округлённый."
+  },
+  "opts": [
+   {
+    "en": "35.471 degrees",
+    "ru": "35.471 градуса"
+   },
+   {
+    "en": "35.48 degrees",
+    "ru": "35.48 градуса"
+   },
+   {
+    "en": "54.53 degrees",
+    "ru": "54.53 градуса"
+   },
+   {
+    "en": "55.52 degrees",
+    "ru": "55.52 градуса"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single",
+  "fig": "mon-q45.svg"
  },
  {
   "id": "MON-46",
@@ -5702,6 +5924,43 @@ const QUESTIONS = [
   "type": "single"
  },
  {
+  "id": "MON-54",
+  "src": "MON",
+  "n": 54,
+  "topic": "transitions",
+  "q": {
+   "en": "Calculate the length of the transition for a 15 degree angle?",
+   "ru": "Рассчитайте длину transition при угле 15 градусов?"
+  },
+  "why": {
+   "en": "The ends are drawn 24\" and 36\" high with a flat bottom, so the top climbs 36 − 24 = 12\". Length = rise ÷ tan 15° = 12 ÷ 0.267949 = 44.7846\", × 16 = 716.55 → 717/16 = 44-13/16\". Traps: 44-3/4\" cuts the sixteenths down instead of rounding, and 3-3/16\" multiplies by tan 15° (12 × 0.267949 = 3.2154) instead of dividing.",
+   "ru": "Концы нарисованы высотой 24\" и 36\", низ плоский, поэтому верх поднимается на 36 − 24 = 12\". Длина = rise ÷ tan 15° = 12 ÷ 0.267949 = 44.7846\", × 16 = 716.55 → 717/16 = 44-13/16\". Ловушки: 44-3/4\" — шестнадцатые обрезали, а не округлили, а 3-3/16\" — умножили на tan 15° (12 × 0.267949 = 3.2154) вместо деления."
+  },
+  "opts": [
+   {
+    "en": "44 - 13/16\"",
+    "ru": "44 - 13/16\""
+   },
+   {
+    "en": "3- 3/16\"",
+    "ru": "3- 3/16\""
+   },
+   {
+    "en": "44 - 3/4\"",
+    "ru": "44 - 3/4\""
+   },
+   {
+    "en": "45- 11/16",
+    "ru": "45- 11/16"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "fig": "mon-q54.svg"
+ },
+ {
   "id": "MON-55",
   "src": "MON",
   "n": 55,
@@ -5736,6 +5995,170 @@ const QUESTIONS = [
    3
   ],
   "type": "single"
+ },
+ {
+  "id": "MON-56",
+  "src": "MON",
+  "n": 56,
+  "topic": "offsets",
+  "q": {
+   "en": "Solve dimensions \"L\" and \"D\" for the offset problem.",
+   "ru": "Найдите размеры \"L\" и \"D\" для задачи с offset."
+  },
+  "why": {
+   "en": "Rise = 12'-1\" − 9'-5\" = 32\" (both to the bottom of the same 28\"x20\" duct). R1'-4\" (16\") is the throat radius and the 28\" side lies in the plane of the turn, so CL R = 16 + 14 = 30\"; the two 37° elbows rise 2 × 30 × (1 − cos 37°) = 12.0819\". Straight piece L = (32 − 12.0819) ÷ sin 37° = 33.0968\" → 33-1/8\"; D = 2 × 30 × sin 37° + L × cos 37° = 36.1089 + 26.4323 = 62.5412\" → 62-9/16\".",
+   "ru": "Подъём = 12'-1\" − 9'-5\" = 32\" (оба размера — до низа одного и того же duct 28\"x20\"). R1'-4\" (16\") — throat radius, а в плоскости поворота лежит сторона 28\", поэтому CL R = 16 + 14 = 30\"; два elbow по 37° поднимают на 2 × 30 × (1 − cos 37°) = 12.0819\". Прямой кусок L = (32 − 12.0819) ÷ sin 37° = 33.0968\" → 33-1/8\"; D = 2 × 30 × sin 37° + L × cos 37° = 36.1089 + 26.4323 = 62.5412\" → 62-9/16\"."
+  },
+  "opts": [
+   {
+    "en": "L= 35-3/8\"",
+    "ru": "L= 35-3/8\""
+   },
+   {
+    "en": "L= 33-1/8\"",
+    "ru": "L= 33-1/8\""
+   },
+   {
+    "en": "L= 31-3/4\"",
+    "ru": "L= 31-3/4\""
+   },
+   {
+    "en": "D= 55-3/16\"",
+    "ru": "D= 55-3/16\""
+   },
+   {
+    "en": "D= 60-7/8\"",
+    "ru": "D= 60-7/8\""
+   },
+   {
+    "en": "D= 62-9/16\"",
+    "ru": "D= 62-9/16\""
+   }
+  ],
+  "answer": [
+   1,
+   5
+  ],
+  "type": "multi",
+  "fig": "mon-q56.svg"
+ },
+ {
+  "id": "MON-57",
+  "src": "MON",
+  "n": 57,
+  "topic": "offsets",
+  "q": {
+   "en": "Solve dimensions \"L\" and \"D\" for the offset problem.",
+   "ru": "Найдите размеры \"L\" и \"D\" для задачи с offset."
+  },
+  "why": {
+   "en": "Rise = 15'-2\" − 8'-9\" = 182 − 105 = 77\". R38\" is the throat radius of the 36\"Ø pipe, so CL R = 38 + 18 = 56\"; the two 44° elbows rise 2 × 56 × (1 − cos 44°) = 31.4339\". L = (77 − 31.4339) ÷ sin 44° = 65.5949\" → 65-5/8\"; D = 2 × 56 × sin 44° + L × cos 44° = 77.8017 + 47.1850 = 124.9868\" → 125\".",
+   "ru": "Подъём = 15'-2\" − 8'-9\" = 182 − 105 = 77\". R38\" — throat radius трубы 36\"Ø, поэтому CL R = 38 + 18 = 56\"; два elbow по 44° поднимают на 2 × 56 × (1 − cos 44°) = 31.4339\". L = (77 − 31.4339) ÷ sin 44° = 65.5949\" → 65-5/8\"; D = 2 × 56 × sin 44° + L × cos 44° = 77.8017 + 47.1850 = 124.9868\" → 125\"."
+  },
+  "opts": [
+   {
+    "en": "L= 65-5/8\"",
+    "ru": "L= 65-5/8\""
+   },
+   {
+    "en": "L= 62-5/16\"",
+    "ru": "L= 62-5/16\""
+   },
+   {
+    "en": "L= 60-3/8\"",
+    "ru": "L= 60-3/8\""
+   },
+   {
+    "en": "D= 121\"",
+    "ru": "D= 121\""
+   },
+   {
+    "en": "D= 125\"",
+    "ru": "D= 125\""
+   },
+   {
+    "en": "D= 119-1/2\"",
+    "ru": "D= 119-1/2\""
+   }
+  ],
+  "answer": [
+   0,
+   4
+  ],
+  "type": "multi",
+  "fig": "mon-q57.svg"
+ },
+ {
+  "id": "MON-58",
+  "src": "MON",
+  "n": 58,
+  "topic": "transitions",
+  "q": {
+   "en": "Calculate a shear list for the transition provided.",
+   "ru": "Рассчитайте shear list для transition на чертеже."
+  },
+  "why": {
+   "en": "Net 15\" (drive to drive), so L = 15 − 1 = 14\". In plan 8\"x12\" → 16\"x6\" with the Left side square (∟), so the Right side moves 16 − 8 = 8\"; FOT, so TOP is flat and BOTTOM moves 12 − 6 = 6\". Widths: Top and Bottom 16 + 1/2 = 16-1/2\" (male 1/4\" × 2), sides 12 + 2 = 14\" (female 1\" × 2); lengths = true length to the nearest 1/16 + 2: Top 14 + 2 = 16 (16\" x 16-1/2\"), Bottom √(14² + 6²) = 15.2315 → 15-1/4 + 2 = 17-1/4 (16-1/2\" x 17-1/4\"), Left 14 + 2 = 16 (14\" x 16\"), Right √(14² + 8²) = 16.1245 → 16-1/8 + 2 = 18-1/8 (18-1/8\" x 14\"). Traps: 18-1/16\" cuts 16.1245 down instead of rounding; the options do not keep one width × length order, so match each part by its numbers.",
+   "ru": "Net 15\" (drive to drive), значит, L = 15 − 1 = 14\". В plan 8\"x12\" → 16\"x6\", Left side прямая (∟), поэтому Right side уходит на 16 − 8 = 8\"; FOT — TOP плоский, BOTTOM уходит на 12 − 6 = 6\". Ширины: Top и Bottom 16 + 1/2 = 16-1/2\" (male 1/4\" × 2), боковины 12 + 2 = 14\" (female 1\" × 2); длины = true length до ближайшей 1/16 + 2: Top 14 + 2 = 16 (16\" x 16-1/2\"), Bottom √(14² + 6²) = 15.2315 → 15-1/4 + 2 = 17-1/4 (16-1/2\" x 17-1/4\"), Left 14 + 2 = 16 (14\" x 16\"), Right √(14² + 8²) = 16.1245 → 16-1/8 + 2 = 18-1/8 (18-1/8\" x 14\"). Ловушки: 18-1/16\" — 16.1245 обрезали, а не округлили; порядок «ширина × длина» в вариантах не соблюдается, детали узнавать по числам."
+  },
+  "opts": [
+   {
+    "en": "Top = 16\" x 17-1/2\"",
+    "ru": "Top = 16\" x 17-1/2\""
+   },
+   {
+    "en": "Top = 16\" x 16-1/2\"",
+    "ru": "Top = 16\" x 16-1/2\""
+   },
+   {
+    "en": "Top = 16-1/2\" x 16-7/16\"",
+    "ru": "Top = 16-1/2\" x 16-7/16\""
+   },
+   {
+    "en": "Bottom = 16-1/2\" x 17-1/4\"",
+    "ru": "Bottom = 16-1/2\" x 17-1/4\""
+   },
+   {
+    "en": "Bottom = 16\" x 17-1/2\"",
+    "ru": "Bottom = 16\" x 17-1/2\""
+   },
+   {
+    "en": "Bottom = 16\" x 16-1/2\"",
+    "ru": "Bottom = 16\" x 16-1/2\""
+   },
+   {
+    "en": "Left side = 14\" x 16\"",
+    "ru": "Left side = 14\" x 16\""
+   },
+   {
+    "en": "Left side = 18\" x 14\"",
+    "ru": "Left side = 18\" x 14\""
+   },
+   {
+    "en": "Left side = 16-5/8\" x 14\"",
+    "ru": "Left side = 16-5/8\" x 14\""
+   },
+   {
+    "en": "Right side = 18-1/4\" x 14\"",
+    "ru": "Right side = 18-1/4\" x 14\""
+   },
+   {
+    "en": "Right side = 18-1/16\" x 14\"",
+    "ru": "Right side = 18-1/16\" x 14\""
+   },
+   {
+    "en": "Right side = 18-1/8\" x 14\"",
+    "ru": "Right side = 18-1/8\" x 14\""
+   }
+  ],
+  "answer": [
+   1,
+   3,
+   6,
+   11
+  ],
+  "type": "multi",
+  "fig": "mon-q58.svg"
  },
  {
   "id": "MON-60",
@@ -6086,6 +6509,51 @@ const QUESTIONS = [
   "type": "single"
  },
  {
+  "id": "MON-70",
+  "src": "MON",
+  "n": 70,
+  "topic": "drawing",
+  "q": {
+   "en": "Select the image that represents a break-line for rectangular duct.",
+   "ru": "Выберите изображение, которое обозначает линию обрыва (break-line) для прямоугольного duct."
+  },
+  "why": {
+   "en": "E is the long break line: a thin straight line with one zigzag that runs a little past both edges, the break drawn on rectangular duct in the course drawings. F is the S-break (figure-eight) used for round pipe, rod and tube, and the dashed line in A is a hidden line, not a break. Note: this answer comes from another student's sheet, not a graded key.",
+   "ru": "E — длинная линия обрыва: тонкая прямая с одним зигзагом, чуть выходящая за обе кромки; так обрывают прямоугольный duct на чертежах курса. F — S-образный обрыв (восьмёрка) для круглых труб, прутков и трубок, а штриховая линия в A — невидимый контур, а не обрыв. Внимание: ответ взят с листа другого ученика, проверенного ключа нет."
+  },
+  "opts": [
+   {
+    "en": "A",
+    "ru": "A"
+   },
+   {
+    "en": "B",
+    "ru": "B"
+   },
+   {
+    "en": "C",
+    "ru": "C"
+   },
+   {
+    "en": "D",
+    "ru": "D"
+   },
+   {
+    "en": "E",
+    "ru": "E"
+   },
+   {
+    "en": "F",
+    "ru": "F"
+   }
+  ],
+  "answer": [
+   4
+  ],
+  "type": "single",
+  "fig": "mon-q70.svg"
+ },
+ {
   "id": "MON-71",
   "src": "MON",
   "n": 71,
@@ -6266,6 +6734,43 @@ const QUESTIONS = [
   "type": "single"
  },
  {
+  "id": "MON-76",
+  "src": "MON",
+  "n": 76,
+  "topic": "transitions",
+  "q": {
+   "en": "Using the plan and section view provided select the transition to use for the duct connection.",
+   "ru": "По plan и section view выберите transition для соединения duct."
+  },
+  "why": {
+   "en": "Section: bottom 7'-1\" → 7'-9\" (up 8\"), top 7'-1\" + 14\" = 8'-3\" → 7'-9\" + 8\" = 8'-5\" (up 2\"); A and B are both drawn with these 8\" and 2\" offsets and differ only in the label. They show the heights 14 and 8, so they are side views seen from the wall, and by course sheet 2I TOP is the face toward the viewer, here the wall face. In plan both ducts are 9-1/2\" from the wall, so that face is flat → FOT, which on this sheet is A; B (FOB) would need the room-side face flat, but it moves 20 − 16 = 4\". C says TOP UP 8\" (the top rises only 2\"), and D has 2\" but its arrow points at the 20\"x14\" end, whose top is the lower one.",
+   "ru": "Section: низ 7'-1\" → 7'-9\" (вверх на 8\"), верх 7'-1\" + 14\" = 8'-3\" → 7'-9\" + 8\" = 8'-5\" (вверх на 2\"); A и B нарисованы с этими смещениями 8\" и 2\" и различаются только подписью. На них видны высоты 14 и 8, значит, это вид сбоку со стороны стены, а по листу курса 2I TOP — грань к смотрящему, здесь грань у стены. В plan оба duct стоят в 9-1/2\" от стены, значит, эта грань плоская → FOT, а на этом листе FOT подписан у A; B (FOB) требует плоской грани со стороны комнаты, а она смещается на 20 − 16 = 4\". У C TOP UP 8\" (верх поднимается только на 2\"), а у D 2\" верно, но стрелка указывает на конец 20\"x14\", у которого верх как раз ниже."
+  },
+  "opts": [
+   {
+    "en": "A",
+    "ru": "A"
+   },
+   {
+    "en": "B",
+    "ru": "B"
+   },
+   {
+    "en": "C",
+    "ru": "C"
+   },
+   {
+    "en": "D",
+    "ru": "D"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "fig": "mon-q76.svg"
+ },
+ {
   "id": "MON-77",
   "src": "MON",
   "n": 77,
@@ -6319,6 +6824,586 @@ const QUESTIONS = [
   ],
   "answer": [
    0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "APR-32",
+  "src": "APR",
+  "n": 32,
+  "topic": "math",
+  "q": {
+   "en": "7/16",
+   "ru": "7/16"
+  },
+  "why": {
+   "en": "7 ÷ 16 = 0.4375; to 3 decimals the 4th digit is 5, so round up: .438. Trap: .4375 is the exact value but has 4 decimals, not 3; 14/32 is the same fraction, not a decimal.",
+   "ru": "7 ÷ 16 = 0.4375; до 3 знаков: четвёртая цифра 5, округляем вверх — .438. Ловушка: .4375 — точное значение, но в нём 4 знака, а не 3; 14/32 — та же дробь, а не десятичная."
+  },
+  "hint": {
+   "en": "Round to 3 decimals",
+   "ru": "Округлить до 3 знаков после запятой"
+  },
+  "opts": [
+   {
+    "en": ".4375",
+    "ru": ".4375"
+   },
+   {
+    "en": ".438",
+    "ru": ".438"
+   },
+   {
+    "en": "14/32",
+    "ru": "14/32"
+   },
+   {
+    "en": ".3875",
+    "ru": ".3875"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "APR-37",
+  "src": "APR",
+  "n": 37,
+  "topic": "math",
+  "q": {
+   "en": "A duct opening is 256 square inches. What are the dimensions of the sides of a square duct?",
+   "ru": "Проём duct — 256 квадратных дюймов. Какие стороны у квадратного duct?"
+  },
+  "why": {
+   "en": "A square duct has equal sides, so side = √256 = 16\" (16\" x 16\" = 256 sq. in.). Traps: 64 is 256 ÷ 4, 32 is 256 ÷ 8, and 1.777 is 256 ÷ 144 = 1.7778, a conversion to square feet.",
+   "ru": "У квадратного duct стороны равны: сторона = √256 = 16\" (16\" x 16\" = 256 sq. in.). Ловушки: 64 = 256 ÷ 4, 32 = 256 ÷ 8, а 1.777 = 256 ÷ 144 = 1.7778 — перевод в квадратные футы."
+  },
+  "opts": [
+   {
+    "en": "16\"",
+    "ru": "16\""
+   },
+   {
+    "en": "64\"",
+    "ru": "64\""
+   },
+   {
+    "en": "1.777\"",
+    "ru": "1.777\""
+   },
+   {
+    "en": "32\"",
+    "ru": "32\""
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FIN5-1",
+  "src": "FIN5",
+  "n": 1,
+  "topic": "trade",
+  "q": {
+   "en": "Top Down Organizing is when you:",
+   "ru": "Top Down Organizing — это когда вы:"
+  },
+  "why": {
+   "en": "Top-down organizing starts with the employer: the union meets the owner or contractor and sells the benefits of signing with the union (a trained workforce, a level playing field). Getting the workers to vote in an election is bottom-up organizing.",
+   "ru": "Top-down organizing начинается с работодателя: профсоюз встречается с владельцем или подрядчиком и убеждает его подписать договор с профсоюзом (обученные рабочие, равные условия с конкурентами). Добиваться, чтобы проголосовали рабочие, — это bottom-up organizing."
+  },
+  "opts": [
+   {
+    "en": "Get the workers to vote in an election.",
+    "ru": "Добиваетесь, чтобы рабочие проголосовали на выборах."
+   },
+   {
+    "en": "Meet with the owner of a company and talk about the benefit of unions.",
+    "ru": "Встречаетесь с владельцем компании и рассказываете о пользе профсоюзов."
+   },
+   {
+    "en": "Your plan has a rank system starting with top goals first.",
+    "ru": "Ваш план построен на системе рангов, начиная с главных целей."
+   },
+   {
+    "en": "When you plan a pizza party at a company.",
+    "ru": "Когда вы устраиваете в компании вечеринку с пиццей."
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FIN5-2",
+  "src": "FIN5",
+  "n": 2,
+  "topic": "trade",
+  "q": {
+   "en": "Bottom up Organizing is when you:",
+   "ru": "Bottom up Organizing — это когда вы:"
+  },
+  "why": {
+   "en": "Bottom-up organizing starts with the workers: they come together, talk about forming a union and usually win recognition through an NLRB election. Top-down is the opposite: going to the owner first.",
+   "ru": "Bottom-up organizing начинается с рабочих: они собираются, обсуждают создание профсоюза и обычно добиваются признания через выборы NLRB. Top-down — наоборот: сначала идут к владельцу."
+  },
+  "opts": [
+   {
+    "en": "Wait for the phone to ring in the office.",
+    "ru": "Ждёте, когда в офисе зазвонит телефон."
+   },
+   {
+    "en": "When a company moves to a new state.",
+    "ru": "Когда компания переезжает в другой штат."
+   },
+   {
+    "en": "When a company fires half of their workers.",
+    "ru": "Когда компания увольняет половину своих рабочих."
+   },
+   {
+    "en": "Have workers come together to talk about forming a union.",
+    "ru": "Собираете рабочих вместе, чтобы обсудить создание профсоюза."
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FIN5-3",
+  "src": "FIN5",
+  "n": 3,
+  "topic": "trade",
+  "q": {
+   "en": "Strategic Organizing is defined as __________",
+   "ru": "Strategic Organizing определяется как __________"
+  },
+  "why": {
+   "en": "Strategic organizing is a planned campaign for a target market that uses every tool together: top-down pressure on the contractor (where the JATC-trained workforce is the selling point), bottom-up work with the employees, and public action such as hand billing, bannering and picketing. Each of a–c is a part of it, so the answer is All of the Above. Note: not confirmed by a graded key.",
+   "ru": "Strategic organizing — спланированная кампания по целевому рынку, где все средства идут вместе: top-down давление на подрядчика (главный довод — рабочие, обученные в JATC), bottom-up работа с рабочими и публичные действия: hand billing, bannering, pickets. Каждый из вариантов a–c — часть этого, поэтому ответ — All of the Above. Внимание: проверенного ключа нет."
+  },
+  "opts": [
+   {
+    "en": "Using both Top-Down and Bottom up tactics.",
+    "ru": "Использование тактик и Top-Down, и Bottom up."
+   },
+   {
+    "en": "Showing off the JATC training.",
+    "ru": "Демонстрация обучения в JATC."
+   },
+   {
+    "en": "The use of hand billing, bannering, and Pickets.",
+    "ru": "Использование hand billing, bannering и pickets."
+   },
+   {
+    "en": "All of the Above",
+    "ru": "Всё перечисленное"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FIN5-4",
+  "src": "FIN5",
+  "n": 4,
+  "topic": "trade",
+  "q": {
+   "en": "The most effective way of gathering information at a non-union shop involves:",
+   "ru": "Самый эффективный способ собрать информацию в компании без профсоюза (non-union shop):"
+  },
+  "why": {
+   "en": "Salts are union members hired into the non-union shop; working inside, they see the wages, the conditions and who the informal leaders are, which nobody tells an outsider at the front door. The Supreme Court (NLRB v. Town & Country Electric, 1995) held that paid union organizers hired by a company are employees protected by the NLRA.",
+   "ru": "Salts — члены профсоюза, которые устраиваются на работу в non-union shop; изнутри они видят зарплаты, условия и неформальных лидеров — то, что постороннему у главного входа не расскажут. Верховный суд (NLRB v. Town & Country Electric, 1995) признал, что оплачиваемые профсоюзом организаторы, нанятые компанией, — работники под защитой NLRA."
+  },
+  "opts": [
+   {
+    "en": "Going in the front door and asking.",
+    "ru": "Зайти через главный вход и спросить."
+   },
+   {
+    "en": "Have peppers and salts that work at the company.",
+    "ru": "Иметь peppers and salts, которые работают в этой компании."
+   },
+   {
+    "en": "Running an advertisement in the paper.",
+    "ru": "Дать объявление в газету."
+   },
+   {
+    "en": "Asking an Organizer.",
+    "ru": "Спросить Organizer."
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FIN5-5",
+  "src": "FIN5",
+  "n": 5,
+  "topic": "trade",
+  "q": {
+   "en": "The fire in 1911, at Triangle Shirtwaist Factory, helped with getting:",
+   "ru": "Пожар 1911 года на Triangle Shirtwaist Factory помог добиться:"
+  },
+  "why": {
+   "en": "After the Triangle fire killed 146 workers behind locked exits, New York created the Factory Investigating Commission (1911); its laws on fire safety, factory inspection and working conditions made workplace safety a government responsibility and became a model for other states. Secondary boycotts have nothing to do with it.",
+   "ru": "После того как при пожаре на Triangle погибли 146 рабочих за запертыми выходами, New York создал Factory Investigating Commission (1911); её законы о пожарной безопасности, инспекции фабрик и условиях труда сделали безопасность на работе обязанностью государства и стали образцом для других штатов. Secondary boycotts тут ни при чём."
+  },
+  "opts": [
+   {
+    "en": "8-hour days in factories with children working.",
+    "ru": "8-часового рабочего дня на фабриках, где работают дети."
+   },
+   {
+    "en": "The right for secondary boycotts.",
+    "ru": "Права на secondary boycotts."
+   },
+   {
+    "en": "The government to have responsibility to ensure safe place at their jobs.",
+    "ru": "Того, чтобы государство отвечало за безопасность людей на работе."
+   },
+   {
+    "en": "New York to have a no smoking policy above the 5th floor.",
+    "ru": "Запрета курения в New York выше 5-го этажа."
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FIN5-6",
+  "src": "FIN5",
+  "n": 6,
+  "topic": "trade",
+  "q": {
+   "en": "Who is the Organizer that was killed in Butte, Montana in 1917?",
+   "ru": "Кто тот Organizer, которого убили в Butte, Montana, в 1917 году?"
+  },
+  "why": {
+   "en": "Frank Little, an IWW organizer who came to Butte to help the striking copper miners, was taken from his boarding house and lynched on August 1, 1917. Mother Jones died of old age in 1930, Debs in 1926, and Jimmy Hoffa disappeared in 1975.",
+   "ru": "Frank Little, организатор IWW, приехавший в Butte помочь бастующим шахтёрам медных рудников, был похищен из пансиона и линчёван 1 августа 1917 года. Mother Jones умерла от старости в 1930 году, Debs — в 1926-м, а Jimmy Hoffa пропал в 1975-м."
+  },
+  "opts": [
+   {
+    "en": "Frank Little",
+    "ru": "Frank Little"
+   },
+   {
+    "en": "James Hoffa",
+    "ru": "James Hoffa"
+   },
+   {
+    "en": "Mother Jones",
+    "ru": "Mother Jones"
+   },
+   {
+    "en": "Eugene V. Debs",
+    "ru": "Eugene V. Debs"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FIN5-7",
+  "src": "FIN5",
+  "n": 7,
+  "topic": "trade",
+  "q": {
+   "en": "Mother Jones, a union organizer, is known for what phrase?",
+   "ru": "Какой фразой известна Mother Jones, организатор профсоюзов?"
+  },
+  "why": {
+   "en": "Mother Jones (Mary Harris Jones) wrote \"Pray for the dead and fight like hell for the living!\" in her 1925 autobiography, in the chapter on the West Virginia mine war. \"We shall overcome\" is the civil-rights anthem, \"All that harms labor is treason to America\" is usually attributed to Abraham Lincoln, and \"United we bargain, divided we beg\" is a union slogan.",
+   "ru": "Mother Jones (Mary Harris Jones) написала «Pray for the dead and fight like hell for the living!» («Молитесь за мёртвых и бейтесь изо всех сил за живых») в автобиографии 1925 года, в главе о войне шахтёров West Virginia. «We shall overcome» — гимн движения за гражданские права, «All that harms labor is treason to America» обычно приписывают Abraham Lincoln, а «United we bargain, divided we beg» — профсоюзный лозунг."
+  },
+  "opts": [
+   {
+    "en": "\"We shall overcome\"",
+    "ru": "\"We shall overcome\""
+   },
+   {
+    "en": "\"United we bargain, divided we beg\"",
+    "ru": "\"United we bargain, divided we beg\""
+   },
+   {
+    "en": "\"All that harms labor is treason to America\"",
+    "ru": "\"All that harms labor is treason to America\""
+   },
+   {
+    "en": "\"Pray for the dead and fight like hell for the living\"",
+    "ru": "\"Pray for the dead and fight like hell for the living\""
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FIN5-8",
+  "src": "FIN5",
+  "n": 8,
+  "topic": "trade",
+  "q": {
+   "en": "What Act was passed in 1935, that created a new independent agency, to enforce employee rights, to form and join unions, and it obligated employers to bargain collectively with unions selected by a majority of the employees in an appropriate bargaining unit?",
+   "ru": "Какой закон, принятый в 1935 году, создал новое независимое агентство для защиты прав работников создавать профсоюзы и вступать в них и обязал работодателей вести коллективные переговоры с профсоюзом, выбранным большинством работников в соответствующей bargaining unit?"
+  },
+  "why": {
+   "en": "The Wagner Act (National Labor Relations Act, 1935) created the National Labor Relations Board, gave employees the Section 7 right to form and join unions, and obliged employers to bargain with the union chosen by the majority. Taft-Hartley (1947) amended it; there is no \"Franklin-Washington Act\"; the Second Amendment is the right to bear arms.",
+   "ru": "Wagner Act (National Labor Relations Act, 1935) создал National Labor Relations Board, дал работникам право по Section 7 создавать профсоюзы и вступать в них и обязал работодателей вести переговоры с профсоюзом большинства. Taft-Hartley (1947) его изменил; «Franklin-Washington Act» не существует; Second Amendment — право на оружие."
+  },
+  "opts": [
+   {
+    "en": "Taft-Hartley Act",
+    "ru": "Taft-Hartley Act"
+   },
+   {
+    "en": "The Second Amendment",
+    "ru": "The Second Amendment"
+   },
+   {
+    "en": "The Franklin-Washington Act",
+    "ru": "The Franklin-Washington Act"
+   },
+   {
+    "en": "The Wagner Act",
+    "ru": "The Wagner Act"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FIN5-9",
+  "src": "FIN5",
+  "n": 9,
+  "topic": "trade",
+  "q": {
+   "en": "The Taft-Hartley Act made major changes to the Wagner Act. Select the option below that is false:",
+   "ru": "Taft-Hartley Act внёс большие изменения в Wagner Act. Выберите вариант, который неверен:"
+  },
+  "why": {
+   "en": "False: agricultural and domestic workers are still excluded from the NLRA definition of \"employee\" (Section 2(3)); Taft-Hartley did not change that. The other three are true: it banned secondary boycotts, its Section 14(b) lets states pass right-to-work laws, and it defined six unfair labor practices by unions.",
+   "ru": "Неверно: сельскохозяйственные и домашние работники до сих пор исключены из определения «employee» в NLRA (Section 2(3)), и Taft-Hartley этого не менял. Остальные три — правда: он запретил secondary boycotts, его Section 14(b) разрешает штатам принимать законы right-to-work, и он определил шесть unfair labor practices со стороны профсоюзов."
+  },
+  "opts": [
+   {
+    "en": "Elimination of secondary boycotts.",
+    "ru": "Запрет secondary boycotts."
+   },
+   {
+    "en": "Added Right to Work legislation.",
+    "ru": "Добавил законодательство Right to Work."
+   },
+   {
+    "en": "Gave agricultural and domestic workers the right to organize.",
+    "ru": "Дал сельскохозяйственным и домашним работникам право создавать профсоюзы."
+   },
+   {
+    "en": "Defined six additional unfair labor practices.",
+    "ru": "Определил шесть дополнительных unfair labor practices."
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FIN5-10",
+  "src": "FIN5",
+  "n": 10,
+  "topic": "trade",
+  "q": {
+   "en": "What are the Weingarten Rights?",
+   "ru": "Что такое Weingarten Rights?"
+  },
+  "why": {
+   "en": "From the Supreme Court case NLRB v. J. Weingarten, Inc. (1975): a union-represented employee may ask for a union representative at an investigatory interview that could lead to discipline. Breaks and lunch come from state law or the contract, and the vote comes from the NLRB election process.",
+   "ru": "Из дела Верховного суда NLRB v. J. Weingarten, Inc. (1975): работник, которого представляет профсоюз, может потребовать представителя профсоюза на опросе в ходе расследования, если оно может закончиться взысканием. Перерывы и обед дают закон штата или договор, а голосование — процедура выборов NLRB."
+  },
+  "opts": [
+   {
+    "en": "The rights for Americans to have a wine when they tend a garden.",
+    "ru": "Право американцев выпить вина, когда они ухаживают за садом."
+   },
+   {
+    "en": "The right to have union representation at investigatory interviews.",
+    "ru": "Право на представителя профсоюза на опросе в ходе служебного расследования."
+   },
+   {
+    "en": "The reason that you get to have a break and lunch.",
+    "ru": "Причина, по которой у вас есть перерыв и обед."
+   },
+   {
+    "en": "This right allows you to vote in a union election.",
+    "ru": "Это право позволяет вам голосовать на выборах профсоюза."
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FIN5-11",
+  "src": "FIN5",
+  "n": 11,
+  "topic": "trade",
+  "q": {
+   "en": "An employer who threatens to close a plant, or fire workers who engage in protected union activities has committed this...",
+   "ru": "Работодатель, который угрожает закрыть завод или уволить рабочих за защищённую законом профсоюзную деятельность, совершил это..."
+  },
+  "why": {
+   "en": "NLRA Section 8(a)(1) makes it an unfair labor practice to interfere with employees' Section 7 rights; the NLRB lists threatening to close the workplace and threatening or firing employees for protected activity as examples. It is not an owner's right.",
+   "ru": "Section 8(a)(1) NLRA объявляет unfair labor practice любое вмешательство в права работников по Section 7; NLRB прямо приводит примеры: угроза закрыть предприятие, угрозы или увольнение за защищённую деятельность. Это не право владельца."
+  },
+  "opts": [
+   {
+    "en": "An Unfair Labor Practice.",
+    "ru": "An Unfair Labor Practice."
+   },
+   {
+    "en": "The employers right as the owner.",
+    "ru": "Право работодателя как владельца."
+   },
+   {
+    "en": "Something to overlook.",
+    "ru": "То, на что можно закрыть глаза."
+   },
+   {
+    "en": "A normal day.",
+    "ru": "Обычный день."
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FIN5-12",
+  "src": "FIN5",
+  "n": 12,
+  "topic": "trade",
+  "q": {
+   "en": "When two or more workers participate in activities that could elevate their condition of work.",
+   "ru": "Когда двое или больше рабочих участвуют в действиях, которые могут улучшить условия их труда."
+  },
+  "why": {
+   "en": "NLRA Section 7 protects employees' right to engage in \"concerted activities\" for mutual aid or protection: two or more workers acting together about pay or conditions. A ULP (unfair labor practice) is an illegal act by an employer or a union, and because concerted activity is protected, firing for it is itself a ULP.",
+   "ru": "Section 7 NLRA защищает право работников на «concerted activities» ради взаимной помощи и защиты: двое или больше рабочих действуют вместе по поводу оплаты или условий. ULP (unfair labor practice) — незаконное действие работодателя или профсоюза, а увольнение за concerted activity само является ULP, потому что она защищена законом."
+  },
+  "opts": [
+   {
+    "en": "What is known as a best practice?",
+    "ru": "Что такое best practice?"
+   },
+   {
+    "en": "What is ULP?",
+    "ru": "Что такое ULP?"
+   },
+   {
+    "en": "What is concerted activity?",
+    "ru": "Что такое concerted activity?"
+   },
+   {
+    "en": "A good way to get fired.",
+    "ru": "Хороший способ быть уволенным."
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FIN5-13",
+  "src": "FIN5",
+  "n": 13,
+  "topic": "trade",
+  "q": {
+   "en": "What was the 1988 Hand Billing Case Law that involved shopping malls?",
+   "ru": "Как называется прецедент 1988 года о hand billing, связанный с торговыми центрами?"
+  },
+  "why": {
+   "en": "Edward J. DeBartolo Corp. v. Florida Gulf Coast Building & Construction Trades Council (1988): the Supreme Court held that peaceful handbilling of shoppers at a mall, without picketing, is not an unfair labor practice. The other names are not labor cases (De Morgan is a law of logic, de facto a Latin phrase).",
+   "ru": "Edward J. DeBartolo Corp. v. Florida Gulf Coast Building & Construction Trades Council (1988): Верховный суд решил, что мирная раздача листовок покупателям у торгового центра, без пикета, — не unfair labor practice. Остальные названия к трудовому праву не относятся (De Morgan — закон логики, de facto — латинское выражение)."
+  },
+  "opts": [
+   {
+    "en": "DaVinci",
+    "ru": "DaVinci"
+   },
+   {
+    "en": "DeBartolo",
+    "ru": "DeBartolo"
+   },
+   {
+    "en": "DeMorgan",
+    "ru": "DeMorgan"
+   },
+   {
+    "en": "DeFacto",
+    "ru": "DeFacto"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FIN5-14",
+  "src": "FIN5",
+  "n": 14,
+  "topic": "trade",
+  "q": {
+   "en": "When we endorse a political candidate, what criteria do we base our opinions on?",
+   "ru": "Когда мы поддерживаем политического кандидата, на каких критериях мы основываем своё мнение?"
+  },
+  "why": {
+   "en": "A union endorses candidates on labor issues, the same things it bargains for: wages, benefits and working conditions. Gun rights and abortion are personal issues on which members differ, and \"conspiracy against The Man\" is not a criterion.",
+   "ru": "Профсоюз поддерживает кандидатов по трудовым вопросам — тем же, за что он ведёт переговоры: зарплата, льготы и условия работы. Оружие и аборты — личные вопросы, по которым члены профсоюза расходятся, а «заговор против The Man» — не критерий."
+  },
+  "opts": [
+   {
+    "en": "Right to bear arms",
+    "ru": "Право на оружие"
+   },
+   {
+    "en": "Because it is a conspiracy against \"The Man\"",
+    "ru": "Потому что это заговор против \"The Man\""
+   },
+   {
+    "en": "Wages, benefits and work conditions",
+    "ru": "Зарплата, льготы и условия работы"
+   },
+   {
+    "en": "Are they Pro-Choice?",
+    "ru": "Они Pro-Choice?"
+   }
+  ],
+  "answer": [
+   2
   ],
   "type": "single"
  }

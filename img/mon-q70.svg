@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 503.23" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="600" height="503.23" fill="#fff"/>
+<polyline points="236.41,26.27 29.03,26.27 29.03,145.16 236.41,145.16" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<line x1="236.41" y1="26.27" x2="236.41" y2="145.16" fill="none" stroke="#111" stroke-width="2.2" stroke-dasharray="11 4" stroke-linecap="butt"/>
+<text x="129.95" y="96.36" font-size="30" text-anchor="middle" fill="#111">A</text>
+<polygon points="29.03,186.64 236.41,186.64 236.41,306.91 29.03,306.91" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<line x1="194.93" y1="186.64" x2="194.93" y2="306.91" fill="none" stroke="#111" stroke-width="2.2" stroke-dasharray="11 4" stroke-linecap="butt"/>
+<polyline points="194.93,248.29 143.78,280.65 92.63,280.65" fill="none" stroke="#111" stroke-width="1.15" stroke-linejoin="miter"/>
+<polygon points="194.93,248.29 185.81,258.2 182.07,252.29" fill="#111" stroke="none"/>
+<text x="129.95" y="259.5" font-size="30" text-anchor="middle" fill="#111">B</text>
+<polyline points="236.41,352.53 29.03,352.53 29.03,470.05 210.14,470.05" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<polyline points="236.41,352.53 214.29,373.27 236.41,394.01 212.9,418.89 236.41,443.78 210.14,470.05" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<text x="129.95" y="422.63" font-size="30" text-anchor="middle" fill="#111">C</text>
+<polygon points="344.24,26.27 551.61,26.27 551.61,145.16 344.24,145.16" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<polyline points="551.61,26.27 526.73,84.33 551.61,145.16" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<text x="442.4" y="94.98" font-size="30" text-anchor="middle" fill="#111">D</text>
+<polyline points="550.23,185.25 344.24,185.25 344.24,308.29 550.23,308.29" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<polyline points="550.23,176.96 550.23,233.64 536.41,241.38 565.44,252.17 550.23,258.53 550.23,316.59" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<text x="442.4" y="259.5" font-size="30" text-anchor="middle" fill="#111">E</text>
+<polyline points="551.61,352.53 344.24,352.53 344.24,471.43 551.61,471.43" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<path d="M551.61,352.53 C565.44,364.98 565.44,395.39 553,407.83" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M553,407.83 C536.41,420.28 532.26,453.46 551.61,471.43" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M553,407.83 C566.82,417.51 568.2,453.46 551.61,471.43" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="442.4" y="422.63" font-size="30" text-anchor="middle" fill="#111">F</text>
+</svg>

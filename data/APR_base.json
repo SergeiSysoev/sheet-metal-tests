@@ -1,0 +1,38 @@
+[
+ {
+  "src": "APR",
+  "n": 32,
+  "q": "7/16",
+  "hint": "Round to 3 decimals",
+  "opts": [
+   ".4375",
+   ".438",
+   "14/32",
+   ".3875"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner (msg_2214, page 6): instructor highlighted b .438 in yellow; the circled a .4375 lost the point. Python: 7/16 = 0.4375 → 0.438 (round half up)."
+ },
+ {
+  "src": "APR",
+  "n": 37,
+  "q": "A duct opening is 256 square inches. What are the dimensions of the sides of a square duct?",
+  "hint": null,
+  "opts": [
+   "16\"",
+   "64\"",
+   "1.777\"",
+   "32\""
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner (Apr 10 2026, msg_2214, page 6): his pick a not marked wrong (the page lost points only on yellow-highlighted items); python: √256 = 16."
+ }
+]

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 439.31" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="560" height="439.31" fill="#fff"/>
+<polygon points="95.34,59.14 306.55,59.14 306.55,85.69 95.34,85.69" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<polygon points="95.34,353.62 517.76,353.62 517.76,378.97 95.34,378.97" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<line x1="95.34" y1="85.69" x2="95.34" y2="353.62" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<line x1="306.55" y1="85.69" x2="517.76" y2="353.62" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<polyline points="95.34,327.62 121.34,327.62 121.34,353.62" fill="none" stroke="#111" stroke-width="1.15" stroke-linejoin="miter"/>
+<path d="M95.34,70 L89.49,70 Q82.34,70 82.99,77.8" fill="none" stroke="#111" stroke-width="1.65" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M306.55,70 L312.4,70 Q319.55,70 318.9,77.8" fill="none" stroke="#111" stroke-width="1.65" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M95.34,366.9 L89.49,366.9 Q82.34,366.9 82.99,359.1" fill="none" stroke="#111" stroke-width="1.65" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M517.76,366.9 L523.61,366.9 Q530.76,366.9 530.11,359.1" fill="none" stroke="#111" stroke-width="1.65" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="73.83" y1="68.79" x2="27.07" y2="68.79" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="73.83" y1="365.69" x2="27.07" y2="365.69" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="47.07" y1="68.79" x2="47.07" y2="202.28" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="47.07" y1="232.2" x2="47.07" y2="365.69" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<polygon points="47.07,68.79 50.57,81.79 43.57,81.79" fill="#111" stroke="none"/>
+<polygon points="47.07,365.69 43.57,352.69 50.57,352.69" fill="#111" stroke="none"/>
+<text x="47.07" y="225.05" font-size="22" text-anchor="middle" fill="#111">15"</text>
+<text x="200.34" y="46.43" font-size="22" text-anchor="middle" fill="#111">8" x 12"</text>
+<text x="294.48" y="419.36" font-size="22" text-anchor="middle" fill="#111">16" x 6"</text>
+<text x="234.14" y="225.76" font-size="24" text-anchor="middle" fill="#111">FOT</text>
+</svg>

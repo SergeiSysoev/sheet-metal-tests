@@ -4,6 +4,7 @@
 Sources (photos / scans are NOT shipped; they are only the reference):
   T90 "Welding & Layout"  — phone photos, prior-work/t90/src/pNN.jpg (crop boxes in prior-work/t90/crops.py)
   SMY2W2 "Triangulation"  — images embedded in prior-work/smy2w2/out.pdf
+  SMY2W2 "Monday Written" — images embedded in msg_993_Monday_Written_SMY2W2_Answers.pdf (Local 66 archive)
 
 Every figure is one function. Geometry is written in the coordinates of the
 reference image (pixels of the crop, y pointing down) or in inches where the
@@ -460,16 +461,15 @@ def t90_q27():
     f = Fig((0, 0, 600, 230), 600)
     y = 170
     x1, x2, top = 240, 309, 40
-    f.line((x1, top), (x1, y), w=6)
-    f.line((x2, top), (x2, y), w=6)
-    f.line((x1 - 6, y), (x2 + 6, y), w=4.5)
-    f.line((14, y), (x1 - 14, y), w=4.5, dash=(20, 16))
-    f.line((x2 + 14, y), (590, y), w=4.5, dash=(20, 16))
+    f.line((14, y), (590, y), w=4.5, dash=(20, 16))   # dashed reference line runs on under the symbol
+    f.line((x1, top), (x1, y + 2), w=6)
+    f.line((x2, top), (x2, y + 2), w=6)
     return f
 
 
-def t90_q40():
-    """Plan + section of two ducts and four candidate transitions A-D (same figure as SMY1W5 No.24)."""
+def t90_q40(ab=("FOB", "FOT")):
+    """Plan + section of two ducts and four candidate transitions A-D (same figure as SMY1W5 No.24
+    and SMY2W2 Monday No.24). `ab` = the labels written inside A and B; Monday No.76 has them swapped."""
     f = Fig((0, 0, 1080, 775), 1080, u=1.0)
     f.lw, f.tw, f.fs, f.al, f.aw, f.gap, f.ovr = 2.6, 1.5, 25.5, 15, 4.2, 5, 9
     s = 8.2                      # view units per inch
@@ -490,7 +490,7 @@ def t90_q40():
     f.text((TL[0] + 10, yT - 26), '8"x16"', anchor="start")
     xd = TR[0] + 30
     f.dim(TR, BR, (xd, yT), (xd, yB), "1'-7\"")
-    f.text(((BL[0] + BR[0] + TL[0] + TR[0]) / 4, (yT + yB) / 2), "FOB")
+    f.text(((BL[0] + BR[0] + TL[0] + TR[0]) / 4, (yT + yB) / 2), ab[0])
     f.text(((BL[0] + BR[0]) / 2, yB + 28), '14"x20"')
     f.text((122, 48), "A", size=big, bold=True)
 
@@ -506,7 +506,7 @@ def t90_q40():
     f.text((TR[0] + 26 + 8, yd), '2"', anchor="start")
     f.text((BR[0] - 26 - 8, yd), '14"x20"', anchor="end")
     f.text(((TL[0] + TR[0]) / 2, yT - 26), '8"x16"')
-    f.text(((BL[0] + BR[0] + TL[0] + TR[0]) / 4, (yT + yB) / 2), "FOT")
+    f.text(((BL[0] + BR[0] + TL[0] + TR[0]) / 4, (yT + yB) / 2), ab[1])
     f.text((410, 48), "B", size=big, bold=True)
 
     # ---- C and D
@@ -694,7 +694,7 @@ def t90_q51():
     wi, wo, wbot = 1035.0, 1072.0, 1356.0
     f.line((30, ceil), (wi, ceil))
     f.line((wi, ceil), (wi, wbot))
-    f.line((wo, ceil - 4), (wo, wbot))
+    f.line((wo, ceil - 14), (wo, wbot))   # outer wall line crosses the dimension's extension line, as printed
     joints = [ceil, 92.0, 467.0, 828.0, 1103.0]
     f.line((xl, ceil), (xl, joints[-1]))
     f.line((xr, ceil), (xr, joints[-1]))
@@ -876,27 +876,43 @@ def t90_q76():
     return f
 
 
-def t90_q88():
-    """Transition 24"x12" -> 34"x18", flat bottom, 15 deg top, LENGTH ?."""
-    f = Fig((0, 0, 1533, 708), 640)
-    yb, ytl, ytr = 560.0, 220.0, 60.0
-    xj1, xj2, xL, xR = 380.0, 1055.0, 25.0, 1500.0
+# Side view of a 15 deg transition with a flat bottom; geometry in the pixels of each reference image.
+#   zl / zr = left / right end break line: (top y, bottom y, y of the break), zh / za = break size (view units)
+#   ref = horizontal reference line of the angle (start offset from the joint, end x)
+#   ang = (dimension arc radius, arrow tail, text radius); dim = (y of LENGTH ?, gap)
+T88 = dict(box=(0, 0, 1533, 708), width=640, yb=560.0, ytl=220.0, ytr=60.0,
+           xj1=380.0, xj2=1055.0, xL=25.0, xR=1500.0, zl=(185, 610, 390), zr=(25, 610, 320), zh=None, za=None,
+           rt=13, ref=(34, 760), ang=(340, 26, 352), dim=(665, 10),
+           left=('24" x 12"', (190, 345)), right=('34" x 18"', (1235, 355)))
+MON54 = dict(T88, box=(0, -6, 404, 196), yb=153.0, ytl=59.5, ytr=13.0,
+             xj1=104.5, xj2=280.0, xL=14.5, xR=389.5, zl=(51, 178, 111.3), zr=(1, 165, 80.5), zh=9.5, za=11.5,
+             rt=17.5, ref=(11.5, 199.5), ang=(88.5, 20, 88), dim=(183, 12.5),
+             left=('24" x 12"', (53, 97)), right=('36" x 18"', (323, 93)))
+
+
+def t90_q88(g=T88):
+    """Transition 24"x12" -> 34"x18" (T90; Monday No.54: -> 36"x18"), flat bottom, 15 deg top, LENGTH ?."""
+    f = Fig(g["box"], g["width"])
+    yb, ytl, ytr = g["yb"], g["ytl"], g["ytr"]
+    xj1, xj2, xL, xR = g["xj1"], g["xj2"], g["xL"], g["xR"]
     f.line((xL, yb), (xR, yb))
     f.line((xL, ytl), (xj1, ytl))
     f.line((xj1, ytl), (xj2, ytr))
     f.line((xj2, ytr), (xR, ytr))
     f.line((xj1, ytl), (xj1, yb))
     f.line((xj2, ytr), (xj2, yb))
-    f.zbreak((xL, 185), (xL, 610), (390 - 185) / 425.0)
-    f.zbreak((xR, 25), (xR, 610), (320 - 25) / 585.0)
-    f.rt((xj1, yb), (xj1, ytl), (xj2, yb), 13)
-    f.line((xj1 + 34, ytl), (760, ytl), thin=True)
+    for x, (y0, y1, yz) in ((xL, g["zl"]), (xR, g["zr"])):
+        f.zbreak((x, y0), (x, y1), (yz - y0) / float(y1 - y0), h=g["zh"], amp=g["za"])
+    f.rt((xj1, yb), (xj1, ytl), (xj2, yb), g["rt"])
+    f.line((xj1 + g["ref"][0], ytl), (g["ref"][1], ytl), thin=True)
     a_top = angle_of((xj2 - xj1, ytr - ytl))
-    f.angle((xj1, ytl), 340, a_top, 0, "15°", arrows="out", tail=26,
-            tpos=pol((xj1, ytl), 352, a_top / 2))
-    f.dim((xj1, yb), (xj2, yb), (xj1, 665), (xj2, 665), "LENGTH ?", gap=10)
-    f.text((190, 345), '24" x 12"')
-    f.text((1235, 355), '34" x 18"')
+    r, tail, rt = g["ang"]
+    f.angle((xj1, ytl), r, a_top, 0, "15°", arrows="out", tail=tail,
+            tpos=pol((xj1, ytl), rt, a_top / 2))
+    yd, gap = g["dim"]
+    f.dim((xj1, yb), (xj2, yb), (xj1, yd), (xj2, yd), "LENGTH ?", gap=gap)
+    for s, p in (g["left"], g["right"]):
+        f.text(p, s)
     return f
 
 
@@ -1064,6 +1080,227 @@ def tri_q17():
     return f
 
 
+# ======================================================= SMY2W2 Monday Written figures
+# Model coordinates = pixels of the images embedded in msg_993_Monday_Written_SMY2W2_Answers.pdf.
+def mon_q42():
+    """Plan: wall, W-column on its centre line, two 16"x12" ducts; 6'-8 5/8", 2'-2 3/4", 2'-1 1/4"."""
+    f = Fig((0, 0, 256, 203), 620)
+    for x in (5.5, 21.5):                                    # wall
+        f.line((x, 0), (x, 203))
+    xc = 240.0                                               # column centre line
+    f.centerline((xc, 0), (xc, 113))
+    for y0 in (38.0, 79.0):                                  # W-column in plan: flanges + web
+        f.poly([(232, y0), (249, y0), (249, y0 + 3.5), (232, y0 + 3.5)], closed=True, w=f.lw * 0.75)
+    for x in (238.5, 241.5):
+        f.line((x, 41.5), (x, 79), w=f.lw * 0.75)
+    # upper duct, cut at the top
+    f.poly([(124.5, 40), (124.5, 93.5), (168.5, 93.5), (168.5, 40)])
+    f.zbreak((121, 40), (171.5, 40), (145.5 - 121) / 50.5, h=10, amp=14)
+    f.text((146.5, 77), '16" x 12"')
+    # lower duct, cut at the bottom
+    f.poly([(68, 193.5), (68, 160), (112, 160), (112, 193.5)])
+    f.zbreak((65, 193.5), (115.5, 193.5), (90 - 65) / 50.5, h=10, amp=14)
+    f.text((90, 176), '16" x 12"')
+    f.dim((21.5, 20.5), (xc, 20.5), (21.5, 20.5), (xc, 20.5), "6'-8 5/8\"", ext=(False, False))
+    f.dim((168.5, 93.5), (xc, 109.5), (168.5, 109.5), (xc, 109.5), "2'-2 3/4\"", ext=(True, False), gap=8)
+    f.dim((21.5, 141.5), (90, 160), (21.5, 141.5), (90, 141.5), "2'-1 1/4\"", ext=(False, True), gap=7)
+    return f
+
+
+def mon_q43():
+    """Right triangle: base 94 3\\8" (printed with a backslash), 72.4 deg at the top, vertical side x."""
+    f = Fig((0, 2, 272, 182), 560)
+    fs = 21
+    BL, BR, T = (19.0, 128.5), (187.5, 128.5), (187.5, 15.5)
+    f.poly([BL, BR, T], closed=True)
+    f.dim(T, BR, (245, T[1]), (245, BR[1]), "x", gap=9, size=fs + 2)
+    f.dim(BL, BR, (BL[0], 157), (BR[0], 157), '94 3\\8"', gap=7, size=fs)
+    a_h = angle_of(vsub(BL, T))
+    r = 58.5
+    f.angle(T, r, 90, a_h, al=11)
+    tip = pol(T, r, a_h)
+    f.leader([tip, (131, 35), (121, 35)], arrow=False)
+    f.text((117, 35), "72.4°", anchor="end", size=fs)
+    return f
+
+
+def mon_q44():
+    """Right triangle: base 43.922", vertical side 14.375", angle theta at the left end of the base."""
+    f = Fig((8, -4, 302, 192), 600)
+    fs = 21
+    BL, BR, T = (29.5, 136.5), (224.0, 136.5), (224.0, 6.5)
+    f.poly([BL, BR, T], closed=True)
+    f.dim(T, BR, (268.5, T[1]), (268.5, BR[1]), '14.375"', gap=12, size=fs)
+    f.dim(BL, BR, (BL[0], 169), (BR[0], 169), '43.922"', gap=12, size=fs)
+    a_h = angle_of(vsub(T, BL))
+    r = 79.5
+    f.angle(BL, r, a_h, 0, al=11)
+    tip = pol(BL, r, a_h)
+    f.leader([tip, (87, 80.5), (71, 80.5)], arrow=False)
+    f.text((62, 82), "θ", size=fs + 3)
+    return f
+
+
+def mon_q45():
+    """Right triangle: sides 132 3\\16" and 94 3\\16" (printed with backslashes), angle theta."""
+    f = Fig((4, 4, 176, 198), 440)
+    fs = 20
+    V, T = (33.1, 171.1), (80.7, 40.1)
+    M, r = mid(V, T), dist(V, T) / 2
+    R = vadd(M, unit(vsub((127.0, 102.6), M)), r)              # exact right angle (Thales)
+    f.poly([V, T, R], closed=True)
+    n = unit(vsub(R, V))                                     # along V-R, away from V
+    f.dim(T, R, vadd(T, n, 38.8), vadd(R, n, 38.8), '132 3\\16"', size=fs, bold=True, gap=5)
+    m = unit(vsub(R, T))                                     # along T-R, away from T
+    f.dim(V, R, vadd(V, m, 19.3), vadd(R, m, 19.3), '94 3\\16"', size=fs, bold=True, gap=5)
+    a_vr, a_vt = angle_of(vsub(R, V)), angle_of(vsub(T, V))
+    rr = 52.0
+    f.angle(V, rr, a_vr, a_vt, al=10)
+    tip = pol(V, rr, a_vt)
+    f.leader([tip, (34, 120.3)], arrow=False)
+    f.text((26.5, 120.5), "θ", size=fs + 3, bold=True)
+    return f
+
+
+def mon_q54():
+    """Transition 24"x12" -> 36"x18", flat bottom, 15 deg top, LENGTH ? (T90 No.88 layout, other size)."""
+    return t90_q88(MON54)
+
+
+def mon_q57():
+    """Offset in 36" round pipe: two 44 deg elbows (drawn at 37 deg), R38" throats; find L and D."""
+    f = Fig((0, 3, 236, 199), 600)
+    th = 37.0                                                # elbow angle as drawn (labelled 44 deg)
+    u = (math.sin(math.radians(th)), math.cos(math.radians(th)))
+    t = (u[1], -u[0])
+    Rt, Wd, Ls = 42.5, 43.0, 74.5
+    Rh, Rc = Rt + Wd, Rt + Wd / 2
+    C1 = (50.0, 58.5)
+    C2 = vadd(vadd(C1, u, 2 * Rt + Wd), t, Ls)
+    a1 = angle_of(u)
+    yl_t, yl_b = C1[1] + Rt, C1[1] + Rh
+    yu_b, yu_t = C2[1] - Rt, C2[1] - Rh
+    xL, xR = 28.5, 207.5
+    # lower pipe, elbow 1
+    f.line((xL, yl_t), (C1[0], yl_t))
+    f.line((xL, yl_b), (C1[0], yl_b))
+    f.zbreak((xL, yl_t - 4), (xL, yl_b + 4), (121.5 - yl_t + 4) / (Wd + 8), h=14, amp=18)
+    f.line((C1[0], yl_t), (C1[0], yl_b))
+    f.arc(C1, Rt, 90, a1)
+    f.arc(C1, Rh, 90, a1)
+    J1t, J1h = vadd(C1, u, Rt), vadd(C1, u, Rh)
+    f.line(J1t, J1h)
+    # straight piece
+    J2h, J2t = vadd(J1t, t, Ls), vadd(J1h, t, Ls)
+    f.line(J1t, J2h)
+    f.line(J1h, J2t)
+    f.line(J2h, J2t)
+    # elbow 2, upper pipe
+    a2 = a1 + 180
+    f.arc(C2, Rt, a2, 270)
+    f.arc(C2, Rh, a2, 270)
+    f.line((C2[0], yu_t), (C2[0], yu_b))
+    f.line((C2[0], yu_t), (xR, yu_t))
+    f.line((C2[0], yu_b), (xR, yu_b))
+    f.zbreak((xR, yu_t - 6), (xR, yu_b + 3), (51.5 - yu_t + 6) / (Wd + 9), h=14, amp=18)
+    # D
+    f.dim((C1[0], yl_t), (C2[0], yu_t), (C1[0], 14), (C2[0], 14), "D", gap=10)
+    # L along the centre line of the straight piece, 44 deg arcs on the elbow centre lines
+    q1 = vadd(C1, u, Rc)
+    q2 = vadd(q1, t, Ls)
+    f.dim(q1, q2, q1, q2, "L", ext=(False, False))
+    f.angle(C1, Rc, 90, a1, "44°")
+    f.angle(C2, Rc, a2, 270, "44°")
+    # radii
+    tip1 = pol(C1, Rt, 67)
+    f.leader([tip1, (60.5, 81.5), (63, 81.5)])
+    f.text((64.5, 81.5), 'R38"', anchor="start")
+    tip2 = pol(C2, Rt, 246)
+    f.leader([tip2, (176.5, 94.5), (184, 94.5)])
+    f.text((185.5, 94.5), 'R38"', anchor="start")
+    # pipe size at the cut ends
+    f.text((13.5, 128), '36"Ø')
+    f.text((222, 45), '36"Ø')
+    # elevations
+    f.line((40.5, yl_b), (40.5, 180), thin=True)
+    f.arrow((40.5, yl_b), (40.5, yl_b + 12))
+    f.text((40.5, 185), "8'-9\"")
+    f.text((40.5, 192.5), "To the Floor")
+    f.line((203.5, yu_b), (203.5, 109), thin=True)
+    f.arrow((203.5, yu_b), (203.5, yu_b + 12))
+    f.text((203.5, 113.5), "15'-2\"")
+    f.text((203.5, 121), "To the Floor")
+    return f
+
+
+def mon_q58():
+    """Transition in plan: 8"x12" -> 16"x6", 15" long, left side square, FOT; S&D hooks at the corners."""
+    f = Fig((10, 8, 242, 190), 560)
+    fs = 22
+    xl, xt, xb = 49.5, 137.0, 224.5
+    yt0, yt1, yb0, yb1 = 32.5, 43.5, 154.5, 165.0
+    f.poly([(xl, yt0), (xt, yt0), (xt, yt1), (xl, yt1)], closed=True)       # top connection
+    f.poly([(xl, yb0), (xb, yb0), (xb, yb1), (xl, yb1)], closed=True)       # bottom connection
+    f.line((xl, yt1), (xl, yb0))
+    f.line((xt, yt1), (xb, yb0))
+    f.rt((xl, yb0), (xl, yt1), (xb, yb0), 26)
+    s = 13
+    f.hook((xl, 37), (-1, 0), (0, 1), s)
+    f.hook((xt, 37), (1, 0), (0, 1), s)
+    f.hook((xl, 160), (-1, 0), (0, -1), s)
+    f.hook((xb, 160), (1, 0), (0, -1), s)
+    f.dim((41, 36.5), (41, 159.5), (29.5, 36.5), (29.5, 159.5), '15"', gap=1, ovr=20, size=fs)
+    f.text((93, 24), '8" x 12"', size=fs)
+    f.text((132, 178.5), '16" x 6"', size=fs)
+    f.text((107, 98), "FOT", size=fs + 2)
+    return f
+
+
+def mon_q70():
+    """Six candidate break-line symbols A-F on a rectangle (as printed; the answer is not marked)."""
+    f = Fig((5, 8, 222, 190), 600)
+    big = 30
+    dash = (11 * f.u, 4 * f.u)
+    # A: right end dashed
+    f.poly([(90.5, 17.5), (15.5, 17.5), (15.5, 60.5), (90.5, 60.5)])
+    f.line((90.5, 17.5), (90.5, 60.5), dash=dash)
+    f.text((52, 39), "A", size=big)
+    # B: dashed line inside, pointed at by a leader
+    f.poly([(15.5, 75.5), (90.5, 75.5), (90.5, 119), (15.5, 119)], closed=True)
+    f.line((75.5, 75.5), (75.5, 119), dash=dash)
+    f.leader([(75.5, 97.8), (57, 109.5), (38.5, 109.5)])
+    f.text((52, 98), "B", size=big)
+    # C: jagged end
+    f.poly([(90.5, 135.5), (15.5, 135.5), (15.5, 178), (81, 178)])
+    f.poly([(90.5, 135.5), (82.5, 143), (90.5, 150.5), (82, 159.5), (90.5, 168.5), (81, 178)])
+    f.text((52, 157), "C", size=big)
+    # D: V cut into the right end
+    f.poly([(129.5, 17.5), (204.5, 17.5), (204.5, 60.5), (129.5, 60.5)], closed=True)
+    f.poly([(204.5, 17.5), (195.5, 38.5), (204.5, 60.5)])
+    f.text((165, 38.5), "D", size=big)
+    # E: long break line, runs past both edges, one zigzag
+    f.poly([(204, 75), (129.5, 75), (129.5, 119.5), (204, 119.5)])
+    f.poly([(204, 72), (204, 92.5), (199, 95.3), (209.5, 99.2), (204, 101.5), (204, 122.5)])
+    f.text((165, 98), "E", size=big)
+    # F: S-break (figure eight) at the right end
+    f.poly([(204.5, 135.5), (129.5, 135.5), (129.5, 178.5), (204.5, 178.5)])
+
+    def curve(p0, c1, c2, p1):
+        a, b, c, d = (f.P(p) for p in (p0, c1, c2, p1))
+        f._path(f"M{f2(a[0])},{f2(a[1])} C{f2(b[0])},{f2(b[1])} {f2(c[0])},{f2(c[1])} {f2(d[0])},{f2(d[1])}", f.lw)
+
+    curve((204.5, 135.5), (209.5, 140), (209.5, 151), (205, 155.5))
+    curve((205, 155.5), (199, 160), (197.5, 172), (204.5, 178.5))
+    curve((205, 155.5), (210, 159), (210.5, 172), (204.5, 178.5))
+    f.text((165, 157), "F", size=big)
+    return f
+
+
+def mon_q76():
+    """= T90 No.40 / Monday No.24 drawing, but FOT is written in A and FOB in B (swapped, as printed)."""
+    return t90_q40(("FOT", "FOB"))
+
+
 FIGS = {
     "t90-q25": t90_q25,
     "t90-q27": t90_q27,
@@ -1086,6 +1323,19 @@ FIGS = {
     "tri-q13": tri_q13,
     "tri-q14": tri_q14,
     "tri-q17": tri_q17,
+    "mon-q33": t90_q75,     # same drawing as T90 No.75
+    "mon-q34": t90_q76,     # same drawing as T90 No.76 / Triangulation No.10
+    "mon-q40": tri_q09,     # same drawing as Triangulation No.9
+    "mon-q42": mon_q42,
+    "mon-q43": mon_q43,
+    "mon-q44": mon_q44,
+    "mon-q45": mon_q45,
+    "mon-q54": mon_q54,     # T90 No.88 layout, 36"x18" instead of 34"x18"
+    "mon-q56": tri_q17,     # same drawing as Triangulation No.17
+    "mon-q57": mon_q57,
+    "mon-q58": mon_q58,
+    "mon-q70": mon_q70,
+    "mon-q76": mon_q76,     # T90 No.40 with FOB/FOT swapped
 }
 
 

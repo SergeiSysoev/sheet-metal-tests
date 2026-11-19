@@ -1,0 +1,34 @@
+[
+ {
+  "src": "APR",
+  "n": 32,
+  "topic": "math",
+  "ru_q": "7/16",
+  "ru_hint": "Округлить до 3 знаков после запятой",
+  "ru_opts": [
+   ".4375",
+   ".438",
+   "14/32",
+   ".3875"
+  ],
+  "why_en": "7 ÷ 16 = 0.4375; to 3 decimals the 4th digit is 5, so round up: .438. Trap: .4375 is the exact value but has 4 decimals, not 3; 14/32 is the same fraction, not a decimal.",
+  "why_ru": "7 ÷ 16 = 0.4375; до 3 знаков: четвёртая цифра 5, округляем вверх — .438. Ловушка: .4375 — точное значение, но в нём 4 знака, а не 3; 14/32 — та же дробь, а не десятичная.",
+  "flag": null
+ },
+ {
+  "src": "APR",
+  "n": 37,
+  "topic": "math",
+  "ru_q": "Проём duct — 256 квадратных дюймов. Какие стороны у квадратного duct?",
+  "ru_hint": null,
+  "ru_opts": [
+   "16\"",
+   "64\"",
+   "1.777\"",
+   "32\""
+  ],
+  "why_en": "A square duct has equal sides, so side = √256 = 16\" (16\" x 16\" = 256 sq. in.). Traps: 64 is 256 ÷ 4, 32 is 256 ÷ 8, and 1.777 is 256 ÷ 144 = 1.7778, a conversion to square feet.",
+  "why_ru": "У квадратного duct стороны равны: сторона = √256 = 16\" (16\" x 16\" = 256 sq. in.). Ловушки: 64 = 256 ÷ 4, 32 = 256 ÷ 8, а 1.777 = 256 ÷ 144 = 1.7778 — перевод в квадратные футы.",
+  "flag": "The right edge of the photo cuts the line after \"a s…\"; \"square\" is completed from the same question in the bank (MON №35 \"…the sides of a square duct?\"). This version starts \"A duct opening is\", MON №35 \"A duct is to be\"."
+ }
+]

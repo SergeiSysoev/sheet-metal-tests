@@ -1,0 +1,254 @@
+[
+ {
+  "src": "FIN5",
+  "n": 1,
+  "q": "Top Down Organizing is when you:",
+  "hint": null,
+  "opts": [
+   "Get the workers to vote in an election.",
+   "Meet with the owner of a company and talk about the benefit of unions.",
+   "Your plan has a rank system starting with top goals first.",
+   "When you plan a pizza party at a company."
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Ungraded sheet of another student (msg_3247), his pick b; verified: Wikipedia \"Union organizer\" (top-down organizing persuades management, bottom-up focuses on workers; top-down is practiced more in construction); Operating Engineers Local 3 (oe3.org) — organizers mainly use top-down organizing, signing contractors."
+ },
+ {
+  "src": "FIN5",
+  "n": 2,
+  "q": "Bottom up Organizing is when you:",
+  "hint": null,
+  "opts": [
+   "Wait for the phone to ring in the office.",
+   "When a company moves to a new state.",
+   "When a company fires half of their workers.",
+   "Have workers come together to talk about forming a union."
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Ungraded sheet of another student (msg_3247), his pick d; verified: Wikipedia \"Union organizer\" (bottom-up organizing focuses on the workers, usually through a labor board certification process)."
+ },
+ {
+  "src": "FIN5",
+  "n": 3,
+  "q": "Strategic Organizing is defined as __________",
+  "hint": null,
+  "opts": [
+   "Using both Top-Down and Bottom up tactics.",
+   "Showing off the JATC training.",
+   "The use of hand billing, bannering, and Pickets.",
+   "All of the Above"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Ungraded sheet of another student (msg_3247), his pick d — the only basis. No course source found. Supporting: Union Roofers organizing guide (unionroofers.com, 7_1Q12p18.pdf) — top-down and bottom-up campaigns can run at the same time; Stansbury Forum / Perusek (Building Trades Academy) — a strategic plan employs multiple tactical elements."
+ },
+ {
+  "src": "FIN5",
+  "n": 4,
+  "q": "The most effective way of gathering information at a non-union shop involves:",
+  "hint": null,
+  "opts": [
+   "Going in the front door and asking.",
+   "Have peppers and salts that work at the company.",
+   "Running an advertisement in the paper.",
+   "Asking an Organizer."
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Ungraded sheet of another student (msg_3247), his pick b; verified: Britannica \"salting (labor organizing tactic)\"; Labor Notes \"Organizers Worth Their Salt\" (2014); NLRB v. Town & Country Electric, Inc., 516 U.S. 85 (1995)."
+ },
+ {
+  "src": "FIN5",
+  "n": 5,
+  "q": "The fire in 1911, at Triangle Shirtwaist Factory, helped with getting:",
+  "hint": null,
+  "opts": [
+   "8-hour days in factories with children working.",
+   "The right for secondary boycotts.",
+   "The government to have responsibility to ensure safe place at their jobs.",
+   "New York to have a no smoking policy above the 5th floor."
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Ungraded sheet of another student (msg_3247), his pick c; verified: U.S. Department of Labor history \"The New York Factory Investigating Commission\" (dol.gov/general/aboutdol/history/mono-regsafepart07); Cornell ILR \"Remembering the Triangle Factory Fire\" — legislative reform; Britannica (more than 30 health and safety laws)."
+ },
+ {
+  "src": "FIN5",
+  "n": 6,
+  "q": "Who is the Organizer that was killed in Butte, Montana in 1917?",
+  "hint": null,
+  "opts": [
+   "Frank Little",
+   "James Hoffa",
+   "Mother Jones",
+   "Eugene V. Debs"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Ungraded sheet of another student (msg_3248), his pick a; verified: Wikipedia \"Frank Little (unionist)\"; Spokesman-Review, 2017-08-02 \"100 years ago in Butte, Montana, Wobbly lynched\"; JMU Lynching Markers \"The Lynching of Frank Little\"."
+ },
+ {
+  "src": "FIN5",
+  "n": 7,
+  "q": "Mother Jones, a union organizer, is known for what phrase?",
+  "hint": null,
+  "opts": [
+   "\"We shall overcome\"",
+   "\"United we bargain, divided we beg\"",
+   "\"All that harms labor is treason to America\"",
+   "\"Pray for the dead and fight like hell for the living\""
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Ungraded sheet of another student (msg_3248), his pick d; verified: Quote Investigator, \"Pray for the Dead and Fight Like Hell for the Living\" (quoteinvestigator.com/2019/01/08/fight/): Autobiography of Mother Jones, 1925, ch. VI, pp. 40–41."
+ },
+ {
+  "src": "FIN5",
+  "n": 8,
+  "q": "What Act was passed in 1935, that created a new independent agency, to enforce employee rights, to form and join unions, and it obligated employers to bargain collectively with unions selected by a majority of the employees in an appropriate bargaining unit?",
+  "hint": null,
+  "opts": [
+   "Taft-Hartley Act",
+   "The Second Amendment",
+   "The Franklin-Washington Act",
+   "The Wagner Act"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Ungraded sheet of another student (msg_3248), his pick d; verified: NLRB \"1935 Passage of the Wagner Act\" (nlrb.gov/about-nlrb/who-we-are/our-history/1935-passage-of-the-wagner-act) — the question is worded almost verbatim from this page."
+ },
+ {
+  "src": "FIN5",
+  "n": 9,
+  "q": "The Taft-Hartley Act made major changes to the Wagner Act. Select the option below that is false:",
+  "hint": null,
+  "opts": [
+   "Elimination of secondary boycotts.",
+   "Added Right to Work legislation.",
+   "Gave agricultural and domestic workers the right to organize.",
+   "Defined six additional unfair labor practices."
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Ungraded sheet of another student (msg_3248), his pick c; verified: NLRB \"1947 Taft-Hartley Substantive Provisions\" (secondary boycotts prohibited; \"Taft-Hartley defined six additional unfair labor practices\"); NLRA text on nlrb.gov: §14(b) state right-to-work, §2(3) excludes agricultural laborers and domestic service."
+ },
+ {
+  "src": "FIN5",
+  "n": 10,
+  "q": "What are the Weingarten Rights?",
+  "hint": null,
+  "opts": [
+   "The rights for Americans to have a wine when they tend a garden.",
+   "The right to have union representation at investigatory interviews.",
+   "The reason that you get to have a break and lunch.",
+   "This right allows you to vote in a union election."
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Ungraded sheet of another student (msg_3248), his pick b; verified: NLRB \"Weingarten Rights\" (nlrb.gov/about-nlrb/rights-we-protect/your-rights/weingarten-rights); NLRB v. J. Weingarten, Inc., 420 U.S. 251 (1975)."
+ },
+ {
+  "src": "FIN5",
+  "n": 11,
+  "q": "An employer who threatens to close a plant, or fire workers who engage in protected union activities has committed this...",
+  "hint": null,
+  "opts": [
+   "An Unfair Labor Practice.",
+   "The employers right as the owner.",
+   "Something to overlook.",
+   "A normal day."
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Ungraded sheet of another student (msg_3248), his pick a; verified: NLRB \"Interfering with employee rights (Section 7 & 8(a)(1))\" — unlawful to \"threaten employees with adverse consequences, such as closing the workplace\" and to discharge employees for protected, concerted activities."
+ },
+ {
+  "src": "FIN5",
+  "n": 12,
+  "q": "When two or more workers participate in activities that could elevate their condition of work.",
+  "hint": null,
+  "opts": [
+   "What is known as a best practice?",
+   "What is ULP?",
+   "What is concerted activity?",
+   "A good way to get fired."
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Ungraded sheet of another student (msg_3249), his pick c; verified: NLRA §7 text (nlrb.gov); NLRB \"Interfering with employee rights\" — activity is concerted if \"engaged in with or on the authority of other employees\"."
+ },
+ {
+  "src": "FIN5",
+  "n": 13,
+  "q": "What was the 1988 Hand Billing Case Law that involved shopping malls?",
+  "hint": null,
+  "opts": [
+   "DaVinci",
+   "DeBartolo",
+   "DeMorgan",
+   "DeFacto"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Ungraded sheet of another student (msg_3249), his pick b; verified: DeBartolo Corp. v. Florida Gulf Coast Trades Council, 485 U.S. 568 (1988), supreme.justia.com/cases/federal/us/485/568; XpertHR case summary \"Union's peaceful handbilling of customers at a mall entrance is not an unfair labor practice under the NLRA\"."
+ },
+ {
+  "src": "FIN5",
+  "n": 14,
+  "q": "When we endorse a political candidate, what criteria do we base our opinions on?",
+  "hint": null,
+  "opts": [
+   "Right to bear arms",
+   "Because it is a conspiracy against \"The Man\"",
+   "Wages, benefits and work conditions",
+   "Are they Pro-Choice?"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Ungraded sheet of another student (msg_3249), his pick c; verified: elimination: c is the only option that is a labor issue; a, b, d are personal or joke options."
+ }
+]

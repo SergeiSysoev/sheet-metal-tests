@@ -1,0 +1,226 @@
+[
+ {
+  "src": "FIN5",
+  "n": 1,
+  "topic": "trade",
+  "ru_q": "Top Down Organizing — это когда вы:",
+  "ru_hint": null,
+  "ru_opts": [
+   "Добиваетесь, чтобы рабочие проголосовали на выборах.",
+   "Встречаетесь с владельцем компании и рассказываете о пользе профсоюзов.",
+   "Ваш план построен на системе рангов, начиная с главных целей.",
+   "Когда вы устраиваете в компании вечеринку с пиццей."
+  ],
+  "why_en": "Top-down organizing starts with the employer: the union meets the owner or contractor and sells the benefits of signing with the union (a trained workforce, a level playing field). Getting the workers to vote in an election is bottom-up organizing.",
+  "why_ru": "Top-down organizing начинается с работодателя: профсоюз встречается с владельцем или подрядчиком и убеждает его подписать договор с профсоюзом (обученные рабочие, равные условия с конкурентами). Добиваться, чтобы проголосовали рабочие, — это bottom-up organizing.",
+  "flag": "Question numbers are not printed on this test; n = 1–14 are the student's handwritten numbers, in printed order."
+ },
+ {
+  "src": "FIN5",
+  "n": 2,
+  "topic": "trade",
+  "ru_q": "Bottom up Organizing — это когда вы:",
+  "ru_hint": null,
+  "ru_opts": [
+   "Ждёте, когда в офисе зазвонит телефон.",
+   "Когда компания переезжает в другой штат.",
+   "Когда компания увольняет половину своих рабочих.",
+   "Собираете рабочих вместе, чтобы обсудить создание профсоюза."
+  ],
+  "why_en": "Bottom-up organizing starts with the workers: they come together, talk about forming a union and usually win recognition through an NLRB election. Top-down is the opposite: going to the owner first.",
+  "why_ru": "Bottom-up organizing начинается с рабочих: они собираются, обсуждают создание профсоюза и обычно добиваются признания через выборы NLRB. Top-down — наоборот: сначала идут к владельцу.",
+  "flag": null
+ },
+ {
+  "src": "FIN5",
+  "n": 3,
+  "topic": "trade",
+  "ru_q": "Strategic Organizing определяется как __________",
+  "ru_hint": null,
+  "ru_opts": [
+   "Использование тактик и Top-Down, и Bottom up.",
+   "Демонстрация обучения в JATC.",
+   "Использование hand billing, bannering и pickets.",
+   "Всё перечисленное"
+  ],
+  "why_en": "Strategic organizing is a planned campaign for a target market that uses every tool together: top-down pressure on the contractor (where the JATC-trained workforce is the selling point), bottom-up work with the employees, and public action such as hand billing, bannering and picketing. Each of a–c is a part of it, so the answer is All of the Above. Note: not confirmed by a graded key.",
+  "why_ru": "Strategic organizing — спланированная кампания по целевому рынку, где все средства идут вместе: top-down давление на подрядчика (главный довод — рабочие, обученные в JATC), bottom-up работа с рабочими и публичные действия: hand billing, bannering, pickets. Каждый из вариантов a–c — часть этого, поэтому ответ — All of the Above. Внимание: проверенного ключа нет.",
+  "flag": "Answer not proven: the only basis is another student's pick on an ungraded sheet; the course's own definition is not in our sources. a (\"both Top-Down and Bottom up tactics\") is the narrower definition; kept d because b and c are real organizing tools, unlike the joke distractors elsewhere in this test."
+ },
+ {
+  "src": "FIN5",
+  "n": 4,
+  "topic": "trade",
+  "ru_q": "Самый эффективный способ собрать информацию в компании без профсоюза (non-union shop):",
+  "ru_hint": null,
+  "ru_opts": [
+   "Зайти через главный вход и спросить.",
+   "Иметь peppers and salts, которые работают в этой компании.",
+   "Дать объявление в газету.",
+   "Спросить Organizer."
+  ],
+  "why_en": "Salts are union members hired into the non-union shop; working inside, they see the wages, the conditions and who the informal leaders are, which nobody tells an outsider at the front door. The Supreme Court (NLRB v. Town & Country Electric, 1995) held that paid union organizers hired by a company are employees protected by the NLRA.",
+  "why_ru": "Salts — члены профсоюза, которые устраиваются на работу в non-union shop; изнутри они видят зарплаты, условия и неформальных лидеров — то, что постороннему у главного входа не расскажут. Верховный суд (NLRB v. Town & Country Electric, 1995) признал, что оплачиваемые профсоюзом организаторы, нанятые компанией, — работники под защитой NLRA.",
+  "flag": "\"peppers and salts\" as printed; the standard term is \"salts\" (salting). Labor Notes uses \"peppers\" for activists inside an already unionized shop."
+ },
+ {
+  "src": "FIN5",
+  "n": 5,
+  "topic": "trade",
+  "ru_q": "Пожар 1911 года на Triangle Shirtwaist Factory помог добиться:",
+  "ru_hint": null,
+  "ru_opts": [
+   "8-часового рабочего дня на фабриках, где работают дети.",
+   "Права на secondary boycotts.",
+   "Того, чтобы государство отвечало за безопасность людей на работе.",
+   "Запрета курения в New York выше 5-го этажа."
+  ],
+  "why_en": "After the Triangle fire killed 146 workers behind locked exits, New York created the Factory Investigating Commission (1911); its laws on fire safety, factory inspection and working conditions made workplace safety a government responsibility and became a model for other states. Secondary boycotts have nothing to do with it.",
+  "why_ru": "После того как при пожаре на Triangle погибли 146 рабочих за запертыми выходами, New York создал Factory Investigating Commission (1911); её законы о пожарной безопасности, инспекции фабрик и условиях труда сделали безопасность на работе обязанностью государства и стали образцом для других штатов. Secondary boycotts тут ни при чём.",
+  "flag": "Option c as printed: \"ensure safe place\" (article \"a\" missing)."
+ },
+ {
+  "src": "FIN5",
+  "n": 6,
+  "topic": "trade",
+  "ru_q": "Кто тот Organizer, которого убили в Butte, Montana, в 1917 году?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Frank Little",
+   "James Hoffa",
+   "Mother Jones",
+   "Eugene V. Debs"
+  ],
+  "why_en": "Frank Little, an IWW organizer who came to Butte to help the striking copper miners, was taken from his boarding house and lynched on August 1, 1917. Mother Jones died of old age in 1930, Debs in 1926, and Jimmy Hoffa disappeared in 1975.",
+  "why_ru": "Frank Little, организатор IWW, приехавший в Butte помочь бастующим шахтёрам медных рудников, был похищен из пансиона и линчёван 1 августа 1917 года. Mother Jones умерла от старости в 1930 году, Debs — в 1926-м, а Jimmy Hoffa пропал в 1975-м.",
+  "flag": null
+ },
+ {
+  "src": "FIN5",
+  "n": 7,
+  "topic": "trade",
+  "ru_q": "Какой фразой известна Mother Jones, организатор профсоюзов?",
+  "ru_hint": null,
+  "ru_opts": [
+   "\"We shall overcome\"",
+   "\"United we bargain, divided we beg\"",
+   "\"All that harms labor is treason to America\"",
+   "\"Pray for the dead and fight like hell for the living\""
+  ],
+  "why_en": "Mother Jones (Mary Harris Jones) wrote \"Pray for the dead and fight like hell for the living!\" in her 1925 autobiography, in the chapter on the West Virginia mine war. \"We shall overcome\" is the civil-rights anthem, \"All that harms labor is treason to America\" is usually attributed to Abraham Lincoln, and \"United we bargain, divided we beg\" is a union slogan.",
+  "why_ru": "Mother Jones (Mary Harris Jones) написала «Pray for the dead and fight like hell for the living!» («Молитесь за мёртвых и бейтесь изо всех сил за живых») в автобиографии 1925 года, в главе о войне шахтёров West Virginia. «We shall overcome» — гимн движения за гражданские права, «All that harms labor is treason to America» обычно приписывают Abraham Lincoln, а «United we bargain, divided we beg» — профсоюзный лозунг.",
+  "flag": null
+ },
+ {
+  "src": "FIN5",
+  "n": 8,
+  "topic": "trade",
+  "ru_q": "Какой закон, принятый в 1935 году, создал новое независимое агентство для защиты прав работников создавать профсоюзы и вступать в них и обязал работодателей вести коллективные переговоры с профсоюзом, выбранным большинством работников в соответствующей bargaining unit?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Taft-Hartley Act",
+   "The Second Amendment",
+   "The Franklin-Washington Act",
+   "The Wagner Act"
+  ],
+  "why_en": "The Wagner Act (National Labor Relations Act, 1935) created the National Labor Relations Board, gave employees the Section 7 right to form and join unions, and obliged employers to bargain with the union chosen by the majority. Taft-Hartley (1947) amended it; there is no \"Franklin-Washington Act\"; the Second Amendment is the right to bear arms.",
+  "why_ru": "Wagner Act (National Labor Relations Act, 1935) создал National Labor Relations Board, дал работникам право по Section 7 создавать профсоюзы и вступать в них и обязал работодателей вести переговоры с профсоюзом большинства. Taft-Hartley (1947) его изменил; «Franklin-Washington Act» не существует; Second Amendment — право на оружие.",
+  "flag": null
+ },
+ {
+  "src": "FIN5",
+  "n": 9,
+  "topic": "trade",
+  "ru_q": "Taft-Hartley Act внёс большие изменения в Wagner Act. Выберите вариант, который неверен:",
+  "ru_hint": null,
+  "ru_opts": [
+   "Запрет secondary boycotts.",
+   "Добавил законодательство Right to Work.",
+   "Дал сельскохозяйственным и домашним работникам право создавать профсоюзы.",
+   "Определил шесть дополнительных unfair labor practices."
+  ],
+  "why_en": "False: agricultural and domestic workers are still excluded from the NLRA definition of \"employee\" (Section 2(3)); Taft-Hartley did not change that. The other three are true: it banned secondary boycotts, its Section 14(b) lets states pass right-to-work laws, and it defined six unfair labor practices by unions.",
+  "why_ru": "Неверно: сельскохозяйственные и домашние работники до сих пор исключены из определения «employee» в NLRA (Section 2(3)), и Taft-Hartley этого не менял. Остальные три — правда: он запретил secondary boycotts, его Section 14(b) разрешает штатам принимать законы right-to-work, и он определил шесть unfair labor practices со стороны профсоюзов.",
+  "flag": null
+ },
+ {
+  "src": "FIN5",
+  "n": 10,
+  "topic": "trade",
+  "ru_q": "Что такое Weingarten Rights?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Право американцев выпить вина, когда они ухаживают за садом.",
+   "Право на представителя профсоюза на опросе в ходе служебного расследования.",
+   "Причина, по которой у вас есть перерыв и обед.",
+   "Это право позволяет вам голосовать на выборах профсоюза."
+  ],
+  "why_en": "From the Supreme Court case NLRB v. J. Weingarten, Inc. (1975): a union-represented employee may ask for a union representative at an investigatory interview that could lead to discipline. Breaks and lunch come from state law or the contract, and the vote comes from the NLRB election process.",
+  "why_ru": "Из дела Верховного суда NLRB v. J. Weingarten, Inc. (1975): работник, которого представляет профсоюз, может потребовать представителя профсоюза на опросе в ходе расследования, если оно может закончиться взысканием. Перерывы и обед дают закон штата или договор, а голосование — процедура выборов NLRB.",
+  "flag": null
+ },
+ {
+  "src": "FIN5",
+  "n": 11,
+  "topic": "trade",
+  "ru_q": "Работодатель, который угрожает закрыть завод или уволить рабочих за защищённую законом профсоюзную деятельность, совершил это...",
+  "ru_hint": null,
+  "ru_opts": [
+   "An Unfair Labor Practice.",
+   "Право работодателя как владельца.",
+   "То, на что можно закрыть глаза.",
+   "Обычный день."
+  ],
+  "why_en": "NLRA Section 8(a)(1) makes it an unfair labor practice to interfere with employees' Section 7 rights; the NLRB lists threatening to close the workplace and threatening or firing employees for protected activity as examples. It is not an owner's right.",
+  "why_ru": "Section 8(a)(1) NLRA объявляет unfair labor practice любое вмешательство в права работников по Section 7; NLRB прямо приводит примеры: угроза закрыть предприятие, угрозы или увольнение за защищённую деятельность. Это не право владельца.",
+  "flag": "Option b as printed: \"The employers right\" (apostrophe missing)."
+ },
+ {
+  "src": "FIN5",
+  "n": 12,
+  "topic": "trade",
+  "ru_q": "Когда двое или больше рабочих участвуют в действиях, которые могут улучшить условия их труда.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Что такое best practice?",
+   "Что такое ULP?",
+   "Что такое concerted activity?",
+   "Хороший способ быть уволенным."
+  ],
+  "why_en": "NLRA Section 7 protects employees' right to engage in \"concerted activities\" for mutual aid or protection: two or more workers acting together about pay or conditions. A ULP (unfair labor practice) is an illegal act by an employer or a union, and because concerted activity is protected, firing for it is itself a ULP.",
+  "why_ru": "Section 7 NLRA защищает право работников на «concerted activities» ради взаимной помощи и защиты: двое или больше рабочих действуют вместе по поводу оплаты или условий. ULP (unfair labor practice) — незаконное действие работодателя или профсоюза, а увольнение за concerted activity само является ULP, потому что она защищена законом.",
+  "flag": "Printed in quiz-show form: the statement ends with a period and the options are questions (\"What is …?\")."
+ },
+ {
+  "src": "FIN5",
+  "n": 13,
+  "topic": "trade",
+  "ru_q": "Как называется прецедент 1988 года о hand billing, связанный с торговыми центрами?",
+  "ru_hint": null,
+  "ru_opts": [
+   "DaVinci",
+   "DeBartolo",
+   "DeMorgan",
+   "DeFacto"
+  ],
+  "why_en": "Edward J. DeBartolo Corp. v. Florida Gulf Coast Building & Construction Trades Council (1988): the Supreme Court held that peaceful handbilling of shoppers at a mall, without picketing, is not an unfair labor practice. The other names are not labor cases (De Morgan is a law of logic, de facto a Latin phrase).",
+  "why_ru": "Edward J. DeBartolo Corp. v. Florida Gulf Coast Building & Construction Trades Council (1988): Верховный суд решил, что мирная раздача листовок покупателям у торгового центра, без пикета, — не unfair labor practice. Остальные названия к трудовому праву не относятся (De Morgan — закон логики, de facto — латинское выражение).",
+  "flag": null
+ },
+ {
+  "src": "FIN5",
+  "n": 14,
+  "topic": "trade",
+  "ru_q": "Когда мы поддерживаем политического кандидата, на каких критериях мы основываем своё мнение?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Право на оружие",
+   "Потому что это заговор против \"The Man\"",
+   "Зарплата, льготы и условия работы",
+   "Они Pro-Choice?"
+  ],
+  "why_en": "A union endorses candidates on labor issues, the same things it bargains for: wages, benefits and working conditions. Gun rights and abortion are personal issues on which members differ, and \"conspiracy against The Man\" is not a criterion.",
+  "why_ru": "Профсоюз поддерживает кандидатов по трудовым вопросам — тем же, за что он ведёт переговоры: зарплата, льготы и условия работы. Оружие и аборты — личные вопросы, по которым члены профсоюза расходятся, а «заговор против The Man» — не критерий.",
+  "flag": null
+ }
+]
