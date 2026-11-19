@@ -355,12 +355,12 @@ const UI = {
   "ru": "Выбери один ответ"
  },
  "multi_prompt": {
-  "en": "Choose {N} answers, then press Check",
-  "ru": "Выбери {N} ответа и нажми «Проверить»"
+  "en": "Choose all correct answers, then press Check",
+  "ru": "Выбери все верные ответы и нажми «Проверить»"
  },
  "multi_prompt_many": {
-  "en": "Choose {N} answers, then press Check",
-  "ru": "Выбери {N} ответов и нажми «Проверить»"
+  "en": "Choose all correct answers, then press Check",
+  "ru": "Выбери все верные ответы и нажми «Проверить»"
  },
  "type_prompt": {
   "en": "Type your answer, then press Check",
@@ -14032,8 +14032,8 @@ const QUESTIONS = [
    "ru": "Shear load тянет прямо вниз, и при нём fastener вырывает реже."
   },
   "why": {
-   "en": "For points pick False: on a graded SMY2W5 Monday sheet (the same question) the instructor circled False and took the point off for True; on this SMY2W3 sheet the question was struck out. Technically a shear load acts across the fastener, at a right angle to its axis (a duct on a strap screwed to its side: the weight pulls down across the screws), and a screw holds better in shear than in pull-out, so True is also defensible — both count here.",
-   "ru": "Для балла ставь False: на проверенном листе SMY2W5 Monday (тот же вопрос) инструктор обвёл False и снял балл за True; на этом листе SMY2W3 вопрос был вычеркнут. Технически shear load действует поперёк fastener, под прямым углом к оси (duct на strap, прикрученном сбоку: вес тянет вниз поперёк винтов), и на срез винт держит лучше, чем на вырыв, — поэтому True тоже можно защитить; здесь засчитываются оба."
+   "en": "False. On a graded SMY2W5 Monday sheet (the same question) the instructor circled False and took the point off for True; on this SMY2W3 sheet it was struck out. The course defines a shear load as a load at right angles to the fastener — not one that \"pulls straight down\": weight hanging straight down on a vertical fastener (screws in the bottom of a duct, a hanger rod) is tension, which pulls the fastener out.",
+   "ru": "False. На проверенном листе SMY2W5 Monday (тот же вопрос) инструктор обвёл False и снял балл за True; на этом листе SMY2W3 вопрос вычеркнут. Курс определяет shear load как нагрузку под прямым углом к fastener, а не «тянущую прямо вниз»: вес прямо вниз на вертикальный fastener (винты в дне duct, hanger rod) — это tension, он вырывает fastener."
   },
   "opts": [
    {
@@ -14048,10 +14048,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "also": [
-   0
-  ]
+  "type": "single"
  },
  {
   "id": "Y2W3F-9",
@@ -14099,7 +14096,7 @@ const QUESTIONS = [
    "ru": "Когда можно удлинить sling, завязав его узлом или связав несколько slings вместе?"
   },
   "why": {
-   "en": "Never. OSHA (1910.184, 1926.251) forbids shortening or lengthening slings with knots or other makeshift devices: a knot weakens the sling and can slip, whatever the material or the rating.",
+   "en": "Never. OSHA (1910.184, 1926.251) says slings shall not be shortened with knots, and knots shall not be used in place of splices or other makeshift devices: a knot weakens the sling and can slip, whatever the material or the rating.",
    "ru": "Никогда. OSHA (1910.184, 1926.251) запрещает укорачивать или удлинять slings узлами и самодельными приспособлениями: узел ослабляет sling и может проскользнуть — независимо от материала и грузоподъёмности."
   },
   "opts": [
@@ -14135,8 +14132,8 @@ const QUESTIONS = [
    "ru": "Qualified person в rigging — это человек, у которого есть:"
   },
   "why": {
-   "en": "The course defines a qualified rigging person by the knowledge and training gained in a rigging program. A card alone, practice alone or who your employer is does not make you qualified.",
-   "ru": "По курсу qualified в rigging — тот, у кого есть знания и подготовка, полученные в rigging program. Одна карточка, одна практика или то, на кого ты работаешь, сами по себе этого не дают."
+   "en": "The course defines a qualified rigging person by the knowledge and training gained in a rigging program. Practice alone or who your employer is does not make you qualified; a recognized certificate counts only together with that training.",
+   "ru": "По курсу qualified в rigging — тот, у кого есть знания и подготовка, полученные в rigging program. Одна практика или то, на кого ты работаешь, этого не дают; признанный сертификат засчитывается только вместе с такой подготовкой."
   },
   "opts": [
    {
@@ -14935,7 +14932,8 @@ const QUESTIONS = [
   "type": "input",
   "answer": {
    "accept": [
-    "trammel"
+    "trammel",
+    "траммел"
    ],
    "all": [],
    "reject": [],
@@ -14958,13 +14956,10 @@ const QUESTIONS = [
   },
   "type": "input",
   "answer": {
-   "accept": [
-    ".375"
-   ],
-   "all": [],
-   "reject": [],
-   "text": ".375",
-   "prefix": ""
+   "value": 0.375,
+   "tol": 0.0005,
+   "prefix": "",
+   "text": ".375"
   }
  },
  {
@@ -15015,7 +15010,8 @@ const QUESTIONS = [
   "answer": {
    "accept": [
     "occupational safety and health administration",
-    "occupational safety & health administration"
+    "occupational safety & health administration",
+    "occupational safety and health admin"
    ],
    "all": [],
    "reject": [],
@@ -15114,8 +15110,8 @@ const QUESTIONS = [
    "ru": "Площадь круга — 26.68 квадратных футов. Сколько это в квадратных дюймах?"
   },
   "why": {
-   "en": "1 ft² = 12 × 12 = 144 in², so 26.68 × 144 = 3,841.92 in². 3,409.92 = 23.68 × 144 is the version of this question with another number; 1.97 and 1.973 come from dividing.",
-   "ru": "1 ft² = 12 × 12 = 144 in², значит 26.68 × 144 = 3,841.92 in². 3,409.92 = 23.68 × 144 — вариант этого вопроса с другим числом; 1.97 и 1.973 получаются делением."
+   "en": "1 ft² = 12 × 12 = 144 in², so 26.68 × 144 = 3,841.92 in². 3,409.92 = 23.68 × 144 is the version of this question with another number;",
+   "ru": "1 ft² = 12 × 12 = 144 in², значит 26.68 × 144 = 3,841.92 in². 3,409.92 = 23.68 × 144 — вариант этого вопроса с другим числом;"
   },
   "opts": [
    {
@@ -15150,8 +15146,8 @@ const QUESTIONS = [
    "ru": "Какова длина окружности круга с радиусом 48”?"
   },
   "why": {
-   "en": "C = 2πR = 2 × π × 48 = 301.5929\". The other options belong to a 45\" radius: 2π × 45 = 282.743, π × 45² = 6361.725 (an area, not a length), π × 45 = 141.372 (half the circumference).",
-   "ru": "C = 2πR = 2 × π × 48 = 301.5929\". Остальные варианты — от радиуса 45\": 2π × 45 = 282.743, π × 45² = 6361.725 (это площадь, а не длина), π × 45 = 141.372 (половина окружности)."
+   "en": "C = 2πR = 2 × π × 48 = 301.5929\". The other options belong to a 45\" radius: 2π × 45 = 282.743, π × 45² = 6361.725 (an area, not a length), π × 45 = 141.372 → 141.37 (half the circumference).",
+   "ru": "C = 2πR = 2 × π × 48 = 301.5929\". Остальные варианты — от радиуса 45\": 2π × 45 = 282.743, π × 45² = 6361.725 (это площадь, а не длина), π × 45 = 141.372 → 141.37 (половина окружности)."
   },
   "opts": [
    {
@@ -15412,7 +15408,8 @@ const QUESTIONS = [
     "fish hook",
     "fishhook",
     "fish-hook",
-    "рыболовн"
+    "рыболовн",
+    "крюч"
    ],
    "all": [],
    "reject": [],
@@ -15465,7 +15462,14 @@ const QUESTIONS = [
     "7/8"
    ],
    "all": [],
-   "reject": [],
+   "reject": [
+    "1 7/8",
+    "1-7/8",
+    "2 7/8",
+    "2-7/8",
+    "3 7/8",
+    "3-7/8"
+   ],
    "text": "7/8",
    "prefix": ""
   }
@@ -15480,13 +15484,14 @@ const QUESTIONS = [
    "ru": "Валки (roll), у которых один конец на шарнире (hinged) поднимается, чтобы снять готовое изделие, называются ______ roll."
   },
   "why": {
-   "en": "Slip rolls have a hinged (drop) end: the top roll is released and swung up so a rolled pipe can slide off the end. Pyramid rolls and the roll forming machine have no such end.",
-   "ru": "У slip rolls один конец откидной: верхний вал освобождают и поднимают, и свёрнутую трубу снимают с торца. У pyramid rolls и у roll forming machine такого конца нет."
+   "en": "Slip rolls have a hinged end: the top roll is released and swung up so a rolled pipe can slide off the end. That hinged end is what gives slip rolls their name; the roll forming machine has no such end.",
+   "ru": "У slip rolls один конец откидной: верхний вал освобождают и поднимают, и свёрнутую трубу снимают с торца. Отсюда и название slip rolls; у roll forming machine такого конца нет."
   },
   "type": "input",
   "answer": {
    "accept": [
-    "slip"
+    "slip",
+    "слип"
    ],
    "all": [],
    "reject": [],
@@ -15743,8 +15748,8 @@ const QUESTIONS = [
    "ru": "При работе на scaffold guardrails должны:"
   },
   "why": {
-   "en": "For the test pick d (6'-0\"): it is the answer accepted on the graded sheet. Strictly, the federal scaffold rule (OSHA 1926.451(g)(1)) requires guardrails or fall arrest above 10 ft, and Washington's fall protection rule starts at 4 ft (WAC 296-880-20005), so 6'-0\" is not an exact code number; 15'-0\" is too high under any rule. A top rail stands 38–45\" above the platform, well above the knees.",
-   "ru": "Для балла — d (6'-0\"): этот ответ засчитан на проверенном листе. Строго по правилам: федеральный стандарт для scaffold (OSHA 1926.451(g)(1)) требует guardrails или страховку выше 10 ft, а правило Washington по защите от падения начинается с 4 ft (WAC 296-880-20005), так что 6'-0\" — не точная цифра кода; 15'-0\" слишком высоко по любому правилу. Верхний поручень стоит на 38–45\" над настилом — гораздо выше колен."
+   "en": "For the test pick d (6'-0\"): it is the answer accepted on the graded sheet. Strictly, scaffolds have their own threshold of 10 ft, both federally (OSHA 1926.451(g)(1)) and in Washington (WAC 296-880-30030); 6 ft is OSHA's general construction fall-protection height (1926.501(b)(1)), which does not govern scaffolds. 15'-0\" is too high under any rule. A top rail stands 38–45\" above the platform, well above the knees.",
+   "ru": "Для балла — d (6'-0\"): этот ответ засчитан на проверенном листе. Строго по правилам у scaffold свой порог — 10 ft, и по федеральному стандарту (OSHA 1926.451(g)(1)), и в Washington (WAC 296-880-30030); 6 ft — общий порог защиты от падения на стройке по OSHA (1926.501(b)(1)), к scaffold он не относится. 15'-0\" слишком высоко по любому правилу. Верхний поручень стоит на 38–45\" над настилом — гораздо выше колен."
   },
   "opts": [
    {
@@ -15815,8 +15820,8 @@ const QUESTIONS = [
    "ru": "Если ты работаешь на передвижном scaffold высотой меньше 10\" с guardrails и toe boards, можно ли, чтобы кто-то катил его, пока ты работаешь?"
   },
   "why": {
-   "en": "No. OSHA 1926.452(w)(6) forbids riding a scaffold while it is moved unless every one of a list of conditions is met: floor within 3° of level and free of holes and obstructions, height no more than 2 times the base width, outriggers on both sides, nobody beyond the wheels. Low height with guardrails and toe boards is not enough — get off before it is moved.",
-   "ru": "Нет. OSHA 1926.452(w)(6) запрещает ехать на scaffold при перемещении, если не выполнены все условия: пол с уклоном не больше 3°, без ям и препятствий, высота не больше 2 ширин основания, outriggers с обеих сторон, никто не стоит за пределами колёс. Малой высоты, guardrails и toe boards недостаточно — перед перемещением надо слезть."
+   "en": "No. OSHA 1926.452(w)(6) forbids riding a scaffold while it is moved unless every one of a list of conditions is met: floor within 3° of level and free of holes and obstructions, height no more than 2 times the base width, outriggers, when used, on both sides, nobody beyond the wheels. Low height with guardrails and toe boards is not enough — get off before it is moved.",
+   "ru": "Нет. OSHA 1926.452(w)(6) запрещает ехать на scaffold при перемещении, если не выполнены все условия: пол с уклоном не больше 3°, без ям и препятствий, высота не больше 2 ширин основания, outriggers, если они есть, с обеих сторон, никто не стоит за пределами колёс. Малой высоты, guardrails и toe boards недостаточно — перед перемещением надо слезть."
   },
   "opts": [
    {
@@ -17123,8 +17128,8 @@ const QUESTIONS = [
    "ru": "Посчитай, сколько градусов нужно elbows A и B, чтобы замкнуть систему duct. Throat radius elbow равен диаметру трубы."
   },
   "why": {
-   "en": "Throat R = 12\" (the pipe Ø), so CL R = 12 + 6 = 18\". Take one CL R off each run: X = 9'-8\" − 18 = 116 − 18 = 98\", Y = 8'-9\" − 18 = 105 − 18 = 87\". The straight pipe runs parallel to the line between the two elbow radius points: elbow A = atan(87 ÷ 98) = 41.597° → 41.6°, elbow B = 90 − 41.597 = 48.403° → 48.4° (together they turn 90°). Option a has the same two angles swapped between A and B.",
-   "ru": "Throat R = 12\" (Ø трубы), значит CL R = 12 + 6 = 18\". С каждого хода снимаем по одному CL R: X = 9'-8\" − 18 = 116 − 18 = 98\", Y = 8'-9\" − 18 = 105 − 18 = 87\". Прямая труба параллельна линии между radius points двух elbows: elbow A = atan(87 ÷ 98) = 41.597° → 41.6°, elbow B = 90 − 41.597 = 48.403° → 48.4° (вместе — поворот на 90°). В варианте a те же углы, но A и B переставлены."
+   "en": "Throat R = 12\" (the pipe Ø), so CL R = 12 + 6 = 18\". Take one CL R off each run: X = 9'-8\" − 18 = 116 − 18 = 98\", Y = 8'-9\" − 18 = 105 − 18 = 87\". The straight pipe runs parallel to the line between the two elbow radius points: elbow A = atan(87 ÷ 98) = 41.597° → 41.6°, elbow B = 90 − 41.597 = 48.403° → 48.4° (together they turn 90°). Option a (48.3° / 41.7°) swaps the angles between A and B and rounds them off.",
+   "ru": "Throat R = 12\" (Ø трубы), значит CL R = 12 + 6 = 18\". С каждого хода снимаем по одному CL R: X = 9'-8\" − 18 = 116 − 18 = 98\", Y = 8'-9\" − 18 = 105 − 18 = 87\". Прямая труба параллельна линии между radius points двух elbows: elbow A = atan(87 ÷ 98) = 41.597° → 41.6°, elbow B = 90 − 41.597 = 48.403° → 48.4° (вместе — поворот на 90°). В варианте a (48.3° / 41.7°) углы A и B переставлены и округлены неверно."
   },
   "opts": [
    {
@@ -17434,7 +17439,7 @@ const QUESTIONS = [
    },
    {
     "en": "The point in time that the responsibility is transferred to the occupant for maintenance",
-    "ru": "Момент, когда ответственность за обслуживание переходит к арендатору"
+    "ru": "Момент, когда ответственность за обслуживание переходит к пользователю здания"
    }
   ],
   "answer": [
@@ -17604,8 +17609,8 @@ const QUESTIONS = [
    "ru": "Какая опасность — главная причина большинства смертельных случаев при работе рядом с кранами?"
   },
   "why": {
-   "en": "Electrocution when the boom, load line or load touches an overhead power line is the hazard OSHA names as the leading cause of crane deaths; that is why 1926.1408 sets minimum clearances from power lines.",
-   "ru": "Поражение током, когда стрела, трос или груз касаются воздушной линии электропередачи, OSHA называет главной причиной гибели при работе с кранами; поэтому 1926.1408 задаёт минимальные расстояния до линий."
+   "en": "Contact of the boom, load line or load with an overhead power line is the leading cause of crane deaths — about a quarter of them in the CPWR study of 1992–2006 (157 of 632). That is why OSHA 1926.1408 sets minimum clearances from power lines.",
+   "ru": "Касание стрелой, тросом или грузом воздушной линии электропередачи — главная причина гибели при работе с кранами: около четверти случаев в исследовании CPWR за 1992–2006 (157 из 632). Поэтому OSHA 1926.1408 задаёт минимальные расстояния до линий."
   },
   "opts": [
    {
@@ -17640,8 +17645,8 @@ const QUESTIONS = [
    "ru": "Выберите сигнал крановщику, показанный на рисунке."
   },
   "why": {
-   "en": "A pointing forefinger is the hoist (raise load) signal; raise boom is given with the thumb, fingers closed. Holding the other hand still at the signaling hand means 'do it slowly' (ASME B30.5). So: raise load slowly.",
-   "ru": "Указательный палец — сигнал hoist (поднять груз); raise boom показывают большим пальцем при сжатом кулаке. Вторая рука, неподвижно поднесённая к сигнальной, означает «медленно» (ASME B30.5). Значит, поднять груз медленно."
+   "en": "For points pick b, raise load slowly: the instructor circled it in red (\"notice the pointer finger\") and the same answer stood on the Year End exam. By the standard (OSHA 1926 Subpart CC, Appendix A) hoist is the forearm vertical with the forefinger pointing up, making small circles; an arm held out with the forefinger horizontal is swing. The second hand held still at the signaling hand means \"slowly\".",
+   "ru": "Для балла ставь b, raise load slowly: инструктор обвёл его красным («notice the pointer finger»), и тот же ответ засчитан на итоговом экзамене года. По стандарту (OSHA 1926 Subpart CC, Appendix A) hoist — предплечье вертикально, указательный палец вверх, рука описывает маленькие круги; вытянутая рука с горизонтальным указательным пальцем — это swing. Вторая рука, неподвижно поднесённая к сигнальной, означает «медленно»."
   },
   "opts": [
    {
@@ -18179,16 +18184,10 @@ const QUESTIONS = [
   },
   "type": "input",
   "answer": {
-   "accept": [
-    "19-1/4",
-    "19 1/4",
-    "19.25",
-    "19¼"
-   ],
-   "all": [],
-   "reject": [],
-   "text": "19-1/4\"",
-   "prefix": ""
+   "value": 19.25,
+   "tol": 0.01,
+   "prefix": "",
+   "text": "19-1/4\""
   }
  },
  {
@@ -18237,8 +18236,8 @@ const QUESTIONS = [
    "ru": "Когда на баллон с защитным газом надевают колпак?"
   },
   "why": {
-   "en": "The cap protects the valve, so it must be on whenever the regulator is off and the cylinder is moved (OSHA 1926.350(a)(1)), full or empty. It has to come off before a regulator can be attached.",
-   "ru": "Колпак защищает вентиль, поэтому он должен стоять всегда, когда регулятор снят и баллон перемещают (OSHA 1926.350(a)(1)), полный он или пустой. Перед установкой регулятора колпак как раз снимают."
+   "en": "The cap protects the valve, so it must be on whenever the regulator is off and the cylinder is moved (OSHA 1926.350(a)(6)), full or empty. It has to come off before a regulator can be attached.",
+   "ru": "Колпак защищает вентиль, поэтому он должен стоять всегда, когда регулятор снят и баллон перемещают (OSHA 1926.350(a)(6)), полный он или пустой. Перед установкой регулятора колпак как раз снимают."
   },
   "opts": [
    {
@@ -18556,8 +18555,8 @@ const QUESTIONS = [
    "ru": "Потеря защитного газа и скачки напряжения — это некоторые из проблем при использовании GMAW на объекте?"
   },
   "why": {
-   "en": "Outdoors the wind blows the shielding gas away, and long leads or shared power make the voltage swing — that is why GMAW is harder to use in the field (Weld Quiz No.17).",
-   "ru": "На улице ветер сдувает защитный газ, а длинные кабели и общее питание дают скачки напряжения — поэтому GMAW на объекте применять сложнее (Weld Quiz №17)."
+   "en": "Outdoors the wind blows the shielding gas away, and long leads or shared power make the voltage swing — that is why GMAW is harder to use in the field.",
+   "ru": "На улице ветер сдувает защитный газ, а длинные кабели и общее питание дают скачки напряжения — поэтому GMAW на объекте применять сложнее."
   },
   "opts": [
    {
@@ -19026,15 +19025,15 @@ const QUESTIONS = [
   },
   "opts": [
    {
-    "en": "10 feet",
+    "en": "10 feet.",
     "ru": "10 футов"
    },
    {
-    "en": "20 feet",
+    "en": "20 feet.",
     "ru": "20 футов"
    },
    {
-    "en": "50 feet",
+    "en": "50 feet.",
     "ru": "50 футов"
    }
   ],
@@ -19053,8 +19052,8 @@ const QUESTIONS = [
    "ru": "Где, как правило, опаснее всего стоять, когда груз впервые отрывают от земли?"
   },
   "why": {
-   "en": "When the load first leaves the ground it can swing or slide toward the people facing it, especially if the hook is not exactly over its center of gravity; standing directly in front of the load puts you in that path. Stand clear and control the load with tag lines.",
-   "ru": "Когда груз отрывается от земли, он может качнуться или поехать на тех, кто стоит перед ним, особенно если крюк не точно над центром тяжести; стоя прямо перед грузом, вы оказываетесь на этом пути. Отходят в сторону и управляют грузом оттяжками (tag lines)."
+   "en": "When the load first leaves the ground it can swing or slide toward the people facing it, especially if the hook is not exactly over its center of gravity; standing directly in front of the load puts you in that path. Stand clear and control the load with tag lines. Note: the only basis is the instructor's mark on a graded sheet; no standard or course sheet confirms it.",
+   "ru": "Когда груз отрывается от земли, он может качнуться или поехать на тех, кто стоит перед ним, особенно если крюк не точно над центром тяжести; стоя прямо перед грузом, вы оказываетесь на этом пути. Отходят в сторону и управляют грузом оттяжками (tag lines). Внимание: основа — только пометка инструктора на проверенном листе; стандарта или листа курса, который это подтверждает, нет."
   },
   "opts": [
    {
@@ -19082,11 +19081,11 @@ const QUESTIONS = [
   "topic": "safety",
   "q": {
    "en": "What is the initial hazard caused by boom deflection?",
-   "ru": "Какую опасность в первую очередь создаёт прогиб стрелы (boom deflection)?"
+   "ru": "Какую начальную опасность создаёт прогиб стрелы (boom deflection)?"
   },
   "why": {
-   "en": "As the load is picked up, the boom bends and its tip moves out, so the hanging load shifts and swings; the first hazard is someone being pinched between the load and nearby objects. Counterweight pinch points come from swinging the crane, not from boom deflection.",
-   "ru": "Когда груз поднимают, стрела прогибается и её конец уходит вперёд, поэтому висящий груз смещается и качается; первая опасность — зажать человека между грузом и соседними предметами. Защемление противовесом бывает при повороте крана, а не от прогиба стрелы."
+   "en": "As the load is picked up, the boom bends and its tip moves out, so the hanging load shifts and swings; the first hazard is someone being pinched between the load and nearby objects. Counterweight pinch points come from swinging the crane, not from boom deflection. Note: the only basis is the instructor's mark on a graded sheet; no standard or course sheet confirms it.",
+   "ru": "Когда груз поднимают, стрела прогибается и её конец уходит вперёд, поэтому висящий груз смещается и качается; первая опасность — зажать человека между грузом и соседними предметами. Защемление противовесом бывает при повороте крана, а не от прогиба стрелы. Внимание: основа — только пометка инструктора на проверенном листе; стандарта или листа курса, который это подтверждает, нет."
   },
   "opts": [
    {
@@ -19787,12 +19786,18 @@ const QUESTIONS = [
   "type": "input",
   "answer": {
    "accept": [
-    "drip",
-    "shed",
-    "away",
     "free of",
     "clear of",
-    "off the wall"
+    "off the wall",
+    "away from the wall",
+    "away from wall",
+    "from the wall",
+    "от стены",
+    "от стен",
+    "away from the building",
+    "off the building",
+    "from the building",
+    "от здания"
    ],
    "all": [],
    "reject": [],
@@ -20048,8 +20053,8 @@ const QUESTIONS = [
    "ru": "Выберите букву, которой обозначен bend cleat среди hook strips на рисунке."
   },
   "why": {
-   "en": "On this sheet the bend cleat is profile D: a flange bent over at the top for fastening, a straight leg, and the bottom edge kicked out to hook the panel.",
-   "ru": "На этом листе bend cleat — профиль D: сверху отогнутая полка для крепления, прямая стенка и отогнутый наружу нижний край, за который цепляется панель."
+   "en": "On this sheet the bend cleat is profile D: a flange bent over at the top for fastening, a straight leg, and the bottom edge kicked out to hook the panel. Note: the only basis is the instructor's mark on a graded sheet; no standard or course sheet confirms it.",
+   "ru": "На этом листе bend cleat — профиль D: сверху отогнутая полка для крепления, прямая стенка и отогнутый наружу нижний край, за который цепляется панель. Внимание: основа — только пометка инструктора на проверенном листе; стандарта или листа курса, который это подтверждает, нет."
   },
   "opts": [
    {
@@ -20101,8 +20106,8 @@ const QUESTIONS = [
    "ru": "Выберите букву, которой обозначен continuous cleat среди hook strips на рисунке."
   },
   "why": {
-   "en": "On this sheet the continuous cleat is profile F: a straight strip fastened along its length with only the bottom edge kicked out to hook the panel.",
-   "ru": "На этом листе continuous cleat — профиль F: прямая полоса, которую крепят по всей длине, и только нижний край отогнут наружу, чтобы зацепить панель."
+   "en": "On this sheet the continuous cleat is profile F: a straight strip fastened along its length with only the bottom edge kicked out to hook the panel. Note: the only basis is the instructor's mark on a graded sheet; no standard or course sheet confirms it.",
+   "ru": "На этом листе continuous cleat — профиль F: прямая полоса, которую крепят по всей длине, и только нижний край отогнут наружу, чтобы зацепить панель. Внимание: основа — только пометка инструктора на проверенном листе; стандарта или листа курса, который это подтверждает, нет."
   },
   "opts": [
    {
@@ -20154,8 +20159,8 @@ const QUESTIONS = [
    "ru": "Выберите букву, которой обозначен J-hook cleat среди hook strips на рисунке."
   },
   "why": {
-   "en": "On this sheet the J-hook cleat is profile B: a straight leg with a short hook bent at the top and the bottom edge kicked out.",
-   "ru": "На этом листе J-hook cleat — профиль B: прямая стенка с коротким загибом сверху и отогнутым нижним краем."
+   "en": "On this sheet the J-hook cleat is profile B: a straight leg with a short hook bent at the top and the bottom edge kicked out. Note: the only basis is the instructor's mark on a graded sheet; no standard or course sheet confirms it.",
+   "ru": "На этом листе J-hook cleat — профиль B: прямая стенка с коротким загибом сверху и отогнутым нижним краем. Внимание: основа — только пометка инструктора на проверенном листе; стандарта или листа курса, который это подтверждает, нет."
   },
   "opts": [
    {
@@ -20318,8 +20323,8 @@ const QUESTIONS = [
    "ru": "Вычислите угол гиба на brake для ridge flashing."
   },
   "why": {
-   "en": "At the ridge both 9/12 slopes fall away square to the ridge line, so the bend is the sum of the two pitch angles: 2 × atan(9/12) = 2 × 36.87° = 73.74° (by normals: cos A = (1 − 0.75²) ÷ (1 + 0.75²) = 0.28). 50.21° is the valley/hip formula wrongly used at a ridge (50.21°).",
-   "ru": "У конька оба ската 9/12 падают перпендикулярно коньку, поэтому гиб равен сумме двух углов уклона: 2 × atan(9/12) = 2 × 36.87° = 73.74° (по нормалям: cos A = (1 − 0.75²) ÷ (1 + 0.75²) = 0.28). 50.21° — формула ендовы/hip, ошибочно применённая к коньку (50.21°)."
+   "en": "At the ridge both 9/12 slopes fall away square to the ridge line, so the bend is the sum of the two pitch angles: 2 × atan(9/12) = 2 × 36.87° = 73.74° (by normals: cos A = (1 − 0.75²) ÷ (1 + 0.75²) = 0.28). 50.21° is the valley/hip formula wrongly used at a ridge.",
+   "ru": "У конька оба ската 9/12 падают перпендикулярно коньку, поэтому гиб равен сумме двух углов уклона: 2 × atan(9/12) = 2 × 36.87° = 73.74° (по нормалям: cos A = (1 − 0.75²) ÷ (1 + 0.75²) = 0.28). 50.21° — формула ендовы/hip, ошибочно применённая к коньку."
   },
   "opts": [
    {

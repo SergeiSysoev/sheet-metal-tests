@@ -141,7 +141,7 @@ def y2w4m_q60():
     """3-piece 90 deg round elbow, 8"Ø, 12"R to the throat, 90 deg; ? = height of the end gore at the centerline."""
     s = 37.5                                             # px per inch (as printed, to scale)
     C = (535.0 + 12 * s, 780.0)
-    f = Fig((30, 30, 1130, 900), 560)
+    f = Fig((30, 10, 1130, 920), 560)          # 20 units more room on top: the heel line touched the edge
     g = _gored_elbow(f, C, 8 * s, 12 * s, 3)
     P = g["P"]
     m = g["m"]

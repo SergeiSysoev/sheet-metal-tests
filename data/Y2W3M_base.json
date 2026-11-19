@@ -49,7 +49,8 @@
    "fish hook",
    "fishhook",
    "fish-hook",
-   "рыболовн"
+   "рыболовн",
+   "крюч"
   ],
   "answer_text": "Fish hooks"
  },
@@ -83,7 +84,15 @@
   "accept": [
    "7/8"
   ],
-  "answer_text": "7/8"
+  "answer_text": "7/8",
+  "reject": [
+   "1 7/8",
+   "1-7/8",
+   "2 7/8",
+   "2-7/8",
+   "3 7/8",
+   "3-7/8"
+  ]
  },
  {
   "src": "Y2W3M",
@@ -96,7 +105,8 @@
   "fig": null,
   "evidence": "SMY2W3 Monday graded sheet of another student (72.5/79; msg_1244-1261, red marks msg_1265-1270): not marked wrong; knowledge 06 and SMY1W3 №17 (Slip rolls)",
   "accept": [
-   "slip"
+   "slip",
+   "слип"
   ],
   "answer_text": "Slip"
  },

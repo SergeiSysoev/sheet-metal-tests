@@ -103,10 +103,7 @@
   ],
   "kind": null,
   "fig": null,
-  "evidence": "Question struck out by the instructor on the graded sheet (msg_1296, total changed 69 → 68); answer from the course definition 'a load placed at right angles to the fastener is a shear load' (SMY1W3 №27)",
-  "also": [
-   0
-  ]
+  "evidence": "Question struck out by the instructor on the graded sheet (msg_1296, total changed 69 → 68); answer from the course definition 'a load placed at right angles to the fastener is a shear load' (SMY1W3 №27)"
  },
  {
   "src": "Y2W3F",
@@ -535,7 +532,8 @@
   "fig": null,
   "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): not marked wrong; knowledge 06",
   "accept": [
-   "trammel"
+   "trammel",
+   "траммел"
   ],
   "answer_text": "Trammel points"
  },
@@ -546,13 +544,12 @@
   "hint": null,
   "opts": null,
   "answer": null,
-  "kind": "text",
+  "kind": "input",
   "fig": null,
   "evidence": "Calculation; SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): not marked wrong",
-  "accept": [
-   ".375"
-  ],
-  "answer_text": ".375"
+  "answer_text": ".375",
+  "input_answer": "0.375",
+  "tol": 0.0005
  },
  {
   "src": "Y2W3F",
@@ -589,7 +586,8 @@
   "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): not marked wrong",
   "accept": [
    "occupational safety and health administration",
-   "occupational safety & health administration"
+   "occupational safety & health administration",
+   "occupational safety and health admin"
   ],
   "answer_text": "Occupational Safety and Health Administration"
  },

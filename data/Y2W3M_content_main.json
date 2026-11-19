@@ -71,8 +71,8 @@
   "ru_q": "Валки (roll), у которых один конец на шарнире (hinged) поднимается, чтобы снять готовое изделие, называются ______ roll.",
   "ru_hint": null,
   "ru_opts": null,
-  "why_en": "Slip rolls have a hinged (drop) end: the top roll is released and swung up so a rolled pipe can slide off the end. Pyramid rolls and the roll forming machine have no such end.",
-  "why_ru": "У slip rolls один конец откидной: верхний вал освобождают и поднимают, и свёрнутую трубу снимают с торца. У pyramid rolls и у roll forming machine такого конца нет.",
+  "why_en": "Slip rolls have a hinged end: the top roll is released and swung up so a rolled pipe can slide off the end. That hinged end is what gives slip rolls their name; the roll forming machine has no such end.",
+  "why_ru": "У slip rolls один конец откидной: верхний вал освобождают и поднимают, и свёрнутую трубу снимают с торца. Отсюда и название slip rolls; у roll forming machine такого конца нет.",
   "flag": "Typed answer: 'slip'."
  },
  {

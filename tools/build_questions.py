@@ -104,8 +104,8 @@ UI = {
     'tap_to_enlarge': {'en': 'Tap the drawing to open it full size', 'ru': 'Нажми на чертёж, чтобы открыть его крупно'},
     'figure_alt': {'en': 'Drawing for the question', 'ru': 'Чертёж к вопросу'},
     'choose_prompt': {'en': 'Choose one answer', 'ru': 'Выбери один ответ'},
-    'multi_prompt': {'en': 'Choose {N} answers, then press Check', 'ru': 'Выбери {N} ответа и нажми «Проверить»'},
-    'multi_prompt_many': {'en': 'Choose {N} answers, then press Check', 'ru': 'Выбери {N} ответов и нажми «Проверить»'},
+    'multi_prompt': {'en': 'Choose all correct answers, then press Check', 'ru': 'Выбери все верные ответы и нажми «Проверить»'},
+    'multi_prompt_many': {'en': 'Choose all correct answers, then press Check', 'ru': 'Выбери все верные ответы и нажми «Проверить»'},
     'type_prompt': {'en': 'Type your answer, then press Check', 'ru': 'Впиши ответ и нажми «Проверить»'},
     'check': {'en': 'Check', 'ru': 'Проверить'},
     'next': {'en': 'Next question', 'ru': 'Следующий вопрос'},
@@ -168,7 +168,8 @@ def main():
                 item.update(type='input', answer={'accept': b.get('accept') or [], 'all': b.get('all') or [], 'reject': b.get('reject', []), 'text': b['answer_text'], 'prefix': ''})
             elif b.get('kind') == 'input':
                 v = float(b['input_answer'])
-                item.update(type='input', answer={'value': v, 'tol': 0.005, 'prefix': b.get('input_unit', ''), 'text': b['input_answer']})
+                item.update(type='input', answer={'value': v, 'tol': b.get('tol', 0.005), 'prefix': b.get('input_unit') or '',
+                                                  'text': b.get('answer_text') or b['input_answer']})
             else:
                 opts, ru = b['opts'], c['ru_opts']
                 if not ru or len(ru) != len(opts):

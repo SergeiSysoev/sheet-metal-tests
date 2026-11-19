@@ -212,8 +212,8 @@
    "Только когда баллон полный.",
    "Только когда баллон пустой."
   ],
-  "why_en": "The cap protects the valve, so it must be on whenever the regulator is off and the cylinder is moved (OSHA 1926.350(a)(1)), full or empty. It has to come off before a regulator can be attached.",
-  "why_ru": "Колпак защищает вентиль, поэтому он должен стоять всегда, когда регулятор снят и баллон перемещают (OSHA 1926.350(a)(1)), полный он или пустой. Перед установкой регулятора колпак как раз снимают.",
+  "why_en": "The cap protects the valve, so it must be on whenever the regulator is off and the cylinder is moved (OSHA 1926.350(a)(6)), full or empty. It has to come off before a regulator can be attached.",
+  "why_ru": "Колпак защищает вентиль, поэтому он должен стоять всегда, когда регулятор снят и баллон перемещают (OSHA 1926.350(a)(6)), полный он или пустой. Перед установкой регулятора колпак как раз снимают.",
   "flag": null
  },
  {
@@ -353,8 +353,8 @@
    "Нет",
    "N/A"
   ],
-  "why_en": "Outdoors the wind blows the shielding gas away, and long leads or shared power make the voltage swing — that is why GMAW is harder to use in the field (Weld Quiz No.17).",
-  "why_ru": "На улице ветер сдувает защитный газ, а длинные кабели и общее питание дают скачки напряжения — поэтому GMAW на объекте применять сложнее (Weld Quiz №17).",
+  "why_en": "Outdoors the wind blows the shielding gas away, and long leads or shared power make the voltage swing — that is why GMAW is harder to use in the field.",
+  "why_ru": "На улице ветер сдувает защитный газ, а длинные кабели и общее питание дают скачки напряжения — поэтому GMAW на объекте применять сложнее.",
   "flag": null
  },
  {
@@ -582,23 +582,23 @@
    "Прямо сбоку от груза.",
    "Прямо перед грузом."
   ],
-  "why_en": "When the load first leaves the ground it can swing or slide toward the people facing it, especially if the hook is not exactly over its center of gravity; standing directly in front of the load puts you in that path. Stand clear and control the load with tag lines.",
-  "why_ru": "Когда груз отрывается от земли, он может качнуться или поехать на тех, кто стоит перед ним, особенно если крюк не точно над центром тяжести; стоя прямо перед грузом, вы оказываетесь на этом пути. Отходят в сторону и управляют грузом оттяжками (tag lines).",
+  "why_en": "When the load first leaves the ground it can swing or slide toward the people facing it, especially if the hook is not exactly over its center of gravity; standing directly in front of the load puts you in that path. Stand clear and control the load with tag lines. Note: the only basis is the instructor's mark on a graded sheet; no standard or course sheet confirms it.",
+  "why_ru": "Когда груз отрывается от земли, он может качнуться или поехать на тех, кто стоит перед ним, особенно если крюк не точно над центром тяжести; стоя прямо перед грузом, вы оказываетесь на этом пути. Отходят в сторону и управляют грузом оттяжками (tag lines). Внимание: основа — только пометка инструктора на проверенном листе; стандарта или листа курса, который это подтверждает, нет.",
   "flag": "Answer rests on the graded sheet (not marked wrong); no standard found that ranks these three positions."
  },
  {
   "src": "Y2W5Y",
   "n": 74,
   "topic": "safety",
-  "ru_q": "Какую опасность в первую очередь создаёт прогиб стрелы (boom deflection)?",
+  "ru_q": "Какую начальную опасность создаёт прогиб стрелы (boom deflection)?",
   "ru_hint": null,
   "ru_opts": [
    "Потеря устойчивости",
    "Защемление противовесом",
    "Защемление грузом"
   ],
-  "why_en": "As the load is picked up, the boom bends and its tip moves out, so the hanging load shifts and swings; the first hazard is someone being pinched between the load and nearby objects. Counterweight pinch points come from swinging the crane, not from boom deflection.",
-  "why_ru": "Когда груз поднимают, стрела прогибается и её конец уходит вперёд, поэтому висящий груз смещается и качается; первая опасность — зажать человека между грузом и соседними предметами. Защемление противовесом бывает при повороте крана, а не от прогиба стрелы.",
+  "why_en": "As the load is picked up, the boom bends and its tip moves out, so the hanging load shifts and swings; the first hazard is someone being pinched between the load and nearby objects. Counterweight pinch points come from swinging the crane, not from boom deflection. Note: the only basis is the instructor's mark on a graded sheet; no standard or course sheet confirms it.",
+  "why_ru": "Когда груз поднимают, стрела прогибается и её конец уходит вперёд, поэтому висящий груз смещается и качается; первая опасность — зажать человека между грузом и соседними предметами. Защемление противовесом бывает при повороте крана, а не от прогиба стрелы. Внимание: основа — только пометка инструктора на проверенном листе; стандарта или листа курса, который это подтверждает, нет.",
   "flag": null
  },
  {
@@ -1049,8 +1049,8 @@
    "G",
    "H"
   ],
-  "why_en": "On this sheet the bend cleat is profile D: a flange bent over at the top for fastening, a straight leg, and the bottom edge kicked out to hook the panel.",
-  "why_ru": "На этом листе bend cleat — профиль D: сверху отогнутая полка для крепления, прямая стенка и отогнутый наружу нижний край, за который цепляется панель.",
+  "why_en": "On this sheet the bend cleat is profile D: a flange bent over at the top for fastening, a straight leg, and the bottom edge kicked out to hook the panel. Note: the only basis is the instructor's mark on a graded sheet; no standard or course sheet confirms it.",
+  "why_ru": "На этом листе bend cleat — профиль D: сверху отогнутая полка для крепления, прямая стенка и отогнутый наружу нижний край, за который цепляется панель. Внимание: основа — только пометка инструктора на проверенном листе; стандарта или листа курса, который это подтверждает, нет.",
   "flag": "Answer taken from the instructor's red mark on the graded sheet; no course sheet with these hook-strip profiles was found to check it independently."
  },
  {
@@ -1069,8 +1069,8 @@
    "G",
    "H"
   ],
-  "why_en": "On this sheet the continuous cleat is profile F: a straight strip fastened along its length with only the bottom edge kicked out to hook the panel.",
-  "why_ru": "На этом листе continuous cleat — профиль F: прямая полоса, которую крепят по всей длине, и только нижний край отогнут наружу, чтобы зацепить панель.",
+  "why_en": "On this sheet the continuous cleat is profile F: a straight strip fastened along its length with only the bottom edge kicked out to hook the panel. Note: the only basis is the instructor's mark on a graded sheet; no standard or course sheet confirms it.",
+  "why_ru": "На этом листе continuous cleat — профиль F: прямая полоса, которую крепят по всей длине, и только нижний край отогнут наружу, чтобы зацепить панель. Внимание: основа — только пометка инструктора на проверенном листе; стандарта или листа курса, который это подтверждает, нет.",
   "flag": "Answer taken from the instructor's red mark on the graded sheet; no course sheet with these hook-strip profiles was found to check it independently."
  },
  {
@@ -1089,8 +1089,8 @@
    "G",
    "H"
   ],
-  "why_en": "On this sheet the J-hook cleat is profile B: a straight leg with a short hook bent at the top and the bottom edge kicked out.",
-  "why_ru": "На этом листе J-hook cleat — профиль B: прямая стенка с коротким загибом сверху и отогнутым нижним краем.",
+  "why_en": "On this sheet the J-hook cleat is profile B: a straight leg with a short hook bent at the top and the bottom edge kicked out. Note: the only basis is the instructor's mark on a graded sheet; no standard or course sheet confirms it.",
+  "why_ru": "На этом листе J-hook cleat — профиль B: прямая стенка с коротким загибом сверху и отогнутым нижним краем. Внимание: основа — только пометка инструктора на проверенном листе; стандарта или листа курса, который это подтверждает, нет.",
   "flag": "Answer taken from the instructor's red mark on the graded sheet; no course sheet with these hook-strip profiles was found to check it independently."
  },
  {
@@ -1153,8 +1153,8 @@
    "73.74 градуса",
    "64.23 градуса"
   ],
-  "why_en": "At the ridge both 9/12 slopes fall away square to the ridge line, so the bend is the sum of the two pitch angles: 2 × atan(9/12) = 2 × 36.87° = 73.74° (by normals: cos A = (1 − 0.75²) ÷ (1 + 0.75²) = 0.28). 50.21° is the valley/hip formula wrongly used at a ridge (50.21°).",
-  "why_ru": "У конька оба ската 9/12 падают перпендикулярно коньку, поэтому гиб равен сумме двух углов уклона: 2 × atan(9/12) = 2 × 36.87° = 73.74° (по нормалям: cos A = (1 − 0.75²) ÷ (1 + 0.75²) = 0.28). 50.21° — формула ендовы/hip, ошибочно применённая к коньку (50.21°).",
+  "why_en": "At the ridge both 9/12 slopes fall away square to the ridge line, so the bend is the sum of the two pitch angles: 2 × atan(9/12) = 2 × 36.87° = 73.74° (by normals: cos A = (1 − 0.75²) ÷ (1 + 0.75²) = 0.28). 50.21° is the valley/hip formula wrongly used at a ridge.",
+  "why_ru": "У конька оба ската 9/12 падают перпендикулярно коньку, поэтому гиб равен сумме двух углов уклона: 2 × atan(9/12) = 2 × 36.87° = 73.74° (по нормалям: cos A = (1 − 0.75²) ÷ (1 + 0.75²) = 0.28). 50.21° — формула ендовы/hip, ошибочно применённая к коньку.",
   "flag": null
  },
  {

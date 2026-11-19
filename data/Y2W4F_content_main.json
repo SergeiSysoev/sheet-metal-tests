@@ -91,8 +91,8 @@
    "быть установлены, если работаешь выше 15'-0\"",
    "быть установлены, если работаешь выше 6'-0\""
   ],
-  "why_en": "For the test pick d (6'-0\"): it is the answer accepted on the graded sheet. Strictly, the federal scaffold rule (OSHA 1926.451(g)(1)) requires guardrails or fall arrest above 10 ft, and Washington's fall protection rule starts at 4 ft (WAC 296-880-20005), so 6'-0\" is not an exact code number; 15'-0\" is too high under any rule. A top rail stands 38–45\" above the platform, well above the knees.",
-  "why_ru": "Для балла — d (6'-0\"): этот ответ засчитан на проверенном листе. Строго по правилам: федеральный стандарт для scaffold (OSHA 1926.451(g)(1)) требует guardrails или страховку выше 10 ft, а правило Washington по защите от падения начинается с 4 ft (WAC 296-880-20005), так что 6'-0\" — не точная цифра кода; 15'-0\" слишком высоко по любому правилу. Верхний поручень стоит на 38–45\" над настилом — гораздо выше колен.",
+  "why_en": "For the test pick d (6'-0\"): it is the answer accepted on the graded sheet. Strictly, scaffolds have their own threshold of 10 ft, both federally (OSHA 1926.451(g)(1)) and in Washington (WAC 296-880-30030); 6 ft is OSHA's general construction fall-protection height (1926.501(b)(1)), which does not govern scaffolds. 15'-0\" is too high under any rule. A top rail stands 38–45\" above the platform, well above the knees.",
+  "why_ru": "Для балла — d (6'-0\"): этот ответ засчитан на проверенном листе. Строго по правилам у scaffold свой порог — 10 ft, и по федеральному стандарту (OSHA 1926.451(g)(1)), и в Washington (WAC 296-880-30030); 6 ft — общий порог защиты от падения на стройке по OSHA (1926.501(b)(1)), к scaffold он не относится. 15'-0\" слишком высоко по любому правилу. Верхний поручень стоит на 38–45\" над настилом — гораздо выше колен.",
   "flag": "Code check: OSHA scaffold threshold is 10 ft (1926.451(g)(1)), Washington general fall-protection threshold 4 ft (WAC 296-880-20005); neither is 6 ft. Kept d, the answer accepted on the graded sheet."
  },
  {
@@ -121,8 +121,8 @@
    "Да",
    "Нет"
   ],
-  "why_en": "No. OSHA 1926.452(w)(6) forbids riding a scaffold while it is moved unless every one of a list of conditions is met: floor within 3° of level and free of holes and obstructions, height no more than 2 times the base width, outriggers on both sides, nobody beyond the wheels. Low height with guardrails and toe boards is not enough — get off before it is moved.",
-  "why_ru": "Нет. OSHA 1926.452(w)(6) запрещает ехать на scaffold при перемещении, если не выполнены все условия: пол с уклоном не больше 3°, без ям и препятствий, высота не больше 2 ширин основания, outriggers с обеих сторон, никто не стоит за пределами колёс. Малой высоты, guardrails и toe boards недостаточно — перед перемещением надо слезть.",
+  "why_en": "No. OSHA 1926.452(w)(6) forbids riding a scaffold while it is moved unless every one of a list of conditions is met: floor within 3° of level and free of holes and obstructions, height no more than 2 times the base width, outriggers, when used, on both sides, nobody beyond the wheels. Low height with guardrails and toe boards is not enough — get off before it is moved.",
+  "why_ru": "Нет. OSHA 1926.452(w)(6) запрещает ехать на scaffold при перемещении, если не выполнены все условия: пол с уклоном не больше 3°, без ям и препятствий, высота не больше 2 ширин основания, outriggers, если они есть, с обеих сторон, никто не стоит за пределами колёс. Малой высоты, guardrails и toe boards недостаточно — перед перемещением надо слезть.",
   "flag": "Printed \"less than 10\" high\" (inches); most likely 10' (feet) was meant — kept as printed."
  },
  {

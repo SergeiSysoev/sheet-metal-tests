@@ -202,16 +202,12 @@
   "hint": null,
   "opts": null,
   "answer": null,
-  "kind": "text",
+  "kind": "input",
   "fig": null,
   "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong (student wrote 19 1/4\"); calculation.",
-  "accept": [
-   "19-1/4",
-   "19 1/4",
-   "19.25",
-   "19¼"
-  ],
-  "answer_text": "19-1/4\""
+  "answer_text": "19-1/4\"",
+  "input_answer": "19.25",
+  "tol": 0.01
  },
  {
   "src": "Y2W5Y",
@@ -642,9 +638,9 @@
   "q": "What is the clearance required to be maintained from energized powerlines which you don't know the specific rating but are <350KV?",
   "hint": null,
   "opts": [
-   "10 feet",
-   "20 feet",
-   "50 feet"
+   "10 feet.",
+   "20 feet.",
+   "50 feet."
   ],
   "answer": [
    1
@@ -1053,12 +1049,18 @@
   "fig": null,
   "evidence": "Graded sheet 131/151 (msg_2739-2752): open question; student wrote 'Shed water' (check mark), instructor added in red 'Allows water to drip free of a wall'; not marked wrong.",
   "accept": [
-   "drip",
-   "shed",
-   "away",
    "free of",
    "clear of",
-   "off the wall"
+   "off the wall",
+   "away from the wall",
+   "away from wall",
+   "from the wall",
+   "от стены",
+   "от стен",
+   "away from the building",
+   "off the building",
+   "from the building",
+   "от здания"
   ],
   "answer_text": "Allows water to drip free of a wall (sheds water away from the wall)"
  },

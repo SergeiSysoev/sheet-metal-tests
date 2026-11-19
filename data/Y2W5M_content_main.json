@@ -25,7 +25,7 @@
    "Точку отсчёта, с которой начинается программа проверок и обслуживания dampers",
    "Канал связи между владельцем и подрядчиком",
    "Срок, от которого считается гарантия",
-   "Момент, когда ответственность за обслуживание переходит к арендатору"
+   "Момент, когда ответственность за обслуживание переходит к пользователю здания"
   ],
   "why_en": "The acceptance test record is the baseline: every later periodic test of the dampers is compared with it to see whether anything has changed.",
   "why_ru": "Запись acceptance testing — это исходная точка: с ней сравнивают все последующие периодические проверки dampers, чтобы увидеть, что изменилось.",
@@ -109,8 +109,8 @@
    "удар грузом",
    "ошибка оператора"
   ],
-  "why_en": "Electrocution when the boom, load line or load touches an overhead power line is the hazard OSHA names as the leading cause of crane deaths; that is why 1926.1408 sets minimum clearances from power lines.",
-  "why_ru": "Поражение током, когда стрела, трос или груз касаются воздушной линии электропередачи, OSHA называет главной причиной гибели при работе с кранами; поэтому 1926.1408 задаёт минимальные расстояния до линий.",
+  "why_en": "Contact of the boom, load line or load with an overhead power line is the leading cause of crane deaths — about a quarter of them in the CPWR study of 1992–2006 (157 of 632). That is why OSHA 1926.1408 sets minimum clearances from power lines.",
+  "why_ru": "Касание стрелой, тросом или грузом воздушной линии электропередачи — главная причина гибели при работе с кранами: около четверти случаев в исследовании CPWR за 1992–2006 (157 из 632). Поэтому OSHA 1926.1408 задаёт минимальные расстояния до линий.",
   "flag": null
  },
  {
@@ -125,8 +125,8 @@
    "Медленно стравить трос",
    "Груз вверх"
   ],
-  "why_en": "A pointing forefinger is the hoist (raise load) signal; raise boom is given with the thumb, fingers closed. Holding the other hand still at the signaling hand means 'do it slowly' (ASME B30.5). So: raise load slowly.",
-  "why_ru": "Указательный палец — сигнал hoist (поднять груз); raise boom показывают большим пальцем при сжатом кулаке. Вторая рука, неподвижно поднесённая к сигнальной, означает «медленно» (ASME B30.5). Значит, поднять груз медленно.",
+  "why_en": "For points pick b, raise load slowly: the instructor circled it in red (\"notice the pointer finger\") and the same answer stood on the Year End exam. By the standard (OSHA 1926 Subpart CC, Appendix A) hoist is the forearm vertical with the forefinger pointing up, making small circles; an arm held out with the forefinger horizontal is swing. The second hand held still at the signaling hand means \"slowly\".",
+  "why_ru": "Для балла ставь b, raise load slowly: инструктор обвёл его красным («notice the pointer finger»), и тот же ответ засчитан на итоговом экзамене года. По стандарту (OSHA 1926 Subpart CC, Appendix A) hoist — предплечье вертикально, указательный палец вверх, рука описывает маленькие круги; вытянутая рука с горизонтальным указательным пальцем — это swing. Вторая рука, неподвижно поднесённая к сигнальной, означает «медленно».",
   "flag": null
  },
  {

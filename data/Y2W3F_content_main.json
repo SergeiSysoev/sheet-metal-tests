@@ -89,8 +89,8 @@
    "Верно",
    "Неверно"
   ],
-  "why_en": "For points pick False: on a graded SMY2W5 Monday sheet (the same question) the instructor circled False and took the point off for True; on this SMY2W3 sheet the question was struck out. Technically a shear load acts across the fastener, at a right angle to its axis (a duct on a strap screwed to its side: the weight pulls down across the screws), and a screw holds better in shear than in pull-out, so True is also defensible — both count here.",
-  "why_ru": "Для балла ставь False: на проверенном листе SMY2W5 Monday (тот же вопрос) инструктор обвёл False и снял балл за True; на этом листе SMY2W3 вопрос был вычеркнут. Технически shear load действует поперёк fastener, под прямым углом к оси (duct на strap, прикрученном сбоку: вес тянет вниз поперёк винтов), и на срез винт держит лучше, чем на вырыв, — поэтому True тоже можно защитить; здесь засчитываются оба.",
+  "why_en": "False. On a graded SMY2W5 Monday sheet (the same question) the instructor circled False and took the point off for True; on this SMY2W3 sheet it was struck out. The course defines a shear load as a load at right angles to the fastener — not one that \"pulls straight down\": weight hanging straight down on a vertical fastener (screws in the bottom of a duct, a hanger rod) is tension, which pulls the fastener out.",
+  "why_ru": "False. На проверенном листе SMY2W5 Monday (тот же вопрос) инструктор обвёл False и снял балл за True; на этом листе SMY2W3 вопрос вычеркнут. Курс определяет shear load как нагрузку под прямым углом к fastener, а не «тянущую прямо вниз»: вес прямо вниз на вертикальный fastener (винты в дне duct, hanger rod) — это tension, он вырывает fastener.",
   "flag": "The instructor voided this question with a red wavy line, so there is no graded answer. True follows the course definition of shear load; 'straight down' is shear only when the fastener is horizontal (strap on the duct side)."
  },
  {
@@ -121,7 +121,7 @@
    "Только если slings из wire rope.",
    "Только если у них одинаковая грузоподъёмность."
   ],
-  "why_en": "Never. OSHA (1910.184, 1926.251) forbids shortening or lengthening slings with knots or other makeshift devices: a knot weakens the sling and can slip, whatever the material or the rating.",
+  "why_en": "Never. OSHA (1910.184, 1926.251) says slings shall not be shortened with knots, and knots shall not be used in place of splices or other makeshift devices: a knot weakens the sling and can slip, whatever the material or the rating.",
   "why_ru": "Никогда. OSHA (1910.184, 1926.251) запрещает укорачивать или удлинять slings узлами и самодельными приспособлениями: узел ослабляет sling и может проскользнуть — независимо от материала и грузоподъёмности.",
   "flag": "Typo in the original: 'a slings length' (should be 'a sling's length')."
  },
@@ -137,8 +137,8 @@
    "сотрудник генподрядчика на объекте.",
    "нужные знания и подготовка после прохождения rigging program."
   ],
-  "why_en": "The course defines a qualified rigging person by the knowledge and training gained in a rigging program. A card alone, practice alone or who your employer is does not make you qualified.",
-  "why_ru": "По курсу qualified в rigging — тот, у кого есть знания и подготовка, полученные в rigging program. Одна карточка, одна практика или то, на кого ты работаешь, сами по себе этого не дают.",
+  "why_en": "The course defines a qualified rigging person by the knowledge and training gained in a rigging program. Practice alone or who your employer is does not make you qualified; a recognized certificate counts only together with that training.",
+  "why_ru": "По курсу qualified в rigging — тот, у кого есть знания и подготовка, полученные в rigging program. Одна практика или то, на кого ты работаешь, этого не дают; признанный сертификат засчитывается только вместе с такой подготовкой.",
   "flag": "Option c does not fit the stem grammatically ('someone with: an employee…') — as printed."
  },
  {
@@ -555,8 +555,8 @@
    "3,841.92",
    "3,409.92"
   ],
-  "why_en": "1 ft² = 12 × 12 = 144 in², so 26.68 × 144 = 3,841.92 in². 3,409.92 = 23.68 × 144 is the version of this question with another number; 1.97 and 1.973 come from dividing.",
-  "why_ru": "1 ft² = 12 × 12 = 144 in², значит 26.68 × 144 = 3,841.92 in². 3,409.92 = 23.68 × 144 — вариант этого вопроса с другим числом; 1.97 и 1.973 получаются делением.",
+  "why_en": "1 ft² = 12 × 12 = 144 in², so 26.68 × 144 = 3,841.92 in². 3,409.92 = 23.68 × 144 is the version of this question with another number;",
+  "why_ru": "1 ft² = 12 × 12 = 144 in², значит 26.68 × 144 = 3,841.92 in². 3,409.92 = 23.68 × 144 — вариант этого вопроса с другим числом;",
   "flag": null
  },
  {
@@ -571,8 +571,8 @@
    "6361.725\"",
    "141.38\""
   ],
-  "why_en": "C = 2πR = 2 × π × 48 = 301.5929\". The other options belong to a 45\" radius: 2π × 45 = 282.743, π × 45² = 6361.725 (an area, not a length), π × 45 = 141.372 (half the circumference).",
-  "why_ru": "C = 2πR = 2 × π × 48 = 301.5929\". Остальные варианты — от радиуса 45\": 2π × 45 = 282.743, π × 45² = 6361.725 (это площадь, а не длина), π × 45 = 141.372 (половина окружности).",
+  "why_en": "C = 2πR = 2 × π × 48 = 301.5929\". The other options belong to a 45\" radius: 2π × 45 = 282.743, π × 45² = 6361.725 (an area, not a length), π × 45 = 141.372 → 141.37 (half the circumference).",
+  "why_ru": "C = 2πR = 2 × π × 48 = 301.5929\". Остальные варианты — от радиуса 45\": 2π × 45 = 282.743, π × 45² = 6361.725 (это площадь, а не длина), π × 45 = 141.372 → 141.37 (половина окружности).",
   "flag": "Options b–d are copied from the 45\" radius version of this question (SMY2W2 Monday №32)."
  },
  {
