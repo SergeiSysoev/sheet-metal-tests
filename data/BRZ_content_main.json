@@ -204,7 +204,7 @@
   "src": "BRZ",
   "n": 15,
   "topic": "materials",
-  "ru_q": "Сокращённое название пластиковой трубы для водостоков, канализации и низкотемпературных вентстояков — ____________________.",
+  "ru_q": "Сокращённое название пластиковой трубы для слива воды, канализации и низкотемпературных вентстояков — ____________________.",
   "ru_hint": null,
   "ru_opts": null,
   "why_en": "ABS (black plastic pipe) is used for DWV: drain, waste and vent lines.",
@@ -340,7 +340,7 @@
    "steel wool",
    "carborundum cloth",
    "sand cloth",
-   "all of the above"
+   "всё перечисленное"
   ],
   "why_en": "Sand cloth. Steel wool and carborundum cloth can leave steel or abrasive particles in the tube that travel with the oil to the compressor, so 'all of the above' is wrong (it lost the point on TotalTrack).",
   "why_ru": "Sand cloth. Steel wool и carborundum cloth могут оставить в трубке частицы стали или абразива, которые с маслом уйдут в компрессор, поэтому «all of the above» неверно (в TotalTrack балл снят).",
@@ -502,7 +502,7 @@
   "src": "BRZ",
   "n": 38,
   "topic": "materials",
-  "ru_q": "возникает от многократного сгибания и выпрямления трубки",
+  "ru_q": "возникает от чрезмерного сгибания и выпрямления трубки",
   "ru_hint": null,
   "ru_opts": [
    "annealing",

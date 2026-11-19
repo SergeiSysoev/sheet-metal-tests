@@ -172,6 +172,8 @@ def main():
                 item['opts'] = [{'en': e, 'ru': r} for e, r in zip(opts, ru)]
                 item['answer'] = ans
                 item['type'] = 'multi' if len(ans) > 1 else 'single'
+                if b.get('also'):
+                    item['also'] = b['also']        # also accepted (proven on graded sheets), single-choice only
             f = fig_file(b['src'], b.get('fig'))
             if f:
                 if not (ROOT / 'img' / f).exists():

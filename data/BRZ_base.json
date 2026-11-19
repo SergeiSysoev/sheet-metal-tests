@@ -215,7 +215,8 @@
   "accept": [
    "superheat",
    "temperature",
-   "перегрев"
+   "перегрев",
+   "температур"
   ],
   "answer_text": "Superheat (also accepted: temperature)",
   "fig": null,
@@ -235,7 +236,13 @@
   ],
   "answer_text": "Thread Diameter",
   "fig": null,
-  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: Thread Diameter\""
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: Thread Diameter\"",
+  "reject": [
+   "outside",
+   "inside",
+   "наружн",
+   "внутрен"
+  ]
  },
  {
   "src": "BRZ",
@@ -246,7 +253,8 @@
   "answer": null,
   "kind": "text",
   "accept": [
-   "abs"
+   "abs",
+   "acrylonitrile"
   ],
   "answer_text": "ABS",
   "fig": null,
@@ -263,6 +271,7 @@
   "accept": [
    "pe",
    "polyethylene",
+   "пэ",
    "полиэтилен"
   ],
   "answer_text": "PE",
@@ -278,7 +287,9 @@
   "answer": null,
   "kind": "text",
   "accept": [
-   "cpvc"
+   "cpvc",
+   "chlorinated polyvinyl",
+   "хпвх"
   ],
   "answer_text": "CPVC",
   "fig": null,
@@ -294,7 +305,8 @@
   "kind": "text",
   "accept": [
    "heat",
-   "тепл"
+   "тепл",
+   "нагрев"
   ],
   "answer_text": "To prevent the system from absorbing excess heat",
   "fig": null,
@@ -326,11 +338,21 @@
   "kind": "text",
   "accept": [
    "diameter",
-   "диаметр"
+   "диаметр",
+   "od",
+   "o.d"
   ],
   "answer_text": "Equal to the diameter of the original tube",
   "fig": null,
-  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: Equal to the diameter of the original tube\""
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: Equal to the diameter of the original tube\"",
+  "reject": [
+   "half",
+   "twice",
+   "double",
+   "половин",
+   "двойн",
+   "дважды"
+  ]
  },
  {
   "src": "BRZ",
@@ -464,6 +486,7 @@
   "kind": "text",
   "accept": [
    "per inch",
+   "/inch",
    "tpi",
    "на дюйм"
   ],
@@ -479,13 +502,26 @@
   "opts": null,
   "answer": null,
   "kind": "text",
-  "accept": [
-   "taper",
-   "конич"
-  ],
+  "accept": [],
   "answer_text": "National pipe taper",
   "fig": null,
-  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: National pipe taper\""
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: National pipe taper\"",
+  "all": [
+   [
+    "national",
+    "национальн"
+   ],
+   [
+    "pipe",
+    "трубн"
+   ],
+   [
+    "taper",
+    "thread",
+    "конич",
+    "резьб"
+   ]
+  ]
  },
  {
   "src": "BRZ",
@@ -496,13 +532,17 @@
   "answer": null,
   "kind": "text",
   "accept": [
-   "pvc"
+   "pvc",
+   "polyvinyl chloride",
+   "пвх"
   ],
   "answer_text": "PVC",
   "fig": null,
   "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: PVC\"",
   "reject": [
-   "cpvc"
+   "cpvc",
+   "хпвх",
+   "chlorinated"
   ]
  },
  {
@@ -519,7 +559,8 @@
    "seal",
    "герметич",
    "утеч",
-   "плотн"
+   "плотн",
+   "теч"
   ],
   "answer_text": "To produce a tight joint and prevent leakage",
   "fig": null,

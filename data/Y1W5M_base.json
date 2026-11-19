@@ -221,9 +221,9 @@
   "q": "If the scale on a drawing is listed as 1/4 scale, this means that the drawing was produced at:",
   "hint": null,
   "opts": [
-   "1/4\" = 1'- 0\"",
-   "3\" = 1'- 0\"",
-   "4\" = 1'- 0\"",
+   "1/4\" = 1'– 0\"",
+   "3\" = 1'– 0\"",
+   "4\" = 1'– 0\"",
    "3\" = 1\""
   ],
   "answer": [

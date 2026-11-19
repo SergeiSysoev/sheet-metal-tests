@@ -337,8 +337,8 @@
    "Product Labeling",
    "Component Recognition"
   ],
-  "why_en": "In the course (P613-2, Unit 2) actuators, fusible links, fans and motors are complete products evaluated for their own use, so they carry the UL Listing mark. Classification is for products judged for one property, such as fire dampers; Recognition is for parts used inside another product, such as thermostats.",
-  "why_ru": "По курсу (P613-2, Unit 2) actuators, fusible links, fans и motors — законченные изделия, которые проверяют для их собственного применения, поэтому у них марка UL Listing. Classification — для изделий, оцененных по одному свойству, как fire dampers; Recognition — для деталей внутри другого изделия, как thermostats.",
+  "why_en": "In the course (P613-2, Unit 2) actuators, fusible links, fans and motors are complete products evaluated for their own use, so they carry the UL Listing mark. Classification is for products judged for one property, such as fire dampers; Recognition is for parts used inside another product, such as thermostats. For points pick Product Listing (course key); in practice many motors carry the UL Recognized Component mark instead.",
+  "why_ru": "По курсу (P613-2, Unit 2) actuators, fusible links, fans и motors — законченные изделия, которые проверяют для их собственного применения, поэтому у них марка UL Listing. Classification — для изделий, оцененных по одному свойству, как fire dampers; Recognition — для деталей внутри другого изделия, как thermostats. Для балла ставь Product Listing (ключ курса); на практике многие motors имеют марку UL Recognized Component.",
   "flag": "Course key Product Listing; in practice many motors carry the UL Recognized Component mark rather than a Listing. Key kept."
  },
  {
@@ -354,7 +354,7 @@
    "Обязательных правил"
   ],
   "why_en": "A building code adopted by a jurisdiction is law: a set of prescribed regulations (minimum requirements) that must be met. Recommendations are not binding, which is the difference between a code and a guideline.",
-  "why_ru": "Принятый на месте building code — это закон: набор предписанных обязательных правил (минимальных требований), которые нужно выполнить. Рекомендации не обязательны — в этом и разница между code и руководством.",
+  "why_ru": "Принятый на месте building code — это закон: набор предписанных правил (минимальных требований), которые нужно выполнить. Рекомендации не обязательны — в этом и разница между code и руководством.",
   "flag": null
  },
  {
@@ -443,8 +443,8 @@
    "Thermostats",
    "Floors"
   ],
-  "why_en": "Component recognition is for parts that go inside a larger product and are checked as part of it; the course (P613-2, Unit 2) gives thermostats as the example. Barriers and floors are building assemblies, not components, and the course groups motors with listed products.",
-  "why_ru": "Component recognition — для деталей, которые ставят внутрь более крупного изделия и проверяют в его составе; курс (P613-2, Unit 2) приводит пример — thermostats. Barriers и floors — конструкции здания, а не компоненты, а motors курс относит к listed-изделиям.",
+  "why_en": "Component recognition is for parts that go inside a larger product and are checked as part of it; the course (P613-2, Unit 2) gives thermostats as the example. Barriers and floors are building assemblies, not components, and the course groups motors with listed products. For points pick Thermostats (course key); technically motors are often UL Recognized Components too.",
+  "why_ru": "Component recognition — для деталей, которые ставят внутрь более крупного изделия и проверяют в его составе; курс (P613-2, Unit 2) приводит пример — thermostats. Barriers и floors — конструкции здания, а не компоненты, а motors курс относит к listed-изделиям. Для балла ставь Thermostats (ключ курса); технически motors тоже часто идут как UL Recognized Component.",
   "flag": null
  },
  {
@@ -629,8 +629,8 @@
    "Multi-blade",
    "Curtain"
   ],
-  "why_en": "A multi-blade damper has blades, linkage and often an actuator on the outside of the sleeve, so it needs a larger space envelope. A curtain damper folds its blades into a compact pack at the top of the frame.",
-  "why_ru": "У multi-blade damper лопатки, тяги и часто actuator снаружи sleeve, поэтому ему нужно больше space envelope. У curtain damper лопатки сложены компактным пакетом вверху рамы.",
+  "why_en": "A multi-blade damper has its linkage and often an actuator mounted outside the sleeve (the blades sit inside the frame), so it needs a larger space envelope. A curtain damper folds its blades into a compact pack at the top of the frame.",
+  "why_ru": "У multi-blade damper тяги и часто actuator стоят снаружи sleeve (лопатки — внутри рамы), поэтому ему нужно больше space envelope. У curtain damper лопатки сложены компактным пакетом вверху рамы.",
   "flag": null
  },
  {
@@ -1001,7 +1001,7 @@
   "src": "FSD",
   "n": 502,
   "topic": "safety",
-  "ru_q": "Почему не рекомендуется ставить actuators внутри (в потоке воздуха)?",
+  "ru_q": "Почему не рекомендуется ставить actuators внутри?",
   "ru_hint": null,
   "ru_opts": [
    "Внутренние actuators хуже выглядят",
@@ -1041,8 +1041,8 @@
    "Направить RFI",
    "Спросить HVAC foreman"
   ],
-  "why_en": "Sealing the angles may conflict with the manufacturer’s listed installation instructions (they normally say no caulk between angles and sleeve), so the contractor issues an RFI and gets a written answer from the design team. Asking the manufacturer or the foreman does not resolve a conflict between the AHJ and the documents.",
-  "why_ru": "Герметизация angles может противоречить листингованной инструкции производителя (обычно герметик между angles и sleeve не кладут), поэтому подрядчик направляет RFI и получает письменный ответ проектировщиков. Консультация с производителем или foreman не снимает противоречия между AHJ и документами.",
+  "why_en": "The manufacturer's listed instructions install the damper without caulk between the retaining angles and the sleeve, and say sealing there is done only at the direction of the AHJ. So when the AHJ requires it and the project documents don't show it, the contractor issues an RFI and gets a written decision from the design team. Asking the manufacturer or the foreman does not change the documents.",
+  "why_ru": "По листингованной инструкции производителя между retaining angles и sleeve герметик не кладут, а герметизация там делается только по указанию AHJ. Если AHJ этого требует, а в проектной документации этого нет, подрядчик направляет RFI и получает письменное решение проектировщиков. Вопрос к производителю или foreman документы не меняет.",
   "flag": null
  },
  {
@@ -1361,8 +1361,8 @@
    "Static damper или dynamic",
    "Как damper приводится в действие"
   ],
-  "why_en": "In the course (P613-2, Unit 4) operability means how a damper is activated — fusible link, heat sensor, actuator. \"How easy a damper is to use\" is the everyday meaning of the word and the trap. FSD-419 asks the same definition as True/False.",
-  "why_ru": "По курсу (P613-2, Unit 4) operability — это то, как damper приводится в действие: fusible link, термодатчик, actuator. «Насколько удобен в работе» — бытовой смысл слова и ловушка. FSD-419 спрашивает то же определение как «верно / неверно».",
+  "why_en": "In the course (P606 Fire Life Safety Level 1 Technician, Unit 4) operability means how a damper is activated — fusible link, heat sensor, actuator. \"How easy a damper is to use\" is the everyday meaning of the word and the trap. FSD-419 asks the same definition as True/False.",
+  "why_ru": "По курсу (P606 Fire Life Safety Level 1 Technician, Unit 4) operability — это то, как damper приводится в действие: fusible link, термодатчик, actuator. «Насколько удобен в работе» — бытовой смысл слова и ловушка. FSD-419 спрашивает то же определение как «верно / неверно».",
   "flag": null
  }
 ]

@@ -183,8 +183,8 @@
    "GFCI",
    "Fuse"
   ],
-  "why_en": "A GFCI trips when the current going out and coming back differ by about 4–6 mA, i.e. current leaking through a person, within a fraction of a second. A circuit breaker or fuse protects the wiring and opens only at many amps. OSHA 1926.404(b)(1) requires GFCI protection on construction sites.",
-  "why_ru": "GFCI отключает цепь за доли секунды, когда ток «туда» и «обратно» отличается примерно на 4–6 mA, то есть ток уходит через человека. Circuit breaker и fuse защищают проводку и срабатывают только при токе в амперы. OSHA 1926.404(b)(1) требует GFCI на стройке.",
+  "why_en": "A GFCI trips when the current going out and coming back differ by about 4–6 mA, i.e. current leaking through a person, within a fraction of a second. A circuit breaker or fuse protects the wiring and opens only at many amps. On construction sites OSHA 1926.404(b)(1) requires GFCI protection or an assured equipment grounding conductor program.",
+  "why_ru": "GFCI отключает цепь за доли секунды, когда ток «туда» и «обратно» отличается примерно на 4–6 mA, то есть ток уходит через человека. Circuit breaker и fuse защищают проводку и срабатывают только при токе в амперы. На стройке OSHA 1926.404(b)(1) требует GFCI или программу проверки заземления инструмента (assured equipment grounding conductor program).",
   "flag": null
  },
  {
@@ -433,8 +433,8 @@
    "305.1",
    "305.098"
   ],
-  "why_en": "The two R6\" ends make one full circle: π × 6² = 113.097; the rectangle between them is 1'-4\" × 12\" = 16 × 12 = 192. Total 305.0973 sq in → 305.1 (c), accepted on both graded sheets. d 305.098 is the same area worked with π = 3.1416 (305.0976); with full π it would round to 305.097.",
-  "why_ru": "Два конца R6\" вместе дают полный круг: π × 6² = 113.097; прямоугольник между ними — 1'-4\" × 12\" = 16 × 12 = 192. Итого 305.0973 sq in → 305.1 (c), этот ответ не сняли ни на одном проверенном листе. d 305.098 — та же площадь, посчитанная с π = 3.1416 (305.0976); с полным π было бы 305.097.",
+  "why_en": "The two R6\" ends make one full circle: π × 6² = 113.097; the rectangle between them is 1'-4\" × 12\" = 16 × 12 = 192. Total 305.0973 sq in; with π = 3.1416 (the value this test uses in №37) 305.0976 → d 305.098, the most precise option. c 305.1 is the same area rounded to one decimal and was accepted on both graded sheets, so both count here.",
+  "why_ru": "Два конца R6\" вместе дают полный круг: π × 6² = 113.097; прямоугольник между ними — 1'-4\" × 12\" = 16 × 12 = 192. Итого 305.0973 sq in; с π = 3.1416 (это значение задаёт сам тест в №37) 305.0976 → d 305.098, самый точный вариант. c 305.1 — та же площадь с округлением до десятых, её засчитали на обоих проверенных листах, поэтому здесь засчитываются оба.",
   "flag": "Knowledge base 08 §10 lists d 305.098 ('most precise'). Set to c: c is the exact area rounded to 0.1 and was accepted on both graded sheets (Trade Intro, SMY1W3); d holds only with pi = 3.1416 (full pi gives 305.097)."
  },
  {
@@ -544,10 +544,10 @@
    "108' 3-5/16\"",
    "103' 3-5/16\"",
    "106' 1-9/16\"",
-   "None of the above"
+   "Ни один из перечисленных"
   ],
-  "why_en": "Arcs are quarter circles: 8'R → 2π × 8 ÷ 4 = 12.5664'; 5'R → 7.8540'. Slope: 8 ÷ sin 30° = 16' (its run 8 ÷ tan 30° = 13.8564'). Unlabeled straights from totals: top + step = 18 + 13.8564 − 8 − 5 = 18.8564'; right verticals = 28 − 5 − 8 = 15'. Sum: 12 + 12.5664 + 8 + 18.8564 + 7.8540 + 15 + 16 + 18 = 108.2768' = 108' 3.32\" → 108' 3-5/16\".",
-  "why_ru": "Дуги — четверти окружности: 8'R → 2π × 8 ÷ 4 = 12.5664'; 5'R → 7.8540'. Наклон: 8 ÷ sin 30° = 16' (по горизонтали 8 ÷ tan 30° = 13.8564'). Прямые без размеров — из общих размеров: верх + ступенька = 18 + 13.8564 − 8 − 5 = 18.8564'; правые вертикали = 28 − 5 − 8 = 15'. Сумма: 12 + 12.5664 + 8 + 18.8564 + 7.8540 + 15 + 16 + 18 = 108.2768' = 108' 3.32\" → 108' 3-5/16\".",
+  "why_en": "Arcs are quarter circles: 8'R → 2π × 8 ÷ 4 = 12.5664'; 5'R → 7.8540'. Slope: 8 ÷ sin 30° = 16' (its run 8 ÷ tan 30° = 13.8564'). Unlabeled straights from totals: top + step = 18 + 13.8564 − 8 − 5 = 18.8564'; right verticals = 28 − 5 − 8 = 15' (28' is the overall height on the left: 12 + 8 + 8). Sum: 12 + 12.5664 + 8 + 18.8564 + 7.8540 + 15 + 16 + 18 = 108.2768' = 108' 3.32\" → 108' 3-5/16\".",
+  "why_ru": "Дуги — четверти окружности: 8'R → 2π × 8 ÷ 4 = 12.5664'; 5'R → 7.8540'. Наклон: 8 ÷ sin 30° = 16' (по горизонтали 8 ÷ tan 30° = 13.8564'). Прямые без размеров — из общих размеров: верх + ступенька = 18 + 13.8564 − 8 − 5 = 18.8564'; правые вертикали = 28 − 5 − 8 = 15' (28' — общая высота по левой стороне: 12 + 8 + 8). Сумма: 12 + 12.5664 + 8 + 18.8564 + 7.8540 + 15 + 16 + 18 = 108.2768' = 108' 3.32\" → 108' 3-5/16\".",
   "flag": null
  }
 ]

@@ -487,11 +487,14 @@
    "305.098"
   ],
   "answer": [
-   2
+   3
   ],
   "kind": null,
   "fig": "q51",
-  "evidence": "Calculation pi*6^2 + 12*16 = 305.0973; c 305.1 not marked wrong on both graded sheets (Trade Intro, SMY1W3)"
+  "evidence": "Calculation pi*6^2 + 12*16 = 305.0973; c 305.1 not marked wrong on both graded sheets (Trade Intro, SMY1W3)",
+  "also": [
+   2
+  ]
  },
  {
   "src": "Y1W3",

@@ -25,8 +25,8 @@
    "Да",
    "Нет"
   ],
-  "why_en": "Snips are grouped by blade shape: straight blades for straight cuts and gentle outside curves, combination blades for both straight lines and curves.",
-  "why_ru": "Snips делят по форме лезвий: straight blade — для прямых резов и плавных наружных кривых, combination blade — и для прямых, и для кривых.",
+  "why_en": "Snips are grouped by blade shape: straight blades for straight cuts and gentle outside curves, combination blades for both straight lines and curves. Note: not confirmed by a graded key or a course sheet; the graded sheet only did not mark \"Yes\" as wrong.",
+  "why_ru": "Snips делят по форме лезвий: straight blade — для прямых резов и плавных наружных кривых, combination blade — и для прямых, и для кривых. Внимание: проверенного ключа и листа курса нет; на проверенном листе «Yes» просто не отмечено как ошибка.",
   "flag": "Only basis: the graded sheet did not mark Yes wrong. No course sheet with this classification was found."
  },
  {
