@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 197.14" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="600" height="197.14" fill="#fff"/>
+<line x1="231.43" y1="31.43" x2="231.43" y2="174.29" fill="none" stroke="#111" stroke-width="12" stroke-linecap="butt"/>
+<line x1="304.29" y1="31.43" x2="304.29" y2="174.29" fill="none" stroke="#111" stroke-width="12" stroke-linecap="butt"/>
+<line x1="17.14" y1="170" x2="225.71" y2="170" fill="none" stroke="#111" stroke-width="7.5" stroke-dasharray="27 16" stroke-linecap="butt"/>
+<line x1="237.14" y1="170" x2="284.29" y2="170" fill="none" stroke="#111" stroke-width="7.5" stroke-linecap="butt"/>
+<line x1="310" y1="170" x2="582.86" y2="170" fill="none" stroke="#111" stroke-width="7.5" stroke-dasharray="27 16" stroke-linecap="butt"/>
+</svg>

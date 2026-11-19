@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 268.89" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="600" height="268.89" fill="#fff"/>
+<line x1="31.11" y1="86.67" x2="214.44" y2="86.67" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<line x1="214.44" y1="86.67" x2="388.89" y2="103.33" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<line x1="388.89" y1="103.33" x2="561.11" y2="103.33" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<line x1="31.11" y1="235.56" x2="561.11" y2="235.56" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<line x1="214.44" y1="86.67" x2="214.44" y2="235.56" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<line x1="388.89" y1="103.33" x2="388.89" y2="235.56" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<polyline points="31.11,77.78 31.11,154.67 16.11,162.67 46.11,170.67 31.11,178.67 31.11,246.67" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<polyline points="561.11,94.44 561.11,145.78 546.11,153.78 576.11,161.78 561.11,169.78 561.11,246.67" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<polyline points="214.44,218.56 231.44,218.56 231.44,235.56" fill="none" stroke="#111" stroke-width="1.15" stroke-linejoin="miter"/>
+<text x="297.78" y="126.03" font-size="17" text-anchor="middle" fill="#111">TU</text>
+<line x1="260" y1="135.56" x2="351.11" y2="135.56" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<polygon points="351.11,135.56 338.11,139.06 338.11,132.06" fill="#111" stroke="none"/>
+<polygon points="255.56,146.67 325.56,146.67 325.56,166.67 255.56,166.67" fill="none" stroke="#111" stroke-width="1.76" stroke-linejoin="miter"/>
+<text x="108.89" y="149.37" font-size="17" text-anchor="middle" fill="#111">16" x 12"</text>
+<text x="113.33" y="192.7" font-size="17" text-anchor="middle" fill="#111">BOD= 9' 3-3/4"</text>
+<text x="475.56" y="141.59" font-size="17" text-anchor="middle" fill="#111">14" x 8"</text>
+<text x="473.33" y="186.03" font-size="17" text-anchor="middle" fill="#111">BOD= 10' 1"</text>
+<text x="303.33" y="30.48" font-size="17" text-anchor="middle" fill="#111">PLAN VIEW</text>
+</svg>

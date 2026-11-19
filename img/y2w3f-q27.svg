@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 496.28" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="440" height="496.28" fill="#fff"/>
+<polygon points="74.44,427.47 196.21,92.35 313.44,252.28" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<line x1="200.24" y1="89.39" x2="281.91" y2="29.53" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="317.47" y1="249.33" x2="399.14" y2="189.47" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="276.26" y1="33.67" x2="324.91" y2="100.04" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="344.85" y1="127.24" x2="393.49" y2="193.61" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<polygon points="276.26,33.67 286.77,42.09 281.13,46.23" fill="#111" stroke="none"/>
+<polygon points="393.49,193.61 382.98,185.19 388.63,181.05" fill="#111" stroke="none"/>
+<text x="334.88" y="120.74" font-size="20" text-anchor="middle" font-weight="bold" fill="#111">132 3\16"</text>
+<line x1="77.4" y1="431.5" x2="107.77" y2="472.93" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="316.4" y1="256.32" x2="346.77" y2="297.75" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="103.63" y1="467.29" x2="204.57" y2="393.3" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="241.68" y1="366.1" x2="342.63" y2="292.11" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<polygon points="103.63,467.29 112.05,456.78 116.18,462.42" fill="#111" stroke="none"/>
+<polygon points="342.63,292.11 334.21,302.61 330.07,296.97" fill="#111" stroke="none"/>
+<text x="223.13" y="386.8" font-size="20" text-anchor="middle" font-weight="bold" fill="#111">94 3\16"</text>
+<path d="M181.73,348.82 A133.02,133.02 0 0 0 119.87,302.44" fill="none" stroke="#111" stroke-width="1.15"/>
+<polygon points="181.73,348.82 173.41,342.66 177.63,339.31" fill="#111" stroke="none"/>
+<polygon points="119.87,302.44 130.15,303.71 128.12,308.7" fill="#111" stroke="none"/>
+<polyline points="119.87,302.44 76.74,297.51" fill="none" stroke="#111" stroke-width="1.15" stroke-linejoin="miter"/>
+<text x="57.56" y="306.19" font-size="23" text-anchor="middle" font-weight="bold" fill="#111">θ</text>
+</svg>

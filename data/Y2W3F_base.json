@@ -1,0 +1,749 @@
+[
+ {
+  "src": "Y2W3F",
+  "n": 1,
+  "q": "Radiation dampers are dampers designed to close off a/an ______.",
+  "hint": null,
+  "opts": [
+   "outlet.",
+   "doorway.",
+   "reactor.",
+   "generator."
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): a not marked wrong; FSD course P613-2 (UL 555C)"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 2,
+  "q": "Ceiling radiation dampers are not assigned:",
+  "hint": null,
+  "opts": [
+   "Hourly fire ratings",
+   "Product approvals",
+   "UL listing",
+   "Membrane inspections"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): a not marked wrong; UL 555C"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 3,
+  "q": "Fire dampers are for use in:",
+  "hint": null,
+  "opts": [
+   "Static or dynamic systems",
+   "Only dynamic systems",
+   "Smoke barriers",
+   "Non-rated walls"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): a not marked wrong; FSD course (static / dynamic); Aire Technologies Series 30 manual (msg_955)"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 4,
+  "q": "Fire dampers are commonly rated for:",
+  "hint": null,
+  "opts": [
+   "1,2,3,4 hours",
+   "1 or 2 hours",
+   "1 1/2 or 3 hours",
+   "2 or 4 hours"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): c not marked wrong; TotalTrack FSD official 'Correct Answer' (barrier < 3 h → 1 1/2 h, ≥ 3 h → 3 h)"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 5,
+  "q": "Acceptance testing of the HVAC system, including testing of all fire dampers, smoke dampers, and ceiling dampers is conducted in accordance with:",
+  "hint": null,
+  "opts": [
+   "The requirements of the standards and the codes",
+   "Guidelines for indoor air quality",
+   "Specifications that are the same from job to job",
+   "Manufacturer instructions"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): a not marked wrong"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 7,
+  "q": "A shear load pulls straight down and is less likely to pull the fastener out.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Question struck out by the instructor on the graded sheet (msg_1296, total changed 69 → 68); answer from the course definition 'a load placed at right angles to the fastener is a shear load' (SMY1W3 №27)"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 9,
+  "q": "______ should be stamped on the saddle of a hoisting hook.",
+  "hint": null,
+  "opts": [
+   "The name of the manufacturer",
+   "The SWL (safe working load)",
+   "The date of manufacture",
+   "The country of origin"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): b not marked wrong; knowledge 08 §11.16"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 10,
+  "q": "When can you extend a slings length by knotting or tying them together?",
+  "hint": null,
+  "opts": [
+   "Never",
+   "Only when the slings are synthetic.",
+   "Only when the slings are wire rope.",
+   "Only when they have the same capacity rating."
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): a not marked wrong; OSHA 1910.184(c); knowledge 08 §11.16"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 11,
+  "q": "A qualified person in rigging is someone with:",
+  "hint": null,
+  "opts": [
+   "a certification card.",
+   "lots of practice.",
+   "an employee of the general contractor on the job site.",
+   "the required knowledge and training from completing a rigging program."
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): d not marked wrong; knowledge 08 §11.16"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 12,
+  "q": "When taking and recording measurements:",
+  "hint": null,
+  "opts": [
+   "the 3-4-5 triangle can be used to check for squareness",
+   "the 6-8-10 triangle can be used to check for squareness",
+   "the 12-16-20 triangle can be used to check for squareness",
+   "all answers are correct"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Calculation; SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): d not marked wrong"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 13,
+  "q": "How many cubic feet are there in 3 cubic yards?",
+  "hint": null,
+  "opts": [
+   "81 cubic feet",
+   "27 cubic feet",
+   "1728 cubic feet",
+   "46656 cubic feet"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Calculation; SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): a not marked wrong"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 14,
+  "q": "What type of connection uses drift pins or bolts to align and hold flanges?",
+  "hint": null,
+  "opts": [
+   "patented duct connection",
+   "S and drives",
+   "companion flanges",
+   "prefabricated"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): c not marked wrong; SMY1W3 №26 (companion = angle iron riveted or welded to the duct)"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 15,
+  "q": "Professionalism is ______.",
+  "hint": null,
+  "opts": [
+   "getting paid to perform detailing tasks",
+   "dressing in \"office casual\" attire",
+   "acting like the occupants of the work site",
+   "representing the trade and the company in a positive light"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): d not marked wrong"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 16,
+  "q": "A useful guiding principle when working in occupied sites is to ______.",
+  "hint": null,
+  "opts": [
+   "behave like you are entering someone's house",
+   "don't bring PPE until you are sure it's necessary",
+   "chat with occupants so they learn what's needed to take accurate measurements",
+   "assume field measurements take priority over occupant meetings"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306), msg_1297: −1 for c, instructor circled a"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 17,
+  "q": "When you are taking field measurements, without ______ none of your measurements will be useful for making shop drawings.",
+  "hint": null,
+  "opts": [
+   "an electronic instrument",
+   "a control point",
+   "an unobstructed view",
+   "arriving before the other trades"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): b not marked wrong; knowledge 08 §11.17"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 18,
+  "q": "A control point ______.",
+  "hint": null,
+  "opts": [
+   "must be on a load-bearing structure",
+   "is optional, depending on building features",
+   "is calculated using the phythagorean theorem",
+   "should be on an immovable building feature"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): d not marked wrong; knowledge 08 §11.17"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 19,
+  "q": "A helpful technique for finding the height of an object whose height cannot be measured directly is to ______.",
+  "hint": null,
+  "opts": [
+   "look for an object that has a similar height and use that to estimate",
+   "measure the part of the height that CAN be measured, and then use a level and folding rule to measuring the remaining height",
+   "envision a right triangle and use trigonometry to calculate the height",
+   "use graph paper to sketch the object, and then measure the sketch"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): c not marked wrong"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 20,
+  "q": "Which of the following are consequences of poor field measurement?",
+  "hint": null,
+  "opts": [
+   "wasted materials",
+   "additional labor hours to complete the job",
+   "unnecessary trips to the job site",
+   "all answers are correct"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): d not marked wrong"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 21,
+  "q": "If you have a net monthly income of $2500 and a monthly house payment of $875,what percentage of your net income is spent for housing?",
+  "hint": null,
+  "opts": [
+   "35%",
+   "65%",
+   "34.75%",
+   "32.3%"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Calculation; SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): a not marked wrong"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 23,
+  "q": "Calculate the missing Top Up dimension (difference of the duct's top elevations) as shown on the transition.",
+  "hint": null,
+  "opts": [
+   "4-1/4\"",
+   "9-1/8\"",
+   "9-1/4\"",
+   "5.25\""
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": "q23",
+  "evidence": "Calculation; SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): d not marked wrong"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 24,
+  "q": "Solve the length of dimension A.",
+  "hint": null,
+  "opts": [
+   "1.97\"",
+   "2\"",
+   "2.125\"",
+   "1-15/16\""
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": "q24",
+  "evidence": "Calculation; SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): b not marked wrong"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 25,
+  "q": "Solve the length of dimension \"x\".",
+  "hint": null,
+  "opts": [
+   "29.9376\"",
+   "297-1/2\"",
+   "99",
+   "29.938\""
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": "q25",
+  "evidence": "Calculation; SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): d not marked wrong"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 26,
+  "q": "Solve the length of dimension \"x\".",
+  "hint": null,
+  "opts": [
+   "7.1532\"",
+   "5.9302\"",
+   "7-1/16\"",
+   "6\""
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": "q26",
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306), msg_1300: −1 for b, instructor circled a; calculation"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 27,
+  "q": "Solve for the missing angle.",
+  "hint": null,
+  "opts": [
+   "35.471 degrees",
+   "35.48 degrees",
+   "54.53 degrees",
+   "54.52 degrees"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": "q27",
+  "evidence": "Calculation; SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): c not marked wrong"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 29,
+  "q": "You have just fabricated 250 pieces of the sample shown in the image out of 14 ga. And now you have to calculate the weight in order to ship them. 14ga. weighs 3.2 lbs. per square foot. Calculate the weight to ship 250 pieces to the closest pound.",
+  "hint": null,
+  "opts": [
+   "878 lbs",
+   "464 lbs",
+   "312 lbs",
+   "515 lbs"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": "q29",
+  "evidence": "Calculation; SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): b not marked wrong"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 30,
+  "q": "Select the 2 best answers for dimensions \"L\" and \"D\" rounded to 3 decimals.",
+  "hint": null,
+  "opts": [
+   "19.432\"",
+   "39.458\"",
+   "55.138\"",
+   "78.718\"",
+   "48.172\"",
+   "71.751\""
+  ],
+  "answer": [
+   3,
+   4
+  ],
+  "kind": null,
+  "fig": "q30",
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306), msg_1301: −2 for c + f, instructor circled d and e; calculation (knowledge 08 §11.13, extracts/_existing_tg.md §B)"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 31,
+  "q": "Select the 2 best answers for dimensions \"L\" and \"D\" rounded to 3 decimals.",
+  "hint": null,
+  "opts": [
+   "8.01185\"",
+   "9.012\"",
+   "9.011\"",
+   "8.012\"",
+   "16.523\"",
+   "76.892\"",
+   "31.522\"",
+   "64.901\"",
+   "41.391\""
+  ],
+  "answer": [
+   3,
+   7
+  ],
+  "kind": null,
+  "fig": "q31",
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306), msg_1302: −1, instructor marked d and h; calculation (extracts/_existing_tg.md §B)"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 32,
+  "q": "Select the 4 best answers for a shear list of the sides of the transition shown in the image. Male Pittsburgh's (1/4\") on the top and bottom, female Pittsburgh's (1\") on the sides.",
+  "hint": null,
+  "opts": [
+   "Left = 18.125\" x 14\"",
+   "Left = 16\" x 12.25\"",
+   "Left = 14\" x 16\"",
+   "Right = 16\" x 18-1/8\"",
+   "Right = 18-1/8 x 14\"",
+   "Right = 16\" x 14\"",
+   "Top = 16\" x 17.25\"",
+   "Top = 16\" x 16.5\"",
+   "Top = 16-1/2\" x 17.25\"",
+   "Bottom = 16-1/2\" x 16-13/16\"",
+   "Bottom = 17-1/8\" x 16",
+   "Bottom = 17-1/4\" x 16-1/2\""
+  ],
+  "answer": [
+   2,
+   4,
+   7,
+   11
+  ],
+  "kind": null,
+  "fig": "q32",
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306), msg_1302: −1, instructor checked c, e, h and circled l (the student had j); calculation by the course cut-list method (knowledge 04; course example 14x10→10x8 checked)"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 36,
+  "q": "A shop tool that is used as dividers for very large measurements are known as",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": null,
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): not marked wrong; knowledge 06",
+  "accept": [
+   "trammel"
+  ],
+  "answer_text": "Trammel points"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 37,
+  "q": "What is the decimal equivalent for 3/8\"?",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": null,
+  "evidence": "Calculation; SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): not marked wrong",
+  "accept": [
+   ".375"
+  ],
+  "answer_text": ".375"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 39,
+  "q": "Name 2 different types of press brakes.",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": null,
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): 2 points, not marked wrong; knowledge 06",
+  "accept": [],
+  "answer_text": "Mechanical and hydraulic",
+  "all": [
+   [
+    "mechanical",
+    "механ"
+   ],
+   [
+    "hydraulic",
+    "гидрав"
+   ]
+  ]
+ },
+ {
+  "src": "Y2W3F",
+  "n": 40,
+  "q": "What does OSHA stand for?",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": null,
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): not marked wrong",
+  "accept": [
+   "occupational safety and health administration",
+   "occupational safety & health administration"
+  ],
+  "answer_text": "Occupational Safety and Health Administration"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 42,
+  "q": "What is the name of one of Americas most famous metal workers that started a copper rolling mill in 1801 with the help of a government loan?",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": null,
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): not marked wrong; SMY1W3 №4 (Paul Revere)",
+  "accept": [
+   "revere",
+   "ревир"
+  ],
+  "answer_text": "Paul Revere"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 45,
+  "q": "The proper angle to the ground for the ladder is 60 degrees?",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): b not marked wrong; OSHA 1926.1053(b)(5)(i); knowledge 08 §11.16"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 52,
+  "q": "7 steel joists are 6'- 4\" apart center to center. The distance, center to center, between the two outside joists is 38'.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Calculation; SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): a not marked wrong"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 53,
+  "q": "The area of a circle is given as 26.68 square feet. What is the area in square inches?",
+  "hint": null,
+  "opts": [
+   "1.97",
+   "1.973",
+   "3,841.92",
+   "3,409.92"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Calculation; SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): c not marked wrong"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 54,
+  "q": "What is the circumference of a circle with a 48” radius?",
+  "hint": null,
+  "opts": [
+   "301.5929\"",
+   "282.743\"",
+   "6361.725\"",
+   "141.38\""
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Calculation; SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): a not marked wrong"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 57,
+  "q": "A duct is to be 324 square inches. What are the dimensions of the sides of a square duct?",
+  "hint": null,
+  "opts": [
+   "16\"",
+   "18\"",
+   "1.777\"",
+   "32\""
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Calculation; SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): b not marked wrong"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 58,
+  "q": "How many cubic inches are there in 3 cubic feet?",
+  "hint": null,
+  "opts": [
+   "1728",
+   "5184",
+   "144",
+   "516"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Calculation; SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): b not marked wrong"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 59,
+  "q": "Calculate and select the shear list for a 16\" round 6-piece 70-degree elbow with an 16\"throat radius. Include allowances (1/2\" for seams and 1/4\" for gore laps) and 2\" of straight at each end.",
+  "hint": null,
+  "opts": [
+   "34-11/16\" x 50-3/4\"",
+   "34-3/4\" x 50-3/4\"",
+   "50-1/4\" x 34-11/16\"",
+   "50.7654\" x 34.728\""
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Course formula (Formula Sheets p29–30, knowledge 03 §11); SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306): a not marked wrong"
+ },
+ {
+  "src": "Y2W3F",
+  "n": 60,
+  "q": "What is the degree of miter line on the end gore of a 5-piece, 75-degree elbow?",
+  "hint": null,
+  "opts": [
+   "9.375 degrees",
+   "15 degrees",
+   "11.25 degrees",
+   "7.5 degrees"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W3 Friday graded sheet of another student (57/68; msg_1295-1306), msg_1306: −1 for c, instructor wrote '5 pc → 8 (K), 75° ÷ 8 = 9.375°'; knowledge 08 §11.18"
+ }
+]

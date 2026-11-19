@@ -1,0 +1,106 @@
+[
+ {
+  "src": "Y2W3M",
+  "n": 20,
+  "topic": "welding",
+  "ru_q": "Каков tensile strength (предел прочности на разрыв) у проволоки electrode ER70S-6?",
+  "ru_hint": null,
+  "ru_opts": [
+   "1800 lbs.",
+   "18000 lbs.",
+   "7000 lbs.",
+   "70000 lbs."
+  ],
+  "why_en": "In the wire classification ER70S-6 (AWS A5.18) the \"70\" is the minimum tensile strength in thousands of psi: 70 × 1000 = 70000 psi. The test writes the unit as \"lbs.\"; the correct unit is pounds per square inch. 7000 drops a zero.",
+  "why_ru": "В обозначении проволоки ER70S-6 (AWS A5.18) «70» — минимальный tensile strength в тысячах psi: 70 × 1000 = 70000 psi. В тесте единица записана как «lbs.», правильно — psi (фунты на квадратный дюйм). В 7000 потерян ноль.",
+  "flag": "Typo in the original: 'a ER70S-6' (should be 'an'); unit printed as 'lbs.' instead of psi. Kept as a separate question: differs from SMY2W2 Friday №21 by 'a' and the word 'wire'."
+ },
+ {
+  "src": "Y2W3M",
+  "n": 23,
+  "topic": "weldsym",
+  "ru_q": "Какой тип сварного шва обозначает этот символ:",
+  "ru_hint": null,
+  "ru_opts": [
+   "spot",
+   "flare bevel",
+   "fillet",
+   "square groove"
+  ],
+  "why_en": "Two parallel lines standing on the reference line are the square-groove symbol: the edges are left square (not beveled) and butted together. A fillet is a right triangle, a flare bevel is one straight line plus a curve, and a spot weld is a circle.",
+  "why_ru": "Две параллельные черты на reference line — символ square groove: кромки не скашивают, торцы стыкуют прямо. Fillet — прямоугольный треугольник, flare bevel — прямая черта плюс дуга, spot — кружок.",
+  "flag": "Same symbol as Welding & Layout №27, but the options differ (spot / flare bevel / fillet / square groove)."
+ },
+ {
+  "src": "Y2W3M",
+  "n": 52,
+  "topic": "tools",
+  "ru_q": "Если перед следующим резом вставлять snips до самого конца предыдущего реза, это помогает избежать ______.",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "Fish hooks are the small hooked slivers left on the edge when each new bite of the snips starts short of the end of the last cut, or when the blades are closed all the way to the tip. Pushing the snips fully into the end of the previous cut gives one smooth, continuous edge. \"Double cutting\" is not the name of this defect.",
+  "why_ru": "Fish hooks — мелкие заусенцы-крючки на кромке: они остаются, когда новый рез snips начинают, не дойдя до конца прошлого, или смыкают лезвия до самого кончика. Если вставлять snips до конца предыдущего реза, кромка выходит ровной и сплошной. «Double cutting» — не название этого дефекта.",
+  "flag": "Typed answer. The other student wrote 'double cutting' and lost the point."
+ },
+ {
+  "src": "Y2W3M",
+  "n": 53,
+  "topic": "tools",
+  "ru_q": "Brake capacity указывают для гибки ______ стали.",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "A brake's rated capacity (for example 10 ft × 16 ga) is the maximum thickness and length of mild steel it can bend. Stainless and other harder steels need more force, so the same brake bends them only in a thinner gauge.",
+  "why_ru": "Brake capacity — паспортная мощность brake (например, 10 ft × 16 ga): максимальная толщина и длина mild steel, которую он гнёт. Stainless и другие более твёрдые стали гнуть тяжелее, поэтому тот же brake гнёт их только тоньше.",
+  "flag": "Typed answer: the word for the blank is 'mild'. The other student wrote 'the maximum thickness and width' and lost 0.5."
+ },
+ {
+  "src": "Y2W3M",
+  "n": 55,
+  "topic": "math",
+  "ru_q": ".875 — десятичная запись какой дроби?",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": ".875 × 8 = 7, so .875 = 7/8 (1/8 = 0.125, 7 × 0.125 = 0.875).",
+  "why_ru": ".875 × 8 = 7, значит .875 = 7/8 (1/8 = 0.125, 7 × 0.125 = 0.875).",
+  "flag": "Typed answer: 7/8."
+ },
+ {
+  "src": "Y2W3M",
+  "n": 57,
+  "topic": "tools",
+  "ru_q": "Валки (roll), у которых один конец на шарнире (hinged) поднимается, чтобы снять готовое изделие, называются ______ roll.",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "Slip rolls have a hinged (drop) end: the top roll is released and swung up so a rolled pipe can slide off the end. Pyramid rolls and the roll forming machine have no such end.",
+  "why_ru": "У slip rolls один конец откидной: верхний вал освобождают и поднимают, и свёрнутую трубу снимают с торца. У pyramid rolls и у roll forming machine такого конца нет.",
+  "flag": "Typed answer: 'slip'."
+ },
+ {
+  "src": "Y2W3M",
+  "n": 60,
+  "topic": "drawing",
+  "ru_q": "Самые распространённые чертёжные треугольники — 45/45/90 и 30/60/90.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "A drafting set has two triangles, the 45/45/90 and the 30/60/90. Together with a T-square they draw lines in 15° steps (30, 45, 60, 75, 90…). These are the two standard triangles, so Yes.",
+  "why_ru": "Чертёжный набор — два треугольника: 45/45/90 и 30/60/90. Вместе с рейсшиной (T-square) они дают линии с шагом 15° (30, 45, 60, 75, 90…). Это два стандартных треугольника, поэтому «Да».",
+  "flag": "Kept separate from Welding & Layout №62 ('45 / 90 and the 30 / 60'): the printed numbers differ. The other student answered No; the instructor circled Yes (no deduction written next to it; the written deductions add up to 7.5 while the sheet says −6.5)."
+ },
+ {
+  "src": "Y2W3M",
+  "n": 74,
+  "topic": "tools",
+  "ru_q": "Резать mild steel 12 gauge на power shear 816 можно, если лист длиной не больше 4'.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "816 means 8 ft maximum cutting length and 16 gauge maximum thickness. 12 ga is thicker than 16 ga (the higher the gauge number, the thinner the sheet), so it is over the shear's capacity at any length: a shorter cut does not raise the thickness limit.",
+  "why_ru": "816 = до 8 ft длины реза и до 16 gauge толщины. 12 ga толще 16 ga (чем больше номер, тем тоньше лист), поэтому он за пределом shear при любой длине: короткий рез не повышает допустимую толщину.",
+  "flag": "Kept separate from Welding & Layout №80, which ends '…as long as it is 4' or less.' (no word 'long'). The other student answered Yes and lost the point."
+ }
+]

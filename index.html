@@ -197,7 +197,7 @@ button{font-family:inherit}
   <div class="sronly" id="live" aria-live="polite" role="status"></div>
 </main>
 
-<script src="questions.js?v=10"></script>
+<script src="questions.js?v=11"></script>
 <script>
 (function(){
   "use strict";
@@ -276,9 +276,12 @@ button{font-family:inherit}
   // ---- quiz ----
   function chosenSet(q){ return q.type==="input" ? null : st.picked.slice().sort(); }
   function isRight(q){
-    if(q.type==="input" && q.answer.accept){
+    if(q.type==="input" && (q.answer.accept||q.answer.all)){
       var w=String(st.typed).toLowerCase();
-      return q.answer.accept.some(function(a){ return w.indexOf(a)>=0; }) && !(q.answer.reject||[]).some(function(a){ return w.indexOf(a)>=0; });
+      var has=function(a){ return w.indexOf(a)>=0; };
+      var anyOk=q.answer.accept.length ? q.answer.accept.some(has) : true;
+      var allOk=(q.answer.all||[]).every(function(g){ return g.some(has); });
+      return anyOk && allOk && !(q.answer.reject||[]).some(has);
     }
     if(q.type==="input"){
       var v=parseFloat(String(st.typed).replace(/[$,\s]/g,"")); return !isNaN(v) && Math.abs(v-q.answer.value)<=q.answer.tol;
@@ -326,7 +329,7 @@ button{font-family:inherit}
     if(q.type==="input"){
       $("prompt").textContent=st.answered?"":t("type_prompt");
       $("inpre").textContent=q.answer.prefix||"";
-      var ib=$("inbox"); ib.inputMode=q.answer.accept?"text":"decimal";
+      var ib=$("inbox"); ib.inputMode=(q.answer.accept||q.answer.all)?"text":"decimal";
       if(!st.answered){ ib.disabled=false; ib.className=""; if(document.activeElement!==ib) ib.value=st.typed; }
       else { ib.disabled=true; ib.value=st.typed; ib.className=st.right?"ok":"bad"; }
     } else {

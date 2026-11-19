@@ -1,0 +1,135 @@
+[
+ {
+  "src": "Y2W3M",
+  "n": 20,
+  "q": "What is the tensile strength of a ER70S-6 electrode wire?",
+  "hint": null,
+  "opts": [
+   "1800 lbs.",
+   "18000 lbs.",
+   "7000 lbs.",
+   "70000 lbs."
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W3 Monday graded sheet of another student (72.5/79; msg_1244-1261, red marks msg_1265-1270): d not marked wrong; AWS A5.18 classification (knowledge 07-welding-smaw.md)"
+ },
+ {
+  "src": "Y2W3M",
+  "n": 23,
+  "q": "Which type of weld does the following symbol represent:",
+  "hint": null,
+  "opts": [
+   "spot",
+   "flare bevel",
+   "fillet",
+   "square groove"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": "q23",
+  "evidence": "SMY2W3 Monday graded sheet of another student (72.5/79; msg_1244-1261, red marks msg_1265-1270): d not marked wrong (page 23-27 lost only No.25); AWS A2.4 weld symbols (knowledge 07)"
+ },
+ {
+  "src": "Y2W3M",
+  "n": 52,
+  "q": "Pushing snips completely to the end of the last cut before making the next cut, helps avoid ______.",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": null,
+  "evidence": "SMY2W3 Monday graded sheet of another student (72.5/79; msg_1244-1261, red marks msg_1265-1270), msg_1267: instructor wrote 'FISH HOOKS', −1 for 'double cutting'; knowledge 06",
+  "accept": [
+   "fish hook",
+   "fishhook",
+   "fish-hook",
+   "рыболовн"
+  ],
+  "answer_text": "Fish hooks"
+ },
+ {
+  "src": "Y2W3M",
+  "n": 53,
+  "q": "Brake capacity refers to bending ______ steel.",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": null,
+  "evidence": "SMY2W3 Monday graded sheet of another student (72.5/79; msg_1244-1261, red marks msg_1265-1270), msg_1267: instructor circled 'Mild', −0.5, note 'capacity relates to max thickness, but refers to mild steel'; knowledge 06",
+  "accept": [
+   "mild",
+   "мягк",
+   "низкоуглерод"
+  ],
+  "answer_text": "Mild"
+ },
+ {
+  "src": "Y2W3M",
+  "n": 55,
+  "q": ".875 is the decimal equivalent for what fraction?",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": null,
+  "evidence": "Calculation; SMY2W3 Monday graded sheet of another student (72.5/79; msg_1244-1261, red marks msg_1265-1270): not marked wrong",
+  "accept": [
+   "7/8"
+  ],
+  "answer_text": "7/8"
+ },
+ {
+  "src": "Y2W3M",
+  "n": 57,
+  "q": "A type of roll that has a hinged end that allows it to be raised to remove formed metal is known as a ______ roll.",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": null,
+  "evidence": "SMY2W3 Monday graded sheet of another student (72.5/79; msg_1244-1261, red marks msg_1265-1270): not marked wrong; knowledge 06 and SMY1W3 №17 (Slip rolls)",
+  "accept": [
+   "slip"
+  ],
+  "answer_text": "Slip"
+ },
+ {
+  "src": "Y2W3M",
+  "n": 60,
+  "q": "The most common types of triangles used for drafting are 45/45/90 and the 30/60/90.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W3 Monday graded sheet of another student (72.5/79; msg_1244-1261, red marks msg_1265-1270), msg_1268: instructor circled Yes in red (the student had No)"
+ },
+ {
+  "src": "Y2W3M",
+  "n": 74,
+  "q": "It would be okay to cut 12-gauge mild steel on a 816-power shear as long as it is 4' long or less.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W3 Monday graded sheet of another student (72.5/79; msg_1244-1261, red marks msg_1265-1270), msg_1270: −1 for Yes, instructor wrote '8 = max length, 16 = max gauge, 16 ga max!'"
+ }
+]

@@ -19,6 +19,7 @@ TOPICS = {
     'tools':       {'en': 'Tools & machines',              'ru': 'Инструменты и станки'},
     'safety':      {'en': 'Safety',                        'ru': 'Безопасность'},
     'trade':       {'en': 'Trade & conduct',               'ru': 'Профессия и поведение на работе'},
+    'dampers':     {'en': 'Fire & smoke dampers',          'ru': 'Fire & smoke dampers'},
 }
 SOURCES = {
     'T90': {'name': {'en': 'Welding & Layout test', 'ru': 'Тест Welding & Layout'},
@@ -156,7 +157,7 @@ def main():
                     problems.append(f'{qid}: hint without Russian')
                 item['hint'] = {'en': b['hint'], 'ru': ru_h or b['hint']}
             if b.get('kind') == 'text':
-                item.update(type='input', answer={'accept': b['accept'], 'reject': b.get('reject', []), 'text': b['answer_text'], 'prefix': ''})
+                item.update(type='input', answer={'accept': b.get('accept') or [], 'all': b.get('all') or [], 'reject': b.get('reject', []), 'text': b['answer_text'], 'prefix': ''})
             elif b.get('kind') == 'input':
                 v = float(b['input_answer'])
                 item.update(type='input', answer={'value': v, 'tol': 0.005, 'prefix': b.get('input_unit', ''), 'text': b['input_answer']})

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 431.43" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="600" height="431.43" fill="#fff"/>
+<polygon points="84.29,330 452.86,330 452.86,85.71" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<line x1="460.86" y1="85.71" x2="522.71" y2="85.71" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="460.86" y1="330" x2="522.71" y2="330" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="515.71" y1="85.71" x2="515.71" y2="196.3" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="515.71" y1="219.42" x2="515.71" y2="330" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<polygon points="515.71,85.71 519.21,98.71 512.21,98.71" fill="#111" stroke="none"/>
+<polygon points="515.71,330 512.21,317 519.21,317" fill="#111" stroke="none"/>
+<text x="515.71" y="213.89" font-size="17" text-anchor="middle" fill="#111">1 5/16"</text>
+<line x1="82.08" y1="326.67" x2="44.11" y2="269.39" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="450.65" y1="82.38" x2="412.69" y2="25.1" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="47.98" y1="275.22" x2="214.83" y2="164.64" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="249.71" y1="141.52" x2="416.55" y2="30.94" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<polygon points="47.98,275.22 56.88,265.13 60.75,270.96" fill="#111" stroke="none"/>
+<polygon points="416.55,30.94 407.65,41.04 403.78,35.2" fill="#111" stroke="none"/>
+<text x="232.27" y="159.12" font-size="17" text-anchor="middle" fill="#111">2 3/8"</text>
+<line x1="84.29" y1="336" x2="84.29" y2="398.43" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="452.86" y1="336" x2="452.86" y2="398.43" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="84.29" y1="391.43" x2="257.46" y2="391.43" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="279.68" y1="391.43" x2="452.86" y2="391.43" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<polygon points="84.29,391.43 97.29,387.93 97.29,394.93" fill="#111" stroke="none"/>
+<polygon points="452.86,391.43 439.86,394.93 439.86,387.93" fill="#111" stroke="none"/>
+<text x="268.57" y="397.46" font-size="17" text-anchor="middle" fill="#111">A</text>
+</svg>

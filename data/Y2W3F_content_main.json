@@ -1,0 +1,642 @@
+[
+ {
+  "src": "Y2W3F",
+  "n": 1,
+  "topic": "safety",
+  "ru_q": "Radiation dampers — это dampers, которые закрывают ______.",
+  "ru_hint": null,
+  "ru_opts": [
+   "выходное отверстие (outlet).",
+   "дверной проём (doorway).",
+   "реактор (reactor).",
+   "генератор (generator)."
+  ],
+  "why_en": "Ceiling radiation dampers sit in the ceiling at an air outlet (the opening of a diffuser or grille) in a fire-rated floor/ceiling or roof/ceiling assembly and close it so radiant heat cannot pass through. They are tested to UL 555C.",
+  "why_ru": "Ceiling radiation dampers стоят в потолке у outlet (отверстия diffuser или решётки) огнестойкого перекрытия и закрывают его, чтобы через отверстие не проходил лучистый жар. Их испытывают по UL 555C.",
+  "flag": null
+ },
+ {
+  "src": "Y2W3F",
+  "n": 2,
+  "topic": "safety",
+  "ru_q": "Ceiling radiation dampers не получают:",
+  "ru_hint": null,
+  "ru_opts": [
+   "Рейтинг огнестойкости в часах (hourly fire ratings)",
+   "Одобрения продукта (product approvals)",
+   "UL listing",
+   "Проверки мембраны (membrane inspections)"
+  ],
+  "why_en": "A ceiling radiation damper has no hour rating of its own: the hourly rating belongs to the whole floor/ceiling or roof/ceiling assembly it is tested in (UL 555C). The damper itself is still a UL-listed, approved product.",
+  "why_ru": "У ceiling radiation damper нет собственного рейтинга в часах: рейтинг имеет всё перекрытие (floor/ceiling или roof/ceiling assembly), в составе которого его испытывают по UL 555C. Сам damper при этом — одобренный продукт с UL listing.",
+  "flag": null
+ },
+ {
+  "src": "Y2W3F",
+  "n": 3,
+  "topic": "safety",
+  "ru_q": "Fire dampers применяют в:",
+  "ru_hint": null,
+  "ru_opts": [
+   "Static или dynamic системах",
+   "Только в dynamic системах",
+   "Smoke barriers (противодымных преградах)",
+   "Стенах без рейтинга (non-rated walls)"
+  ],
+  "why_en": "Fire dampers are made in two versions: static (the fans shut down in a fire) and dynamic (air keeps moving in a fire, so the damper is tested to close against the airflow). Smoke barriers need smoke dampers, and a non-rated wall needs no fire damper.",
+  "why_ru": "Fire dampers бывают двух видов: static (при пожаре вентиляторы выключаются) и dynamic (воздух при пожаре идёт дальше, и damper испытан на закрытие против потока). В smoke barriers ставят smoke dampers, а стене без рейтинга fire damper не нужен.",
+  "flag": null
+ },
+ {
+  "src": "Y2W3F",
+  "n": 4,
+  "topic": "safety",
+  "ru_q": "Fire dampers обычно имеют рейтинг:",
+  "ru_hint": null,
+  "ru_opts": [
+   "1,2,3,4 часа",
+   "1 или 2 часа",
+   "1 1/2 или 3 часа",
+   "2 или 4 часа"
+  ],
+  "why_en": "Fire dampers are made with 1-1/2-hour and 3-hour ratings: a barrier rated less than 3 hours (a 2-hour wall too) gets a 1-1/2-hour damper, a barrier rated 3 hours or more gets a 3-hour damper.",
+  "why_ru": "Fire dampers выпускают с рейтингом 1 1/2 и 3 часа: в преграду с рейтингом меньше 3 часов (в том числе в 2-часовую стену) ставят damper на 1 1/2 часа, в преграду на 3 часа и больше — damper на 3 часа.",
+  "flag": null
+ },
+ {
+  "src": "Y2W3F",
+  "n": 5,
+  "topic": "safety",
+  "ru_q": "Acceptance testing системы HVAC, включая проверку всех fire dampers, smoke dampers и ceiling dampers, проводят в соответствии с:",
+  "ru_hint": null,
+  "ru_opts": [
+   "Требованиями стандартов и codes",
+   "Рекомендациями по качеству воздуха в помещении",
+   "Specifications, одинаковыми от объекта к объекту",
+   "Инструкциями производителя"
+  ],
+  "why_en": "Acceptance testing proves to the AHJ that the installed system meets the adopted codes and the standards they reference (for dampers NFPA 80 and NFPA 105). Manufacturer instructions cover installation and are only part of that, and specifications change from job to job.",
+  "why_ru": "Acceptance testing доказывает AHJ, что смонтированная система соответствует принятым codes и стандартам, на которые они ссылаются (для dampers — NFPA 80 и NFPA 105). Инструкции производителя относятся к монтажу и входят лишь частью, а specifications на каждом объекте свои.",
+  "flag": null
+ },
+ {
+  "src": "Y2W3F",
+  "n": 7,
+  "topic": "fittings",
+  "ru_q": "Shear load тянет прямо вниз, и при нём fastener вырывает реже.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Верно",
+   "Неверно"
+  ],
+  "why_en": "A shear load acts across the fastener, at a right angle to its axis — for example a duct hanging on a strap screwed to its side: the weight pulls straight down across the screws. The screw then has to be cut through rather than pulled out, so it holds far better than under a pull-out (tension) load. Note: not confirmed by a graded key.",
+  "why_ru": "Shear load действует поперёк fastener, под прямым углом к его оси — например, duct на hanger strap, прикрученном к боковой стенке: вес тянет вниз поперёк винтов. Винт тогда надо срезать, а не вырвать, поэтому он держит гораздо лучше, чем на вырыв (tension). Внимание: проверенного ключа нет.",
+  "flag": "The instructor voided this question with a red wavy line, so there is no graded answer. True follows the course definition of shear load; 'straight down' is shear only when the fastener is horizontal (strap on the duct side)."
+ },
+ {
+  "src": "Y2W3F",
+  "n": 9,
+  "topic": "safety",
+  "ru_q": "______ должно быть выбито на седле (saddle) грузового крюка.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Название производителя",
+   "SWL (safe working load)",
+   "Дата изготовления",
+   "Страна происхождения"
+  ],
+  "why_en": "Before every lift the rigger has to know what the hook can carry, so its safe working load (SWL) is stamped on it. The name, date or country of origin do not tell whether the hook can take the load.",
+  "why_ru": "Перед каждым подъёмом rigger должен знать, что выдержит крюк, поэтому на нём выбивают SWL (safe working load). Производитель, дата или страна не говорят, выдержит ли крюк груз.",
+  "flag": null
+ },
+ {
+  "src": "Y2W3F",
+  "n": 10,
+  "topic": "safety",
+  "ru_q": "Когда можно удлинить sling, завязав его узлом или связав несколько slings вместе?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Никогда",
+   "Только если slings синтетические.",
+   "Только если slings из wire rope.",
+   "Только если у них одинаковая грузоподъёмность."
+  ],
+  "why_en": "Never. OSHA (1910.184, 1926.251) forbids shortening or lengthening slings with knots or other makeshift devices: a knot weakens the sling and can slip, whatever the material or the rating.",
+  "why_ru": "Никогда. OSHA (1910.184, 1926.251) запрещает укорачивать или удлинять slings узлами и самодельными приспособлениями: узел ослабляет sling и может проскользнуть — независимо от материала и грузоподъёмности.",
+  "flag": "Typo in the original: 'a slings length' (should be 'a sling's length')."
+ },
+ {
+  "src": "Y2W3F",
+  "n": 11,
+  "topic": "safety",
+  "ru_q": "Qualified person в rigging — это человек, у которого есть:",
+  "ru_hint": null,
+  "ru_opts": [
+   "удостоверение (certification card).",
+   "большая практика.",
+   "сотрудник генподрядчика на объекте.",
+   "нужные знания и подготовка после прохождения rigging program."
+  ],
+  "why_en": "The course defines a qualified rigging person by the knowledge and training gained in a rigging program. A card alone, practice alone or who your employer is does not make you qualified.",
+  "why_ru": "По курсу qualified в rigging — тот, у кого есть знания и подготовка, полученные в rigging program. Одна карточка, одна практика или то, на кого ты работаешь, сами по себе этого не дают.",
+  "flag": "Option c does not fit the stem grammatically ('someone with: an employee…') — as printed."
+ },
+ {
+  "src": "Y2W3F",
+  "n": 12,
+  "topic": "trig",
+  "ru_q": "При замерах и их записи:",
+  "ru_hint": null,
+  "ru_opts": [
+   "для проверки прямого угла можно использовать треугольник 3-4-5",
+   "для проверки прямого угла можно использовать треугольник 6-8-10",
+   "для проверки прямого угла можно использовать треугольник 12-16-20",
+   "все ответы верны"
+  ],
+  "why_en": "All three are right triangles: 3² + 4² = 9 + 16 = 25 = 5²; 6-8-10 is 3-4-5 × 2 (36 + 64 = 100 = 10²); 12-16-20 is 3-4-5 × 4 (144 + 256 = 400 = 20²). Any of them checks a square corner.",
+  "why_ru": "Все три — прямоугольные треугольники: 3² + 4² = 9 + 16 = 25 = 5²; 6-8-10 — это 3-4-5 × 2 (36 + 64 = 100 = 10²); 12-16-20 — это 3-4-5 × 4 (144 + 256 = 400 = 20²). Любым можно проверить прямой угол.",
+  "flag": null
+ },
+ {
+  "src": "Y2W3F",
+  "n": 13,
+  "topic": "math",
+  "ru_q": "Сколько кубических футов в 3 кубических ярдах?",
+  "ru_hint": null,
+  "ru_opts": [
+   "81 cubic feet",
+   "27 cubic feet",
+   "1728 cubic feet",
+   "46656 cubic feet"
+  ],
+  "why_en": "1 yd = 3 ft, so 1 yd³ = 3 × 3 × 3 = 27 ft³ and 3 yd³ = 3 × 27 = 81 ft³. 27 is only one cubic yard; 1728 is cubic inches in a cubic foot and 46656 is cubic inches in a cubic yard.",
+  "why_ru": "1 yd = 3 ft, значит 1 yd³ = 3 × 3 × 3 = 27 ft³, а 3 yd³ = 3 × 27 = 81 ft³. 27 — это только один кубический ярд; 1728 — кубических дюймов в кубическом футе, 46656 — в кубическом ярде.",
+  "flag": null
+ },
+ {
+  "src": "Y2W3F",
+  "n": 14,
+  "topic": "fittings",
+  "ru_q": "Какое соединение использует drift pins или болты, чтобы совместить и стянуть фланцы?",
+  "ru_hint": null,
+  "ru_opts": [
+   "patented duct connection",
+   "S and drives",
+   "companion flanges",
+   "prefabricated"
+  ],
+  "why_en": "Companion flanges are angle-iron flanges riveted or welded to the duct ends: drift pins line up the bolt holes and bolts pull the two flanges together. S and drives slide on and need no pins or bolts.",
+  "why_ru": "Companion flanges — фланцы из angle iron, приклёпанные или приваренные к концам duct: drift pins совмещают отверстия, болты стягивают два фланца. S and drives надевают сдвигом, без штифтов и болтов.",
+  "flag": null
+ },
+ {
+  "src": "Y2W3F",
+  "n": 15,
+  "topic": "trade",
+  "ru_q": "Профессионализм — это ______.",
+  "ru_hint": null,
+  "ru_opts": [
+   "получать деньги за detailing",
+   "одеваться в стиле «office casual»",
+   "вести себя как люди, которые находятся на объекте",
+   "представлять профессию и компанию в хорошем свете"
+  ],
+  "why_en": "Professionalism is how your work and conduct reflect on the trade and your company: quality work, respect, reliability. Being paid, a dress code or copying the occupants is not what the word means.",
+  "why_ru": "Профессионализм — то, как твоя работа и поведение представляют профессию и компанию: качество, уважение, надёжность. Оплата, дресс-код или подражание людям на объекте к этому не относятся.",
+  "flag": null
+ },
+ {
+  "src": "Y2W3F",
+  "n": 16,
+  "topic": "trade",
+  "ru_q": "Полезный принцип при работе на объекте, где находятся люди (occupied site): ______.",
+  "ru_hint": null,
+  "ru_opts": [
+   "вести себя так, будто входишь в чужой дом",
+   "не брать PPE, пока не убедишься, что он нужен",
+   "болтать с людьми на объекте, чтобы они узнали, что нужно для точных замеров",
+   "считать, что замеры важнее встреч с людьми на объекте"
+  ],
+  "why_en": "In an occupied building you work in someone else's space: be polite, keep it clean, keep noise and disruption down and stay out of private areas — like a guest in a house. PPE always comes with you, and occupants are not there to help you measure.",
+  "why_ru": "В занятом здании ты работаешь на чужой территории: вежливость, чистота, минимум шума и помех, в личные зоны не заходить — как гость в доме. PPE берут всегда, а люди на объекте не обязаны помогать с замерами.",
+  "flag": "The other student chose c and lost the point."
+ },
+ {
+  "src": "Y2W3F",
+  "n": 17,
+  "topic": "trade",
+  "ru_q": "При field measurements без ______ ни один замер не пригодится для shop drawings.",
+  "ru_hint": null,
+  "ru_opts": [
+   "электронного прибора (electronic instrument)",
+   "контрольной точки (control point)",
+   "свободного обзора (unobstructed view)",
+   "прихода раньше других trades (arriving before the other trades)"
+  ],
+  "why_en": "Every field measurement must be taken from a fixed reference — a control point (for example a column line or a benchmark set by the surveyor). Without it the numbers cannot be tied to the building or to each other, so they are useless for shop drawings.",
+  "why_ru": "Каждый замер на объекте берут от неподвижной базы — control point (например, ось колонн или отметка геодезиста). Без неё числа нельзя привязать к зданию и друг к другу, и для shop drawings они бесполезны.",
+  "flag": null
+ },
+ {
+  "src": "Y2W3F",
+  "n": 18,
+  "topic": "trade",
+  "ru_q": "Control point ______.",
+  "ru_hint": null,
+  "ru_opts": [
+   "обязательно должна быть на несущей конструкции",
+   "не обязательна, зависит от особенностей здания",
+   "вычисляется по теореме Пифагора",
+   "должна быть на неподвижном элементе здания"
+  ],
+  "why_en": "A control point is only useful if it cannot move, so it is set on an immovable building feature (a column, a slab edge, a structural wall). It need not be load-bearing, it is never optional, and it is marked on site, not calculated.",
+  "why_ru": "Control point полезна, только если она не сдвинется, поэтому её ставят на неподвижный элемент здания (колонну, край плиты, капитальную стену). Несущей она быть не обязана, необязательной не бывает, и её отмечают на месте, а не вычисляют.",
+  "flag": "Typo in the original option c: 'phythagorean' (Pythagorean)."
+ },
+ {
+  "src": "Y2W3F",
+  "n": 19,
+  "topic": "trig",
+  "ru_q": "Полезный способ найти высоту предмета, которую нельзя измерить напрямую: ______.",
+  "ru_hint": null,
+  "ru_opts": [
+   "найти предмет похожей высоты и оценить по нему",
+   "измерить ту часть высоты, которую МОЖНО измерить, а остаток — уровнем и складным метром",
+   "представить прямоугольный треугольник и вычислить высоту тригонометрией",
+   "нарисовать предмет на миллиметровке и измерить рисунок"
+  ],
+  "why_en": "Measure a horizontal distance you can reach and the angle up to the top; the height is the opposite side of a right triangle: height = distance × tan(angle), plus the height of your eye or instrument. Estimating from a similar object or measuring a sketch gives a guess, not a measurement.",
+  "why_ru": "Измеряют доступное горизонтальное расстояние и угол на верхнюю точку; высота — противолежащий катет прямоугольного треугольника: высота = расстояние × tan(угла) плюс высота глаза или прибора. Оценка по похожему предмету или замер по рисунку — догадка, а не замер.",
+  "flag": "Typo in the original option b: 'to measuring' (should be 'to measure')."
+ },
+ {
+  "src": "Y2W3F",
+  "n": 20,
+  "topic": "trade",
+  "ru_q": "Что из этого — последствия плохих field measurements?",
+  "ru_hint": null,
+  "ru_opts": [
+   "потерянный материал",
+   "лишние часы работы, чтобы закончить объект",
+   "лишние поездки на объект",
+   "все ответы верны"
+  ],
+  "why_en": "A wrong field dimension means the fitting is built wrong: the metal is scrapped, the piece is remade (extra labor hours) and someone has to go back to measure again (extra trips). All three happen.",
+  "why_ru": "Неверный размер с объекта — fitting сделан неправильно: металл в отход, деталь переделывают (лишние часы), и кто-то едет перемерять (лишние поездки). Бывает всё сразу.",
+  "flag": null
+ },
+ {
+  "src": "Y2W3F",
+  "n": 21,
+  "topic": "math",
+  "ru_q": "Чистый доход в месяц — $2500, платёж за жильё в месяц — $875. Какой процент чистого дохода уходит на жильё?",
+  "ru_hint": null,
+  "ru_opts": [
+   "35%",
+   "65%",
+   "34.75%",
+   "32.3%"
+  ],
+  "why_en": "Percent = part ÷ whole × 100 = 875 ÷ 2500 × 100 = 35%. 65% is what is left over (100 − 35).",
+  "why_ru": "Процент = часть ÷ целое × 100 = 875 ÷ 2500 × 100 = 35%. 65% — то, что остаётся (100 − 35).",
+  "flag": "Missing space after the comma in the original ('$875,what')."
+ },
+ {
+  "src": "Y2W3F",
+  "n": 23,
+  "topic": "transitions",
+  "ru_q": "Найдите недостающий размер Top Up (разницу отметок верха двух duct), как показано на transition.",
+  "ru_hint": null,
+  "ru_opts": [
+   "4-1/4\"",
+   "9-1/8\"",
+   "9-1/4\"",
+   "5.25\""
+  ],
+  "why_en": "BOD is the bottom of duct; add each duct's depth (the second number) to get its top. Left: 9'-3 3/4\" = 111.75\" + 12\" = 123.75\". Right: 10'-1\" = 121\" + 8\" = 129\". Top Up = 129 − 123.75 = 5.25\". The trap 9-1/4\" is the difference of the bottoms (121 − 111.75 = 9.25), not of the tops.",
+  "why_ru": "BOD — отметка низа duct; чтобы получить верх, прибавляем глубину duct (второе число). Слева: 9'-3 3/4\" = 111.75\" + 12\" = 123.75\". Справа: 10'-1\" = 121\" + 8\" = 129\". Top Up = 129 − 123.75 = 5.25\". Ловушка 9-1/4\" — разница низов (121 − 111.75 = 9.25), а не верхов.",
+  "flag": null
+ },
+ {
+  "src": "Y2W3F",
+  "n": 24,
+  "topic": "trig",
+  "ru_q": "Найдите длину размера A.",
+  "ru_hint": null,
+  "ru_opts": [
+   "1.97\"",
+   "2\"",
+   "2.125\"",
+   "1-15/16\""
+  ],
+  "why_en": "A is the horizontal side of a right triangle with hypotenuse 2-3/8\" (2.375\") and vertical side 1-5/16\" (1.3125\"): A = √(2.375² − 1.3125²) = √3.9180 = 1.9794\". To the nearest 1/16\": 1.9794 × 16 = 31.67 → 32/16 = 2\". 1.97\" is 1.9794 cut off, not rounded (to 2 decimals it is 1.98\"), and 1-15/16\" = 1.9375\" is too short.",
+  "why_ru": "A — горизонтальный катет прямоугольного треугольника с гипотенузой 2-3/8\" (2.375\") и вертикальным катетом 1-5/16\" (1.3125\"): A = √(2.375² − 1.3125²) = √3.9180 = 1.9794\". До ближайшей 1/16\": 1.9794 × 16 = 31.67 → 32/16 = 2\". 1.97\" — это 1.9794 с обрезанными знаками, а не округление (до 2 знаков получится 1.98\"), а 1-15/16\" = 1.9375\" — коротко.",
+  "flag": "Numerically 1.97 is closer to 1.9794 than 2 is, but it is a truncation (the 2-decimal value is 1.98); the graded sheet accepted 2\" (nearest 1/16)."
+ },
+ {
+  "src": "Y2W3F",
+  "n": 25,
+  "topic": "trig",
+  "ru_q": "Найдите длину размера \"x\".",
+  "ru_hint": null,
+  "ru_opts": [
+   "29.9376\"",
+   "297-1/2\"",
+   "99",
+   "29.938\""
+  ],
+  "why_en": "The 72.4° angle is at the top, between the hypotenuse and the vertical side x, so the 94-3/8\" base is the side opposite it: tan 72.4° = 94.375 ÷ x, x = 94.375 ÷ tan 72.4° = 29.9375\" → 29.938\" to 3 places. 29.9376\" is wrong in the last digit (the 4-place value is 29.9375).",
+  "why_ru": "Угол 72.4° — вверху, между гипотенузой и вертикальным катетом x, значит, основание 94-3/8\" лежит против него: tan 72.4° = 94.375 ÷ x, x = 94.375 ÷ tan 72.4° = 29.9375\" → 29.938\" до 3 знаков. В 29.9376\" неверна последняя цифра (до 4 знаков — 29.9375).",
+  "flag": "Same drawing and question as SMY2W2 Monday №43, but option a here is printed 29.9376\" (30.9376\" there), so kept as a separate question. The base is printed '94 3\\8\"' with a backslash."
+ },
+ {
+  "src": "Y2W3F",
+  "n": 26,
+  "topic": "trig",
+  "ru_q": "Найдите длину размера \"x\".",
+  "ru_hint": null,
+  "ru_opts": [
+   "7.1532\"",
+   "5.9302\"",
+   "7-1/16\"",
+   "6\""
+  ],
+  "why_en": "The 56° angle is at the top, between the hypotenuse and the 4\" vertical side, and x is the hypotenuse: cos 56° = 4 ÷ x, x = 4 ÷ cos 56° = 7.1532\". The trap 5.9302\" (4 × tan 56° = 5.9302) is the horizontal side, not x.",
+  "why_ru": "Угол 56° — вверху, между гипотенузой и вертикальным катетом 4\", а x — гипотенуза: cos 56° = 4 ÷ x, x = 4 ÷ cos 56° = 7.1532\". Ловушка 5.9302\" (4 × tan 56° = 5.9302) — горизонтальный катет, а не x.",
+  "flag": "The other student chose b (the horizontal side) and lost the point."
+ },
+ {
+  "src": "Y2W3F",
+  "n": 27,
+  "topic": "trig",
+  "ru_q": "Найдите неизвестный угол.",
+  "ru_hint": null,
+  "ru_opts": [
+   "35.471 degrees",
+   "35.48 degrees",
+   "54.53 degrees",
+   "54.52 degrees"
+  ],
+  "why_en": "θ is at the corner where the 94-3/16\" side meets the hypotenuse; the 132-3/16\" side is opposite it: tan θ = 132.1875 ÷ 94.1875, θ = 54.529° → 54.53°. 54.52° is the same number cut off instead of rounded; 35.471° is the other acute angle (90 − 54.529 = 35.471°).",
+  "why_ru": "θ — в углу, где сторона 94-3/16\" встречается с гипотенузой; сторона 132-3/16\" лежит против него: tan θ = 132.1875 ÷ 94.1875, θ = 54.529° → 54.53°. 54.52° — то же число, обрезанное, а не округлённое; 35.471° — второй острый угол (90 − 54.529 = 35.471°).",
+  "flag": "Same drawing as SMY2W2 Monday №45, but option d here is 54.52 degrees (55.52 there), so kept as a separate question. Sizes printed with backslashes ('132 3\\16\"')."
+ },
+ {
+  "src": "Y2W3F",
+  "n": 29,
+  "topic": "math",
+  "ru_q": "Вы изготовили 250 деталей, как на рисунке, из 14 ga. Теперь нужно посчитать вес для отправки. 14ga. весит 3.2 lbs. на квадратный фут. Найдите вес 250 деталей с точностью до фунта.",
+  "ru_hint": null,
+  "ru_opts": [
+   "878 lbs",
+   "464 lbs",
+   "312 lbs",
+   "515 lbs"
+  ],
+  "why_en": "The 135° corner is a 45° cut, so it goes 4\" across as well as 4\" down: overall width = 7 + 4 = 11\". Area = 11 × 9.5 − ½ × 4 × 4 − π × 2² − 2 × π × 0.25² = 104.5 − 8 − 12.566 − 0.393 = 83.541 in² = 0.58015 ft². Weight = 0.58015 × 3.2 × 250 = 464.1 → 464 lbs. Forgetting the three holes gives 536 lbs.",
+  "why_ru": "Угол 135° — это срез под 45°, поэтому он уходит на 4\" и вниз, и вбок: полная ширина = 7 + 4 = 11\". Площадь = 11 × 9.5 − ½ × 4 × 4 − π × 2² − 2 × π × 0.25² = 104.5 − 8 − 12.566 − 0.393 = 83.541 in² = 0.58015 ft². Вес = 0.58015 × 3.2 × 250 = 464.1 → 464 lbs. Если забыть вычесть три отверстия, выйдет 536 lbs.",
+  "flag": "On the photo the marks after 7, 4, 9-1/2, R2 and R1/4 look like single primes ('); read and drawn as inches — only inches give the graded answer 464 lbs."
+ },
+ {
+  "src": "Y2W3F",
+  "n": 30,
+  "topic": "offsets",
+  "ru_q": "Выберите 2 лучших ответа для размеров \"L\" и \"D\", округлённых до 3 знаков.",
+  "ru_hint": null,
+  "ru_opts": [
+   "19.432\"",
+   "39.458\"",
+   "55.138\"",
+   "78.718\"",
+   "48.172\"",
+   "71.751\""
+  ],
+  "why_en": "The 24\" radius is to the throat; the centerline radius adds half of the 26\" side shown: CLR = 24 + 13 = 37\". Rise H = 11'-2\" − 8'-4\" = 34\". Straight piece D = (H − 2·CLR·(1 − cos 30°)) ÷ sin 30° = 48.172\". Overall L = 2·CLR·sin 30° + D·cos 30° = 78.718\". Using 24\" as the centerline radius gives the trap pair 55.138\" / 71.751\".",
+  "why_ru": "24\" — радиус по throat; к centerline radius прибавляют половину видимой стороны 26\": CLR = 24 + 13 = 37\". Подъём H = 11'-2\" − 8'-4\" = 34\". Прямой участок D = (H − 2·CLR·(1 − cos 30°)) ÷ sin 30° = 48.172\". Общая длина L = 2·CLR·sin 30° + D·cos 30° = 78.718\". Если взять 24\" за centerline radius, выйдет пара-ловушка 55.138\" / 71.751\".",
+  "flag": "The other student chose 55.138 and 71.751 (radius not converted to centerline) and lost 2 points."
+ },
+ {
+  "src": "Y2W3F",
+  "n": 31,
+  "topic": "offsets",
+  "ru_q": "Выберите 2 лучших ответа для размеров \"L\" и \"D\", округлённых до 3 знаков.",
+  "ru_hint": null,
+  "ru_opts": [
+   "8.01185\"",
+   "9.012\"",
+   "9.011\"",
+   "8.012\"",
+   "16.523\"",
+   "76.892\"",
+   "31.522\"",
+   "64.901\"",
+   "41.391\""
+  ],
+  "why_en": "CLR = 24\" throat + half of the 30\" diameter = 39\". H = 13'-4\" − 10'-6\" = 34\". D = (34 − 2·39·(1 − cos 50°)) ÷ sin 50° = 8.01185 → 8.012\". L = 2·39·sin 50° + D·cos 50° = 64.901\". 8.01185\" is the same D but not rounded to 3 decimals as asked.",
+  "why_ru": "CLR = 24\" по throat + половина диаметра 30\" = 39\". H = 13'-4\" − 10'-6\" = 34\". D = (34 − 2·39·(1 − cos 50°)) ÷ sin 50° = 8.01185 → 8.012\". L = 2·39·sin 50° + D·cos 50° = 64.901\". 8.01185\" — тот же D, но не округлённый до 3 знаков, как требует вопрос.",
+  "flag": "The other student lost 1 point here (an extra pick)."
+ },
+ {
+  "src": "Y2W3F",
+  "n": 32,
+  "topic": "transitions",
+  "ru_q": "Выберите 4 лучших ответа для shear list стенок transition на рисунке. Male Pittsburgh (1/4\") на top и bottom, female Pittsburgh (1\") на боковых стенках.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Left = 18.125\" x 14\"",
+   "Left = 16\" x 12.25\"",
+   "Left = 14\" x 16\"",
+   "Right = 16\" x 18-1/8\"",
+   "Right = 18-1/8 x 14\"",
+   "Right = 16\" x 14\"",
+   "Top = 16\" x 17.25\"",
+   "Top = 16\" x 16.5\"",
+   "Top = 16-1/2\" x 17.25\"",
+   "Bottom = 16-1/2\" x 16-13/16\"",
+   "Bottom = 17-1/8\" x 16",
+   "Bottom = 17-1/4\" x 16-1/2\""
+  ],
+  "why_en": "15\" is the net (drive-to-drive) length, so the layout length is 15 − 1 = 14\". FOT: the top is flat and the bottom moves 12 − 6 = 6\"; the left side is square (∟) and the right side moves 16 − 8 = 8\". Widths: top and bottom 16 + 2 × 1/4 = 16.5\", sides 12 + 2 × 1 = 14\". Lengths (+2\" for the two ends): Top = 14 + 2 = 16\"; Bottom = √(14² + 6²) + 2 = 17.2315 → 17-1/4\" (17.25); Left = 14 + 2 = 16\"; Right = √(14² + 8²) + 2 = 18.1245 → 18-1/8\" (18.125). So c, e, h and l.",
+  "why_ru": "15\" — длина net (drive to drive), значит layout = 15 − 1 = 14\". FOT: top плоский, bottom уходит на 12 − 6 = 6\"; левая стенка прямая (∟), правая уходит на 16 − 8 = 8\". Ширина: top и bottom 16 + 2 × 1/4 = 16.5\", боковые 12 + 2 × 1 = 14\". Длина (+2\" на два конца): Top = 14 + 2 = 16\"; Bottom = √(14² + 6²) + 2 = 17.2315 → 17-1/4\" (17.25); Left = 14 + 2 = 16\"; Right = √(14² + 8²) + 2 = 18.1245 → 18-1/8\" (18.125). Значит, c, e, h и l.",
+  "flag": "Options e and k are printed without the last inch mark ('18-1/8 x 14\"', '17-1/8\" x 16'). The other student chose j instead of l and lost 1 point."
+ },
+ {
+  "src": "Y2W3F",
+  "n": 36,
+  "topic": "tools",
+  "ru_q": "Инструмент цеха, который служит dividers для очень больших размеров, называется",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "Trammel points are two steel points clamped on a long bar (a beam or a stick); they work like dividers or a compass for distances and radii too big for ordinary dividers.",
+  "why_ru": "Trammel points — два стальных острия, закреплённых на длинной рейке; работают как dividers или циркуль для расстояний и радиусов, которые не берут обычные dividers.",
+  "flag": "Typed answer: 'trammel points'. Grammar of the original kept ('A shop tool … are known as', no blank)."
+ },
+ {
+  "src": "Y2W3F",
+  "n": 37,
+  "topic": "math",
+  "ru_q": "Какова десятичная запись 3/8\"?",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "3 ÷ 8 = 0.375 (1/8 = 0.125, 3 × 0.125 = 0.375), written .375.",
+  "why_ru": "3 ÷ 8 = 0.375 (1/8 = 0.125, 3 × 0.125 = 0.375), записывают .375.",
+  "flag": "Typed answer: .375 (0.375 is accepted too)."
+ },
+ {
+  "src": "Y2W3F",
+  "n": 39,
+  "topic": "tools",
+  "ru_q": "Назовите 2 разных типа press brakes.",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "Press brakes are either mechanical (a flywheel and crank drive the ram) or hydraulic (hydraulic cylinders push the ram). Both words are needed for the full answer.",
+  "why_ru": "Press brakes бывают mechanical (ram двигает маховик через кривошип) и hydraulic (ram толкают гидроцилиндры). Для полного ответа нужны оба слова.",
+  "flag": "Typed answer must contain both words in one line, e.g. 'mechanical and hydraulic' or 'hydraulic, mechanical'."
+ },
+ {
+  "src": "Y2W3F",
+  "n": 40,
+  "topic": "safety",
+  "ru_q": "Как расшифровывается OSHA?",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "OSHA = Occupational Safety and Health Administration, the federal agency in the U.S. Department of Labor that sets and enforces workplace safety rules. Do not confuse it with the law itself (the OSH Act) or with WISHA, the Washington state act.",
+  "why_ru": "OSHA = Occupational Safety and Health Administration — федеральное ведомство в Министерстве труда США, которое устанавливает правила безопасности на работе и следит за их выполнением. Не путать с самим законом (OSH Act) и с WISHA — законом штата Washington.",
+  "flag": "Typed answer: the full name."
+ },
+ {
+  "src": "Y2W3F",
+  "n": 42,
+  "topic": "trade",
+  "ru_q": "Как зовут одного из самых известных металлистов Америки, который в 1801 году на государственный заём открыл завод по прокату меди?",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "Paul Revere, the silversmith of the 1775 midnight ride, opened the first copper rolling mill in the U.S. in Canton, Massachusetts, in 1801 with a government loan; his sheet copper covered the hull of the USS Constitution and the dome of the Massachusetts State House.",
+  "why_ru": "Paul Revere — серебряных дел мастер, известный ночной скачкой 1775 года, — в 1801 году на государственный заём открыл в Canton (Massachusetts) первый в США завод по прокату меди; его листовой медью обшили корпус фрегата USS Constitution и купол Капитолия штата Massachusetts.",
+  "flag": "Typed answer. Typo in the original: 'Americas' (America's)."
+ },
+ {
+  "src": "Y2W3F",
+  "n": 45,
+  "topic": "safety",
+  "ru_q": "Правильный угол лестницы к земле — 60 градусов?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "OSHA 1926.1053(b)(5)(i) puts the foot of the ladder out 1/4 of its working length, so cos(angle) = 1/4 and the angle is 75.52°, about 75°. At 60° the foot is too far out and the ladder can slide out.",
+  "why_ru": "OSHA 1926.1053(b)(5)(i): основание лестницы отставляют на 1/4 её рабочей длины, значит cos угла = 1/4, угол = 75.52°, примерно 75°. При 60° низ стоит слишком далеко, и лестница может уехать.",
+  "flag": null
+ },
+ {
+  "src": "Y2W3F",
+  "n": 52,
+  "topic": "math",
+  "ru_q": "7 стальных балок (joists) стоят через 6'- 4\" от центра до центра. Расстояние от центра до центра между двумя крайними балками — 38'.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "7 joists have 7 − 1 = 6 spaces. 6'-4\" = 76\"; 6 × 76 = 456\" = 38'-0\", so Yes. Multiplying by 7 instead of 6 (532\") is the trap.",
+  "why_ru": "У 7 балок 6 промежутков. 6'-4\" = 76\"; 6 × 76 = 456\" = 38'-0\", значит «Да». Ловушка — умножить на 7 вместо 6 (532\").",
+  "flag": null
+ },
+ {
+  "src": "Y2W3F",
+  "n": 53,
+  "topic": "math",
+  "ru_q": "Площадь круга — 26.68 квадратных футов. Сколько это в квадратных дюймах?",
+  "ru_hint": null,
+  "ru_opts": [
+   "1.97",
+   "1.973",
+   "3,841.92",
+   "3,409.92"
+  ],
+  "why_en": "1 ft² = 12 × 12 = 144 in², so 26.68 × 144 = 3,841.92 in². 3,409.92 = 23.68 × 144 is the version of this question with another number; 1.97 and 1.973 come from dividing.",
+  "why_ru": "1 ft² = 12 × 12 = 144 in², значит 26.68 × 144 = 3,841.92 in². 3,409.92 = 23.68 × 144 — вариант этого вопроса с другим числом; 1.97 и 1.973 получаются делением.",
+  "flag": null
+ },
+ {
+  "src": "Y2W3F",
+  "n": 54,
+  "topic": "math",
+  "ru_q": "Какова длина окружности круга с радиусом 48”?",
+  "ru_hint": null,
+  "ru_opts": [
+   "301.5929\"",
+   "282.743\"",
+   "6361.725\"",
+   "141.38\""
+  ],
+  "why_en": "C = 2πR = 2 × π × 48 = 301.5929\". The other options belong to a 45\" radius: 2π × 45 = 282.743, π × 45² = 6361.725 (an area, not a length), π × 45 = 141.372 (half the circumference).",
+  "why_ru": "C = 2πR = 2 × π × 48 = 301.5929\". Остальные варианты — от радиуса 45\": 2π × 45 = 282.743, π × 45² = 6361.725 (это площадь, а не длина), π × 45 = 141.372 (половина окружности).",
+  "flag": "Options b–d are copied from the 45\" radius version of this question (SMY2W2 Monday №32)."
+ },
+ {
+  "src": "Y2W3F",
+  "n": 57,
+  "topic": "math",
+  "ru_q": "Площадь сечения duct должна быть 324 квадратных дюйма. Каковы стороны квадратного duct?",
+  "ru_hint": null,
+  "ru_opts": [
+   "16\"",
+   "18\"",
+   "1.777\"",
+   "32\""
+  ],
+  "why_en": "A square duct has equal sides: side = √324 = 18\" (18 × 18 = 324). 16\" is the answer for the 256 in² version of this question (16 × 16 = 256).",
+  "why_ru": "У квадратного duct стороны равны: сторона = √324 = 18\" (18 × 18 = 324). 16\" — ответ для варианта этого вопроса с 256 in² (16 × 16 = 256).",
+  "flag": null
+ },
+ {
+  "src": "Y2W3F",
+  "n": 58,
+  "topic": "math",
+  "ru_q": "Сколько кубических дюймов в 3 кубических футах?",
+  "ru_hint": null,
+  "ru_opts": [
+   "1728",
+   "5184",
+   "144",
+   "516"
+  ],
+  "why_en": "1 ft³ = 12 × 12 × 12 = 1728 in³, so 3 ft³ = 3 × 1728 = 5184 in³. 1728 is only one cubic foot; 144 is square inches in a square foot.",
+  "why_ru": "1 ft³ = 12 × 12 × 12 = 1728 in³, значит 3 ft³ = 3 × 1728 = 5184 in³. 1728 — только один кубический фут; 144 — квадратных дюймов в квадратном футе.",
+  "flag": "Same question text as SMY2W2 Triangulation №7, but different options (no units, 516 instead of 432)."
+ },
+ {
+  "src": "Y2W3F",
+  "n": 59,
+  "topic": "offsets",
+  "ru_q": "Рассчитайте и выберите shear list для round elbow 16\", 6 частей, 70 градусов, throat radius 16\". Учтите припуски (1/2\" на шов и 1/4\" на gore laps) и 2\" прямого участка на каждом конце.",
+  "ru_hint": null,
+  "ru_opts": [
+   "34-11/16\" x 50-3/4\"",
+   "34-3/4\" x 50-3/4\"",
+   "50-1/4\" x 34-11/16\"",
+   "50.7654\" x 34.728\""
+  ],
+  "why_en": "Miter = 70° ÷ (2 × (6 − 1)) = 7°; CLR = 16 + 8 = 24\"; K = 24 × tan 7° = 2.94683\". Length = 10K + 5 × 1/4\" (gore laps) + 2 × 2\" (straight) = 34.7183\" → 34-11/16\" (34.7183 × 16 = 555.49, rounds down). Width = π × 16 + 1/2\" = 50.7655\" → 50-3/4\". Rounding K to 2.947 first gives 34.72\" → 34-3/4\": round only the final number.",
+  "why_ru": "Miter = 70° ÷ (2 × (6 − 1)) = 7°; CLR = 16 + 8 = 24\"; K = 24 × tan 7° = 2.94683\". Длина = 10K + 5 × 1/4\" (gore laps) + 2 × 2\" (straight) = 34.7183\" → 34-11/16\" (34.7183 × 16 = 555.49, округляется вниз). Ширина = π × 16 + 1/2\" = 50.7655\" → 50-3/4\". Если сначала округлить K до 2.947, выйдет 34.72\" → 34-3/4\": округлять только итог.",
+  "flag": "Very close to the 1/16 boundary: exact length 34.71829\" vs the 34-11/16 / 34-3/4 midpoint 34.71875\"; with intermediate rounding b comes out. Option d's 34.728 does not match the course formula. 'an 16\"throat' (missing space) as printed."
+ },
+ {
+  "src": "Y2W3F",
+  "n": 60,
+  "topic": "offsets",
+  "ru_q": "Какой угол miter line у end gore в elbow из 5 частей на 75 градусов?",
+  "ru_hint": null,
+  "ru_opts": [
+   "9.375 degrees",
+   "15 degrees",
+   "11.25 degrees",
+   "7.5 degrees"
+  ],
+  "why_en": "A 5-piece elbow has 2 end gores (half size) and 3 middle gores = 2 × (5 − 1) = 8 half-gores. End-gore miter = 75° ÷ 8 = 9.375°. 11.25° is 90° ÷ 8 = 11.25 (wrong elbow angle); 15° is 75° ÷ 5 = 15 (pieces instead of half-gores).",
+  "why_ru": "В elbow из 5 частей 2 end gores (половинные) и 3 middle gores = 2 × (5 − 1) = 8 половинок. Miter end gore = 75° ÷ 8 = 9.375°. 11.25° — это 90° ÷ 8 = 11.25 (не тот угол elbow); 15° — 75° ÷ 5 = 15 (делили на число частей, а не половинок).",
+  "flag": "The other student chose 11.25 and lost the point."
+ }
+]
