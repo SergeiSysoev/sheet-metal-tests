@@ -1,0 +1,574 @@
+[
+ {
+  "src": "MON",
+  "n": 41,
+  "topic": "math",
+  "ru_q": "Если просверлить отверстие в 9 3/4\" от конца стального прутка длиной 29\", на каком расстоянии будет отверстие от противоположного конца прутка?",
+  "ru_opts": [
+   "38-3/4\"",
+   "19-3/4\"",
+   "19-1/4\"",
+   "20-1/4\""
+  ],
+  "why_en": "The two distances add up to the bar length: 29 − 9-3/4 = 19-1/4\" (29 − 9.75 = 19.25). Trap: 38-3/4\" adds the numbers instead of subtracting.",
+  "why_ru": "Два расстояния в сумме дают длину прутка: 29 − 9-3/4 = 19-1/4\" (29 − 9.75 = 19.25). Ловушка: 38-3/4\" — числа сложили вместо вычитания.",
+  "flag": null
+ },
+ {
+  "src": "MON",
+  "n": 42,
+  "topic": "offsets",
+  "ru_q": "Рассчитайте offset duct по заданным размерам.",
+  "ru_opts": [
+   "2' 4-5/8\"",
+   "12-5/8\"",
+   "1' 8-5/8\"",
+   "20-1/2\""
+  ],
+  "why_en": "Wall to column centerline is 6'-8 5/8\" (80.625\"), column to the near edge of the upper 16\"x12\" is 2'-2 3/4\" (26.75\"), wall to the centerline of the lower 16\"x12\" is 2'-1 1/4\" (25.25\"). Upper centerline from the wall = 80.625 − 26.75 − 8 (half of 16) = 45.875\"; offset = 45.875 − 25.25 = 20.625\" = 1'-8-5/8\". Trap: 2'-4-5/8\" (28.625\") treats the edge dimension as if it went to the centerline.",
+  "why_ru": "От стены до centerline колонны 6'-8 5/8\" (80.625\"), от колонны до ближнего края верхнего 16\"x12\" — 2'-2 3/4\" (26.75\"), от стены до centerline нижнего 16\"x12\" — 2'-1 1/4\" (25.25\"). Centerline верхнего от стены = 80.625 − 26.75 − 8 (половина от 16) = 45.875\"; offset = 45.875 − 25.25 = 20.625\" = 1'-8-5/8\". Ловушка: 2'-4-5/8\" (28.625\") — размер до края приняли за размер до centerline.",
+  "flag": "Drawing is 254×200 px and the dimension text is barely legible: read as 6'-8 5/8\", 2'-2 3/4\", 2'-1 1/4\"; the pixel scale (16\" duct ≈ 2.7 px/in) agrees with all three to within 1/2\"."
+ },
+ {
+  "src": "MON",
+  "n": 43,
+  "topic": "trig",
+  "ru_q": "Найдите длину размера \"x\".",
+  "ru_opts": [
+   "30.9376\"",
+   "297-1/2\"",
+   "99",
+   "29.938\""
+  ],
+  "why_en": "The 72.4° angle is at the top, between the hypotenuse and side x, so the 94-3/8\" base is opposite it and x is adjacent: x = 94.375 ÷ tan 72.4° = 94.375 ÷ 3.152399 = 29.9375\" → 29.938\". Traps: 297-1/2\" multiplies by tan instead of dividing (94.375 × 3.152399 = 297.508), 99 is the hypotenuse (94.375 ÷ sin 72.4° = 99.010), and 30.9376\" has a wrong digit.",
+  "why_ru": "Угол 72.4° стоит вверху, между гипотенузой и стороной x, поэтому основание 94-3/8\" лежит напротив него, а x — прилежащий катет: x = 94.375 ÷ tan 72.4° = 94.375 ÷ 3.152399 = 29.9375\" → 29.938\". Ловушки: 297-1/2\" — умножили на tan вместо деления (94.375 × 3.152399 = 297.508), 99 — гипотенуза (94.375 ÷ sin 72.4° = 99.010), а в 30.9376\" неверная цифра.",
+  "flag": "Drawing prints the base as \"94 3\\8\"\" (backslash) = 94-3/8\"."
+ },
+ {
+  "src": "MON",
+  "n": 44,
+  "topic": "trig",
+  "ru_q": "Найдите неизвестный угол.",
+  "ru_opts": [
+   "90 градусов",
+   "18.12 градуса",
+   "71.88 градуса",
+   "71.877 градуса"
+  ],
+  "why_en": "θ is at the end of the 43.922\" side and the 14.375\" side is opposite it: θ = atan(14.375 ÷ 43.922) = 18.12°. Trap: 71.88° and 71.877° are the other acute angle (90 − 18.12).",
+  "why_ru": "θ стоит у конца стороны 43.922\", сторона 14.375\" лежит напротив него: θ = atan(14.375 ÷ 43.922) = 18.12°. Ловушка: 71.88° и 71.877° — второй острый угол (90 − 18.12).",
+  "flag": null
+ },
+ {
+  "src": "MON",
+  "n": 45,
+  "topic": "trig",
+  "ru_q": "Найдите неизвестный угол.",
+  "ru_opts": [
+   "35.471 градуса",
+   "35.48 градуса",
+   "54.53 градуса",
+   "55.52 градуса"
+  ],
+  "why_en": "θ is at the end of the 94-3/16\" side; the 132-3/16\" side meets that side at the right angle, so it is opposite θ: θ = atan(132.1875 ÷ 94.1875) = atan(1.403451) = 54.53°. Trap: 35.471° is the other acute angle (90 − 54.529), and 35.48° is the same angle misrounded.",
+  "why_ru": "θ стоит у конца стороны 94-3/16\"; сторона 132-3/16\" сходится с ней под прямым углом, значит, лежит напротив θ: θ = atan(132.1875 ÷ 94.1875) = atan(1.403451) = 54.53°. Ловушка: 35.471° — второй острый угол (90 − 54.529), а 35.48° — он же, неверно округлённый.",
+  "flag": "Drawing prints \"132 3\\16\"\" and \"94 3\\16\"\" (backslash) = 132-3/16\", 94-3/16\"."
+ },
+ {
+  "src": "MON",
+  "n": 46,
+  "topic": "fittings",
+  "ru_q": "Вы делаете trim joint и отрезали 2 детали 17\" x 17-1/4\". Размер duct 10\" x 6\" с Pittsburgh; длина duct drive to drive будет",
+  "ru_opts": [
+   "18\"",
+   "15\"",
+   "16\"",
+   "12-1/4\""
+  ],
+  "why_en": "17-1/4\" is the girth of each L-shaped half: 10 + 6 + 1 (female Pittsburgh) + 1/4 (male) = 17.25\", so 17\" is the length along the duct. The drive folds 1/2\" in from each cut end, so drive to drive = 17 − 1/2 − 1/2 = 16\" (course sheet 2J: Net = Gross − 1). Trap: 15\" is the working length (17 − 2, 1\" per end to the bend line).",
+  "why_ru": "17-1/4\" — развёртка каждой Г-образной половины: 10 + 6 + 1 (female Pittsburgh) + 1/4 (male) = 17.25\", значит, 17\" — длина вдоль duct. Drive подгибается в 1/2\" от каждого отрезанного торца, поэтому drive to drive = 17 − 1/2 − 1/2 = 16\" (лист курса 2J: Net = Gross − 1). Ловушка: 15\" — это working length (17 − 2, по 1\" на конец до линии изгиба).",
+  "flag": "Original: \"Pittsburgh's\" (plural, = Pittsburghs). Kept as printed."
+ },
+ {
+  "src": "MON",
+  "n": 47,
+  "topic": "fittings",
+  "ru_q": "Вы делаете кусок duct под соединение Slip and Drive и отрезали его на 31\" по общей длине; его working length будет",
+  "ru_opts": [
+   "29\"",
+   "28\"",
+   "27\"",
+   "30\""
+  ],
+  "why_en": "S&D takes 1\" of metal on each end beyond the bend line, so working length = 31 − 1 − 1 = 29\". Trap: 30\" takes only 1/2\" per end (that is the drive-to-drive length, 31 − 1).",
+  "why_ru": "S&D забирает 1\" металла на каждом конце за линией изгиба, поэтому working length = 31 − 1 − 1 = 29\". Ловушка: 30\" — только по 1/2\" на конец (это длина drive to drive, 31 − 1).",
+  "flag": "Original: \"it's working length\" = its; no question mark. Kept as printed."
+ },
+ {
+  "src": "MON",
+  "n": 48,
+  "topic": "trig",
+  "ru_q": "Комната 21'-2\" x 45'-7\". Какое расстояние от угла комнаты до противоположного угла?",
+  "ru_opts": [
+   "50.23'",
+   "41'-6 5/8\"",
+   "50'-2\"",
+   "50'-3 1/8\""
+  ],
+  "why_en": "Diagonal = √(21.1667² + 45.5833²) = 50.2580'; 0.2580' × 12 = 3.10\" → 50'-3 1/8\". Traps: 50.23' is not this length in decimal feet (that is 50.26'), 50'-2\" is more than an inch short, and 41'-6 5/8\" is shorter than the 45'-7\" wall, which a diagonal can never be.",
+  "why_ru": "Диагональ = √(21.1667² + 45.5833²) = 50.2580'; 0.2580' × 12 = 3.10\" → 50'-3 1/8\". Ловушки: 50.23' — не эта длина в десятичных футах (она 50.26'), 50'-2\" короче больше чем на дюйм, а 41'-6 5/8\" короче стены 45'-7\", чего у диагонали быть не может.",
+  "flag": null
+ },
+ {
+  "src": "MON",
+  "n": 50,
+  "topic": "math",
+  "ru_q": "Переведите в ближайшие 16-е доли: 6.545",
+  "ru_opts": [
+   "6-5/8",
+   "6-7/16",
+   "6-9/16",
+   "6-1/2"
+  ],
+  "why_en": "Multiply the decimal part by 16: 0.545 × 16 = 8.72 → 9, so 6.545 → 6-9/16 (6.5625). Traps: 6-1/2 (8/16) cuts 8.72 down instead of rounding; 6-7/16 and 6-5/8 are further off.",
+  "why_ru": "Дробную часть умножаем на 16: 0.545 × 16 = 8.72 → 9, значит, 6.545 → 6-9/16 (6.5625). Ловушки: 6-1/2 (8/16) — 8.72 обрезали, а не округлили; 6-7/16 и 6-5/8 ещё дальше.",
+  "flag": null
+ },
+ {
+  "src": "MON",
+  "n": 51,
+  "topic": "math",
+  "ru_q": "Каков периметр duct 22\" x 12\"?",
+  "ru_opts": [
+   "68\"",
+   "34\"",
+   "264\"",
+   "46\""
+  ],
+  "why_en": "Perimeter = 2 × (22 + 12) = 68\". Traps: 34\" adds only two sides, 46\" misses one 22\" side, and 264 is the area (22 × 12).",
+  "why_ru": "Периметр = 2 × (22 + 12) = 68\". Ловушки: 34\" — сложили только две стороны, в 46\" нет одной стороны 22\", а 264 — это площадь (22 × 12).",
+  "flag": null
+ },
+ {
+  "src": "MON",
+  "n": 52,
+  "topic": "math",
+  "ru_q": "Какова площадь duct 32\" x 18\"?",
+  "ru_opts": [
+   "576 sq. in.",
+   "100 sq. in.",
+   "675 sq. in.",
+   "612 sq. in."
+  ],
+  "why_en": "Area = 32 × 18 = 576 sq. in. Trap: 100 is the perimeter, 2 × (32 + 18), not an area.",
+  "why_ru": "Площадь = 32 × 18 = 576 sq. in. Ловушка: 100 — это периметр, 2 × (32 + 18), а не площадь.",
+  "flag": null
+ },
+ {
+  "src": "MON",
+  "n": 53,
+  "topic": "math",
+  "ru_q": "Каков объём duct 28\" x 16\" длиной 4 фута?",
+  "ru_opts": [
+   "1792 cu. in.",
+   "21,504 cu. in",
+   "448 cu. in.",
+   "18,484 cu.in."
+  ],
+  "why_en": "Convert the length to inches first: 4 ft = 48\". Volume = 28 × 16 × 48 = 21,504 cu. in. Traps: 1792 multiplies by 4 without converting feet to inches, and 448 is only the cross-section area (28 × 16).",
+  "why_ru": "Сначала длину в дюймы: 4 ft = 48\". Объём = 28 × 16 × 48 = 21,504 cu. in. Ловушки: 1792 — умножили на 4, не переведя футы в дюймы, а 448 — только площадь сечения (28 × 16).",
+  "flag": null
+ },
+ {
+  "src": "MON",
+  "n": 54,
+  "topic": "transitions",
+  "ru_q": "Рассчитайте длину transition при угле 15 градусов?",
+  "ru_opts": [
+   "44 - 13/16\"",
+   "3- 3/16\"",
+   "44 - 3/4\"",
+   "45- 11/16"
+  ],
+  "why_en": "The ends are drawn 24\" and 36\" high with a flat bottom, so the top climbs 36 − 24 = 12\". Length = rise ÷ tan 15° = 12 ÷ 0.267949 = 44.7846\", × 16 = 716.55 → 717/16 = 44-13/16\". Traps: 44-3/4\" cuts the sixteenths down instead of rounding, and 3-3/16\" multiplies by tan 15° (12 × 0.267949 = 3.2154) instead of dividing.",
+  "why_ru": "Концы нарисованы высотой 24\" и 36\", низ плоский, поэтому верх поднимается на 36 − 24 = 12\". Длина = rise ÷ tan 15° = 12 ÷ 0.267949 = 44.7846\", × 16 = 716.55 → 717/16 = 44-13/16\". Ловушки: 44-3/4\" — шестнадцатые обрезали, а не округлили, а 3-3/16\" — умножили на tan 15° (12 × 0.267949 = 3.2154) вместо деления.",
+  "flag": "Option \"45- 11/16\" has no inch mark in the original. Kept as printed."
+ },
+ {
+  "src": "MON",
+  "n": 55,
+  "topic": "offsets",
+  "ru_q": "Рассчитайте длину wrapper для Ogee offset длиной 22\" drive to drive с offset 6\".",
+  "ru_opts": [
+   "20-1/8\"",
+   "21-1/8\"",
+   "23-5/8\"",
+   "24-1/8\""
+  ],
+  "why_en": "Treat the ogee as an S of two equal arcs (formula sheet \"OGEE OFFSET\") between the bend lines: L = 22 − 1 = 21\", CL R = (O² + L²) ÷ 4O = (36 + 441) ÷ 24 = 19.875\". Each arc: cos φ = (441 − 36) ÷ (441 + 36) → φ = 31.8908° (0.556599 rad), so the CL length = 2 × 19.875 × 0.556599 = 22.1248\". Add 1\" per end for the connections: 22.1248 + 2 = 24.1248\" → 24-1/8\"; the formula-sheet shortcut slant + (slant − L) ÷ 3 = 21.8403 + 0.2801 = 22.1204 gives the same 24-1/8\".",
+  "why_ru": "Ogee считаем как S из двух равных дуг (formula sheet «OGEE OFFSET») между линиями изгиба: L = 22 − 1 = 21\", CL R = (O² + L²) ÷ 4O = (36 + 441) ÷ 24 = 19.875\". Каждая дуга: cos φ = (441 − 36) ÷ (441 + 36) → φ = 31.8908° (0.556599 рад), значит, длина по CL = 2 × 19.875 × 0.556599 = 22.1248\". Плюс 1\" на каждый конец под соединения: 22.1248 + 2 = 24.1248\" → 24-1/8\"; короткая формула листа slant + (slant − L) ÷ 3 = 21.8403 + 0.2801 = 22.1204 даёт те же 24-1/8\".",
+  "flag": "Course method for the ogee wrapper is not on any course sheet found (KB 08, open question 7). Computed by the formula-sheet ogee with L = 22 − 1 and + 2 for the ends (the transition convention); the exact arc 24.1248 and the sheet shortcut 24.1204 both give 24-1/8\", the student's pick."
+ },
+ {
+  "src": "MON",
+  "n": 56,
+  "topic": "offsets",
+  "ru_q": "Найдите размеры \"L\" и \"D\" для задачи с offset.",
+  "ru_opts": [
+   "L= 35-3/8\"",
+   "L= 33-1/8\"",
+   "L= 31-3/4\"",
+   "D= 55-3/16\"",
+   "D= 60-7/8\"",
+   "D= 62-9/16\""
+  ],
+  "why_en": "Rise = 12'-1\" − 9'-5\" = 32\" (both to the bottom of the same 28\"x20\" duct). R1'-4\" (16\") is the throat radius and the 28\" side lies in the plane of the turn, so CL R = 16 + 14 = 30\"; the two 37° elbows rise 2 × 30 × (1 − cos 37°) = 12.0819\". Straight piece L = (32 − 12.0819) ÷ sin 37° = 33.0968\" → 33-1/8\"; D = 2 × 30 × sin 37° + L × cos 37° = 36.1089 + 26.4323 = 62.5412\" → 62-9/16\".",
+  "why_ru": "Подъём = 12'-1\" − 9'-5\" = 32\" (оба размера — до низа одного и того же duct 28\"x20\"). R1'-4\" (16\") — throat radius, а в плоскости поворота лежит сторона 28\", поэтому CL R = 16 + 14 = 30\"; два elbow по 37° поднимают на 2 × 30 × (1 − cos 37°) = 12.0819\". Прямой кусок L = (32 − 12.0819) ÷ sin 37° = 33.0968\" → 33-1/8\"; D = 2 × 30 × sin 37° + L × cos 37° = 36.1089 + 26.4323 = 62.5412\" → 62-9/16\".",
+  "flag": "No pick is marked in the PDF; answer by calculation (same data as TRI №17). Drawing is not to scale: the duct looks about 20\" deep, but only the 28\" side in the plane of the turn matches an option (with 20\": L 35.77\", D 59.86\")."
+ },
+ {
+  "src": "MON",
+  "n": 57,
+  "topic": "offsets",
+  "ru_q": "Найдите размеры \"L\" и \"D\" для задачи с offset.",
+  "ru_opts": [
+   "L= 65-5/8\"",
+   "L= 62-5/16\"",
+   "L= 60-3/8\"",
+   "D= 121\"",
+   "D= 125\"",
+   "D= 119-1/2\""
+  ],
+  "why_en": "Rise = 15'-2\" − 8'-9\" = 182 − 105 = 77\". R38\" is the throat radius of the 36\"Ø pipe, so CL R = 38 + 18 = 56\"; the two 44° elbows rise 2 × 56 × (1 − cos 44°) = 31.4339\". L = (77 − 31.4339) ÷ sin 44° = 65.5949\" → 65-5/8\"; D = 2 × 56 × sin 44° + L × cos 44° = 77.8017 + 47.1850 = 124.9868\" → 125\".",
+  "why_ru": "Подъём = 15'-2\" − 8'-9\" = 182 − 105 = 77\". R38\" — throat radius трубы 36\"Ø, поэтому CL R = 38 + 18 = 56\"; два elbow по 44° поднимают на 2 × 56 × (1 − cos 44°) = 31.4339\". L = (77 − 31.4339) ÷ sin 44° = 65.5949\" → 65-5/8\"; D = 2 × 56 × sin 44° + L × cos 44° = 77.8017 + 47.1850 = 124.9868\" → 125\".",
+  "flag": "No pick is marked in the PDF; answer by calculation. Drawing is 233×200 px and the left elevation is blurry: read as 8'-9\", the reading that reproduces both options (L 65-5/8\", D 125\")."
+ },
+ {
+  "src": "MON",
+  "n": 58,
+  "topic": "transitions",
+  "ru_q": "Рассчитайте shear list для transition на чертеже.",
+  "ru_opts": [
+   "Top = 16\" x 17-1/2\"",
+   "Top = 16\" x 16-1/2\"",
+   "Top = 16-1/2\" x 16-7/16\"",
+   "Bottom = 16-1/2\" x 17-1/4\"",
+   "Bottom = 16\" x 17-1/2\"",
+   "Bottom = 16\" x 16-1/2\"",
+   "Left side = 14\" x 16\"",
+   "Left side = 18\" x 14\"",
+   "Left side = 16-5/8\" x 14\"",
+   "Right side = 18-1/4\" x 14\"",
+   "Right side = 18-1/16\" x 14\"",
+   "Right side = 18-1/8\" x 14\""
+  ],
+  "why_en": "Net 15\" (drive to drive), so L = 15 − 1 = 14\". In plan 8\"x12\" → 16\"x6\" with the Left side square (∟), so the Right side moves 16 − 8 = 8\"; FOT, so TOP is flat and BOTTOM moves 12 − 6 = 6\". Widths: Top and Bottom 16 + 1/2 = 16-1/2\" (male 1/4\" × 2), sides 12 + 2 = 14\" (female 1\" × 2); lengths = true length to the nearest 1/16 + 2: Top 14 + 2 = 16 (16\" x 16-1/2\"), Bottom √(14² + 6²) = 15.2315 → 15-1/4 + 2 = 17-1/4 (16-1/2\" x 17-1/4\"), Left 14 + 2 = 16 (14\" x 16\"), Right √(14² + 8²) = 16.1245 → 16-1/8 + 2 = 18-1/8 (18-1/8\" x 14\"). Traps: 18-1/16\" cuts 16.1245 down instead of rounding; the options do not keep one width × length order, so match each part by its numbers.",
+  "why_ru": "Net 15\" (drive to drive), значит, L = 15 − 1 = 14\". В plan 8\"x12\" → 16\"x6\", Left side прямая (∟), поэтому Right side уходит на 16 − 8 = 8\"; FOT — TOP плоский, BOTTOM уходит на 12 − 6 = 6\". Ширины: Top и Bottom 16 + 1/2 = 16-1/2\" (male 1/4\" × 2), боковины 12 + 2 = 14\" (female 1\" × 2); длины = true length до ближайшей 1/16 + 2: Top 14 + 2 = 16 (16\" x 16-1/2\"), Bottom √(14² + 6²) = 15.2315 → 15-1/4 + 2 = 17-1/4 (16-1/2\" x 17-1/4\"), Left 14 + 2 = 16 (14\" x 16\"), Right √(14² + 8²) = 16.1245 → 16-1/8 + 2 = 18-1/8 (18-1/8\" x 14\"). Ловушки: 18-1/16\" — 16.1245 обрезали, а не округлили; порядок «ширина × длина» в вариантах не соблюдается, детали узнавать по числам.",
+  "flag": "No pick is marked in the PDF; answer recomputed per KB П2 and matches the four parts checked on the graded SMY1W5 №58."
+ },
+ {
+  "src": "MON",
+  "n": 59,
+  "topic": "math",
+  "ru_q": "7 стальных балок (joists) стоят на расстоянии 6'- 8\" друг от друга center to center. Расстояние center to center между двумя крайними joists — 40'-0\"",
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "7 joists have 6 spaces between them: 6 × 6'-8\" = 6 × 80\" = 480\" = 40'-0\", so Yes. Trap: 7 × 80\" = 560\" = 46'-8\" counts joists instead of spaces.",
+  "why_ru": "Между 7 joists — 6 промежутков: 6 × 6'-8\" = 6 × 80\" = 480\" = 40'-0\", значит, Да. Ловушка: 7 × 80\" = 560\" = 46'-8\" — посчитали joists, а не промежутки.",
+  "flag": null
+ },
+ {
+  "src": "MON",
+  "n": 60,
+  "topic": "math",
+  "ru_q": "Какова длина окружности круга с радиусом 40\"?",
+  "ru_opts": [
+   "141.372\"",
+   "282.743\"",
+   "251.327\"",
+   "141.38\""
+  ],
+  "why_en": "C = 2πR = 2 × π × 40 = 251.327\". 282.743\" and 141.372\" are 2π × 45 and π × 45, the answers for a 45\" radius; 141.38\" is the latter misrounded.",
+  "why_ru": "C = 2πR = 2 × π × 40 = 251.327\". 282.743\" и 141.372\" — это 2π × 45 и π × 45, ответы для радиуса 45\"; 141.38\" — последний, неверно округлённый.",
+  "flag": null
+ },
+ {
+  "src": "MON",
+  "n": 61,
+  "topic": "math",
+  "ru_q": "Какова длина окружности круга с радиусом 42\"?",
+  "ru_opts": [
+   "141.372\"",
+   "282.743\"",
+   "263.894\"",
+   "141.38\""
+  ],
+  "why_en": "C = 2πR = 2 × π × 42 = 263.894\". 282.743\" and 141.372\" are 2π × 45 and π × 45, the answers for a 45\" radius; 141.38\" is the latter misrounded.",
+  "why_ru": "C = 2πR = 2 × π × 42 = 263.894\". 282.743\" и 141.372\" — это 2π × 45 и π × 45, ответы для радиуса 45\"; 141.38\" — последний, неверно округлённый.",
+  "flag": null
+ },
+ {
+  "src": "MON",
+  "n": 62,
+  "topic": "safety",
+  "ru_q": "Симптомы, которые появляются вскоре после токсичного воздействия, — это:",
+  "ru_opts": [
+   "Acute effects (острые)",
+   "Редко связаны с работой",
+   "Слабее ранних эффектов",
+   "Chronic effects (хронические)"
+  ],
+  "why_en": "Acute effects appear soon after a short exposure. Chronic effects build up over long or repeated exposure and show up later.",
+  "why_ru": "Acute effects появляются вскоре после короткого воздействия. Chronic effects накапливаются при долгом или повторном воздействии и проявляются позже.",
+  "flag": null
+ },
+ {
+  "src": "MON",
+  "n": 63,
+  "topic": "drawing",
+  "ru_q": "Чаще всего инструкции по формовке (forming instructions) наносят на _______________ sheet metal pattern.",
+  "ru_opts": [
+   "Внутреннюю сторону (вся разметка layout)",
+   "Наружную сторону (forming и наклейки detail)",
+   "Обе стороны"
+  ],
+  "why_en": "A pattern carries information on both faces: all layout marking is scribed on the inside, which is hidden in the finished fitting, and the forming and detail stickers go on the outside, where they stay readable while the piece is formed and installed. So the answer is Both. Note: this answer comes from another student's sheet, not a graded key; b (Outside) is a possible intended answer.",
+  "why_ru": "Информация на pattern есть с обеих сторон: вся разметка layout наносится на внутреннюю сторону, которая в готовом fitting не видна, а наклейки с forming и detail — на наружную, где их видно при формовке и монтаже. Поэтому ответ — обе стороны. Внимание: ответ взят с листа другого ученика, проверенного ключа нет; возможно, в ключе b (Outside).",
+  "flag": "Student pick only (в); no course source found. The option text itself puts forming stickers on the outside and layout on the inside, so b (Outside) is a plausible alternative key; keep c until a graded copy settles it."
+ },
+ {
+  "src": "MON",
+  "n": 64,
+  "topic": "welding",
+  "ru_q": "В процессе GMAW shielding gases (защитные газы) используют, чтобы:",
+  "ru_opts": [
+   "Защитить шов от окружающего воздуха.",
+   "Получить более горячую дугу.",
+   "Уменьшить дефекты шва.",
+   "Всё перечисленное."
+  ],
+  "why_en": "The main job of the shielding gas is to keep the oxygen and nitrogen of the air away from the molten weld, and by doing that it prevents porosity and other defects. The gas mix also sets the arc heat: CO2 and helium give a hotter arc and deeper penetration than pure argon. All three statements are true.",
+  "why_ru": "Главная задача shielding gas — не пускать кислород и азот воздуха к расплавленному шву, и тем самым он предотвращает поры и другие дефекты. Состав газа ещё и задаёт тепло дуги: CO2 и helium дают более горячую дугу и более глубокий провар, чем чистый argon. Верны все три утверждения.",
+  "flag": null
+ },
+ {
+  "src": "MON",
+  "n": 65,
+  "topic": "welding",
+  "ru_q": "GMAW использует источник питания constant current (CC).",
+  "ru_opts": [
+   "Верно",
+   "Неверно"
+  ],
+  "why_en": "False: GMAW uses a constant voltage (CV) power source, where voltage sets arc length and wire feed speed sets amperage. Constant current is the SMAW (stick) machine.",
+  "why_ru": "Неверно: у GMAW источник constant voltage (CV), где voltage задаёт длину дуги, а wire feed speed — ток. Constant current — машина для SMAW (stick).",
+  "flag": null
+ },
+ {
+  "src": "MON",
+  "n": 66,
+  "topic": "safety",
+  "ru_q": "Ваша страховочная привязь (safety harness) и lifeline должны не давать вам упасть больше чем на",
+  "ru_opts": [
+   "3 фута.",
+   "6 футов.",
+   "8 футов.",
+   "10 футов."
+  ],
+  "why_en": "OSHA 1926.502(d)(16)(iii): a personal fall arrest system must be rigged so the worker can neither free fall more than 6 feet nor hit any lower level.",
+  "why_ru": "OSHA 1926.502(d)(16)(iii): personal fall arrest system должна быть закреплена так, чтобы работник не падал свободно больше 6 футов и не долетал до нижнего уровня.",
+  "flag": null
+ },
+ {
+  "src": "MON",
+  "n": 67,
+  "topic": "math",
+  "ru_q": "Сколько квадратных футов в площади прямоугольника 28\" x 20\"?",
+  "ru_opts": [
+   "488 sq.ft.",
+   "3.889 sq.ft.",
+   "3.888 sq.ft.",
+   "46.67 sq.ft."
+  ],
+  "why_en": "28 × 20 = 560 sq. in.; 1 sq. ft = 144 sq. in., so 560 ÷ 144 = 3.8889 → 3.889 sq. ft. Traps: 3.888 cuts off instead of rounding, and 46.67 divides by 12 instead of 144.",
+  "why_ru": "28 × 20 = 560 sq. in.; 1 sq. ft = 144 sq. in., поэтому 560 ÷ 144 = 3.8889 → 3.889 sq. ft. Ловушки: 3.888 — обрезали, а не округлили, а 46.67 — разделили на 12 вместо 144.",
+  "flag": null
+ },
+ {
+  "src": "MON",
+  "n": 68,
+  "topic": "math",
+  "ru_q": "Какова итоговая цена печи (furnace) за $575 с налогом с продаж 8-1/4%?",
+  "ru_opts": [
+   "$47.33",
+   "$47.44",
+   "$622.44",
+   "$622.43"
+  ],
+  "why_en": "Tax = 575 × 0.0825 = 47.4375; total = 575 + 47.4375 = 622.4375 → $622.44 (the half cent rounds up). Traps: $47.44 is only the tax, and $622.43 cuts off instead of rounding.",
+  "why_ru": "Налог = 575 × 0.0825 = 47.4375; итого = 575 + 47.4375 = 622.4375 → $622.44 (полцента округляется вверх). Ловушки: $47.44 — это только налог, а $622.43 — обрезали, а не округлили.",
+  "flag": "Original: \"a 8-1/4%\" (= an). Kept as printed."
+ },
+ {
+  "src": "MON",
+  "n": 69,
+  "topic": "math",
+  "ru_q": "Сколько целых кусков по 15\" можно отрезать от полосы металла длиной 12 футов?",
+  "ru_opts": [
+   "9 штук",
+   "12 штук",
+   "10 штук",
+   "8 штук"
+  ],
+  "why_en": "12 ft = 144\"; 144 ÷ 15 = 9.6, so only 9 whole pieces (9 × 15 = 135\", 9\" left over). Trap: 10 rounds 9.6 up, but the tenth piece would be only 9\" long.",
+  "why_ru": "12 ft = 144\"; 144 ÷ 15 = 9.6, значит, целых кусков только 9 (9 × 15 = 135\", остаток 9\"). Ловушка: 10 — округлили 9.6 вверх, но десятый кусок вышел бы длиной всего 9\".",
+  "flag": null
+ },
+ {
+  "src": "MON",
+  "n": 70,
+  "topic": "drawing",
+  "ru_q": "Выберите изображение, которое обозначает линию обрыва (break-line) для прямоугольного duct.",
+  "ru_opts": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F"
+  ],
+  "why_en": "E is the long break line: a thin straight line with one zigzag that runs a little past both edges, the break drawn on rectangular duct in the course drawings. F is the S-break (figure-eight) used for round pipe, rod and tube, and the dashed line in A is a hidden line, not a break. Note: this answer comes from another student's sheet, not a graded key.",
+  "why_ru": "E — длинная линия обрыва: тонкая прямая с одним зигзагом, чуть выходящая за обе кромки; так обрывают прямоугольный duct на чертежах курса. F — S-образный обрыв (восьмёрка) для круглых труб, прутков и трубок, а штриховая линия в A — невидимый контур, а не обрыв. Внимание: ответ взят с листа другого ученика, проверенного ключа нет.",
+  "flag": "Student pick only (в); no course symbol sheet found. E matches the break drawn on rectangular duct in this test's own figures (№42, 54, 56) and the drafting convention (zigzag long break for flat or rectangular parts, S-break F for round)."
+ },
+ {
+  "src": "MON",
+  "n": 71,
+  "topic": "materials",
+  "ru_q": "Какой металл при покупке приходит очень масляным?",
+  "ru_opts": [
+   "Cold rolled steel (холоднокатаная сталь)",
+   "Hot rolled steel (горячекатаная сталь)",
+   "Copper (медь)",
+   "Galvanized (оцинкованная сталь)"
+  ],
+  "why_en": "Cold rolled steel has no zinc coating and no mill scale, so the mill oils it to keep it from rusting in storage. Standard hot rolled steel carries dark mill scale and is usually sold dry (only the pickled-and-oiled grade is oiled), galvanized is protected by its zinc, and copper does not rust.",
+  "why_ru": "У cold rolled steel нет ни цинкового покрытия, ни окалины, поэтому завод покрывает её маслом, чтобы она не ржавела на складе. Обычная hot rolled steel покрыта тёмной окалиной и продаётся сухой (маслом покрыт только сорт pickled and oiled), galvanized защищает цинк, а медь не ржавеет.",
+  "flag": null
+ },
+ {
+  "src": "MON",
+  "n": 72,
+  "topic": "offsets",
+  "ru_q": "По какой формуле можно изготовить field offset?",
+  "ru_opts": [
+   "Offset, делённый на ширину и умноженный на длину",
+   "Ширина плюс offset",
+   "Offset плюс ширина, делённые на длину",
+   "Offset, умноженный на ширину и делённый на длину"
+  ],
+  "why_en": "A field offset is cut from a straight section: on the side that shows the offset, cut = offset × width ÷ length off each end, at opposite edges on the two ends, so the section becomes a parallelogram (course formula sheet). Example: offset 2\", width 12\", length 48\" → 2 × 12 ÷ 48 = 1/2\" off each end.",
+  "why_ru": "Field offset делают из прямой секции: на стороне, где виден сдвиг, с каждого конца срезают cut = offset × ширина ÷ длина, на двух концах — у противоположных кромок, и секция становится параллелограммом (formula sheet курса). Пример: offset 2\", ширина 12\", длина 48\" → 2 × 12 ÷ 48 = 1/2\" с каждого конца.",
+  "flag": null
+ },
+ {
+  "src": "MON",
+  "n": 73,
+  "topic": "math",
+  "ru_q": "Какой радиус у секции flat oval 42\" x 22\"?",
+  "ru_opts": [
+   "5.5\"",
+   "21\"",
+   "11\"",
+   "22\""
+  ],
+  "why_en": "The round ends of a flat oval have a diameter equal to the short side, so R = 22 ÷ 2 = 11\". Traps: 21\" is half of the long side, 22\" is the diameter, and 5.5\" is a quarter of the short side.",
+  "why_ru": "Диаметр закруглений flat oval равен короткой стороне, поэтому R = 22 ÷ 2 = 11\". Ловушки: 21\" — половина длинной стороны, 22\" — диаметр, а 5.5\" — четверть короткой стороны.",
+  "flag": null
+ },
+ {
+  "src": "MON",
+  "n": 74,
+  "topic": "materials",
+  "ru_q": "Лист нержавеющей стали (stainless steel) с финишем номер 8 —",
+  "ru_opts": [
+   "тусклый",
+   "шлифованный",
+   "очень блестящий",
+   "масляный"
+  ],
+  "why_en": "Stainless finish numbers run from dull to bright: No. 2B is a dull mill finish, No. 4 is brushed (satin), and No. 8 is a polished mirror finish, the shiniest standard one.",
+  "why_ru": "Номера финиша stainless идут от тусклого к блестящему: No. 2B — тусклый заводской, No. 4 — шлифованный (brushed, satin), No. 8 — полированный до зеркала, самый блестящий из стандартных.",
+  "flag": null
+ },
+ {
+  "src": "MON",
+  "n": 75,
+  "topic": "safety",
+  "ru_q": "Правильный угол лестницы к земле —",
+  "ru_opts": [
+   "75 градусов",
+   "57 градусов",
+   "30 градусов",
+   "60 градусов"
+  ],
+  "why_en": "OSHA 1926.1053(b)(5)(i): the foot of the ladder is set out about 1/4 of its working length, so cos θ = 1/4 → θ = 75.52° ≈ 75° (the 4-to-1 rule). At 60° or 57° the foot is too far out and the ladder can slide; 30° is far too flat.",
+  "why_ru": "OSHA 1926.1053(b)(5)(i): низ лестницы отставляют примерно на 1/4 её рабочей длины, поэтому cos θ = 1/4 → θ = 75.52° ≈ 75° (правило 4 к 1). При 60° или 57° низ стоит слишком далеко и лестница может съехать; 30° — почти лёжа.",
+  "flag": null
+ },
+ {
+  "src": "MON",
+  "n": 76,
+  "topic": "transitions",
+  "ru_q": "По plan и section view выберите transition для соединения duct.",
+  "ru_opts": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "why_en": "Section: bottom 7'-1\" → 7'-9\" (up 8\"), top 7'-1\" + 14\" = 8'-3\" → 7'-9\" + 8\" = 8'-5\" (up 2\"); A and B are both drawn with these 8\" and 2\" offsets and differ only in the label. They show the heights 14 and 8, so they are side views seen from the wall, and by course sheet 2I TOP is the face toward the viewer, here the wall face. In plan both ducts are 9-1/2\" from the wall, so that face is flat → FOT, which on this sheet is A; B (FOB) would need the room-side face flat, but it moves 20 − 16 = 4\". C says TOP UP 8\" (the top rises only 2\"), and D has 2\" but its arrow points at the 20\"x14\" end, whose top is the lower one.",
+  "why_ru": "Section: низ 7'-1\" → 7'-9\" (вверх на 8\"), верх 7'-1\" + 14\" = 8'-3\" → 7'-9\" + 8\" = 8'-5\" (вверх на 2\"); A и B нарисованы с этими смещениями 8\" и 2\" и различаются только подписью. На них видны высоты 14 и 8, значит, это вид сбоку со стороны стены, а по листу курса 2I TOP — грань к смотрящему, здесь грань у стены. В plan оба duct стоят в 9-1/2\" от стены, значит, эта грань плоская → FOT, а на этом листе FOT подписан у A; B (FOB) требует плоской грани со стороны комнаты, а она смещается на 20 − 16 = 4\". У C TOP UP 8\" (верх поднимается только на 2\"), а у D 2\" верно, но стрелка указывает на конец 20\"x14\", у которого верх как раз ниже.",
+  "flag": "Student pick (в), now checked on the page: the №76 image is pixel-identical to №24 except the FOB/FOT labels, which are swapped. A and B have the same geometry (offsets 8\" and 2\", ≈2 px/in), so the answer follows the FOT label → a, consistent with №24 = B and test-90 №40. The dimension at A's top-left measures 8\" (KB open question 3 read it as 6\"). Closes open question 3."
+ },
+ {
+  "src": "MON",
+  "n": 77,
+  "topic": "safety",
+  "ru_q": "Светофильтр (welding lens) номер 9 темнее или светлее, чем номер 12?",
+  "ru_opts": null,
+  "why_en": "Lighter. The shade number is the darkness of the lens: the higher the number, the darker. 9 is lower than 12, so a #9 lens is lighter; #12 is used for heavier electrodes and higher current.",
+  "why_ru": "Светлее (Lighter). Номер shade — это степень затемнения: чем больше номер, тем темнее светофильтр. 9 меньше 12, значит, #9 светлее; #12 ставят на толстые electrode и большой ток.",
+  "flag": null
+ },
+ {
+  "src": "MON",
+  "n": 78,
+  "topic": "safety",
+  "ru_q": "Чтобы избежать лишнего воздействия сварочного дыма (fumes):",
+  "ru_opts": [
+   "Не варите во влажных условиях.",
+   "Варите в пылевой маске, как у маляров.",
+   "Не варите на открытом воздухе.",
+   "Подождите 10 секунд, пока дым рассеется, прежде чем осматривать шов."
+  ],
+  "why_en": "Fumes keep rising from the hot weld for a few seconds after the arc stops, so wait about 10 seconds and keep your head out of the plume before inspecting. Welding outdoors actually helps ventilation, a painter's dust mask does not stop welding fume, and humidity does not create fumes.",
+  "why_ru": "Дым ещё несколько секунд поднимается от горячего шва после того, как дуга погасла, поэтому подождите около 10 секунд и не держите голову в столбе дыма. Сварка на улице как раз улучшает вентиляцию, малярная пылевая маска от сварочного дыма не защищает, а влажность дыма не создаёт.",
+  "flag": null
+ },
+ {
+  "src": "MON",
+  "n": 79,
+  "topic": "safety",
+  "ru_q": "Если кожи нет, следующий лучший выбор одежды — nylon или polyester. Верно или неверно?",
+  "ru_opts": [
+   "Неверно",
+   "Верно"
+  ],
+  "why_en": "False: nylon and polyester melt and stick to the skin when sparks or spatter hit them. After leather, wear wool or flame-resistant (treated) cotton.",
+  "why_ru": "Неверно: nylon и polyester плавятся и прилипают к коже, когда на них попадают искры или брызги металла. После кожи — шерсть или огнестойкий (пропитанный) хлопок.",
+  "flag": null
+ }
+]

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 556.79" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="520" height="556.79" fill="#fff"/>
+<polygon points="46.6,198.68 264.91,73.85 500.38,485.66" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<polyline points="249.29,82.79 258.22,98.41 273.85,89.48" fill="none" stroke="#111" stroke-width="1.15" stroke-linejoin="miter"/>
+<line x1="44.62" y1="195.21" x2="15.37" y2="144.05" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="262.93" y1="70.38" x2="233.68" y2="19.23" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="18.84" y1="150.13" x2="116.64" y2="94.21" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="139.36" y1="81.22" x2="237.16" y2="25.3" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<polygon points="18.84,150.13 28.39,140.64 31.87,146.72" fill="#111" stroke="none"/>
+<polygon points="237.16,25.3 227.61,34.8 224.13,28.72" fill="#111" stroke="none"/>
+<text x="128" y="94.46" font-size="19" text-anchor="middle" fill="#111">L</text>
+<line x1="44.47" y1="202.06" x2="13.49" y2="251.03" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="498.24" y1="489.04" x2="467.27" y2="538.01" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="17.24" y1="245.12" x2="223.69" y2="375.69" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="264.55" y1="401.53" x2="471.01" y2="532.1" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<polygon points="17.24,245.12 30.09,249.11 26.35,255.02" fill="#111" stroke="none"/>
+<polygon points="471.01,532.1 458.15,528.11 461.89,522.19" fill="#111" stroke="none"/>
+<text x="244.12" y="395.35" font-size="19" text-anchor="middle" fill="#111">13.67"</text>
+<path d="M158.18,134.88 A128.53,128.53 0 0 1 174.74,188.63" fill="none" stroke="#111" stroke-width="1.15"/>
+<path d="M174.16,214.42 A128.53,128.53 0 0 1 155.23,267.38" fill="none" stroke="#111" stroke-width="1.15"/>
+<polygon points="158.18,134.88 167.18,144.9 160.93,148.06" fill="#111" stroke="none"/>
+<polygon points="155.23,267.38 158.57,254.34 164.66,257.77" fill="#111" stroke="none"/>
+<text x="175.1" y="208.28" font-size="19" text-anchor="middle" fill="#111">52.4°</text>
+</svg>

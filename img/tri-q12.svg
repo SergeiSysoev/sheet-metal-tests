@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 414.05" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="600" height="414.05" fill="#fff"/>
+<polygon points="121.49,24.79 523.14,24.79 121.49,312.4" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<polyline points="135.49,24.79 135.49,38.79 121.49,38.79" fill="none" stroke="#111" stroke-width="1.15" stroke-linejoin="miter"/>
+<path d="M121.49,195.87 A116.53,116.53 0 0 1 216.23,244.56" fill="none" stroke="#111" stroke-width="1.15"/>
+<polygon points="121.49,195.87 134.66,193.1 134.27,200.09" fill="#111" stroke="none"/>
+<polygon points="216.23,244.56 205.36,236.62 210.81,232.23" fill="#111" stroke="none"/>
+<text x="203.31" y="168.97" font-size="22" text-anchor="middle" fill="#111">73°</text>
+<line x1="84.3" y1="24.79" x2="47.55" y2="24.79" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="84.3" y1="312.4" x2="47.55" y2="312.4" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="54.55" y1="24.79" x2="54.55" y2="153.64" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="54.55" y1="183.56" x2="54.55" y2="312.4" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<polygon points="54.55,24.79 58.05,37.79 51.05,37.79" fill="#111" stroke="none"/>
+<polygon points="54.55,312.4 51.05,299.4 58.05,299.4" fill="#111" stroke="none"/>
+<text x="54.55" y="176.41" font-size="22" text-anchor="middle" fill="#111">a</text>
+<line x1="123.82" y1="315.65" x2="166.56" y2="375.34" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="525.47" y1="28.05" x2="568.21" y2="87.73" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="162.48" y1="369.65" x2="342.42" y2="240.8" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="384.2" y1="210.88" x2="564.13" y2="82.04" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<polygon points="162.48,369.65 171.01,359.23 175.09,364.92" fill="#111" stroke="none"/>
+<polygon points="564.13,82.04 555.6,92.46 551.53,86.77" fill="#111" stroke="none"/>
+<text x="363.31" y="233.65" font-size="22" text-anchor="middle" fill="#111">19'</text>
+</svg>

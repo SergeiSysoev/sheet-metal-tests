@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 532.36" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="480" height="532.36" fill="#fff"/>
+<ellipse cx="230.4" cy="139.64" rx="90.76" ry="75.05" fill="none" stroke="#111" stroke-width="2.2"/>
+<line x1="139.64" y1="139.64" x2="139.64" y2="446.84" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<line x1="321.16" y1="139.64" x2="321.16" y2="446.84" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<path d="M139.64,446.84 A90.76,75.05 0 0 0 321.16,446.84" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="122.18" y1="139.64" x2="12.22" y2="139.64" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="122.18" y1="446.84" x2="12.22" y2="446.84" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="36.65" y1="139.64" x2="36.65" y2="281.89" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="36.65" y1="320.29" x2="36.65" y2="446.84" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<polygon points="36.65,139.64 40.15,152.64 33.15,152.64" fill="#111" stroke="none"/>
+<polygon points="36.65,446.84 33.15,433.84 40.15,433.84" fill="#111" stroke="none"/>
+<polyline points="292.36,84.79 384,31.42 396.22,31.42" fill="none" stroke="#111" stroke-width="1.15" stroke-linejoin="miter"/>
+<polygon points="292.36,84.79 301.84,75.23 305.36,81.27" fill="#111" stroke="none"/>
+<text x="401.45" y="37.45" font-size="17" text-anchor="start" fill="#111">14" Ø</text>
+</svg>

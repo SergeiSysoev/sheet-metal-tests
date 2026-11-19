@@ -1135,6 +1135,43 @@ const QUESTIONS = [
   "type": "single"
  },
  {
+  "id": "T90-25",
+  "src": "T90",
+  "n": 25,
+  "topic": "weldsym",
+  "q": {
+   "en": "This symbol shows a ____ type of weld.",
+   "ru": "Этот знак показывает ____ тип шва."
+  },
+  "why": {
+   "en": "A right triangle on the reference line, with its vertical leg on the left, is the fillet weld symbol. A bevel is drawn as a vertical line plus a slanted line with no third side; scarf is a brazed joint and corner is a joint type, not a weld symbol.",
+   "ru": "Прямоугольный треугольник на reference line, вертикальный катет слева, — знак fillet. Bevel рисуют вертикальной и наклонной чертой без третьей стороны; scarf — соединение под brazing, а corner — тип соединения, а не знак шва."
+  },
+  "opts": [
+   {
+    "en": "scarf",
+    "ru": "scarf"
+   },
+   {
+    "en": "bevel",
+    "ru": "bevel"
+   },
+   {
+    "en": "fillet",
+    "ru": "fillet"
+   },
+   {
+    "en": "corner",
+    "ru": "corner"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single",
+  "fig": "t90-q25.svg"
+ },
+ {
   "id": "T90-26",
   "src": "T90",
   "n": 26,
@@ -1169,6 +1206,43 @@ const QUESTIONS = [
    2
   ],
   "type": "single"
+ },
+ {
+  "id": "T90-27",
+  "src": "T90",
+  "n": 27,
+  "topic": "weldsym",
+  "q": {
+   "en": "Which type of weld does the following symbol represent:",
+   "ru": "Какой тип шва обозначает этот знак:"
+  },
+  "why": {
+   "en": "Two parallel vertical lines on the reference line are the square-groove weld symbol: the plate edges stay square, with no bevel. A square weld is technically one kind of groove weld, so \"groove\" is not absurd, but the symbol names the specific type, square; a fillet would be a triangle.",
+   "ru": "Две параллельные вертикальные черты на reference line — знак square-groove: кромки остаются прямыми, без bevel. Формально square — разновидность groove, поэтому «groove» не абсурд, но знак называет конкретный тип — square; fillet был бы треугольником."
+  },
+  "opts": [
+   {
+    "en": "scarf",
+    "ru": "scarf"
+   },
+   {
+    "en": "groove",
+    "ru": "groove"
+   },
+   {
+    "en": "fillet",
+    "ru": "fillet"
+   },
+   {
+    "en": "square",
+    "ru": "square"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single",
+  "fig": "t90-q27.svg"
  },
  {
   "id": "T90-28",
@@ -1603,6 +1677,43 @@ const QUESTIONS = [
   "type": "single"
  },
  {
+  "id": "T90-40",
+  "src": "T90",
+  "n": 40,
+  "topic": "transitions",
+  "q": {
+   "en": "Using the plan and section view provided select the transition to use for the duct connection.",
+   "ru": "По plan и section view выберите transition для соединения duct."
+  },
+  "why": {
+   "en": "Section: bottom 7'-1\" → 7'-9\" (up 8\"), top 7'-1\" + 14\" = 8'-3\" → 7'-9\" + 8\" = 8'-5\" (up 2\"); A and B are both drawn with these 8\" and 2\" offsets and differ only in the label. They show the heights 14 and 8, so they are side views seen from the wall, and by course sheet 2I TOP is the face toward the viewer, here the wall face. In plan both ducts are 9½\" from the wall, so that face is flat → FOT → B; A (FOB) would need the room-side face flat, but it moves 20 − 16 = 4\". C says TOP UP 8\" (the top rises only 2\"); D has 2\" but its arrow points at the 20\"x14\" end, whose top is the lower one.",
+   "ru": "Section: низ 7'-1\" → 7'-9\" (вверх на 8\"), верх 7'-1\" + 14\" = 8'-3\" → 7'-9\" + 8\" = 8'-5\" (вверх на 2\"); A и B нарисованы с этими смещениями 8\" и 2\" и различаются только подписью. На них видны высоты 14 и 8, значит, это вид сбоку со стороны стены, а по листу курса 2I TOP — грань к смотрящему, здесь грань у стены. В plan оба duct стоят в 9½\" от стены, значит, эта грань плоская → FOT → B; A (FOB) требует плоской грани со стороны комнаты, а она смещается на 20 − 16 = 4\". У C TOP UP 8\" (верх поднимается только на 2\"); у D 2\" верно, но стрелка указывает на конец 20\"x14\", у которого верх как раз ниже."
+  },
+  "opts": [
+   {
+    "en": "A",
+    "ru": "A"
+   },
+   {
+    "en": "B",
+    "ru": "B"
+   },
+   {
+    "en": "C",
+    "ru": "C"
+   },
+   {
+    "en": "D",
+    "ru": "D"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "fig": "t90-q40.svg"
+ },
+ {
   "id": "T90-41",
   "src": "T90",
   "n": 41,
@@ -1919,6 +2030,89 @@ const QUESTIONS = [
   "type": "single"
  },
  {
+  "id": "T90-50",
+  "src": "T90",
+  "n": 50,
+  "topic": "offsets",
+  "q": {
+   "en": "Select the correct answers for dimension \"L\" and \"D\"",
+   "ru": "Выберите правильные значения размеров \"L\" и \"D\"."
+  },
+  "why": {
+   "en": "Rise = 11'-8\" − 8'-3\" = 41\". The 12\" R is the throat radius and the 12\" side lies in the plane of the turn, so CL R = 12 + 6 = 18\"; the two 45° elbows rise 2 × 18 × (1 − cos 45°) = 10.5442\", and the straight piece D covers the rest: D = (41 − 10.5442) ÷ sin 45° = 43.0711\" → 43.07\". L = 2 × 18 × sin 45° + D × cos 45° = 25.4558 + 30.4558 = 55.9117\" → 55.912\". 43.072\", 55.9127\" and 55.92\" each miss the exact value in the last digit.",
+   "ru": "Подъём = 11'-8\" − 8'-3\" = 41\". 12\" R — это throat radius, а в плоскости поворота лежит сторона 12\", поэтому CL R = 12 + 6 = 18\"; два elbow по 45° поднимают на 2 × 18 × (1 − cos 45°) = 10.5442\", остальное набирает прямой кусок D: D = (41 − 10.5442) ÷ sin 45° = 43.0711\" → 43.07\". L = 2 × 18 × sin 45° + D × cos 45° = 25.4558 + 30.4558 = 55.9117\" → 55.912\". У 43.072\", 55.9127\" и 55.92\" последняя цифра расходится с точным значением."
+  },
+  "opts": [
+   {
+    "en": "D = 43.07\"",
+    "ru": "D = 43.07\""
+   },
+   {
+    "en": "D = 43.072\"",
+    "ru": "D = 43.072\""
+   },
+   {
+    "en": "D = 43.172\"",
+    "ru": "D = 43.172\""
+   },
+   {
+    "en": "L = 55.9127\"",
+    "ru": "L = 55.9127\""
+   },
+   {
+    "en": "L = 55.912\"",
+    "ru": "L = 55.912\""
+   },
+   {
+    "en": "L = 55.92\"",
+    "ru": "L = 55.92\""
+   }
+  ],
+  "answer": [
+   0,
+   4
+  ],
+  "type": "multi",
+  "fig": "t90-q50.svg"
+ },
+ {
+  "id": "T90-51",
+  "src": "T90",
+  "n": 51,
+  "topic": "offsets",
+  "q": {
+   "en": "Calculate and select the missing dimension \"A\" for the duct trim joint.",
+   "ru": "Рассчитайте и выберите недостающий размер \"A\" для duct trim joint."
+  },
+  "why": {
+   "en": "The 10'-0½\" (120.5\") runs from the top of the riser down to the centerline of the 8\"x8\". The 12\"x8\" → 8\"x8\" transition is flat on bottom, so that centerline is 12 − 4 = 8\" below the top of the 12\"x8\"; the elbow therefore takes its 10\" throat radius plus those 8\" = 18\". A = 120.5 − 6 − 35 − 35 − 18 = 26.5\" = 26-1/2\".",
+   "ru": "Размер 10'-0½\" (120.5\") идёт от верха стояка до centerline 8\"x8\". Transition 12\"x8\" → 8\"x8\" — FOB (плоский низ), поэтому centerline 8\"x8\" на 12 − 4 = 8\" ниже верха 12\"x8\"; elbow по высоте занимает throat radius 10\" плюс эти 8\" = 18\". A = 120.5 − 6 − 35 − 35 − 18 = 26.5\" = 26-1/2\"."
+  },
+  "opts": [
+   {
+    "en": "2' 1-5/8\"",
+    "ru": "2' 1-5/8\""
+   },
+   {
+    "en": "24-1/2\"",
+    "ru": "24-1/2\""
+   },
+   {
+    "en": "2'-3 1/2\"",
+    "ru": "2'-3 1/2\""
+   },
+   {
+    "en": "26-1/2\"",
+    "ru": "26-1/2\""
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single",
+  "fig": "t90-q51.svg"
+ },
+ {
   "id": "T90-52",
   "src": "T90",
   "n": 52,
@@ -1989,6 +2183,154 @@ const QUESTIONS = [
    0
   ],
   "type": "single"
+ },
+ {
+  "id": "T90-54",
+  "src": "T90",
+  "n": 54,
+  "topic": "trig",
+  "q": {
+   "en": "Using a square to determine the brake angle on a piece of metal, you come up with the following measurements (see image). What degree is angle \"A\"? Round off to the nearest whole degree.",
+   "ru": "Угольником (square) вы определяете угол гиба (brake angle) на детали и получаете такие размеры (см. рисунок). Сколько градусов угол \"A\"? Округлите до целого градуса."
+  },
+  "why": {
+   "en": "The sloped leg rises 8-13/16\" over a run of 4-11/16\": tan θ = 8.8125 ÷ 4.6875 = 1.88 → θ = 61.99°, measured to the extension of the flat leg. Angle A is between the two legs of the bend, so A = 180 − 61.99 = 118.01° → 118°. Trap: 28° is the other acute angle of the triangle (90 − 61.99).",
+   "ru": "Наклонная полка поднимается на 8-13/16\" при выносе 4-11/16\": tan θ = 8.8125 ÷ 4.6875 = 1.88 → θ = 61.99° — это угол к продолжению плоской полки. Угол A — между самими полками гиба, поэтому A = 180 − 61.99 = 118.01° → 118°. Ловушка: 28° — второй острый угол треугольника (90 − 61.99)."
+  },
+  "opts": [
+   {
+    "en": "120 degrees",
+    "ru": "120 градусов"
+   },
+   {
+    "en": "28 degrees",
+    "ru": "28 градусов"
+   },
+   {
+    "en": "118 degrees",
+    "ru": "118 градусов"
+   },
+   {
+    "en": "135 degrees",
+    "ru": "135 градусов"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single",
+  "fig": "t90-q54.svg"
+ },
+ {
+  "id": "T90-55",
+  "src": "T90",
+  "n": 55,
+  "topic": "trig",
+  "q": {
+   "en": "Solve length \"L\" for the triangle.",
+   "ru": "Найдите длину \"L\" треугольника."
+  },
+  "why": {
+   "en": "13.67\" is the hypotenuse (opposite the right angle) and L is the side adjacent to the 52.4° angle, so L = 13.67 × cos 52.4° = 8.3407\" → 8.34\". Traps: 10.83\" uses sin instead of cos, 17.75\" uses tan.",
+   "ru": "13.67\" — гипотенуза (напротив прямого угла), L — катет, прилежащий к углу 52.4°, поэтому L = 13.67 × cos 52.4° = 8.3407\" → 8.34\". Ловушки: 10.83\" — sin вместо cos, 17.75\" — tan."
+  },
+  "opts": [
+   {
+    "en": "10.83\"",
+    "ru": "10.83\""
+   },
+   {
+    "en": "17.75\"",
+    "ru": "17.75\""
+   },
+   {
+    "en": "10.53\"",
+    "ru": "10.53\""
+   },
+   {
+    "en": "8.34\"",
+    "ru": "8.34\""
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single",
+  "fig": "t90-q55.svg"
+ },
+ {
+  "id": "T90-56",
+  "src": "T90",
+  "n": 56,
+  "topic": "trig",
+  "q": {
+   "en": "Solve angle \"A\" for the triangle.",
+   "ru": "Найдите угол \"A\" треугольника."
+  },
+  "why": {
+   "en": "25-3/8\" is the hypotenuse and 18-5/8\" is the side opposite A: sin A = 18.625 ÷ 25.375 = 0.7340 → A = 47.22°. Traps: 42.78° is the other acute angle (cos instead of sin), and 36.28° uses tan as if 25-3/8\" were a leg.",
+   "ru": "25-3/8\" — гипотенуза, 18-5/8\" — катет напротив угла A: sin A = 18.625 ÷ 25.375 = 0.7340 → A = 47.22°. Ловушки: 42.78° — второй острый угол (cos вместо sin), 36.28° — tan, будто 25-3/8\" это катет."
+  },
+  "opts": [
+   {
+    "en": "47.22 degrees",
+    "ru": "47.22 градуса"
+   },
+   {
+    "en": "42.78 degrees",
+    "ru": "42.78 градуса"
+   },
+   {
+    "en": "38.23 degrees",
+    "ru": "38.23 градуса"
+   },
+   {
+    "en": "36.28 degrees",
+    "ru": "36.28 градуса"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "fig": "t90-q56.svg"
+ },
+ {
+  "id": "T90-57",
+  "src": "T90",
+  "n": 57,
+  "topic": "trig",
+  "q": {
+   "en": "Calculate the shear size for the pattern. It is symmetrical from the center line. Round off to the nearest 16th.",
+   "ru": "Рассчитайте shear size (размер заготовки) для pattern. Он симметричен относительно center line. Округлите до ближайшей 1/16."
+  },
+  "why": {
+   "en": "The top flare is 7-1/4\" long at 135° to the vertical side (45° to horizontal), so it adds 7.25 × sin 45° = 5.1265\" both across and up. Width = 2 × (3 + 4.25 + 5.1265) = 24.7530\" → 24-3/4\"; height = 10.375 + 5 + 5.1265 = 20.5015\" → 20-1/2\". Only 24-3/4\" x 20-1/2\" has both sizes right (width x height).",
+   "ru": "Верхний скос длиной 7-1/4\" стоит под 135° к вертикальной стенке (45° к горизонтали), поэтому добавляет 7.25 × sin 45° = 5.1265\" и в ширину, и в высоту. Ширина = 2 × (3 + 4.25 + 5.1265) = 24.7530\" → 24-3/4\"; высота = 10.375 + 5 + 5.1265 = 20.5015\" → 20-1/2\". Оба размера верны только в варианте 24-3/4\" x 20-1/2\" (ширина x высота)."
+  },
+  "opts": [
+   {
+    "en": "24-1/2\" x 20-7/8\"",
+    "ru": "24-1/2\" x 20-7/8\""
+   },
+   {
+    "en": "20-1/2\" x 24-1/4\"",
+    "ru": "20-1/2\" x 24-1/4\""
+   },
+   {
+    "en": "24-3/4\" x 20-1/2\"",
+    "ru": "24-3/4\" x 20-1/2\""
+   },
+   {
+    "en": "20-3/16\" x 24-3/4\"",
+    "ru": "20-3/16\" x 24-3/4\""
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single",
+  "fig": "t90-q57.svg"
  },
  {
   "id": "T90-58",
@@ -2548,6 +2890,80 @@ const QUESTIONS = [
   "type": "single"
  },
  {
+  "id": "T90-75",
+  "src": "T90",
+  "n": 75,
+  "topic": "math",
+  "q": {
+   "en": "What is the area of the triangle in the figure below?",
+   "ru": "Какова площадь треугольника на рисунке ниже?"
+  },
+  "why": {
+   "en": "Area = base × height ÷ 2 = 4 × 8 ÷ 2 = 16 sq. in.; the 8\" height is measured square to the 4\" base even though it falls outside the triangle. Traps: 32 forgets the ÷ 2, and cu. in. is a volume unit.",
+   "ru": "Площадь = основание × высота ÷ 2 = 4 × 8 ÷ 2 = 16 sq. in.; высота 8\" меряется под прямым углом к основанию 4\", хотя падает вне треугольника. Ловушки: 32 — забыли ÷ 2, а cu. in. — единица объёма."
+  },
+  "opts": [
+   {
+    "en": "16.8 sq. in.",
+    "ru": "16.8 sq. in."
+   },
+   {
+    "en": "32 sq. in.",
+    "ru": "32 sq. in."
+   },
+   {
+    "en": "16 sq. in.",
+    "ru": "16 sq. in."
+   },
+   {
+    "en": "32 cu. in.",
+    "ru": "32 cu. in."
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single",
+  "fig": "t90-q75.svg"
+ },
+ {
+  "id": "T90-76",
+  "src": "T90",
+  "n": 76,
+  "topic": "math",
+  "q": {
+   "en": "Find the volume of the box in cubic inches",
+   "ru": "Найдите объём коробки в кубических дюймах."
+  },
+  "why": {
+   "en": "Volume = 11 × 5 × 8 = 440 cu. in. Traps: sq. in. is an area unit, and 1.904 gallons (440 ÷ 231 = 1.9048, cut off rather than rounded) is not the unit asked for.",
+   "ru": "Объём = 11 × 5 × 8 = 440 cu. in. Ловушки: sq. in. — единица площади, а 1.904 gallons (440 ÷ 231 = 1.9048, обрезано, а не округлено) — не та единица, которую спрашивают."
+  },
+  "opts": [
+   {
+    "en": "440 sq. in.",
+    "ru": "440 sq. in."
+   },
+   {
+    "en": "440 cu. in.",
+    "ru": "440 cu. in."
+   },
+   {
+    "en": "1.904 gallons",
+    "ru": "1.904 gallons"
+   },
+   {
+    "en": "256",
+    "ru": "256"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "fig": "t90-q76.svg"
+ },
+ {
   "id": "T90-77",
   "src": "T90",
   "n": 77,
@@ -2880,6 +3296,117 @@ const QUESTIONS = [
   "type": "single"
  },
  {
+  "id": "T90-88",
+  "src": "T90",
+  "n": 88,
+  "topic": "transitions",
+  "q": {
+   "en": "Calculate the length of the transition for a 15-degree angle?",
+   "ru": "Рассчитайте длину transition при угле 15 градусов."
+  },
+  "why": {
+   "en": "The bottom is flat, so the top climbs from the 24\" side to the 34\" side: rise = 34 − 24 = 10\". Length = rise ÷ tan 15° = 10 ÷ 0.267949 = 37.3205\", × 16 = 597.1 → 597/16 = 37-5/16\". Trap: 44-13/16\" is the answer to the same drawing with a 36\" end (12 ÷ tan 15° = 44.7846\").",
+   "ru": "Низ плоский, поэтому верх поднимается от стороны 24\" до стороны 34\": rise = 34 − 24 = 10\". Длина = rise ÷ tan 15° = 10 ÷ 0.267949 = 37.3205\", × 16 = 597.1 → 597/16 = 37-5/16\". Ловушка: 44-13/16\" — ответ той же задачи с концом 36\" (12 ÷ tan 15° = 44.7846\")."
+  },
+  "opts": [
+   {
+    "en": "44 - 13/16\"",
+    "ru": "44 - 13/16\""
+   },
+   {
+    "en": "37-5/16\"",
+    "ru": "37-5/16\""
+   },
+   {
+    "en": "44 - 3/4\"",
+    "ru": "44 - 3/4\""
+   },
+   {
+    "en": "45- 11/16",
+    "ru": "45- 11/16"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "fig": "t90-q88.svg"
+ },
+ {
+  "id": "T90-89",
+  "src": "T90",
+  "n": 89,
+  "topic": "math",
+  "q": {
+   "en": "Calculate the height of the cylinder to hold 13 gallons to the nearest 16th.",
+   "ru": "Рассчитайте высоту цилиндра, вмещающего 13 галлонов, с точностью до 1/16."
+  },
+  "why": {
+   "en": "Volume = 13 × 231 = 3003 cu. in.; the 14\" Ø base has area π × 7² = 153.938 sq. in.; height = 3003 ÷ 153.938 = 19.5078\" → 19.51\". The options are decimals; to the nearest 16th the same height is 19-1/2\" (19.5078 × 16 = 312.1 → 312/16).",
+   "ru": "Объём = 13 × 231 = 3003 cu. in.; площадь дна при 14\" Ø = π × 7² = 153.938 sq. in.; высота = 3003 ÷ 153.938 = 19.5078\" → 19.51\". Варианты даны десятичными; с точностью до 1/16 та же высота — 19-1/2\" (19.5078 × 16 = 312.1 → 312/16)."
+  },
+  "opts": [
+   {
+    "en": "18.97\"",
+    "ru": "18.97\""
+   },
+   {
+    "en": "19.38\"",
+    "ru": "19.38\""
+   },
+   {
+    "en": "19.51\"",
+    "ru": "19.51\""
+   },
+   {
+    "en": "20.73\"",
+    "ru": "20.73\""
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single",
+  "fig": "t90-q89.svg"
+ },
+ {
+  "id": "T90-90",
+  "src": "T90",
+  "n": 90,
+  "topic": "trig",
+  "q": {
+   "en": "Solve outside wall angle \"A\". Round number to nearest whole degree.",
+   "ru": "Найдите угол \"A\" по наружной стенке (outside wall). Округлите до целого градуса."
+  },
+  "why": {
+   "en": "Along the outside wall the run is 14'-5¼\" − 10'-6\" = 47.25\" and the rise is 4'-6¼\" = 54.25\"; A = atan(54.25 ÷ 47.25) = 48.945° → 49°. Traps: 41° is the other acute angle (90 − 48.945), and 48° cuts off the decimals instead of rounding.",
+   "ru": "По наружной стенке вынос 14'-5¼\" − 10'-6\" = 47.25\", подъём 4'-6¼\" = 54.25\"; A = atan(54.25 ÷ 47.25) = 48.945° → 49°. Ловушки: 41° — второй острый угол (90 − 48.945), 48° — обрезка вместо округления."
+  },
+  "opts": [
+   {
+    "en": "41 degrees",
+    "ru": "41 градус"
+   },
+   {
+    "en": "49 degrees",
+    "ru": "49 градусов"
+   },
+   {
+    "en": "45 degrees",
+    "ru": "45 градусов"
+   },
+   {
+    "en": "48 degrees",
+    "ru": "48 градусов"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "fig": "t90-q90.svg"
+ },
+ {
   "id": "TRI-1",
   "src": "TRI",
   "n": 1,
@@ -3168,6 +3695,232 @@ const QUESTIONS = [
   "type": "single"
  },
  {
+  "id": "TRI-9",
+  "src": "TRI",
+  "n": 9,
+  "topic": "math",
+  "q": {
+   "en": "Find the area of the flat oval:",
+   "ru": "Найдите площадь flat oval:"
+  },
+  "why": {
+   "en": "The width is 2 × R4\" = 8\", and the two half-circle ends make one full circle: π × 4² = 50.2655 in²; the middle rectangle is 10\" × 8\" = 80 in²; total 130.2655 → 130.27 in². Traps: 150.27 takes the rectangle as 10\" × 10\", and 92.57 uses π × 4 (radius not squared).",
+   "ru": "Ширина = 2 × R4\" = 8\", два полукруга вместе дают один круг: π × 4² = 50.2655 in²; прямоугольник посередине 10\" × 8\" = 80 in²; итого 130.2655 → 130.27 in². Ловушки: 150.27 — прямоугольник посчитан как 10\" × 10\", 92.57 — π × 4, радиус не возведён в квадрат."
+  },
+  "hint": {
+   "en": "Round to 2 decimal places",
+   "ru": "Округлить до 2 знаков после запятой"
+  },
+  "opts": [
+   {
+    "en": "150.27 in²",
+    "ru": "150.27 in²"
+   },
+   {
+    "en": "130.27 in²",
+    "ru": "130.27 in²"
+   },
+   {
+    "en": "92.57 in²",
+    "ru": "92.57 in²"
+   },
+   {
+    "en": "112.57 in²",
+    "ru": "112.57 in²"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "fig": "tri-q09.svg"
+ },
+ {
+  "id": "TRI-10",
+  "src": "TRI",
+  "n": 10,
+  "topic": "math",
+  "q": {
+   "en": "Find the volume of the box:",
+   "ru": "Найдите объём коробки:"
+  },
+  "why": {
+   "en": "V = 11 × 5 × 8 = 440 in³. Traps: 440 in² is the same number in an area unit, and 55 = 11 × 5 is only the base area.",
+   "ru": "V = 11 × 5 × 8 = 440 in³. Ловушки: 440 in² — то же число в единицах площади, а 55 = 11 × 5 — только площадь основания."
+  },
+  "opts": [
+   {
+    "en": "55 in²",
+    "ru": "55 in²"
+   },
+   {
+    "en": "55 in³",
+    "ru": "55 in³"
+   },
+   {
+    "en": "440 in²",
+    "ru": "440 in²"
+   },
+   {
+    "en": "440 in³",
+    "ru": "440 in³"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single",
+  "fig": "tri-q10.svg"
+ },
+ {
+  "id": "TRI-11",
+  "src": "TRI",
+  "n": 11,
+  "topic": "trig",
+  "q": {
+   "en": "Solve for the unknown angle “A”.",
+   "ru": "Найдите неизвестный угол “A”."
+  },
+  "why": {
+   "en": "15\" is the hypotenuse and the 9\" side is opposite A: sin A = 9 ÷ 15 = 0.6 → A = 36.87°. Traps: 53.13° is the other acute angle, 30.96° is atan(9 ÷ 15) as if 15\" were a leg, and 12 is the length of the third side.",
+   "ru": "15\" — гипотенуза, катет 9\" лежит напротив угла A: sin A = 9 ÷ 15 = 0.6 → A = 36.87°. Ловушки: 53.13° — второй острый угол, 30.96° — atan(9 ÷ 15), будто 15\" это катет, а 12 — длина третьей стороны."
+  },
+  "opts": [
+   {
+    "en": "30.96",
+    "ru": "30.96"
+   },
+   {
+    "en": "53.13",
+    "ru": "53.13"
+   },
+   {
+    "en": "12",
+    "ru": "12"
+   },
+   {
+    "en": "36.87",
+    "ru": "36.87"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single",
+  "fig": "tri-q11.svg"
+ },
+ {
+  "id": "TRI-12",
+  "src": "TRI",
+  "n": 12,
+  "topic": "trig",
+  "q": {
+   "en": "Solve for dimension “a”.",
+   "ru": "Найдите размер “a”."
+  },
+  "why": {
+   "en": "19' is the hypotenuse and a is the side adjacent to the 73° angle: a = 19 × cos 73° = 5.5551'; 0.5551' × 12 = 6.661\", × 16 = 106.6 → 107/16 = 6-11/16\" → 5' 6-11/16\". Traps: 18.17' and 18' 2-1/16\" use sin instead of cos, and 5.5' rounds 5.5551' too far.",
+   "ru": "19' — гипотенуза, a — катет, прилежащий к углу 73°: a = 19 × cos 73° = 5.5551'; 0.5551' × 12 = 6.661\", × 16 = 106.6 → 107/16 = 6-11/16\" → 5' 6-11/16\". Ловушки: 18.17' и 18' 2-1/16\" — sin вместо cos, а 5.5' — слишком грубое округление 5.5551'."
+  },
+  "opts": [
+   {
+    "en": "18.17'",
+    "ru": "18.17'"
+   },
+   {
+    "en": "5.5'",
+    "ru": "5.5'"
+   },
+   {
+    "en": "5' 6- 11/16\"",
+    "ru": "5' 6- 11/16\""
+   },
+   {
+    "en": "18' 2- 1/16\"",
+    "ru": "18' 2- 1/16\""
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single",
+  "fig": "tri-q12.svg"
+ },
+ {
+  "id": "TRI-13",
+  "src": "TRI",
+  "n": 13,
+  "topic": "trig",
+  "q": {
+   "en": "Solve length \"L\" for the triangle.",
+   "ru": "Найдите длину \"L\" треугольника."
+  },
+  "why": {
+   "en": "13.67\" is the hypotenuse (opposite the right angle) and L is the side adjacent to the 52.4° angle, so L = 13.67 × cos 52.4° = 8.3407\" → 8.34\". Traps: 10.83\" uses sin instead of cos, 17.75\" uses tan.",
+   "ru": "13.67\" — гипотенуза (напротив прямого угла), L — катет, прилежащий к углу 52.4°, поэтому L = 13.67 × cos 52.4° = 8.3407\" → 8.34\". Ловушки: 10.83\" — sin вместо cos, 17.75\" — tan."
+  },
+  "opts": [
+   {
+    "en": "10.83\"",
+    "ru": "10.83\""
+   },
+   {
+    "en": "17.75\"",
+    "ru": "17.75\""
+   },
+   {
+    "en": "10.53\"",
+    "ru": "10.53\""
+   },
+   {
+    "en": "8.34\"",
+    "ru": "8.34\""
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single",
+  "fig": "tri-q13.svg"
+ },
+ {
+  "id": "TRI-14",
+  "src": "TRI",
+  "n": 14,
+  "topic": "trig",
+  "q": {
+   "en": "Solve angle \"A\" for the triangle.",
+   "ru": "Найдите угол \"A\" треугольника."
+  },
+  "why": {
+   "en": "25-3/8\" is the hypotenuse and 18-5/8\" is the side opposite A: sin A = 18.625 ÷ 25.375 = 0.7340 → A = 47.22°. Traps: 42.78° is the other acute angle (cos instead of sin), and 36.28° uses tan as if 25-3/8\" were a leg.",
+   "ru": "25-3/8\" — гипотенуза, 18-5/8\" — катет напротив угла A: sin A = 18.625 ÷ 25.375 = 0.7340 → A = 47.22°. Ловушки: 42.78° — второй острый угол (cos вместо sin), 36.28° — tan, будто 25-3/8\" это катет."
+  },
+  "opts": [
+   {
+    "en": "47.22 degrees",
+    "ru": "47.22 градуса"
+   },
+   {
+    "en": "42.78 degrees",
+    "ru": "42.78 градуса"
+   },
+   {
+    "en": "38.23 degrees",
+    "ru": "38.23 градуса"
+   },
+   {
+    "en": "36.28 degrees",
+    "ru": "36.28 градуса"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "fig": "tri-q14.svg"
+ },
+ {
   "id": "TRI-15",
   "src": "TRI",
   "n": 15,
@@ -3238,6 +3991,43 @@ const QUESTIONS = [
    2
   ],
   "type": "single"
+ },
+ {
+  "id": "TRI-17",
+  "src": "TRI",
+  "n": 17,
+  "topic": "offsets",
+  "q": {
+   "en": "Calculate the missing dimensions \"L\" and \"D\" for the offset duct system.",
+   "ru": "Рассчитайте недостающие размеры \"L\" и \"D\" для offset системы duct."
+  },
+  "why": {
+   "en": "Rise = 12'-1\" − 9'-5\" = 32\". R1'-4\" (16\") is the throat radius and the 28\" side lies in the plane of the turn, so CL R = 16 + 14 = 30\"; the two 37° elbows rise 2 × 30 × (1 − cos 37°) = 12.0819\", so the straight piece L = (32 − 12.0819) ÷ sin 37° = 33.0968\" → 33.10\". D = 2 × 30 × sin 37° + L × cos 37° = 36.1089 + 26.4323 = 62.5412\" → 62.54\". Trap: the second option swaps L and D (and cuts 33.0968 to 33.09).",
+   "ru": "Подъём = 12'-1\" − 9'-5\" = 32\". R1'-4\" (16\") — throat radius, а в плоскости поворота лежит сторона 28\", поэтому CL R = 16 + 14 = 30\"; два elbow по 37° поднимают на 2 × 30 × (1 − cos 37°) = 12.0819\", значит прямой кусок L = (32 − 12.0819) ÷ sin 37° = 33.0968\" → 33.10\". D = 2 × 30 × sin 37° + L × cos 37° = 36.1089 + 26.4323 = 62.5412\" → 62.54\". Ловушка: во втором варианте L и D переставлены (а 33.0968 обрезано до 33.09)."
+  },
+  "opts": [
+   {
+    "en": "L = 33.10\" D = 62.54\"",
+    "ru": "L = 33.10\" D = 62.54\""
+   },
+   {
+    "en": "L = 62.54\" D = 33.09\"",
+    "ru": "L = 62.54\" D = 33.09\""
+   },
+   {
+    "en": "L = 48.17\" D = 78.72\"",
+    "ru": "L = 48.17\" D = 78.72\""
+   },
+   {
+    "en": "L = 54.63\" D = 78.64",
+    "ru": "L = 54.63\" D = 78.64"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "fig": "tri-q17.svg"
  },
  {
   "id": "TRI-18",
@@ -4508,6 +5298,972 @@ const QUESTIONS = [
   ],
   "answer": [
    2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-41",
+  "src": "MON",
+  "n": 41,
+  "topic": "math",
+  "q": {
+   "en": "If you drill a hole 9 3/4\" away from the end of a steel bar that is 29\" long, how far is the hole from the opposite end of the bar?",
+   "ru": "Если просверлить отверстие в 9 3/4\" от конца стального прутка длиной 29\", на каком расстоянии будет отверстие от противоположного конца прутка?"
+  },
+  "why": {
+   "en": "The two distances add up to the bar length: 29 − 9-3/4 = 19-1/4\" (29 − 9.75 = 19.25). Trap: 38-3/4\" adds the numbers instead of subtracting.",
+   "ru": "Два расстояния в сумме дают длину прутка: 29 − 9-3/4 = 19-1/4\" (29 − 9.75 = 19.25). Ловушка: 38-3/4\" — числа сложили вместо вычитания."
+  },
+  "opts": [
+   {
+    "en": "38-3/4\"",
+    "ru": "38-3/4\""
+   },
+   {
+    "en": "19-3/4\"",
+    "ru": "19-3/4\""
+   },
+   {
+    "en": "19-1/4\"",
+    "ru": "19-1/4\""
+   },
+   {
+    "en": "20-1/4\"",
+    "ru": "20-1/4\""
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-46",
+  "src": "MON",
+  "n": 46,
+  "topic": "fittings",
+  "q": {
+   "en": "You're making a trim joint and sheared 2 pieces 17\" x 17-1/4\". The duct size is 10\" x 6\" with Pittsburgh's, the drive to drive length of the duct will be",
+   "ru": "Вы делаете trim joint и отрезали 2 детали 17\" x 17-1/4\". Размер duct 10\" x 6\" с Pittsburgh; длина duct drive to drive будет"
+  },
+  "why": {
+   "en": "17-1/4\" is the girth of each L-shaped half: 10 + 6 + 1 (female Pittsburgh) + 1/4 (male) = 17.25\", so 17\" is the length along the duct. The drive folds 1/2\" in from each cut end, so drive to drive = 17 − 1/2 − 1/2 = 16\" (course sheet 2J: Net = Gross − 1). Trap: 15\" is the working length (17 − 2, 1\" per end to the bend line).",
+   "ru": "17-1/4\" — развёртка каждой Г-образной половины: 10 + 6 + 1 (female Pittsburgh) + 1/4 (male) = 17.25\", значит, 17\" — длина вдоль duct. Drive подгибается в 1/2\" от каждого отрезанного торца, поэтому drive to drive = 17 − 1/2 − 1/2 = 16\" (лист курса 2J: Net = Gross − 1). Ловушка: 15\" — это working length (17 − 2, по 1\" на конец до линии изгиба)."
+  },
+  "opts": [
+   {
+    "en": "18\"",
+    "ru": "18\""
+   },
+   {
+    "en": "15\"",
+    "ru": "15\""
+   },
+   {
+    "en": "16\"",
+    "ru": "16\""
+   },
+   {
+    "en": "12-1/4\"",
+    "ru": "12-1/4\""
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-47",
+  "src": "MON",
+  "n": 47,
+  "topic": "fittings",
+  "q": {
+   "en": "You're making a piece of duct for a Slip and Drive connection and sheared it 31\" for the overall length, it's working length will be",
+   "ru": "Вы делаете кусок duct под соединение Slip and Drive и отрезали его на 31\" по общей длине; его working length будет"
+  },
+  "why": {
+   "en": "S&D takes 1\" of metal on each end beyond the bend line, so working length = 31 − 1 − 1 = 29\". Trap: 30\" takes only 1/2\" per end (that is the drive-to-drive length, 31 − 1).",
+   "ru": "S&D забирает 1\" металла на каждом конце за линией изгиба, поэтому working length = 31 − 1 − 1 = 29\". Ловушка: 30\" — только по 1/2\" на конец (это длина drive to drive, 31 − 1)."
+  },
+  "opts": [
+   {
+    "en": "29\"",
+    "ru": "29\""
+   },
+   {
+    "en": "28\"",
+    "ru": "28\""
+   },
+   {
+    "en": "27\"",
+    "ru": "27\""
+   },
+   {
+    "en": "30\"",
+    "ru": "30\""
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-48",
+  "src": "MON",
+  "n": 48,
+  "topic": "trig",
+  "q": {
+   "en": "A room measures 21'-2\" x 45'-7\", what is the distance of the room from corner to opposite corner?",
+   "ru": "Комната 21'-2\" x 45'-7\". Какое расстояние от угла комнаты до противоположного угла?"
+  },
+  "why": {
+   "en": "Diagonal = √(21.1667² + 45.5833²) = 50.2580'; 0.2580' × 12 = 3.10\" → 50'-3 1/8\". Traps: 50.23' is not this length in decimal feet (that is 50.26'), 50'-2\" is more than an inch short, and 41'-6 5/8\" is shorter than the 45'-7\" wall, which a diagonal can never be.",
+   "ru": "Диагональ = √(21.1667² + 45.5833²) = 50.2580'; 0.2580' × 12 = 3.10\" → 50'-3 1/8\". Ловушки: 50.23' — не эта длина в десятичных футах (она 50.26'), 50'-2\" короче больше чем на дюйм, а 41'-6 5/8\" короче стены 45'-7\", чего у диагонали быть не может."
+  },
+  "opts": [
+   {
+    "en": "50.23'",
+    "ru": "50.23'"
+   },
+   {
+    "en": "41'-6 5/8\"",
+    "ru": "41'-6 5/8\""
+   },
+   {
+    "en": "50'-2\"",
+    "ru": "50'-2\""
+   },
+   {
+    "en": "50'-3 1/8\"",
+    "ru": "50'-3 1/8\""
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-50",
+  "src": "MON",
+  "n": 50,
+  "topic": "math",
+  "q": {
+   "en": "Convert the following to the nearest 16th: 6.545",
+   "ru": "Переведите в ближайшие 16-е доли: 6.545"
+  },
+  "why": {
+   "en": "Multiply the decimal part by 16: 0.545 × 16 = 8.72 → 9, so 6.545 → 6-9/16 (6.5625). Traps: 6-1/2 (8/16) cuts 8.72 down instead of rounding; 6-7/16 and 6-5/8 are further off.",
+   "ru": "Дробную часть умножаем на 16: 0.545 × 16 = 8.72 → 9, значит, 6.545 → 6-9/16 (6.5625). Ловушки: 6-1/2 (8/16) — 8.72 обрезали, а не округлили; 6-7/16 и 6-5/8 ещё дальше."
+  },
+  "opts": [
+   {
+    "en": "6-5/8",
+    "ru": "6-5/8"
+   },
+   {
+    "en": "6-7/16",
+    "ru": "6-7/16"
+   },
+   {
+    "en": "6-9/16",
+    "ru": "6-9/16"
+   },
+   {
+    "en": "6-1/2",
+    "ru": "6-1/2"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-51",
+  "src": "MON",
+  "n": 51,
+  "topic": "math",
+  "q": {
+   "en": "What is the perimeter of a 22\" x 12\" duct?",
+   "ru": "Каков периметр duct 22\" x 12\"?"
+  },
+  "why": {
+   "en": "Perimeter = 2 × (22 + 12) = 68\". Traps: 34\" adds only two sides, 46\" misses one 22\" side, and 264 is the area (22 × 12).",
+   "ru": "Периметр = 2 × (22 + 12) = 68\". Ловушки: 34\" — сложили только две стороны, в 46\" нет одной стороны 22\", а 264 — это площадь (22 × 12)."
+  },
+  "opts": [
+   {
+    "en": "68\"",
+    "ru": "68\""
+   },
+   {
+    "en": "34\"",
+    "ru": "34\""
+   },
+   {
+    "en": "264\"",
+    "ru": "264\""
+   },
+   {
+    "en": "46\"",
+    "ru": "46\""
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-52",
+  "src": "MON",
+  "n": 52,
+  "topic": "math",
+  "q": {
+   "en": "What is the area of 32\" x 18\" duct?",
+   "ru": "Какова площадь duct 32\" x 18\"?"
+  },
+  "why": {
+   "en": "Area = 32 × 18 = 576 sq. in. Trap: 100 is the perimeter, 2 × (32 + 18), not an area.",
+   "ru": "Площадь = 32 × 18 = 576 sq. in. Ловушка: 100 — это периметр, 2 × (32 + 18), а не площадь."
+  },
+  "opts": [
+   {
+    "en": "576 sq. in.",
+    "ru": "576 sq. in."
+   },
+   {
+    "en": "100 sq. in.",
+    "ru": "100 sq. in."
+   },
+   {
+    "en": "675 sq. in.",
+    "ru": "675 sq. in."
+   },
+   {
+    "en": "612 sq. in.",
+    "ru": "612 sq. in."
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-53",
+  "src": "MON",
+  "n": 53,
+  "topic": "math",
+  "q": {
+   "en": "What is the volume of 28\" x 16\" duct that is 4 feet long?",
+   "ru": "Каков объём duct 28\" x 16\" длиной 4 фута?"
+  },
+  "why": {
+   "en": "Convert the length to inches first: 4 ft = 48\". Volume = 28 × 16 × 48 = 21,504 cu. in. Traps: 1792 multiplies by 4 without converting feet to inches, and 448 is only the cross-section area (28 × 16).",
+   "ru": "Сначала длину в дюймы: 4 ft = 48\". Объём = 28 × 16 × 48 = 21,504 cu. in. Ловушки: 1792 — умножили на 4, не переведя футы в дюймы, а 448 — только площадь сечения (28 × 16)."
+  },
+  "opts": [
+   {
+    "en": "1792 cu. in.",
+    "ru": "1792 cu. in."
+   },
+   {
+    "en": "21,504 cu. in",
+    "ru": "21,504 cu. in"
+   },
+   {
+    "en": "448 cu. in.",
+    "ru": "448 cu. in."
+   },
+   {
+    "en": "18,484 cu.in.",
+    "ru": "18,484 cu.in."
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-55",
+  "src": "MON",
+  "n": 55,
+  "topic": "offsets",
+  "q": {
+   "en": "Calculate the wrapper length for an Ogee offset that is 22\" drive to drive with a 6\" offset.",
+   "ru": "Рассчитайте длину wrapper для Ogee offset длиной 22\" drive to drive с offset 6\"."
+  },
+  "why": {
+   "en": "Treat the ogee as an S of two equal arcs (formula sheet \"OGEE OFFSET\") between the bend lines: L = 22 − 1 = 21\", CL R = (O² + L²) ÷ 4O = (36 + 441) ÷ 24 = 19.875\". Each arc: cos φ = (441 − 36) ÷ (441 + 36) → φ = 31.8908° (0.556599 rad), so the CL length = 2 × 19.875 × 0.556599 = 22.1248\". Add 1\" per end for the connections: 22.1248 + 2 = 24.1248\" → 24-1/8\"; the formula-sheet shortcut slant + (slant − L) ÷ 3 = 21.8403 + 0.2801 = 22.1204 gives the same 24-1/8\".",
+   "ru": "Ogee считаем как S из двух равных дуг (formula sheet «OGEE OFFSET») между линиями изгиба: L = 22 − 1 = 21\", CL R = (O² + L²) ÷ 4O = (36 + 441) ÷ 24 = 19.875\". Каждая дуга: cos φ = (441 − 36) ÷ (441 + 36) → φ = 31.8908° (0.556599 рад), значит, длина по CL = 2 × 19.875 × 0.556599 = 22.1248\". Плюс 1\" на каждый конец под соединения: 22.1248 + 2 = 24.1248\" → 24-1/8\"; короткая формула листа slant + (slant − L) ÷ 3 = 21.8403 + 0.2801 = 22.1204 даёт те же 24-1/8\"."
+  },
+  "opts": [
+   {
+    "en": "20-1/8\"",
+    "ru": "20-1/8\""
+   },
+   {
+    "en": "21-1/8\"",
+    "ru": "21-1/8\""
+   },
+   {
+    "en": "23-5/8\"",
+    "ru": "23-5/8\""
+   },
+   {
+    "en": "24-1/8\"",
+    "ru": "24-1/8\""
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-59",
+  "src": "MON",
+  "n": 59,
+  "topic": "math",
+  "q": {
+   "en": "7 steel joists are 6’- 8” apart center to center. The distance, center to center, between the two outside joists is 40'-0\"",
+   "ru": "7 стальных балок (joists) стоят на расстоянии 6'- 8\" друг от друга center to center. Расстояние center to center между двумя крайними joists — 40'-0\""
+  },
+  "why": {
+   "en": "7 joists have 6 spaces between them: 6 × 6'-8\" = 6 × 80\" = 480\" = 40'-0\", so Yes. Trap: 7 × 80\" = 560\" = 46'-8\" counts joists instead of spaces.",
+   "ru": "Между 7 joists — 6 промежутков: 6 × 6'-8\" = 6 × 80\" = 480\" = 40'-0\", значит, Да. Ловушка: 7 × 80\" = 560\" = 46'-8\" — посчитали joists, а не промежутки."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-60",
+  "src": "MON",
+  "n": 60,
+  "topic": "math",
+  "q": {
+   "en": "What is the circumference of a circle with a 40” radius?",
+   "ru": "Какова длина окружности круга с радиусом 40\"?"
+  },
+  "why": {
+   "en": "C = 2πR = 2 × π × 40 = 251.327\". 282.743\" and 141.372\" are 2π × 45 and π × 45, the answers for a 45\" radius; 141.38\" is the latter misrounded.",
+   "ru": "C = 2πR = 2 × π × 40 = 251.327\". 282.743\" и 141.372\" — это 2π × 45 и π × 45, ответы для радиуса 45\"; 141.38\" — последний, неверно округлённый."
+  },
+  "opts": [
+   {
+    "en": "141.372\"",
+    "ru": "141.372\""
+   },
+   {
+    "en": "282.743\"",
+    "ru": "282.743\""
+   },
+   {
+    "en": "251.327\"",
+    "ru": "251.327\""
+   },
+   {
+    "en": "141.38\"",
+    "ru": "141.38\""
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-61",
+  "src": "MON",
+  "n": 61,
+  "topic": "math",
+  "q": {
+   "en": "What is the circumference of a circle with a 42” radius?",
+   "ru": "Какова длина окружности круга с радиусом 42\"?"
+  },
+  "why": {
+   "en": "C = 2πR = 2 × π × 42 = 263.894\". 282.743\" and 141.372\" are 2π × 45 and π × 45, the answers for a 45\" radius; 141.38\" is the latter misrounded.",
+   "ru": "C = 2πR = 2 × π × 42 = 263.894\". 282.743\" и 141.372\" — это 2π × 45 и π × 45, ответы для радиуса 45\"; 141.38\" — последний, неверно округлённый."
+  },
+  "opts": [
+   {
+    "en": "141.372\"",
+    "ru": "141.372\""
+   },
+   {
+    "en": "282.743\"",
+    "ru": "282.743\""
+   },
+   {
+    "en": "263.894\"",
+    "ru": "263.894\""
+   },
+   {
+    "en": "141.38\"",
+    "ru": "141.38\""
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-62",
+  "src": "MON",
+  "n": 62,
+  "topic": "safety",
+  "q": {
+   "en": "Symptoms that show up shortly after toxic exposure are:",
+   "ru": "Симптомы, которые появляются вскоре после токсичного воздействия, — это:"
+  },
+  "why": {
+   "en": "Acute effects appear soon after a short exposure. Chronic effects build up over long or repeated exposure and show up later.",
+   "ru": "Acute effects появляются вскоре после короткого воздействия. Chronic effects накапливаются при долгом или повторном воздействии и проявляются позже."
+  },
+  "opts": [
+   {
+    "en": "Acute effects",
+    "ru": "Acute effects (острые)"
+   },
+   {
+    "en": "Seldom job related",
+    "ru": "Редко связаны с работой"
+   },
+   {
+    "en": "Weaker than early effects",
+    "ru": "Слабее ранних эффектов"
+   },
+   {
+    "en": "Chronic effects",
+    "ru": "Chronic effects (хронические)"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-63",
+  "src": "MON",
+  "n": 63,
+  "topic": "drawing",
+  "q": {
+   "en": "In most cases, forming instructions are placed on the _______________ of a sheet metal pattern.",
+   "ru": "Чаще всего инструкции по формовке (forming instructions) наносят на _______________ sheet metal pattern."
+  },
+  "why": {
+   "en": "A pattern carries information on both faces: all layout marking is scribed on the inside, which is hidden in the finished fitting, and the forming and detail stickers go on the outside, where they stay readable while the piece is formed and installed. So the answer is Both. Note: this answer comes from another student's sheet, not a graded key; b (Outside) is a possible intended answer.",
+   "ru": "Информация на pattern есть с обеих сторон: вся разметка layout наносится на внутреннюю сторону, которая в готовом fitting не видна, а наклейки с forming и detail — на наружную, где их видно при формовке и монтаже. Поэтому ответ — обе стороны. Внимание: ответ взят с листа другого ученика, проверенного ключа нет; возможно, в ключе b (Outside)."
+  },
+  "opts": [
+   {
+    "en": "Inside (all layout marking)",
+    "ru": "Внутреннюю сторону (вся разметка layout)"
+   },
+   {
+    "en": "Outside (forming and detail stickers)",
+    "ru": "Наружную сторону (forming и наклейки detail)"
+   },
+   {
+    "en": "Both",
+    "ru": "Обе стороны"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-64",
+  "src": "MON",
+  "n": 64,
+  "topic": "welding",
+  "q": {
+   "en": "With the GMAW process, shielding gases are used to:",
+   "ru": "В процессе GMAW shielding gases (защитные газы) используют, чтобы:"
+  },
+  "why": {
+   "en": "The main job of the shielding gas is to keep the oxygen and nitrogen of the air away from the molten weld, and by doing that it prevents porosity and other defects. The gas mix also sets the arc heat: CO2 and helium give a hotter arc and deeper penetration than pure argon. All three statements are true.",
+   "ru": "Главная задача shielding gas — не пускать кислород и азот воздуха к расплавленному шву, и тем самым он предотвращает поры и другие дефекты. Состав газа ещё и задаёт тепло дуги: CO2 и helium дают более горячую дугу и более глубокий провар, чем чистый argon. Верны все три утверждения."
+  },
+  "opts": [
+   {
+    "en": "Protect the weld from the surrounding air.",
+    "ru": "Защитить шов от окружающего воздуха."
+   },
+   {
+    "en": "Produce hotter arcs.",
+    "ru": "Получить более горячую дугу."
+   },
+   {
+    "en": "Reduce weld defects.",
+    "ru": "Уменьшить дефекты шва."
+   },
+   {
+    "en": "All the above.",
+    "ru": "Всё перечисленное."
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-65",
+  "src": "MON",
+  "n": 65,
+  "topic": "welding",
+  "q": {
+   "en": "GMAW uses a constant current (CC) power source.",
+   "ru": "GMAW использует источник питания constant current (CC)."
+  },
+  "why": {
+   "en": "False: GMAW uses a constant voltage (CV) power source, where voltage sets arc length and wire feed speed sets amperage. Constant current is the SMAW (stick) machine.",
+   "ru": "Неверно: у GMAW источник constant voltage (CV), где voltage задаёт длину дуги, а wire feed speed — ток. Constant current — машина для SMAW (stick)."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "Верно"
+   },
+   {
+    "en": "False",
+    "ru": "Неверно"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-66",
+  "src": "MON",
+  "n": 66,
+  "topic": "safety",
+  "q": {
+   "en": "Your safety harness and lifeline system should keep you from falling more than",
+   "ru": "Ваша страховочная привязь (safety harness) и lifeline должны не давать вам упасть больше чем на"
+  },
+  "why": {
+   "en": "OSHA 1926.502(d)(16)(iii): a personal fall arrest system must be rigged so the worker can neither free fall more than 6 feet nor hit any lower level.",
+   "ru": "OSHA 1926.502(d)(16)(iii): personal fall arrest system должна быть закреплена так, чтобы работник не падал свободно больше 6 футов и не долетал до нижнего уровня."
+  },
+  "opts": [
+   {
+    "en": "3 feet.",
+    "ru": "3 фута."
+   },
+   {
+    "en": "6 feet.",
+    "ru": "6 футов."
+   },
+   {
+    "en": "8 feet.",
+    "ru": "8 футов."
+   },
+   {
+    "en": "10 feet.",
+    "ru": "10 футов."
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-67",
+  "src": "MON",
+  "n": 67,
+  "topic": "math",
+  "q": {
+   "en": "How many square feet are in the area of a rectangle that is 28\" x 20\"?",
+   "ru": "Сколько квадратных футов в площади прямоугольника 28\" x 20\"?"
+  },
+  "why": {
+   "en": "28 × 20 = 560 sq. in.; 1 sq. ft = 144 sq. in., so 560 ÷ 144 = 3.8889 → 3.889 sq. ft. Traps: 3.888 cuts off instead of rounding, and 46.67 divides by 12 instead of 144.",
+   "ru": "28 × 20 = 560 sq. in.; 1 sq. ft = 144 sq. in., поэтому 560 ÷ 144 = 3.8889 → 3.889 sq. ft. Ловушки: 3.888 — обрезали, а не округлили, а 46.67 — разделили на 12 вместо 144."
+  },
+  "opts": [
+   {
+    "en": "488 sq.ft.",
+    "ru": "488 sq.ft."
+   },
+   {
+    "en": "3.889 sq.ft.",
+    "ru": "3.889 sq.ft."
+   },
+   {
+    "en": "3.888 sq.ft.",
+    "ru": "3.888 sq.ft."
+   },
+   {
+    "en": "46.67 sq.ft.",
+    "ru": "46.67 sq.ft."
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-68",
+  "src": "MON",
+  "n": 68,
+  "topic": "math",
+  "q": {
+   "en": "What is the total price of a $575 furnace with a 8-1/4% sales tax?",
+   "ru": "Какова итоговая цена печи (furnace) за $575 с налогом с продаж 8-1/4%?"
+  },
+  "why": {
+   "en": "Tax = 575 × 0.0825 = 47.4375; total = 575 + 47.4375 = 622.4375 → $622.44 (the half cent rounds up). Traps: $47.44 is only the tax, and $622.43 cuts off instead of rounding.",
+   "ru": "Налог = 575 × 0.0825 = 47.4375; итого = 575 + 47.4375 = 622.4375 → $622.44 (полцента округляется вверх). Ловушки: $47.44 — это только налог, а $622.43 — обрезали, а не округлили."
+  },
+  "opts": [
+   {
+    "en": "$47.33",
+    "ru": "$47.33"
+   },
+   {
+    "en": "$47.44",
+    "ru": "$47.44"
+   },
+   {
+    "en": "$622.44",
+    "ru": "$622.44"
+   },
+   {
+    "en": "$622.43",
+    "ru": "$622.43"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-69",
+  "src": "MON",
+  "n": 69,
+  "topic": "math",
+  "q": {
+   "en": "How many whole 15\" pieces can be cut from a 12 foot strip of metal?",
+   "ru": "Сколько целых кусков по 15\" можно отрезать от полосы металла длиной 12 футов?"
+  },
+  "why": {
+   "en": "12 ft = 144\"; 144 ÷ 15 = 9.6, so only 9 whole pieces (9 × 15 = 135\", 9\" left over). Trap: 10 rounds 9.6 up, but the tenth piece would be only 9\" long.",
+   "ru": "12 ft = 144\"; 144 ÷ 15 = 9.6, значит, целых кусков только 9 (9 × 15 = 135\", остаток 9\"). Ловушка: 10 — округлили 9.6 вверх, но десятый кусок вышел бы длиной всего 9\"."
+  },
+  "opts": [
+   {
+    "en": "9 pieces",
+    "ru": "9 штук"
+   },
+   {
+    "en": "12 pieces",
+    "ru": "12 штук"
+   },
+   {
+    "en": "10 pieces",
+    "ru": "10 штук"
+   },
+   {
+    "en": "8 pieces",
+    "ru": "8 штук"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-71",
+  "src": "MON",
+  "n": 71,
+  "topic": "materials",
+  "q": {
+   "en": "What kind of metal comes very oily when purchased?",
+   "ru": "Какой металл при покупке приходит очень масляным?"
+  },
+  "why": {
+   "en": "Cold rolled steel has no zinc coating and no mill scale, so the mill oils it to keep it from rusting in storage. Standard hot rolled steel carries dark mill scale and is usually sold dry (only the pickled-and-oiled grade is oiled), galvanized is protected by its zinc, and copper does not rust.",
+   "ru": "У cold rolled steel нет ни цинкового покрытия, ни окалины, поэтому завод покрывает её маслом, чтобы она не ржавела на складе. Обычная hot rolled steel покрыта тёмной окалиной и продаётся сухой (маслом покрыт только сорт pickled and oiled), galvanized защищает цинк, а медь не ржавеет."
+  },
+  "opts": [
+   {
+    "en": "Cold rolled steel",
+    "ru": "Cold rolled steel (холоднокатаная сталь)"
+   },
+   {
+    "en": "Hot rolled steel",
+    "ru": "Hot rolled steel (горячекатаная сталь)"
+   },
+   {
+    "en": "Copper",
+    "ru": "Copper (медь)"
+   },
+   {
+    "en": "Galvanized",
+    "ru": "Galvanized (оцинкованная сталь)"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-72",
+  "src": "MON",
+  "n": 72,
+  "topic": "offsets",
+  "q": {
+   "en": "What formula could be used to fabricate a field offset?",
+   "ru": "По какой формуле можно изготовить field offset?"
+  },
+  "why": {
+   "en": "A field offset is cut from a straight section: on the side that shows the offset, cut = offset × width ÷ length off each end, at opposite edges on the two ends, so the section becomes a parallelogram (course formula sheet). Example: offset 2\", width 12\", length 48\" → 2 × 12 ÷ 48 = 1/2\" off each end.",
+   "ru": "Field offset делают из прямой секции: на стороне, где виден сдвиг, с каждого конца срезают cut = offset × ширина ÷ длина, на двух концах — у противоположных кромок, и секция становится параллелограммом (formula sheet курса). Пример: offset 2\", ширина 12\", длина 48\" → 2 × 12 ÷ 48 = 1/2\" с каждого конца."
+  },
+  "opts": [
+   {
+    "en": "Offset divided by width times length",
+    "ru": "Offset, делённый на ширину и умноженный на длину"
+   },
+   {
+    "en": "Width plus offset",
+    "ru": "Ширина плюс offset"
+   },
+   {
+    "en": "Offset plus width divided by length",
+    "ru": "Offset плюс ширина, делённые на длину"
+   },
+   {
+    "en": "Offset times width divided by length",
+    "ru": "Offset, умноженный на ширину и делённый на длину"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-73",
+  "src": "MON",
+  "n": 73,
+  "topic": "math",
+  "q": {
+   "en": "What is the size of the radius on a 42\" x 22\" section of flat oval?",
+   "ru": "Какой радиус у секции flat oval 42\" x 22\"?"
+  },
+  "why": {
+   "en": "The round ends of a flat oval have a diameter equal to the short side, so R = 22 ÷ 2 = 11\". Traps: 21\" is half of the long side, 22\" is the diameter, and 5.5\" is a quarter of the short side.",
+   "ru": "Диаметр закруглений flat oval равен короткой стороне, поэтому R = 22 ÷ 2 = 11\". Ловушки: 21\" — половина длинной стороны, 22\" — диаметр, а 5.5\" — четверть короткой стороны."
+  },
+  "opts": [
+   {
+    "en": "5.5\"",
+    "ru": "5.5\""
+   },
+   {
+    "en": "21\"",
+    "ru": "21\""
+   },
+   {
+    "en": "11\"",
+    "ru": "11\""
+   },
+   {
+    "en": "22\"",
+    "ru": "22\""
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-74",
+  "src": "MON",
+  "n": 74,
+  "topic": "materials",
+  "q": {
+   "en": "A sheet of stainless steel that has a number 8 finish on it is",
+   "ru": "Лист нержавеющей стали (stainless steel) с финишем номер 8 —"
+  },
+  "why": {
+   "en": "Stainless finish numbers run from dull to bright: No. 2B is a dull mill finish, No. 4 is brushed (satin), and No. 8 is a polished mirror finish, the shiniest standard one.",
+   "ru": "Номера финиша stainless идут от тусклого к блестящему: No. 2B — тусклый заводской, No. 4 — шлифованный (brushed, satin), No. 8 — полированный до зеркала, самый блестящий из стандартных."
+  },
+  "opts": [
+   {
+    "en": "dull",
+    "ru": "тусклый"
+   },
+   {
+    "en": "brushed",
+    "ru": "шлифованный"
+   },
+   {
+    "en": "very shiny",
+    "ru": "очень блестящий"
+   },
+   {
+    "en": "oily",
+    "ru": "масляный"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-75",
+  "src": "MON",
+  "n": 75,
+  "topic": "safety",
+  "q": {
+   "en": "The proper angle to the ground for a ladder is",
+   "ru": "Правильный угол лестницы к земле —"
+  },
+  "why": {
+   "en": "OSHA 1926.1053(b)(5)(i): the foot of the ladder is set out about 1/4 of its working length, so cos θ = 1/4 → θ = 75.52° ≈ 75° (the 4-to-1 rule). At 60° or 57° the foot is too far out and the ladder can slide; 30° is far too flat.",
+   "ru": "OSHA 1926.1053(b)(5)(i): низ лестницы отставляют примерно на 1/4 её рабочей длины, поэтому cos θ = 1/4 → θ = 75.52° ≈ 75° (правило 4 к 1). При 60° или 57° низ стоит слишком далеко и лестница может съехать; 30° — почти лёжа."
+  },
+  "opts": [
+   {
+    "en": "75 degrees",
+    "ru": "75 градусов"
+   },
+   {
+    "en": "57 degrees",
+    "ru": "57 градусов"
+   },
+   {
+    "en": "30 degrees",
+    "ru": "30 градусов"
+   },
+   {
+    "en": "60 degrees",
+    "ru": "60 градусов"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-77",
+  "src": "MON",
+  "n": 77,
+  "topic": "safety",
+  "q": {
+   "en": "Is a number 9 welding lens darker or lighter than a number 12?",
+   "ru": "Светофильтр (welding lens) номер 9 темнее или светлее, чем номер 12?"
+  },
+  "why": {
+   "en": "Lighter. The shade number is the darkness of the lens: the higher the number, the darker. 9 is lower than 12, so a #9 lens is lighter; #12 is used for heavier electrodes and higher current.",
+   "ru": "Светлее (Lighter). Номер shade — это степень затемнения: чем больше номер, тем темнее светофильтр. 9 меньше 12, значит, #9 светлее; #12 ставят на толстые electrode и большой ток."
+  },
+  "type": "input",
+  "answer": {
+   "accept": [
+    "lighter"
+   ],
+   "text": "Lighter",
+   "prefix": ""
+  }
+ },
+ {
+  "id": "MON-78",
+  "src": "MON",
+  "n": 78,
+  "topic": "safety",
+  "q": {
+   "en": "To avoid unnecessary exposure to fumes:",
+   "ru": "Чтобы избежать лишнего воздействия сварочного дыма (fumes):"
+  },
+  "why": {
+   "en": "Fumes keep rising from the hot weld for a few seconds after the arc stops, so wait about 10 seconds and keep your head out of the plume before inspecting. Welding outdoors actually helps ventilation, a painter's dust mask does not stop welding fume, and humidity does not create fumes.",
+   "ru": "Дым ещё несколько секунд поднимается от горячего шва после того, как дуга погасла, поэтому подождите около 10 секунд и не держите голову в столбе дыма. Сварка на улице как раз улучшает вентиляцию, малярная пылевая маска от сварочного дыма не защищает, а влажность дыма не создаёт."
+  },
+  "opts": [
+   {
+    "en": "Avoid welding in humid conditions.",
+    "ru": "Не варите во влажных условиях."
+   },
+   {
+    "en": "Weld with a dust mask, like the kind painters use.",
+    "ru": "Варите в пылевой маске, как у маляров."
+   },
+   {
+    "en": "Avoid welding outdoors.",
+    "ru": "Не варите на открытом воздухе."
+   },
+   {
+    "en": "Wait 10 seconds for fumes to clear before inspecting your weld.",
+    "ru": "Подождите 10 секунд, пока дым рассеется, прежде чем осматривать шов."
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-79",
+  "src": "MON",
+  "n": 79,
+  "topic": "safety",
+  "q": {
+   "en": "If leather is not available, the next best choice for clothing is nylon or polyester. True or False?",
+   "ru": "Если кожи нет, следующий лучший выбор одежды — nylon или polyester. Верно или неверно?"
+  },
+  "why": {
+   "en": "False: nylon and polyester melt and stick to the skin when sparks or spatter hit them. After leather, wear wool or flame-resistant (treated) cotton.",
+   "ru": "Неверно: nylon и polyester плавятся и прилипают к коже, когда на них попадают искры или брызги металла. После кожи — шерсть или огнестойкий (пропитанный) хлопок."
+  },
+  "opts": [
+   {
+    "en": "False",
+    "ru": "Неверно"
+   },
+   {
+    "en": "True",
+    "ru": "Верно"
+   }
+  ],
+  "answer": [
+   0
   ],
   "type": "single"
  }
