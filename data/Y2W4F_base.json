@@ -1,0 +1,317 @@
+[
+ {
+  "src": "Y2W4F",
+  "n": 9,
+  "q": "The purpose of a fire curtain is",
+  "hint": null,
+  "opts": [
+   "to keep smoke from spreading.",
+   "to allow firefighters to get to the area on fire.",
+   "to keep fire from spreading.",
+   "to cut off the supply of oxygen to the fire."
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Friday 3/13/26 (another student, 62/74): student's answer not marked wrong (running score adds up)"
+ },
+ {
+  "src": "Y2W4F",
+  "n": 16,
+  "q": "On a drawing, a cutting plane line shows where an imaginary cut is made. The arrows on it point in the direction you would be looking in a ____ view.",
+  "hint": null,
+  "opts": [
+   "SIDE",
+   "COMMON",
+   "SECTION",
+   "IMAGINARY"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Friday 3/13/26 (another student, 62/74): student's answer not marked wrong (running score adds up)"
+ },
+ {
+  "src": "Y2W4F",
+  "n": 19,
+  "q": "Give the meaning of the hoisting signal.",
+  "hint": null,
+  "opts": [
+   "Hoist",
+   "Swing Right",
+   "Raise Boom",
+   "Cable Up"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": "q19",
+  "evidence": "Graded sheet SMY2W4 Friday 3/13/26 (another student, 62/74): student's answer not marked wrong (running score adds up); OSHA 1926 Subpart CC Appendix A (Raise Boom)"
+ },
+ {
+  "src": "Y2W4F",
+  "n": 20,
+  "q": "Give the meaning of the hoisting signal.",
+  "hint": null,
+  "opts": [
+   "Raise Boom",
+   "Extend Boom",
+   "Cable Out Slowly",
+   "Move Ahead"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": "q20",
+  "evidence": "Graded sheet SMY2W4 Friday 3/13/26 (another student, 62/74): student's answer not marked wrong (running score adds up); OSHA 1926 Subpart CC Appendix A (Extend Boom)"
+ },
+ {
+  "src": "Y2W4F",
+  "n": 21,
+  "q": "Give the meaning of the hoisting signal.",
+  "hint": null,
+  "opts": [
+   "Raise Boom",
+   "Swing Right",
+   "Hoist",
+   "Raise Slowly"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": "q21",
+  "evidence": "Graded sheet SMY2W4 Friday 3/13/26 (another student, 62/74): student's answer not marked wrong (running score adds up); OSHA 1926 Subpart CC Appendix A (Hoist)"
+ },
+ {
+  "src": "Y2W4F",
+  "n": 24,
+  "q": "When working on a scaffold, guardrails must:",
+  "hint": null,
+  "opts": [
+   "Come at least to your knees",
+   "Be wired to the scaffolding frame",
+   "Be installed if you are working over 15'-0\" up",
+   "Be installed if you are working over 6'-0\" up"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Friday 3/13/26 (another student, 62/74): student's answer not marked wrong (running score adds up); code thresholds checked: OSHA 1926.451(g)(1) 10 ft, WAC 296-880-20005 4 ft"
+ },
+ {
+  "src": "Y2W4F",
+  "n": 25,
+  "q": "Rolling scaffold work height must not exceed:",
+  "hint": null,
+  "opts": [
+   "Twice the narrow end of the base",
+   "Four times the narrow end of the base",
+   "Four times the wide of the base",
+   "10'-0\""
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Friday 3/13/26 (another student, 62/74): student's answer not marked wrong (running score adds up); OSHA 1926.451(c)(1) 4:1 rule"
+ },
+ {
+  "src": "Y2W4F",
+  "n": 26,
+  "q": "If you were working on a rolling scaffold that was less than 10\" high and had guardrails and toe boards, would it be okay to have somebody push you along while you worked?",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Friday 3/13/26 (another student, 62/74): student's answer not marked wrong (running score adds up); OSHA 1926.452(w)(6)"
+ },
+ {
+  "src": "Y2W4F",
+  "n": 44,
+  "q": "If a couple of folding ladders were fully extended and on stable ground, it would be okay to use them to support a scaffold plank.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Friday 3/13/26 (another student, 62/74): student's answer not marked wrong (running score adds up); OSHA 1926.1053(b)(4), 1926.451(c)(2)(ii)"
+ },
+ {
+  "src": "Y2W4F",
+  "n": 45,
+  "q": "Sometimes true lengths needed to develop a square to round pattern can be found in an elevation view.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Friday 3/13/26 (another student, 62/74): student's answer not marked wrong (running score adds up); knowledge base 08 §9b, 05"
+ },
+ {
+  "src": "Y2W4F",
+  "n": 46,
+  "q": "When triangulating sometimes lines that are not true lengths are used to develop patterns.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Friday 3/13/26 (another student, 62/74): key marked in yellow where the student lost the point (b); knowledge base 08 §9b, 05"
+ },
+ {
+  "src": "Y2W4F",
+  "n": 47,
+  "q": "Sometimes true lengths needed to develop patterns can be found in the plan view.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Friday 3/13/26 (another student, 62/74): key marked in yellow where the student lost the point (a); knowledge base 08 §9b, 05"
+ },
+ {
+  "src": "Y2W4F",
+  "n": 54,
+  "q": "A duct system was estimated to need six 15 gal. buckets of duct sealer. When the person doing the sealing noticed that not enough sealer was on the job he ordered 2 more 15 gal. buckets and 3 two gallon cans. After he had finished the job, he noticed four unused 15 gal. buckets stored behind some construction material. How many gallons of sealer were actually used on the duct?",
+  "hint": null,
+  "opts": [
+   "126 Gallons",
+   "60 Gallons",
+   "66 Gallons",
+   "36 Gallons"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Friday 3/13/26 (another student, 62/74): student's answer not marked wrong (running score adds up); calculation"
+ },
+ {
+  "src": "Y2W4F",
+  "n": 64,
+  "q": "If the 11” x 5” side remained the same, how tall would it have to be in order to hold 7 gallons? Round to two decimal places",
+  "hint": null,
+  "opts": [
+   "1617.00 cu. in.",
+   "29.40\"",
+   "29-3/8\"",
+   "231 cu. in."
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": "q64",
+  "evidence": "Graded sheet SMY2W4 Friday 3/13/26 (another student, 62/74): student's answer not marked wrong (running score adds up); calculation"
+ },
+ {
+  "src": "Y2W4F",
+  "n": 70,
+  "q": "A room measures 33'-6\" x 54'-5\" with a 12' ceiling height. What is the diagonal length from one corner at the floor to the opposite corner at the ceiling height?",
+  "hint": null,
+  "opts": [
+   "64'-5\"",
+   "65'- 1/4\"",
+   "65'-1 5/8\"",
+   "66'-7 11/16\""
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Friday 3/13/26 (another student, 62/74): key marked in yellow where the student lost the point (b); calculation"
+ },
+ {
+  "src": "Y2W4F",
+  "n": 72,
+  "q": "A crew of three sheet metal workers are installing an HVAC duct system having 11,280 pounds of duct. 25% of the job must be completed per week. How many pounds must be installed per week?",
+  "hint": null,
+  "opts": [
+   "2760 lbs",
+   "2280 lbs",
+   "980 lbs",
+   "2820 lbs"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Friday 3/13/26 (another student, 62/74): key marked in yellow where the student lost the point (d); calculation"
+ },
+ {
+  "src": "Y2W4F",
+  "n": 73,
+  "q": "How tall would an 14\" x 12\" box have to be to hold 9 gallons?",
+  "hint": null,
+  "opts": [
+   "12-3/8\"",
+   "14\"",
+   "15-1/8\"",
+   "13- 5/8\""
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Friday 3/13/26 (another student, 62/74): student's answer not marked wrong (running score adds up); calculation"
+ },
+ {
+  "src": "Y2W4F",
+  "n": 74,
+  "q": "Which of the following are inert gases?",
+  "hint": null,
+  "opts": [
+   "Argon",
+   "Oxygen",
+   "Carbon Dioxide",
+   "Helium"
+  ],
+  "answer": [
+   0,
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Friday 3/13/26 (another student, 62/74): student's answer not marked wrong (running score adds up) (a + d both circled, counted)"
+ }
+]

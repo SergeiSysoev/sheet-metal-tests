@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 438.75" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="520" height="438.75" fill="#fff"/>
+<path d="M336.38,74.75 C336.38,19.5 427.38,19.5 427.38,74.75" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M321.75,76.38 Q381.88,66.62 442,76.38" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M405.89,76.38 A35.75,43.88 0 1 1 357.86,76.38" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="368.06" cy="102.38" r="2.76" fill="#111"/>
+<circle cx="395.69" cy="102.38" r="2.76" fill="#111"/>
+<line x1="381.88" y1="106.44" x2="379.44" y2="118.62" fill="none" stroke="#111" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="372.94" y1="131.62" x2="390.81" y2="131.62" fill="none" stroke="#111" stroke-width="1.54" stroke-linecap="butt"/>
+<line x1="365.62" y1="151.12" x2="364" y2="162.5" fill="none" stroke="#111" stroke-width="1.76" stroke-linecap="butt"/>
+<line x1="398.12" y1="151.12" x2="399.75" y2="162.5" fill="none" stroke="#111" stroke-width="1.76" stroke-linecap="butt"/>
+<polyline points="349.38,159.25 377,183.62 381.88,167.38 386.75,183.62 414.38,159.25" fill="none" stroke="#111" stroke-width="1.76" stroke-linejoin="round"/>
+<polyline points="349.38,159.25 297.38,175.5" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<polyline points="414.38,159.25 466.38,175.5" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<line x1="302.25" y1="216.12" x2="305.5" y2="313.62" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<line x1="461.5" y1="216.12" x2="458.25" y2="313.62" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<line x1="381.88" y1="183.62" x2="381.88" y2="313.62" fill="none" stroke="#111" stroke-width="1.54" stroke-linecap="butt"/>
+<polygon points="403,212.88 440.38,212.88 440.38,256.75 403,256.75" fill="none" stroke="#111" stroke-width="1.54" stroke-linejoin="miter"/>
+<line x1="403" y1="224.25" x2="440.38" y2="224.25" fill="none" stroke="#111" stroke-width="1.32" stroke-linecap="butt"/>
+<polygon points="303.06,313.62 460.69,313.62 461.5,331.5 302.25,331.5" fill="#111" stroke="#111" stroke-width="1.32" stroke-linejoin="miter"/>
+<line x1="302.25" y1="331.5" x2="297.38" y2="430.62" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<line x1="461.5" y1="331.5" x2="466.38" y2="430.62" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<line x1="381.88" y1="331.5" x2="381.88" y2="381.88" fill="none" stroke="#111" stroke-width="1.32" stroke-linecap="butt"/>
+<line x1="144.62" y1="4.88" x2="144.62" y2="159.25" fill="none" stroke="#111" stroke-width="2.64" stroke-linecap="butt"/>
+<line x1="144.62" y1="198.25" x2="144.62" y2="268.12" fill="none" stroke="#111" stroke-width="2.64" stroke-linecap="butt"/>
+<line x1="160.88" y1="4.88" x2="160.88" y2="159.25" fill="none" stroke="#111" stroke-width="2.64" stroke-linecap="butt"/>
+<line x1="160.88" y1="198.25" x2="160.88" y2="268.12" fill="none" stroke="#111" stroke-width="2.64" stroke-linecap="butt"/>
+<line x1="177.12" y1="4.88" x2="177.12" y2="159.25" fill="none" stroke="#111" stroke-width="2.64" stroke-linecap="butt"/>
+<line x1="177.12" y1="198.25" x2="177.12" y2="268.12" fill="none" stroke="#111" stroke-width="2.64" stroke-linecap="butt"/>
+<path d="M138.12,268.12 L183.62,268.12 Q198.25,268.12 198.25,284.38 L193.38,357.5 Q190.12,373.75 173.88,375.38 L147.88,375.38 Q133.25,373.75 130,357.5 L125.12,284.38 Q125.12,268.12 138.12,268.12" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M164.12,375.38 L164.12,390 Q164.12,412.75 180.38,412.75 Q193.38,412.75 193.38,399.75" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="297.38,175.5 243.75,162.5 66.62,162.5" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="round"/>
+<polyline points="302.25,216.12 243.75,198.25 66.62,195" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="round"/>
+<rect x="67.44" y="163.31" width="113.75" height="30.88" fill="#fff"/>
+<line x1="66.62" y1="162.5" x2="178.75" y2="162.5" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<line x1="66.62" y1="195" x2="178.75" y2="195" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<line x1="66.62" y1="159.25" x2="66.62" y2="198.25" fill="none" stroke="#111" stroke-width="1.76" stroke-linecap="butt"/>
+<polygon points="27.62,165.75 65,165.75 65,196.62 27.62,196.62" fill="none" stroke="#111" stroke-width="1.98" stroke-linejoin="round"/>
+<line x1="30.88" y1="176.04" x2="44.44" y2="176.04" fill="none" stroke="#111" stroke-width="1.1" stroke-linecap="butt"/>
+<line x1="30.88" y1="186.33" x2="44.44" y2="186.33" fill="none" stroke="#111" stroke-width="1.1" stroke-linecap="butt"/>
+<polyline points="37.38,165.75 37.38,133.25 48.75,133.25 48.75,165.75" fill="none" stroke="#111" stroke-width="1.98" stroke-linejoin="round"/>
+<line x1="466.38" y1="175.5" x2="487.5" y2="346.12" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<line x1="461.5" y1="216.12" x2="468" y2="346.12" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<line x1="466.38" y1="346.12" x2="489.12" y2="346.12" fill="none" stroke="#111" stroke-width="1.76" stroke-linecap="butt"/>
+<ellipse cx="478.56" cy="368.88" rx="12.19" ry="21.94" fill="none" stroke="#111" stroke-width="1.98"/>
+</svg>

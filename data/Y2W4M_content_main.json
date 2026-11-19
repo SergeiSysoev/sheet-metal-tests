@@ -1,0 +1,532 @@
+[
+ {
+  "src": "Y2W4M",
+  "n": 2,
+  "topic": "trade",
+  "ru_q": "Что означают буквы SMART?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Sheet Metal, Air, Rail and Transportation",
+   "Sheet Metal, Airway, Rail and transportation",
+   "Sheet Metal, Air, Railroad and Transportation",
+   "Sheet Metal, Architects, and Roadway Transportation"
+  ],
+  "why_en": "SMART is the union Local 66 belongs to: the International Association of Sheet Metal, Air, Rail and Transportation Workers (formed when the Sheet Metal Workers merged with the United Transportation Union). The wrong options change words: Airway, Railroad, or \"Architects, and Roadway\".",
+  "why_ru": "SMART — профсоюз, в который входит Local 66: International Association of Sheet Metal, Air, Rail and Transportation Workers (появился при слиянии Sheet Metal Workers и United Transportation Union). В неверных вариантах заменены слова: Airway, Railroad или «Architects, and Roadway».",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 6,
+  "topic": "drawing",
+  "ru_q": "Каким методом layout строят pattern для 90° round fitting с одинаковыми диаметрами?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Orthographic projection",
+   "Triangulation",
+   "Radial line development",
+   "Parallel line development"
+  ],
+  "why_en": "A 90° fitting between round pipes of equal diameter (an elbow, an equal tee) is made of cylinders, and the element lines of a cylinder are parallel — so its patterns are developed by parallel line development. Radial line is for cone-shaped pieces, triangulation for transitions such as square to round; orthographic projection is a way to draw views, not a pattern method.",
+  "why_ru": "90° fitting между круглыми трубами одного диаметра (elbow, равный tee) состоит из цилиндров, а образующие цилиндра параллельны — поэтому pattern строят методом parallel line development. Radial line — для конусных деталей, triangulation — для transitions вроде square to round; orthographic projection — способ рисовать виды, а не метод развёртки.",
+  "flag": "Right edge of the photo cuts the word after \"90°\" to \"rou…\"; read as \"round\"."
+ },
+ {
+  "src": "Y2W4M",
+  "n": 7,
+  "topic": "materials",
+  "ru_q": "Больший номер gage означает",
+  "ru_hint": null,
+  "ru_opts": [
+   "более тяжёлый металл.",
+   "более тонкий металл.",
+   "более толстый металл.",
+   "больше унций на квадратный фут."
+  ],
+  "why_en": "Gauge (gage) numbers run backwards: the higher the number, the thinner the sheet — 26 ga is thinner than 16 ga. A thinner sheet also weighs less per square foot, so \"heavier\" and \"more ounces\" are wrong too.",
+  "why_ru": "Номера gauge (gage) идут наоборот: чем больше номер, тем тоньше лист — 26 ga тоньше 16 ga. Более тонкий лист и весит меньше на квадратный фут, поэтому «тяжелее» и «больше унций» тоже неверно.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 9,
+  "topic": "drawing",
+  "ru_q": "Передняя сторона предмета видна прямо, а 2 стороны видны под углом — в этом типе чертежа.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Perspective",
+   "Oblique",
+   "Orthographic",
+   "Isometric"
+  ],
+  "why_en": "In an oblique drawing the front face is drawn straight on, in its true shape, and the depth lines go back at an angle (usually 45° or 30°), so the top and one side are seen at an angle. Isometric turns the object so that no face is seen straight on; orthographic shows each side flat in separate views; perspective makes lines run to vanishing points.",
+  "why_ru": "В oblique чертеже передняя грань нарисована прямо, в натуральную форму, а линии глубины уходят под углом (обычно 45° или 30°), поэтому верх и один бок видны под углом. В isometric предмет повёрнут так, что прямо не видна ни одна грань; orthographic показывает каждую сторону плоско в отдельных видах; в perspective линии сходятся к точкам схода.",
+  "flag": "Right edge of the photo is cut off after \"...seen at an angle in t\"; the words before \"of drawing.\" are not visible. \"this type\" is reconstructed (compare No.19 \"in this type of view\") — check against a clear copy."
+ },
+ {
+  "src": "Y2W4M",
+  "n": 11,
+  "topic": "offsets",
+  "ru_q": "Выбери лучшее название для части round elbow, на которую указывает вопрос.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Length",
+   "Throat Radius",
+   "Center Line Radius",
+   "Miter Line"
+  ],
+  "why_en": "The dimension runs from the radius point (×) to the middle of the elbow's end — the centerline of the pipe — so it is the center line radius. A throat radius would end at the inside edge of the end (the throat), not at its middle.",
+  "why_ru": "Размер идёт от radius point (×) до середины торца elbow, то есть до centerline трубы, — это center line radius. Throat radius закончился бы на внутренней кромке торца (throat), а не на середине.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 12,
+  "topic": "offsets",
+  "ru_q": "Выбери лучшее название для части round elbow, на которую указывает вопрос.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Miter Line",
+   "Middle Gore",
+   "Pipe Radius",
+   "End LIne"
+  ],
+  "why_en": "The arrow points to the line where the end gore joins the next gore. The joint between two gores is the miter line. The end line would be the open end of the elbow, where it connects to the pipe.",
+  "why_ru": "Стрелка указывает на линию, где end gore стыкуется со следующим gore. Стык двух gores — это miter line. End line — открытый торец elbow, где он соединяется с трубой.",
+  "flag": "Option d is printed \"End LIne\" (capital I) — typo kept."
+ },
+ {
+  "src": "Y2W4M",
+  "n": 13,
+  "topic": "offsets",
+  "ru_q": "Выбери лучшее название для части round elbow, на которую указывает вопрос.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Working Length",
+   "Heel Radius",
+   "Throat Radius",
+   "Center Line"
+  ],
+  "why_en": "The dimension runs from the radius point (×) to the inside edge of the elbow's end — the throat — so it is the throat radius. The heel radius would go to the outside edge, the center line radius to the middle of the end.",
+  "why_ru": "Размер идёт от radius point (×) до внутренней кромки торца elbow — до throat, — значит, это throat radius. Heel radius шёл бы до внешней кромки, center line radius — до середины торца.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 14,
+  "topic": "offsets",
+  "ru_q": "Выбери лучшее название для части round elbow, на которую указывает вопрос.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Middle Gore",
+   "Miter Line",
+   "Cheek",
+   "Fish Gore"
+  ],
+  "why_en": "The arrow points into a full piece between two miter lines — a middle gore (this 5-piece elbow has 2 end gores and 3 middle gores). A cheek is the flat side of a rectangular elbow; a round elbow has no cheeks.",
+  "why_ru": "Стрелка указывает внутрь целой детали между двумя miter lines — это middle gore (в этом 5-piece elbow 2 end gores и 3 middle gores). Cheek — плоская боковина rectangular elbow; у round elbow cheeks нет.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 15,
+  "topic": "offsets",
+  "ru_q": "Выбери лучшее название для части round elbow, на которую указывает вопрос.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Middle Gore",
+   "Throat Radius",
+   "Miter Line",
+   "Seam Line"
+  ],
+  "why_en": "The arrow points to the line that runs along the end gore through the middle of its end — the lengthwise seam of the gore, the seam line. The seam sits on the side of the elbow, so in this side view it is drawn along the centerline; the slanted line above it is a miter line.",
+  "why_ru": "Стрелка указывает на линию вдоль end gore через середину торца — продольный шов gore, seam line. Шов стоит на боку elbow, поэтому на этом виде сбоку он нарисован по centerline; наклонная линия над ним — miter line.",
+  "flag": "Top of the photo cuts off the number and start of the question; the visible end \"...part in question.\" matches No.11–16, so the same text is used."
+ },
+ {
+  "src": "Y2W4M",
+  "n": 16,
+  "topic": "offsets",
+  "ru_q": "Выбери лучшее название для части round elbow, на которую указывает вопрос.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Heel",
+   "End Gore",
+   "Centerline",
+   "Seam Line"
+  ],
+  "why_en": "The arrow points into the end piece of the elbow: cut on a miter on one side and square on the other, where the pipe connects. That piece is the end gore; it turns half as much as a middle gore.",
+  "why_ru": "Стрелка указывает в крайнюю деталь elbow: с одной стороны она срезана по miter, с другой — прямой торец под трубу. Это end gore; он поворачивает вдвое меньше, чем middle gore.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 17,
+  "topic": "drawing",
+  "ru_q": "Что имеют в виду, когда говорят об oblique line?",
+  "ru_hint": null,
+  "ru_opts": [
+   "An object line",
+   "A slanted line",
+   "An obtuse line",
+   "A perpendicular line"
+  ],
+  "why_en": "Oblique means slanted: an oblique line is neither horizontal nor vertical. An object line is the thick visible-outline line, obtuse describes an angle larger than 90°, and a perpendicular line meets another at 90°.",
+  "why_ru": "Oblique значит «наклонный»: oblique line — ни горизонтальная, ни вертикальная. Object line — толстая линия видимого контура, obtuse относится к углу больше 90°, perpendicular line встречает другую под 90°.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 19,
+  "topic": "drawing",
+  "ru_q": "В этом типе вида предметы кажутся уходящими вдаль.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Perspective",
+   "Isometric",
+   "Parametric",
+   "Oblique"
+  ],
+  "why_en": "In a perspective view parallel lines run together toward vanishing points, so the far parts of the object look smaller — it recedes into the distance, as in a photo. In isometric and oblique views parallel lines stay parallel and nothing shrinks with distance; \"parametric\" is not a type of view.",
+  "why_ru": "В perspective параллельные линии сходятся к точкам схода, и дальние части предмета выглядят меньше — он уходит вдаль, как на фото. В isometric и oblique параллельные линии остаются параллельными и ничего не уменьшается с расстоянием; «parametric» — вообще не тип вида.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 21,
+  "topic": "welding",
+  "ru_q": "Каким другим термином часто называют полярность DCEN?",
+  "ru_hint": null,
+  "ru_opts": [
+   "ACHF",
+   "Reverse Polarity",
+   "Straight Polarity",
+   "Ни один из перечисленных ответов не верен."
+  ],
+  "why_en": "DCEN (direct current, electrode negative) is called straight polarity; DCEP (electrode positive) is reverse polarity. ACHF is alternating current with high frequency (used for TIG on aluminum).",
+  "why_ru": "DCEN (постоянный ток, electrode на минусе) называют straight polarity; DCEP (electrode на плюсе) — reverse polarity. ACHF — переменный ток с высокой частотой (TIG по алюминию).",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 22,
+  "topic": "welding",
+  "ru_q": "Скорость подачи проволоки (wire speed) на сварочном аппарате GMAW определяет:",
+  "ru_hint": null,
+  "ru_opts": [
+   "Voltage",
+   "Amperage",
+   "Slope",
+   "Electrode Size"
+  ],
+  "why_en": "On a constant-voltage GMAW machine the wire feed speed sets the current: feeding wire faster draws more amperage. Voltage has its own control (it sets the arc length); slope and electrode (wire) size are separate settings.",
+  "why_ru": "На GMAW-аппарате с constant voltage скорость подачи проволоки задаёт ток: чем быстрее подача, тем больше amperage. У voltage своя ручка (она задаёт длину дуги); slope и диаметр electrode (проволоки) — отдельные настройки.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 24,
+  "topic": "materials",
+  "ru_q": "При контакте с кислородом любой металл образует",
+  "ru_hint": null,
+  "ru_opts": [
+   "патину.",
+   "электролиз.",
+   "низкое содержание углерода.",
+   "оксид."
+  ],
+  "why_en": "Metal plus oxygen gives a metal oxide: rust on steel, the white film on aluminum, the thin protective film on stainless. A patina is the colored layer that only some metals (copper, bronze) get with age; electrolysis is a process, not something a metal forms.",
+  "why_ru": "Металл плюс кислород дают оксид: ржавчина на стали, белый налёт на алюминии, тонкая защитная плёнка на stainless. Патина — цветной слой, который со временем появляется только у некоторых металлов (медь, бронза); электролиз — процесс, а не то, что образует металл.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 25,
+  "topic": "dampers",
+  "ru_q": "Fusible links обычно устанавливают",
+  "ru_hint": null,
+  "ru_opts": [
+   "в space envelope.",
+   "в моторе.",
+   "в потоке воздуха внутри duct.",
+   "в устройстве фиксации лопаток"
+  ],
+  "why_en": "A fusible link holds a fire damper open and melts at its rated temperature (usually 165°F). It has to sit in the air stream inside the duct, so that hot air from a fire reaches it and the damper closes. In the motor or outside the duct it would not feel the heat in time.",
+  "why_ru": "Fusible link держит fire damper открытым и плавится при своей температуре (обычно 165°F). Он должен стоять в потоке воздуха внутри duct, чтобы горячий воздух от пожара дошёл до него и damper закрылся. В моторе или снаружи duct он не почувствует жар вовремя.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 26,
+  "topic": "dampers",
+  "ru_q": "Термин \"dynamic\" означает, что damper:",
+  "ru_hint": null,
+  "ru_opts": [
+   "Рассчитан на работу при определённых условиях потока воздуха",
+   "Имеет огнестойкость 1 1/2 часа",
+   "Не обязан отключаться при пожаре",
+   "Рассчитан на удары в районах ураганов"
+  ],
+  "why_en": "A dynamic fire damper is tested and rated to close against moving air: the fans keep running during a fire, so it must close under specific airflow (velocity and pressure) conditions. A static damper is used only where the fans shut down. The hour rating (1 1/2 hours) is a separate rating.",
+  "why_ru": "Dynamic fire damper испытан и рассчитан закрываться против движущегося воздуха: при пожаре вентиляторы продолжают работать, поэтому он должен закрыться при определённых условиях потока (скорость и давление). Static damper ставят только там, где вентиляторы отключаются. Часовой рейтинг (1 1/2 часа) — отдельная характеристика.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 31,
+  "topic": "drawing",
+  "ru_q": "Что из этого НЕ указывают на shop ticket для fitting?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Размеры",
+   "Материал",
+   "Job number",
+   "Стоимость"
+  ],
+  "why_en": "A shop ticket tells the shop what to build and for which job: fitting sizes, material and gauge, job number, quantity. Cost is not on it — pricing belongs to the estimator and the office.",
+  "why_ru": "Shop ticket говорит цеху, что делать и для какой работы: размеры fitting, материал и gauge, job number, количество. Стоимости там нет — цены считают estimator и офис.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 32,
+  "topic": "drawing",
+  "ru_q": "Какой метод (методы) layout лучше всего подходит для развёртки таких fittings, как round tees и elbows?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Radial line",
+   "Parallel line",
+   "Triangulation",
+   "Подойдёт и triangulation, и radial line."
+  ],
+  "why_en": "Round tees and elbows are made of cylinders (pipe of one diameter), and the element lines of a cylinder are parallel, so they are laid out by parallel line development. Radial line is for cone-shaped pieces (tapers, reducers), triangulation for transitions; neither is the method for a cylinder.",
+  "why_ru": "Round tees и elbows состоят из цилиндров (труба одного диаметра), а образующие цилиндра параллельны — поэтому их развёртывают методом parallel line. Radial line — для конусных деталей (tapers, reducers), triangulation — для transitions; для цилиндра ни тот, ни другой не годится.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 33,
+  "topic": "drawing",
+  "ru_q": "Guidelines используют, чтобы:",
+  "ru_hint": null,
+  "ru_opts": [
+   "указывать, где размеры показывают величину.",
+   "продолжать края предметов.",
+   "задавать высоту букв.",
+   "нумеровать порядок штрихов при написании букв."
+  ],
+  "why_en": "Guidelines are very light lines drawn before lettering so that all letters on the drawing come out the same height. Lines that point to a dimension are leaders and dimension lines; lines that extend from the object are extension lines.",
+  "why_ru": "Guidelines — очень тонкие линии, которые проводят перед надписями, чтобы все буквы на чертеже были одной высоты. На размер указывают leaders и dimension lines; линии, продолжающие края предмета, — extension lines.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 34,
+  "topic": "drawing",
+  "ru_q": "В черчении линия \"leader\" ____.",
+  "ru_hint": null,
+  "ru_opts": [
+   "показывает центр предмета",
+   "соединяет надпись с частью чертежа",
+   "показывает скрытую кромку детали",
+   "используется вместе с размерной линией"
+  ],
+  "why_en": "A leader is a thin line with an arrowhead that runs from a note (or a radius value) to the feature it refers to. Center lines show centers, hidden (dashed) lines show hidden edges, and extension lines are the ones used with dimension lines.",
+  "why_ru": "Leader — тонкая линия со стрелкой от надписи (или значения радиуса) к элементу, к которому она относится. Центры показывают center lines, скрытые кромки — hidden (пунктирные) lines, а с размерными линиями работают extension lines.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 35,
+  "topic": "trig",
+  "ru_q": "Теорему Пифагора в sheet metal можно использовать, чтобы:",
+  "ru_hint": null,
+  "ru_opts": [
+   "проверить, прямой ли угол.",
+   "посчитать площадь круга.",
+   "посчитать площадь треугольника.",
+   "найти третью сторону прямоугольного треугольника.",
+   "проверить, прямой ли угол, и найти третью сторону прямоугольного треугольника.",
+   "проверить, прямой ли угол, и посчитать площадь треугольника."
+  ],
+  "why_en": "a² + b² = c² works for a right triangle: it gives the third side, and it checks a corner for square (3-4-5: if the diagonal is 5, the corner is 90°). Option e names both uses, so it is the best answer; a and d alone are incomplete. It does not give the area of a circle or of a triangle.",
+  "why_ru": "a² + b² = c² работает для прямоугольного треугольника: даёт третью сторону и проверяет угол на 90° (3-4-5: если диагональ 5, угол прямой). Вариант e называет оба применения — это лучший ответ; a и d по отдельности неполные. Площадь круга или треугольника теорема не даёт.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 36,
+  "topic": "math",
+  "ru_q": "Площадь сечения квадратного duct — 576 квадратных дюймов. Какие размеры сторон?",
+  "ru_hint": null,
+  "ru_opts": [
+   "24\"",
+   "22\"",
+   "18\"",
+   "19.5\""
+  ],
+  "why_en": "Side of a square = √area = √576 = 24\". Check: 24 × 24 = 576 sq. in.",
+  "why_ru": "Сторона квадрата = √площади = √576 = 24\". Проверка: 24 × 24 = 576 sq. in.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 37,
+  "topic": "math",
+  "ru_q": "Engineer не дал расчёта, и TAB technician решает разделить воздух от air handler на 6000 CFM пропорционально площади пола. Площадь «A» — 1500 квадратных футов, площадь «B» — 3000 квадратных футов. Сколько воздуха он подаст в зону «B»?",
+  "ru_hint": null,
+  "ru_opts": [
+   "4000 CFM",
+   "2000 CFM",
+   "3000 CFM",
+   "1500 CFM"
+  ],
+  "why_en": "Split the air in proportion to floor area: total 1500 + 3000 = 4500 sq. ft; area B gets 3000 ÷ 4500 of 6000 CFM = 4000 CFM (area A gets 2000 CFM). 3000 CFM is an even split that ignores the areas.",
+  "why_ru": "Воздух делится пропорционально площади: всего 1500 + 3000 = 4500 sq. ft; зона B получает 3000 ÷ 4500 от 6000 CFM = 4000 CFM (зона A — 2000 CFM). 3000 CFM — деление пополам без учёта площадей.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 39,
+  "topic": "offsets",
+  "ru_q": "Посчитай и выбери shear list для 10\" round 7-piece elbow на 90 градусов с center-line radius 18\". Учесть припуски (1/2\" на seams и 1/4\" на gore laps) и 2\" прямого участка на каждом конце.",
+  "ru_hint": null,
+  "ru_opts": [
+   "33.936\" x 31.915\"",
+   "33-11/16\" x 32\"",
+   "33-15/16\" x 31-15/16\"",
+   "33.94\" x 31.925\""
+  ],
+  "why_en": "Miter = 90 ÷ (2 × (7 − 1)) = 7.5°; K = 18 × tan 7.5° = 2.3697\". Height = 12K (2n − 2 = 12) + 6 gore laps × 1/4\" + 2 × 2\" = 28.4369 + 1.5 + 4 = 33.9369\" → 33-15/16\". Width = π × 10 + 1/2\" = 31.9159\" → 31-15/16\". Option a is the same numbers cut off (truncated), not a size you can shear.",
+  "why_ru": "Miter = 90 ÷ (2 × (7 − 1)) = 7.5°; K = 18 × tan 7.5° = 2.3697\". Высота = 12K (2n − 2 = 12) + 6 gore laps × 1/4\" + 2 × 2\" = 28.4369 + 1.5 + 4 = 33.9369\" → 33-15/16\". Ширина = π × 10 + 1/2\" = 31.9159\" → 31-15/16\". Вариант a — те же числа, обрезанные, а не размер под shear.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 48,
+  "topic": "offsets",
+  "ru_q": "Посчитай и выбери shear list для 16\" round 4-piece elbow на 80 градусов с throat radius 18\". Учесть припуски (1/2\" на seams и 1/4\" на gore laps) и 2\" прямого участка на каждом конце.",
+  "ru_hint": null,
+  "ru_opts": [
+   "45.62\" x 50.75\"",
+   "41-3/4\" x 57-1/16\"",
+   "50-3/4\" x 41-3/4",
+   "51.72\" x 42.35\""
+  ],
+  "why_en": "Throat R 18\" → center-line R = 18 + 16/2 = 26\". Miter = 80 ÷ (2 × 3) = 13.333°; K = 26 × tan 13.333° = 6.1621\". Height = 6K + 3 gore laps × 1/4\" + 2 × 2\" = 36.9727 + 0.75 + 4 = 41.7227\" → 41-3/4\". Width = π × 16 + 1/2\" = 50.7655\" → 50-3/4\". Here the size is written width × height. In b the width 57-1/16\" is π × 18 + 1/2\" — the radius used as the diameter.",
+  "why_ru": "Throat R 18\" → center-line R = 18 + 16/2 = 26\". Miter = 80 ÷ (2 × 3) = 13.333°; K = 26 × tan 13.333° = 6.1621\". Высота = 6K + 3 gore laps × 1/4\" + 2 × 2\" = 36.9727 + 0.75 + 4 = 41.7227\" → 41-3/4\". Ширина = π × 16 + 1/2\" = 50.7655\" → 50-3/4\". Здесь размер записан как ширина × высота. В варианте b ширина 57-1/16\" = π × 18 + 1/2\" — радиус взят вместо диаметра.",
+  "flag": "Option c is printed without the closing inch mark: 50-3/4\" x 41-3/4 — kept as printed."
+ },
+ {
+  "src": "Y2W4M",
+  "n": 50,
+  "topic": "offsets",
+  "ru_q": "Посчитай, сколько градусов нужно elbows A и B, чтобы замкнуть систему duct. Throat radius elbow равен диаметру трубы.",
+  "ru_hint": null,
+  "ru_opts": [
+   "A = 48.3 degrees , B = 41.7 degrees",
+   "A = 41.6 degrees , B = 48.4 degrees",
+   "A = 45 degrees , B = 45 degrees",
+   "A = 46.7 degrees , B = 43.3 degrees"
+  ],
+  "why_en": "Throat R = 12\" (the pipe Ø), so CL R = 12 + 6 = 18\". Take one CL R off each run: X = 9'-8\" − 18 = 116 − 18 = 98\", Y = 8'-9\" − 18 = 105 − 18 = 87\". The straight pipe runs parallel to the line between the two elbow radius points: elbow A = atan(87 ÷ 98) = 41.597° → 41.6°, elbow B = 90 − 41.597 = 48.403° → 48.4° (together they turn 90°). Option a has the same two angles swapped between A and B.",
+  "why_ru": "Throat R = 12\" (Ø трубы), значит CL R = 12 + 6 = 18\". С каждого хода снимаем по одному CL R: X = 9'-8\" − 18 = 116 − 18 = 98\", Y = 8'-9\" − 18 = 105 − 18 = 87\". Прямая труба параллельна линии между radius points двух elbows: elbow A = atan(87 ÷ 98) = 41.597° → 41.6°, elbow B = 90 − 41.597 = 48.403° → 48.4° (вместе — поворот на 90°). В варианте a те же углы, но A и B переставлены.",
+  "flag": "Dimension labels are blurred in the photo: read as 8'-9\" (vertical) and 9'-8\" (horizontal). Only this reading gives an offered option (5'-9\" or 6'-9\" would give 27.49° or 32.74°), and it matches the yellow key b."
+ },
+ {
+  "src": "Y2W4M",
+  "n": 55,
+  "topic": "math",
+  "ru_q": "Круглое окно нужно закрыть листом металла. По размерам на рисунке найди радиус окна.",
+  "ru_hint": null,
+  "ru_opts": [
+   "19.5\"",
+   "8.5\"",
+   "9.75\"",
+   "13.25\""
+  ],
+  "why_en": "Chord 1'-6\" = 18\", so half the chord A = 9\"; rise B = 6\". Diameter = (A² + B²) ÷ B = (81 + 36) ÷ 6 = 19.5\", radius = 19.5 ÷ 2 = 9.75\". 19.5\" is the diameter, not the radius.",
+  "why_ru": "Хорда 1'-6\" = 18\", половина хорды A = 9\"; подъём B = 6\". Диаметр = (A² + B²) ÷ B = (81 + 36) ÷ 6 = 19.5\", радиус = 19.5 ÷ 2 = 9.75\". 19.5\" — диаметр, а не радиус.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 56,
+  "topic": "offsets",
+  "ru_q": "Посчитай длину трубы, нужную, чтобы замкнуть систему duct. Throat radius elbow равен трубе.",
+  "ru_hint": null,
+  "ru_opts": [
+   "11'-1\"",
+   "10'-3 1/2\"",
+   "11'-7 3/4\"",
+   "10'-9 1/4\""
+  ],
+  "why_en": "Throat R = 28\" (the pipe Ø), so CL R = 28 + 14 = 42\". X = 14'-7\" − 42 = 175 − 42 = 133\", Y = 7'-1\" − 42 = 85 − 42 = 43\". Both elbows turn the same way, so the straight pipe equals the distance between their radius points: √(133² + 43²) = 139.7784\" → 139-3/4\" = 11'-7 3/4\".",
+  "why_ru": "Throat R = 28\" (Ø трубы), значит CL R = 28 + 14 = 42\". X = 14'-7\" − 42 = 175 − 42 = 133\", Y = 7'-1\" − 42 = 85 − 42 = 43\". Оба elbow поворачивают в одну сторону, поэтому прямая труба равна расстоянию между их radius points: √(133² + 43²) = 139.7784\" → 139-3/4\" = 11'-7 3/4\".",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 57,
+  "topic": "fittings",
+  "ru_q": "Размеры в cut list должны включать ____.",
+  "ru_hint": null,
+  "ru_opts": [
+   "дату, когда металл нарезали.",
+   "только целые и десятичные числа.",
+   "припуски на seams и connections.",
+   "все ответы."
+  ],
+  "why_en": "Cut list sizes are the sizes you shear, so each one must already include the allowances for seams and connections (S&D, Pittsburgh, laps). The cut date is not a dimension, and shop sizes are written in fractions (16ths), so \"all answers\" is wrong.",
+  "why_ru": "Размеры в cut list — это размеры под shear, поэтому в них уже должны входить припуски на seams и connections (S&D, Pittsburgh, нахлёсты). Дата резки — не размер, а размеры в цеху пишут дробями (до 1/16), поэтому «все ответы» неверно.",
+  "flag": "Blurred photo: the second word may be printed \"dimensons\" (typo); written as \"dimensions\" — check against a clear copy."
+ },
+ {
+  "src": "Y2W4M",
+  "n": 59,
+  "topic": "offsets",
+  "ru_q": "Посчитай размеры \"L\" и \"D\" для offset duct.",
+  "ru_hint": null,
+  "ru_opts": [
+   "D = 39-5/8\" L = 67-3/8\"",
+   "D = 48-3/16\" L = 78-11/16\"",
+   "D = 46-3/8\" L = 79\"",
+   "D = 42-7/8\" L = 77-9/16\""
+  ],
+  "why_en": "Rise = 11'-2\" − 8'-4\" = 134 − 100 = 34\". The 26\" side lies in the plane of the turn and the 24\" radius goes to the throat, so CL R = 24 + 26/2 = 37\". 2K = 2 × 37 × tan 15° = 19.8282\". D (the straight piece) = 34 ÷ sin 30° − 2K = 68 − 19.8282 = 48.1718\" → 48-3/16\". L = 34 ÷ tan 30° + 2K = 58.8897 + 19.8282 = 78.7180\" → 78-11/16\".",
+  "why_ru": "Подъём = 11'-2\" − 8'-4\" = 134 − 100 = 34\". Сторона 26\" лежит в плоскости поворота, а радиус 24\" — до throat, поэтому CL R = 24 + 26/2 = 37\". 2K = 2 × 37 × tan 15° = 19.8282\". D (прямой кусок) = 34 ÷ sin 30° − 2K = 68 − 19.8282 = 48.1718\" → 48-3/16\". L = 34 ÷ tan 30° + 2K = 58.8897 + 19.8282 = 78.7180\" → 78-11/16\".",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 60,
+  "topic": "offsets",
+  "ru_q": "Найди размер, о котором спрашивают.",
+  "ru_hint": null,
+  "ru_opts": [
+   "6-1/8\"",
+   "6-7/8\"",
+   "6-5/8\"",
+   "6-3/16\""
+  ],
+  "why_en": "3-piece 90° elbow: miter = 90 ÷ (2 × 2) = 22.5°. The 12\" radius goes to the throat, so CL R = 12 + 8/2 = 16\". The ? is the height of the end gore at the centerline: K = 16 × tan 22.5° = 6.6274\" → 6-5/8\". (At the throat it would be 12 × tan 22.5° = 4.9706\", at the heel 20 × tan 22.5° = 8.2843\".)",
+  "why_ru": "3-piece elbow на 90°: miter = 90 ÷ (2 × 2) = 22.5°. Радиус 12\" — до throat, значит CL R = 12 + 8/2 = 16\". ? — высота end gore по centerline: K = 16 × tan 22.5° = 6.6274\" → 6-5/8\". (У throat было бы 12 × tan 22.5° = 4.9706\", у heel — 20 × tan 22.5° = 8.2843\".)",
+  "flag": null
+ },
+ {
+  "src": "Y2W4M",
+  "n": 61,
+  "topic": "offsets",
+  "ru_q": "При монтаже 16\" round riser нужен offset: подняться на 56\" и сместиться в сторону на 75\". Используются elbows на 45 градусов с throat radius 16\". Какая длина трубы нужна?",
+  "ru_hint": null,
+  "ru_opts": [
+   "110.75\"",
+   "112-1/2\"",
+   "132-3/8\"",
+   "98-1/16\""
+  ],
+  "why_en": "Rolling offset: true offset = √(56² + 75²) = 93.6002\". Travel at 45° = 93.6002 ÷ sin 45° = 132.3707\". CL R = 16 + 8 = 24\", K = 24 × tan 22.5° = 9.9411\", so the pipe = 132.3707 − 2 × 9.9411 = 112.4884\" → 112-1/2\". 132-3/8\" is the travel without taking off the two elbows.",
+  "why_ru": "Rolling offset: истинный offset = √(56² + 75²) = 93.6002\". Travel при 45° = 93.6002 ÷ sin 45° = 132.3707\". CL R = 16 + 8 = 24\", K = 24 × tan 22.5° = 9.9411\", значит труба = 132.3707 − 2 × 9.9411 = 112.4884\" → 112-1/2\". 132-3/8\" — travel без вычета двух elbows.",
+  "flag": null
+ }
+]

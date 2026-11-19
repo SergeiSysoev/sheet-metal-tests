@@ -1,0 +1,280 @@
+[
+ {
+  "src": "Y2W4F",
+  "n": 9,
+  "topic": "dampers",
+  "ru_q": "Назначение fire curtain —",
+  "ru_hint": null,
+  "ru_opts": [
+   "не давать дыму распространяться.",
+   "дать пожарным пройти к очагу.",
+   "не давать огню распространяться.",
+   "перекрыть доступ кислорода к огню."
+  ],
+  "why_en": "A fire curtain (the folding-blade curtain of a fire damper, or a fire-rated curtain across an opening) closes an opening in a fire-rated barrier so the fire cannot spread to the next space. Stopping smoke is the job of smoke dampers, which are rated for leakage; a curtain does not cut off the fire's oxygen.",
+  "why_ru": "Fire curtain (складная шторка fire damper или огнестойкая штора в проёме) закрывает проём в огнестойкой преграде, чтобы огонь не перешёл в соседнее помещение. Задерживать дым — работа smoke dampers, их оценивают по утечке; кислород огню шторка не перекрывает.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4F",
+  "n": 16,
+  "topic": "drawing",
+  "ru_q": "На чертеже cutting plane line показывает, где сделан воображаемый разрез. Стрелки на ней указывают, в каком направлении ты смотришь в ____ view.",
+  "ru_hint": null,
+  "ru_opts": [
+   "SIDE",
+   "COMMON",
+   "SECTION",
+   "IMAGINARY"
+  ],
+  "why_en": "A cutting plane line marks where the object is imaginarily cut, and its arrows show the direction of sight for the section view drawn from that cut (labeled, for example, SECTION A-A).",
+  "why_ru": "Cutting plane line отмечает, где предмет условно разрезан, а её стрелки показывают направление взгляда для section view, построенного по этому разрезу (подпись, например, SECTION A-A).",
+  "flag": null
+ },
+ {
+  "src": "Y2W4F",
+  "n": 19,
+  "topic": "safety",
+  "ru_q": "Что означает этот сигнал крановщику (hoisting signal)?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Hoist",
+   "Swing Right",
+   "Raise Boom",
+   "Cable Up"
+  ],
+  "why_en": "Arm extended straight out to the side, fingers closed, thumb pointing up = RAISE BOOM (OSHA 1926 Subpart CC, Appendix A). Thumb down would be lower boom; hoist is the forearm up with the index finger making small circles.",
+  "why_ru": "Рука вытянута горизонтально в сторону, пальцы сжаты, большой палец вверх = RAISE BOOM (OSHA 1926 Subpart CC, Appendix A). Большой палец вниз — lower boom; hoist — предплечье вверх, указательный палец описывает маленькие круги.",
+  "flag": "Figure: simplified line drawing of the printed illustration; the arm and hand position is kept as printed."
+ },
+ {
+  "src": "Y2W4F",
+  "n": 20,
+  "topic": "safety",
+  "ru_q": "Что означает этот сигнал крановщику (hoisting signal)?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Raise Boom",
+   "Extend Boom",
+   "Cable Out Slowly",
+   "Move Ahead"
+  ],
+  "why_en": "Both fists in front of the body at waist level, thumbs pointing outward = EXTEND BOOM (telescoping boom, OSHA 1926 Subpart CC, Appendix A). Thumbs pointing toward each other would be retract boom.",
+  "why_ru": "Оба кулака перед собой на уровне пояса, большие пальцы наружу = EXTEND BOOM (телескопическая стрела, OSHA 1926 Subpart CC, Appendix A). Большие пальцы друг к другу — retract boom.",
+  "flag": "Figure: simplified line drawing of the printed illustration; the arm and hand position is kept as printed."
+ },
+ {
+  "src": "Y2W4F",
+  "n": 21,
+  "topic": "safety",
+  "ru_q": "Что означает этот сигнал крановщику (hoisting signal)?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Raise Boom",
+   "Swing Right",
+   "Hoist",
+   "Raise Slowly"
+  ],
+  "why_en": "Upper arm out to the side, forearm vertical, index finger pointing up and the hand making small circles = HOIST (raise the load). Raise boom is the arm straight out to the side with the thumb up.",
+  "why_ru": "Плечо в сторону, предплечье вертикально, указательный палец вверх, рука описывает маленькие круги = HOIST (поднять груз). Raise boom — рука прямо в сторону, большой палец вверх.",
+  "flag": "Figure: simplified line drawing of the printed illustration; the arm and hand position is kept as printed."
+ },
+ {
+  "src": "Y2W4F",
+  "n": 24,
+  "topic": "safety",
+  "ru_q": "При работе на scaffold guardrails должны:",
+  "ru_hint": null,
+  "ru_opts": [
+   "доходить хотя бы до колен",
+   "быть привязаны проволокой к раме scaffold",
+   "быть установлены, если работаешь выше 15'-0\"",
+   "быть установлены, если работаешь выше 6'-0\""
+  ],
+  "why_en": "For the test pick d (6'-0\"): it is the answer accepted on the graded sheet. Strictly, the federal scaffold rule (OSHA 1926.451(g)(1)) requires guardrails or fall arrest above 10 ft, and Washington's fall protection rule starts at 4 ft (WAC 296-880-20005), so 6'-0\" is not an exact code number; 15'-0\" is too high under any rule. A top rail stands 38–45\" above the platform, well above the knees.",
+  "why_ru": "Для балла — d (6'-0\"): этот ответ засчитан на проверенном листе. Строго по правилам: федеральный стандарт для scaffold (OSHA 1926.451(g)(1)) требует guardrails или страховку выше 10 ft, а правило Washington по защите от падения начинается с 4 ft (WAC 296-880-20005), так что 6'-0\" — не точная цифра кода; 15'-0\" слишком высоко по любому правилу. Верхний поручень стоит на 38–45\" над настилом — гораздо выше колен.",
+  "flag": "Code check: OSHA scaffold threshold is 10 ft (1926.451(g)(1)), Washington general fall-protection threshold 4 ft (WAC 296-880-20005); neither is 6 ft. Kept d, the answer accepted on the graded sheet."
+ },
+ {
+  "src": "Y2W4F",
+  "n": 25,
+  "topic": "safety",
+  "ru_q": "Рабочая высота передвижного scaffold не должна превышать:",
+  "ru_hint": null,
+  "ru_opts": [
+   "двух ширин узкой стороны основания",
+   "четырёх ширин узкой стороны основания",
+   "четырёх ширин широкой стороны основания",
+   "10'-0\""
+  ],
+  "why_en": "The 4-to-1 rule: a rolling scaffold may be no taller than 4 times the narrowest side of its base; a taller one must be tied, guyed or fitted with outriggers (OSHA 1926.451(c)(1)). Measuring from the wide side would allow a tower that tips over sideways.",
+  "why_ru": "Правило 4 к 1: передвижной scaffold не выше 4 ширин самой узкой стороны основания; выше — только с креплением, растяжками или outriggers (OSHA 1926.451(c)(1)). Если мерить по широкой стороне, башня может опрокинуться вбок.",
+  "flag": "Option c is printed \"the wide of the base\" (typo for width) — kept."
+ },
+ {
+  "src": "Y2W4F",
+  "n": 26,
+  "topic": "safety",
+  "ru_q": "Если ты работаешь на передвижном scaffold высотой меньше 10\" с guardrails и toe boards, можно ли, чтобы кто-то катил его, пока ты работаешь?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "No. OSHA 1926.452(w)(6) forbids riding a scaffold while it is moved unless every one of a list of conditions is met: floor within 3° of level and free of holes and obstructions, height no more than 2 times the base width, outriggers on both sides, nobody beyond the wheels. Low height with guardrails and toe boards is not enough — get off before it is moved.",
+  "why_ru": "Нет. OSHA 1926.452(w)(6) запрещает ехать на scaffold при перемещении, если не выполнены все условия: пол с уклоном не больше 3°, без ям и препятствий, высота не больше 2 ширин основания, outriggers с обеих сторон, никто не стоит за пределами колёс. Малой высоты, guardrails и toe boards недостаточно — перед перемещением надо слезть.",
+  "flag": "Printed \"less than 10\" high\" (inches); most likely 10' (feet) was meant — kept as printed."
+ },
+ {
+  "src": "Y2W4F",
+  "n": 44,
+  "topic": "safety",
+  "ru_q": "Если две складные лестницы полностью раскрыты и стоят на устойчивом основании, можно ли положить на них scaffold plank?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "No. A scaffold plank must rest on proper scaffold supports: ladders may be used only for what they were designed for (OSHA 1926.1053(b)(4)), and unstable objects may not support scaffolds or platforms (OSHA 1926.451(c)(2)(ii)). A stepladder is not built to be a support for a plank with a worker on it.",
+  "why_ru": "Нет. Scaffold plank должна лежать на настоящих опорах scaffold: лестницу можно использовать только по назначению (OSHA 1926.1053(b)(4)), а неустойчивые предметы не должны служить опорой для scaffold и платформ (OSHA 1926.451(c)(2)(ii)). Складная лестница не рассчитана быть опорой для plank с человеком.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4F",
+  "n": 45,
+  "topic": "transitions",
+  "ru_q": "Иногда true lengths для pattern square to round можно найти на elevation view.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "Yes. A line parallel to the plane of a view is seen in true length in that view. In a centered square to round the lines that lie in the planes of symmetry (the altitudes of the flat triangles) are parallel to the elevation and show their true length there; the other lines are found by triangulation.",
+  "why_ru": "Да. Линия, параллельная плоскости вида, видна на этом виде в натуральную величину. В центрированном square to round линии в плоскостях симметрии (высоты плоских треугольников) параллельны elevation и видны там в true length; остальные находят triangulation.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4F",
+  "n": 46,
+  "topic": "transitions",
+  "ru_q": "При triangulation иногда для развёртки используют линии, которые не являются true lengths.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "No. Every line laid out on a pattern must be a true length. A length taken from the plan alone is shortened, so triangulation finds the true length from the plan length and the rise: TL = √(plan² + rise²).",
+  "why_ru": "Нет. Каждая линия на pattern откладывается в true length. Длина, снятая только с plan, укорочена, поэтому triangulation находит true length по длине на plan и подъёму: TL = √(plan² + rise²).",
+  "flag": null
+ },
+ {
+  "src": "Y2W4F",
+  "n": 47,
+  "topic": "transitions",
+  "ru_q": "Иногда true lengths для развёртки можно найти на plan view.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "Yes. Lines that lie in a horizontal plane — the edges of the square end and the chords of the round end of a transition — are parallel to the plan view, so the plan shows them in true length.",
+  "why_ru": "Да. Линии в горизонтальной плоскости — кромки квадратного торца и хорды круглого торца transition — параллельны plan view, поэтому на plan они видны в true length.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4F",
+  "n": 54,
+  "topic": "math",
+  "ru_q": "По смете на систему duct нужно шесть ведёр duct sealer по 15 gal. Тот, кто герметизировал, увидел, что sealer на объекте не хватает, и заказал ещё 2 ведра по 15 gal и 3 банки по два галлона. Закончив работу, он нашёл за стройматериалами четыре неиспользованных ведра по 15 gal. Сколько галлонов sealer реально ушло на duct?",
+  "ru_hint": null,
+  "ru_opts": [
+   "126 Gallons",
+   "60 Gallons",
+   "66 Gallons",
+   "36 Gallons"
+  ],
+  "why_en": "Delivered: (6 + 2) buckets × 15 gal = 120 gal, plus 3 cans × 2 gal = 6 gal → 126 gal. Unused: 4 × 15 = 60 gal. Used = 126 − 60 = 66 gallons. 126 forgets the unused buckets; 60 is the unused amount itself.",
+  "why_ru": "Привезли: (6 + 2) ведра × 15 gal = 120 gal и 3 банки × 2 gal = 6 gal → 126 gal. Не использовано: 4 × 15 = 60 gal. Ушло 126 − 60 = 66 gallons. 126 — забыли вычесть остаток; 60 — это сам остаток.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4F",
+  "n": 64,
+  "topic": "math",
+  "ru_q": "Если сторона 11” x 5” не меняется, какой высоты должен быть ящик, чтобы вмещать 7 галлонов? Округлить до двух знаков после запятой",
+  "ru_hint": null,
+  "ru_opts": [
+   "1617.00 cu. in.",
+   "29.40\"",
+   "29-3/8\"",
+   "231 cu. in."
+  ],
+  "why_en": "7 gallons × 231 = 1617 cu. in. The base is 11 × 5 = 55 sq. in., so the height = 1617 ÷ 55 = 29.40\". 29-3/8\" is the nearest-16th value, but the question asks for two decimal places; 1617.00 cu. in. is the volume, not the height.",
+  "why_ru": "7 галлонов × 231 = 1617 cu. in. Основание 11 × 5 = 55 sq. in., высота = 1617 ÷ 55 = 29.40\". 29-3/8\" — значение до 1/16, а просят два знака после запятой; 1617.00 cu. in. — объём, а не высота.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4F",
+  "n": 70,
+  "topic": "trig",
+  "ru_q": "Комната 33'-6\" x 54'-5\", высота потолка 12'. Какая длина диагонали от угла у пола до противоположного угла у потолка?",
+  "ru_hint": null,
+  "ru_opts": [
+   "64'-5\"",
+   "65'- 1/4\"",
+   "65'-1 5/8\"",
+   "66'-7 11/16\""
+  ],
+  "why_en": "33'-6\" = 33.5', 54'-5\" = 54.4167'. Diagonal = √(33.5² + 54.4167² + 12²) = 65.0186' = 65' + 0.2237\" → 65'-0 1/4\" (printed 65'- 1/4\"). Without the 12' height you get only the floor diagonal, 63.9017'.",
+  "why_ru": "33'-6\" = 33.5', 54'-5\" = 54.4167'. Диагональ = √(33.5² + 54.4167² + 12²) = 65.0186' = 65' + 0.2237\" → 65'-0 1/4\" (напечатано 65'- 1/4\"). Без высоты 12' получится только диагональ пола — 63.9017'.",
+  "flag": "Option b is printed \"65'- 1/4\"\" (= 65'-0 1/4\")."
+ },
+ {
+  "src": "Y2W4F",
+  "n": 72,
+  "topic": "math",
+  "ru_q": "Бригада из трёх sheet metal workers монтирует систему HVAC duct весом 11,280 фунтов. За неделю нужно выполнять 25% работы. Сколько фунтов надо монтировать в неделю?",
+  "ru_hint": null,
+  "ru_opts": [
+   "2760 lbs",
+   "2280 lbs",
+   "980 lbs",
+   "2820 lbs"
+  ],
+  "why_en": "25% of 11,280 lb = 0.25 × 11,280 = 2820 lb per week. The size of the crew does not change it. 2280 swaps two digits.",
+  "why_ru": "25% от 11,280 lb = 0.25 × 11,280 = 2820 lb в неделю. Размер бригады на это не влияет. 2280 — переставлены две цифры.",
+  "flag": null
+ },
+ {
+  "src": "Y2W4F",
+  "n": 73,
+  "topic": "math",
+  "ru_q": "Какой высоты должен быть ящик 14\" x 12\", чтобы вмещать 9 галлонов?",
+  "ru_hint": null,
+  "ru_opts": [
+   "12-3/8\"",
+   "14\"",
+   "15-1/8\"",
+   "13- 5/8\""
+  ],
+  "why_en": "9 gallons × 231 = 2079 cu. in.; base 14 × 12 = 168 sq. in.; height = 2079 ÷ 168 = 12.375\" = 12-3/8\".",
+  "why_ru": "9 галлонов × 231 = 2079 cu. in.; основание 14 × 12 = 168 sq. in.; высота = 2079 ÷ 168 = 12.375\" = 12-3/8\".",
+  "flag": "Printed \"an 14\" x 12\" box\" (grammar) — kept."
+ },
+ {
+  "src": "Y2W4F",
+  "n": 74,
+  "topic": "welding",
+  "ru_q": "Какие из этих газов инертные?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Аргон",
+   "Кислород",
+   "Углекислый газ",
+   "Гелий"
+  ],
+  "why_en": "Argon and helium are inert (noble) gases: they do not react with the weld pool, which is why they are used as shielding gases. Oxygen supports burning and reacts with hot metal; carbon dioxide is an active shielding gas that breaks down in the arc.",
+  "why_ru": "Аргон и гелий — инертные (благородные) газы: они не реагируют со сварочной ванной, поэтому ими защищают шов. Кислород поддерживает горение и реагирует с горячим металлом; углекислый газ — активный защитный газ, в дуге он разлагается.",
+  "flag": null
+ }
+]

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 346.58" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="640" height="346.58" fill="#fff"/>
+<line x1="98.46" y1="187.08" x2="163.45" y2="187.08" fill="none" stroke="#111" stroke-width="2.35" stroke-linecap="butt"/>
+<line x1="98.46" y1="277.66" x2="163.45" y2="277.66" fill="none" stroke="#111" stroke-width="2.35" stroke-linecap="butt"/>
+<path d="M163.45,187.08 A90.58,90.58 0 0 0 208.74,174.94" fill="none" stroke="#111" stroke-width="2.35"/>
+<path d="M163.45,277.66 A181.17,181.17 0 0 0 254.03,253.39" fill="none" stroke="#111" stroke-width="2.35"/>
+<line x1="163.45" y1="96.49" x2="254.03" y2="253.39" fill="none" stroke="#111" stroke-width="2.35" stroke-linecap="butt"/>
+<line x1="208.74" y1="174.94" x2="375.87" y2="78.45" fill="none" stroke="#111" stroke-width="2.35" stroke-linecap="butt"/>
+<line x1="254.03" y1="253.39" x2="421.16" y2="156.9" fill="none" stroke="#111" stroke-width="2.35" stroke-linecap="butt"/>
+<path d="M421.16,156.9 A90.58,90.58 0 0 1 466.45,144.76" fill="none" stroke="#111" stroke-width="2.35"/>
+<path d="M375.87,78.45 A181.17,181.17 0 0 1 466.45,54.18" fill="none" stroke="#111" stroke-width="2.35"/>
+<line x1="466.45" y1="235.35" x2="375.87" y2="78.45" fill="none" stroke="#111" stroke-width="2.35" stroke-linecap="butt"/>
+<line x1="466.45" y1="144.76" x2="539.57" y2="144.76" fill="none" stroke="#111" stroke-width="2.35" stroke-linecap="butt"/>
+<line x1="466.45" y1="54.18" x2="539.57" y2="54.18" fill="none" stroke="#111" stroke-width="2.35" stroke-linecap="butt"/>
+<line x1="163.45" y1="25.6" x2="163.45" y2="277.66" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>
+<line x1="466.45" y1="25.6" x2="466.45" y2="144.76" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>
+<line x1="163.45" y1="25.6" x2="298.2" y2="25.6" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>
+<line x1="331.7" y1="25.6" x2="466.45" y2="25.6" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>
+<polygon points="163.45,25.6 177.31,21.87 177.31,29.33" fill="#111" stroke="none"/>
+<polygon points="466.45,25.6 452.59,29.33 452.59,21.87" fill="#111" stroke="none"/>
+<text x="314.95" y="35.19" font-size="27" text-anchor="middle" font-weight="bold" fill="#111">L</text>
+<line x1="231.38" y1="214.17" x2="297.2" y2="176.17" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>
+<line x1="332.7" y1="155.67" x2="398.51" y2="117.67" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>
+<polygon points="231.38,214.17 241.53,204 245.26,210.47" fill="#111" stroke="none"/>
+<polygon points="398.51,117.67 388.37,127.84 384.64,121.37" fill="#111" stroke="none"/>
+<text x="314.95" y="174.79" font-size="25" text-anchor="middle" font-weight="bold" fill="#111">D</text>
+<line x1="159.51" y1="96.49" x2="147.69" y2="96.49" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>
+<text x="143.75" y="102.93" font-size="18.13" text-anchor="end" fill="#111">24" Rad.</text>
+<line x1="470.39" y1="235.35" x2="482.21" y2="235.35" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>
+<text x="486.14" y="241.78" font-size="18.13" text-anchor="start" fill="#111">24" Rad.</text>
+<text x="194.95" y="244.71" font-size="18.13" text-anchor="middle" fill="#111">30°</text>
+<text x="76.8" y="240.78" font-size="18.13" text-anchor="middle" fill="#111">26 x 12</text>
+<text x="517.91" y="108.84" font-size="18.13" text-anchor="middle" fill="#111">26 x 12</text>
+<polyline points="131.94,277.66 118.15,303.26" fill="none" stroke="#111" stroke-width="1.23" stroke-linejoin="miter"/>
+<polygon points="131.94,277.66 128.65,291.64 122.08,288.1" fill="#111" stroke="none"/>
+<text x="76.8" y="315.61" font-size="18.13" text-anchor="middle" fill="#111">8'-4"</text>
+<text x="66.95" y="341.21" font-size="18.13" text-anchor="middle" fill="#111">To Floor</text>
+<polyline points="496.25,144.76 504.12,171.32" fill="none" stroke="#111" stroke-width="1.23" stroke-linejoin="miter"/>
+<polygon points="496.25,144.76 503.77,156.99 496.61,159.12" fill="#111" stroke="none"/>
+<text x="513.97" y="183.67" font-size="18.13" text-anchor="start" fill="#111">11'-2"</text>
+<text x="513.97" y="209.27" font-size="18.13" text-anchor="start" fill="#111">To Floor</text>
+</svg>

@@ -1,0 +1,598 @@
+[
+ {
+  "src": "Y2W4M",
+  "n": 2,
+  "q": "What do the letters SMART stand for?",
+  "hint": null,
+  "opts": [
+   "Sheet Metal, Air, Rail and Transportation",
+   "Sheet Metal, Airway, Rail and transportation",
+   "Sheet Metal, Air, Railroad and Transportation",
+   "Sheet Metal, Architects, and Roadway Transportation"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): student's answer not marked wrong (running score adds up); union name SMART = Sheet Metal, Air, Rail and Transportation Workers"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 6,
+  "q": "Which of the following layout methods is used to develop the patterns for a 90° round fitting with equal diameters?",
+  "hint": null,
+  "opts": [
+   "Orthographic projection",
+   "Triangulation",
+   "Radial line development",
+   "Parallel line development"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): key marked in yellow where the student lost the point (d); knowledge base 05 §1 (cylinders -> parallel line)"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 7,
+  "q": "A higher gage number means",
+  "hint": null,
+  "opts": [
+   "heavier metal.",
+   "thinner metal.",
+   "thicker metal.",
+   "more ounces per square foot."
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): student's answer not marked wrong (running score adds up); gauge table (knowledge base 06)"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 9,
+  "q": "The front of the object is viewed straight on and 2 sides are seen at an angle in this type of drawing.",
+  "hint": null,
+  "opts": [
+   "Perspective",
+   "Oblique",
+   "Orthographic",
+   "Isometric"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): student's answer not marked wrong (running score adds up); definition of oblique drawing"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 11,
+  "q": "Select the best description of the round elbow part in question.",
+  "hint": null,
+  "opts": [
+   "Length",
+   "Throat Radius",
+   "Center Line Radius",
+   "Miter Line"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": "q11",
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): key marked in yellow where the student lost the point (c); knowledge base 08 §9b"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 12,
+  "q": "Select the best description of the round elbow part in question.",
+  "hint": null,
+  "opts": [
+   "Miter Line",
+   "Middle Gore",
+   "Pipe Radius",
+   "End LIne"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": "q12",
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): key marked in yellow where the student lost the point (a); knowledge base 08 §9b"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 13,
+  "q": "Select the best description of the round elbow part in question.",
+  "hint": null,
+  "opts": [
+   "Working Length",
+   "Heel Radius",
+   "Throat Radius",
+   "Center Line"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": "q13",
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): key marked in yellow where the student lost the point (c); knowledge base 08 §9b"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 14,
+  "q": "Select the best description of the round elbow part in question.",
+  "hint": null,
+  "opts": [
+   "Middle Gore",
+   "Miter Line",
+   "Cheek",
+   "Fish Gore"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": "q14",
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): key marked in yellow where the student lost the point (a); knowledge base 08 §9b"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 15,
+  "q": "Select the best description of the round elbow part in question.",
+  "hint": null,
+  "opts": [
+   "Middle Gore",
+   "Throat Radius",
+   "Miter Line",
+   "Seam Line"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": "q15",
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): key marked in yellow where the student lost the point (d); knowledge base 08 §9b"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 16,
+  "q": "Select the best description of the round elbow part in question.",
+  "hint": null,
+  "opts": [
+   "Heel",
+   "End Gore",
+   "Centerline",
+   "Seam Line"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": "q16",
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): student's answer not marked wrong (running score adds up); knowledge base 08 §9b"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 17,
+  "q": "What is meant when talking about an oblique line?",
+  "hint": null,
+  "opts": [
+   "An object line",
+   "A slanted line",
+   "An obtuse line",
+   "A perpendicular line"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): student's answer not marked wrong (running score adds up)"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 19,
+  "q": "Objects appear to recede into the distance in this type of view.",
+  "hint": null,
+  "opts": [
+   "Perspective",
+   "Isometric",
+   "Parametric",
+   "Oblique"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): student's answer not marked wrong (running score adds up)"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 21,
+  "q": "What is another term often used when describing DCEN welding polarity?",
+  "hint": null,
+  "opts": [
+   "ACHF",
+   "Reverse Polarity",
+   "Straight Polarity",
+   "None of the answers listed are correct."
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): student's answer not marked wrong (running score adds up); same fact as T90 No.22 (DCEN = straight polarity)"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 22,
+  "q": "The wire speed of a GMAW welding machine determines the:",
+  "hint": null,
+  "opts": [
+   "Voltage",
+   "Amperage",
+   "Slope",
+   "Electrode Size"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): student's answer not marked wrong (running score adds up); same fact as T90 No.21 (wire feed speed controls amperage)"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 24,
+  "q": "When exposed to oxygen, every metal forms",
+  "hint": null,
+  "opts": [
+   "a patina.",
+   "electrolysis.",
+   "low carbon content.",
+   "an oxide."
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): student's answer not marked wrong (running score adds up); same fact as SMY2W2 Monday No.10"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 25,
+  "q": "Fusible links are usually mounted in",
+  "hint": null,
+  "opts": [
+   "the space envelope.",
+   "the motor.",
+   "the duct air stream.",
+   "a blade locking device"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): student's answer not marked wrong (running score adds up); UL 555 fire damper (heat-responsive device in the air stream)"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 26,
+  "q": "The term \"dynamic\" indicates that the damper is:",
+  "hint": null,
+  "opts": [
+   "Designed to operate under specific air flow conditions",
+   "Fire rated for 1 1/2 hours",
+   "Not required to shut down in the event of a fire",
+   "Designed to be impact resistant for hurricane prone regions"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): student's answer not marked wrong (running score adds up); FSD course (dynamic = closes against airflow), knowledge base 08 §10a"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 31,
+  "q": "Which of the following is NOT shown on the shop ticket for a fitting?",
+  "hint": null,
+  "opts": [
+   "Dimensions",
+   "Material",
+   "Job Number",
+   "Cost"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): student's answer not marked wrong (running score adds up)"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 32,
+  "q": "Which type of layout method(s) would be best suited for the pattern development of such fittings as round tees and elbows?",
+  "hint": null,
+  "opts": [
+   "Radial line",
+   "Parallel line",
+   "Triangulation",
+   "Both triangulation or radial line will work."
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): key marked in yellow where the student lost the point (b); knowledge base 05 §1"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 33,
+  "q": "Guidelines are used to:",
+  "hint": null,
+  "opts": [
+   "point to where dimensions indicate size.",
+   "extend from the ends of objects.",
+   "control the height of letters.",
+   "number the order of strokes for drawing letters."
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): student's answer not marked wrong (running score adds up)"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 34,
+  "q": "In drafting, a \"leader\" line ____.",
+  "hint": null,
+  "opts": [
+   "shows the center of an object",
+   "connects a note to a part of the drawing",
+   "shows a hidden edge of a part being drawn",
+   "is used with a dimension line"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): student's answer not marked wrong (running score adds up)"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 35,
+  "q": "The Pythagorean theorem can be used in the sheet-metal trade to:",
+  "hint": null,
+  "opts": [
+   "check if a corner is square.",
+   "calculate the area of a circle.",
+   "calculate the area of a triangle.",
+   "find the measurement of a third side of a right triangle.",
+   "check if a corner is square and to find the measurement of a third side of a right triangle.",
+   "check if a corner is square and to calculate the area of a triangle."
+  ],
+  "answer": [
+   4
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): student's answer not marked wrong (running score adds up)"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 36,
+  "q": "A square duct's cross sectional area is 576 square inches. What are the dimensions of the sides?",
+  "hint": null,
+  "opts": [
+   "24\"",
+   "22\"",
+   "18\"",
+   "19.5\""
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): student's answer not marked wrong (running score adds up); calculation"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 37,
+  "q": "Unable to get any calculation from the engineer, the TAB technician decides to divide the air flow from a 6000 CFM air handler based on floor area. Floor area “A” is 1500 square feet while area “B” is 3000 square feet. How much air will he distribute to area “B”?",
+  "hint": null,
+  "opts": [
+   "4000 CFM",
+   "2000 CFM",
+   "3000 CFM",
+   "1500 CFM"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): student's answer not marked wrong (running score adds up); calculation"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 39,
+  "q": "Calculate and select the shear list for a 10\" round 7-piece 90 degree elbow with an 18\" center-line radius. Include allowances (1/2\" for seams and 1/4\" for gore laps) and 2\" of straight at each end.",
+  "hint": null,
+  "opts": [
+   "33.936\" x 31.915\"",
+   "33-11/16\" x 32\"",
+   "33-15/16\" x 31-15/16\"",
+   "33.94\" x 31.925\""
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): key marked in yellow where the student lost the point (c); calculation, method knowledge base 03 §11"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 48,
+  "q": "Calculate and select the shear list for a 16\" round 4-piece 80 degree elbow with an 18\" throat radius. Include allowances (1/2\" for seams and 1/4\" for gore laps) and 2\" of straight at each end.",
+  "hint": null,
+  "opts": [
+   "45.62\" x 50.75\"",
+   "41-3/4\" x 57-1/16\"",
+   "50-3/4\" x 41-3/4",
+   "51.72\" x 42.35\""
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): key marked in yellow where the student lost the point (c); calculation, method knowledge base 03 §11"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 50,
+  "q": "Calculate the degrees needed for elbows A & B to complete the duct system. Elbow throat radius is the same as the pipe diameter.",
+  "hint": null,
+  "opts": [
+   "A = 48.3 degrees , B = 41.7 degrees",
+   "A = 41.6 degrees , B = 48.4 degrees",
+   "A = 45 degrees , B = 45 degrees",
+   "A = 46.7 degrees , B = 43.3 degrees"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": "q50",
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): key marked in yellow where the student lost the point (b); calculation, method formula sheet p16 (knowledge base 03 §9)"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 55,
+  "q": "A round window needs to be covered with a piece of sheet metal, using the measurements shown, find the radius of the window?",
+  "hint": null,
+  "opts": [
+   "19.5\"",
+   "8.5\"",
+   "9.75\"",
+   "13.25\""
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": "q55",
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): student's answer not marked wrong (running score adds up); calculation (formula sheet: diameter of a curve from chord and rise)"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 56,
+  "q": "Calculate the pipe length needed to complete the duct system. Elbow throat radius is the same as pipe.",
+  "hint": null,
+  "opts": [
+   "11'-1\"",
+   "10'-3 1/2\"",
+   "11'-7 3/4\"",
+   "10'-9 1/4\""
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": "q56",
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): student's answer not marked wrong (running score adds up); calculation, method formula sheet p16"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 57,
+  "q": "The dimensions on the cut list must include ____.",
+  "hint": null,
+  "opts": [
+   "the date the metal has been cut.",
+   "only whole and decimal numbers.",
+   "allowances for seams and connections.",
+   "all answers."
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): key marked in yellow where the student lost the point (c)"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 59,
+  "q": "Calculate \"L\" and \"D\" Dimensions for the duct offset.",
+  "hint": null,
+  "opts": [
+   "D = 39-5/8\" L = 67-3/8\"",
+   "D = 48-3/16\" L = 78-11/16\"",
+   "D = 46-3/8\" L = 79\"",
+   "D = 42-7/8\" L = 77-9/16\""
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": "q59",
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): student's answer not marked wrong (running score adds up); calculation, method knowledge base 03 §3; same numbers as SMY2W3 Friday No.30 (instructor's correction)"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 60,
+  "q": "Solve for the dimension in question.",
+  "hint": null,
+  "opts": [
+   "6-1/8\"",
+   "6-7/8\"",
+   "6-5/8\"",
+   "6-3/16\""
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": "q60",
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): key marked in yellow where the student lost the point (c); calculation"
+ },
+ {
+  "src": "Y2W4M",
+  "n": 61,
+  "q": "When installing a 16\" round riser an offset is required that needs to rise 56\" and move to the side 75\". You will be using 45 degree elbows that have a 16\" throat radius. What is the length of pipe required?",
+  "hint": null,
+  "opts": [
+   "110.75\"",
+   "112-1/2\"",
+   "132-3/8\"",
+   "98-1/16\""
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet SMY2W4 Monday 3/9/26 (another student, 45/63): student's answer not marked wrong (running score adds up); calculation, method knowledge base 03 §6"
+ }
+]
