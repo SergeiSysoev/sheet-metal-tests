@@ -1,0 +1,1368 @@
+[
+ {
+  "src": "FSD",
+  "n": 101,
+  "topic": "safety",
+  "ru_q": "Согласованное с ситуацией объединение элементов здания с противопожарными и противодымными компонентами и системами, чтобы достичь целей пожарной безопасности и нормальной работы здания, — это суть ___.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Fire protection engineering",
+   "Building safety codes",
+   "HVAC system design",
+   "Smoke alarm engineering"
+  ],
+  "why_en": "That sentence is the definition of fire protection engineering used in the course (P613-2, Unit 1): it ties building features, fire and smoke components and systems together. Codes only set the minimum rules, and HVAC design and smoke alarms are single parts of that whole.",
+  "why_ru": "Это определение fire protection engineering из курса (P613-2, Unit 1): оно связывает элементы здания, противопожарные и противодымные компоненты и системы в одно целое. Codes задают только минимальные правила, а HVAC design и smoke alarms — лишь отдельные части этого целого.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 102,
+  "topic": "trade",
+  "ru_q": "HVAC-подрядчик отвечает за правильный монтаж компонентов fire life safety, а за правильное изготовление самих компонентов отвечает ___.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Инспектор стройнадзора",
+   "Производитель",
+   "Проектировщик",
+   "Генеральный подрядчик"
+  ],
+  "why_en": "The manufacturer builds the damper and has it tested and listed (UL 555, 555S), so the correct construction of the component is on the manufacturer. The HVAC contractor is responsible only for installing it per the manufacturer’s instructions.",
+  "why_ru": "Damper делает производитель, он же испытывает его и получает листинг (UL 555, 555S), поэтому за правильное изготовление компонента отвечает производитель. HVAC-подрядчик отвечает только за монтаж по инструкции производителя.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 103,
+  "topic": "safety",
+  "ru_q": "Какой документ обычно служит базовым для инженеров и проектировщиков систем?",
+  "ru_hint": null,
+  "ru_opts": [
+   "NFPA 90A",
+   "NFPA 82A",
+   "UL 555",
+   "UL 555C"
+  ],
+  "why_en": "NFPA 90A (installation of air-conditioning and ventilating systems) is the base document designers use: it says where fire and smoke dampers are required. UL 555 and UL 555C are test standards for the dampers themselves, not design documents.",
+  "why_ru": "NFPA 90A (монтаж систем кондиционирования и вентиляции) — базовый документ проектировщика: он говорит, где нужны fire и smoke dampers. UL 555 и UL 555C — стандарты испытаний самих dampers, а не документы для проектирования.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 104,
+  "topic": "trade",
+  "ru_q": "При проектировании системы HVAC и выборе типов и спецификаций dampers единственный, кто может решить использовать альтернативные или заменяющие материалы, — это ___.",
+  "ru_hint": null,
+  "ru_opts": [
+   "HVAC-подрядчик",
+   "Архитектор",
+   "Инженер",
+   "Mechanical-подрядчик"
+  ],
+  "why_en": "The engineer of record designs the HVAC system and specifies the dampers, so only the engineer can approve alternate or substitute materials. Contractors may propose a substitute, but they cannot decide on it.",
+  "why_ru": "Систему HVAC проектирует и dampers специфицирует инженер проекта (engineer of record), поэтому только он может разрешить альтернативные или заменяющие материалы. Подрядчик может предложить замену, но решать не вправе.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 105,
+  "topic": "trade",
+  "ru_q": "Основное назначение систем HVAC — поддерживать нужные условия среды, регулируя что?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Уровень шума и качество воды",
+   "Температуру и влажность",
+   "Уровень шума и вибрацию",
+   "Качество воды и влажность"
+  ],
+  "why_en": "HVAC = heating, ventilating and air conditioning: its main job is to control air temperature and humidity (plus air movement and air quality). Sound, vibration and water quality are side concerns, not the purpose.",
+  "why_ru": "HVAC — heating, ventilating and air conditioning: главная задача — регулировать температуру и влажность воздуха (а также движение и чистоту воздуха). Шум, вибрация и качество воды — побочные вопросы, а не назначение системы.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 106,
+  "topic": "safety",
+  "ru_q": "Правильная работа life safety dampers критически важна для ___ здания?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Противопожарного проекта",
+   "Дизайна интерьера",
+   "Базового проекта",
+   "Архитектурного проекта"
+  ],
+  "why_en": "Fire, smoke and combination dampers keep fire and smoke from spreading through the ducts across rated walls and floors, so the building’s fire protection design only works if they operate. Interior or architectural design does not depend on them.",
+  "why_ru": "Fire, smoke и combination dampers не дают огню и дыму пройти по duct через огнестойкие стены и перекрытия, поэтому противопожарный проект здания работает, только если они срабатывают. Дизайн интерьера и архитектура от них не зависят.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 107,
+  "topic": "trade",
+  "ru_q": "Каким требованиям должна отвечать строительная документация (construction documents)?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Указывать трудозатраты",
+   "Показывать, что работа соответствует нормам",
+   "Указывать ответственных",
+   "Показывать перерасход средств"
+  ],
+  "why_en": "Construction documents are submitted for the permit, and the building official checks that they show the work will conform to the code. Labor hours, cost overruns and who is responsible are contract matters, not code criteria for the documents.",
+  "why_ru": "Construction documents подают для получения разрешения, и инспектор проверяет, что они показывают соответствие работы нормам (code). Трудозатраты, перерасход и распределение ответственности — вопросы контракта, а не требования норм к документации.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 108,
+  "topic": "trade",
+  "ru_q": "Кто отвечает за рассмотрение и утверждение новых submittals, чтобы внести изменения в спецификации?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Проектировщик",
+   "Генподрядчик",
+   "Mechanical-подрядчик",
+   "Координатор HVAC"
+  ],
+  "why_en": "The specifications belong to the design professional (engineer or architect of record), so only the design professional reviews and approves new submittals that change them. Contractors prepare and send submittals; they do not approve them.",
+  "why_ru": "Спецификации — документ проектировщика (инженера или архитектора проекта), поэтому новые submittals, меняющие их, рассматривает и утверждает только он. Подрядчики готовят и отправляют submittals, но не утверждают их.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 109,
+  "topic": "trade",
+  "ru_q": "Authority having jurisdiction (AHJ) — это лицо или орган, который следит за исполнением ___.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Разрешений",
+   "Строительных норм",
+   "Зонирования",
+   "Назначения здания"
+  ],
+  "why_en": "The AHJ (building official, fire marshal) is the person or office that enforces the codes: it approves plans, inspects the work and decides how the code applies. Permits are only one tool of that enforcement.",
+  "why_ru": "AHJ (инспектор стройнадзора, fire marshal) — лицо или орган, который следит за исполнением норм (codes): согласует проект, проверяет работу и решает, как применять нормы. Выдача разрешений — лишь один из инструментов этого контроля.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 110,
+  "topic": "trade",
+  "ru_q": "В каком из документов construction documents обычно подробно описаны технические требования к материалам, изделиям и работам?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Elevations",
+   "Key sheet",
+   "Floor plans",
+   "Specifications"
+  ],
+  "why_en": "Specifications are the written part of the construction documents: they describe the required materials, products (for example the damper model and rating) and how the work is done. Drawings — floor plans, elevations, the key sheet — show where things go, not the technical requirements.",
+  "why_ru": "Specifications — текстовая часть construction documents: там описаны требуемые материалы, изделия (например, модель и рейтинг damper) и порядок работ. Чертежи — floor plans, elevations, key sheet — показывают, где что стоит, а не технические требования.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 201,
+  "topic": "safety",
+  "ru_q": "Fire Codes содержат рекомендуемые практики и технические данные для определения требований к огнестойкости, и их соблюдение часто контролируют подразделения пожарной службы.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Верно",
+   "Неверно"
+  ],
+  "why_en": "True: fire codes (for example the International Fire Code) set fire-resistive and fire-safety requirements, and they are usually enforced by the fire marshal or another fire-service office.",
+  "why_ru": "Верно: fire codes (например, International Fire Code) задают требования к огнестойкости и пожарной безопасности, а их исполнение обычно контролирует fire marshal или другое подразделение пожарной службы.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 202,
+  "topic": "safety",
+  "ru_q": "Этот code рассматривает последствия пожара, включая дым, тепло и токсичные газы.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Fire Codes",
+   "Mechanical Codes",
+   "Life Safety Code",
+   "Model Codes"
+  ],
+  "why_en": "The Life Safety Code (NFPA 101) is written to protect people from the effects of fire — smoke, heat and toxic gases — through egress, compartments and protection systems. Mechanical codes cover HVAC systems, and model codes is a general name for national codes adopted locally.",
+  "why_ru": "Life Safety Code (NFPA 101) защищает людей от последствий пожара — дыма, тепла и токсичных газов — через пути эвакуации, отсеки и системы защиты. Mechanical codes — это нормы для систем HVAC, а model codes — общее название национальных норм, принимаемых на местах.",
+  "flag": "Typo in the original: \"gasses\" (should be \"gases\")."
+ },
+ {
+  "src": "FSD",
+  "n": 203,
+  "topic": "safety",
+  "ru_q": "Когда здание проходит капитальную реконструкцию, каким нормам должны соответствовать затронутые системы здания?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Первоначальным нормам",
+   "Действующим нормам"
+  ],
+  "why_en": "Systems affected by an extensive remodel must meet the current codes; the original codes protect only the parts that stay unchanged. So new or altered ductwork and dampers follow today’s code.",
+  "why_ru": "Затронутые капитальной реконструкцией системы должны соответствовать действующим нормам; первоначальные нормы сохраняются только для частей, которые не меняют. Поэтому новые или переделанные duct и dampers делают по сегодняшним нормам.",
+  "flag": "TotalTrack unit-2 printout shows only two options; the Friday written version with four options is FSD-942."
+ },
+ {
+  "src": "FSD",
+  "n": 204,
+  "topic": "safety",
+  "ru_q": "UL 555C — обязательный стандарт для fire dampers.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Верно",
+   "Неверно"
+  ],
+  "why_en": "False: fire dampers are tested to UL 555. UL 555C is the standard for ceiling (radiation) dampers, and UL 555S is for smoke dampers.",
+  "why_ru": "Неверно: fire dampers испытывают по UL 555. UL 555C — стандарт для ceiling (radiation) dampers, а UL 555S — для smoke dampers.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 205,
+  "topic": "safety",
+  "ru_q": "Барьеры с огнестойкостью меньше 3 часов требуют dampers с каким рейтингом в часах?",
+  "ru_hint": null,
+  "ru_opts": [
+   "½-hour",
+   "1½-hour",
+   "2½-hour",
+   "3½-hour"
+  ],
+  "why_en": "The rule: a barrier rated less than 3 hours needs a 1½-hour fire damper; a barrier rated 3 hours or more needs a 3-hour damper. So 1-hour and 2-hour walls both get 1½-hour dampers.",
+  "why_ru": "Правило: барьер с огнестойкостью меньше 3 часов — fire damper на 1½ часа; барьер на 3 часа и больше — damper на 3 часа. Поэтому и для стены на 1 час, и для стены на 2 часа ставят damper на 1½ часа.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 206,
+  "topic": "safety",
+  "ru_q": "Legacy codes — три бывших региональных model codes — объединили в какой code?",
+  "ru_hint": null,
+  "ru_opts": [
+   "International Building Code (IBC)",
+   "National Building Code (BOCA)",
+   "Uniform Building Code (IBCO)",
+   "Standard Building Code (SBCCI)"
+  ],
+  "why_en": "The three regional legacy codes — BOCA National Building Code, ICBO Uniform Building Code and SBCCI Standard Building Code — were merged by the International Code Council into the International Building Code (IBC), first issued in 2000. The other three options are the legacy codes themselves.",
+  "why_ru": "Три региональных legacy codes — National Building Code (BOCA), Uniform Building Code (ICBO) и Standard Building Code (SBCCI) — International Code Council объединил в International Building Code (IBC), первое издание 2000 года. Остальные три варианта — сами эти legacy codes.",
+  "flag": "Typo in the original option c: \"IBCO\" — the organization is ICBO (International Conference of Building Officials)."
+ },
+ {
+  "src": "FSD",
+  "n": 207,
+  "topic": "safety",
+  "ru_q": "Model Codes — обычно национальные нормы, которые штаты или местные власти применяют целиком или с местными поправками.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Верно",
+   "Неверно"
+  ],
+  "why_en": "True: a model code (IBC, IMC, IFC) is written nationally and becomes law only when a state or city adopts it, either as is or with local amendments — Washington adopts the I-codes with state amendments.",
+  "why_ru": "Верно: model code (IBC, IMC, IFC) пишут на национальном уровне, а законом он становится, только когда его принимает штат или город — целиком или с местными поправками. Например, штат Washington принимает I-codes со своими поправками.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 208,
+  "topic": "safety",
+  "ru_q": "Когда Life Safety Code противоречит строительным нормам (building code), кто решает, каким нормам следовать?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Инженер",
+   "HVAC-подрядчик",
+   "AHJ",
+   "Генподрядчик"
+  ],
+  "why_en": "The authority having jurisdiction enforces the codes, so when two codes conflict the AHJ decides which requirement applies. The engineer and the contractors must follow that decision.",
+  "why_ru": "AHJ следит за исполнением норм, поэтому при противоречии двух codes именно AHJ решает, какое требование применять. Инженер и подрядчики выполняют это решение.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 209,
+  "topic": "safety",
+  "ru_q": "UL 555S — обязательный стандарт для smoke dampers.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Верно",
+   "Неверно"
+  ],
+  "why_en": "True: smoke dampers are tested and rated to UL 555S (leakage class, elevated temperature, airflow and pressure). Fire dampers use UL 555, combination dampers both.",
+  "why_ru": "Верно: smoke dampers испытывают и рейтингуют по UL 555S (класс leakage, повышенная температура, скорость и давление воздуха). Fire dampers — по UL 555, combination dampers — по обоим.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 210,
+  "topic": "safety",
+  "ru_q": "Какой damper подпадает под стандарт UL 555C?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Fire damper",
+   "Smoke damper",
+   "Combination fire/smoke damper",
+   "Ceiling radiation dampers"
+  ],
+  "why_en": "UL 555C covers ceiling dampers (ceiling radiation dampers) used in fire-rated floor-ceiling and roof-ceiling assemblies. Fire dampers are UL 555, smoke dampers UL 555S, combination dampers UL 555 + 555S.",
+  "why_ru": "UL 555C — стандарт для ceiling dampers (ceiling radiation dampers) в огнестойких перекрытиях и покрытиях с потолком. Fire dampers — UL 555, smoke dampers — UL 555S, combination dampers — UL 555 + 555S.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 211,
+  "topic": "safety",
+  "ru_q": "Барьеры с огнестойкостью 3 часа и больше требуют dampers с каким рейтингом в часах?",
+  "ru_hint": null,
+  "ru_opts": [
+   "1-hour",
+   "2-hour",
+   "3-hour",
+   "4-hour"
+  ],
+  "why_en": "A barrier rated 3 hours or more needs a 3-hour fire damper; below 3 hours a 1½-hour damper is enough. A 4-hour wall still gets a 3-hour damper.",
+  "why_ru": "Барьеру с огнестойкостью 3 часа и больше нужен fire damper на 3 часа; при огнестойкости меньше 3 часов хватает damper на 1½ часа. Даже стене на 4 часа ставят damper на 3 часа.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 212,
+  "topic": "safety",
+  "ru_q": "Какую марку UL получают actuators, fusible links, fans и motors?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Product Classification",
+   "Product Listing",
+   "Product Labeling",
+   "Component Recognition"
+  ],
+  "why_en": "In the course (P613-2, Unit 2) actuators, fusible links, fans and motors are complete products evaluated for their own use, so they carry the UL Listing mark. Classification is for products judged for one property, such as fire dampers; Recognition is for parts used inside another product, such as thermostats.",
+  "why_ru": "По курсу (P613-2, Unit 2) actuators, fusible links, fans и motors — законченные изделия, которые проверяют для их собственного применения, поэтому у них марка UL Listing. Classification — для изделий, оцененных по одному свойству, как fire dampers; Recognition — для деталей внутри другого изделия, как thermostats.",
+  "flag": "Course key Product Listing; in practice many motors carry the UL Recognized Component mark rather than a Listing. Key kept."
+ },
+ {
+  "src": "FSD",
+  "n": 213,
+  "topic": "safety",
+  "ru_q": "Building codes — это набор предписанных ___.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Размеров",
+   "Сокращений",
+   "Рекомендаций",
+   "Обязательных правил"
+  ],
+  "why_en": "A building code adopted by a jurisdiction is law: a set of prescribed regulations (minimum requirements) that must be met. Recommendations are not binding, which is the difference between a code and a guideline.",
+  "why_ru": "Принятый на месте building code — это закон: набор предписанных обязательных правил (минимальных требований), которые нужно выполнить. Рекомендации не обязательны — в этом и разница между code и руководством.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 214,
+  "topic": "safety",
+  "ru_q": "Mechanical Codes содержат формулировки и требования для системы HVAC.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Верно",
+   "Неверно"
+  ],
+  "why_en": "True: the mechanical code (for example the International Mechanical Code) covers HVAC systems — ductwork, equipment, ventilation and where fire and smoke dampers go in the ducts.",
+  "why_ru": "Верно: mechanical code (например, International Mechanical Code) охватывает системы HVAC — duct, оборудование, вентиляцию и места, где в duct нужны fire и smoke dampers.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 215,
+  "topic": "safety",
+  "ru_q": "Underwriters Laboratories, Inc — самая широко признанная сертификация безопасности в Северной Америке.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Верно",
+   "Неверно"
+  ],
+  "why_en": "True: UL listing is the safety certification most widely accepted by inspectors in North America, and damper standards UL 555, 555S and 555C are UL’s own.",
+  "why_ru": "Верно: сертификацию UL инспекторы в Северной Америке признают шире всех, а стандарты для dampers UL 555, 555S и 555C — это стандарты самой UL.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 216,
+  "topic": "safety",
+  "ru_q": "Combination fire/smoke dampers подпадают под стандарты UL 555 и 555S.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Верно",
+   "Неверно"
+  ],
+  "why_en": "True: a combination fire/smoke damper must pass both the fire damper standard UL 555 and the smoke damper standard UL 555S, because it does both jobs.",
+  "why_ru": "Верно: combination fire/smoke damper должен пройти и стандарт fire damper UL 555, и стандарт smoke damper UL 555S, потому что выполняет обе функции.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 217,
+  "topic": "safety",
+  "ru_q": "Какой рейтинг в часах нужен fire damper для защиты стены с огнестойкостью 2 часа?",
+  "ru_hint": null,
+  "ru_opts": [
+   "½-hour",
+   "1½-hour",
+   "2½-hour",
+   "3½-hour"
+  ],
+  "why_en": "A 2-hour wall is rated less than 3 hours, so it needs a 1½-hour fire damper. Only barriers rated 3 hours or more need 3-hour dampers; the damper rating does not have to equal the wall rating.",
+  "why_ru": "Стена на 2 часа — меньше 3 часов, поэтому нужен fire damper на 1½ часа. Damper на 3 часа нужен только барьерам на 3 часа и больше; рейтинг damper не обязан совпадать с рейтингом стены.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 218,
+  "topic": "safety",
+  "ru_q": "Что из перечисленного имеет UL product classification?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Damper",
+   "Fan",
+   "Motor",
+   "Fusible link"
+  ],
+  "why_en": "Fire dampers are UL Classified: they are evaluated for one specific property — fire endurance when installed in a rated assembly. Fans, motors and fusible links are listed products (course P613-2, Unit 2).",
+  "why_ru": "Fire dampers имеют марку UL Classified: их оценивают по одному свойству — огнестойкости в составе огнестойкой конструкции. Fans, motors и fusible links — listed-изделия (курс P613-2, Unit 2).",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 219,
+  "topic": "safety",
+  "ru_q": "Какое оборудование UL оценивает по программе component recognition?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Motors",
+   "Barriers",
+   "Thermostats",
+   "Floors"
+  ],
+  "why_en": "Component recognition is for parts that go inside a larger product and are checked as part of it; the course (P613-2, Unit 2) gives thermostats as the example. Barriers and floors are building assemblies, not components, and the course groups motors with listed products.",
+  "why_ru": "Component recognition — для деталей, которые ставят внутрь более крупного изделия и проверяют в его составе; курс (P613-2, Unit 2) приводит пример — thermostats. Barriers и floors — конструкции здания, а не компоненты, а motors курс относит к listed-изделиям.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 301,
+  "topic": "safety",
+  "ru_q": "У зданий Type III, A и B наружные стены негорючие, а остальные элементы — горючие или негорючие.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Верно",
+   "Неверно"
+  ],
+  "why_en": "True: in Type III construction the exterior walls are noncombustible, while interior building elements may be of any material the code allows, combustible or not. A and B differ only in the required fire-resistance ratings.",
+  "why_ru": "Верно: в Type III наружные стены негорючие, а внутренние элементы могут быть из любых разрешённых материалов, горючих или нет. A и B отличаются только требуемой огнестойкостью.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 302,
+  "topic": "safety",
+  "ru_q": "Конструктивная огнезащита (structural fire protection) предотвращает отказ здания, например ___.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Остановку damper",
+   "Эвакуацию",
+   "Обрушение",
+   "Горение"
+  ],
+  "why_en": "Structural fire protection (fire-resistive coatings, rated enclosures of beams and columns) keeps the structure standing long enough during a fire, i.e. it prevents collapse. Egress is what it protects time for, not a failure.",
+  "why_ru": "Конструктивная огнезащита (огнезащитные покрытия, огнестойкая обшивка балок и колонн) сохраняет несущую способность здания при пожаре, то есть предотвращает обрушение. Эвакуация — то, для чего она даёт время, а не отказ здания.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 303,
+  "topic": "safety",
+  "ru_q": "Какой материал каркаса (студов) можно использовать при строительстве firewall?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Плетень",
+   "Гипс",
+   "Сталь",
+   "Медь"
+  ],
+  "why_en": "Fire-rated walls are framed with noncombustible steel studs (or masonry); gypsum is the board fastened to the studs, not the framing. Wattle (woven sticks) burns, and copper is not a framing material.",
+  "why_ru": "Огнестойкие стены делают на негорючем каркасе из стальных студов (или из кладки); гипс — это обшивочные листы на студах, а не каркас. Плетень горит, а медь каркасным материалом не бывает.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 304,
+  "topic": "safety",
+  "ru_q": "У какого типа (типов) зданий все строительные элементы горючие?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Types I & II, A & B",
+   "Type III, A & B",
+   "Type IV",
+   "Type V, A & B"
+  ],
+  "why_en": "Type V (A and B) is the construction type where all building elements may be combustible — typical wood-frame buildings. Types I and II are noncombustible, Type III has noncombustible exterior walls, Type IV has noncombustible exterior and heavy timber inside.",
+  "why_ru": "Type V (A и B) — тип, в котором все элементы здания могут быть горючими: обычные деревянные каркасные дома. Types I и II — негорючие, у Type III негорючие наружные стены, у Type IV негорючая наружная часть и heavy timber внутри.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 305,
+  "topic": "safety",
+  "ru_q": "На сколько часов обычно рассчитаны горизонтальные конструкции (horizontal assemblies)?",
+  "ru_hint": null,
+  "ru_opts": [
+   "10 - 12",
+   "7 - 9",
+   "4 - 6",
+   "1 - 3"
+  ],
+  "why_en": "Rated floor and roof assemblies (horizontal assemblies) are generally rated 1 to 3 hours (course P613-2, Unit 3). Ratings of 4 hours and more are rare and are used for fire walls, not floors.",
+  "why_ru": "Огнестойкие перекрытия и покрытия (horizontal assemblies) обычно имеют рейтинг от 1 до 3 часов (курс P613-2, Unit 3). Рейтинги 4 часа и больше редки и бывают у fire walls, а не у перекрытий.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 306,
+  "topic": "safety",
+  "ru_q": "На сколько классов (без подклассов) делят здания по плану реагирования на пожар?",
+  "ru_hint": null,
+  "ru_opts": [
+   "6",
+   "5",
+   "4",
+   "3"
+  ],
+  "why_en": "The course (P613-2, Unit 3) divides buildings into 5 classifications — the construction types I to V; A and B are subsections, which the question excludes.",
+  "why_ru": "Курс (P613-2, Unit 3) делит здания на 5 классов — типы конструкции с I по V; A и B — это подклассы, которые вопрос не считает.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 307,
+  "topic": "safety",
+  "ru_q": "У зданий Types I и II, A и B строительные элементы негорючие.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Верно",
+   "Неверно"
+  ],
+  "why_en": "True: Types I and II are the noncombustible construction types — all building elements are noncombustible; Type I has the higher fire-resistance ratings.",
+  "why_ru": "Верно: Types I и II — негорючие типы конструкции, все элементы здания негорючие; у Type I огнестойкость выше.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 308,
+  "topic": "safety",
+  "ru_q": "У зданий Type IV наружные элементы негорючие, а внутренние — из heavy timber (HT).",
+  "ru_hint": null,
+  "ru_opts": [
+   "Верно",
+   "Неверно"
+  ],
+  "why_en": "True: Type IV is heavy timber construction — noncombustible exterior walls and large solid or laminated wood members inside, which char slowly instead of failing quickly.",
+  "why_ru": "Верно: Type IV — heavy timber: наружные стены негорючие, а внутри крупные элементы из массивной или клеёной древесины, которые медленно обугливаются, а не быстро разрушаются.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 309,
+  "topic": "safety",
+  "ru_q": "Барьеры сдерживают/ограничивают распространение огня, дыма и ___.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Пепла",
+   "Воды",
+   "Тепла",
+   "Токсичных газов"
+  ],
+  "why_en": "Per the course (P613-2, Unit 3) barriers contain fire, smoke and toxic gases — the three things that kill people in a fire. Heat is the tempting choice, but the course list is fire, smoke and toxic gases.",
+  "why_ru": "По курсу (P613-2, Unit 3) барьеры сдерживают огонь, дым и токсичные газы — то, от чего гибнут люди при пожаре. Тепло — заманчивый вариант, но в списке курса: огонь, дым и токсичные газы.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 310,
+  "topic": "safety",
+  "ru_q": "Какая огнестойкая конструкция разделяет квартиры, гостиничные номера и помещения арендаторов в крытых торговых центрах, а также служит стенами коридоров?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Smoke barriers",
+   "Fire barriers",
+   "Fire partitions",
+   "Fire walls"
+  ],
+  "why_en": "Fire partitions are the lighter rated walls (usually 1 hour, sometimes ½ hour) that separate dwelling units, guest rooms, mall tenant spaces and corridors. Fire walls split a building into separate buildings, fire barriers enclose shafts and exits, smoke barriers stop smoke.",
+  "why_ru": "Fire partitions — более лёгкие огнестойкие стены (обычно на 1 час, иногда на ½ часа), которые разделяют квартиры, гостиничные номера, помещения арендаторов в торговых центрах и коридоры. Fire walls делят здание на отдельные здания, fire barriers ограждают шахты и выходы, smoke barriers останавливают дым.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 401,
+  "topic": "safety",
+  "ru_q": "Какой тип dampers продолжает работать во время пожара?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Dynamic",
+   "Listed",
+   "Static",
+   "Rated"
+  ],
+  "why_en": "A dynamic damper is rated to close against moving air, so it is used in systems whose fans keep operating during a fire. Static dampers are for systems that shut down; listed and rated describe certification, not operation.",
+  "why_ru": "Dynamic damper рассчитан закрываться при движущемся воздухе, поэтому его ставят в системы, где вентиляторы при пожаре продолжают работать. Static dampers — для систем, которые отключаются; listed и rated говорят о сертификации, а не о работе.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 402,
+  "topic": "safety",
+  "ru_q": "Какому типу fire damper обычно нужно больше space envelope (места вокруг)?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Rated",
+   "Unrated",
+   "Multi-blade",
+   "Curtain"
+  ],
+  "why_en": "A multi-blade damper has blades, linkage and often an actuator on the outside of the sleeve, so it needs a larger space envelope. A curtain damper folds its blades into a compact pack at the top of the frame.",
+  "why_ru": "У multi-blade damper лопатки, тяги и часто actuator снаружи sleeve, поэтому ему нужно больше space envelope. У curtain damper лопатки сложены компактным пакетом вверху рамы.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 403,
+  "topic": "safety",
+  "ru_q": "Какими должны быть все actuators на smoke и combination fire/smoke dampers?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Изготовлены на объекте",
+   "Установлены на объекте",
+   "С заводским рейтингом",
+   "Установлены на заводе"
+  ],
+  "why_en": "The actuator is part of the UL 555S-tested assembly, so it must be factory mounted by the damper manufacturer; installing one in the field voids the listing. Field fabrication or field installation is exactly what is not allowed.",
+  "why_ru": "Actuator входит в сборку, испытанную по UL 555S, поэтому его ставит на заводе производитель damper; установка на объекте лишает изделие листинга. Изготовление или монтаж на объекте — как раз то, что запрещено.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 404,
+  "topic": "safety",
+  "ru_q": "Если у combination fire/smoke damper два рейтинга различаются, какой рейтинг соблюдать?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Среднее из двух",
+   "Более высокий",
+   "Более низкий",
+   "Более старый"
+  ],
+  "why_en": "A combination damper must satisfy both the fire and the smoke requirements, so where two required ratings differ, the higher (more restrictive) one governs. Averaging or taking the lower one would leave one requirement unmet.",
+  "why_ru": "Combination damper должен выполнить и противопожарные, и противодымные требования, поэтому при двух разных рейтингах соблюдают более высокий (более строгий). Среднее или меньший рейтинг оставят одно требование невыполненным.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 405,
+  "topic": "safety",
+  "ru_q": "От чего зависит место, нужное снаружи sleeve у combination fire/smoke damper?",
+  "ru_hint": null,
+  "ru_opts": [
+   "От типа и марки actuator",
+   "От типа и марки опций управления",
+   "От типа и марки sleeve",
+   "От типа и марки mullion"
+  ],
+  "why_en": "The actuator is mounted on the outside of the sleeve, so its type and make decide how much space is needed around the sleeve. Controls, the sleeve and mullions do not stick out the same way.",
+  "why_ru": "Actuator крепится снаружи sleeve, поэтому от его типа и марки зависит, сколько места нужно вокруг sleeve. Опции управления, sleeve и mullion так не выступают.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 406,
+  "topic": "safety",
+  "ru_q": "Какое из термочувствительных устройств можно вернуть в исходное положение (resettable)?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Bimetallic links",
+   "Frangible links",
+   "Fusible links",
+   "Range links"
+  ],
+  "why_en": "A bimetallic link bends with heat and returns when it cools, so the damper can be reset. A fusible link melts and a frangible bulb breaks — both must be replaced after they operate.",
+  "why_ru": "Bimetallic link изгибается от тепла и возвращается при остывании, поэтому damper можно снова открыть. Fusible link плавится, а frangible колба лопается — после срабатывания их меняют.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 407,
+  "topic": "safety",
+  "ru_q": "Какой минимальный рейтинг у термочувствительного устройства в damper?",
+  "ru_hint": null,
+  "ru_opts": [
+   "180",
+   "250",
+   "200",
+   "160"
+  ],
+  "why_en": "The heat-responsive device must be rated at least 160 °F (about 50 °F above normal duct temperature); the standard fire damper link is 165 °F. 250 °F is the minimum elevated-temperature rating of a smoke damper, a different item.",
+  "why_ru": "Термочувствительное устройство должно иметь рейтинг не ниже 160 °F (примерно на 50 °F выше обычной температуры в duct); стандартный fusible link у fire damper — 165 °F. 250 °F — минимальный температурный рейтинг smoke damper, это другой вопрос.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 408,
+  "topic": "safety",
+  "ru_q": "Какую функцию выполняют locking quadrants у damper?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Делят слишком большие вертикальные проёмы",
+   "Помогают балансировать систему и регулировать воздух",
+   "Крепят сборку damper/sleeve к проёму в стене или перекрытии",
+   "Дают доступ к fire dampers для проверки"
+  ],
+  "why_en": "A locking quadrant holds a damper blade at a set position, so it is used to balance the system and control airflow. Mullions subdivide oversized openings, retaining angles secure the assembly, access doors give access for testing.",
+  "why_ru": "Locking quadrant фиксирует лопатку damper в заданном положении, поэтому им балансируют систему и регулируют поток воздуха. Большие проёмы делят mullions, сборку крепят retaining angles, доступ для проверки дают access doors.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 409,
+  "topic": "safety",
+  "ru_q": "Сколько раз ceiling radiation damper должен сработать без признаков повреждения, чтобы пройти closing reliability test?",
+  "ru_hint": null,
+  "ru_opts": [
+   "100",
+   "150",
+   "250",
+   "300"
+  ],
+  "why_en": "Per the course (P613-2, Unit 4), a ceiling radiation damper must close 250 times with no sign of damage to pass the closing reliability test of UL 555C.",
+  "why_ru": "По курсу (P613-2, Unit 4) ceiling radiation damper должен закрыться 250 раз без признаков повреждения, чтобы пройти closing reliability test по UL 555C.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 410,
+  "topic": "safety",
+  "ru_q": "По UL 555 номинальные скорости воздуха — 2000, 3000 и 4000 FPM. Какие скорости реально нужны при испытании?",
+  "ru_hint": null,
+  "ru_opts": [
+   "2000, 3000 and 4000 FPM",
+   "2200, 3200 and 4200 FPM",
+   "2400, 3400 and 4400 FPM",
+   "2600, 3600 and 4600 FPM"
+  ],
+  "why_en": "UL 555 tests each airflow rating 400 FPM above nominal: 2000 + 400 = 2400, 3000 + 400 = 3400, 4000 + 400 = 4400 FPM. The damper must close and latch at those test velocities.",
+  "why_ru": "UL 555 испытывает каждый рейтинг скорости на 400 FPM выше номинала: 2000 + 400 = 2400, 3000 + 400 = 3400, 4000 + 400 = 4400 FPM. При этих скоростях damper должен закрыться и зафиксироваться.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 411,
+  "topic": "safety",
+  "ru_q": "Какой минимальный температурный рейтинг у smoke damper?",
+  "ru_hint": null,
+  "ru_opts": [
+   "450",
+   "350",
+   "250",
+   "100"
+  ],
+  "why_en": "A smoke damper must keep working at elevated temperature, and the minimum rating is 250 °F (350 °F is the common higher rating). 160 °F is the minimum for a heat-responsive device, a different item.",
+  "why_ru": "Smoke damper должен работать при повышенной температуре, минимальный рейтинг — 250 °F (350 °F — распространённый более высокий рейтинг). 160 °F — минимум для термочувствительного устройства, это другой вопрос.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 412,
+  "topic": "safety",
+  "ru_q": "Какое устройство открывает и закрывает smoke damper?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Actuator",
+   "Space envelope",
+   "Fusible link",
+   "Curtain"
+  ],
+  "why_en": "A smoke damper is opened and closed by an actuator (electric or pneumatic) on a signal from the smoke detection or fire alarm system. A fusible link only releases a fire damper once; a curtain is a blade type; the space envelope is the room around the damper.",
+  "why_ru": "Smoke damper открывает и закрывает actuator (электрический или пневматический) по сигналу от дымовых датчиков или пожарной сигнализации. Fusible link лишь однократно отпускает fire damper; curtain — тип лопаток; space envelope — место вокруг damper.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 413,
+  "topic": "safety",
+  "ru_q": "Fabric curtain, butterfly и trap/hinged door — это примеры какого типа damper?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Combination fire/smoke damper",
+   "Fire damper",
+   "Smoke damper",
+   "Ceiling (radiation) damper"
+  ],
+  "why_en": "Fabric curtain, butterfly and trap (hinged) door are the designs of ceiling radiation dampers installed at ceiling openings of rated floor-ceiling assemblies (UL 555C). A fire damper is the common wrong pick.",
+  "why_ru": "Fabric curtain, butterfly и trap (hinged) door — конструкции ceiling radiation dampers, которые ставят в проёмах потолка огнестойких перекрытий (UL 555C). Частый неверный выбор — fire damper.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 414,
+  "topic": "safety",
+  "ru_q": "На сколько рассчитаны corridor dampers?",
+  "ru_hint": null,
+  "ru_opts": [
+   "1.5 часа",
+   "3 часа",
+   "1 час",
+   "2 часа"
+  ],
+  "why_en": "Corridor dampers are rated 1 hour (course P613-2, Unit 4), matching the usual 1-hour corridor wall. The 1½-hour rating is for ordinary fire dampers in barriers rated under 3 hours.",
+  "why_ru": "Corridor dampers рассчитаны на 1 час (курс P613-2, Unit 4) — как обычная стена коридора на 1 час. Рейтинг 1½ часа — для обычных fire dampers в барьерах меньше 3 часов.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 415,
+  "topic": "safety",
+  "ru_q": "Mechanical fusible links, electric fusible links, electric heat sensors и pneumatic heat sensors — это примеры чего?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Control devices",
+   "Heat responsive devices",
+   "Locking devices",
+   "Smoke responsive devices"
+  ],
+  "why_en": "All four react to heat and release or close the damper, so they are heat responsive devices. Smoke responsive devices are smoke detectors; locking devices hold blades closed.",
+  "why_ru": "Все четыре реагируют на тепло и отпускают или закрывают damper, поэтому это heat responsive devices. Smoke responsive devices — дымовые датчики; locking devices удерживают лопатки закрытыми.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 416,
+  "topic": "safety",
+  "ru_q": "Какой аксессуар снижает передачу тепла через сборку?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Mullion",
+   "Fusible link",
+   "Thermal blanket",
+   "Retaining angle"
+  ],
+  "why_en": "A thermal blanket is the insulating blanket (used on ceiling radiation dampers) that reduces heat transfer through the assembly. A mullion joins dampers, a fusible link releases the damper, a retaining angle holds it in the wall.",
+  "why_ru": "Thermal blanket — теплоизоляционный мат (на ceiling radiation dampers), который снижает передачу тепла через сборку. Mullion соединяет dampers, fusible link отпускает damper, retaining angle держит его в стене.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 417,
+  "topic": "safety",
+  "ru_q": "Какое испытание устанавливает класс fire damper в часах?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Fire endurance/hose stream test",
+   "Spring closing force test",
+   "Operational reliability test",
+   "Dynamic closure test"
+  ],
+  "why_en": "The hour rating comes from the fire endurance test followed by the hose stream test: the damper must hold back fire for the rated time and then survive a water stream. The other tests check closing and reliability, not the hour rating.",
+  "why_ru": "Рейтинг в часах даёт испытание fire endurance с последующим hose stream test: damper должен сдерживать огонь заданное время, а затем выдержать струю воды. Остальные испытания проверяют закрытие и надёжность, а не часы.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 418,
+  "topic": "safety",
+  "ru_q": "Что делают static systems при пожаре или задымлении?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Продолжают работать",
+   "Отключаются",
+   "Прилипают",
+   "Обрушиваются"
+  ],
+  "why_en": "Static systems are HVAC systems whose fans shut down when fire or smoke is detected, so static dampers close with no airflow. Systems that keep operating are dynamic and need dynamic dampers.",
+  "why_ru": "Static systems — системы HVAC, вентиляторы которых при обнаружении огня или дыма отключаются, поэтому static dampers закрываются без потока воздуха. Системы, которые продолжают работать, — dynamic, им нужны dynamic dampers.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 419,
+  "topic": "safety",
+  "ru_q": "Operability — это то, как damper приводится в действие.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Верно",
+   "Неверно"
+  ],
+  "why_en": "True: in the course (P613-2, Unit 4) operability means how a damper is activated — by a fusible link, heat sensor, actuator and so on. FSD-945 asks the same definition as a fill-in.",
+  "why_ru": "Верно: по курсу (P613-2, Unit 4) operability — это то, как damper приводится в действие: fusible link, термодатчик, actuator и т. д. FSD-945 спрашивает то же определение в виде вставки слова.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 420,
+  "topic": "safety",
+  "ru_q": "Fire dampers обычно закрываются, когда термочувствительный элемент на damper нагревается до какой температуры?",
+  "ru_hint": null,
+  "ru_opts": [
+   "165 F",
+   "225 F",
+   "195 F",
+   "135 F"
+  ],
+  "why_en": "The standard fusible link on a fire damper is 165 °F, just above the 160 °F minimum for a heat-responsive device. 135 °F is below that 160 °F minimum, and 195 °F or 225 °F is not the normal setting.",
+  "why_ru": "Стандартный fusible link на fire damper — 165 °F, чуть выше минимума 160 °F для термочувствительного устройства. 135 °F ниже этого минимума 160 °F, а 195 °F и 225 °F — не обычная настройка.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 421,
+  "topic": "safety",
+  "ru_q": "У какого типа damper рама и лопатки находятся в потоке воздуха и дают наибольшее сопротивление?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Type A",
+   "Type B",
+   "Type C (round)",
+   "Type C (oval)"
+  ],
+  "why_en": "In a Type A curtain damper both the frame and the blade pack sit in the air stream, so it restricts airflow the most. Type B keeps the blades out of the air stream, and Type C keeps frame and blades out of it (round or oval collars).",
+  "why_ru": "У Type A curtain damper и рама, и пакет лопаток стоят в потоке, поэтому сопротивление наибольшее. У Type B лопатки вынесены из потока, у Type C из потока вынесены и рама, и лопатки (с круглыми или овальными патрубками).",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 422,
+  "topic": "safety",
+  "ru_q": "По UL 555 номинальные давления — 4, 6 и 8 дюймов. При каких давлениях их нужно испытывать?",
+  "ru_hint": null,
+  "ru_opts": [
+   "4.0, 6.0 and 8.0 inches",
+   "4.5, 6.5 and 8.5 inches",
+   "8.0, 12.0 and 16.0 inches",
+   "8.5, 12.5 and 16.5 inches"
+  ],
+  "why_en": "UL 555 tests each pressure rating 0.5 in. w.g. above nominal: 4 + 0.5 = 4.5, 6 + 0.5 = 6.5, 8 + 0.5 = 8.5 inches. Same idea as the airflow test, which adds 400 FPM.",
+  "why_ru": "UL 555 испытывает каждый рейтинг давления на 0.5 in. w.g. выше номинала: 4 + 0.5 = 4.5, 6 + 0.5 = 6.5, 8 + 0.5 = 8.5 дюйма. Тот же принцип, что и в испытании скоростью, где добавляют 400 FPM.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 423,
+  "topic": "safety",
+  "ru_q": "Override package состоит из основного и вторичного термочувствительного устройства.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Верно",
+   "Неверно"
+  ],
+  "why_en": "True: an override package has a primary heat-responsive device (typically 165 °F) and a secondary one with a higher setting, so the fire department can reopen a combination damper for smoke control until the duct gets too hot.",
+  "why_ru": "Верно: override package — это основное термочувствительное устройство (обычно 165 °F) и вторичное с более высокой температурой, чтобы пожарные могли снова открыть combination damper для удаления дыма, пока duct не станет слишком горячим.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 424,
+  "topic": "safety",
+  "ru_q": "Smoke dampers рейтингуют по ___.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Operability",
+   "Fire endurance",
+   "Filtration",
+   "Leakage"
+  ],
+  "why_en": "Smoke dampers are rated by leakage — how much air passes through the closed damper (leakage classes I, II, III under UL 555S). Fire endurance is the rating basis of fire dampers.",
+  "why_ru": "Smoke dampers рейтингуют по leakage — сколько воздуха проходит через закрытый damper (классы leakage I, II, III по UL 555S). Fire endurance — основа рейтинга fire dampers.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 501,
+  "topic": "safety",
+  "ru_q": "Требования к gauge (толщине) sleeve зависят от размера damper и какого ещё фактора?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Тип конструкции лопаток damper",
+   "Скорость воздуха",
+   "Тип соединений duct со sleeve",
+   "Скорость срабатывания"
+  ],
+  "why_en": "Sleeve gauge depends on damper size and on the duct-to-sleeve connection: with breakaway connections a lighter sleeve is allowed, while a rigid connection needs a heavier sleeve (for example 16 ga up to a set size, 14 ga above it in the Aire Technologies instructions).",
+  "why_ru": "Gauge sleeve зависит от размера damper и от соединения duct со sleeve: при breakaway connections допускается более тонкий sleeve, а rigid connection требует более толстого (например, по инструкции Aire Technologies — 16 ga до определённого размера, больше — 14 ga).",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 502,
+  "topic": "safety",
+  "ru_q": "Почему не рекомендуется ставить actuators внутри (в потоке воздуха)?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Внутренние actuators хуже выглядят",
+   "Внутренние actuators не испытаны по стандартам UL",
+   "Внутренние actuators могут давать слишком большое падение давления",
+   "Внутренние actuators чаще ломаются"
+  ],
+  "why_en": "An actuator mounted inside the duct sits in the air stream and can cause an excessive pressure drop (course P613-2, Unit 5). The reason is airflow resistance, not looks.",
+  "why_ru": "Actuator внутри duct стоит в потоке воздуха и может давать слишком большое падение давления (курс P613-2, Unit 5). Причина — сопротивление потоку, а не внешний вид.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 503,
+  "topic": "safety",
+  "ru_q": "Retaining angles должны закрывать углы проёма и перекрывать проём для duct минимум на ___.",
+  "ru_hint": null,
+  "ru_opts": [
+   "2 дюйма",
+   "0.5 дюйма",
+   "1 дюйм",
+   "1.5 дюйма"
+  ],
+  "why_en": "Retaining angles must cover the corners and overlap the wall opening by at least 1 inch on all sides, so the damper cannot be pushed through the opening. 0.5 inch is too little; 1.5 and 2 inches are allowed but are not the minimum.",
+  "why_ru": "Retaining angles должны закрывать углы и перекрывать проём в стене минимум на 1 дюйм со всех сторон, чтобы damper нельзя было протолкнуть сквозь проём. 0.5 дюйма мало; 1.5 и 2 дюйма можно, но это не минимум.",
+  "flag": "Printout has a stray \". .\" after the blank."
+ },
+ {
+  "src": "FSD",
+  "n": 504,
+  "topic": "trade",
+  "ru_q": "Если местный AHJ требует герметизировать retaining angles fire damper, что должен сделать HVAC-подрядчик?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Потребовать другого AHJ",
+   "Проконсультироваться с производителем",
+   "Направить RFI",
+   "Спросить HVAC foreman"
+  ],
+  "why_en": "Sealing the angles may conflict with the manufacturer’s listed installation instructions (they normally say no caulk between angles and sleeve), so the contractor issues an RFI and gets a written answer from the design team. Asking the manufacturer or the foreman does not resolve a conflict between the AHJ and the documents.",
+  "why_ru": "Герметизация angles может противоречить листингованной инструкции производителя (обычно герметик между angles и sleeve не кладут), поэтому подрядчик направляет RFI и получает письменный ответ проектировщиков. Консультация с производителем или foreman не снимает противоречия между AHJ и документами.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 505,
+  "topic": "safety",
+  "ru_q": "Что служит основой для монтажа любых life safety dampers?",
+  "ru_hint": null,
+  "ru_opts": [
+   "NFPA 90",
+   "Местные строительные нормы",
+   "Спецификации",
+   "Инструкция производителя по монтажу"
+  ],
+  "why_en": "The damper is UL tested and listed only as installed per the manufacturer’s installation instructions, so those instructions are the basis of every life safety damper installation. Codes and specifications say where a damper goes, not how this damper is installed.",
+  "why_ru": "Damper испытан и получил листинг UL только при монтаже по инструкции производителя, поэтому она — основа монтажа любого life safety damper. Нормы и спецификации говорят, где нужен damper, а не как ставить именно этот damper.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 506,
+  "topic": "safety",
+  "ru_q": "Длина sleeve зависит от нескольких факторов, в том числе от ___.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Способа монтажа",
+   "Толщины sleeve",
+   "Рейтинга damper",
+   "Даты проверки"
+  ],
+  "why_en": "Sleeve length depends on the method of installation — wall thickness, how the duct connects and whether an actuator or access door is on the sleeve (in the Aire Technologies instructions the sleeve may stick out up to 6 inches, or 16 inches with an actuator or access door).",
+  "why_ru": "Длина sleeve зависит от способа монтажа — толщины стены, соединения с duct и того, есть ли на sleeve actuator или access door (по инструкции Aire Technologies sleeve выступает до 6 дюймов, а с actuator или access door — до 16 дюймов).",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 507,
+  "topic": "safety",
+  "ru_q": "Почти все нормы требуют, чтобы проходки через огнестойкие конструкции были ___.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Firestopped",
+   "Intumescent",
+   "Lubricated",
+   "Expansive"
+  ],
+  "why_en": "Codes require penetrations of fire-rated assemblies to be firestopped, i.e. sealed with a listed firestop system that restores the rating. Intumescent describes one kind of firestop material, not the requirement.",
+  "why_ru": "Нормы требуют, чтобы проходки через огнестойкие конструкции были firestopped — заделаны листингованной системой firestop, которая восстанавливает огнестойкость. Intumescent — свойство одного из видов материала firestop, а не само требование.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 508,
+  "topic": "safety",
+  "ru_q": "Зачем у dampers применяют breakaway-соединения duct/sleeve?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Чтобы сборка damper/sleeve отделилась от duct, если duct упадёт при пожаре",
+   "Чтобы duct отделился от damper, если damper упадёт при пожаре",
+   "Чтобы к damper был удобный доступ для проверки, ремонта и замены",
+   "Чтобы к sleeve был удобный доступ для ремонта и замены"
+  ],
+  "why_en": "If the duct sags or falls in a fire, a breakaway connection lets it pull away while the damper and sleeve stay in the wall and keep the opening closed. The damper is the part that must stay; access is given by access doors.",
+  "why_ru": "Если duct при пожаре провиснет или упадёт, breakaway-соединение даёт ему оторваться, а damper со sleeve остаются в стене и держат проём закрытым. Оставаться должен именно damper; доступ дают access doors.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 509,
+  "topic": "safety",
+  "ru_q": "Access doors нужны, чтобы был доступ ко всем fire dampers для ___.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Монтажа",
+   "Обучения",
+   "Демонтажа",
+   "Проверки"
+  ],
+  "why_en": "Every fire damper needs an access door so it can be inspected and tested — resetting the link and checking that it closes. The door is required for this inspection and testing, not for installation or removal.",
+  "why_ru": "К каждому fire damper нужна access door, чтобы его осматривать и проверять: перезаряжать link и убеждаться, что он закрывается. Дверца нужна именно для осмотра и проверки, а не для монтажа или демонтажа.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 510,
+  "topic": "safety",
+  "ru_q": "Dynamic fire dampers рассчитаны на системы HVAC, которые что делают при пожаре?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Отсоединяются",
+   "Реверсируются",
+   "Отключаются",
+   "Продолжают работать"
+  ],
+  "why_en": "Dynamic fire dampers are for systems whose fans keep operating during a fire, so the damper must close against moving air. Systems that shut down use static dampers.",
+  "why_ru": "Dynamic fire dampers — для систем, вентиляторы которых при пожаре продолжают работать, поэтому damper должен закрыться против потока воздуха. Для систем, которые отключаются, ставят static dampers.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 511,
+  "topic": "trade",
+  "ru_q": "Если damper нельзя установить в каком-то месте из-за размера, конфигурации, расположения проёма и т. п., кто отвечает за исправление места монтажа?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Ответственный подрядчик",
+   "HVAC- или duct-подрядчик",
+   "HVAC foreman",
+   "Владелец объекта"
+  ],
+  "why_en": "The contractor responsible for that opening or condition corrects the installation site (course P613-2, Unit 5). The HVAC contractor installs the damper; it does not automatically fix someone else’s opening.",
+  "why_ru": "Место монтажа исправляет подрядчик, ответственный за этот проём или конструкцию (курс P613-2, Unit 5). HVAC-подрядчик ставит damper, но не обязан сам исправлять чужой проём.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 512,
+  "topic": "safety",
+  "ru_q": "При монтаже прямоугольных dampers периметральные mounting angles жёстко крепят к ___.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Поверхности пола",
+   "Потолку или раме",
+   "Sleeve или раме damper",
+   "Поверхности стены"
+  ],
+  "why_en": "Mounting (retaining) angles are fastened to the damper sleeve or frame, never to the wall, so the wall can move and the damper assembly still stays in the opening. The angles only overlap the wall surface.",
+  "why_ru": "Mounting (retaining) angles крепят к sleeve или раме damper, а не к стене: стена может деформироваться, а сборка damper всё равно останется в проёме. К стене angles только прилегают с перекрытием.",
+  "flag": "Printout has a stray \". .\" after the blank."
+ },
+ {
+  "src": "FSD",
+  "n": 513,
+  "topic": "safety",
+  "ru_q": "Если проём в стене больше максимального разрешённого размера сборки damper, что делать?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Использовать mounting angles",
+   "Использовать сертифицированный mullion",
+   "Поставить damper больше",
+   "Изготовить новый sleeve"
+  ],
+  "why_en": "An opening larger than the largest listed damper assembly is split into sections with an approved mullion, so each section takes a listed damper. A larger damper than the listed maximum does not exist, and a new sleeve does not change the size limit.",
+  "why_ru": "Проём больше максимальной листингованной сборки делят на секции сертифицированным mullion, и в каждую секцию ставят листингованный damper. Damper больше максимального листингованного размера нет, а новый sleeve этот предел не меняет.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 514,
+  "topic": "safety",
+  "ru_q": "Если на раме damper есть стрелка, как ориентировать damper?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Перпендикулярно потоку",
+   "Против потока",
+   "Под потоком",
+   "По направлению потока"
+  ],
+  "why_en": "The arrow shows the airflow direction the damper was tested for, so it must point in the direction of the airflow. A damper installed backwards may not close or seal as listed.",
+  "why_ru": "Стрелка показывает направление потока, для которого damper испытан, поэтому она должна смотреть по направлению потока. Damper, поставленный задом наперёд, может не закрыться или не уплотниться, как при испытании.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 515,
+  "topic": "safety",
+  "ru_q": "На каком расстоянии от smoke barrier ставят smoke dampers?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Не дальше 6 дюймов",
+   "Не дальше 12 дюймов",
+   "Не дальше 24 дюймов",
+   "Не дальше 48 дюймов"
+  ],
+  "why_en": "A smoke damper goes at the barrier or not more than 24 inches from it, so very little duct is left where smoke could get in between the damper and the barrier.",
+  "why_ru": "Smoke damper ставят у самого барьера или не дальше 24 дюймов от него, чтобы между damper и барьером оставался совсем короткий участок duct, куда может попасть дым.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 601,
+  "topic": "safety",
+  "ru_q": "Испытание системы smoke-control часто называют ___.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Operational testing",
+   "Component testing",
+   "Acceptance testing",
+   "Functional testing"
+  ],
+  "why_en": "Testing the whole smoke-control system before the building is accepted is called acceptance testing. Component (functional) testing checks the separate parts, such as each damper.",
+  "why_ru": "Испытание всей системы smoke-control перед приёмкой здания называется acceptance testing. Component (functional) testing проверяет отдельные части, например каждый damper.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 602,
+  "topic": "safety",
+  "ru_q": "При component testing правильную работу компонентов установленного узла проверяют с помощью ___.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Cycle testing",
+   "Salt-spray testing",
+   "Individual testing",
+   "Distance testing"
+  ],
+  "why_en": "Component testing verifies each damper by cycle testing: the damper is run closed and open to show it operates fully. Salt-spray testing is a lab corrosion test, not a field check.",
+  "why_ru": "При component testing каждый damper проверяют cycle testing: его закрывают и открывают, чтобы убедиться, что он полностью срабатывает. Salt-spray testing — лабораторное испытание на коррозию, а не проверка на объекте.",
+  "flag": "Printout has a stray \". .\" after the blank."
+ },
+ {
+  "src": "FSD",
+  "n": 603,
+  "topic": "safety",
+  "ru_q": "При component (functional) testing fusible links нужно ___.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Прогнать 10 раз",
+   "Автоматически заменить",
+   "Проверять в составе системы",
+   "Снять для проверки"
+  ],
+  "why_en": "To test a fire damper the fusible link is removed, so the damper drops closed as it would in a fire; then the link is put back or replaced. A link cannot be \"cycled\" — it works once.",
+  "why_ru": "Чтобы проверить fire damper, fusible link снимают: damper падает и закрывается, как при пожаре; потом link ставят обратно или меняют. «Прогнать» link нельзя — он срабатывает один раз.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 604,
+  "topic": "safety",
+  "ru_q": "Препятствия, налёт грязи, ржавчину и коррозию нужно аккуратно удалять с помощью ___.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Сильного растворителя или моющего средства",
+   "Мыла и воды",
+   "Мягкого растворителя или моющего средства",
+   "Абразива"
+  ],
+  "why_en": "Damper parts are cleaned with a mild solvent or detergent, which removes dirt and rust without damaging blades, seals or coatings. A harsh solvent or an abrasive can damage them.",
+  "why_ru": "Детали damper чистят мягким растворителем или моющим средством: грязь и ржавчина уходят, а лопатки, уплотнения и покрытия не страдают. Сильный растворитель или абразив может их повредить.",
+  "flag": "Printout has the blank missing (\"removed using .\")."
+ },
+ {
+  "src": "FSD",
+  "n": 605,
+  "topic": "safety",
+  "ru_q": "Как UL определяет пригодность модификации, в которой используются оригинальные детали?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Проверкой RFI",
+   "Проверкой на объекте",
+   "Проверкой чертежей",
+   "Удалённой оценкой"
+  ],
+  "why_en": "UL judges a field modification made with original parts by a field inspection (UL field evaluation) of the actual damper. An RFI or drawings cannot show how the modified unit was built.",
+  "why_ru": "Пригодность модификации на объекте с оригинальными деталями UL определяет проверкой на месте (UL field evaluation) самого damper. RFI или чертежи не показывают, как переделанный узел выполнен на деле.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 606,
+  "topic": "safety",
+  "ru_q": "Component testing иногда ещё называют ___.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Functional testing",
+   "Operational testing",
+   "Process testing",
+   "Preliminary testing"
+  ],
+  "why_en": "Component testing is also called functional testing: each damper is made to function (close and open) on its own. Acceptance testing is the test of the whole smoke-control system.",
+  "why_ru": "Component testing ещё называют functional testing: каждый damper заставляют сработать (закрыться и открыться) отдельно. Acceptance testing — это испытание всей системы smoke-control.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 607,
+  "topic": "safety",
+  "ru_q": "Все dampers с actuator нужно прогонять (cycle) минимум один раз в каждые ___.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Один месяц",
+   "Три месяца",
+   "Шесть месяцев",
+   "Двенадцать месяцев"
+  ],
+  "why_en": "The course key is six months: actuator-operated dampers are exercised at least every six months so the blades and actuator do not stick. This is separate from the formal periodic inspection and test of fire and smoke dampers.",
+  "why_ru": "По ключу курса — шесть месяцев: dampers с actuator прогоняют минимум раз в полгода, чтобы лопатки и actuator не закисли. Это отдельно от формальной периодической проверки fire и smoke dampers.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 942,
+  "topic": "safety",
+  "ru_q": "Когда здание проходит капитальную реконструкцию, каким нормам должны соответствовать затронутые системы здания?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Первоначальным нормам",
+   "Действующим нормам",
+   "Более простым нормам",
+   "Более старым нормам"
+  ],
+  "why_en": "Systems affected by an extensive remodel must meet the current codes; the original codes protect only the parts that stay unchanged. This is the four-option version of FSD-203 from the Friday written test.",
+  "why_ru": "Затронутые капитальной реконструкцией системы должны соответствовать действующим нормам; первоначальные нормы сохраняются только для частей, которые не меняют. Это вариант FSD-203 с четырьмя ответами из пятничного письменного теста.",
+  "flag": null
+ },
+ {
+  "src": "FSD",
+  "n": 945,
+  "topic": "safety",
+  "ru_q": "Заполните пропуск: Operability означает ___.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Качество damper",
+   "Насколько damper удобен в работе",
+   "Static damper или dynamic",
+   "Как damper приводится в действие"
+  ],
+  "why_en": "In the course (P613-2, Unit 4) operability means how a damper is activated — fusible link, heat sensor, actuator. \"How easy a damper is to use\" is the everyday meaning of the word and the trap. FSD-419 asks the same definition as True/False.",
+  "why_ru": "По курсу (P613-2, Unit 4) operability — это то, как damper приводится в действие: fusible link, термодатчик, actuator. «Насколько удобен в работе» — бытовой смысл слова и ловушка. FSD-419 спрашивает то же определение как «верно / неверно».",
+  "flag": null
+ }
+]

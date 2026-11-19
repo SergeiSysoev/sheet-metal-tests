@@ -1,0 +1,553 @@
+[
+ {
+  "src": "Y1W3",
+  "n": 3,
+  "topic": "trade",
+  "ru_q": "Что означают буквы JATC?",
+  "ru_hint": null,
+  "ru_opts": [
+   "JUNIOR APPRENTICESHIP TRAINING COMMITTEE",
+   "JOINT APPRENTICESHIP TRAINING COMMISSION",
+   "JOINT APPRENTICESHIP TRAINING COMMITTEE",
+   "JUNIOR APPRENTICESHIP TRAINING COMMISSION"
+  ],
+  "why_en": "JATC = Joint Apprenticeship Training Committee: the committee that runs the apprenticeship, made up jointly of union and contractor members. The wrong options swap Joint for Junior or Committee for Commission.",
+  "why_ru": "JATC = Joint Apprenticeship Training Committee — комитет, который ведёт apprenticeship; в него поровну (jointly) входят представители профсоюза и подрядчиков. В неверных вариантах Joint заменено на Junior или Committee на Commission.",
+  "flag": null
+ },
+ {
+  "src": "Y1W3",
+  "n": 4,
+  "topic": "trade",
+  "ru_q": "Как зовут одного из самых известных мастеров по металлу в Америке, который в 1801 году открыл медепрокатный завод и помог вывести sheet metal work в индустриальную эпоху?",
+  "ru_hint": null,
+  "ru_opts": [
+   "BEN FRANKLIN",
+   "THOMAS JEFFERSON",
+   "PAUL REVERE",
+   "ABRAHAM LINCOLN"
+  ],
+  "why_en": "Paul Revere, the Boston silversmith of the American Revolution, opened the first successful copper rolling mill in America in 1801 (Canton, Massachusetts). His rolled copper sheathed the hull of the USS Constitution.",
+  "why_ru": "Paul Revere — бостонский серебряных дел мастер времён Войны за независимость — в 1801 году открыл первый успешный медепрокатный завод в Америке (Canton, Massachusetts). Его листовой медью обшили корпус фрегата USS Constitution.",
+  "flag": "Typo in the original: 'Americas' (= America's)."
+ },
+ {
+  "src": "Y1W3",
+  "n": 6,
+  "topic": "tools",
+  "ru_q": "Right-handed aviation snips режут:",
+  "ru_hint": null,
+  "ru_opts": [
+   "по часовой стрелке",
+   "против часовой стрелки",
+   "и по часовой, и против часовой стрелки",
+   "ни один из ответов не верен"
+  ],
+  "why_en": "For points pick b, counter-clockwise: that is the course key (the SMY1W3 graded sheet marked clockwise wrong). Technically it depends on the term: manufacturers call green-handled right-cut snips the ones that cut straight and curve to the right, i.e. clockwise, and the same course did not take a point for clockwise on the Trade Intro final.",
+  "why_ru": "Для балла — b, против часовой стрелки: это ключ курса (на проверенном листе SMY1W3 «по часовой» снят). Технически ответ зависит от термина: производители называют right-cut snips (зелёные ручки) те, что режут прямо и с поворотом вправо, то есть по часовой, и тот же курс на Trade Intro final ответ «по часовой» не снял.",
+  "flag": "Disputed key (08-testy-i-klyuchi.md, open question 2): SMY1W3 key = b counter-clockwise; Trade Intro accepted a clockwise; manufacturers describe right-cut snips as cutting to the right (clockwise)."
+ },
+ {
+  "src": "Y1W3",
+  "n": 7,
+  "topic": "fittings",
+  "ru_q": "Системы TDC и TDF похожи на duct-mate, только они формуются прямо на кромке листа.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "Yes. A TDC/TDF flange is roll-formed from the edge of the duct sheet itself, while Ductmate is a separate flange profile slipped onto the duct end. Both are then joined the same way: corners, gasket, bolts and cleats. An instructor correction on the SMY1W5 Monday graded sheet confirms Yes.",
+  "why_ru": "Да. Flange TDC/TDF прокатывается из кромки самого листа duct, а Ductmate — отдельный профиль, который надевают на конец duct. Дальше оба соединяют одинаково: уголки, уплотнитель, болты и cleats. Исправление инструктора на проверенном листе SMY1W5 Monday подтверждает «Да».",
+  "flag": null
+ },
+ {
+  "src": "Y1W3",
+  "n": 11,
+  "topic": "math",
+  "ru_q": "Сколько материала останется, если от hanger strap длиной 24 дюйма отрезать куски: 3-1/4 inch, 5-3/8 inch, 4-1/2 inch, 5-11/16 inch?",
+  "ru_hint": null,
+  "ru_opts": [
+   "5-3/32\"",
+   "5-5/16\"",
+   "5-5/8\"",
+   "Ни один из перечисленных"
+  ],
+  "why_en": "Add the pieces in 16ths: 52/16 + 86/16 + 72/16 + 91/16 = 301/16 = 18-13/16\". Remainder: 24 − 18-13/16 = 5-3/16\" (5.1875\"). 5-3/16\" is not among a–c, so d.",
+  "why_ru": "Складываем куски в шестнадцатых: 52/16 + 86/16 + 72/16 + 91/16 = 301/16 = 18-13/16\". Остаток: 24 − 18-13/16 = 5-3/16\" (5.1875\"). Такого числа среди a–c нет, значит d.",
+  "flag": null
+ },
+ {
+  "src": "Y1W3",
+  "n": 12,
+  "topic": "fittings",
+  "ru_q": "Как называется этот распространённый элемент sheet metal?",
+  "ru_hint": null,
+  "ru_opts": [
+   "S-Cleat",
+   "Drive Cleat",
+   "Male Pittsburg",
+   "Female Pipelock"
+  ],
+  "why_en": "A flat strip with both edges folded back 180° and an open gap in the middle is a drive cleat. It is driven over the turned-back edges of two duct ends (the D of S&D). An S-cleat is folded into an S with two pockets.",
+  "why_ru": "Плоская полоса, у которой обе кромки загнуты назад на 180°, а посередине щель, — это drive cleat. Его забивают на загнутые кромки двух концов duct (D в S&D). S-cleat согнут буквой S и имеет два кармана.",
+  "flag": "Option spelling 'Pittsburg' (= Pittsburgh) as printed."
+ },
+ {
+  "src": "Y1W3",
+  "n": 13,
+  "topic": "fittings",
+  "ru_q": "Как называется этот распространённый элемент sheet metal?",
+  "ru_hint": null,
+  "ru_opts": [
+   "S-Cleat",
+   "Drive Cleat",
+   "Male Pittsburg",
+   "Standing-S"
+  ],
+  "why_en": "A single 90° flange on the edge of the sheet is the male Pittsburgh. It slides into the pocket of the female Pittsburgh, and the pocket edge is then hammered over it.",
+  "why_ru": "Одна отбортовка под 90° на кромке листа — это male Pittsburgh. Её вставляют в карман female Pittsburgh, а кромку кармана загибают на неё молотком.",
+  "flag": "Option spelling 'Pittsburg' (= Pittsburgh) as printed."
+ },
+ {
+  "src": "Y1W3",
+  "n": 14,
+  "topic": "fittings",
+  "ru_q": "Как называется этот распространённый элемент sheet metal?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Female Pittsburg",
+   "Female Snaplock",
+   "Pipelock Seam",
+   "Pittsburg Drive"
+  ],
+  "why_en": "An edge with an offset that is folded back on itself twice, forming a pocket, is the female Pittsburgh (pocket lock). The male 90° edge goes into the pocket and the pocket edge is closed over it.",
+  "why_ru": "Кромка с уступом (offset), дважды загнутая сама на себя так, что получился карман, — это female Pittsburgh (pocket lock). В карман вставляют male-кромку 90°, а край кармана закрывают на неё.",
+  "flag": "Option spelling 'Pittsburg' (= Pittsburgh) as printed."
+ },
+ {
+  "src": "Y1W3",
+  "n": 16,
+  "topic": "trade",
+  "ru_q": "Что означают буквы TAB в sheet metal industry?",
+  "ru_hint": null,
+  "ru_opts": [
+   "TESTING, ADJUSTING & BALANCING",
+   "TESTING AND BALANCING",
+   "TEXTING, ADJUSTING AND BALANCING"
+  ],
+  "why_en": "TAB = Testing, Adjusting and Balancing: after installation the air (and water) flows of the HVAC system are measured and set to the design values. b drops Adjusting; c has 'Texting'.",
+  "why_ru": "TAB = Testing, Adjusting and Balancing: после монтажа расходы воздуха (и воды) в системе HVAC измеряют и выставляют по проекту. В b пропущено Adjusting, в c — «Texting».",
+  "flag": null
+ },
+ {
+  "src": "Y1W3",
+  "n": 17,
+  "topic": "tools",
+  "ru_q": "У каких валков есть откидной конец, который поднимают, чтобы снять сформованный металл сбоку?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Slip rolls",
+   "Pyramid rolls",
+   "Roll forming machine",
+   "bead roller"
+  ],
+  "why_en": "Slip rolls: the end housing of the top roll swings open on a hinge, so a closed cylinder can be slipped off the end of the roll. A roll forming machine forms seams and cleats; a bead roller rolls beads.",
+  "why_ru": "Slip rolls: корпус на конце верхнего валка откидывается на шарнире, и замкнутый цилиндр снимают с торца валка. Roll forming machine формует швы и cleats, bead roller — рёбра (beads).",
+  "flag": null
+ },
+ {
+  "src": "Y1W3",
+  "n": 19,
+  "topic": "tools",
+  "ru_q": "Какой инструмент лучше всего подходит для измерения размеров при bench layout?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Circumference ruler",
+   "Tape measure",
+   "Framing square"
+  ],
+  "why_en": "Course key: circumference ruler (the SMY1W3 graded sheet marked tape measure wrong). It is a rigid steel bench rule that lies flat on the sheet and also has a scale for the circumference of a given diameter. A tape measure sags and its hook has play, so it is a field tool.",
+  "why_ru": "Ключ курса — circumference ruler (на проверенном листе SMY1W3 tape measure снят). Это жёсткая стальная линейка, которая лежит на листе плашмя и имеет ещё шкалу длины окружности по диаметру. Рулетка провисает, а её крючок ходит, поэтому это инструмент для объекта.",
+  "flag": null
+ },
+ {
+  "src": "Y1W3",
+  "n": 20,
+  "topic": "safety",
+  "ru_q": "Какое устройство лучше всего защищает работника от удара током?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Polarized plug",
+   "Circuit breaker",
+   "GFCI",
+   "Fuse"
+  ],
+  "why_en": "A GFCI trips when the current going out and coming back differ by about 4–6 mA, i.e. current leaking through a person, within a fraction of a second. A circuit breaker or fuse protects the wiring and opens only at many amps. OSHA 1926.404(b)(1) requires GFCI protection on construction sites.",
+  "why_ru": "GFCI отключает цепь за доли секунды, когда ток «туда» и «обратно» отличается примерно на 4–6 mA, то есть ток уходит через человека. Circuit breaker и fuse защищают проводку и срабатывают только при токе в амперы. OSHA 1926.404(b)(1) требует GFCI на стройке.",
+  "flag": null
+ },
+ {
+  "src": "Y1W3",
+  "n": 21,
+  "topic": "trade",
+  "ru_q": "Область sheet metal работы, в которой занято больше всего членов SMART, — _______________.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Architectural",
+   "Industrial",
+   "HVAC Work",
+   "Commercial"
+  ],
+  "why_en": "Most SMART sheet metal members work in HVAC: making and installing duct and air systems. Architectural, industrial and commercial sheet metal are smaller sectors.",
+  "why_ru": "Большинство членов SMART в sheet metal работают в HVAC: изготовление и монтаж duct и вентиляционных систем. Architectural, industrial и commercial sheet metal — сектора меньше.",
+  "flag": null
+ },
+ {
+  "src": "Y1W3",
+  "n": 24,
+  "topic": "trade",
+  "ru_q": "Больше всего царапин и вмятин на sheet metal появляется во время _________.",
+  "ru_hint": null,
+  "ru_opts": [
+   "формовки в цехе",
+   "доставки на объект",
+   "монтажа",
+   "ничего из перечисленного"
+  ],
+  "why_en": "Course answer (not marked wrong on either graded sheet): installation. On site the duct is handled, hoisted, hung and worked on next to other trades, so most dents and scratches happen there; store and handle finished duct with care.",
+  "why_ru": "Ответ курса (на обоих проверенных листах не снят): монтаж. На объекте duct переносят, поднимают, вешают и работают рядом с другими трейдами, поэтому большинство вмятин и царапин появляется там; готовый duct храните и переносите аккуратно.",
+  "flag": null
+ },
+ {
+  "src": "Y1W3",
+  "n": 25,
+  "topic": "tools",
+  "ru_q": "Какой способ самый точный для переноса размеров при разметке в цехе?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Dividers",
+   "Tape measure",
+   "bench rule",
+   "Framing square"
+  ],
+  "why_en": "Dividers pick up a distance point to point and step it onto the sheet without reading a scale, so there is no reading error. With a tape, a bench rule or a framing square you read a number and mark it again.",
+  "why_ru": "Dividers берут расстояние от точки до точки и переносят его на лист без чтения шкалы, поэтому ошибки чтения нет. С рулеткой, линейкой или framing square число читают и потом снова отмечают.",
+  "flag": null
+ },
+ {
+  "src": "Y1W3",
+  "n": 26,
+  "topic": "fittings",
+  "ru_q": "В каком flange используется angle iron, приклёпанный или приваренный к duct?",
+  "ru_hint": null,
+  "ru_opts": [
+   "TDC & TDF",
+   "Standing seam",
+   "Companion",
+   "Elbow lock"
+  ],
+  "why_en": "A companion flange is angle iron riveted or welded to each duct end; the two flanges are bolted together with a gasket. TDC/TDF flanges are formed from the duct wall itself, and the other options are seams formed from the sheet, with no angle iron.",
+  "why_ru": "Companion flange — это angle iron, приклёпанный или приваренный к каждому концу duct; два flange стягивают болтами через уплотнитель. TDC/TDF формуются из стенки самого duct, остальные варианты — швы из листа, без angle iron.",
+  "flag": null
+ },
+ {
+  "src": "Y1W3",
+  "n": 27,
+  "topic": "fittings",
+  "ru_q": "Нагрузка, приложенная под прямым углом к крепежу, — это",
+  "ru_hint": null,
+  "ru_opts": [
+   "compression load",
+   "sheer load",
+   "tensile load",
+   "joist load"
+  ],
+  "why_en": "A load across the fastener (at right angles to its axis) tries to cut it: a shear load. A tensile load pulls along the axis, a compression load pushes along it.",
+  "why_ru": "Нагрузка поперёк крепежа (под прямым углом к его оси) пытается его срезать — это shear load. Tensile load тянет вдоль оси, compression load давит вдоль оси.",
+  "flag": "Typo in the original: 'sheer load' (= shear load). Trade Intro graded sheet: c marked wrong, b circled as key."
+ },
+ {
+  "src": "Y1W3",
+  "n": 28,
+  "topic": "safety",
+  "ru_q": "Работая с электроинструментом, первым делом нужно:",
+  "ru_hint": null,
+  "ru_opts": [
+   "нажать на курок и проверить, есть ли питание",
+   "удалить заземляющий штырь вилки",
+   "осмотреть его",
+   "снять кожухи, которые могут мешать"
+  ],
+  "why_en": "Inspect the tool first: cord, plug and ground prong, guards, switch, blade or bit. Removing the ground prong or a guard is never allowed, and pulling the trigger before inspecting can start a damaged tool.",
+  "why_ru": "Сначала осмотреть инструмент: шнур, вилку и заземляющий штырь, кожухи, выключатель, диск или сверло. Удалять заземляющий штырь или кожух нельзя никогда, а нажать на курок до осмотра — значит запустить, возможно, неисправный инструмент.",
+  "flag": null
+ },
+ {
+  "src": "Y1W3",
+  "n": 29,
+  "topic": "tools",
+  "ru_q": "Ножовка по металлу и напильник должны резать на обратном ходе, с лёгким нажимом на прямом ходе.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "No. Hacksaw blades and files cut on the forward (push) stroke: the teeth point away from the handle. Press on the forward stroke and ease off on the return, otherwise the teeth dull.",
+  "why_ru": "Нет. Полотно ножовки и напильник режут на прямом ходе (от себя): зубья смотрят от ручки. Нажимать на прямом ходе, на обратном — ослабить, иначе зубья тупятся.",
+  "flag": "Typo in the original: 'return stoke' (= stroke)."
+ },
+ {
+  "src": "Y1W3",
+  "n": 33,
+  "topic": "math",
+  "ru_q": "1-1/8 x 2-1/4 =",
+  "ru_hint": null,
+  "ru_opts": [
+   "2.531",
+   "2-17/32",
+   "3-3/8",
+   "3.375"
+  ],
+  "why_en": "9/8 × 9/4 = 81/32 = 2.53125 = 2-17/32 exactly, so a and b are the same number (a is rounded to 3 decimals). For points on this test pick a, 2.531: the SMY1W3 graded sheet keyed 2.531 and took the point off for 2-17/32. The same question on the SMY1W5 Monday graded sheet accepted 2-17/32. 3-3/8 = 3.375 is the sum, not the product.",
+  "why_ru": "9/8 × 9/4 = 81/32 = 2.53125 = ровно 2-17/32, так что a и b — одно и то же число (a округлено до 3 знаков). Для балла на этом тесте — a, 2.531: на проверенном листе SMY1W3 ключ 2.531, а за 2-17/32 балл сняли. Тот же вопрос на проверенном листе SMY1W5 Monday засчитал 2-17/32. 3-3/8 = 3.375 — это сумма, а не произведение.",
+  "flag": "Disputed key: a 2.531 and b 2-17/32 are the same value (81/32 = 2.53125). SMY1W3 graded sheet keyed a and marked b wrong; SMY1W5 Monday graded sheet (its No.56) accepted 2-17/32."
+ },
+ {
+  "src": "Y1W3",
+  "n": 34,
+  "topic": "math",
+  "ru_q": "7/16",
+  "ru_hint": null,
+  "ru_opts": [
+   ".4375",
+   ".4385",
+   "14/32",
+   ".3875"
+  ],
+  "why_en": "7 ÷ 16 = 0.4375 (a). 14/32 is the same value written as an unreduced fraction, not a conversion; .4385 and .3875 are wrong decimals.",
+  "why_ru": "7 ÷ 16 = 0.4375 (a). 14/32 — то же число, но это несокращённая дробь, а не перевод в десятичную; .4385 и .3875 — неверные десятичные.",
+  "flag": "c 14/32 equals 7/16 numerically; the printed question has no instruction, decimal conversion is implied. Key a from the graded sheets (a not marked wrong)."
+ },
+ {
+  "src": "Y1W3",
+  "n": 37,
+  "topic": "math",
+  "ru_q": "Длина окружности находится с π (3.1416) по формуле:",
+  "ru_hint": null,
+  "ru_opts": [
+   "Circumference = π x Diameter²",
+   "Circumference = π x Radius",
+   "Circumference = π x 3 x Radius",
+   "Circumference = π x Diameter"
+  ],
+  "why_en": "C = π × D (the same as 2 × π × R). π × R gives only half the circumference, and π × D² is not a circumference formula (area is π × D² ÷ 4).",
+  "why_ru": "C = π × D (то же, что 2 × π × R). π × R даёт только половину длины окружности, а π × D² — не формула длины окружности (площадь — π × D² ÷ 4).",
+  "flag": null
+ },
+ {
+  "src": "Y1W3",
+  "n": 40,
+  "topic": "math",
+  "ru_q": "7 стальных joists стоят через 6’- 8” от центра до центра. Расстояние от центра до центра между двумя крайними joists — 46'-8\"",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "No. 7 joists have 6 spaces: 6 × 6'-8\" = 6 × 80\" = 480\" = 40'-0\". 46'-8\" (560\") is 7 × 80\", one space per joist — the trap.",
+  "why_ru": "Нет. У 7 joists 6 промежутков: 6 × 6'-8\" = 6 × 80\" = 480\" = 40'-0\". 46'-8\" (560\") — это 7 × 80\", промежуток на каждую балку; это ловушка.",
+  "flag": null
+ },
+ {
+  "src": "Y1W3",
+  "n": 46,
+  "topic": "trig",
+  "ru_q": "Треугольником 4-5-6 можно проверить прямой угол.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Верно",
+   "Неверно"
+  ],
+  "why_en": "False. 4² + 5² = 16 + 25 = 41, not 6² = 36, so the angle between the 4 and 5 sides is about 82.82°, not 90°. Use 3-4-5 or a multiple of it (6-8-10, 12-16-20).",
+  "why_ru": "Неверно. 4² + 5² = 16 + 25 = 41, а не 6² = 36, поэтому угол между сторонами 4 и 5 — около 82.82°, а не 90°. Для проверки берут 3-4-5 или кратные (6-8-10, 12-16-20).",
+  "flag": null
+ },
+ {
+  "src": "Y1W3",
+  "n": 47,
+  "topic": "math",
+  "ru_q": "Какова площадь треугольника с основанием 22\" и высотой 38\"?",
+  "ru_hint": null,
+  "ru_opts": [
+   "418 sq. in.",
+   "836 sq. in.",
+   "420 sq. ft.",
+   "1728 sq. in."
+  ],
+  "why_en": "A = ½ × base × altitude = ½ × 22 × 38 = 418 sq. in. 836 forgets the ½.",
+  "why_ru": "A = ½ × основание × высота = ½ × 22 × 38 = 418 sq. in. 836 — забыта ½.",
+  "flag": null
+ },
+ {
+  "src": "Y1W3",
+  "n": 48,
+  "topic": "math",
+  "ru_q": "Высота треугольника — 1 ft 3-3/4 inches. Длина основания — 1 ft 3/8 inch. Какова площадь треугольника?",
+  "ru_hint": null,
+  "ru_opts": [
+   "1.3535 sq ft",
+   "28.125 sq in",
+   "97.453 sq in",
+   "194.906 sq in"
+  ],
+  "why_en": "In inches: altitude 15.75\", base 12.375\". A = ½ × 15.75 × 12.375 = 97.453125 → 97.453 sq in. 194.906 forgets the ½, and 1.3535 sq ft is that same 194.906 ÷ 144 (the true area is 0.6768 sq ft).",
+  "why_ru": "В дюймах: высота 15.75\", основание 12.375\". A = ½ × 15.75 × 12.375 = 97.453125 → 97.453 sq in. В 194.906 забыта ½, а 1.3535 sq ft — это те же 194.906 ÷ 144 (верная площадь — 0.6768 sq ft).",
+  "flag": null
+ },
+ {
+  "src": "Y1W3",
+  "n": 50,
+  "topic": "math",
+  "ru_q": "Каков диаметр круга с длиной окружности 44\"?",
+  "ru_hint": null,
+  "ru_opts": [
+   "138.23\" Ø",
+   "7” Ø",
+   "14” Ø",
+   "22” Ø"
+  ],
+  "why_en": "D = C ÷ π = 44 ÷ π = 14.006\" → 14\" Ø. 7\" is the radius (44 ÷ 2π = 7.003); 138.23 multiplies by π instead of dividing.",
+  "why_ru": "D = C ÷ π = 44 ÷ π = 14.006\" → 14\" Ø. 7\" — это радиус (44 ÷ 2π = 7.003); 138.23 — умножили на π вместо деления.",
+  "flag": null
+ },
+ {
+  "src": "Y1W3",
+  "n": 51,
+  "topic": "math",
+  "ru_q": "Вычислите площадь овала.",
+  "ru_hint": null,
+  "ru_opts": [
+   "305.19",
+   "305.01",
+   "305.1",
+   "305.098"
+  ],
+  "why_en": "The two R6\" ends make one full circle: π × 6² = 113.097; the rectangle between them is 1'-4\" × 12\" = 16 × 12 = 192. Total 305.0973 sq in → 305.1 (c), accepted on both graded sheets. d 305.098 is the same area worked with π = 3.1416 (305.0976); with full π it would round to 305.097.",
+  "why_ru": "Два конца R6\" вместе дают полный круг: π × 6² = 113.097; прямоугольник между ними — 1'-4\" × 12\" = 16 × 12 = 192. Итого 305.0973 sq in → 305.1 (c), этот ответ не сняли ни на одном проверенном листе. d 305.098 — та же площадь, посчитанная с π = 3.1416 (305.0976); с полным π было бы 305.097.",
+  "flag": "Knowledge base 08 §10 lists d 305.098 ('most precise'). Set to c: c is the exact area rounded to 0.1 and was accepted on both graded sheets (Trade Intro, SMY1W3); d holds only with pi = 3.1416 (full pi gives 305.097)."
+ },
+ {
+  "src": "Y1W3",
+  "n": 52,
+  "topic": "math",
+  "ru_q": "Вычислите площадь трапеции.",
+  "ru_hint": "Инструкция: формула (A + B / 2) x Height; A и B — параллельные стороны.",
+  "ru_opts": [
+   "1970 sq. in.",
+   "1650 sq. in.",
+   "1680 sq. in.",
+   "1750 sq. in."
+  ],
+  "why_en": "The parallel sides are 48\" and 52\", the height 35\". A = (48 + 52) ÷ 2 × 35 = 50 × 35 = 1750 sq. in. The printed formula means (A + B) ÷ 2; read literally, 48 + 52 ÷ 2 = 74 would give 2590, which is not an option. The 12\" is only the offset of the top side; 1680 = 48 × 35.",
+  "why_ru": "Параллельные стороны — 48\" и 52\", высота 35\". A = (48 + 52) ÷ 2 × 35 = 50 × 35 = 1750 sq. in. Напечатанная формула означает (A + B) ÷ 2; если читать буквально, 48 + 52 ÷ 2 = 74 дало бы 2590 — такого варианта нет. 12\" — только сдвиг верхней стороны; 1680 = 48 × 35.",
+  "flag": "Printed formula '(A + B / 2) x Height' has the bracket in the wrong place; intended (A + B) / 2 x Height. The Trade Intro version of this question has no instruction line."
+ },
+ {
+  "src": "Y1W3",
+  "n": 54,
+  "topic": "fittings",
+  "ru_q": "Нужен duct с working length 22\", S & Drive на одном конце и flange 2\" на другом. Длина заготовки на shear будет:",
+  "ru_hint": null,
+  "ru_opts": [
+   "19.5\"",
+   "24-1/2\"",
+   "25\"",
+   "22- 1/2\""
+  ],
+  "why_en": "Course rule: the S&D end takes 1\" of metal, a flange adds its own height: 22 + 1 + 2 = 25\". 24-1/2\" uses ½\" for the S&D end and was marked wrong on the graded sheet.",
+  "why_ru": "Правило курса: конец под S&D берёт 1\" металла, flange добавляет свою высоту: 22 + 1 + 2 = 25\". 24-1/2\" — это ½\" на конец под S&D, на проверенном листе этот ответ снят.",
+  "flag": "Typo in the original: 'it's length' (= its)."
+ },
+ {
+  "src": "Y1W3",
+  "n": 55,
+  "topic": "math",
+  "ru_q": "У fitting 5 заклёпок с равным шагом вдоль одного шва длиной 8-3/4\". Первые две заклёпки стоят в 5/8\" от каждого конца. Каково расстояние между заклёпками?",
+  "ru_hint": null,
+  "ru_opts": [
+   "1.5\"",
+   "1.875\"",
+   "1-3/8\"",
+   "1-3/4\""
+  ],
+  "why_en": "The end rivets are 5/8\" in from each end, so they span 8.75 − 2 × 0.625 = 7.5\". 5 rivets make 4 spaces: 7.5 ÷ 4 = 1.875\". Dividing by 5 (1.5\") is the trap.",
+  "why_ru": "Крайние заклёпки стоят в 5/8\" от концов, между ними 8.75 − 2 × 0.625 = 7.5\". У 5 заклёпок 4 промежутка: 7.5 ÷ 4 = 1.875\". Деление на 5 (1.5\") — ловушка.",
+  "flag": null
+ },
+ {
+  "src": "Y1W3",
+  "n": 56,
+  "topic": "fittings",
+  "ru_q": "Кромка, загнутая под углом 90°, называется _________.",
+  "ru_hint": null,
+  "ru_opts": [
+   "hem",
+   "flange",
+   "drip edge",
+   "angle iron edge",
+   "blind edge"
+  ],
+  "why_en": "An edge bent to 90° is a flange. A hem is folded back 180° flat on itself; a drip edge sheds water off a roof or cap edge.",
+  "why_ru": "Кромка, загнутая на 90°, — flange. Hem — кромка, загнутая на 180° и прижатая к листу; drip edge отводит воду с края кровли или колпака.",
+  "flag": null
+ },
+ {
+  "src": "Y1W3",
+  "n": 57,
+  "topic": "math",
+  "ru_q": "Переведите десятичную дробь в ближайшие шестнадцатые. 14.653 =",
+  "ru_hint": null,
+  "ru_opts": [
+   "14-3/4\"",
+   "14-11/16",
+   "14-5/8\"",
+   "14-10/16"
+  ],
+  "why_en": "0.653 × 16 = 10.448 → rounds to 10/16 = 5/8, so 14-5/8\". 14-10/16 is the same length unreduced; fractions are written reduced. 14-11/16 would need 0.6875.",
+  "why_ru": "0.653 × 16 = 10.448 → округляем до 10/16 = 5/8, значит 14-5/8\". 14-10/16 — та же длина, но дробь не сокращена; дроби пишут сокращёнными. Для 14-11/16 нужно 0.6875.",
+  "flag": "d 14-10/16 equals 14-5/8 numerically (unreduced). Key c from the graded sheets (c not marked wrong)."
+ },
+ {
+  "src": "Y1W3",
+  "n": 59,
+  "topic": "math",
+  "ru_q": "Выразите 83 дюйма в десятичных долях фута.",
+  "ru_hint": null,
+  "ru_opts": [
+   "6.667'",
+   "6.917'",
+   "6.916'",
+   "6'-11\""
+  ],
+  "why_en": "83 ÷ 12 = 6.91667 → 6.917'. 6.916' cuts off instead of rounding; 6'-11\" is the same length in feet and inches, not decimals; 6.667' is 80\".",
+  "why_ru": "83 ÷ 12 = 6.91667 → 6.917'. 6.916' — отброшен знак вместо округления; 6'-11\" — та же длина в футах и дюймах, а не в десятичных; 6.667' — это 80\".",
+  "flag": null
+ },
+ {
+  "src": "Y1W3",
+  "n": 60,
+  "topic": "math",
+  "ru_q": "Найдите периметр фигуры в футах и дюймах с точностью до 1/16.",
+  "ru_hint": null,
+  "ru_opts": [
+   "108' 3-5/16\"",
+   "103' 3-5/16\"",
+   "106' 1-9/16\"",
+   "None of the above"
+  ],
+  "why_en": "Arcs are quarter circles: 8'R → 2π × 8 ÷ 4 = 12.5664'; 5'R → 7.8540'. Slope: 8 ÷ sin 30° = 16' (its run 8 ÷ tan 30° = 13.8564'). Unlabeled straights from totals: top + step = 18 + 13.8564 − 8 − 5 = 18.8564'; right verticals = 28 − 5 − 8 = 15'. Sum: 12 + 12.5664 + 8 + 18.8564 + 7.8540 + 15 + 16 + 18 = 108.2768' = 108' 3.32\" → 108' 3-5/16\".",
+  "why_ru": "Дуги — четверти окружности: 8'R → 2π × 8 ÷ 4 = 12.5664'; 5'R → 7.8540'. Наклон: 8 ÷ sin 30° = 16' (по горизонтали 8 ÷ tan 30° = 13.8564'). Прямые без размеров — из общих размеров: верх + ступенька = 18 + 13.8564 − 8 − 5 = 18.8564'; правые вертикали = 28 − 5 − 8 = 15'. Сумма: 12 + 12.5664 + 8 + 18.8564 + 7.8540 + 15 + 16 + 18 = 108.2768' = 108' 3.32\" → 108' 3-5/16\".",
+  "flag": null
+ }
+]

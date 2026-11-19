@@ -6884,6 +6884,1175 @@ const QUESTIONS = [
   "type": "single"
  },
  {
+  "id": "BRZ-1",
+  "src": "BRZ",
+  "n": 1,
+  "topic": "shop",
+  "q": {
+   "en": "If a technician needed 5/8\" ACR for an installation and was located near only a plumbing supply house, what size and type of pipe should he ask for?",
+   "ru": "Технику нужна 5/8\" ACR, а рядом только магазин сантехники (plumbing). Трубу какого размера и типа ему спросить?"
+  },
+  "why": {
+   "en": "ACR tubing is named by its outside diameter; plumbing copper (type K, L, M) by its nominal size, close to the inside diameter, and its OD is 1/8\" larger. So 5/8\" OD ACR = 1/2\" plumbing copper (OD 0.625\"). PVC is not refrigerant pipe.",
+   "ru": "ACR называют по наружному диаметру, а сантехническую медь (type K, L, M) — по номинальному размеру, близкому к внутреннему диаметру; её наружный диаметр на 1/8\" больше. Поэтому 5/8\" ACR = медь 1/2\" из сантехники (OD 0.625\"). PVC для хладагента не годится."
+  },
+  "opts": [
+   {
+    "en": "5/8\" ACR",
+    "ru": "5/8\" ACR"
+   },
+   {
+    "en": "1/2\" PVC",
+    "ru": "1/2\" PVC"
+   },
+   {
+    "en": "1/2\" ID Copper",
+    "ru": "1/2\" ID Copper"
+   },
+   {
+    "en": "5/8\" PVC",
+    "ru": "5/8\" PVC"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-2",
+  "src": "BRZ",
+  "n": 2,
+  "topic": "shop",
+  "q": {
+   "en": "The size indicated for the diameter of type L copper tubing used for plumbing is the approximate ____.",
+   "ru": "Размер, указанный для диаметра медной трубки type L для сантехники, — это приблизительно ____."
+  },
+  "why": {
+   "en": "Plumbing copper is named by nominal size, roughly its inside diameter: 1/2\" type L has OD 0.625\" and ID 0.545\". ACR tubing, by contrast, is named by its outside diameter.",
+   "ru": "Сантехническую медь называют по номинальному размеру, примерно равному внутреннему диаметру: у 1/2\" type L наружный диаметр 0.625\", внутренний 0.545\". А ACR называют по наружному диаметру."
+  },
+  "opts": [
+   {
+    "en": "inside dimension",
+    "ru": "внутренний размер"
+   },
+   {
+    "en": "outside dimension",
+    "ru": "наружный размер"
+   },
+   {
+    "en": "wall thickness",
+    "ru": "толщина стенки"
+   },
+   {
+    "en": "none of the above",
+    "ru": "ничего из перечисленного"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-3",
+  "src": "BRZ",
+  "n": 3,
+  "topic": "welding",
+  "q": {
+   "en": "The maximum temperature at which soft soldering is done is ____.",
+   "ru": "Максимальная температура, при которой выполняют мягкую пайку (soft soldering), — ____."
+  },
+  "why": {
+   "en": "The course book (Delmar ch. 7) draws the line at 800°F: soldering below it, brazing above it. AWS puts the line at 840°F (450°C); 800°F is the answer here.",
+   "ru": "Учебник курса (Delmar, гл. 7) проводит границу по 800°F: ниже — soldering, выше — brazing. AWS ставит границу на 840°F (450°C); здесь ответ — 800°F."
+  },
+  "opts": [
+   {
+    "en": "400°F",
+    "ru": "400°F"
+   },
+   {
+    "en": "212°F",
+    "ru": "212°F"
+   },
+   {
+    "en": "600°F",
+    "ru": "600°F"
+   },
+   {
+    "en": "800°F",
+    "ru": "800°F"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-4",
+  "src": "BRZ",
+  "n": 4,
+  "topic": "welding",
+  "q": {
+   "en": "Brazing is done at ____ soldering.",
+   "ru": "Brazing выполняют при ____ soldering."
+  },
+  "why": {
+   "en": "Brazing is done above 800°F, soldering below it, so brazing is always hotter.",
+   "ru": "Brazing выполняют выше 800°F, soldering — ниже, поэтому brazing всегда горячее."
+  },
+  "opts": [
+   {
+    "en": "the same temperature as",
+    "ru": "той же температуре, что и"
+   },
+   {
+    "en": "lower temperatures than",
+    "ru": "более низких температурах, чем"
+   },
+   {
+    "en": "higher temperatures than",
+    "ru": "более высоких температурах, чем"
+   },
+   {
+    "en": "temperatures that can be higher or lower than",
+    "ru": "температурах, которые могут быть выше или ниже, чем"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-5",
+  "src": "BRZ",
+  "n": 5,
+  "topic": "layout",
+  "q": {
+   "en": "Pipe threads, when used on pipe that will contain liquid or vapor under pressure, ____.",
+   "ru": "Резьба на трубах, в которых будет жидкость или пар под давлением, ____."
+  },
+  "why": {
+   "en": "All three are true for pressure pipe thread (NPT): it is tapered so it wedges tight, its profile is a 60° V, and the course book asks for at least seven perfect threads. Picking only 'tapered' lost the point on the TotalTrack key.",
+   "ru": "Все три верны для резьбы под давление (NPT): она коническая, чтобы затягиваться на клин, профиль — V под 60°, и учебник курса требует не меньше семи полных ниток. Ответ «только коническая» в TotalTrack не засчитан."
+  },
+  "opts": [
+   {
+    "en": "are tapered",
+    "ru": "коническая"
+   },
+   {
+    "en": "should have at least seven perfect threads",
+    "ru": "должна иметь не меньше семи полных ниток"
+   },
+   {
+    "en": "generally have a \"V\" shape",
+    "ru": "обычно имеет V-образный профиль"
+   },
+   {
+    "en": "all of the above",
+    "ru": "всё перечисленное"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-6",
+  "src": "BRZ",
+  "n": 6,
+  "topic": "welding",
+  "q": {
+   "en": "The proper type of flame from an oxy-acetylene torch for silver brazing is ____.",
+   "ru": "Какое пламя oxy-acetylene горелки правильное для silver brazing?"
+  },
+  "why": {
+   "en": "Silver brazing uses a neutral flame (equal oxygen and acetylene). An oxidizing flame oxidizes the copper; a carbonizing flame adds carbon and soot to the joint.",
+   "ru": "Для silver brazing — neutral flame (кислород и ацетилен поровну). Oxidizing flame окисляет медь, carbonizing flame добавляет в соединение углерод и сажу."
+  },
+  "opts": [
+   {
+    "en": "long tail flame",
+    "ru": "long tail flame"
+   },
+   {
+    "en": "neutral flame",
+    "ru": "neutral flame"
+   },
+   {
+    "en": "oxidizing flame",
+    "ru": "oxidizing flame"
+   },
+   {
+    "en": "carbonizing flame",
+    "ru": "carbonizing flame"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-7",
+  "src": "BRZ",
+  "n": 7,
+  "topic": "welding",
+  "q": {
+   "en": "Molten solder flows between the two base metals being soldered because ____.",
+   "ru": "Расплавленный припой затекает между двумя паяемыми металлами, потому что ____."
+  },
+  "why": {
+   "en": "Capillary action draws molten solder into the narrow gap between a clean, fluxed tube and fitting, even upward. The base metal does not melt in soldering.",
+   "ru": "Капиллярный эффект (capillary action) затягивает жидкий припой в узкий зазор между чистыми, покрытыми flux трубкой и фитингом — даже снизу вверх. Основной металл при пайке не плавится."
+  },
+  "opts": [
+   {
+    "en": "the atmospheric pressure pushes it in",
+    "ru": "его вдавливает атмосферное давление"
+   },
+   {
+    "en": "of capillary action",
+    "ru": "действует капиллярный эффект"
+   },
+   {
+    "en": "there are no surface pores in the base metal",
+    "ru": "в основном металле нет пор на поверхности"
+   },
+   {
+    "en": "the tubing surface melts and the pressure differential forces it in",
+    "ru": "поверхность трубки плавится и разница давлений вдавливает его"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-8",
+  "src": "BRZ",
+  "n": 8,
+  "topic": "welding",
+  "q": {
+   "en": "When soldering, the technician should heat the solder with the torch to allow it to melt",
+   "ru": "При пайке техник должен нагревать припой горелкой, чтобы он расплавился."
+  },
+  "why": {
+   "en": "No. Heat the tube and fitting; the solder melts when it touches the hot joint and is drawn in. Solder melted by the flame lands on a joint that is too cold to take it.",
+   "ru": "Нет. Нагревают трубку и фитинг; припой плавится, касаясь горячего соединения, и затягивается внутрь. Припой, расплавленный пламенем, попадает на холодное соединение и не схватывается."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-9",
+  "src": "BRZ",
+  "n": 9,
+  "topic": "layout",
+  "q": {
+   "en": "When installing a refrigeration system, the piping should be connected with as few joints as possible.",
+   "ru": "При монтаже холодильной системы трубопровод нужно соединять с как можно меньшим числом соединений."
+  },
+  "why": {
+   "en": "Yes. Every joint is a possible leak and a place for contamination, so use long runs, bends and swages instead of extra fittings.",
+   "ru": "Да. Каждое соединение — возможная утечка и место для загрязнения, поэтому лучше длинные отрезки, гибка и swage вместо лишних фитингов."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-10",
+  "src": "BRZ",
+  "n": 10,
+  "topic": "welding",
+  "q": {
+   "en": "95/5 tin-antimony solder can be used in any part of a refrigeration system.",
+   "ru": "Припой 95/5 tin-antimony можно использовать в любой части холодильной системы."
+  },
+  "why": {
+   "en": "No. 95/5 is a soft solder with low strength; the course book allows it only on the low side. High-pressure lines are brazed.",
+   "ru": "Нет. 95/5 — мягкий припой с низкой прочностью; учебник курса допускает его только на low side. Линии высокого давления паяют brazing."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-11",
+  "src": "BRZ",
+  "n": 11,
+  "topic": "welding",
+  "q": {
+   "en": "An air-acetylene torch with a twist tip method for mixing the air and acetylene may be used for both low- and high-temperature soldering.",
+   "ru": "Air-acetylene горелку с twist tip, где воздух подмешивается к ацетилену, можно использовать и для низкотемпературной, и для высокотемпературной пайки."
+  },
+  "why": {
+   "en": "Yes. An air-acetylene torch is hot enough both for soft soldering and for silver brazing (high-temperature soldering) of copper refrigeration lines.",
+   "ru": "Да. Air-acetylene горелка даёт достаточно тепла и для мягкой пайки, и для silver brazing (высокотемпературной пайки) медных холодильных трубок."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-12",
+  "src": "BRZ",
+  "n": 12,
+  "topic": "shop",
+  "q": {
+   "en": "The copper tubing used in the field piping of refrigeration systems is type ____________________.",
+   "ru": "Медная трубка для монтажа холодильных систем на объекте — это type ____________________."
+  },
+  "why": {
+   "en": "ACR (air conditioning and refrigeration) tubing: cleaned, dehydrated and capped at the factory, sold by outside diameter.",
+   "ru": "ACR (air conditioning and refrigeration): трубку на заводе чистят, осушают и закрывают заглушками, продают по наружному диаметру."
+  },
+  "type": "input",
+  "answer": {
+   "accept": [
+    "acr"
+   ],
+   "reject": [],
+   "text": "ACR",
+   "prefix": ""
+  }
+ },
+ {
+  "id": "BRZ-13",
+  "src": "BRZ",
+  "n": 13,
+  "topic": "shop",
+  "q": {
+   "en": "One reason for insulation on a suction line is to help maintain the proper ____________________.",
+   "ru": "Одна из причин изолировать suction line — помочь держать правильный ____________________."
+  },
+  "why": {
+   "en": "Superheat (the key also accepts temperature). Insulation keeps heat out of the cold suction line, so the refrigerant reaches the compressor at the intended superheat, and it stops sweating.",
+   "ru": "Superheat (ключ принимает и temperature). Изоляция не даёт холодной suction line набирать тепло, поэтому хладагент приходит к компрессору с нужным superheat, и трубка не потеет."
+  },
+  "type": "input",
+  "answer": {
+   "accept": [
+    "superheat",
+    "temperature",
+    "перегрев"
+   ],
+   "reject": [],
+   "text": "Superheat (also accepted: temperature)",
+   "prefix": ""
+  }
+ },
+ {
+  "id": "BRZ-14",
+  "src": "BRZ",
+  "n": 14,
+  "topic": "layout",
+  "q": {
+   "en": "In the thread specification 1/2-14 NPT, the 1/2 is the ____________________.",
+   "ru": "В обозначении резьбы 1/2-14 NPT число 1/2 — это ____________________."
+  },
+  "why": {
+   "en": "For points write 'thread diameter': that is the TotalTrack key ('nominal pipe size' was marked wrong). Technically the 1/2 is the nominal pipe size: the real outside diameter of 1/2\" NPT pipe and thread is 0.840\".",
+   "ru": "Для балла — «thread diameter»: это ключ TotalTrack («nominal pipe size» не засчитан). Технически 1/2 — номинальный размер трубы: реальный наружный диаметр трубы и резьбы 1/2\" NPT — 0.840\"."
+  },
+  "type": "input",
+  "answer": {
+   "accept": [
+    "diameter",
+    "диаметр"
+   ],
+   "reject": [],
+   "text": "Thread Diameter",
+   "prefix": ""
+  }
+ },
+ {
+  "id": "BRZ-15",
+  "src": "BRZ",
+  "n": 15,
+  "topic": "shop",
+  "q": {
+   "en": "The abbreviation for the plastic pipe used in systems for water drains, waste drains, and low-temperature vents is ____________________.",
+   "ru": "Сокращённое название пластиковой трубы для водостоков, канализации и низкотемпературных вентстояков — ____________________."
+  },
+  "why": {
+   "en": "ABS (black plastic pipe) is used for DWV: drain, waste and vent lines.",
+   "ru": "ABS (чёрная пластиковая труба) идёт на DWV: drain, waste и vent."
+  },
+  "type": "input",
+  "answer": {
+   "accept": [
+    "abs"
+   ],
+   "reject": [],
+   "text": "ABS",
+   "prefix": ""
+  }
+ },
+ {
+  "id": "BRZ-16",
+  "src": "BRZ",
+  "n": 16,
+  "topic": "shop",
+  "q": {
+   "en": "The abbreviation for the plastic pipe used in systems for water and gas supply lines and irrigation systems is ____________________.",
+   "ru": "Сокращённое название пластиковой трубы для подачи воды и газа и для систем полива — ____________________."
+  },
+  "why": {
+   "en": "PE (polyethylene) is flexible pipe used for water and gas service lines and irrigation.",
+   "ru": "PE (polyethylene) — гибкая труба для подводки воды и газа и для полива."
+  },
+  "type": "input",
+  "answer": {
+   "accept": [
+    "pe",
+    "polyethylene",
+    "полиэтилен"
+   ],
+   "reject": [],
+   "text": "PE",
+   "prefix": ""
+  }
+ },
+ {
+  "id": "BRZ-17",
+  "src": "BRZ",
+  "n": 17,
+  "topic": "shop",
+  "q": {
+   "en": "The abbreviation for the plastic pipe used in hot and cold water supply systems is ____________________.",
+   "ru": "Сокращённое название пластиковой трубы для систем холодного и горячего водоснабжения — ____________________."
+  },
+  "why": {
+   "en": "CPVC (chlorinated PVC) withstands hot water (about 180°F), so it serves hot and cold supply; plain PVC is limited to about 140°F.",
+   "ru": "CPVC (chlorinated PVC) выдерживает горячую воду (около 180°F), поэтому идёт на горячую и холодную воду; обычный PVC — только примерно до 140°F."
+  },
+  "type": "input",
+  "answer": {
+   "accept": [
+    "cpvc"
+   ],
+   "reject": [],
+   "text": "CPVC",
+   "prefix": ""
+  }
+ },
+ {
+  "id": "BRZ-18",
+  "src": "BRZ",
+  "n": 18,
+  "topic": "shop",
+  "q": {
+   "en": "Why should some refrigerant lines be insulated?",
+   "ru": "Зачем изолируют некоторые холодильные трубки?"
+  },
+  "why": {
+   "en": "To keep the system from absorbing excess heat: a cold line picks up heat from the surrounding air. Insulation also stops condensation; TotalTrack accepted an answer naming heat gain and condensation.",
+   "ru": "Чтобы система не набирала лишнее тепло: холодная трубка забирает тепло из окружающего воздуха. Изоляция ещё и не даёт трубке потеть; TotalTrack засчитал ответ, где названы приток тепла и конденсат."
+  },
+  "type": "input",
+  "answer": {
+   "accept": [
+    "heat",
+    "тепл"
+   ],
+   "reject": [],
+   "text": "To prevent the system from absorbing excess heat",
+   "prefix": ""
+  }
+ },
+ {
+  "id": "BRZ-20",
+  "src": "BRZ",
+  "n": 20,
+  "topic": "welding",
+  "q": {
+   "en": "When soldering, what is the flow of molten filler material between the two base metals called?",
+   "ru": "Как называется затекание расплавленного припоя между двумя основными металлами при пайке?"
+  },
+  "why": {
+   "en": "Capillary action: a narrow, clean gap draws the liquid filler in, even upward, without pressure.",
+   "ru": "Capillary action: узкий чистый зазор сам затягивает жидкий припой, даже снизу вверх, без давления."
+  },
+  "type": "input",
+  "answer": {
+   "accept": [
+    "capillary",
+    "капилляр"
+   ],
+   "reject": [],
+   "text": "Capillary action",
+   "prefix": ""
+  }
+ },
+ {
+  "id": "BRZ-21",
+  "src": "BRZ",
+  "n": 21,
+  "topic": "layout",
+  "q": {
+   "en": "When making a swage joint, what should the depth of the enlarged portion of the tube be?",
+   "ru": "Какой глубины должна быть раздача (расширенная часть трубки) при swage-соединении?"
+  },
+  "why": {
+   "en": "Equal to the diameter of the original tube (TotalTrack also accepted 'OD'): the other tube of the same size slides in that far, which gives enough overlap for the brazed joint.",
+   "ru": "Равной диаметру исходной трубки (TotalTrack засчитал и «OD»): трубка того же размера входит на эту глубину, и нахлёста хватает для пайки."
+  },
+  "type": "input",
+  "answer": {
+   "accept": [
+    "diameter",
+    "диаметр"
+   ],
+   "reject": [],
+   "text": "Equal to the diameter of the original tube",
+   "prefix": ""
+  }
+ },
+ {
+  "id": "BRZ-22",
+  "src": "BRZ",
+  "n": 22,
+  "topic": "welding",
+  "q": {
+   "en": "When soldering, flux should be applied to ____.",
+   "ru": "При пайке flux наносят на ____."
+  },
+  "why": {
+   "en": "Flux goes on the male part (the tube end) only; heat draws it into the joint. Flux put inside the fitting is pushed into the system when the tube goes in and contaminates it.",
+   "ru": "Flux наносят только на male-часть (конец трубки); при нагреве он затягивается в соединение. Flux внутри фитинга при вставке трубки выдавливается в систему и загрязняет её."
+  },
+  "opts": [
+   {
+    "en": "the male part of the joint only",
+    "ru": "только male-часть соединения"
+   },
+   {
+    "en": "the female part of the joint only",
+    "ru": "только female-часть соединения"
+   },
+   {
+    "en": "both the male and female parts of the joint",
+    "ru": "и male, и female части соединения"
+   },
+   {
+    "en": "none of the above",
+    "ru": "ничего из перечисленного"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-23",
+  "src": "BRZ",
+  "n": 23,
+  "topic": "welding",
+  "q": {
+   "en": "95/5 solder should be used ____.",
+   "ru": "Припой 95/5 следует использовать ____."
+  },
+  "why": {
+   "en": "On the low side only: 95/5 is a soft solder, and the high side (discharge and liquid lines) has higher pressure and temperature, so it is brazed.",
+   "ru": "Только на low side: 95/5 — мягкий припой, а на high side (нагнетание и жидкостная линия) давление и температура выше, там паяют brazing."
+  },
+  "opts": [
+   {
+    "en": "on the high side of the system",
+    "ru": "на high side системы"
+   },
+   {
+    "en": "on the low side of the system",
+    "ru": "на low side системы"
+   },
+   {
+    "en": "when there are extreme changes in pressures and temperatures",
+    "ru": "при резких перепадах давления и температуры"
+   },
+   {
+    "en": "always",
+    "ru": "всегда"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-24",
+  "src": "BRZ",
+  "n": 24,
+  "topic": "welding",
+  "q": {
+   "en": "Filler materials used in the connection of copper joints are composed of ____.",
+   "ru": "Присадочные материалы для соединения медных трубок состоят из ____."
+  },
+  "why": {
+   "en": "Copper refrigeration joints are brazed with silver-bearing filler, 15% to 60% silver. 50/50 tin-lead and 95/5 tin-antimony are soft solders; bronze rod is for brazing steel and cast iron.",
+   "ru": "Медные холодильные соединения паяют присадкой с серебром — от 15% до 60% серебра. 50/50 tin-lead и 95/5 tin-antimony — мягкие припои, bronze rod — для пайки стали и чугуна."
+  },
+  "opts": [
+   {
+    "en": "50/50 tin-lead",
+    "ru": "50/50 tin-lead"
+   },
+   {
+    "en": "95/5 tin-antimony",
+    "ru": "95/5 tin-antimony"
+   },
+   {
+    "en": "15%-60% silver",
+    "ru": "15%-60% silver"
+   },
+   {
+    "en": "bronze rod",
+    "ru": "bronze rod"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-25",
+  "src": "BRZ",
+  "n": 25,
+  "topic": "welding",
+  "q": {
+   "en": "When soldering or brazing, the solder is ____.",
+   "ru": "При soldering или brazing припой ____."
+  },
+  "why": {
+   "en": "The flame heats the tube and fitting; the filler melts from their heat and flows into the joint. Melting it in the flame leaves it on a joint too cold to bond.",
+   "ru": "Пламя греет трубку и фитинг, а припой плавится от их тепла и затекает в соединение. Если плавить его пламенем, он ложится на слишком холодное соединение и не схватывается."
+  },
+  "opts": [
+   {
+    "en": "heated directly by the flame of the heat source",
+    "ru": "нагревается прямо пламенем горелки"
+   },
+   {
+    "en": "heated by the surrounding air",
+    "ru": "нагревается окружающим воздухом"
+   },
+   {
+    "en": "used to oxidize the metal",
+    "ru": "служит для окисления металла"
+   },
+   {
+    "en": "melted by heat from the tubing and fitting",
+    "ru": "плавится от тепла трубки и фитинга"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-26",
+  "src": "BRZ",
+  "n": 26,
+  "topic": "welding",
+  "q": {
+   "en": "For cleaning ACR copper tubing before soldering, a material that can be used is ____.",
+   "ru": "Для зачистки медной трубки ACR перед пайкой можно использовать ____."
+  },
+  "why": {
+   "en": "Sand cloth. Steel wool and carborundum cloth can leave steel or abrasive particles in the tube that travel with the oil to the compressor, so 'all of the above' is wrong (it lost the point on TotalTrack).",
+   "ru": "Sand cloth. Steel wool и carborundum cloth могут оставить в трубке частицы стали или абразива, которые с маслом уйдут в компрессор, поэтому «all of the above» неверно (в TotalTrack балл снят)."
+  },
+  "opts": [
+   {
+    "en": "steel wool",
+    "ru": "steel wool"
+   },
+   {
+    "en": "carborundum cloth",
+    "ru": "carborundum cloth"
+   },
+   {
+    "en": "sand cloth",
+    "ru": "sand cloth"
+   },
+   {
+    "en": "all of the above",
+    "ru": "all of the above"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-27",
+  "src": "BRZ",
+  "n": 27,
+  "topic": "shop",
+  "q": {
+   "en": "When tubing is cut with a tubing cutter, a burr is produced in the process. This slight decrease in the inside diameter of the tube can adversely affect the operation of the system.",
+   "ru": "При резке трубки труборезом образуется заусенец. Это небольшое уменьшение внутреннего диаметра может ухудшить работу системы."
+  },
+  "why": {
+   "en": "Yes. A tube cutter rolls a burr inward; it restricts flow and adds turbulence, so ream it out after every cut.",
+   "ru": "Да. Труборез загибает заусенец внутрь; он сужает проход и создаёт завихрения, поэтому после каждого реза его снимают (reaming)."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-28",
+  "src": "BRZ",
+  "n": 28,
+  "topic": "welding",
+  "q": {
+   "en": "The use of flux is always required when soldering or brazing.",
+   "ru": "При soldering и brazing flux нужен всегда."
+  },
+  "why": {
+   "en": "No. Brazing copper to copper with phosphorus-bearing filler needs no flux: the phosphorus does the fluxing. Flux is needed for soft solder and for brazing brass, steel or other metals to copper.",
+   "ru": "Нет. При brazing меди с медью присадкой с фосфором flux не нужен: фосфор сам работает как flux. Flux нужен для мягкой пайки и для brazing латуни, стали или других металлов с медью."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-29",
+  "src": "BRZ",
+  "n": 29,
+  "topic": "layout",
+  "q": {
+   "en": "In the thread specification 1/2-14 NPT, the 14 stands for _________________________.",
+   "ru": "В обозначении резьбы 1/2-14 NPT число 14 означает _________________________."
+  },
+  "why": {
+   "en": "14 threads per inch (TPI) — the standard pitch for 1/2\" and 3/4\" NPT.",
+   "ru": "14 ниток на дюйм (threads per inch, TPI) — стандартный шаг для 1/2\" и 3/4\" NPT."
+  },
+  "type": "input",
+  "answer": {
+   "accept": [
+    "per inch",
+    "tpi",
+    "на дюйм"
+   ],
+   "reject": [],
+   "text": "Threads per inch",
+   "prefix": ""
+  }
+ },
+ {
+  "id": "BRZ-30",
+  "src": "BRZ",
+  "n": 30,
+  "topic": "layout",
+  "q": {
+   "en": "In the thread specification 1/2-14 NPT, the NPT stands for ______________________________.",
+   "ru": "В обозначении резьбы 1/2-14 NPT буквы NPT означают ______________________________."
+  },
+  "why": {
+   "en": "National pipe taper: the American standard tapered pipe thread (taper 1 in 16). It is also read as 'National Pipe Thread (Taper)'; for this test write 'national pipe taper'.",
+   "ru": "National pipe taper — американская стандартная коническая трубная резьба (конусность 1:16). Её ещё расшифровывают как National Pipe Thread (Taper); на тесте пишите «national pipe taper»."
+  },
+  "type": "input",
+  "answer": {
+   "accept": [
+    "taper",
+    "конич"
+   ],
+   "reject": [],
+   "text": "National pipe taper",
+   "prefix": ""
+  }
+ },
+ {
+  "id": "BRZ-31",
+  "src": "BRZ",
+  "n": 31,
+  "topic": "shop",
+  "q": {
+   "en": "The abbreviation for the plastic pipe used in high pressure systems at low temperature is ____________________.",
+   "ru": "Сокращённое название пластиковой трубы для систем высокого давления при низкой температуре — ____________________."
+  },
+  "why": {
+   "en": "PVC: rigid and strong under pressure, but it softens with heat (about 140°F max), hence high pressure, low temperature. CPVC is the hot-water version.",
+   "ru": "PVC: жёсткая и прочная под давлением, но размягчается от тепла (максимум около 140°F), отсюда «высокое давление, низкая температура». CPVC — вариант для горячей воды."
+  },
+  "type": "input",
+  "answer": {
+   "accept": [
+    "pvc"
+   ],
+   "reject": [
+    "cpvc"
+   ],
+   "text": "PVC",
+   "prefix": ""
+  }
+ },
+ {
+  "id": "BRZ-32",
+  "src": "BRZ",
+  "n": 32,
+  "topic": "layout",
+  "q": {
+   "en": "The type of steel pipe thread used primarily in this industry is the \"tapered\" thread. Why?",
+   "ru": "Стальная трубная резьба, которая в основном используется в отрасли, — коническая (tapered). Почему?"
+  },
+  "why": {
+   "en": "To produce a tight joint and prevent leakage: as the tapered threads are screwed in they wedge together and seal (with pipe dope or tape). TotalTrack gave full credit to 'pressure-tight seal'.",
+   "ru": "Чтобы соединение было плотным и не текло: при завинчивании конические нитки заклиниваются и уплотняются (с герметиком или лентой). TotalTrack засчитал полностью ответ «pressure-tight seal»."
+  },
+  "type": "input",
+  "answer": {
+   "accept": [
+    "tight",
+    "leak",
+    "seal",
+    "герметич",
+    "утеч",
+    "плотн"
+   ],
+   "reject": [],
+   "text": "To produce a tight joint and prevent leakage",
+   "prefix": ""
+  }
+ },
+ {
+  "id": "BRZ-33",
+  "src": "BRZ",
+  "n": 33,
+  "topic": "layout",
+  "q": {
+   "en": "operation that causes one end of a copper tube to expand at an angle for flare nut connection to system",
+   "ru": "операция, при которой конец медной трубки раздают под углом для соединения с системой через flare nut"
+  },
+  "why": {
+   "en": "Flaring spreads the tube end into a 45° cone that is clamped between the flare nut and the flare fitting.",
+   "ru": "Flaring раздаёт конец трубки в конус 45°, который зажимают между flare nut и flare-фитингом."
+  },
+  "opts": [
+   {
+    "en": "brazing",
+    "ru": "brazing"
+   },
+   {
+    "en": "flaring",
+    "ru": "flaring"
+   },
+   {
+    "en": "swaging",
+    "ru": "swaging"
+   },
+   {
+    "en": "reaming",
+    "ru": "reaming"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-34",
+  "src": "BRZ",
+  "n": 34,
+  "topic": "shop",
+  "q": {
+   "en": "operation of heating and cooling tubing to make it softer",
+   "ru": "операция нагрева и охлаждения трубки, чтобы сделать её мягче"
+  },
+  "why": {
+   "en": "Annealing: heating copper and letting it cool makes it soft and bendable again, undoing work hardening.",
+   "ru": "Annealing: медь нагревают и дают остыть, она снова становится мягкой и гнётся; это снимает work hardening."
+  },
+  "opts": [
+   {
+    "en": "brazing",
+    "ru": "brazing"
+   },
+   {
+    "en": "work hardening",
+    "ru": "work hardening"
+   },
+   {
+    "en": "annealing",
+    "ru": "annealing"
+   },
+   {
+    "en": "swaging",
+    "ru": "swaging"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-35",
+  "src": "BRZ",
+  "n": 35,
+  "topic": "welding",
+  "q": {
+   "en": "accomplished at temperatures under 800°F",
+   "ru": "выполняется при температуре ниже 800°F"
+  },
+  "why": {
+   "en": "Soldering is done below 800°F; brazing above it.",
+   "ru": "Soldering выполняют ниже 800°F, brazing — выше."
+  },
+  "opts": [
+   {
+    "en": "soldering",
+    "ru": "soldering"
+   },
+   {
+    "en": "flaring",
+    "ru": "flaring"
+   },
+   {
+    "en": "work hardening",
+    "ru": "work hardening"
+   },
+   {
+    "en": "brazing",
+    "ru": "brazing"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-36",
+  "src": "BRZ",
+  "n": 36,
+  "topic": "shop",
+  "q": {
+   "en": "removal of burrs and rough edges from tubing",
+   "ru": "снятие заусенцев и неровных кромок с трубки"
+  },
+  "why": {
+   "en": "Reaming removes the burr a tube cutter leaves inside the tube.",
+   "ru": "Reaming снимает заусенец, который труборез оставляет внутри трубки."
+  },
+  "opts": [
+   {
+    "en": "work hardening",
+    "ru": "work hardening"
+   },
+   {
+    "en": "annealing",
+    "ru": "annealing"
+   },
+   {
+    "en": "flaring",
+    "ru": "flaring"
+   },
+   {
+    "en": "reaming",
+    "ru": "reaming"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-37",
+  "src": "BRZ",
+  "n": 37,
+  "topic": "welding",
+  "q": {
+   "en": "accomplished at temperatures above 800°F",
+   "ru": "выполняется при температуре выше 800°F"
+  },
+  "why": {
+   "en": "Brazing is done above 800°F; soldering below it.",
+   "ru": "Brazing выполняют выше 800°F, soldering — ниже."
+  },
+  "opts": [
+   {
+    "en": "brazing",
+    "ru": "brazing"
+   },
+   {
+    "en": "work hardening",
+    "ru": "work hardening"
+   },
+   {
+    "en": "soldering",
+    "ru": "soldering"
+   },
+   {
+    "en": "swaging",
+    "ru": "swaging"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-38",
+  "src": "BRZ",
+  "n": 38,
+  "topic": "shop",
+  "q": {
+   "en": "caused by excessive bending and straightening of tubing",
+   "ru": "возникает от многократного сгибания и выпрямления трубки"
+  },
+  "why": {
+   "en": "Work hardening: repeated bending makes copper hard and brittle, and it can crack; annealing softens it again.",
+   "ru": "Work hardening: от многократной гибки медь становится твёрдой и хрупкой и может треснуть; annealing снова делает её мягкой."
+  },
+  "opts": [
+   {
+    "en": "annealing",
+    "ru": "annealing"
+   },
+   {
+    "en": "flaring",
+    "ru": "flaring"
+   },
+   {
+    "en": "work hardening",
+    "ru": "work hardening"
+   },
+   {
+    "en": "swaging",
+    "ru": "swaging"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "BRZ-39",
+  "src": "BRZ",
+  "n": 39,
+  "topic": "layout",
+  "q": {
+   "en": "operation that allows two tubes of equal diameter to be joined together",
+   "ru": "операция, которая позволяет соединить две трубки одинакового диаметра"
+  },
+  "why": {
+   "en": "Swaging expands the end of one tube so that a tube of the same diameter slides into it; then one brazed joint replaces a coupling with two joints.",
+   "ru": "Swaging раздаёт конец одной трубки, чтобы в неё вошла трубка того же диаметра; тогда одно паяное соединение заменяет муфту с двумя."
+  },
+  "opts": [
+   {
+    "en": "work hardening",
+    "ru": "work hardening"
+   },
+   {
+    "en": "reaming",
+    "ru": "reaming"
+   },
+   {
+    "en": "annealing",
+    "ru": "annealing"
+   },
+   {
+    "en": "swaging",
+    "ru": "swaging"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
   "id": "FIN5-1",
   "src": "FIN5",
   "n": 1,
@@ -7386,6 +8555,4268 @@ const QUESTIONS = [
    2
   ],
   "type": "single"
+ },
+ {
+  "id": "FSD-101",
+  "src": "FSD",
+  "n": 101,
+  "topic": "dampers",
+  "q": {
+   "en": "The situation-appropriate integration of building features with fire and smoke components and systems to attain fire and life safety objectives and satisfactory building performance is the essence of_____________.",
+   "ru": "Согласованное с ситуацией объединение элементов здания с противопожарными и противодымными компонентами и системами, чтобы достичь целей пожарной безопасности и нормальной работы здания, — это суть ___."
+  },
+  "why": {
+   "en": "That sentence is the definition of fire protection engineering used in the course (P613-2, Unit 1): it ties building features, fire and smoke components and systems together. Codes only set the minimum rules, and HVAC design and smoke alarms are single parts of that whole.",
+   "ru": "Это определение fire protection engineering из курса (P613-2, Unit 1): оно связывает элементы здания, противопожарные и противодымные компоненты и системы в одно целое. Codes задают только минимальные правила, а HVAC design и smoke alarms — лишь отдельные части этого целого."
+  },
+  "opts": [
+   {
+    "en": "Fire protection engineering",
+    "ru": "Fire protection engineering"
+   },
+   {
+    "en": "Building safety codes",
+    "ru": "Building safety codes"
+   },
+   {
+    "en": "HVAC system design",
+    "ru": "HVAC system design"
+   },
+   {
+    "en": "Smoke alarm engineering",
+    "ru": "Smoke alarm engineering"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-102",
+  "src": "FSD",
+  "n": 102,
+  "topic": "dampers",
+  "q": {
+   "en": "While the HVAC contractor is responsible for properly installing fire life safety components, the responsibility for the proper construction of the components falls on the_________________.",
+   "ru": "HVAC-подрядчик отвечает за правильный монтаж компонентов fire life safety, а за правильное изготовление самих компонентов отвечает ___."
+  },
+  "why": {
+   "en": "The manufacturer builds the damper and has it tested and listed (UL 555, 555S), so the correct construction of the component is on the manufacturer. The HVAC contractor is responsible only for installing it per the manufacturer’s instructions.",
+   "ru": "Damper делает производитель, он же испытывает его и получает листинг (UL 555, 555S), поэтому за правильное изготовление компонента отвечает производитель. HVAC-подрядчик отвечает только за монтаж по инструкции производителя."
+  },
+  "opts": [
+   {
+    "en": "Building official",
+    "ru": "Инспектор стройнадзора"
+   },
+   {
+    "en": "Manufacturer",
+    "ru": "Производитель"
+   },
+   {
+    "en": "Design professional",
+    "ru": "Проектировщик"
+   },
+   {
+    "en": "General contractor",
+    "ru": "Генеральный подрядчик"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-103",
+  "src": "FSD",
+  "n": 103,
+  "topic": "dampers",
+  "q": {
+   "en": "Which of the following is typically the base document used by engineers and system designers?",
+   "ru": "Какой документ обычно служит базовым для инженеров и проектировщиков систем?"
+  },
+  "why": {
+   "en": "NFPA 90A (installation of air-conditioning and ventilating systems) is the base document designers use: it says where fire and smoke dampers are required. UL 555 and UL 555C are test standards for the dampers themselves, not design documents.",
+   "ru": "NFPA 90A (монтаж систем кондиционирования и вентиляции) — базовый документ проектировщика: он говорит, где нужны fire и smoke dampers. UL 555 и UL 555C — стандарты испытаний самих dampers, а не документы для проектирования."
+  },
+  "opts": [
+   {
+    "en": "NFPA 90A",
+    "ru": "NFPA 90A"
+   },
+   {
+    "en": "NFPA 82A",
+    "ru": "NFPA 82A"
+   },
+   {
+    "en": "UL 555",
+    "ru": "UL 555"
+   },
+   {
+    "en": "UL 555C",
+    "ru": "UL 555C"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-104",
+  "src": "FSD",
+  "n": 104,
+  "topic": "dampers",
+  "q": {
+   "en": "When designing the HVAC system and determining damper types and specifications, the only individual who can decide to use alternate or substitute materials is the ____________.",
+   "ru": "При проектировании системы HVAC и выборе типов и спецификаций dampers единственный, кто может решить использовать альтернативные или заменяющие материалы, — это ___."
+  },
+  "why": {
+   "en": "The engineer of record designs the HVAC system and specifies the dampers, so only the engineer can approve alternate or substitute materials. Contractors may propose a substitute, but they cannot decide on it.",
+   "ru": "Систему HVAC проектирует и dampers специфицирует инженер проекта (engineer of record), поэтому только он может разрешить альтернативные или заменяющие материалы. Подрядчик может предложить замену, но решать не вправе."
+  },
+  "opts": [
+   {
+    "en": "HVAC contractor",
+    "ru": "HVAC-подрядчик"
+   },
+   {
+    "en": "Architect",
+    "ru": "Архитектор"
+   },
+   {
+    "en": "Engineer",
+    "ru": "Инженер"
+   },
+   {
+    "en": "Mechanical contractor",
+    "ru": "Mechanical-подрядчик"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-105",
+  "src": "FSD",
+  "n": 105,
+  "topic": "dampers",
+  "q": {
+   "en": "The primary purpose of HVAC systems is to maintain a desired environmental condition by the regulation of?",
+   "ru": "Основное назначение систем HVAC — поддерживать нужные условия среды, регулируя что?"
+  },
+  "why": {
+   "en": "HVAC = heating, ventilating and air conditioning: its main job is to control air temperature and humidity (plus air movement and air quality). Sound, vibration and water quality are side concerns, not the purpose.",
+   "ru": "HVAC — heating, ventilating and air conditioning: главная задача — регулировать температуру и влажность воздуха (а также движение и чистоту воздуха). Шум, вибрация и качество воды — побочные вопросы, а не назначение системы."
+  },
+  "opts": [
+   {
+    "en": "Sound level and water quality",
+    "ru": "Уровень шума и качество воды"
+   },
+   {
+    "en": "Temperature and humidity",
+    "ru": "Температуру и влажность"
+   },
+   {
+    "en": "Sound level and vibration",
+    "ru": "Уровень шума и вибрацию"
+   },
+   {
+    "en": "Water quality and humidity",
+    "ru": "Качество воды и влажность"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-106",
+  "src": "FSD",
+  "n": 106,
+  "topic": "dampers",
+  "q": {
+   "en": "The successful operation of life safety dampers is critical to the building’s?",
+   "ru": "Правильная работа life safety dampers критически важна для ___ здания?"
+  },
+  "why": {
+   "en": "Fire, smoke and combination dampers keep fire and smoke from spreading through the ducts across rated walls and floors, so the building’s fire protection design only works if they operate. Interior or architectural design does not depend on them.",
+   "ru": "Fire, smoke и combination dampers не дают огню и дыму пройти по duct через огнестойкие стены и перекрытия, поэтому противопожарный проект здания работает, только если они срабатывают. Дизайн интерьера и архитектура от них не зависят."
+  },
+  "opts": [
+   {
+    "en": "Fire protection design",
+    "ru": "Противопожарного проекта"
+   },
+   {
+    "en": "Interior design",
+    "ru": "Дизайна интерьера"
+   },
+   {
+    "en": "Basic design",
+    "ru": "Базового проекта"
+   },
+   {
+    "en": "Architectural design",
+    "ru": "Архитектурного проекта"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-107",
+  "src": "FSD",
+  "n": 107,
+  "topic": "dampers",
+  "q": {
+   "en": "Construction documents must meet which of the following criteria?",
+   "ru": "Каким требованиям должна отвечать строительная документация (construction documents)?"
+  },
+  "why": {
+   "en": "Construction documents are submitted for the permit, and the building official checks that they show the work will conform to the code. Labor hours, cost overruns and who is responsible are contract matters, not code criteria for the documents.",
+   "ru": "Construction documents подают для получения разрешения, и инспектор проверяет, что они показывают соответствие работы нормам (code). Трудозатраты, перерасход и распределение ответственности — вопросы контракта, а не требования норм к документации."
+  },
+  "opts": [
+   {
+    "en": "Indicate workforce-hours",
+    "ru": "Указывать трудозатраты"
+   },
+   {
+    "en": "Show work conforms to the code",
+    "ru": "Показывать, что работа соответствует нормам"
+   },
+   {
+    "en": "Indicate responsible parties",
+    "ru": "Указывать ответственных"
+   },
+   {
+    "en": "Show cost overruns",
+    "ru": "Показывать перерасход средств"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-108",
+  "src": "FSD",
+  "n": 108,
+  "topic": "dampers",
+  "q": {
+   "en": "To make changes in the specifications, who is responsible to review and approve new submittals?",
+   "ru": "Кто отвечает за рассмотрение и утверждение новых submittals, чтобы внести изменения в спецификации?"
+  },
+  "why": {
+   "en": "The specifications belong to the design professional (engineer or architect of record), so only the design professional reviews and approves new submittals that change them. Contractors prepare and send submittals; they do not approve them.",
+   "ru": "Спецификации — документ проектировщика (инженера или архитектора проекта), поэтому новые submittals, меняющие их, рассматривает и утверждает только он. Подрядчики готовят и отправляют submittals, но не утверждают их."
+  },
+  "opts": [
+   {
+    "en": "Design professional",
+    "ru": "Проектировщик"
+   },
+   {
+    "en": "General contractor",
+    "ru": "Генподрядчик"
+   },
+   {
+    "en": "Mechanical contractor",
+    "ru": "Mechanical-подрядчик"
+   },
+   {
+    "en": "HVAC coordinator",
+    "ru": "Координатор HVAC"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-109",
+  "src": "FSD",
+  "n": 109,
+  "topic": "dampers",
+  "q": {
+   "en": "The authority having jurisdiction or AHJ is the person or office that enforces______________________.",
+   "ru": "Authority having jurisdiction (AHJ) — это лицо или орган, который следит за исполнением ___."
+  },
+  "why": {
+   "en": "The AHJ (building official, fire marshal) is the person or office that enforces the codes: it approves plans, inspects the work and decides how the code applies. Permits are only one tool of that enforcement.",
+   "ru": "AHJ (инспектор стройнадзора, fire marshal) — лицо или орган, который следит за исполнением норм (codes): согласует проект, проверяет работу и решает, как применять нормы. Выдача разрешений — лишь один из инструментов этого контроля."
+  },
+  "opts": [
+   {
+    "en": "Permits",
+    "ru": "Разрешений"
+   },
+   {
+    "en": "Codes",
+    "ru": "Строительных норм"
+   },
+   {
+    "en": "Zoning",
+    "ru": "Зонирования"
+   },
+   {
+    "en": "Occupancy",
+    "ru": "Назначения здания"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-110",
+  "src": "FSD",
+  "n": 110,
+  "topic": "dampers",
+  "q": {
+   "en": "The technical requirements related to materials, products, and services are typically detailed in which of the following construction documents?",
+   "ru": "В каком из документов construction documents обычно подробно описаны технические требования к материалам, изделиям и работам?"
+  },
+  "why": {
+   "en": "Specifications are the written part of the construction documents: they describe the required materials, products (for example the damper model and rating) and how the work is done. Drawings — floor plans, elevations, the key sheet — show where things go, not the technical requirements.",
+   "ru": "Specifications — текстовая часть construction documents: там описаны требуемые материалы, изделия (например, модель и рейтинг damper) и порядок работ. Чертежи — floor plans, elevations, key sheet — показывают, где что стоит, а не технические требования."
+  },
+  "opts": [
+   {
+    "en": "Elevations",
+    "ru": "Elevations"
+   },
+   {
+    "en": "Key sheet",
+    "ru": "Key sheet"
+   },
+   {
+    "en": "Floor plans",
+    "ru": "Floor plans"
+   },
+   {
+    "en": "Specifications",
+    "ru": "Specifications"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-201",
+  "src": "FSD",
+  "n": 201,
+  "topic": "dampers",
+  "q": {
+   "en": "Fire Codes contain recommended practices and technical data for determining fire-resistive requirements that are often enforced by divisions of the fire services.",
+   "ru": "Fire Codes содержат рекомендуемые практики и технические данные для определения требований к огнестойкости, и их соблюдение часто контролируют подразделения пожарной службы."
+  },
+  "why": {
+   "en": "True: fire codes (for example the International Fire Code) set fire-resistive and fire-safety requirements, and they are usually enforced by the fire marshal or another fire-service office.",
+   "ru": "Верно: fire codes (например, International Fire Code) задают требования к огнестойкости и пожарной безопасности, а их исполнение обычно контролирует fire marshal или другое подразделение пожарной службы."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "Верно"
+   },
+   {
+    "en": "False",
+    "ru": "Неверно"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-202",
+  "src": "FSD",
+  "n": 202,
+  "topic": "dampers",
+  "q": {
+   "en": "This code addresses the effects of fire including smoke, heat, and toxic gasses.",
+   "ru": "Этот code рассматривает последствия пожара, включая дым, тепло и токсичные газы."
+  },
+  "why": {
+   "en": "The Life Safety Code (NFPA 101) is written to protect people from the effects of fire — smoke, heat and toxic gases — through egress, compartments and protection systems. Mechanical codes cover HVAC systems, and model codes is a general name for national codes adopted locally.",
+   "ru": "Life Safety Code (NFPA 101) защищает людей от последствий пожара — дыма, тепла и токсичных газов — через пути эвакуации, отсеки и системы защиты. Mechanical codes — это нормы для систем HVAC, а model codes — общее название национальных норм, принимаемых на местах."
+  },
+  "opts": [
+   {
+    "en": "Fire Codes",
+    "ru": "Fire Codes"
+   },
+   {
+    "en": "Mechanical Codes",
+    "ru": "Mechanical Codes"
+   },
+   {
+    "en": "Life Safety Code",
+    "ru": "Life Safety Code"
+   },
+   {
+    "en": "Model Codes",
+    "ru": "Model Codes"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-203",
+  "src": "FSD",
+  "n": 203,
+  "topic": "dampers",
+  "q": {
+   "en": "When a building undergoes extensive remodeling, the affected building systems must comply with which codes?",
+   "ru": "Когда здание проходит капитальную реконструкцию, каким нормам должны соответствовать затронутые системы здания?"
+  },
+  "why": {
+   "en": "Systems affected by an extensive remodel must meet the current codes; the original codes protect only the parts that stay unchanged. So new or altered ductwork and dampers follow today’s code.",
+   "ru": "Затронутые капитальной реконструкцией системы должны соответствовать действующим нормам; первоначальные нормы сохраняются только для частей, которые не меняют. Поэтому новые или переделанные duct и dampers делают по сегодняшним нормам."
+  },
+  "opts": [
+   {
+    "en": "The original codes",
+    "ru": "Первоначальным нормам"
+   },
+   {
+    "en": "The current codes",
+    "ru": "Действующим нормам"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-204",
+  "src": "FSD",
+  "n": 204,
+  "topic": "dampers",
+  "q": {
+   "en": "UL 555C is the required standard for fire dampers.",
+   "ru": "UL 555C — обязательный стандарт для fire dampers."
+  },
+  "why": {
+   "en": "False: fire dampers are tested to UL 555. UL 555C is the standard for ceiling (radiation) dampers, and UL 555S is for smoke dampers.",
+   "ru": "Неверно: fire dampers испытывают по UL 555. UL 555C — стандарт для ceiling (radiation) dampers, а UL 555S — для smoke dampers."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "Верно"
+   },
+   {
+    "en": "False",
+    "ru": "Неверно"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-205",
+  "src": "FSD",
+  "n": 205,
+  "topic": "dampers",
+  "q": {
+   "en": "Barriers that are rated for less than 3 hours require dampers with which of the following hourly ratings?",
+   "ru": "Барьеры с огнестойкостью меньше 3 часов требуют dampers с каким рейтингом в часах?"
+  },
+  "why": {
+   "en": "The rule: a barrier rated less than 3 hours needs a 1½-hour fire damper; a barrier rated 3 hours or more needs a 3-hour damper. So 1-hour and 2-hour walls both get 1½-hour dampers.",
+   "ru": "Правило: барьер с огнестойкостью меньше 3 часов — fire damper на 1½ часа; барьер на 3 часа и больше — damper на 3 часа. Поэтому и для стены на 1 час, и для стены на 2 часа ставят damper на 1½ часа."
+  },
+  "opts": [
+   {
+    "en": "½-hour",
+    "ru": "½-hour"
+   },
+   {
+    "en": "1½-hour",
+    "ru": "1½-hour"
+   },
+   {
+    "en": "2½-hour",
+    "ru": "2½-hour"
+   },
+   {
+    "en": "3½-hour",
+    "ru": "3½-hour"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-206",
+  "src": "FSD",
+  "n": 206,
+  "topic": "dampers",
+  "q": {
+   "en": "The Legacy codes, three former regional model codes, were combined to form what code?",
+   "ru": "Legacy codes — три бывших региональных model codes — объединили в какой code?"
+  },
+  "why": {
+   "en": "The three regional legacy codes — BOCA National Building Code, ICBO Uniform Building Code and SBCCI Standard Building Code — were merged by the International Code Council into the International Building Code (IBC), first issued in 2000. The other three options are the legacy codes themselves.",
+   "ru": "Три региональных legacy codes — National Building Code (BOCA), Uniform Building Code (ICBO) и Standard Building Code (SBCCI) — International Code Council объединил в International Building Code (IBC), первое издание 2000 года. Остальные три варианта — сами эти legacy codes."
+  },
+  "opts": [
+   {
+    "en": "International Building Code (IBC)",
+    "ru": "International Building Code (IBC)"
+   },
+   {
+    "en": "National Building Code (BOCA)",
+    "ru": "National Building Code (BOCA)"
+   },
+   {
+    "en": "Uniform Building Code (IBCO)",
+    "ru": "Uniform Building Code (IBCO)"
+   },
+   {
+    "en": "Standard Building Code (SBCCI)",
+    "ru": "Standard Building Code (SBCCI)"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-207",
+  "src": "FSD",
+  "n": 207,
+  "topic": "dampers",
+  "q": {
+   "en": "Model Codes are typically national codes that are used by state or local jurisdictions either in their entirety or with local amendments.",
+   "ru": "Model Codes — обычно национальные нормы, которые штаты или местные власти применяют целиком или с местными поправками."
+  },
+  "why": {
+   "en": "True: a model code (IBC, IMC, IFC) is written nationally and becomes law only when a state or city adopts it, either as is or with local amendments — Washington adopts the I-codes with state amendments.",
+   "ru": "Верно: model code (IBC, IMC, IFC) пишут на национальном уровне, а законом он становится, только когда его принимает штат или город — целиком или с местными поправками. Например, штат Washington принимает I-codes со своими поправками."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "Верно"
+   },
+   {
+    "en": "False",
+    "ru": "Неверно"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-208",
+  "src": "FSD",
+  "n": 208,
+  "topic": "dampers",
+  "q": {
+   "en": "When the life safety code conflicts with the building code, who decides which code to follow?",
+   "ru": "Когда Life Safety Code противоречит строительным нормам (building code), кто решает, каким нормам следовать?"
+  },
+  "why": {
+   "en": "The authority having jurisdiction enforces the codes, so when two codes conflict the AHJ decides which requirement applies. The engineer and the contractors must follow that decision.",
+   "ru": "AHJ следит за исполнением норм, поэтому при противоречии двух codes именно AHJ решает, какое требование применять. Инженер и подрядчики выполняют это решение."
+  },
+  "opts": [
+   {
+    "en": "The engineer",
+    "ru": "Инженер"
+   },
+   {
+    "en": "The HVAC contractor",
+    "ru": "HVAC-подрядчик"
+   },
+   {
+    "en": "The AHJ",
+    "ru": "AHJ"
+   },
+   {
+    "en": "The general contractor",
+    "ru": "Генподрядчик"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-209",
+  "src": "FSD",
+  "n": 209,
+  "topic": "dampers",
+  "q": {
+   "en": "UL 555S is the required standard for smoke dampers.",
+   "ru": "UL 555S — обязательный стандарт для smoke dampers."
+  },
+  "why": {
+   "en": "True: smoke dampers are tested and rated to UL 555S (leakage class, elevated temperature, airflow and pressure). Fire dampers use UL 555, combination dampers both.",
+   "ru": "Верно: smoke dampers испытывают и рейтингуют по UL 555S (класс leakage, повышенная температура, скорость и давление воздуха). Fire dampers — по UL 555, combination dampers — по обоим."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "Верно"
+   },
+   {
+    "en": "False",
+    "ru": "Неверно"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-210",
+  "src": "FSD",
+  "n": 210,
+  "topic": "dampers",
+  "q": {
+   "en": "Which damper is covered under the UL 555C standard?",
+   "ru": "Какой damper подпадает под стандарт UL 555C?"
+  },
+  "why": {
+   "en": "UL 555C covers ceiling dampers (ceiling radiation dampers) used in fire-rated floor-ceiling and roof-ceiling assemblies. Fire dampers are UL 555, smoke dampers UL 555S, combination dampers UL 555 + 555S.",
+   "ru": "UL 555C — стандарт для ceiling dampers (ceiling radiation dampers) в огнестойких перекрытиях и покрытиях с потолком. Fire dampers — UL 555, smoke dampers — UL 555S, combination dampers — UL 555 + 555S."
+  },
+  "opts": [
+   {
+    "en": "Fire damper",
+    "ru": "Fire damper"
+   },
+   {
+    "en": "Smoke damper",
+    "ru": "Smoke damper"
+   },
+   {
+    "en": "Combination fire/smoke damper",
+    "ru": "Combination fire/smoke damper"
+   },
+   {
+    "en": "Ceiling radiation dampers",
+    "ru": "Ceiling radiation dampers"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-211",
+  "src": "FSD",
+  "n": 211,
+  "topic": "dampers",
+  "q": {
+   "en": "Barriers that are rated for 3 or more hours require dampers with which of the following hourly ratings?",
+   "ru": "Барьеры с огнестойкостью 3 часа и больше требуют dampers с каким рейтингом в часах?"
+  },
+  "why": {
+   "en": "A barrier rated 3 hours or more needs a 3-hour fire damper; below 3 hours a 1½-hour damper is enough. A 4-hour wall still gets a 3-hour damper.",
+   "ru": "Барьеру с огнестойкостью 3 часа и больше нужен fire damper на 3 часа; при огнестойкости меньше 3 часов хватает damper на 1½ часа. Даже стене на 4 часа ставят damper на 3 часа."
+  },
+  "opts": [
+   {
+    "en": "1-hour",
+    "ru": "1-hour"
+   },
+   {
+    "en": "2-hour",
+    "ru": "2-hour"
+   },
+   {
+    "en": "3-hour",
+    "ru": "3-hour"
+   },
+   {
+    "en": "4-hour",
+    "ru": "4-hour"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-212",
+  "src": "FSD",
+  "n": 212,
+  "topic": "dampers",
+  "q": {
+   "en": "Actuators, fusible links, fans, and motors receive which type of UL mark?",
+   "ru": "Какую марку UL получают actuators, fusible links, fans и motors?"
+  },
+  "why": {
+   "en": "In the course (P613-2, Unit 2) actuators, fusible links, fans and motors are complete products evaluated for their own use, so they carry the UL Listing mark. Classification is for products judged for one property, such as fire dampers; Recognition is for parts used inside another product, such as thermostats.",
+   "ru": "По курсу (P613-2, Unit 2) actuators, fusible links, fans и motors — законченные изделия, которые проверяют для их собственного применения, поэтому у них марка UL Listing. Classification — для изделий, оцененных по одному свойству, как fire dampers; Recognition — для деталей внутри другого изделия, как thermostats."
+  },
+  "opts": [
+   {
+    "en": "Product Classification",
+    "ru": "Product Classification"
+   },
+   {
+    "en": "Product Listing",
+    "ru": "Product Listing"
+   },
+   {
+    "en": "Product Labeling",
+    "ru": "Product Labeling"
+   },
+   {
+    "en": "Component Recognition",
+    "ru": "Component Recognition"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-213",
+  "src": "FSD",
+  "n": 213,
+  "topic": "dampers",
+  "q": {
+   "en": "Building codes are a set of prescribed____________.",
+   "ru": "Building codes — это набор предписанных ___."
+  },
+  "why": {
+   "en": "A building code adopted by a jurisdiction is law: a set of prescribed regulations (minimum requirements) that must be met. Recommendations are not binding, which is the difference between a code and a guideline.",
+   "ru": "Принятый на месте building code — это закон: набор предписанных обязательных правил (минимальных требований), которые нужно выполнить. Рекомендации не обязательны — в этом и разница между code и руководством."
+  },
+  "opts": [
+   {
+    "en": "Dimensions",
+    "ru": "Размеров"
+   },
+   {
+    "en": "Abbreviations",
+    "ru": "Сокращений"
+   },
+   {
+    "en": "Recommendations",
+    "ru": "Рекомендаций"
+   },
+   {
+    "en": "Regulations",
+    "ru": "Обязательных правил"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-214",
+  "src": "FSD",
+  "n": 214,
+  "topic": "dampers",
+  "q": {
+   "en": "Mechanical Codes contain language and requirements for the HVAC system.",
+   "ru": "Mechanical Codes содержат формулировки и требования для системы HVAC."
+  },
+  "why": {
+   "en": "True: the mechanical code (for example the International Mechanical Code) covers HVAC systems — ductwork, equipment, ventilation and where fire and smoke dampers go in the ducts.",
+   "ru": "Верно: mechanical code (например, International Mechanical Code) охватывает системы HVAC — duct, оборудование, вентиляцию и места, где в duct нужны fire и smoke dampers."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "Верно"
+   },
+   {
+    "en": "False",
+    "ru": "Неверно"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-215",
+  "src": "FSD",
+  "n": 215,
+  "topic": "dampers",
+  "q": {
+   "en": "Underwriters Laboratories, Inc is the most widely accepted safety certification in North America.",
+   "ru": "Underwriters Laboratories, Inc — самая широко признанная сертификация безопасности в Северной Америке."
+  },
+  "why": {
+   "en": "True: UL listing is the safety certification most widely accepted by inspectors in North America, and damper standards UL 555, 555S and 555C are UL’s own.",
+   "ru": "Верно: сертификацию UL инспекторы в Северной Америке признают шире всех, а стандарты для dampers UL 555, 555S и 555C — это стандарты самой UL."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "Верно"
+   },
+   {
+    "en": "False",
+    "ru": "Неверно"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-216",
+  "src": "FSD",
+  "n": 216,
+  "topic": "dampers",
+  "q": {
+   "en": "Combination fire/smoke dampers are covered under UL standard 555 and 555S.",
+   "ru": "Combination fire/smoke dampers подпадают под стандарты UL 555 и 555S."
+  },
+  "why": {
+   "en": "True: a combination fire/smoke damper must pass both the fire damper standard UL 555 and the smoke damper standard UL 555S, because it does both jobs.",
+   "ru": "Верно: combination fire/smoke damper должен пройти и стандарт fire damper UL 555, и стандарт smoke damper UL 555S, потому что выполняет обе функции."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "Верно"
+   },
+   {
+    "en": "False",
+    "ru": "Неверно"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-217",
+  "src": "FSD",
+  "n": 217,
+  "topic": "dampers",
+  "q": {
+   "en": "What fire damper hourly rating is required to protect a 2-hour rated wall?",
+   "ru": "Какой рейтинг в часах нужен fire damper для защиты стены с огнестойкостью 2 часа?"
+  },
+  "why": {
+   "en": "A 2-hour wall is rated less than 3 hours, so it needs a 1½-hour fire damper. Only barriers rated 3 hours or more need 3-hour dampers; the damper rating does not have to equal the wall rating.",
+   "ru": "Стена на 2 часа — меньше 3 часов, поэтому нужен fire damper на 1½ часа. Damper на 3 часа нужен только барьерам на 3 часа и больше; рейтинг damper не обязан совпадать с рейтингом стены."
+  },
+  "opts": [
+   {
+    "en": "½-hour",
+    "ru": "½-hour"
+   },
+   {
+    "en": "1½-hour",
+    "ru": "1½-hour"
+   },
+   {
+    "en": "2½-hour",
+    "ru": "2½-hour"
+   },
+   {
+    "en": "3½-hour",
+    "ru": "3½-hour"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-218",
+  "src": "FSD",
+  "n": 218,
+  "topic": "dampers",
+  "q": {
+   "en": "Which of the following would have a UL product classification?",
+   "ru": "Что из перечисленного имеет UL product classification?"
+  },
+  "why": {
+   "en": "Fire dampers are UL Classified: they are evaluated for one specific property — fire endurance when installed in a rated assembly. Fans, motors and fusible links are listed products (course P613-2, Unit 2).",
+   "ru": "Fire dampers имеют марку UL Classified: их оценивают по одному свойству — огнестойкости в составе огнестойкой конструкции. Fans, motors и fusible links — listed-изделия (курс P613-2, Unit 2)."
+  },
+  "opts": [
+   {
+    "en": "Damper",
+    "ru": "Damper"
+   },
+   {
+    "en": "Fan",
+    "ru": "Fan"
+   },
+   {
+    "en": "Motor",
+    "ru": "Motor"
+   },
+   {
+    "en": "Fusible link",
+    "ru": "Fusible link"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-219",
+  "src": "FSD",
+  "n": 219,
+  "topic": "dampers",
+  "q": {
+   "en": "Which of the following pieces of equipment does UL evaluate for component recognition?",
+   "ru": "Какое оборудование UL оценивает по программе component recognition?"
+  },
+  "why": {
+   "en": "Component recognition is for parts that go inside a larger product and are checked as part of it; the course (P613-2, Unit 2) gives thermostats as the example. Barriers and floors are building assemblies, not components, and the course groups motors with listed products.",
+   "ru": "Component recognition — для деталей, которые ставят внутрь более крупного изделия и проверяют в его составе; курс (P613-2, Unit 2) приводит пример — thermostats. Barriers и floors — конструкции здания, а не компоненты, а motors курс относит к listed-изделиям."
+  },
+  "opts": [
+   {
+    "en": "Motors",
+    "ru": "Motors"
+   },
+   {
+    "en": "Barriers",
+    "ru": "Barriers"
+   },
+   {
+    "en": "Thermostats",
+    "ru": "Thermostats"
+   },
+   {
+    "en": "Floors",
+    "ru": "Floors"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-301",
+  "src": "FSD",
+  "n": 301,
+  "topic": "dampers",
+  "q": {
+   "en": "Type III, A & B buildings have noncombustible exterior and combustible or noncombustible elements.",
+   "ru": "У зданий Type III, A и B наружные стены негорючие, а остальные элементы — горючие или негорючие."
+  },
+  "why": {
+   "en": "True: in Type III construction the exterior walls are noncombustible, while interior building elements may be of any material the code allows, combustible or not. A and B differ only in the required fire-resistance ratings.",
+   "ru": "Верно: в Type III наружные стены негорючие, а внутренние элементы могут быть из любых разрешённых материалов, горючих или нет. A и B отличаются только требуемой огнестойкостью."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "Верно"
+   },
+   {
+    "en": "False",
+    "ru": "Неверно"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-302",
+  "src": "FSD",
+  "n": 302,
+  "topic": "dampers",
+  "q": {
+   "en": "Structural fire protection prevents building failure such as _________.",
+   "ru": "Конструктивная огнезащита (structural fire protection) предотвращает отказ здания, например ___."
+  },
+  "why": {
+   "en": "Structural fire protection (fire-resistive coatings, rated enclosures of beams and columns) keeps the structure standing long enough during a fire, i.e. it prevents collapse. Egress is what it protects time for, not a failure.",
+   "ru": "Конструктивная огнезащита (огнезащитные покрытия, огнестойкая обшивка балок и колонн) сохраняет несущую способность здания при пожаре, то есть предотвращает обрушение. Эвакуация — то, для чего она даёт время, а не отказ здания."
+  },
+  "opts": [
+   {
+    "en": "Damper shut-down",
+    "ru": "Остановку damper"
+   },
+   {
+    "en": "Egress",
+    "ru": "Эвакуацию"
+   },
+   {
+    "en": "Collapse",
+    "ru": "Обрушение"
+   },
+   {
+    "en": "Combustion",
+    "ru": "Горение"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-303",
+  "src": "FSD",
+  "n": 303,
+  "topic": "dampers",
+  "q": {
+   "en": "Which of the following framing materials (or studs) may be used in the construction of a firewall?",
+   "ru": "Какой материал каркаса (студов) можно использовать при строительстве firewall?"
+  },
+  "why": {
+   "en": "Fire-rated walls are framed with noncombustible steel studs (or masonry); gypsum is the board fastened to the studs, not the framing. Wattle (woven sticks) burns, and copper is not a framing material.",
+   "ru": "Огнестойкие стены делают на негорючем каркасе из стальных студов (или из кладки); гипс — это обшивочные листы на студах, а не каркас. Плетень горит, а медь каркасным материалом не бывает."
+  },
+  "opts": [
+   {
+    "en": "Wattle",
+    "ru": "Плетень"
+   },
+   {
+    "en": "Gypsum",
+    "ru": "Гипс"
+   },
+   {
+    "en": "Steel",
+    "ru": "Сталь"
+   },
+   {
+    "en": "Copper",
+    "ru": "Медь"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-304",
+  "src": "FSD",
+  "n": 304,
+  "topic": "dampers",
+  "q": {
+   "en": "Which building type/ types have all building elements combustible?",
+   "ru": "У какого типа (типов) зданий все строительные элементы горючие?"
+  },
+  "why": {
+   "en": "Type V (A and B) is the construction type where all building elements may be combustible — typical wood-frame buildings. Types I and II are noncombustible, Type III has noncombustible exterior walls, Type IV has noncombustible exterior and heavy timber inside.",
+   "ru": "Type V (A и B) — тип, в котором все элементы здания могут быть горючими: обычные деревянные каркасные дома. Types I и II — негорючие, у Type III негорючие наружные стены, у Type IV негорючая наружная часть и heavy timber внутри."
+  },
+  "opts": [
+   {
+    "en": "Types I & II, A & B",
+    "ru": "Types I & II, A & B"
+   },
+   {
+    "en": "Type III, A & B",
+    "ru": "Type III, A & B"
+   },
+   {
+    "en": "Type IV",
+    "ru": "Type IV"
+   },
+   {
+    "en": "Type V, A & B",
+    "ru": "Type V, A & B"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-305",
+  "src": "FSD",
+  "n": 305,
+  "topic": "dampers",
+  "q": {
+   "en": "How many hours are horizontal assemblies generally rated for?",
+   "ru": "На сколько часов обычно рассчитаны горизонтальные конструкции (horizontal assemblies)?"
+  },
+  "why": {
+   "en": "Rated floor and roof assemblies (horizontal assemblies) are generally rated 1 to 3 hours (course P613-2, Unit 3). Ratings of 4 hours and more are rare and are used for fire walls, not floors.",
+   "ru": "Огнестойкие перекрытия и покрытия (horizontal assemblies) обычно имеют рейтинг от 1 до 3 часов (курс P613-2, Unit 3). Рейтинги 4 часа и больше редки и бывают у fire walls, а не у перекрытий."
+  },
+  "opts": [
+   {
+    "en": "10 - 12",
+    "ru": "10 - 12"
+   },
+   {
+    "en": "7 - 9",
+    "ru": "7 - 9"
+   },
+   {
+    "en": "4 - 6",
+    "ru": "4 - 6"
+   },
+   {
+    "en": "1 - 3",
+    "ru": "1 - 3"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-306",
+  "src": "FSD",
+  "n": 306,
+  "topic": "dampers",
+  "q": {
+   "en": "Buildings (without subsections) are divided into how many classifications based upon the planned response to a fire event?",
+   "ru": "На сколько классов (без подклассов) делят здания по плану реагирования на пожар?"
+  },
+  "why": {
+   "en": "The course (P613-2, Unit 3) divides buildings into 5 classifications — the construction types I to V; A and B are subsections, which the question excludes.",
+   "ru": "Курс (P613-2, Unit 3) делит здания на 5 классов — типы конструкции с I по V; A и B — это подклассы, которые вопрос не считает."
+  },
+  "opts": [
+   {
+    "en": "6",
+    "ru": "6"
+   },
+   {
+    "en": "5",
+    "ru": "5"
+   },
+   {
+    "en": "4",
+    "ru": "4"
+   },
+   {
+    "en": "3",
+    "ru": "3"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-307",
+  "src": "FSD",
+  "n": 307,
+  "topic": "dampers",
+  "q": {
+   "en": "Building types I & II, A & B have building elements that are noncombustible.",
+   "ru": "У зданий Types I и II, A и B строительные элементы негорючие."
+  },
+  "why": {
+   "en": "True: Types I and II are the noncombustible construction types — all building elements are noncombustible; Type I has the higher fire-resistance ratings.",
+   "ru": "Верно: Types I и II — негорючие типы конструкции, все элементы здания негорючие; у Type I огнестойкость выше."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "Верно"
+   },
+   {
+    "en": "False",
+    "ru": "Неверно"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-308",
+  "src": "FSD",
+  "n": 308,
+  "topic": "dampers",
+  "q": {
+   "en": "Type IV buildings have noncombustible exterior elements and heavy timber (HT) interior elements.",
+   "ru": "У зданий Type IV наружные элементы негорючие, а внутренние — из heavy timber (HT)."
+  },
+  "why": {
+   "en": "True: Type IV is heavy timber construction — noncombustible exterior walls and large solid or laminated wood members inside, which char slowly instead of failing quickly.",
+   "ru": "Верно: Type IV — heavy timber: наружные стены негорючие, а внутри крупные элементы из массивной или клеёной древесины, которые медленно обугливаются, а не быстро разрушаются."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "Верно"
+   },
+   {
+    "en": "False",
+    "ru": "Неверно"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-309",
+  "src": "FSD",
+  "n": 309,
+  "topic": "dampers",
+  "q": {
+   "en": "Barriers contain/limit the movement of fire, smoke, and ___________.",
+   "ru": "Барьеры сдерживают/ограничивают распространение огня, дыма и ___."
+  },
+  "why": {
+   "en": "Per the course (P613-2, Unit 3) barriers contain fire, smoke and toxic gases — the three things that kill people in a fire. Heat is the tempting choice, but the course list is fire, smoke and toxic gases.",
+   "ru": "По курсу (P613-2, Unit 3) барьеры сдерживают огонь, дым и токсичные газы — то, от чего гибнут люди при пожаре. Тепло — заманчивый вариант, но в списке курса: огонь, дым и токсичные газы."
+  },
+  "opts": [
+   {
+    "en": "Ash",
+    "ru": "Пепла"
+   },
+   {
+    "en": "Water",
+    "ru": "Воды"
+   },
+   {
+    "en": "Heat",
+    "ru": "Тепла"
+   },
+   {
+    "en": "Toxic Gases",
+    "ru": "Токсичных газов"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-310",
+  "src": "FSD",
+  "n": 310,
+  "topic": "dampers",
+  "q": {
+   "en": "Which of the following fire-rated assemblies is used to separate dwelling units, guest rooms and tenant spaces in covered malls and corridor walls?",
+   "ru": "Какая огнестойкая конструкция разделяет квартиры, гостиничные номера и помещения арендаторов в крытых торговых центрах, а также служит стенами коридоров?"
+  },
+  "why": {
+   "en": "Fire partitions are the lighter rated walls (usually 1 hour, sometimes ½ hour) that separate dwelling units, guest rooms, mall tenant spaces and corridors. Fire walls split a building into separate buildings, fire barriers enclose shafts and exits, smoke barriers stop smoke.",
+   "ru": "Fire partitions — более лёгкие огнестойкие стены (обычно на 1 час, иногда на ½ часа), которые разделяют квартиры, гостиничные номера, помещения арендаторов в торговых центрах и коридоры. Fire walls делят здание на отдельные здания, fire barriers ограждают шахты и выходы, smoke barriers останавливают дым."
+  },
+  "opts": [
+   {
+    "en": "Smoke barriers",
+    "ru": "Smoke barriers"
+   },
+   {
+    "en": "Fire barriers",
+    "ru": "Fire barriers"
+   },
+   {
+    "en": "Fire partitions",
+    "ru": "Fire partitions"
+   },
+   {
+    "en": "Fire walls",
+    "ru": "Fire walls"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-401",
+  "src": "FSD",
+  "n": 401,
+  "topic": "dampers",
+  "q": {
+   "en": "Which of the following types of damper continue to operate in a fire?",
+   "ru": "Какой тип dampers продолжает работать во время пожара?"
+  },
+  "why": {
+   "en": "A dynamic damper is rated to close against moving air, so it is used in systems whose fans keep operating during a fire. Static dampers are for systems that shut down; listed and rated describe certification, not operation.",
+   "ru": "Dynamic damper рассчитан закрываться при движущемся воздухе, поэтому его ставят в системы, где вентиляторы при пожаре продолжают работать. Static dampers — для систем, которые отключаются; listed и rated говорят о сертификации, а не о работе."
+  },
+  "opts": [
+   {
+    "en": "Dynamic",
+    "ru": "Dynamic"
+   },
+   {
+    "en": "Listed",
+    "ru": "Listed"
+   },
+   {
+    "en": "Static",
+    "ru": "Static"
+   },
+   {
+    "en": "Rated",
+    "ru": "Rated"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-402",
+  "src": "FSD",
+  "n": 402,
+  "topic": "dampers",
+  "q": {
+   "en": "Which type of fire damper typically requires a larger space envelope?",
+   "ru": "Какому типу fire damper обычно нужно больше space envelope (места вокруг)?"
+  },
+  "why": {
+   "en": "A multi-blade damper has blades, linkage and often an actuator on the outside of the sleeve, so it needs a larger space envelope. A curtain damper folds its blades into a compact pack at the top of the frame.",
+   "ru": "У multi-blade damper лопатки, тяги и часто actuator снаружи sleeve, поэтому ему нужно больше space envelope. У curtain damper лопатки сложены компактным пакетом вверху рамы."
+  },
+  "opts": [
+   {
+    "en": "Rated",
+    "ru": "Rated"
+   },
+   {
+    "en": "Unrated",
+    "ru": "Unrated"
+   },
+   {
+    "en": "Multi-blade",
+    "ru": "Multi-blade"
+   },
+   {
+    "en": "Curtain",
+    "ru": "Curtain"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-403",
+  "src": "FSD",
+  "n": 403,
+  "topic": "dampers",
+  "q": {
+   "en": "All actuators on smoke and combination fire/smoke dampers are required to be which of the following?",
+   "ru": "Какими должны быть все actuators на smoke и combination fire/smoke dampers?"
+  },
+  "why": {
+   "en": "The actuator is part of the UL 555S-tested assembly, so it must be factory mounted by the damper manufacturer; installing one in the field voids the listing. Field fabrication or field installation is exactly what is not allowed.",
+   "ru": "Actuator входит в сборку, испытанную по UL 555S, поэтому его ставит на заводе производитель damper; установка на объекте лишает изделие листинга. Изготовление или монтаж на объекте — как раз то, что запрещено."
+  },
+  "opts": [
+   {
+    "en": "Field fabricated",
+    "ru": "Изготовлены на объекте"
+   },
+   {
+    "en": "Field installed",
+    "ru": "Установлены на объекте"
+   },
+   {
+    "en": "Factory rated",
+    "ru": "С заводским рейтингом"
+   },
+   {
+    "en": "Factory mounted",
+    "ru": "Установлены на заводе"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-404",
+  "src": "FSD",
+  "n": 404,
+  "topic": "dampers",
+  "q": {
+   "en": "When two ratings differ for a combination fire/smoke damper, which rating should be followed?",
+   "ru": "Если у combination fire/smoke damper два рейтинга различаются, какой рейтинг соблюдать?"
+  },
+  "why": {
+   "en": "A combination damper must satisfy both the fire and the smoke requirements, so where two required ratings differ, the higher (more restrictive) one governs. Averaging or taking the lower one would leave one requirement unmet.",
+   "ru": "Combination damper должен выполнить и противопожарные, и противодымные требования, поэтому при двух разных рейтингах соблюдают более высокий (более строгий). Среднее или меньший рейтинг оставят одно требование невыполненным."
+  },
+  "opts": [
+   {
+    "en": "The average of the two ratings",
+    "ru": "Среднее из двух"
+   },
+   {
+    "en": "The higher rating",
+    "ru": "Более высокий"
+   },
+   {
+    "en": "The lower rating",
+    "ru": "Более низкий"
+   },
+   {
+    "en": "The older rating",
+    "ru": "Более старый"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-405",
+  "src": "FSD",
+  "n": 405,
+  "topic": "dampers",
+  "q": {
+   "en": "The space required outside of the combination fire/smoke damper sleeve is dependent upon which of the following factors?",
+   "ru": "От чего зависит место, нужное снаружи sleeve у combination fire/smoke damper?"
+  },
+  "why": {
+   "en": "The actuator is mounted on the outside of the sleeve, so its type and make decide how much space is needed around the sleeve. Controls, the sleeve and mullions do not stick out the same way.",
+   "ru": "Actuator крепится снаружи sleeve, поэтому от его типа и марки зависит, сколько места нужно вокруг sleeve. Опции управления, sleeve и mullion так не выступают."
+  },
+  "opts": [
+   {
+    "en": "The type and make of the actuator",
+    "ru": "От типа и марки actuator"
+   },
+   {
+    "en": "The type and make of the control options",
+    "ru": "От типа и марки опций управления"
+   },
+   {
+    "en": "The type and make of the damper sleeve",
+    "ru": "От типа и марки sleeve"
+   },
+   {
+    "en": "The type and make of the mullion",
+    "ru": "От типа и марки mullion"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-406",
+  "src": "FSD",
+  "n": 406,
+  "topic": "dampers",
+  "q": {
+   "en": "Which of the following heat-responsive devices is resettable?",
+   "ru": "Какое из термочувствительных устройств можно вернуть в исходное положение (resettable)?"
+  },
+  "why": {
+   "en": "A bimetallic link bends with heat and returns when it cools, so the damper can be reset. A fusible link melts and a frangible bulb breaks — both must be replaced after they operate.",
+   "ru": "Bimetallic link изгибается от тепла и возвращается при остывании, поэтому damper можно снова открыть. Fusible link плавится, а frangible колба лопается — после срабатывания их меняют."
+  },
+  "opts": [
+   {
+    "en": "Bimetallic links",
+    "ru": "Bimetallic links"
+   },
+   {
+    "en": "Frangible links",
+    "ru": "Frangible links"
+   },
+   {
+    "en": "Fusible links",
+    "ru": "Fusible links"
+   },
+   {
+    "en": "Range links",
+    "ru": "Range links"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-407",
+  "src": "FSD",
+  "n": 407,
+  "topic": "dampers",
+  "q": {
+   "en": "What is the minimum rating for a heat responsive device in a damper?",
+   "ru": "Какой минимальный рейтинг у термочувствительного устройства в damper?"
+  },
+  "why": {
+   "en": "The heat-responsive device must be rated at least 160 °F (about 50 °F above normal duct temperature); the standard fire damper link is 165 °F. 250 °F is the minimum elevated-temperature rating of a smoke damper, a different item.",
+   "ru": "Термочувствительное устройство должно иметь рейтинг не ниже 160 °F (примерно на 50 °F выше обычной температуры в duct); стандартный fusible link у fire damper — 165 °F. 250 °F — минимальный температурный рейтинг smoke damper, это другой вопрос."
+  },
+  "opts": [
+   {
+    "en": "180",
+    "ru": "180"
+   },
+   {
+    "en": "250",
+    "ru": "250"
+   },
+   {
+    "en": "200",
+    "ru": "200"
+   },
+   {
+    "en": "160",
+    "ru": "160"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-408",
+  "src": "FSD",
+  "n": 408,
+  "topic": "dampers",
+  "q": {
+   "en": "What function do locking quadrants provide for a damper?",
+   "ru": "Какую функцию выполняют locking quadrants у damper?"
+  },
+  "why": {
+   "en": "A locking quadrant holds a damper blade at a set position, so it is used to balance the system and control airflow. Mullions subdivide oversized openings, retaining angles secure the assembly, access doors give access for testing.",
+   "ru": "Locking quadrant фиксирует лопатку damper в заданном положении, поэтому им балансируют систему и регулируют поток воздуха. Большие проёмы делят mullions, сборку крепят retaining angles, доступ для проверки дают access doors."
+  },
+  "opts": [
+   {
+    "en": "Subdivide over-sized vertical openings",
+    "ru": "Делят слишком большие вертикальные проёмы"
+   },
+   {
+    "en": "Help balance system and control airflow",
+    "ru": "Помогают балансировать систему и регулировать воздух"
+   },
+   {
+    "en": "Secure the damper/sleeve assembly to the wall or floor opening",
+    "ru": "Крепят сборку damper/sleeve к проёму в стене или перекрытии"
+   },
+   {
+    "en": "Provide access to fire dampers for testing",
+    "ru": "Дают доступ к fire dampers для проверки"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-409",
+  "src": "FSD",
+  "n": 409,
+  "topic": "dampers",
+  "q": {
+   "en": "How many times must a ceiling radiation damper be activated without any indication of damage to pass the closing reliability test?",
+   "ru": "Сколько раз ceiling radiation damper должен сработать без признаков повреждения, чтобы пройти closing reliability test?"
+  },
+  "why": {
+   "en": "Per the course (P613-2, Unit 4), a ceiling radiation damper must close 250 times with no sign of damage to pass the closing reliability test of UL 555C.",
+   "ru": "По курсу (P613-2, Unit 4) ceiling radiation damper должен закрыться 250 раз без признаков повреждения, чтобы пройти closing reliability test по UL 555C."
+  },
+  "opts": [
+   {
+    "en": "100",
+    "ru": "100"
+   },
+   {
+    "en": "150",
+    "ru": "150"
+   },
+   {
+    "en": "250",
+    "ru": "250"
+   },
+   {
+    "en": "300",
+    "ru": "300"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-410",
+  "src": "FSD",
+  "n": 410,
+  "topic": "dampers",
+  "q": {
+   "en": "According to UL Standard 555, nominal airflow rating conditions are 2000, 3000 and 4000 FPM. What are the actual required test levels?",
+   "ru": "По UL 555 номинальные скорости воздуха — 2000, 3000 и 4000 FPM. Какие скорости реально нужны при испытании?"
+  },
+  "why": {
+   "en": "UL 555 tests each airflow rating 400 FPM above nominal: 2000 + 400 = 2400, 3000 + 400 = 3400, 4000 + 400 = 4400 FPM. The damper must close and latch at those test velocities.",
+   "ru": "UL 555 испытывает каждый рейтинг скорости на 400 FPM выше номинала: 2000 + 400 = 2400, 3000 + 400 = 3400, 4000 + 400 = 4400 FPM. При этих скоростях damper должен закрыться и зафиксироваться."
+  },
+  "opts": [
+   {
+    "en": "2000, 3000 and 4000 FPM",
+    "ru": "2000, 3000 and 4000 FPM"
+   },
+   {
+    "en": "2200, 3200 and 4200 FPM",
+    "ru": "2200, 3200 and 4200 FPM"
+   },
+   {
+    "en": "2400, 3400 and 4400 FPM",
+    "ru": "2400, 3400 and 4400 FPM"
+   },
+   {
+    "en": "2600, 3600 and 4600 FPM",
+    "ru": "2600, 3600 and 4600 FPM"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-411",
+  "src": "FSD",
+  "n": 411,
+  "topic": "dampers",
+  "q": {
+   "en": "What is the minimum temperature rating for a smoke damper?",
+   "ru": "Какой минимальный температурный рейтинг у smoke damper?"
+  },
+  "why": {
+   "en": "A smoke damper must keep working at elevated temperature, and the minimum rating is 250 °F (350 °F is the common higher rating). 160 °F is the minimum for a heat-responsive device, a different item.",
+   "ru": "Smoke damper должен работать при повышенной температуре, минимальный рейтинг — 250 °F (350 °F — распространённый более высокий рейтинг). 160 °F — минимум для термочувствительного устройства, это другой вопрос."
+  },
+  "opts": [
+   {
+    "en": "450",
+    "ru": "450"
+   },
+   {
+    "en": "350",
+    "ru": "350"
+   },
+   {
+    "en": "250",
+    "ru": "250"
+   },
+   {
+    "en": "100",
+    "ru": "100"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-412",
+  "src": "FSD",
+  "n": 412,
+  "topic": "dampers",
+  "q": {
+   "en": "Which device is used to open and close the smoke damper?",
+   "ru": "Какое устройство открывает и закрывает smoke damper?"
+  },
+  "why": {
+   "en": "A smoke damper is opened and closed by an actuator (electric or pneumatic) on a signal from the smoke detection or fire alarm system. A fusible link only releases a fire damper once; a curtain is a blade type; the space envelope is the room around the damper.",
+   "ru": "Smoke damper открывает и закрывает actuator (электрический или пневматический) по сигналу от дымовых датчиков или пожарной сигнализации. Fusible link лишь однократно отпускает fire damper; curtain — тип лопаток; space envelope — место вокруг damper."
+  },
+  "opts": [
+   {
+    "en": "Actuator",
+    "ru": "Actuator"
+   },
+   {
+    "en": "Space envelope",
+    "ru": "Space envelope"
+   },
+   {
+    "en": "Fusible link",
+    "ru": "Fusible link"
+   },
+   {
+    "en": "Curtain",
+    "ru": "Curtain"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-413",
+  "src": "FSD",
+  "n": 413,
+  "topic": "dampers",
+  "q": {
+   "en": "Fabric curtain, butterfly, and trap/hinged door are all examples of what type of damper?",
+   "ru": "Fabric curtain, butterfly и trap/hinged door — это примеры какого типа damper?"
+  },
+  "why": {
+   "en": "Fabric curtain, butterfly and trap (hinged) door are the designs of ceiling radiation dampers installed at ceiling openings of rated floor-ceiling assemblies (UL 555C). A fire damper is the common wrong pick.",
+   "ru": "Fabric curtain, butterfly и trap (hinged) door — конструкции ceiling radiation dampers, которые ставят в проёмах потолка огнестойких перекрытий (UL 555C). Частый неверный выбор — fire damper."
+  },
+  "opts": [
+   {
+    "en": "Combination fire/smoke damper",
+    "ru": "Combination fire/smoke damper"
+   },
+   {
+    "en": "Fire damper",
+    "ru": "Fire damper"
+   },
+   {
+    "en": "Smoke damper",
+    "ru": "Smoke damper"
+   },
+   {
+    "en": "Ceiling (radiation) damper",
+    "ru": "Ceiling (radiation) damper"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-414",
+  "src": "FSD",
+  "n": 414,
+  "topic": "dampers",
+  "q": {
+   "en": "How long are corridor dampers rated for?",
+   "ru": "На сколько рассчитаны corridor dampers?"
+  },
+  "why": {
+   "en": "Corridor dampers are rated 1 hour (course P613-2, Unit 4), matching the usual 1-hour corridor wall. The 1½-hour rating is for ordinary fire dampers in barriers rated under 3 hours.",
+   "ru": "Corridor dampers рассчитаны на 1 час (курс P613-2, Unit 4) — как обычная стена коридора на 1 час. Рейтинг 1½ часа — для обычных fire dampers в барьерах меньше 3 часов."
+  },
+  "opts": [
+   {
+    "en": "1.5 hours",
+    "ru": "1.5 часа"
+   },
+   {
+    "en": "3 hours",
+    "ru": "3 часа"
+   },
+   {
+    "en": "1 hour",
+    "ru": "1 час"
+   },
+   {
+    "en": "2 hours",
+    "ru": "2 часа"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-415",
+  "src": "FSD",
+  "n": 415,
+  "topic": "dampers",
+  "q": {
+   "en": "Mechanical fusible links, electric fusible links, electric heat sensors, and pneumatic heat sensors are all examples of what?",
+   "ru": "Mechanical fusible links, electric fusible links, electric heat sensors и pneumatic heat sensors — это примеры чего?"
+  },
+  "why": {
+   "en": "All four react to heat and release or close the damper, so they are heat responsive devices. Smoke responsive devices are smoke detectors; locking devices hold blades closed.",
+   "ru": "Все четыре реагируют на тепло и отпускают или закрывают damper, поэтому это heat responsive devices. Smoke responsive devices — дымовые датчики; locking devices удерживают лопатки закрытыми."
+  },
+  "opts": [
+   {
+    "en": "Control devices",
+    "ru": "Control devices"
+   },
+   {
+    "en": "Heat responsive devices",
+    "ru": "Heat responsive devices"
+   },
+   {
+    "en": "Locking devices",
+    "ru": "Locking devices"
+   },
+   {
+    "en": "Smoke responsive devices",
+    "ru": "Smoke responsive devices"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-416",
+  "src": "FSD",
+  "n": 416,
+  "topic": "dampers",
+  "q": {
+   "en": "Which accessory reduces the transmission of heat through the assembly?",
+   "ru": "Какой аксессуар снижает передачу тепла через сборку?"
+  },
+  "why": {
+   "en": "A thermal blanket is the insulating blanket (used on ceiling radiation dampers) that reduces heat transfer through the assembly. A mullion joins dampers, a fusible link releases the damper, a retaining angle holds it in the wall.",
+   "ru": "Thermal blanket — теплоизоляционный мат (на ceiling radiation dampers), который снижает передачу тепла через сборку. Mullion соединяет dampers, fusible link отпускает damper, retaining angle держит его в стене."
+  },
+  "opts": [
+   {
+    "en": "Mullion",
+    "ru": "Mullion"
+   },
+   {
+    "en": "Fusible link",
+    "ru": "Fusible link"
+   },
+   {
+    "en": "Thermal blanket",
+    "ru": "Thermal blanket"
+   },
+   {
+    "en": "Retaining angle",
+    "ru": "Retaining angle"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-417",
+  "src": "FSD",
+  "n": 417,
+  "topic": "dampers",
+  "q": {
+   "en": "Which test establishes the hour classification of a fire damper?",
+   "ru": "Какое испытание устанавливает класс fire damper в часах?"
+  },
+  "why": {
+   "en": "The hour rating comes from the fire endurance test followed by the hose stream test: the damper must hold back fire for the rated time and then survive a water stream. The other tests check closing and reliability, not the hour rating.",
+   "ru": "Рейтинг в часах даёт испытание fire endurance с последующим hose stream test: damper должен сдерживать огонь заданное время, а затем выдержать струю воды. Остальные испытания проверяют закрытие и надёжность, а не часы."
+  },
+  "opts": [
+   {
+    "en": "Fire endurance/hose stream test",
+    "ru": "Fire endurance/hose stream test"
+   },
+   {
+    "en": "Spring closing force test",
+    "ru": "Spring closing force test"
+   },
+   {
+    "en": "Operational reliability test",
+    "ru": "Operational reliability test"
+   },
+   {
+    "en": "Dynamic closure test",
+    "ru": "Dynamic closure test"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-418",
+  "src": "FSD",
+  "n": 418,
+  "topic": "dampers",
+  "q": {
+   "en": "Static systems are those that do what in the event of a fire or smoke incident?",
+   "ru": "Что делают static systems при пожаре или задымлении?"
+  },
+  "why": {
+   "en": "Static systems are HVAC systems whose fans shut down when fire or smoke is detected, so static dampers close with no airflow. Systems that keep operating are dynamic and need dynamic dampers.",
+   "ru": "Static systems — системы HVAC, вентиляторы которых при обнаружении огня или дыма отключаются, поэтому static dampers закрываются без потока воздуха. Системы, которые продолжают работать, — dynamic, им нужны dynamic dampers."
+  },
+  "opts": [
+   {
+    "en": "Operate",
+    "ru": "Продолжают работать"
+   },
+   {
+    "en": "Shut down",
+    "ru": "Отключаются"
+   },
+   {
+    "en": "Cling",
+    "ru": "Прилипают"
+   },
+   {
+    "en": "Collapse",
+    "ru": "Обрушиваются"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-419",
+  "src": "FSD",
+  "n": 419,
+  "topic": "dampers",
+  "q": {
+   "en": "Operability refers to how a damper is activated.",
+   "ru": "Operability — это то, как damper приводится в действие."
+  },
+  "why": {
+   "en": "True: in the course (P613-2, Unit 4) operability means how a damper is activated — by a fusible link, heat sensor, actuator and so on. FSD-945 asks the same definition as a fill-in.",
+   "ru": "Верно: по курсу (P613-2, Unit 4) operability — это то, как damper приводится в действие: fusible link, термодатчик, actuator и т. д. FSD-945 спрашивает то же определение в виде вставки слова."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "Верно"
+   },
+   {
+    "en": "False",
+    "ru": "Неверно"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-420",
+  "src": "FSD",
+  "n": 420,
+  "topic": "dampers",
+  "q": {
+   "en": "Fire dampers normally close when a temperature-sensing element located on the damper is activated by heat that reaches what temperature?",
+   "ru": "Fire dampers обычно закрываются, когда термочувствительный элемент на damper нагревается до какой температуры?"
+  },
+  "why": {
+   "en": "The standard fusible link on a fire damper is 165 °F, just above the 160 °F minimum for a heat-responsive device. 135 °F is below that 160 °F minimum, and 195 °F or 225 °F is not the normal setting.",
+   "ru": "Стандартный fusible link на fire damper — 165 °F, чуть выше минимума 160 °F для термочувствительного устройства. 135 °F ниже этого минимума 160 °F, а 195 °F и 225 °F — не обычная настройка."
+  },
+  "opts": [
+   {
+    "en": "165 F",
+    "ru": "165 F"
+   },
+   {
+    "en": "225 F",
+    "ru": "225 F"
+   },
+   {
+    "en": "195 F",
+    "ru": "195 F"
+   },
+   {
+    "en": "135 F",
+    "ru": "135 F"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-421",
+  "src": "FSD",
+  "n": 421,
+  "topic": "dampers",
+  "q": {
+   "en": "Which type of damper has the damper frame and blades positioned in the air stream, and offers the greatest restriction to airflow?",
+   "ru": "У какого типа damper рама и лопатки находятся в потоке воздуха и дают наибольшее сопротивление?"
+  },
+  "why": {
+   "en": "In a Type A curtain damper both the frame and the blade pack sit in the air stream, so it restricts airflow the most. Type B keeps the blades out of the air stream, and Type C keeps frame and blades out of it (round or oval collars).",
+   "ru": "У Type A curtain damper и рама, и пакет лопаток стоят в потоке, поэтому сопротивление наибольшее. У Type B лопатки вынесены из потока, у Type C из потока вынесены и рама, и лопатки (с круглыми или овальными патрубками)."
+  },
+  "opts": [
+   {
+    "en": "Type A",
+    "ru": "Type A"
+   },
+   {
+    "en": "Type B",
+    "ru": "Type B"
+   },
+   {
+    "en": "Type C (round)",
+    "ru": "Type C (round)"
+   },
+   {
+    "en": "Type C (oval)",
+    "ru": "Type C (oval)"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-422",
+  "src": "FSD",
+  "n": 422,
+  "topic": "dampers",
+  "q": {
+   "en": "According to UL Standard 555, nominal pressure rating conditions are 4, 6 and 8 inches and require tests to which of the following?",
+   "ru": "По UL 555 номинальные давления — 4, 6 и 8 дюймов. При каких давлениях их нужно испытывать?"
+  },
+  "why": {
+   "en": "UL 555 tests each pressure rating 0.5 in. w.g. above nominal: 4 + 0.5 = 4.5, 6 + 0.5 = 6.5, 8 + 0.5 = 8.5 inches. Same idea as the airflow test, which adds 400 FPM.",
+   "ru": "UL 555 испытывает каждый рейтинг давления на 0.5 in. w.g. выше номинала: 4 + 0.5 = 4.5, 6 + 0.5 = 6.5, 8 + 0.5 = 8.5 дюйма. Тот же принцип, что и в испытании скоростью, где добавляют 400 FPM."
+  },
+  "opts": [
+   {
+    "en": "4.0, 6.0 and 8.0 inches",
+    "ru": "4.0, 6.0 and 8.0 inches"
+   },
+   {
+    "en": "4.5, 6.5 and 8.5 inches",
+    "ru": "4.5, 6.5 and 8.5 inches"
+   },
+   {
+    "en": "8.0, 12.0 and 16.0 inches",
+    "ru": "8.0, 12.0 and 16.0 inches"
+   },
+   {
+    "en": "8.5, 12.5 and 16.5 inches",
+    "ru": "8.5, 12.5 and 16.5 inches"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-423",
+  "src": "FSD",
+  "n": 423,
+  "topic": "dampers",
+  "q": {
+   "en": "The override package consists of primary and secondary heat responsive device.",
+   "ru": "Override package состоит из основного и вторичного термочувствительного устройства."
+  },
+  "why": {
+   "en": "True: an override package has a primary heat-responsive device (typically 165 °F) and a secondary one with a higher setting, so the fire department can reopen a combination damper for smoke control until the duct gets too hot.",
+   "ru": "Верно: override package — это основное термочувствительное устройство (обычно 165 °F) и вторичное с более высокой температурой, чтобы пожарные могли снова открыть combination damper для удаления дыма, пока duct не станет слишком горячим."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "Верно"
+   },
+   {
+    "en": "False",
+    "ru": "Неверно"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-424",
+  "src": "FSD",
+  "n": 424,
+  "topic": "dampers",
+  "q": {
+   "en": "Smoke dampers are rated based upon ______________.",
+   "ru": "Smoke dampers рейтингуют по ___."
+  },
+  "why": {
+   "en": "Smoke dampers are rated by leakage — how much air passes through the closed damper (leakage classes I, II, III under UL 555S). Fire endurance is the rating basis of fire dampers.",
+   "ru": "Smoke dampers рейтингуют по leakage — сколько воздуха проходит через закрытый damper (классы leakage I, II, III по UL 555S). Fire endurance — основа рейтинга fire dampers."
+  },
+  "opts": [
+   {
+    "en": "Operability",
+    "ru": "Operability"
+   },
+   {
+    "en": "Fire endurance",
+    "ru": "Fire endurance"
+   },
+   {
+    "en": "Filtration",
+    "ru": "Filtration"
+   },
+   {
+    "en": "Leakage",
+    "ru": "Leakage"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-501",
+  "src": "FSD",
+  "n": 501,
+  "topic": "dampers",
+  "q": {
+   "en": "Sleeve gauge, or thickness, requirements depend on damper size and what other factor?",
+   "ru": "Требования к gauge (толщине) sleeve зависят от размера damper и какого ещё фактора?"
+  },
+  "why": {
+   "en": "Sleeve gauge depends on damper size and on the duct-to-sleeve connection: with breakaway connections a lighter sleeve is allowed, while a rigid connection needs a heavier sleeve (for example 16 ga up to a set size, 14 ga above it in the Aire Technologies instructions).",
+   "ru": "Gauge sleeve зависит от размера damper и от соединения duct со sleeve: при breakaway connections допускается более тонкий sleeve, а rigid connection требует более толстого (например, по инструкции Aire Technologies — 16 ga до определённого размера, больше — 14 ga)."
+  },
+  "opts": [
+   {
+    "en": "The type of damper blade design used",
+    "ru": "Тип конструкции лопаток damper"
+   },
+   {
+    "en": "The rate of airflow",
+    "ru": "Скорость воздуха"
+   },
+   {
+    "en": "The type of duct to sleeve connections used",
+    "ru": "Тип соединений duct со sleeve"
+   },
+   {
+    "en": "The rate of actuation",
+    "ru": "Скорость срабатывания"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-502",
+  "src": "FSD",
+  "n": 502,
+  "topic": "dampers",
+  "q": {
+   "en": "Installing the actuators internally is not recommended for which of the following reasons?",
+   "ru": "Почему не рекомендуется ставить actuators внутри (в потоке воздуха)?"
+  },
+  "why": {
+   "en": "An actuator mounted inside the duct sits in the air stream and can cause an excessive pressure drop (course P613-2, Unit 5). The reason is airflow resistance, not looks.",
+   "ru": "Actuator внутри duct стоит в потоке воздуха и может давать слишком большое падение давления (курс P613-2, Unit 5). Причина — сопротивление потоку, а не внешний вид."
+  },
+  "opts": [
+   {
+    "en": "Internally installed actuators are less visually appealing",
+    "ru": "Внутренние actuators хуже выглядят"
+   },
+   {
+    "en": "Internally installed actuators have not been tested to UL standards",
+    "ru": "Внутренние actuators не испытаны по стандартам UL"
+   },
+   {
+    "en": "Internally installed actuators may result in pressure drops that are excessive",
+    "ru": "Внутренние actuators могут давать слишком большое падение давления"
+   },
+   {
+    "en": "Internally installed actuators are more likely to malfunction",
+    "ru": "Внутренние actuators чаще ломаются"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-503",
+  "src": "FSD",
+  "n": 503,
+  "topic": "dampers",
+  "q": {
+   "en": "Retaining angles must cover the corners of the opening and overlap the opening for the duct by a minimum of __________________. .",
+   "ru": "Retaining angles должны закрывать углы проёма и перекрывать проём для duct минимум на ___."
+  },
+  "why": {
+   "en": "Retaining angles must cover the corners and overlap the wall opening by at least 1 inch on all sides, so the damper cannot be pushed through the opening. 0.5 inch is too little; 1.5 and 2 inches are allowed but are not the minimum.",
+   "ru": "Retaining angles должны закрывать углы и перекрывать проём в стене минимум на 1 дюйм со всех сторон, чтобы damper нельзя было протолкнуть сквозь проём. 0.5 дюйма мало; 1.5 и 2 дюйма можно, но это не минимум."
+  },
+  "opts": [
+   {
+    "en": "2 inches",
+    "ru": "2 дюйма"
+   },
+   {
+    "en": "0.5 inches",
+    "ru": "0.5 дюйма"
+   },
+   {
+    "en": "1 inch",
+    "ru": "1 дюйм"
+   },
+   {
+    "en": "1.5 inches",
+    "ru": "1.5 дюйма"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-504",
+  "src": "FSD",
+  "n": 504,
+  "topic": "dampers",
+  "q": {
+   "en": "If the local AHJ mandates that fire damper retaining angles be sealed, the HVAC contractor should ___________.",
+   "ru": "Если местный AHJ требует герметизировать retaining angles fire damper, что должен сделать HVAC-подрядчик?"
+  },
+  "why": {
+   "en": "Sealing the angles may conflict with the manufacturer’s listed installation instructions (they normally say no caulk between angles and sleeve), so the contractor issues an RFI and gets a written answer from the design team. Asking the manufacturer or the foreman does not resolve a conflict between the AHJ and the documents.",
+   "ru": "Герметизация angles может противоречить листингованной инструкции производителя (обычно герметик между angles и sleeve не кладут), поэтому подрядчик направляет RFI и получает письменный ответ проектировщиков. Консультация с производителем или foreman не снимает противоречия между AHJ и документами."
+  },
+  "opts": [
+   {
+    "en": "Request a new AHJ be assigned",
+    "ru": "Потребовать другого AHJ"
+   },
+   {
+    "en": "Consult with the manufacturer",
+    "ru": "Проконсультироваться с производителем"
+   },
+   {
+    "en": "Issue an RFI",
+    "ru": "Направить RFI"
+   },
+   {
+    "en": "Consult with the HVAC foreman",
+    "ru": "Спросить HVAC foreman"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-505",
+  "src": "FSD",
+  "n": 505,
+  "topic": "dampers",
+  "q": {
+   "en": "What serves as the basis for all life safety damper installations?",
+   "ru": "Что служит основой для монтажа любых life safety dampers?"
+  },
+  "why": {
+   "en": "The damper is UL tested and listed only as installed per the manufacturer’s installation instructions, so those instructions are the basis of every life safety damper installation. Codes and specifications say where a damper goes, not how this damper is installed.",
+   "ru": "Damper испытан и получил листинг UL только при монтаже по инструкции производителя, поэтому она — основа монтажа любого life safety damper. Нормы и спецификации говорят, где нужен damper, а не как ставить именно этот damper."
+  },
+  "opts": [
+   {
+    "en": "NFPA 90",
+    "ru": "NFPA 90"
+   },
+   {
+    "en": "Local building codes",
+    "ru": "Местные строительные нормы"
+   },
+   {
+    "en": "The specifications",
+    "ru": "Спецификации"
+   },
+   {
+    "en": "The manufacturer’s installation instructions",
+    "ru": "Инструкция производителя по монтажу"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-506",
+  "src": "FSD",
+  "n": 506,
+  "topic": "dampers",
+  "q": {
+   "en": "Sleeve length depends on several factors, including ______.",
+   "ru": "Длина sleeve зависит от нескольких факторов, в том числе от ___."
+  },
+  "why": {
+   "en": "Sleeve length depends on the method of installation — wall thickness, how the duct connects and whether an actuator or access door is on the sleeve (in the Aire Technologies instructions the sleeve may stick out up to 6 inches, or 16 inches with an actuator or access door).",
+   "ru": "Длина sleeve зависит от способа монтажа — толщины стены, соединения с duct и того, есть ли на sleeve actuator или access door (по инструкции Aire Technologies sleeve выступает до 6 дюймов, а с actuator или access door — до 16 дюймов)."
+  },
+  "opts": [
+   {
+    "en": "Method of installation",
+    "ru": "Способа монтажа"
+   },
+   {
+    "en": "Thickness of sleeve",
+    "ru": "Толщины sleeve"
+   },
+   {
+    "en": "Rating of damper",
+    "ru": "Рейтинга damper"
+   },
+   {
+    "en": "Date of inspection",
+    "ru": "Даты проверки"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-507",
+  "src": "FSD",
+  "n": 507,
+  "topic": "dampers",
+  "q": {
+   "en": "Nearly all codes state that penetrations of fire-rated assemblies are required to be ______________.",
+   "ru": "Почти все нормы требуют, чтобы проходки через огнестойкие конструкции были ___."
+  },
+  "why": {
+   "en": "Codes require penetrations of fire-rated assemblies to be firestopped, i.e. sealed with a listed firestop system that restores the rating. Intumescent describes one kind of firestop material, not the requirement.",
+   "ru": "Нормы требуют, чтобы проходки через огнестойкие конструкции были firestopped — заделаны листингованной системой firestop, которая восстанавливает огнестойкость. Intumescent — свойство одного из видов материала firestop, а не само требование."
+  },
+  "opts": [
+   {
+    "en": "Firestopped",
+    "ru": "Firestopped"
+   },
+   {
+    "en": "Intumescent",
+    "ru": "Intumescent"
+   },
+   {
+    "en": "Lubricated",
+    "ru": "Lubricated"
+   },
+   {
+    "en": "Expansive",
+    "ru": "Expansive"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-508",
+  "src": "FSD",
+  "n": 508,
+  "topic": "dampers",
+  "q": {
+   "en": "Why are breakaway duct/sleeve connections used with dampers?",
+   "ru": "Зачем у dampers применяют breakaway-соединения duct/sleeve?"
+  },
+  "why": {
+   "en": "If the duct sags or falls in a fire, a breakaway connection lets it pull away while the damper and sleeve stay in the wall and keep the opening closed. The damper is the part that must stay; access is given by access doors.",
+   "ru": "Если duct при пожаре провиснет или упадёт, breakaway-соединение даёт ему оторваться, а damper со sleeve остаются в стене и держат проём закрытым. Оставаться должен именно damper; доступ дают access doors."
+  },
+  "opts": [
+   {
+    "en": "So the damper/sleeve assembly can separate from the duct if the duct falls during a fire",
+    "ru": "Чтобы сборка damper/sleeve отделилась от duct, если duct упадёт при пожаре"
+   },
+   {
+    "en": "So the duct can separate from the damper if the damper falls during a fire",
+    "ru": "Чтобы duct отделился от damper, если damper упадёт при пожаре"
+   },
+   {
+    "en": "So the damper can be easily accessed for testing, repair and replacement",
+    "ru": "Чтобы к damper был удобный доступ для проверки, ремонта и замены"
+   },
+   {
+    "en": "So the sleeve can be easily accessed for repair and replacement",
+    "ru": "Чтобы к sleeve был удобный доступ для ремонта и замены"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-509",
+  "src": "FSD",
+  "n": 509,
+  "topic": "dampers",
+  "q": {
+   "en": "Access doors are required to provide access to all fire dampers for __________.",
+   "ru": "Access doors нужны, чтобы был доступ ко всем fire dampers для ___."
+  },
+  "why": {
+   "en": "Every fire damper needs an access door so it can be inspected and tested — resetting the link and checking that it closes. The door is required for this inspection and testing, not for installation or removal.",
+   "ru": "К каждому fire damper нужна access door, чтобы его осматривать и проверять: перезаряжать link и убеждаться, что он закрывается. Дверца нужна именно для осмотра и проверки, а не для монтажа или демонтажа."
+  },
+  "opts": [
+   {
+    "en": "Installation",
+    "ru": "Монтажа"
+   },
+   {
+    "en": "Training",
+    "ru": "Обучения"
+   },
+   {
+    "en": "Removal",
+    "ru": "Демонтажа"
+   },
+   {
+    "en": "Testing",
+    "ru": "Проверки"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-510",
+  "src": "FSD",
+  "n": 510,
+  "topic": "dampers",
+  "q": {
+   "en": "Dynamic fire dampers are designed for HVAC systems that do what in the event of a fire?",
+   "ru": "Dynamic fire dampers рассчитаны на системы HVAC, которые что делают при пожаре?"
+  },
+  "why": {
+   "en": "Dynamic fire dampers are for systems whose fans keep operating during a fire, so the damper must close against moving air. Systems that shut down use static dampers.",
+   "ru": "Dynamic fire dampers — для систем, вентиляторы которых при пожаре продолжают работать, поэтому damper должен закрыться против потока воздуха. Для систем, которые отключаются, ставят static dampers."
+  },
+  "opts": [
+   {
+    "en": "Detach",
+    "ru": "Отсоединяются"
+   },
+   {
+    "en": "Reverse",
+    "ru": "Реверсируются"
+   },
+   {
+    "en": "Shut down",
+    "ru": "Отключаются"
+   },
+   {
+    "en": "Operate",
+    "ru": "Продолжают работать"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-511",
+  "src": "FSD",
+  "n": 511,
+  "topic": "dampers",
+  "q": {
+   "en": "If a damper cannot be installed in a location due to the size, configuration, location of the opening, etc., who is responsible for correcting the installation site?",
+   "ru": "Если damper нельзя установить в каком-то месте из-за размера, конфигурации, расположения проёма и т. п., кто отвечает за исправление места монтажа?"
+  },
+  "why": {
+   "en": "The contractor responsible for that opening or condition corrects the installation site (course P613-2, Unit 5). The HVAC contractor installs the damper; it does not automatically fix someone else’s opening.",
+   "ru": "Место монтажа исправляет подрядчик, ответственный за этот проём или конструкцию (курс P613-2, Unit 5). HVAC-подрядчик ставит damper, но не обязан сам исправлять чужой проём."
+  },
+  "opts": [
+   {
+    "en": "The responsible contractor",
+    "ru": "Ответственный подрядчик"
+   },
+   {
+    "en": "The HVAC or ductwork contractor",
+    "ru": "HVAC- или duct-подрядчик"
+   },
+   {
+    "en": "The HVAC foreman",
+    "ru": "HVAC foreman"
+   },
+   {
+    "en": "The site owner",
+    "ru": "Владелец объекта"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-512",
+  "src": "FSD",
+  "n": 512,
+  "topic": "dampers",
+  "q": {
+   "en": "When mounting rectangular dampers, the perimeter mounting angles are rigidly fastened to ______________. .",
+   "ru": "При монтаже прямоугольных dampers периметральные mounting angles жёстко крепят к ___."
+  },
+  "why": {
+   "en": "Mounting (retaining) angles are fastened to the damper sleeve or frame, never to the wall, so the wall can move and the damper assembly still stays in the opening. The angles only overlap the wall surface.",
+   "ru": "Mounting (retaining) angles крепят к sleeve или раме damper, а не к стене: стена может деформироваться, а сборка damper всё равно останется в проёме. К стене angles только прилегают с перекрытием."
+  },
+  "opts": [
+   {
+    "en": "The floor surface",
+    "ru": "Поверхности пола"
+   },
+   {
+    "en": "The ceiling or frame",
+    "ru": "Потолку или раме"
+   },
+   {
+    "en": "The damper sleeve or frame",
+    "ru": "Sleeve или раме damper"
+   },
+   {
+    "en": "The wall surface",
+    "ru": "Поверхности стены"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-513",
+  "src": "FSD",
+  "n": 513,
+  "topic": "dampers",
+  "q": {
+   "en": "If a wall opening is larger than the approved maximum damper assembly size, what should you do?",
+   "ru": "Если проём в стене больше максимального разрешённого размера сборки damper, что делать?"
+  },
+  "why": {
+   "en": "An opening larger than the largest listed damper assembly is split into sections with an approved mullion, so each section takes a listed damper. A larger damper than the listed maximum does not exist, and a new sleeve does not change the size limit.",
+   "ru": "Проём больше максимальной листингованной сборки делят на секции сертифицированным mullion, и в каждую секцию ставят листингованный damper. Damper больше максимального листингованного размера нет, а новый sleeve этот предел не меняет."
+  },
+  "opts": [
+   {
+    "en": "Use mounting angles",
+    "ru": "Использовать mounting angles"
+   },
+   {
+    "en": "Use an approved mullion",
+    "ru": "Использовать сертифицированный mullion"
+   },
+   {
+    "en": "Use a larger damper",
+    "ru": "Поставить damper больше"
+   },
+   {
+    "en": "Fabricate a new sleeve",
+    "ru": "Изготовить новый sleeve"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-514",
+  "src": "FSD",
+  "n": 514,
+  "topic": "dampers",
+  "q": {
+   "en": "When an arrow is present on the damper frame, you should orient the damper in which direction?",
+   "ru": "Если на раме damper есть стрелка, как ориентировать damper?"
+  },
+  "why": {
+   "en": "The arrow shows the airflow direction the damper was tested for, so it must point in the direction of the airflow. A damper installed backwards may not close or seal as listed.",
+   "ru": "Стрелка показывает направление потока, для которого damper испытан, поэтому она должна смотреть по направлению потока. Damper, поставленный задом наперёд, может не закрыться или не уплотниться, как при испытании."
+  },
+  "opts": [
+   {
+    "en": "Perpendicular to the airflow",
+    "ru": "Перпендикулярно потоку"
+   },
+   {
+    "en": "Opposite the airflow",
+    "ru": "Против потока"
+   },
+   {
+    "en": "Underneath the airflow",
+    "ru": "Под потоком"
+   },
+   {
+    "en": "In the direction of the airflow",
+    "ru": "По направлению потока"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-515",
+  "src": "FSD",
+  "n": 515,
+  "topic": "dampers",
+  "q": {
+   "en": "Smoke dampers should be installed what distance from the smoke barrier?",
+   "ru": "На каком расстоянии от smoke barrier ставят smoke dampers?"
+  },
+  "why": {
+   "en": "A smoke damper goes at the barrier or not more than 24 inches from it, so very little duct is left where smoke could get in between the damper and the barrier.",
+   "ru": "Smoke damper ставят у самого барьера или не дальше 24 дюймов от него, чтобы между damper и барьером оставался совсем короткий участок duct, куда может попасть дым."
+  },
+  "opts": [
+   {
+    "en": "Not more than 6 inches",
+    "ru": "Не дальше 6 дюймов"
+   },
+   {
+    "en": "Not more than 12 inches",
+    "ru": "Не дальше 12 дюймов"
+   },
+   {
+    "en": "Not more than 24 inches",
+    "ru": "Не дальше 24 дюймов"
+   },
+   {
+    "en": "Not more than 48 inches",
+    "ru": "Не дальше 48 дюймов"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-601",
+  "src": "FSD",
+  "n": 601,
+  "topic": "dampers",
+  "q": {
+   "en": "The process of testing the smoke-control system is often referred to as __________.",
+   "ru": "Испытание системы smoke-control часто называют ___."
+  },
+  "why": {
+   "en": "Testing the whole smoke-control system before the building is accepted is called acceptance testing. Component (functional) testing checks the separate parts, such as each damper.",
+   "ru": "Испытание всей системы smoke-control перед приёмкой здания называется acceptance testing. Component (functional) testing проверяет отдельные части, например каждый damper."
+  },
+  "opts": [
+   {
+    "en": "Operational testing",
+    "ru": "Operational testing"
+   },
+   {
+    "en": "Component testing",
+    "ru": "Component testing"
+   },
+   {
+    "en": "Acceptance testing",
+    "ru": "Acceptance testing"
+   },
+   {
+    "en": "Functional testing",
+    "ru": "Functional testing"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-602",
+  "src": "FSD",
+  "n": 602,
+  "topic": "dampers",
+  "q": {
+   "en": "During component testing, verify the proper operation of components of the installed unit by _____________. .",
+   "ru": "При component testing правильную работу компонентов установленного узла проверяют с помощью ___."
+  },
+  "why": {
+   "en": "Component testing verifies each damper by cycle testing: the damper is run closed and open to show it operates fully. Salt-spray testing is a lab corrosion test, not a field check.",
+   "ru": "При component testing каждый damper проверяют cycle testing: его закрывают и открывают, чтобы убедиться, что он полностью срабатывает. Salt-spray testing — лабораторное испытание на коррозию, а не проверка на объекте."
+  },
+  "opts": [
+   {
+    "en": "Cycle testing",
+    "ru": "Cycle testing"
+   },
+   {
+    "en": "Salt-spray testing",
+    "ru": "Salt-spray testing"
+   },
+   {
+    "en": "Individual testing",
+    "ru": "Individual testing"
+   },
+   {
+    "en": "Distance testing",
+    "ru": "Distance testing"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-603",
+  "src": "FSD",
+  "n": 603,
+  "topic": "dampers",
+  "q": {
+   "en": "During component (functional) testing, fusible links shall be __________.",
+   "ru": "При component (functional) testing fusible links нужно ___."
+  },
+  "why": {
+   "en": "To test a fire damper the fusible link is removed, so the damper drops closed as it would in a fire; then the link is put back or replaced. A link cannot be \"cycled\" — it works once.",
+   "ru": "Чтобы проверить fire damper, fusible link снимают: damper падает и закрывается, как при пожаре; потом link ставят обратно или меняют. «Прогнать» link нельзя — он срабатывает один раз."
+  },
+  "opts": [
+   {
+    "en": "Cycled 10 times",
+    "ru": "Прогнать 10 раз"
+   },
+   {
+    "en": "Automatically replaced",
+    "ru": "Автоматически заменить"
+   },
+   {
+    "en": "Tested within the system",
+    "ru": "Проверять в составе системы"
+   },
+   {
+    "en": "Removed for testing",
+    "ru": "Снять для проверки"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-604",
+  "src": "FSD",
+  "n": 604,
+  "topic": "dampers",
+  "q": {
+   "en": "Obstructions, dirt build-up, and rust or corrosion should be carefully removed using .",
+   "ru": "Препятствия, налёт грязи, ржавчину и коррозию нужно аккуратно удалять с помощью ___."
+  },
+  "why": {
+   "en": "Damper parts are cleaned with a mild solvent or detergent, which removes dirt and rust without damaging blades, seals or coatings. A harsh solvent or an abrasive can damage them.",
+   "ru": "Детали damper чистят мягким растворителем или моющим средством: грязь и ржавчина уходят, а лопатки, уплотнения и покрытия не страдают. Сильный растворитель или абразив может их повредить."
+  },
+  "opts": [
+   {
+    "en": "A harsh solvent or detergent",
+    "ru": "Сильного растворителя или моющего средства"
+   },
+   {
+    "en": "Soap and water",
+    "ru": "Мыла и воды"
+   },
+   {
+    "en": "A mild solvent or detergent",
+    "ru": "Мягкого растворителя или моющего средства"
+   },
+   {
+    "en": "An abrasive",
+    "ru": "Абразива"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-605",
+  "src": "FSD",
+  "n": 605,
+  "topic": "dampers",
+  "q": {
+   "en": "How does the UL determine the suitability of a modification that would use original parts?",
+   "ru": "Как UL определяет пригодность модификации, в которой используются оригинальные детали?"
+  },
+  "why": {
+   "en": "UL judges a field modification made with original parts by a field inspection (UL field evaluation) of the actual damper. An RFI or drawings cannot show how the modified unit was built.",
+   "ru": "Пригодность модификации на объекте с оригинальными деталями UL определяет проверкой на месте (UL field evaluation) самого damper. RFI или чертежи не показывают, как переделанный узел выполнен на деле."
+  },
+  "opts": [
+   {
+    "en": "Inspection of the RFI",
+    "ru": "Проверкой RFI"
+   },
+   {
+    "en": "A field inspection",
+    "ru": "Проверкой на объекте"
+   },
+   {
+    "en": "Inspection of the blueprints",
+    "ru": "Проверкой чертежей"
+   },
+   {
+    "en": "A remote evaluation",
+    "ru": "Удалённой оценкой"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-606",
+  "src": "FSD",
+  "n": 606,
+  "topic": "dampers",
+  "q": {
+   "en": "Component testing is also sometimes referred to as ___________.",
+   "ru": "Component testing иногда ещё называют ___."
+  },
+  "why": {
+   "en": "Component testing is also called functional testing: each damper is made to function (close and open) on its own. Acceptance testing is the test of the whole smoke-control system.",
+   "ru": "Component testing ещё называют functional testing: каждый damper заставляют сработать (закрыться и открыться) отдельно. Acceptance testing — это испытание всей системы smoke-control."
+  },
+  "opts": [
+   {
+    "en": "Functional testing",
+    "ru": "Functional testing"
+   },
+   {
+    "en": "Operational testing",
+    "ru": "Operational testing"
+   },
+   {
+    "en": "Process testing",
+    "ru": "Process testing"
+   },
+   {
+    "en": "Preliminary testing",
+    "ru": "Preliminary testing"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-607",
+  "src": "FSD",
+  "n": 607,
+  "topic": "dampers",
+  "q": {
+   "en": "All actuator-operated dampers should be cycled a minimum of one time every __________________.",
+   "ru": "Все dampers с actuator нужно прогонять (cycle) минимум один раз в каждые ___."
+  },
+  "why": {
+   "en": "The course key is six months: actuator-operated dampers are exercised at least every six months so the blades and actuator do not stick. This is separate from the formal periodic inspection and test of fire and smoke dampers.",
+   "ru": "По ключу курса — шесть месяцев: dampers с actuator прогоняют минимум раз в полгода, чтобы лопатки и actuator не закисли. Это отдельно от формальной периодической проверки fire и smoke dampers."
+  },
+  "opts": [
+   {
+    "en": "One month",
+    "ru": "Один месяц"
+   },
+   {
+    "en": "Three months",
+    "ru": "Три месяца"
+   },
+   {
+    "en": "Six months",
+    "ru": "Шесть месяцев"
+   },
+   {
+    "en": "Twelve months",
+    "ru": "Двенадцать месяцев"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-942",
+  "src": "FSD",
+  "n": 942,
+  "topic": "dampers",
+  "q": {
+   "en": "When a building undergoes extensive remodeling, the affected building systems must comply with which codes?",
+   "ru": "Когда здание проходит капитальную реконструкцию, каким нормам должны соответствовать затронутые системы здания?"
+  },
+  "why": {
+   "en": "Systems affected by an extensive remodel must meet the current codes; the original codes protect only the parts that stay unchanged. This is the four-option version of FSD-203 from the Friday written test.",
+   "ru": "Затронутые капитальной реконструкцией системы должны соответствовать действующим нормам; первоначальные нормы сохраняются только для частей, которые не меняют. Это вариант FSD-203 с четырьмя ответами из пятничного письменного теста."
+  },
+  "opts": [
+   {
+    "en": "The original codes",
+    "ru": "Первоначальным нормам"
+   },
+   {
+    "en": "The current codes",
+    "ru": "Действующим нормам"
+   },
+   {
+    "en": "The simpler codes",
+    "ru": "Более простым нормам"
+   },
+   {
+    "en": "The older codes",
+    "ru": "Более старым нормам"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "FSD-945",
+  "src": "FSD",
+  "n": 945,
+  "topic": "dampers",
+  "q": {
+   "en": "Fill in the blank: Operability refers to _________________________________.",
+   "ru": "Заполните пропуск: Operability означает ___."
+  },
+  "why": {
+   "en": "In the course (P613-2, Unit 4) operability means how a damper is activated — fusible link, heat sensor, actuator. \"How easy a damper is to use\" is the everyday meaning of the word and the trap. FSD-419 asks the same definition as True/False.",
+   "ru": "По курсу (P613-2, Unit 4) operability — это то, как damper приводится в действие: fusible link, термодатчик, actuator. «Насколько удобен в работе» — бытовой смысл слова и ловушка. FSD-419 спрашивает то же определение как «верно / неверно»."
+  },
+  "opts": [
+   {
+    "en": "The quality of a damper",
+    "ru": "Качество damper"
+   },
+   {
+    "en": "How easy a damper is to use",
+    "ru": "Насколько damper удобен в работе"
+   },
+   {
+    "en": "Whether a damper is static or dynamic",
+    "ru": "Static damper или dynamic"
+   },
+   {
+    "en": "How a damper is activated",
+    "ru": "Как damper приводится в действие"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-3",
+  "src": "Y1W3",
+  "n": 3,
+  "topic": "trade",
+  "q": {
+   "en": "What do the letters JATC stand for?",
+   "ru": "Что означают буквы JATC?"
+  },
+  "why": {
+   "en": "JATC = Joint Apprenticeship Training Committee: the committee that runs the apprenticeship, made up jointly of union and contractor members. The wrong options swap Joint for Junior or Committee for Commission.",
+   "ru": "JATC = Joint Apprenticeship Training Committee — комитет, который ведёт apprenticeship; в него поровну (jointly) входят представители профсоюза и подрядчиков. В неверных вариантах Joint заменено на Junior или Committee на Commission."
+  },
+  "opts": [
+   {
+    "en": "JUNIOR APPRENTICESHIP TRAINING COMMITTEE",
+    "ru": "JUNIOR APPRENTICESHIP TRAINING COMMITTEE"
+   },
+   {
+    "en": "JOINT APPRENTICESHIP TRAINING COMMISSION",
+    "ru": "JOINT APPRENTICESHIP TRAINING COMMISSION"
+   },
+   {
+    "en": "JOINT APPRENTICESHIP TRAINING COMMITTEE",
+    "ru": "JOINT APPRENTICESHIP TRAINING COMMITTEE"
+   },
+   {
+    "en": "JUNIOR APPRENTICESHIP TRAINING COMMISSION",
+    "ru": "JUNIOR APPRENTICESHIP TRAINING COMMISSION"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-4",
+  "src": "Y1W3",
+  "n": 4,
+  "topic": "trade",
+  "q": {
+   "en": "What is the name of one of Americas most famous metal workers, who started a copper rolling mill in 1801 and also helped move sheet metal work into the industrial age?",
+   "ru": "Как зовут одного из самых известных мастеров по металлу в Америке, который в 1801 году открыл медепрокатный завод и помог вывести sheet metal work в индустриальную эпоху?"
+  },
+  "why": {
+   "en": "Paul Revere, the Boston silversmith of the American Revolution, opened the first successful copper rolling mill in America in 1801 (Canton, Massachusetts). His rolled copper sheathed the hull of the USS Constitution.",
+   "ru": "Paul Revere — бостонский серебряных дел мастер времён Войны за независимость — в 1801 году открыл первый успешный медепрокатный завод в Америке (Canton, Massachusetts). Его листовой медью обшили корпус фрегата USS Constitution."
+  },
+  "opts": [
+   {
+    "en": "BEN FRANKLIN",
+    "ru": "BEN FRANKLIN"
+   },
+   {
+    "en": "THOMAS JEFFERSON",
+    "ru": "THOMAS JEFFERSON"
+   },
+   {
+    "en": "PAUL REVERE",
+    "ru": "PAUL REVERE"
+   },
+   {
+    "en": "ABRAHAM LINCOLN",
+    "ru": "ABRAHAM LINCOLN"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-6",
+  "src": "Y1W3",
+  "n": 6,
+  "topic": "shop",
+  "q": {
+   "en": "Right-handed aviation snips cut:",
+   "ru": "Right-handed aviation snips режут:"
+  },
+  "why": {
+   "en": "For points pick b, counter-clockwise: that is the course key (the SMY1W3 graded sheet marked clockwise wrong). Technically it depends on the term: manufacturers call green-handled right-cut snips the ones that cut straight and curve to the right, i.e. clockwise, and the same course did not take a point for clockwise on the Trade Intro final.",
+   "ru": "Для балла — b, против часовой стрелки: это ключ курса (на проверенном листе SMY1W3 «по часовой» снят). Технически ответ зависит от термина: производители называют right-cut snips (зелёные ручки) те, что режут прямо и с поворотом вправо, то есть по часовой, и тот же курс на Trade Intro final ответ «по часовой» не снял."
+  },
+  "opts": [
+   {
+    "en": "clockwise",
+    "ru": "по часовой стрелке"
+   },
+   {
+    "en": "counter-clockwise",
+    "ru": "против часовой стрелки"
+   },
+   {
+    "en": "clockwise and counter-clockwise",
+    "ru": "и по часовой, и против часовой стрелки"
+   },
+   {
+    "en": "none of the answers are correct",
+    "ru": "ни один из ответов не верен"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-7",
+  "src": "Y1W3",
+  "n": 7,
+  "topic": "layout",
+  "q": {
+   "en": "TDC and TDF systems are similar to duct-mate except that they are formed on the edge of a sheet",
+   "ru": "Системы TDC и TDF похожи на duct-mate, только они формуются прямо на кромке листа."
+  },
+  "why": {
+   "en": "Yes. A TDC/TDF flange is roll-formed from the edge of the duct sheet itself, while Ductmate is a separate flange profile slipped onto the duct end. Both are then joined the same way: corners, gasket, bolts and cleats. An instructor correction on the SMY1W5 Monday graded sheet confirms Yes.",
+   "ru": "Да. Flange TDC/TDF прокатывается из кромки самого листа duct, а Ductmate — отдельный профиль, который надевают на конец duct. Дальше оба соединяют одинаково: уголки, уплотнитель, болты и cleats. Исправление инструктора на проверенном листе SMY1W5 Monday подтверждает «Да»."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-11",
+  "src": "Y1W3",
+  "n": 11,
+  "topic": "math",
+  "q": {
+   "en": "How much material will remain after the following pieces have been cut from a piece of hanger strap 24 inches long? 3-1/4 inch, 5-3/8 inch, 4-1/2 inch, 5-11/16 inch.",
+   "ru": "Сколько материала останется, если от hanger strap длиной 24 дюйма отрезать куски: 3-1/4 inch, 5-3/8 inch, 4-1/2 inch, 5-11/16 inch?"
+  },
+  "why": {
+   "en": "Add the pieces in 16ths: 52/16 + 86/16 + 72/16 + 91/16 = 301/16 = 18-13/16\". Remainder: 24 − 18-13/16 = 5-3/16\" (5.1875\"). 5-3/16\" is not among a–c, so d.",
+   "ru": "Складываем куски в шестнадцатых: 52/16 + 86/16 + 72/16 + 91/16 = 301/16 = 18-13/16\". Остаток: 24 − 18-13/16 = 5-3/16\" (5.1875\"). Такого числа среди a–c нет, значит d."
+  },
+  "opts": [
+   {
+    "en": "5-3/32\"",
+    "ru": "5-3/32\""
+   },
+   {
+    "en": "5-5/16\"",
+    "ru": "5-5/16\""
+   },
+   {
+    "en": "5-5/8\"",
+    "ru": "5-5/8\""
+   },
+   {
+    "en": "None of the above",
+    "ru": "Ни один из перечисленных"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-12",
+  "src": "Y1W3",
+  "n": 12,
+  "topic": "layout",
+  "q": {
+   "en": "Name this common sheet metal component:",
+   "ru": "Как называется этот распространённый элемент sheet metal?"
+  },
+  "why": {
+   "en": "A flat strip with both edges folded back 180° and an open gap in the middle is a drive cleat. It is driven over the turned-back edges of two duct ends (the D of S&D). An S-cleat is folded into an S with two pockets.",
+   "ru": "Плоская полоса, у которой обе кромки загнуты назад на 180°, а посередине щель, — это drive cleat. Его забивают на загнутые кромки двух концов duct (D в S&D). S-cleat согнут буквой S и имеет два кармана."
+  },
+  "opts": [
+   {
+    "en": "S-Cleat",
+    "ru": "S-Cleat"
+   },
+   {
+    "en": "Drive Cleat",
+    "ru": "Drive Cleat"
+   },
+   {
+    "en": "Male Pittsburg",
+    "ru": "Male Pittsburg"
+   },
+   {
+    "en": "Female Pipelock",
+    "ru": "Female Pipelock"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "fig": "y1w3-q12.svg"
+ },
+ {
+  "id": "Y1W3-13",
+  "src": "Y1W3",
+  "n": 13,
+  "topic": "layout",
+  "q": {
+   "en": "Name this common sheet metal component:",
+   "ru": "Как называется этот распространённый элемент sheet metal?"
+  },
+  "why": {
+   "en": "A single 90° flange on the edge of the sheet is the male Pittsburgh. It slides into the pocket of the female Pittsburgh, and the pocket edge is then hammered over it.",
+   "ru": "Одна отбортовка под 90° на кромке листа — это male Pittsburgh. Её вставляют в карман female Pittsburgh, а кромку кармана загибают на неё молотком."
+  },
+  "opts": [
+   {
+    "en": "S-Cleat",
+    "ru": "S-Cleat"
+   },
+   {
+    "en": "Drive Cleat",
+    "ru": "Drive Cleat"
+   },
+   {
+    "en": "Male Pittsburg",
+    "ru": "Male Pittsburg"
+   },
+   {
+    "en": "Standing-S",
+    "ru": "Standing-S"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single",
+  "fig": "y1w3-q13.svg"
+ },
+ {
+  "id": "Y1W3-14",
+  "src": "Y1W3",
+  "n": 14,
+  "topic": "layout",
+  "q": {
+   "en": "Name this common sheet metal component:",
+   "ru": "Как называется этот распространённый элемент sheet metal?"
+  },
+  "why": {
+   "en": "An edge with an offset that is folded back on itself twice, forming a pocket, is the female Pittsburgh (pocket lock). The male 90° edge goes into the pocket and the pocket edge is closed over it.",
+   "ru": "Кромка с уступом (offset), дважды загнутая сама на себя так, что получился карман, — это female Pittsburgh (pocket lock). В карман вставляют male-кромку 90°, а край кармана закрывают на неё."
+  },
+  "opts": [
+   {
+    "en": "Female Pittsburg",
+    "ru": "Female Pittsburg"
+   },
+   {
+    "en": "Female Snaplock",
+    "ru": "Female Snaplock"
+   },
+   {
+    "en": "Pipelock Seam",
+    "ru": "Pipelock Seam"
+   },
+   {
+    "en": "Pittsburg Drive",
+    "ru": "Pittsburg Drive"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "fig": "y1w3-q14.svg"
+ },
+ {
+  "id": "Y1W3-16",
+  "src": "Y1W3",
+  "n": 16,
+  "topic": "trade",
+  "q": {
+   "en": "What do the letters TAB stand for in the sheet metal industry?",
+   "ru": "Что означают буквы TAB в sheet metal industry?"
+  },
+  "why": {
+   "en": "TAB = Testing, Adjusting and Balancing: after installation the air (and water) flows of the HVAC system are measured and set to the design values. b drops Adjusting; c has 'Texting'.",
+   "ru": "TAB = Testing, Adjusting and Balancing: после монтажа расходы воздуха (и воды) в системе HVAC измеряют и выставляют по проекту. В b пропущено Adjusting, в c — «Texting»."
+  },
+  "opts": [
+   {
+    "en": "TESTING, ADJUSTING & BALANCING",
+    "ru": "TESTING, ADJUSTING & BALANCING"
+   },
+   {
+    "en": "TESTING AND BALANCING",
+    "ru": "TESTING AND BALANCING"
+   },
+   {
+    "en": "TEXTING, ADJUSTING AND BALANCING",
+    "ru": "TEXTING, ADJUSTING AND BALANCING"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-17",
+  "src": "Y1W3",
+  "n": 17,
+  "topic": "shop",
+  "q": {
+   "en": "What type of roll has a hinged end that allows it to be raised to remove formed metal out the side?",
+   "ru": "У каких валков есть откидной конец, который поднимают, чтобы снять сформованный металл сбоку?"
+  },
+  "why": {
+   "en": "Slip rolls: the end housing of the top roll swings open on a hinge, so a closed cylinder can be slipped off the end of the roll. A roll forming machine forms seams and cleats; a bead roller rolls beads.",
+   "ru": "Slip rolls: корпус на конце верхнего валка откидывается на шарнире, и замкнутый цилиндр снимают с торца валка. Roll forming machine формует швы и cleats, bead roller — рёбра (beads)."
+  },
+  "opts": [
+   {
+    "en": "Slip rolls",
+    "ru": "Slip rolls"
+   },
+   {
+    "en": "Pyramid rolls",
+    "ru": "Pyramid rolls"
+   },
+   {
+    "en": "Roll forming machine",
+    "ru": "Roll forming machine"
+   },
+   {
+    "en": "bead roller",
+    "ru": "bead roller"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-19",
+  "src": "Y1W3",
+  "n": 19,
+  "topic": "shop",
+  "q": {
+   "en": "When doing bench layout what is the best tool for measuring dimensions?",
+   "ru": "Какой инструмент лучше всего подходит для измерения размеров при bench layout?"
+  },
+  "why": {
+   "en": "Course key: circumference ruler (the SMY1W3 graded sheet marked tape measure wrong). It is a rigid steel bench rule that lies flat on the sheet and also has a scale for the circumference of a given diameter. A tape measure sags and its hook has play, so it is a field tool.",
+   "ru": "Ключ курса — circumference ruler (на проверенном листе SMY1W3 tape measure снят). Это жёсткая стальная линейка, которая лежит на листе плашмя и имеет ещё шкалу длины окружности по диаметру. Рулетка провисает, а её крючок ходит, поэтому это инструмент для объекта."
+  },
+  "opts": [
+   {
+    "en": "Circumference ruler",
+    "ru": "Circumference ruler"
+   },
+   {
+    "en": "Tape measure",
+    "ru": "Tape measure"
+   },
+   {
+    "en": "Framing square",
+    "ru": "Framing square"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-20",
+  "src": "Y1W3",
+  "n": 20,
+  "topic": "safety",
+  "q": {
+   "en": "What device best protects the worker from electrical shock?",
+   "ru": "Какое устройство лучше всего защищает работника от удара током?"
+  },
+  "why": {
+   "en": "A GFCI trips when the current going out and coming back differ by about 4–6 mA, i.e. current leaking through a person, within a fraction of a second. A circuit breaker or fuse protects the wiring and opens only at many amps. OSHA 1926.404(b)(1) requires GFCI protection on construction sites.",
+   "ru": "GFCI отключает цепь за доли секунды, когда ток «туда» и «обратно» отличается примерно на 4–6 mA, то есть ток уходит через человека. Circuit breaker и fuse защищают проводку и срабатывают только при токе в амперы. OSHA 1926.404(b)(1) требует GFCI на стройке."
+  },
+  "opts": [
+   {
+    "en": "Polarized plug",
+    "ru": "Polarized plug"
+   },
+   {
+    "en": "Circuit breaker",
+    "ru": "Circuit breaker"
+   },
+   {
+    "en": "GFCI",
+    "ru": "GFCI"
+   },
+   {
+    "en": "Fuse",
+    "ru": "Fuse"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-21",
+  "src": "Y1W3",
+  "n": 21,
+  "topic": "trade",
+  "q": {
+   "en": "The area of Sheet Metal work which employs the greatest number of workers in SMART is _______________.",
+   "ru": "Область sheet metal работы, в которой занято больше всего членов SMART, — _______________."
+  },
+  "why": {
+   "en": "Most SMART sheet metal members work in HVAC: making and installing duct and air systems. Architectural, industrial and commercial sheet metal are smaller sectors.",
+   "ru": "Большинство членов SMART в sheet metal работают в HVAC: изготовление и монтаж duct и вентиляционных систем. Architectural, industrial и commercial sheet metal — сектора меньше."
+  },
+  "opts": [
+   {
+    "en": "Architectural",
+    "ru": "Architectural"
+   },
+   {
+    "en": "Industrial",
+    "ru": "Industrial"
+   },
+   {
+    "en": "HVAC Work",
+    "ru": "HVAC Work"
+   },
+   {
+    "en": "Commercial",
+    "ru": "Commercial"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-24",
+  "src": "Y1W3",
+  "n": 24,
+  "topic": "trade",
+  "q": {
+   "en": "Most scratching and denting of sheet metal occurs during _________.",
+   "ru": "Больше всего царапин и вмятин на sheet metal появляется во время _________."
+  },
+  "why": {
+   "en": "Course answer (not marked wrong on either graded sheet): installation. On site the duct is handled, hoisted, hung and worked on next to other trades, so most dents and scratches happen there; store and handle finished duct with care.",
+   "ru": "Ответ курса (на обоих проверенных листах не снят): монтаж. На объекте duct переносят, поднимают, вешают и работают рядом с другими трейдами, поэтому большинство вмятин и царапин появляется там; готовый duct храните и переносите аккуратно."
+  },
+  "opts": [
+   {
+    "en": "forming in the shop",
+    "ru": "формовки в цехе"
+   },
+   {
+    "en": "shipping to the job site",
+    "ru": "доставки на объект"
+   },
+   {
+    "en": "installation",
+    "ru": "монтажа"
+   },
+   {
+    "en": "none of the above",
+    "ru": "ничего из перечисленного"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-25",
+  "src": "Y1W3",
+  "n": 25,
+  "topic": "shop",
+  "q": {
+   "en": "What is the most accurate way to transfer dimensions when doing shop layout?",
+   "ru": "Какой способ самый точный для переноса размеров при разметке в цехе?"
+  },
+  "why": {
+   "en": "Dividers pick up a distance point to point and step it onto the sheet without reading a scale, so there is no reading error. With a tape, a bench rule or a framing square you read a number and mark it again.",
+   "ru": "Dividers берут расстояние от точки до точки и переносят его на лист без чтения шкалы, поэтому ошибки чтения нет. С рулеткой, линейкой или framing square число читают и потом снова отмечают."
+  },
+  "opts": [
+   {
+    "en": "Dividers",
+    "ru": "Dividers"
+   },
+   {
+    "en": "Tape measure",
+    "ru": "Tape measure"
+   },
+   {
+    "en": "bench rule",
+    "ru": "bench rule"
+   },
+   {
+    "en": "Framing square",
+    "ru": "Framing square"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-26",
+  "src": "Y1W3",
+  "n": 26,
+  "topic": "layout",
+  "q": {
+   "en": "What type of flange uses angle iron that is riveted or welded to the duct?",
+   "ru": "В каком flange используется angle iron, приклёпанный или приваренный к duct?"
+  },
+  "why": {
+   "en": "A companion flange is angle iron riveted or welded to each duct end; the two flanges are bolted together with a gasket. TDC/TDF flanges are formed from the duct wall itself, and the other options are seams formed from the sheet, with no angle iron.",
+   "ru": "Companion flange — это angle iron, приклёпанный или приваренный к каждому концу duct; два flange стягивают болтами через уплотнитель. TDC/TDF формуются из стенки самого duct, остальные варианты — швы из листа, без angle iron."
+  },
+  "opts": [
+   {
+    "en": "TDC & TDF",
+    "ru": "TDC & TDF"
+   },
+   {
+    "en": "Standing seam",
+    "ru": "Standing seam"
+   },
+   {
+    "en": "Companion",
+    "ru": "Companion"
+   },
+   {
+    "en": "Elbow lock",
+    "ru": "Elbow lock"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-27",
+  "src": "Y1W3",
+  "n": 27,
+  "topic": "layout",
+  "q": {
+   "en": "A load placed at right angles to the fastener is a",
+   "ru": "Нагрузка, приложенная под прямым углом к крепежу, — это"
+  },
+  "why": {
+   "en": "A load across the fastener (at right angles to its axis) tries to cut it: a shear load. A tensile load pulls along the axis, a compression load pushes along it.",
+   "ru": "Нагрузка поперёк крепежа (под прямым углом к его оси) пытается его срезать — это shear load. Tensile load тянет вдоль оси, compression load давит вдоль оси."
+  },
+  "opts": [
+   {
+    "en": "compression load",
+    "ru": "compression load"
+   },
+   {
+    "en": "sheer load",
+    "ru": "sheer load"
+   },
+   {
+    "en": "tensile load",
+    "ru": "tensile load"
+   },
+   {
+    "en": "joist load",
+    "ru": "joist load"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-28",
+  "src": "Y1W3",
+  "n": 28,
+  "topic": "safety",
+  "q": {
+   "en": "When using a power tool, the first thing to do is:",
+   "ru": "Работая с электроинструментом, первым делом нужно:"
+  },
+  "why": {
+   "en": "Inspect the tool first: cord, plug and ground prong, guards, switch, blade or bit. Removing the ground prong or a guard is never allowed, and pulling the trigger before inspecting can start a damaged tool.",
+   "ru": "Сначала осмотреть инструмент: шнур, вилку и заземляющий штырь, кожухи, выключатель, диск или сверло. Удалять заземляющий штырь или кожух нельзя никогда, а нажать на курок до осмотра — значит запустить, возможно, неисправный инструмент."
+  },
+  "opts": [
+   {
+    "en": "pull the trigger to see if it has power",
+    "ru": "нажать на курок и проверить, есть ли питание"
+   },
+   {
+    "en": "remove the grounding prong",
+    "ru": "удалить заземляющий штырь вилки"
+   },
+   {
+    "en": "inspect it",
+    "ru": "осмотреть его"
+   },
+   {
+    "en": "remove the guards that might get in the way",
+    "ru": "снять кожухи, которые могут мешать"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-29",
+  "src": "Y1W3",
+  "n": 29,
+  "topic": "shop",
+  "q": {
+   "en": "Hacksaws and files should cut on the return stoke with little pressure on the forward stroke",
+   "ru": "Ножовка по металлу и напильник должны резать на обратном ходе, с лёгким нажимом на прямом ходе."
+  },
+  "why": {
+   "en": "No. Hacksaw blades and files cut on the forward (push) stroke: the teeth point away from the handle. Press on the forward stroke and ease off on the return, otherwise the teeth dull.",
+   "ru": "Нет. Полотно ножовки и напильник режут на прямом ходе (от себя): зубья смотрят от ручки. Нажимать на прямом ходе, на обратном — ослабить, иначе зубья тупятся."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-33",
+  "src": "Y1W3",
+  "n": 33,
+  "topic": "math",
+  "q": {
+   "en": "1-1/8 x 2-1/4 =",
+   "ru": "1-1/8 x 2-1/4 ="
+  },
+  "why": {
+   "en": "9/8 × 9/4 = 81/32 = 2.53125 = 2-17/32 exactly, so a and b are the same number (a is rounded to 3 decimals). For points on this test pick a, 2.531: the SMY1W3 graded sheet keyed 2.531 and took the point off for 2-17/32. The same question on the SMY1W5 Monday graded sheet accepted 2-17/32. 3-3/8 = 3.375 is the sum, not the product.",
+   "ru": "9/8 × 9/4 = 81/32 = 2.53125 = ровно 2-17/32, так что a и b — одно и то же число (a округлено до 3 знаков). Для балла на этом тесте — a, 2.531: на проверенном листе SMY1W3 ключ 2.531, а за 2-17/32 балл сняли. Тот же вопрос на проверенном листе SMY1W5 Monday засчитал 2-17/32. 3-3/8 = 3.375 — это сумма, а не произведение."
+  },
+  "opts": [
+   {
+    "en": "2.531",
+    "ru": "2.531"
+   },
+   {
+    "en": "2-17/32",
+    "ru": "2-17/32"
+   },
+   {
+    "en": "3-3/8",
+    "ru": "3-3/8"
+   },
+   {
+    "en": "3.375",
+    "ru": "3.375"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-34",
+  "src": "Y1W3",
+  "n": 34,
+  "topic": "math",
+  "q": {
+   "en": "7/16",
+   "ru": "7/16"
+  },
+  "why": {
+   "en": "7 ÷ 16 = 0.4375 (a). 14/32 is the same value written as an unreduced fraction, not a conversion; .4385 and .3875 are wrong decimals.",
+   "ru": "7 ÷ 16 = 0.4375 (a). 14/32 — то же число, но это несокращённая дробь, а не перевод в десятичную; .4385 и .3875 — неверные десятичные."
+  },
+  "opts": [
+   {
+    "en": ".4375",
+    "ru": ".4375"
+   },
+   {
+    "en": ".4385",
+    "ru": ".4385"
+   },
+   {
+    "en": "14/32",
+    "ru": "14/32"
+   },
+   {
+    "en": ".3875",
+    "ru": ".3875"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-37",
+  "src": "Y1W3",
+  "n": 37,
+  "topic": "math",
+  "q": {
+   "en": "A circumference is found by using π (3.1416) in the following equation:",
+   "ru": "Длина окружности находится с π (3.1416) по формуле:"
+  },
+  "why": {
+   "en": "C = π × D (the same as 2 × π × R). π × R gives only half the circumference, and π × D² is not a circumference formula (area is π × D² ÷ 4).",
+   "ru": "C = π × D (то же, что 2 × π × R). π × R даёт только половину длины окружности, а π × D² — не формула длины окружности (площадь — π × D² ÷ 4)."
+  },
+  "opts": [
+   {
+    "en": "Circumference = π x Diameter²",
+    "ru": "Circumference = π x Diameter²"
+   },
+   {
+    "en": "Circumference = π x Radius",
+    "ru": "Circumference = π x Radius"
+   },
+   {
+    "en": "Circumference = π x 3 x Radius",
+    "ru": "Circumference = π x 3 x Radius"
+   },
+   {
+    "en": "Circumference = π x Diameter",
+    "ru": "Circumference = π x Diameter"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-40",
+  "src": "Y1W3",
+  "n": 40,
+  "topic": "math",
+  "q": {
+   "en": "7 steel joists are 6’- 8” apart center to center. The distance, center to center, between the two outside joists is 46'-8\"",
+   "ru": "7 стальных joists стоят через 6’- 8” от центра до центра. Расстояние от центра до центра между двумя крайними joists — 46'-8\""
+  },
+  "why": {
+   "en": "No. 7 joists have 6 spaces: 6 × 6'-8\" = 6 × 80\" = 480\" = 40'-0\". 46'-8\" (560\") is 7 × 80\", one space per joist — the trap.",
+   "ru": "Нет. У 7 joists 6 промежутков: 6 × 6'-8\" = 6 × 80\" = 480\" = 40'-0\". 46'-8\" (560\") — это 7 × 80\", промежуток на каждую балку; это ловушка."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-46",
+  "src": "Y1W3",
+  "n": 46,
+  "topic": "math",
+  "q": {
+   "en": "A 4-5-6 triangle could be used to check for a square corner.",
+   "ru": "Треугольником 4-5-6 можно проверить прямой угол."
+  },
+  "why": {
+   "en": "False. 4² + 5² = 16 + 25 = 41, not 6² = 36, so the angle between the 4 and 5 sides is about 82.82°, not 90°. Use 3-4-5 or a multiple of it (6-8-10, 12-16-20).",
+   "ru": "Неверно. 4² + 5² = 16 + 25 = 41, а не 6² = 36, поэтому угол между сторонами 4 и 5 — около 82.82°, а не 90°. Для проверки берут 3-4-5 или кратные (6-8-10, 12-16-20)."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "Верно"
+   },
+   {
+    "en": "False",
+    "ru": "Неверно"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-47",
+  "src": "Y1W3",
+  "n": 47,
+  "topic": "math",
+  "q": {
+   "en": "What is the area of a triangle that has a base of 22\" and an altitude of 38\"?",
+   "ru": "Какова площадь треугольника с основанием 22\" и высотой 38\"?"
+  },
+  "why": {
+   "en": "A = ½ × base × altitude = ½ × 22 × 38 = 418 sq. in. 836 forgets the ½.",
+   "ru": "A = ½ × основание × высота = ½ × 22 × 38 = 418 sq. in. 836 — забыта ½."
+  },
+  "opts": [
+   {
+    "en": "418 sq. in.",
+    "ru": "418 sq. in."
+   },
+   {
+    "en": "836 sq. in.",
+    "ru": "836 sq. in."
+   },
+   {
+    "en": "420 sq. ft.",
+    "ru": "420 sq. ft."
+   },
+   {
+    "en": "1728 sq. in.",
+    "ru": "1728 sq. in."
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-48",
+  "src": "Y1W3",
+  "n": 48,
+  "topic": "math",
+  "q": {
+   "en": "The altitude of a triangle is 1 ft 3-3/4 inches. The length of the base is 1 ft 3/8 inch. What is the area of the triangle?",
+   "ru": "Высота треугольника — 1 ft 3-3/4 inches. Длина основания — 1 ft 3/8 inch. Какова площадь треугольника?"
+  },
+  "why": {
+   "en": "In inches: altitude 15.75\", base 12.375\". A = ½ × 15.75 × 12.375 = 97.453125 → 97.453 sq in. 194.906 forgets the ½, and 1.3535 sq ft is that same 194.906 ÷ 144 (the true area is 0.6768 sq ft).",
+   "ru": "В дюймах: высота 15.75\", основание 12.375\". A = ½ × 15.75 × 12.375 = 97.453125 → 97.453 sq in. В 194.906 забыта ½, а 1.3535 sq ft — это те же 194.906 ÷ 144 (верная площадь — 0.6768 sq ft)."
+  },
+  "opts": [
+   {
+    "en": "1.3535 sq ft",
+    "ru": "1.3535 sq ft"
+   },
+   {
+    "en": "28.125 sq in",
+    "ru": "28.125 sq in"
+   },
+   {
+    "en": "97.453 sq in",
+    "ru": "97.453 sq in"
+   },
+   {
+    "en": "194.906 sq in",
+    "ru": "194.906 sq in"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-50",
+  "src": "Y1W3",
+  "n": 50,
+  "topic": "math",
+  "q": {
+   "en": "What is the diameter of a circle with a 44\" circumference?",
+   "ru": "Каков диаметр круга с длиной окружности 44\"?"
+  },
+  "why": {
+   "en": "D = C ÷ π = 44 ÷ π = 14.006\" → 14\" Ø. 7\" is the radius (44 ÷ 2π = 7.003); 138.23 multiplies by π instead of dividing.",
+   "ru": "D = C ÷ π = 44 ÷ π = 14.006\" → 14\" Ø. 7\" — это радиус (44 ÷ 2π = 7.003); 138.23 — умножили на π вместо деления."
+  },
+  "opts": [
+   {
+    "en": "138.23\" Ø",
+    "ru": "138.23\" Ø"
+   },
+   {
+    "en": "7” Ø",
+    "ru": "7” Ø"
+   },
+   {
+    "en": "14” Ø",
+    "ru": "14” Ø"
+   },
+   {
+    "en": "22” Ø",
+    "ru": "22” Ø"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-51",
+  "src": "Y1W3",
+  "n": 51,
+  "topic": "math",
+  "q": {
+   "en": "Calculate the area of the Oval.",
+   "ru": "Вычислите площадь овала."
+  },
+  "why": {
+   "en": "The two R6\" ends make one full circle: π × 6² = 113.097; the rectangle between them is 1'-4\" × 12\" = 16 × 12 = 192. Total 305.0973 sq in → 305.1 (c), accepted on both graded sheets. d 305.098 is the same area worked with π = 3.1416 (305.0976); with full π it would round to 305.097.",
+   "ru": "Два конца R6\" вместе дают полный круг: π × 6² = 113.097; прямоугольник между ними — 1'-4\" × 12\" = 16 × 12 = 192. Итого 305.0973 sq in → 305.1 (c), этот ответ не сняли ни на одном проверенном листе. d 305.098 — та же площадь, посчитанная с π = 3.1416 (305.0976); с полным π было бы 305.097."
+  },
+  "opts": [
+   {
+    "en": "305.19",
+    "ru": "305.19"
+   },
+   {
+    "en": "305.01",
+    "ru": "305.01"
+   },
+   {
+    "en": "305.1",
+    "ru": "305.1"
+   },
+   {
+    "en": "305.098",
+    "ru": "305.098"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single",
+  "fig": "y1w3-q51.svg"
+ },
+ {
+  "id": "Y1W3-52",
+  "src": "Y1W3",
+  "n": 52,
+  "topic": "math",
+  "q": {
+   "en": "Calculate the area of the trapezoid.",
+   "ru": "Вычислите площадь трапеции."
+  },
+  "why": {
+   "en": "The parallel sides are 48\" and 52\", the height 35\". A = (48 + 52) ÷ 2 × 35 = 50 × 35 = 1750 sq. in. The printed formula means (A + B) ÷ 2; read literally, 48 + 52 ÷ 2 = 74 would give 2590, which is not an option. The 12\" is only the offset of the top side; 1680 = 48 × 35.",
+   "ru": "Параллельные стороны — 48\" и 52\", высота 35\". A = (48 + 52) ÷ 2 × 35 = 50 × 35 = 1750 sq. in. Напечатанная формула означает (A + B) ÷ 2; если читать буквально, 48 + 52 ÷ 2 = 74 дало бы 2590 — такого варианта нет. 12\" — только сдвиг верхней стороны; 1680 = 48 × 35."
+  },
+  "hint": {
+   "en": "instructions: Formula: (A + B / 2) x Height A and B are the parallel sides.",
+   "ru": "Инструкция: формула (A + B / 2) x Height; A и B — параллельные стороны."
+  },
+  "opts": [
+   {
+    "en": "1970 sq. in.",
+    "ru": "1970 sq. in."
+   },
+   {
+    "en": "1650 sq. in.",
+    "ru": "1650 sq. in."
+   },
+   {
+    "en": "1680 sq. in.",
+    "ru": "1680 sq. in."
+   },
+   {
+    "en": "1750 sq. in.",
+    "ru": "1750 sq. in."
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single",
+  "fig": "y1w3-q52.svg"
+ },
+ {
+  "id": "Y1W3-54",
+  "src": "Y1W3",
+  "n": 54,
+  "topic": "layout",
+  "q": {
+   "en": "You need to make a duct that has a working length of 22\", S & Drive on 1 end and a 2\" flange on the other. You will shear it's length at:",
+   "ru": "Нужен duct с working length 22\", S & Drive на одном конце и flange 2\" на другом. Длина заготовки на shear будет:"
+  },
+  "why": {
+   "en": "Course rule: the S&D end takes 1\" of metal, a flange adds its own height: 22 + 1 + 2 = 25\". 24-1/2\" uses ½\" for the S&D end and was marked wrong on the graded sheet.",
+   "ru": "Правило курса: конец под S&D берёт 1\" металла, flange добавляет свою высоту: 22 + 1 + 2 = 25\". 24-1/2\" — это ½\" на конец под S&D, на проверенном листе этот ответ снят."
+  },
+  "opts": [
+   {
+    "en": "19.5\"",
+    "ru": "19.5\""
+   },
+   {
+    "en": "24-1/2\"",
+    "ru": "24-1/2\""
+   },
+   {
+    "en": "25\"",
+    "ru": "25\""
+   },
+   {
+    "en": "22- 1/2\"",
+    "ru": "22- 1/2\""
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-55",
+  "src": "Y1W3",
+  "n": 55,
+  "topic": "math",
+  "q": {
+   "en": "A sheet metal fitting has 5 equally spaced rivets along one seam that is 8-3/4\" long. The first two rivets start 5/8\" from each end. What is the distance between rivets?",
+   "ru": "У fitting 5 заклёпок с равным шагом вдоль одного шва длиной 8-3/4\". Первые две заклёпки стоят в 5/8\" от каждого конца. Каково расстояние между заклёпками?"
+  },
+  "why": {
+   "en": "The end rivets are 5/8\" in from each end, so they span 8.75 − 2 × 0.625 = 7.5\". 5 rivets make 4 spaces: 7.5 ÷ 4 = 1.875\". Dividing by 5 (1.5\") is the trap.",
+   "ru": "Крайние заклёпки стоят в 5/8\" от концов, между ними 8.75 − 2 × 0.625 = 7.5\". У 5 заклёпок 4 промежутка: 7.5 ÷ 4 = 1.875\". Деление на 5 (1.5\") — ловушка."
+  },
+  "opts": [
+   {
+    "en": "1.5\"",
+    "ru": "1.5\""
+   },
+   {
+    "en": "1.875\"",
+    "ru": "1.875\""
+   },
+   {
+    "en": "1-3/8\"",
+    "ru": "1-3/8\""
+   },
+   {
+    "en": "1-3/4\"",
+    "ru": "1-3/4\""
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-56",
+  "src": "Y1W3",
+  "n": 56,
+  "topic": "layout",
+  "q": {
+   "en": "An edge that is bent to a 90° angle is called a _________.",
+   "ru": "Кромка, загнутая под углом 90°, называется _________."
+  },
+  "why": {
+   "en": "An edge bent to 90° is a flange. A hem is folded back 180° flat on itself; a drip edge sheds water off a roof or cap edge.",
+   "ru": "Кромка, загнутая на 90°, — flange. Hem — кромка, загнутая на 180° и прижатая к листу; drip edge отводит воду с края кровли или колпака."
+  },
+  "opts": [
+   {
+    "en": "hem",
+    "ru": "hem"
+   },
+   {
+    "en": "flange",
+    "ru": "flange"
+   },
+   {
+    "en": "drip edge",
+    "ru": "drip edge"
+   },
+   {
+    "en": "angle iron edge",
+    "ru": "angle iron edge"
+   },
+   {
+    "en": "blind edge",
+    "ru": "blind edge"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-57",
+  "src": "Y1W3",
+  "n": 57,
+  "topic": "math",
+  "q": {
+   "en": "Convert the decimal to the nearest sixteenth. 14.653 =",
+   "ru": "Переведите десятичную дробь в ближайшие шестнадцатые. 14.653 ="
+  },
+  "why": {
+   "en": "0.653 × 16 = 10.448 → rounds to 10/16 = 5/8, so 14-5/8\". 14-10/16 is the same length unreduced; fractions are written reduced. 14-11/16 would need 0.6875.",
+   "ru": "0.653 × 16 = 10.448 → округляем до 10/16 = 5/8, значит 14-5/8\". 14-10/16 — та же длина, но дробь не сокращена; дроби пишут сокращёнными. Для 14-11/16 нужно 0.6875."
+  },
+  "opts": [
+   {
+    "en": "14-3/4\"",
+    "ru": "14-3/4\""
+   },
+   {
+    "en": "14-11/16",
+    "ru": "14-11/16"
+   },
+   {
+    "en": "14-5/8\"",
+    "ru": "14-5/8\""
+   },
+   {
+    "en": "14-10/16",
+    "ru": "14-10/16"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-59",
+  "src": "Y1W3",
+  "n": 59,
+  "topic": "math",
+  "q": {
+   "en": "Express 83 inches as decimals of a foot.",
+   "ru": "Выразите 83 дюйма в десятичных долях фута."
+  },
+  "why": {
+   "en": "83 ÷ 12 = 6.91667 → 6.917'. 6.916' cuts off instead of rounding; 6'-11\" is the same length in feet and inches, not decimals; 6.667' is 80\".",
+   "ru": "83 ÷ 12 = 6.91667 → 6.917'. 6.916' — отброшен знак вместо округления; 6'-11\" — та же длина в футах и дюймах, а не в десятичных; 6.667' — это 80\"."
+  },
+  "opts": [
+   {
+    "en": "6.667'",
+    "ru": "6.667'"
+   },
+   {
+    "en": "6.917'",
+    "ru": "6.917'"
+   },
+   {
+    "en": "6.916'",
+    "ru": "6.916'"
+   },
+   {
+    "en": "6'-11\"",
+    "ru": "6'-11\""
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W3-60",
+  "src": "Y1W3",
+  "n": 60,
+  "topic": "math",
+  "q": {
+   "en": "Give the perimeter of the following figure in feet and inches to the nearest 16th.",
+   "ru": "Найдите периметр фигуры в футах и дюймах с точностью до 1/16."
+  },
+  "why": {
+   "en": "Arcs are quarter circles: 8'R → 2π × 8 ÷ 4 = 12.5664'; 5'R → 7.8540'. Slope: 8 ÷ sin 30° = 16' (its run 8 ÷ tan 30° = 13.8564'). Unlabeled straights from totals: top + step = 18 + 13.8564 − 8 − 5 = 18.8564'; right verticals = 28 − 5 − 8 = 15'. Sum: 12 + 12.5664 + 8 + 18.8564 + 7.8540 + 15 + 16 + 18 = 108.2768' = 108' 3.32\" → 108' 3-5/16\".",
+   "ru": "Дуги — четверти окружности: 8'R → 2π × 8 ÷ 4 = 12.5664'; 5'R → 7.8540'. Наклон: 8 ÷ sin 30° = 16' (по горизонтали 8 ÷ tan 30° = 13.8564'). Прямые без размеров — из общих размеров: верх + ступенька = 18 + 13.8564 − 8 − 5 = 18.8564'; правые вертикали = 28 − 5 − 8 = 15'. Сумма: 12 + 12.5664 + 8 + 18.8564 + 7.8540 + 15 + 16 + 18 = 108.2768' = 108' 3.32\" → 108' 3-5/16\"."
+  },
+  "opts": [
+   {
+    "en": "108' 3-5/16\"",
+    "ru": "108' 3-5/16\""
+   },
+   {
+    "en": "103' 3-5/16\"",
+    "ru": "103' 3-5/16\""
+   },
+   {
+    "en": "106' 1-9/16\"",
+    "ru": "106' 1-9/16\""
+   },
+   {
+    "en": "None of the above",
+    "ru": "None of the above"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "fig": "y1w3-q60.svg"
  },
  {
   "id": "Y1W5F-39",

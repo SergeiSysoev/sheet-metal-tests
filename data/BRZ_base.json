@@ -1,0 +1,654 @@
+[
+ {
+  "src": "BRZ",
+  "n": 1,
+  "q": "If a technician needed 5/8\" ACR for an installation and was located near only a plumbing supply house, what size and type of pipe should he ask for?",
+  "hint": null,
+  "opts": [
+   "5/8\" ACR",
+   "1/2\" PVC",
+   "1/2\" ID Copper",
+   "5/8\" PVC"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: 1/2\" ID Copper\""
+ },
+ {
+  "src": "BRZ",
+  "n": 2,
+  "q": "The size indicated for the diameter of type L copper tubing used for plumbing is the approximate ____.",
+  "hint": null,
+  "opts": [
+   "inside dimension",
+   "outside dimension",
+   "wall thickness",
+   "none of the above"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: inside dimension\""
+ },
+ {
+  "src": "BRZ",
+  "n": 3,
+  "q": "The maximum temperature at which soft soldering is done is ____.",
+  "hint": null,
+  "opts": [
+   "400°F",
+   "212°F",
+   "600°F",
+   "800°F"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: 800°F\""
+ },
+ {
+  "src": "BRZ",
+  "n": 4,
+  "q": "Brazing is done at ____ soldering.",
+  "hint": null,
+  "opts": [
+   "the same temperature as",
+   "lower temperatures than",
+   "higher temperatures than",
+   "temperatures that can be higher or lower than"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: higher temperatures than\""
+ },
+ {
+  "src": "BRZ",
+  "n": 5,
+  "q": "Pipe threads, when used on pipe that will contain liquid or vapor under pressure, ____.",
+  "hint": null,
+  "opts": [
+   "are tapered",
+   "should have at least seven perfect threads",
+   "generally have a \"V\" shape",
+   "all of the above"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: all of the above\""
+ },
+ {
+  "src": "BRZ",
+  "n": 6,
+  "q": "The proper type of flame from an oxy-acetylene torch for silver brazing is ____.",
+  "hint": null,
+  "opts": [
+   "long tail flame",
+   "neutral flame",
+   "oxidizing flame",
+   "carbonizing flame"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: neutral flame\""
+ },
+ {
+  "src": "BRZ",
+  "n": 7,
+  "q": "Molten solder flows between the two base metals being soldered because ____.",
+  "hint": null,
+  "opts": [
+   "the atmospheric pressure pushes it in",
+   "of capillary action",
+   "there are no surface pores in the base metal",
+   "the tubing surface melts and the pressure differential forces it in"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: of capillary action\""
+ },
+ {
+  "src": "BRZ",
+  "n": 8,
+  "q": "When soldering, the technician should heat the solder with the torch to allow it to melt",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: No\""
+ },
+ {
+  "src": "BRZ",
+  "n": 9,
+  "q": "When installing a refrigeration system, the piping should be connected with as few joints as possible.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: Yes\""
+ },
+ {
+  "src": "BRZ",
+  "n": 10,
+  "q": "95/5 tin-antimony solder can be used in any part of a refrigeration system.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: No\""
+ },
+ {
+  "src": "BRZ",
+  "n": 11,
+  "q": "An air-acetylene torch with a twist tip method for mixing the air and acetylene may be used for both low- and high-temperature soldering.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: Yes\""
+ },
+ {
+  "src": "BRZ",
+  "n": 12,
+  "q": "The copper tubing used in the field piping of refrigeration systems is type ____________________.",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "accept": [
+   "acr"
+  ],
+  "answer_text": "ACR",
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: ACR\""
+ },
+ {
+  "src": "BRZ",
+  "n": 13,
+  "q": "One reason for insulation on a suction line is to help maintain the proper ____________________.",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "accept": [
+   "superheat",
+   "temperature",
+   "перегрев"
+  ],
+  "answer_text": "Superheat (also accepted: temperature)",
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: Superheat, Temperature\""
+ },
+ {
+  "src": "BRZ",
+  "n": 14,
+  "q": "In the thread specification 1/2-14 NPT, the 1/2 is the ____________________.",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "accept": [
+   "diameter",
+   "диаметр"
+  ],
+  "answer_text": "Thread Diameter",
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: Thread Diameter\""
+ },
+ {
+  "src": "BRZ",
+  "n": 15,
+  "q": "The abbreviation for the plastic pipe used in systems for water drains, waste drains, and low-temperature vents is ____________________.",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "accept": [
+   "abs"
+  ],
+  "answer_text": "ABS",
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: ABS\""
+ },
+ {
+  "src": "BRZ",
+  "n": 16,
+  "q": "The abbreviation for the plastic pipe used in systems for water and gas supply lines and irrigation systems is ____________________.",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "accept": [
+   "pe",
+   "polyethylene",
+   "полиэтилен"
+  ],
+  "answer_text": "PE",
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: PE\""
+ },
+ {
+  "src": "BRZ",
+  "n": 17,
+  "q": "The abbreviation for the plastic pipe used in hot and cold water supply systems is ____________________.",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "accept": [
+   "cpvc"
+  ],
+  "answer_text": "CPVC",
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: CPVC\""
+ },
+ {
+  "src": "BRZ",
+  "n": 18,
+  "q": "Why should some refrigerant lines be insulated?",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "accept": [
+   "heat",
+   "тепл"
+  ],
+  "answer_text": "To prevent the system from absorbing excess heat",
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: to prevent the system from absorbing excess heat\""
+ },
+ {
+  "src": "BRZ",
+  "n": 20,
+  "q": "When soldering, what is the flow of molten filler material between the two base metals called?",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "accept": [
+   "capillary",
+   "капилляр"
+  ],
+  "answer_text": "Capillary action",
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: Capillary action\""
+ },
+ {
+  "src": "BRZ",
+  "n": 21,
+  "q": "When making a swage joint, what should the depth of the enlarged portion of the tube be?",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "accept": [
+   "diameter",
+   "диаметр"
+  ],
+  "answer_text": "Equal to the diameter of the original tube",
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: Equal to the diameter of the original tube\""
+ },
+ {
+  "src": "BRZ",
+  "n": 22,
+  "q": "When soldering, flux should be applied to ____.",
+  "hint": null,
+  "opts": [
+   "the male part of the joint only",
+   "the female part of the joint only",
+   "both the male and female parts of the joint",
+   "none of the above"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: the male part of the joint only\""
+ },
+ {
+  "src": "BRZ",
+  "n": 23,
+  "q": "95/5 solder should be used ____.",
+  "hint": null,
+  "opts": [
+   "on the high side of the system",
+   "on the low side of the system",
+   "when there are extreme changes in pressures and temperatures",
+   "always"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: on the low side of the system\""
+ },
+ {
+  "src": "BRZ",
+  "n": 24,
+  "q": "Filler materials used in the connection of copper joints are composed of ____.",
+  "hint": null,
+  "opts": [
+   "50/50 tin-lead",
+   "95/5 tin-antimony",
+   "15%-60% silver",
+   "bronze rod"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: 15%-60% silver\""
+ },
+ {
+  "src": "BRZ",
+  "n": 25,
+  "q": "When soldering or brazing, the solder is ____.",
+  "hint": null,
+  "opts": [
+   "heated directly by the flame of the heat source",
+   "heated by the surrounding air",
+   "used to oxidize the metal",
+   "melted by heat from the tubing and fitting"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: melted by heat from the tubing and fitting\""
+ },
+ {
+  "src": "BRZ",
+  "n": 26,
+  "q": "For cleaning ACR copper tubing before soldering, a material that can be used is ____.",
+  "hint": null,
+  "opts": [
+   "steel wool",
+   "carborundum cloth",
+   "sand cloth",
+   "all of the above"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: sand cloth\""
+ },
+ {
+  "src": "BRZ",
+  "n": 27,
+  "q": "When tubing is cut with a tubing cutter, a burr is produced in the process. This slight decrease in the inside diameter of the tube can adversely affect the operation of the system.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: Yes\""
+ },
+ {
+  "src": "BRZ",
+  "n": 28,
+  "q": "The use of flux is always required when soldering or brazing.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: No\""
+ },
+ {
+  "src": "BRZ",
+  "n": 29,
+  "q": "In the thread specification 1/2-14 NPT, the 14 stands for _________________________.",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "accept": [
+   "per inch",
+   "tpi",
+   "на дюйм"
+  ],
+  "answer_text": "Threads per inch",
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: Threads per inch\""
+ },
+ {
+  "src": "BRZ",
+  "n": 30,
+  "q": "In the thread specification 1/2-14 NPT, the NPT stands for ______________________________.",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "accept": [
+   "taper",
+   "конич"
+  ],
+  "answer_text": "National pipe taper",
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: National pipe taper\""
+ },
+ {
+  "src": "BRZ",
+  "n": 31,
+  "q": "The abbreviation for the plastic pipe used in high pressure systems at low temperature is ____________________.",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "accept": [
+   "pvc"
+  ],
+  "answer_text": "PVC",
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: PVC\"",
+  "reject": [
+   "cpvc"
+  ]
+ },
+ {
+  "src": "BRZ",
+  "n": 32,
+  "q": "The type of steel pipe thread used primarily in this industry is the \"tapered\" thread. Why?",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "accept": [
+   "tight",
+   "leak",
+   "seal",
+   "герметич",
+   "утеч",
+   "плотн"
+  ],
+  "answer_text": "To produce a tight joint and prevent leakage",
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: To produce a tight joint and prevent leakage\""
+ },
+ {
+  "src": "BRZ",
+  "n": 33,
+  "q": "operation that causes one end of a copper tube to expand at an angle for flare nut connection to system",
+  "hint": null,
+  "opts": [
+   "brazing",
+   "flaring",
+   "swaging",
+   "reaming"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: flaring\""
+ },
+ {
+  "src": "BRZ",
+  "n": 34,
+  "q": "operation of heating and cooling tubing to make it softer",
+  "hint": null,
+  "opts": [
+   "brazing",
+   "work hardening",
+   "annealing",
+   "swaging"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: annealing\""
+ },
+ {
+  "src": "BRZ",
+  "n": 35,
+  "q": "accomplished at temperatures under 800°F",
+  "hint": null,
+  "opts": [
+   "soldering",
+   "flaring",
+   "work hardening",
+   "brazing"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: soldering\""
+ },
+ {
+  "src": "BRZ",
+  "n": 36,
+  "q": "removal of burrs and rough edges from tubing",
+  "hint": null,
+  "opts": [
+   "work hardening",
+   "annealing",
+   "flaring",
+   "reaming"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: reaming\""
+ },
+ {
+  "src": "BRZ",
+  "n": 37,
+  "q": "accomplished at temperatures above 800°F",
+  "hint": null,
+  "opts": [
+   "brazing",
+   "work hardening",
+   "soldering",
+   "swaging"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: brazing\""
+ },
+ {
+  "src": "BRZ",
+  "n": 38,
+  "q": "caused by excessive bending and straightening of tubing",
+  "hint": null,
+  "opts": [
+   "annealing",
+   "flaring",
+   "work hardening",
+   "swaging"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: work hardening\""
+ },
+ {
+  "src": "BRZ",
+  "n": 39,
+  "q": "operation that allows two tubes of equal diameter to be joined together",
+  "hint": null,
+  "opts": [
+   "work hardening",
+   "reaming",
+   "annealing",
+   "swaging"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: swaging\""
+ }
+]

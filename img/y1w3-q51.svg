@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 395.74" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="600" height="395.74" fill="#fff"/>
+<line x1="137.23" y1="21.7" x2="456.38" y2="21.7" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<line x1="137.23" y1="261.06" x2="456.38" y2="261.06" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<line x1="137.23" y1="21.7" x2="137.23" y2="261.06" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<line x1="456.38" y1="21.7" x2="456.38" y2="261.06" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<path d="M137.23,261.06 A119.68,119.68 0 0 1 137.23,21.7" fill="none" stroke="#111" stroke-width="2.2"/>
+<path d="M456.38,21.7 A119.68,119.68 0 0 1 456.38,261.06" fill="none" stroke="#111" stroke-width="2.2"/>
+<polyline points="46.91,62.87 99.57,109.15 133.4,109.15" fill="none" stroke="#111" stroke-width="1.15" stroke-linejoin="miter"/>
+<polygon points="46.91,62.87 58.99,68.82 54.36,74.08" fill="#111" stroke="none"/>
+<text x="144.89" y="115.18" font-size="17" text-anchor="start" fill="#111">R6"</text>
+<line x1="137.23" y1="271.06" x2="137.23" y2="363.81" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="456.38" y1="271.06" x2="456.38" y2="363.81" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="137.23" y1="356.81" x2="274.45" y2="356.81" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="319.17" y1="356.81" x2="456.38" y2="356.81" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<polygon points="137.23,356.81 150.23,353.31 150.23,360.31" fill="#111" stroke="none"/>
+<polygon points="456.38,356.81 443.38,360.31 443.38,353.31" fill="#111" stroke="none"/>
+<text x="296.81" y="362.84" font-size="17" text-anchor="middle" fill="#111">1'-4"</text>
+</svg>

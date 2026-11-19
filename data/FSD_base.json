@@ -1,0 +1,1542 @@
+[
+ {
+  "src": "FSD",
+  "n": 101,
+  "q": "The situation-appropriate integration of building features with fire and smoke components and systems to attain fire and life safety objectives and satisfactory building performance is the essence of_____________.",
+  "hint": null,
+  "opts": [
+   "Fire protection engineering",
+   "Building safety codes",
+   "HVAC system design",
+   "Smoke alarm engineering"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_999 (FSD unit 1, 12/16/2025): \"Correct Answer: Fire protection engineering\""
+ },
+ {
+  "src": "FSD",
+  "n": 102,
+  "q": "While the HVAC contractor is responsible for properly installing fire life safety components, the responsibility for the proper construction of the components falls on the_________________.",
+  "hint": null,
+  "opts": [
+   "Building official",
+   "Manufacturer",
+   "Design professional",
+   "General contractor"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_999 (FSD unit 1, 12/16/2025): \"Correct Answer: Manufacturer\""
+ },
+ {
+  "src": "FSD",
+  "n": 103,
+  "q": "Which of the following is typically the base document used by engineers and system designers?",
+  "hint": null,
+  "opts": [
+   "NFPA 90A",
+   "NFPA 82A",
+   "UL 555",
+   "UL 555C"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_999 (FSD unit 1, 12/16/2025): \"Correct Answer: NFPA 90A\""
+ },
+ {
+  "src": "FSD",
+  "n": 104,
+  "q": "When designing the HVAC system and determining damper types and specifications, the only individual who can decide to use alternate or substitute materials is the ____________.",
+  "hint": null,
+  "opts": [
+   "HVAC contractor",
+   "Architect",
+   "Engineer",
+   "Mechanical contractor"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_999 (FSD unit 1, 12/16/2025): \"Correct Answer: Engineer\""
+ },
+ {
+  "src": "FSD",
+  "n": 105,
+  "q": "The primary purpose of HVAC systems is to maintain a desired environmental condition by the regulation of?",
+  "hint": null,
+  "opts": [
+   "Sound level and water quality",
+   "Temperature and humidity",
+   "Sound level and vibration",
+   "Water quality and humidity"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_999 (FSD unit 1, 12/16/2025): \"Correct Answer: Temperature and humidity\""
+ },
+ {
+  "src": "FSD",
+  "n": 106,
+  "q": "The successful operation of life safety dampers is critical to the building’s?",
+  "hint": null,
+  "opts": [
+   "Fire protection design",
+   "Interior design",
+   "Basic design",
+   "Architectural design"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_999 (FSD unit 1, 12/16/2025): \"Correct Answer: Fire protection design\""
+ },
+ {
+  "src": "FSD",
+  "n": 107,
+  "q": "Construction documents must meet which of the following criteria?",
+  "hint": null,
+  "opts": [
+   "Indicate workforce-hours",
+   "Show work conforms to the code",
+   "Indicate responsible parties",
+   "Show cost overruns"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_999 (FSD unit 1, 12/16/2025): \"Correct Answer: Show work conforms to the code\""
+ },
+ {
+  "src": "FSD",
+  "n": 108,
+  "q": "To make changes in the specifications, who is responsible to review and approve new submittals?",
+  "hint": null,
+  "opts": [
+   "Design professional",
+   "General contractor",
+   "Mechanical contractor",
+   "HVAC coordinator"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_999 (FSD unit 1, 12/16/2025): \"Correct Answer: Design professional\""
+ },
+ {
+  "src": "FSD",
+  "n": 109,
+  "q": "The authority having jurisdiction or AHJ is the person or office that enforces______________________.",
+  "hint": null,
+  "opts": [
+   "Permits",
+   "Codes",
+   "Zoning",
+   "Occupancy"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_999 (FSD unit 1, 12/16/2025): \"Correct Answer: Codes\""
+ },
+ {
+  "src": "FSD",
+  "n": 110,
+  "q": "The technical requirements related to materials, products, and services are typically detailed in which of the following construction documents?",
+  "hint": null,
+  "opts": [
+   "Elevations",
+   "Key sheet",
+   "Floor plans",
+   "Specifications"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_999 (FSD unit 1, 12/16/2025): \"Correct Answer: Specifications\""
+ },
+ {
+  "src": "FSD",
+  "n": 201,
+  "q": "Fire Codes contain recommended practices and technical data for determining fire-resistive requirements that are often enforced by divisions of the fire services.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1000 (FSD unit 2, 12/16/2025): \"Correct Answer: True\""
+ },
+ {
+  "src": "FSD",
+  "n": 202,
+  "q": "This code addresses the effects of fire including smoke, heat, and toxic gasses.",
+  "hint": null,
+  "opts": [
+   "Fire Codes",
+   "Mechanical Codes",
+   "Life Safety Code",
+   "Model Codes"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1000 (FSD unit 2, 12/16/2025): \"Correct Answer: Life Safety Code\""
+ },
+ {
+  "src": "FSD",
+  "n": 203,
+  "q": "When a building undergoes extensive remodeling, the affected building systems must comply with which codes?",
+  "hint": null,
+  "opts": [
+   "The original codes",
+   "The current codes"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1000 (FSD unit 2, 12/16/2025): \"Correct Answer: The current codes\""
+ },
+ {
+  "src": "FSD",
+  "n": 204,
+  "q": "UL 555C is the required standard for fire dampers.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1000 (FSD unit 2, 12/16/2025): \"Correct Answer: False\""
+ },
+ {
+  "src": "FSD",
+  "n": 205,
+  "q": "Barriers that are rated for less than 3 hours require dampers with which of the following hourly ratings?",
+  "hint": null,
+  "opts": [
+   "½-hour",
+   "1½-hour",
+   "2½-hour",
+   "3½-hour"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1000 (FSD unit 2, 12/16/2025): \"Correct Answer: 1½-hour\""
+ },
+ {
+  "src": "FSD",
+  "n": 206,
+  "q": "The Legacy codes, three former regional model codes, were combined to form what code?",
+  "hint": null,
+  "opts": [
+   "International Building Code (IBC)",
+   "National Building Code (BOCA)",
+   "Uniform Building Code (IBCO)",
+   "Standard Building Code (SBCCI)"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1000 (FSD unit 2, 12/16/2025): \"Correct Answer: International Building Code (IBC)\""
+ },
+ {
+  "src": "FSD",
+  "n": 207,
+  "q": "Model Codes are typically national codes that are used by state or local jurisdictions either in their entirety or with local amendments.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1000 (FSD unit 2, 12/16/2025): \"Correct Answer: True\""
+ },
+ {
+  "src": "FSD",
+  "n": 208,
+  "q": "When the life safety code conflicts with the building code, who decides which code to follow?",
+  "hint": null,
+  "opts": [
+   "The engineer",
+   "The HVAC contractor",
+   "The AHJ",
+   "The general contractor"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1000 (FSD unit 2, 12/16/2025): \"Correct Answer: The AHJ\""
+ },
+ {
+  "src": "FSD",
+  "n": 209,
+  "q": "UL 555S is the required standard for smoke dampers.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1000 (FSD unit 2, 12/16/2025): \"Correct Answer: True\""
+ },
+ {
+  "src": "FSD",
+  "n": 210,
+  "q": "Which damper is covered under the UL 555C standard?",
+  "hint": null,
+  "opts": [
+   "Fire damper",
+   "Smoke damper",
+   "Combination fire/smoke damper",
+   "Ceiling radiation dampers"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1000 (FSD unit 2, 12/16/2025): \"Correct Answer: Ceiling radiation dampers\""
+ },
+ {
+  "src": "FSD",
+  "n": 211,
+  "q": "Barriers that are rated for 3 or more hours require dampers with which of the following hourly ratings?",
+  "hint": null,
+  "opts": [
+   "1-hour",
+   "2-hour",
+   "3-hour",
+   "4-hour"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1000 (FSD unit 2, 12/16/2025): \"Correct Answer: 3-hour\""
+ },
+ {
+  "src": "FSD",
+  "n": 212,
+  "q": "Actuators, fusible links, fans, and motors receive which type of UL mark?",
+  "hint": null,
+  "opts": [
+   "Product Classification",
+   "Product Listing",
+   "Product Labeling",
+   "Component Recognition"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1000 (FSD unit 2, 12/16/2025): \"Correct Answer: Product Listing\""
+ },
+ {
+  "src": "FSD",
+  "n": 213,
+  "q": "Building codes are a set of prescribed____________.",
+  "hint": null,
+  "opts": [
+   "Dimensions",
+   "Abbreviations",
+   "Recommendations",
+   "Regulations"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1000 (FSD unit 2, 12/16/2025): \"Correct Answer: Regulations\""
+ },
+ {
+  "src": "FSD",
+  "n": 214,
+  "q": "Mechanical Codes contain language and requirements for the HVAC system.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1000 (FSD unit 2, 12/16/2025): \"Correct Answer: True\""
+ },
+ {
+  "src": "FSD",
+  "n": 215,
+  "q": "Underwriters Laboratories, Inc is the most widely accepted safety certification in North America.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1000 (FSD unit 2, 12/16/2025): \"Correct Answer: True\""
+ },
+ {
+  "src": "FSD",
+  "n": 216,
+  "q": "Combination fire/smoke dampers are covered under UL standard 555 and 555S.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1000 (FSD unit 2, 12/16/2025): \"Correct Answer: True\""
+ },
+ {
+  "src": "FSD",
+  "n": 217,
+  "q": "What fire damper hourly rating is required to protect a 2-hour rated wall?",
+  "hint": null,
+  "opts": [
+   "½-hour",
+   "1½-hour",
+   "2½-hour",
+   "3½-hour"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1000 (FSD unit 2, 12/16/2025): \"Correct Answer: 1½-hour\""
+ },
+ {
+  "src": "FSD",
+  "n": 218,
+  "q": "Which of the following would have a UL product classification?",
+  "hint": null,
+  "opts": [
+   "Damper",
+   "Fan",
+   "Motor",
+   "Fusible link"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1000 (FSD unit 2, 12/16/2025): \"Correct Answer: Damper\""
+ },
+ {
+  "src": "FSD",
+  "n": 219,
+  "q": "Which of the following pieces of equipment does UL evaluate for component recognition?",
+  "hint": null,
+  "opts": [
+   "Motors",
+   "Barriers",
+   "Thermostats",
+   "Floors"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1000 (FSD unit 2, 12/16/2025): \"Correct Answer: Thermostats\""
+ },
+ {
+  "src": "FSD",
+  "n": 301,
+  "q": "Type III, A & B buildings have noncombustible exterior and combustible or noncombustible elements.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1001 (FSD unit 3, 12/16/2025): \"Correct Answer: True\""
+ },
+ {
+  "src": "FSD",
+  "n": 302,
+  "q": "Structural fire protection prevents building failure such as _________.",
+  "hint": null,
+  "opts": [
+   "Damper shut-down",
+   "Egress",
+   "Collapse",
+   "Combustion"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1001 (FSD unit 3, 12/16/2025): \"Correct Answer: Collapse\""
+ },
+ {
+  "src": "FSD",
+  "n": 303,
+  "q": "Which of the following framing materials (or studs) may be used in the construction of a firewall?",
+  "hint": null,
+  "opts": [
+   "Wattle",
+   "Gypsum",
+   "Steel",
+   "Copper"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1001 (FSD unit 3, 12/16/2025): \"Correct Answer: Steel\""
+ },
+ {
+  "src": "FSD",
+  "n": 304,
+  "q": "Which building type/ types have all building elements combustible?",
+  "hint": null,
+  "opts": [
+   "Types I & II, A & B",
+   "Type III, A & B",
+   "Type IV",
+   "Type V, A & B"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1001 (FSD unit 3, 12/16/2025): \"Correct Answer: Type V, A & B\""
+ },
+ {
+  "src": "FSD",
+  "n": 305,
+  "q": "How many hours are horizontal assemblies generally rated for?",
+  "hint": null,
+  "opts": [
+   "10 - 12",
+   "7 - 9",
+   "4 - 6",
+   "1 - 3"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1001 (FSD unit 3, 12/16/2025): \"Correct Answer: 1 - 3\""
+ },
+ {
+  "src": "FSD",
+  "n": 306,
+  "q": "Buildings (without subsections) are divided into how many classifications based upon the planned response to a fire event?",
+  "hint": null,
+  "opts": [
+   "6",
+   "5",
+   "4",
+   "3"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1001 (FSD unit 3, 12/16/2025): \"Correct Answer: 5\""
+ },
+ {
+  "src": "FSD",
+  "n": 307,
+  "q": "Building types I & II, A & B have building elements that are noncombustible.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1001 (FSD unit 3, 12/16/2025): \"Correct Answer: True\""
+ },
+ {
+  "src": "FSD",
+  "n": 308,
+  "q": "Type IV buildings have noncombustible exterior elements and heavy timber (HT) interior elements.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1001 (FSD unit 3, 12/16/2025): \"Correct Answer: True\""
+ },
+ {
+  "src": "FSD",
+  "n": 309,
+  "q": "Barriers contain/limit the movement of fire, smoke, and ___________.",
+  "hint": null,
+  "opts": [
+   "Ash",
+   "Water",
+   "Heat",
+   "Toxic Gases"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1001 (FSD unit 3, 12/16/2025): \"Correct Answer: Toxic Gases\""
+ },
+ {
+  "src": "FSD",
+  "n": 310,
+  "q": "Which of the following fire-rated assemblies is used to separate dwelling units, guest rooms and tenant spaces in covered malls and corridor walls?",
+  "hint": null,
+  "opts": [
+   "Smoke barriers",
+   "Fire barriers",
+   "Fire partitions",
+   "Fire walls"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1001 (FSD unit 3, 12/16/2025): \"Correct Answer: Fire partitions\""
+ },
+ {
+  "src": "FSD",
+  "n": 401,
+  "q": "Which of the following types of damper continue to operate in a fire?",
+  "hint": null,
+  "opts": [
+   "Dynamic",
+   "Listed",
+   "Static",
+   "Rated"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: Dynamic\""
+ },
+ {
+  "src": "FSD",
+  "n": 402,
+  "q": "Which type of fire damper typically requires a larger space envelope?",
+  "hint": null,
+  "opts": [
+   "Rated",
+   "Unrated",
+   "Multi-blade",
+   "Curtain"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: Multi-blade\""
+ },
+ {
+  "src": "FSD",
+  "n": 403,
+  "q": "All actuators on smoke and combination fire/smoke dampers are required to be which of the following?",
+  "hint": null,
+  "opts": [
+   "Field fabricated",
+   "Field installed",
+   "Factory rated",
+   "Factory mounted"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: Factory mounted\""
+ },
+ {
+  "src": "FSD",
+  "n": 404,
+  "q": "When two ratings differ for a combination fire/smoke damper, which rating should be followed?",
+  "hint": null,
+  "opts": [
+   "The average of the two ratings",
+   "The higher rating",
+   "The lower rating",
+   "The older rating"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: The higher rating\""
+ },
+ {
+  "src": "FSD",
+  "n": 405,
+  "q": "The space required outside of the combination fire/smoke damper sleeve is dependent upon which of the following factors?",
+  "hint": null,
+  "opts": [
+   "The type and make of the actuator",
+   "The type and make of the control options",
+   "The type and make of the damper sleeve",
+   "The type and make of the mullion"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: The type and make of the actuator\""
+ },
+ {
+  "src": "FSD",
+  "n": 406,
+  "q": "Which of the following heat-responsive devices is resettable?",
+  "hint": null,
+  "opts": [
+   "Bimetallic links",
+   "Frangible links",
+   "Fusible links",
+   "Range links"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: Bimetallic links\""
+ },
+ {
+  "src": "FSD",
+  "n": 407,
+  "q": "What is the minimum rating for a heat responsive device in a damper?",
+  "hint": null,
+  "opts": [
+   "180",
+   "250",
+   "200",
+   "160"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: 160\""
+ },
+ {
+  "src": "FSD",
+  "n": 408,
+  "q": "What function do locking quadrants provide for a damper?",
+  "hint": null,
+  "opts": [
+   "Subdivide over-sized vertical openings",
+   "Help balance system and control airflow",
+   "Secure the damper/sleeve assembly to the wall or floor opening",
+   "Provide access to fire dampers for testing"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: Help balance system and control airflow\""
+ },
+ {
+  "src": "FSD",
+  "n": 409,
+  "q": "How many times must a ceiling radiation damper be activated without any indication of damage to pass the closing reliability test?",
+  "hint": null,
+  "opts": [
+   "100",
+   "150",
+   "250",
+   "300"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: 250\""
+ },
+ {
+  "src": "FSD",
+  "n": 410,
+  "q": "According to UL Standard 555, nominal airflow rating conditions are 2000, 3000 and 4000 FPM. What are the actual required test levels?",
+  "hint": null,
+  "opts": [
+   "2000, 3000 and 4000 FPM",
+   "2200, 3200 and 4200 FPM",
+   "2400, 3400 and 4400 FPM",
+   "2600, 3600 and 4600 FPM"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: 2400, 3400 and 4400 FPM\""
+ },
+ {
+  "src": "FSD",
+  "n": 411,
+  "q": "What is the minimum temperature rating for a smoke damper?",
+  "hint": null,
+  "opts": [
+   "450",
+   "350",
+   "250",
+   "100"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: 250\""
+ },
+ {
+  "src": "FSD",
+  "n": 412,
+  "q": "Which device is used to open and close the smoke damper?",
+  "hint": null,
+  "opts": [
+   "Actuator",
+   "Space envelope",
+   "Fusible link",
+   "Curtain"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: Actuator\""
+ },
+ {
+  "src": "FSD",
+  "n": 413,
+  "q": "Fabric curtain, butterfly, and trap/hinged door are all examples of what type of damper?",
+  "hint": null,
+  "opts": [
+   "Combination fire/smoke damper",
+   "Fire damper",
+   "Smoke damper",
+   "Ceiling (radiation) damper"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: Ceiling (radiation) damper\""
+ },
+ {
+  "src": "FSD",
+  "n": 414,
+  "q": "How long are corridor dampers rated for?",
+  "hint": null,
+  "opts": [
+   "1.5 hours",
+   "3 hours",
+   "1 hour",
+   "2 hours"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: 1 hour\""
+ },
+ {
+  "src": "FSD",
+  "n": 415,
+  "q": "Mechanical fusible links, electric fusible links, electric heat sensors, and pneumatic heat sensors are all examples of what?",
+  "hint": null,
+  "opts": [
+   "Control devices",
+   "Heat responsive devices",
+   "Locking devices",
+   "Smoke responsive devices"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: Heat responsive devices\""
+ },
+ {
+  "src": "FSD",
+  "n": 416,
+  "q": "Which accessory reduces the transmission of heat through the assembly?",
+  "hint": null,
+  "opts": [
+   "Mullion",
+   "Fusible link",
+   "Thermal blanket",
+   "Retaining angle"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: Thermal blanket\""
+ },
+ {
+  "src": "FSD",
+  "n": 417,
+  "q": "Which test establishes the hour classification of a fire damper?",
+  "hint": null,
+  "opts": [
+   "Fire endurance/hose stream test",
+   "Spring closing force test",
+   "Operational reliability test",
+   "Dynamic closure test"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: Fire endurance/hose stream test\""
+ },
+ {
+  "src": "FSD",
+  "n": 418,
+  "q": "Static systems are those that do what in the event of a fire or smoke incident?",
+  "hint": null,
+  "opts": [
+   "Operate",
+   "Shut down",
+   "Cling",
+   "Collapse"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: Shut down\""
+ },
+ {
+  "src": "FSD",
+  "n": 419,
+  "q": "Operability refers to how a damper is activated.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: True\""
+ },
+ {
+  "src": "FSD",
+  "n": 420,
+  "q": "Fire dampers normally close when a temperature-sensing element located on the damper is activated by heat that reaches what temperature?",
+  "hint": null,
+  "opts": [
+   "165 F",
+   "225 F",
+   "195 F",
+   "135 F"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: 165 F\""
+ },
+ {
+  "src": "FSD",
+  "n": 421,
+  "q": "Which type of damper has the damper frame and blades positioned in the air stream, and offers the greatest restriction to airflow?",
+  "hint": null,
+  "opts": [
+   "Type A",
+   "Type B",
+   "Type C (round)",
+   "Type C (oval)"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: Type A\""
+ },
+ {
+  "src": "FSD",
+  "n": 422,
+  "q": "According to UL Standard 555, nominal pressure rating conditions are 4, 6 and 8 inches and require tests to which of the following?",
+  "hint": null,
+  "opts": [
+   "4.0, 6.0 and 8.0 inches",
+   "4.5, 6.5 and 8.5 inches",
+   "8.0, 12.0 and 16.0 inches",
+   "8.5, 12.5 and 16.5 inches"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: 4.5, 6.5 and 8.5 inches\""
+ },
+ {
+  "src": "FSD",
+  "n": 423,
+  "q": "The override package consists of primary and secondary heat responsive device.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: True\""
+ },
+ {
+  "src": "FSD",
+  "n": 424,
+  "q": "Smoke dampers are rated based upon ______________.",
+  "hint": null,
+  "opts": [
+   "Operability",
+   "Fire endurance",
+   "Filtration",
+   "Leakage"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1005 (FSD unit 4, 12/17/2025): \"Correct Answer: Leakage\""
+ },
+ {
+  "src": "FSD",
+  "n": 501,
+  "q": "Sleeve gauge, or thickness, requirements depend on damper size and what other factor?",
+  "hint": null,
+  "opts": [
+   "The type of damper blade design used",
+   "The rate of airflow",
+   "The type of duct to sleeve connections used",
+   "The rate of actuation"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1004 (FSD unit 5, 12/17/2025): \"Correct Answer: The type of duct to sleeve connections used\""
+ },
+ {
+  "src": "FSD",
+  "n": 502,
+  "q": "Installing the actuators internally is not recommended for which of the following reasons?",
+  "hint": null,
+  "opts": [
+   "Internally installed actuators are less visually appealing",
+   "Internally installed actuators have not been tested to UL standards",
+   "Internally installed actuators may result in pressure drops that are excessive",
+   "Internally installed actuators are more likely to malfunction"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1004 (FSD unit 5, 12/17/2025): \"Correct Answer: Internally installed actuators may result in pressure drops that are excessive\""
+ },
+ {
+  "src": "FSD",
+  "n": 503,
+  "q": "Retaining angles must cover the corners of the opening and overlap the opening for the duct by a minimum of __________________. .",
+  "hint": null,
+  "opts": [
+   "2 inches",
+   "0.5 inches",
+   "1 inch",
+   "1.5 inches"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1004 (FSD unit 5, 12/17/2025): \"Correct Answer: 1 inch\""
+ },
+ {
+  "src": "FSD",
+  "n": 504,
+  "q": "If the local AHJ mandates that fire damper retaining angles be sealed, the HVAC contractor should ___________.",
+  "hint": null,
+  "opts": [
+   "Request a new AHJ be assigned",
+   "Consult with the manufacturer",
+   "Issue an RFI",
+   "Consult with the HVAC foreman"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1004 (FSD unit 5, 12/17/2025): \"Correct Answer: Issue an RFI\""
+ },
+ {
+  "src": "FSD",
+  "n": 505,
+  "q": "What serves as the basis for all life safety damper installations?",
+  "hint": null,
+  "opts": [
+   "NFPA 90",
+   "Local building codes",
+   "The specifications",
+   "The manufacturer’s installation instructions"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1004 (FSD unit 5, 12/17/2025): \"Correct Answer: The manufacturer’s installation instructions\""
+ },
+ {
+  "src": "FSD",
+  "n": 506,
+  "q": "Sleeve length depends on several factors, including ______.",
+  "hint": null,
+  "opts": [
+   "Method of installation",
+   "Thickness of sleeve",
+   "Rating of damper",
+   "Date of inspection"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1004 (FSD unit 5, 12/17/2025): \"Correct Answer: Method of installation\""
+ },
+ {
+  "src": "FSD",
+  "n": 507,
+  "q": "Nearly all codes state that penetrations of fire-rated assemblies are required to be ______________.",
+  "hint": null,
+  "opts": [
+   "Firestopped",
+   "Intumescent",
+   "Lubricated",
+   "Expansive"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1004 (FSD unit 5, 12/17/2025): \"Correct Answer: Firestopped\""
+ },
+ {
+  "src": "FSD",
+  "n": 508,
+  "q": "Why are breakaway duct/sleeve connections used with dampers?",
+  "hint": null,
+  "opts": [
+   "So the damper/sleeve assembly can separate from the duct if the duct falls during a fire",
+   "So the duct can separate from the damper if the damper falls during a fire",
+   "So the damper can be easily accessed for testing, repair and replacement",
+   "So the sleeve can be easily accessed for repair and replacement"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1004 (FSD unit 5, 12/17/2025): \"Correct Answer: So the damper/sleeve assembly can separate from the duct if the duct falls during a fire\""
+ },
+ {
+  "src": "FSD",
+  "n": 509,
+  "q": "Access doors are required to provide access to all fire dampers for __________.",
+  "hint": null,
+  "opts": [
+   "Installation",
+   "Training",
+   "Removal",
+   "Testing"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1004 (FSD unit 5, 12/17/2025): \"Correct Answer: Testing\""
+ },
+ {
+  "src": "FSD",
+  "n": 510,
+  "q": "Dynamic fire dampers are designed for HVAC systems that do what in the event of a fire?",
+  "hint": null,
+  "opts": [
+   "Detach",
+   "Reverse",
+   "Shut down",
+   "Operate"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1004 (FSD unit 5, 12/17/2025): \"Correct Answer: Operate\""
+ },
+ {
+  "src": "FSD",
+  "n": 511,
+  "q": "If a damper cannot be installed in a location due to the size, configuration, location of the opening, etc., who is responsible for correcting the installation site?",
+  "hint": null,
+  "opts": [
+   "The responsible contractor",
+   "The HVAC or ductwork contractor",
+   "The HVAC foreman",
+   "The site owner"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1004 (FSD unit 5, 12/17/2025): \"Correct Answer: The responsible contractor\""
+ },
+ {
+  "src": "FSD",
+  "n": 512,
+  "q": "When mounting rectangular dampers, the perimeter mounting angles are rigidly fastened to ______________. .",
+  "hint": null,
+  "opts": [
+   "The floor surface",
+   "The ceiling or frame",
+   "The damper sleeve or frame",
+   "The wall surface"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1004 (FSD unit 5, 12/17/2025): \"Correct Answer: The damper sleeve or frame\""
+ },
+ {
+  "src": "FSD",
+  "n": 513,
+  "q": "If a wall opening is larger than the approved maximum damper assembly size, what should you do?",
+  "hint": null,
+  "opts": [
+   "Use mounting angles",
+   "Use an approved mullion",
+   "Use a larger damper",
+   "Fabricate a new sleeve"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1004 (FSD unit 5, 12/17/2025): \"Correct Answer: Use an approved mullion\""
+ },
+ {
+  "src": "FSD",
+  "n": 514,
+  "q": "When an arrow is present on the damper frame, you should orient the damper in which direction?",
+  "hint": null,
+  "opts": [
+   "Perpendicular to the airflow",
+   "Opposite the airflow",
+   "Underneath the airflow",
+   "In the direction of the airflow"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1004 (FSD unit 5, 12/17/2025): \"Correct Answer: In the direction of the airflow\""
+ },
+ {
+  "src": "FSD",
+  "n": 515,
+  "q": "Smoke dampers should be installed what distance from the smoke barrier?",
+  "hint": null,
+  "opts": [
+   "Not more than 6 inches",
+   "Not more than 12 inches",
+   "Not more than 24 inches",
+   "Not more than 48 inches"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1004 (FSD unit 5, 12/17/2025): \"Correct Answer: Not more than 24 inches\""
+ },
+ {
+  "src": "FSD",
+  "n": 601,
+  "q": "The process of testing the smoke-control system is often referred to as __________.",
+  "hint": null,
+  "opts": [
+   "Operational testing",
+   "Component testing",
+   "Acceptance testing",
+   "Functional testing"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1007 (FSD unit 6, 12/17/2025): \"Correct Answer: Acceptance testing\""
+ },
+ {
+  "src": "FSD",
+  "n": 602,
+  "q": "During component testing, verify the proper operation of components of the installed unit by _____________. .",
+  "hint": null,
+  "opts": [
+   "Cycle testing",
+   "Salt-spray testing",
+   "Individual testing",
+   "Distance testing"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1007 (FSD unit 6, 12/17/2025): \"Correct Answer: Cycle testing\""
+ },
+ {
+  "src": "FSD",
+  "n": 603,
+  "q": "During component (functional) testing, fusible links shall be __________.",
+  "hint": null,
+  "opts": [
+   "Cycled 10 times",
+   "Automatically replaced",
+   "Tested within the system",
+   "Removed for testing"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1007 (FSD unit 6, 12/17/2025): \"Correct Answer: Removed for testing\""
+ },
+ {
+  "src": "FSD",
+  "n": 604,
+  "q": "Obstructions, dirt build-up, and rust or corrosion should be carefully removed using .",
+  "hint": null,
+  "opts": [
+   "A harsh solvent or detergent",
+   "Soap and water",
+   "A mild solvent or detergent",
+   "An abrasive"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1007 (FSD unit 6, 12/17/2025): \"Correct Answer: A mild solvent or detergent\""
+ },
+ {
+  "src": "FSD",
+  "n": 605,
+  "q": "How does the UL determine the suitability of a modification that would use original parts?",
+  "hint": null,
+  "opts": [
+   "Inspection of the RFI",
+   "A field inspection",
+   "Inspection of the blueprints",
+   "A remote evaluation"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1007 (FSD unit 6, 12/17/2025): \"Correct Answer: A field inspection\""
+ },
+ {
+  "src": "FSD",
+  "n": 606,
+  "q": "Component testing is also sometimes referred to as ___________.",
+  "hint": null,
+  "opts": [
+   "Functional testing",
+   "Operational testing",
+   "Process testing",
+   "Preliminary testing"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1007 (FSD unit 6, 12/17/2025): \"Correct Answer: Functional testing\""
+ },
+ {
+  "src": "FSD",
+  "n": 607,
+  "q": "All actuator-operated dampers should be cycled a minimum of one time every __________________.",
+  "hint": null,
+  "opts": [
+   "One month",
+   "Three months",
+   "Six months",
+   "Twelve months"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_1007 (FSD unit 6, 12/17/2025): \"Correct Answer: Six months\""
+ },
+ {
+  "src": "FSD",
+  "n": 942,
+  "q": "When a building undergoes extensive remodeling, the affected building systems must comply with which codes?",
+  "hint": null,
+  "opts": [
+   "The original codes",
+   "The current codes",
+   "The simpler codes",
+   "The older codes"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: The current codes\" (Unit 2: Codes and Standards)"
+ },
+ {
+  "src": "FSD",
+  "n": 945,
+  "q": "Fill in the blank: Operability refers to _________________________________.",
+  "hint": null,
+  "opts": [
+   "The quality of a damper",
+   "How easy a damper is to use",
+   "Whether a damper is static or dynamic",
+   "How a damper is activated"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack printout msg_995 (SMY1W3 Friday written, 12/19/2025): \"Correct Answer: How a damper is activated\" (Unit 4: Damper Selection)"
+ }
+]

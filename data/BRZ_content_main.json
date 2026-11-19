@@ -1,0 +1,533 @@
+[
+ {
+  "src": "BRZ",
+  "n": 1,
+  "topic": "materials",
+  "ru_q": "Технику нужна 5/8\" ACR, а рядом только магазин сантехники (plumbing). Трубу какого размера и типа ему спросить?",
+  "ru_hint": null,
+  "ru_opts": [
+   "5/8\" ACR",
+   "1/2\" PVC",
+   "1/2\" ID Copper",
+   "5/8\" PVC"
+  ],
+  "why_en": "ACR tubing is named by its outside diameter; plumbing copper (type K, L, M) by its nominal size, close to the inside diameter, and its OD is 1/8\" larger. So 5/8\" OD ACR = 1/2\" plumbing copper (OD 0.625\"). PVC is not refrigerant pipe.",
+  "why_ru": "ACR называют по наружному диаметру, а сантехническую медь (type K, L, M) — по номинальному размеру, близкому к внутреннему диаметру; её наружный диаметр на 1/8\" больше. Поэтому 5/8\" ACR = медь 1/2\" из сантехники (OD 0.625\"). PVC для хладагента не годится.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 2,
+  "topic": "materials",
+  "ru_q": "Размер, указанный для диаметра медной трубки type L для сантехники, — это приблизительно ____.",
+  "ru_hint": null,
+  "ru_opts": [
+   "внутренний размер",
+   "наружный размер",
+   "толщина стенки",
+   "ничего из перечисленного"
+  ],
+  "why_en": "Plumbing copper is named by nominal size, roughly its inside diameter: 1/2\" type L has OD 0.625\" and ID 0.545\". ACR tubing, by contrast, is named by its outside diameter.",
+  "why_ru": "Сантехническую медь называют по номинальному размеру, примерно равному внутреннему диаметру: у 1/2\" type L наружный диаметр 0.625\", внутренний 0.545\". А ACR называют по наружному диаметру.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 3,
+  "topic": "welding",
+  "ru_q": "Максимальная температура, при которой выполняют мягкую пайку (soft soldering), — ____.",
+  "ru_hint": null,
+  "ru_opts": [
+   "400°F",
+   "212°F",
+   "600°F",
+   "800°F"
+  ],
+  "why_en": "The course book (Delmar ch. 7) draws the line at 800°F: soldering below it, brazing above it. AWS puts the line at 840°F (450°C); 800°F is the answer here.",
+  "why_ru": "Учебник курса (Delmar, гл. 7) проводит границу по 800°F: ниже — soldering, выше — brazing. AWS ставит границу на 840°F (450°C); здесь ответ — 800°F.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 4,
+  "topic": "welding",
+  "ru_q": "Brazing выполняют при ____ soldering.",
+  "ru_hint": null,
+  "ru_opts": [
+   "той же температуре, что и",
+   "более низких температурах, чем",
+   "более высоких температурах, чем",
+   "температурах, которые могут быть выше или ниже, чем"
+  ],
+  "why_en": "Brazing is done above 800°F, soldering below it, so brazing is always hotter.",
+  "why_ru": "Brazing выполняют выше 800°F, soldering — ниже, поэтому brazing всегда горячее.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 5,
+  "topic": "fittings",
+  "ru_q": "Резьба на трубах, в которых будет жидкость или пар под давлением, ____.",
+  "ru_hint": null,
+  "ru_opts": [
+   "коническая",
+   "должна иметь не меньше семи полных ниток",
+   "обычно имеет V-образный профиль",
+   "всё перечисленное"
+  ],
+  "why_en": "All three are true for pressure pipe thread (NPT): it is tapered so it wedges tight, its profile is a 60° V, and the course book asks for at least seven perfect threads. Picking only 'tapered' lost the point on the TotalTrack key.",
+  "why_ru": "Все три верны для резьбы под давление (NPT): она коническая, чтобы затягиваться на клин, профиль — V под 60°, и учебник курса требует не меньше семи полных ниток. Ответ «только коническая» в TotalTrack не засчитан.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 6,
+  "topic": "welding",
+  "ru_q": "Какое пламя oxy-acetylene горелки правильное для silver brazing?",
+  "ru_hint": null,
+  "ru_opts": [
+   "long tail flame",
+   "neutral flame",
+   "oxidizing flame",
+   "carbonizing flame"
+  ],
+  "why_en": "Silver brazing uses a neutral flame (equal oxygen and acetylene). An oxidizing flame oxidizes the copper; a carbonizing flame adds carbon and soot to the joint.",
+  "why_ru": "Для silver brazing — neutral flame (кислород и ацетилен поровну). Oxidizing flame окисляет медь, carbonizing flame добавляет в соединение углерод и сажу.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 7,
+  "topic": "welding",
+  "ru_q": "Расплавленный припой затекает между двумя паяемыми металлами, потому что ____.",
+  "ru_hint": null,
+  "ru_opts": [
+   "его вдавливает атмосферное давление",
+   "действует капиллярный эффект",
+   "в основном металле нет пор на поверхности",
+   "поверхность трубки плавится и разница давлений вдавливает его"
+  ],
+  "why_en": "Capillary action draws molten solder into the narrow gap between a clean, fluxed tube and fitting, even upward. The base metal does not melt in soldering.",
+  "why_ru": "Капиллярный эффект (capillary action) затягивает жидкий припой в узкий зазор между чистыми, покрытыми flux трубкой и фитингом — даже снизу вверх. Основной металл при пайке не плавится.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 8,
+  "topic": "welding",
+  "ru_q": "При пайке техник должен нагревать припой горелкой, чтобы он расплавился.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "No. Heat the tube and fitting; the solder melts when it touches the hot joint and is drawn in. Solder melted by the flame lands on a joint that is too cold to take it.",
+  "why_ru": "Нет. Нагревают трубку и фитинг; припой плавится, касаясь горячего соединения, и затягивается внутрь. Припой, расплавленный пламенем, попадает на холодное соединение и не схватывается.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 9,
+  "topic": "fittings",
+  "ru_q": "При монтаже холодильной системы трубопровод нужно соединять с как можно меньшим числом соединений.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "Yes. Every joint is a possible leak and a place for contamination, so use long runs, bends and swages instead of extra fittings.",
+  "why_ru": "Да. Каждое соединение — возможная утечка и место для загрязнения, поэтому лучше длинные отрезки, гибка и swage вместо лишних фитингов.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 10,
+  "topic": "welding",
+  "ru_q": "Припой 95/5 tin-antimony можно использовать в любой части холодильной системы.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "No. 95/5 is a soft solder with low strength; the course book allows it only on the low side. High-pressure lines are brazed.",
+  "why_ru": "Нет. 95/5 — мягкий припой с низкой прочностью; учебник курса допускает его только на low side. Линии высокого давления паяют brazing.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 11,
+  "topic": "welding",
+  "ru_q": "Air-acetylene горелку с twist tip, где воздух подмешивается к ацетилену, можно использовать и для низкотемпературной, и для высокотемпературной пайки.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "Yes. An air-acetylene torch is hot enough both for soft soldering and for silver brazing (high-temperature soldering) of copper refrigeration lines.",
+  "why_ru": "Да. Air-acetylene горелка даёт достаточно тепла и для мягкой пайки, и для silver brazing (высокотемпературной пайки) медных холодильных трубок.",
+  "flag": "The printout breaks the line after 'low-'; the text is taken as 'low- and high-temperature'."
+ },
+ {
+  "src": "BRZ",
+  "n": 12,
+  "topic": "materials",
+  "ru_q": "Медная трубка для монтажа холодильных систем на объекте — это type ____________________.",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "ACR (air conditioning and refrigeration) tubing: cleaned, dehydrated and capped at the factory, sold by outside diameter.",
+  "why_ru": "ACR (air conditioning and refrigeration): трубку на заводе чистят, осушают и закрывают заглушками, продают по наружному диаметру.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 13,
+  "topic": "materials",
+  "ru_q": "Одна из причин изолировать suction line — помочь держать правильный ____________________.",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "Superheat (the key also accepts temperature). Insulation keeps heat out of the cold suction line, so the refrigerant reaches the compressor at the intended superheat, and it stops sweating.",
+  "why_ru": "Superheat (ключ принимает и temperature). Изоляция не даёт холодной suction line набирать тепло, поэтому хладагент приходит к компрессору с нужным superheat, и трубка не потеет.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 14,
+  "topic": "fittings",
+  "ru_q": "В обозначении резьбы 1/2-14 NPT число 1/2 — это ____________________.",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "For points write 'thread diameter': that is the TotalTrack key ('nominal pipe size' was marked wrong). Technically the 1/2 is the nominal pipe size: the real outside diameter of 1/2\" NPT pipe and thread is 0.840\".",
+  "why_ru": "Для балла — «thread diameter»: это ключ TotalTrack («nominal pipe size» не засчитан). Технически 1/2 — номинальный размер трубы: реальный наружный диаметр трубы и резьбы 1/2\" NPT — 0.840\".",
+  "flag": "Key 'Thread Diameter' is technically imprecise: 1/2 is the nominal pipe size (thread OD 0.840\"). 'nominal pipe size' was marked wrong on TotalTrack."
+ },
+ {
+  "src": "BRZ",
+  "n": 15,
+  "topic": "materials",
+  "ru_q": "Сокращённое название пластиковой трубы для водостоков, канализации и низкотемпературных вентстояков — ____________________.",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "ABS (black plastic pipe) is used for DWV: drain, waste and vent lines.",
+  "why_ru": "ABS (чёрная пластиковая труба) идёт на DWV: drain, waste и vent.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 16,
+  "topic": "materials",
+  "ru_q": "Сокращённое название пластиковой трубы для подачи воды и газа и для систем полива — ____________________.",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "PE (polyethylene) is flexible pipe used for water and gas service lines and irrigation.",
+  "why_ru": "PE (polyethylene) — гибкая труба для подводки воды и газа и для полива.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 17,
+  "topic": "materials",
+  "ru_q": "Сокращённое название пластиковой трубы для систем холодного и горячего водоснабжения — ____________________.",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "CPVC (chlorinated PVC) withstands hot water (about 180°F), so it serves hot and cold supply; plain PVC is limited to about 140°F.",
+  "why_ru": "CPVC (chlorinated PVC) выдерживает горячую воду (около 180°F), поэтому идёт на горячую и холодную воду; обычный PVC — только примерно до 140°F.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 18,
+  "topic": "materials",
+  "ru_q": "Зачем изолируют некоторые холодильные трубки?",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "To keep the system from absorbing excess heat: a cold line picks up heat from the surrounding air. Insulation also stops condensation; TotalTrack accepted an answer naming heat gain and condensation.",
+  "why_ru": "Чтобы система не набирала лишнее тепло: холодная трубка забирает тепло из окружающего воздуха. Изоляция ещё и не даёт трубке потеть; TotalTrack засчитал ответ, где названы приток тепла и конденсат.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 20,
+  "topic": "welding",
+  "ru_q": "Как называется затекание расплавленного припоя между двумя основными металлами при пайке?",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "Capillary action: a narrow, clean gap draws the liquid filler in, even upward, without pressure.",
+  "why_ru": "Capillary action: узкий чистый зазор сам затягивает жидкий припой, даже снизу вверх, без давления.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 21,
+  "topic": "fittings",
+  "ru_q": "Какой глубины должна быть раздача (расширенная часть трубки) при swage-соединении?",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "Equal to the diameter of the original tube (TotalTrack also accepted 'OD'): the other tube of the same size slides in that far, which gives enough overlap for the brazed joint.",
+  "why_ru": "Равной диаметру исходной трубки (TotalTrack засчитал и «OD»): трубка того же размера входит на эту глубину, и нахлёста хватает для пайки.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 22,
+  "topic": "welding",
+  "ru_q": "При пайке flux наносят на ____.",
+  "ru_hint": null,
+  "ru_opts": [
+   "только male-часть соединения",
+   "только female-часть соединения",
+   "и male, и female части соединения",
+   "ничего из перечисленного"
+  ],
+  "why_en": "Flux goes on the male part (the tube end) only; heat draws it into the joint. Flux put inside the fitting is pushed into the system when the tube goes in and contaminates it.",
+  "why_ru": "Flux наносят только на male-часть (конец трубки); при нагреве он затягивается в соединение. Flux внутри фитинга при вставке трубки выдавливается в систему и загрязняет её.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 23,
+  "topic": "welding",
+  "ru_q": "Припой 95/5 следует использовать ____.",
+  "ru_hint": null,
+  "ru_opts": [
+   "на high side системы",
+   "на low side системы",
+   "при резких перепадах давления и температуры",
+   "всегда"
+  ],
+  "why_en": "On the low side only: 95/5 is a soft solder, and the high side (discharge and liquid lines) has higher pressure and temperature, so it is brazed.",
+  "why_ru": "Только на low side: 95/5 — мягкий припой, а на high side (нагнетание и жидкостная линия) давление и температура выше, там паяют brazing.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 24,
+  "topic": "welding",
+  "ru_q": "Присадочные материалы для соединения медных трубок состоят из ____.",
+  "ru_hint": null,
+  "ru_opts": [
+   "50/50 tin-lead",
+   "95/5 tin-antimony",
+   "15%-60% silver",
+   "bronze rod"
+  ],
+  "why_en": "Copper refrigeration joints are brazed with silver-bearing filler, 15% to 60% silver. 50/50 tin-lead and 95/5 tin-antimony are soft solders; bronze rod is for brazing steel and cast iron.",
+  "why_ru": "Медные холодильные соединения паяют присадкой с серебром — от 15% до 60% серебра. 50/50 tin-lead и 95/5 tin-antimony — мягкие припои, bronze rod — для пайки стали и чугуна.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 25,
+  "topic": "welding",
+  "ru_q": "При soldering или brazing припой ____.",
+  "ru_hint": null,
+  "ru_opts": [
+   "нагревается прямо пламенем горелки",
+   "нагревается окружающим воздухом",
+   "служит для окисления металла",
+   "плавится от тепла трубки и фитинга"
+  ],
+  "why_en": "The flame heats the tube and fitting; the filler melts from their heat and flows into the joint. Melting it in the flame leaves it on a joint too cold to bond.",
+  "why_ru": "Пламя греет трубку и фитинг, а припой плавится от их тепла и затекает в соединение. Если плавить его пламенем, он ложится на слишком холодное соединение и не схватывается.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 26,
+  "topic": "welding",
+  "ru_q": "Для зачистки медной трубки ACR перед пайкой можно использовать ____.",
+  "ru_hint": null,
+  "ru_opts": [
+   "steel wool",
+   "carborundum cloth",
+   "sand cloth",
+   "all of the above"
+  ],
+  "why_en": "Sand cloth. Steel wool and carborundum cloth can leave steel or abrasive particles in the tube that travel with the oil to the compressor, so 'all of the above' is wrong (it lost the point on TotalTrack).",
+  "why_ru": "Sand cloth. Steel wool и carborundum cloth могут оставить в трубке частицы стали или абразива, которые с маслом уйдут в компрессор, поэтому «all of the above» неверно (в TotalTrack балл снят).",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 27,
+  "topic": "tools",
+  "ru_q": "При резке трубки труборезом образуется заусенец. Это небольшое уменьшение внутреннего диаметра может ухудшить работу системы.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "Yes. A tube cutter rolls a burr inward; it restricts flow and adds turbulence, so ream it out after every cut.",
+  "why_ru": "Да. Труборез загибает заусенец внутрь; он сужает проход и создаёт завихрения, поэтому после каждого реза его снимают (reaming).",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 28,
+  "topic": "welding",
+  "ru_q": "При soldering и brazing flux нужен всегда.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "No. Brazing copper to copper with phosphorus-bearing filler needs no flux: the phosphorus does the fluxing. Flux is needed for soft solder and for brazing brass, steel or other metals to copper.",
+  "why_ru": "Нет. При brazing меди с медью присадкой с фосфором flux не нужен: фосфор сам работает как flux. Flux нужен для мягкой пайки и для brazing латуни, стали или других металлов с медью.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 29,
+  "topic": "fittings",
+  "ru_q": "В обозначении резьбы 1/2-14 NPT число 14 означает _________________________.",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "14 threads per inch (TPI) — the standard pitch for 1/2\" and 3/4\" NPT.",
+  "why_ru": "14 ниток на дюйм (threads per inch, TPI) — стандартный шаг для 1/2\" и 3/4\" NPT.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 30,
+  "topic": "fittings",
+  "ru_q": "В обозначении резьбы 1/2-14 NPT буквы NPT означают ______________________________.",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "National pipe taper: the American standard tapered pipe thread (taper 1 in 16). It is also read as 'National Pipe Thread (Taper)'; for this test write 'national pipe taper'.",
+  "why_ru": "National pipe taper — американская стандартная коническая трубная резьба (конусность 1:16). Её ещё расшифровывают как National Pipe Thread (Taper); на тесте пишите «national pipe taper».",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 31,
+  "topic": "materials",
+  "ru_q": "Сокращённое название пластиковой трубы для систем высокого давления при низкой температуре — ____________________.",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "PVC: rigid and strong under pressure, but it softens with heat (about 140°F max), hence high pressure, low temperature. CPVC is the hot-water version.",
+  "why_ru": "PVC: жёсткая и прочная под давлением, но размягчается от тепла (максимум около 140°F), отсюда «высокое давление, низкая температура». CPVC — вариант для горячей воды.",
+  "flag": "Typed answers are matched by substring, so 'CPVC' would also be accepted here; the base has \"reject\": [\"cpvc\"], but tools/build_questions.py does not pass 'reject' to the app."
+ },
+ {
+  "src": "BRZ",
+  "n": 32,
+  "topic": "fittings",
+  "ru_q": "Стальная трубная резьба, которая в основном используется в отрасли, — коническая (tapered). Почему?",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "To produce a tight joint and prevent leakage: as the tapered threads are screwed in they wedge together and seal (with pipe dope or tape). TotalTrack gave full credit to 'pressure-tight seal'.",
+  "why_ru": "Чтобы соединение было плотным и не текло: при завинчивании конические нитки заклиниваются и уплотняются (с герметиком или лентой). TotalTrack засчитал полностью ответ «pressure-tight seal».",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 33,
+  "topic": "fittings",
+  "ru_q": "операция, при которой конец медной трубки раздают под углом для соединения с системой через flare nut",
+  "ru_hint": null,
+  "ru_opts": [
+   "brazing",
+   "flaring",
+   "swaging",
+   "reaming"
+  ],
+  "why_en": "Flaring spreads the tube end into a 45° cone that is clamped between the flare nut and the flare fitting.",
+  "why_ru": "Flaring раздаёт конец трубки в конус 45°, который зажимают между flare nut и flare-фитингом.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 34,
+  "topic": "materials",
+  "ru_q": "операция нагрева и охлаждения трубки, чтобы сделать её мягче",
+  "ru_hint": null,
+  "ru_opts": [
+   "brazing",
+   "work hardening",
+   "annealing",
+   "swaging"
+  ],
+  "why_en": "Annealing: heating copper and letting it cool makes it soft and bendable again, undoing work hardening.",
+  "why_ru": "Annealing: медь нагревают и дают остыть, она снова становится мягкой и гнётся; это снимает work hardening.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 35,
+  "topic": "welding",
+  "ru_q": "выполняется при температуре ниже 800°F",
+  "ru_hint": null,
+  "ru_opts": [
+   "soldering",
+   "flaring",
+   "work hardening",
+   "brazing"
+  ],
+  "why_en": "Soldering is done below 800°F; brazing above it.",
+  "why_ru": "Soldering выполняют ниже 800°F, brazing — выше.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 36,
+  "topic": "tools",
+  "ru_q": "снятие заусенцев и неровных кромок с трубки",
+  "ru_hint": null,
+  "ru_opts": [
+   "work hardening",
+   "annealing",
+   "flaring",
+   "reaming"
+  ],
+  "why_en": "Reaming removes the burr a tube cutter leaves inside the tube.",
+  "why_ru": "Reaming снимает заусенец, который труборез оставляет внутри трубки.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 37,
+  "topic": "welding",
+  "ru_q": "выполняется при температуре выше 800°F",
+  "ru_hint": null,
+  "ru_opts": [
+   "brazing",
+   "work hardening",
+   "soldering",
+   "swaging"
+  ],
+  "why_en": "Brazing is done above 800°F; soldering below it.",
+  "why_ru": "Brazing выполняют выше 800°F, soldering — ниже.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 38,
+  "topic": "materials",
+  "ru_q": "возникает от многократного сгибания и выпрямления трубки",
+  "ru_hint": null,
+  "ru_opts": [
+   "annealing",
+   "flaring",
+   "work hardening",
+   "swaging"
+  ],
+  "why_en": "Work hardening: repeated bending makes copper hard and brittle, and it can crack; annealing softens it again.",
+  "why_ru": "Work hardening: от многократной гибки медь становится твёрдой и хрупкой и может треснуть; annealing снова делает её мягкой.",
+  "flag": null
+ },
+ {
+  "src": "BRZ",
+  "n": 39,
+  "topic": "fittings",
+  "ru_q": "операция, которая позволяет соединить две трубки одинакового диаметра",
+  "ru_hint": null,
+  "ru_opts": [
+   "work hardening",
+   "reaming",
+   "annealing",
+   "swaging"
+  ],
+  "why_en": "Swaging expands the end of one tube so that a tube of the same diameter slides into it; then one brazed joint replaces a coupling with two joints.",
+  "why_ru": "Swaging раздаёт конец одной трубки, чтобы в неё вошла трубка того же диаметра; тогда одно паяное соединение заменяет муфту с двумя.",
+  "flag": null
+ }
+]

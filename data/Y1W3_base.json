@@ -1,0 +1,623 @@
+[
+ {
+  "src": "Y1W3",
+  "n": 3,
+  "q": "What do the letters JATC stand for?",
+  "hint": null,
+  "opts": [
+   "JUNIOR APPRENTICESHIP TRAINING COMMITTEE",
+   "JOINT APPRENTICESHIP TRAINING COMMISSION",
+   "JOINT APPRENTICESHIP TRAINING COMMITTEE",
+   "JUNIOR APPRENTICESHIP TRAINING COMMISSION"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 4,
+  "q": "What is the name of one of Americas most famous metal workers, who started a copper rolling mill in 1801 and also helped move sheet metal work into the industrial age?",
+  "hint": null,
+  "opts": [
+   "BEN FRANKLIN",
+   "THOMAS JEFFERSON",
+   "PAUL REVERE",
+   "ABRAHAM LINCOLN"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong; history: Paul Revere opened his copper rolling mill in Canton, MA, in 1801"
+ },
+ {
+  "src": "Y1W3",
+  "n": 6,
+  "q": "Right-handed aviation snips cut:",
+  "hint": null,
+  "opts": [
+   "clockwise",
+   "counter-clockwise",
+   "clockwise and counter-clockwise",
+   "none of the answers are correct"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY1W3 graded sheet: a (clockwise) marked wrong, b highlighted as key; Trade Intro graded sheet: a not marked wrong. Disputed (08-testy-i-klyuchi.md §10, open question 2)"
+ },
+ {
+  "src": "Y1W3",
+  "n": 7,
+  "q": "TDC and TDF systems are similar to duct-mate except that they are formed on the edge of a sheet",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong (SMY1W3 margin \"?\", no deduction); SMY1W5 Monday graded sheet No.12: instructor correction confirms Yes"
+ },
+ {
+  "src": "Y1W3",
+  "n": 11,
+  "q": "How much material will remain after the following pieces have been cut from a piece of hanger strap 24 inches long? 3-1/4 inch, 5-3/8 inch, 4-1/2 inch, 5-11/16 inch.",
+  "hint": null,
+  "opts": [
+   "5-3/32\"",
+   "5-5/16\"",
+   "5-5/8\"",
+   "None of the above"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Calculation: 24 - 18-13/16 = 5-3/16; Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 12,
+  "q": "Name this common sheet metal component:",
+  "hint": null,
+  "opts": [
+   "S-Cleat",
+   "Drive Cleat",
+   "Male Pittsburg",
+   "Female Pipelock"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": "q12",
+  "evidence": "Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong; drawing = drive cleat section"
+ },
+ {
+  "src": "Y1W3",
+  "n": 13,
+  "q": "Name this common sheet metal component:",
+  "hint": null,
+  "opts": [
+   "S-Cleat",
+   "Drive Cleat",
+   "Male Pittsburg",
+   "Standing-S"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": "q13",
+  "evidence": "Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 14,
+  "q": "Name this common sheet metal component:",
+  "hint": null,
+  "opts": [
+   "Female Pittsburg",
+   "Female Snaplock",
+   "Pipelock Seam",
+   "Pittsburg Drive"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": "q14",
+  "evidence": "Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 16,
+  "q": "What do the letters TAB stand for in the sheet metal industry?",
+  "hint": null,
+  "opts": [
+   "TESTING, ADJUSTING & BALANCING",
+   "TESTING AND BALANCING",
+   "TEXTING, ADJUSTING AND BALANCING"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 17,
+  "q": "What type of roll has a hinged end that allows it to be raised to remove formed metal out the side?",
+  "hint": null,
+  "opts": [
+   "Slip rolls",
+   "Pyramid rolls",
+   "Roll forming machine",
+   "bead roller"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 19,
+  "q": "When doing bench layout what is the best tool for measuring dimensions?",
+  "hint": null,
+  "opts": [
+   "Circumference ruler",
+   "Tape measure",
+   "Framing square"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY1W3 graded sheet: b (tape measure) marked wrong, a highlighted as key"
+ },
+ {
+  "src": "Y1W3",
+  "n": 20,
+  "q": "What device best protects the worker from electrical shock?",
+  "hint": null,
+  "opts": [
+   "Polarized plug",
+   "Circuit breaker",
+   "GFCI",
+   "Fuse"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong; OSHA 1926.404(b)(1)"
+ },
+ {
+  "src": "Y1W3",
+  "n": 21,
+  "q": "The area of Sheet Metal work which employs the greatest number of workers in SMART is _______________.",
+  "hint": null,
+  "opts": [
+   "Architectural",
+   "Industrial",
+   "HVAC Work",
+   "Commercial"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 24,
+  "q": "Most scratching and denting of sheet metal occurs during _________.",
+  "hint": null,
+  "opts": [
+   "forming in the shop",
+   "shipping to the job site",
+   "installation",
+   "none of the above"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 25,
+  "q": "What is the most accurate way to transfer dimensions when doing shop layout?",
+  "hint": null,
+  "opts": [
+   "Dividers",
+   "Tape measure",
+   "bench rule",
+   "Framing square"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 26,
+  "q": "What type of flange uses angle iron that is riveted or welded to the duct?",
+  "hint": null,
+  "opts": [
+   "TDC & TDF",
+   "Standing seam",
+   "Companion",
+   "Elbow lock"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Trade Intro graded sheet: b marked wrong (-1), c circled red as key; SMY1W3: c not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 27,
+  "q": "A load placed at right angles to the fastener is a",
+  "hint": null,
+  "opts": [
+   "compression load",
+   "sheer load",
+   "tensile load",
+   "joist load"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Trade Intro graded sheet: c marked wrong (-1), b circled red as key; SMY1W3: b not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 28,
+  "q": "When using a power tool, the first thing to do is:",
+  "hint": null,
+  "opts": [
+   "pull the trigger to see if it has power",
+   "remove the grounding prong",
+   "inspect it",
+   "remove the guards that might get in the way"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 29,
+  "q": "Hacksaws and files should cut on the return stoke with little pressure on the forward stroke",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 33,
+  "q": "1-1/8 x 2-1/4 =",
+  "hint": null,
+  "opts": [
+   "2.531",
+   "2-17/32",
+   "3-3/8",
+   "3.375"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY1W3 graded sheet 15.12.2025: b (2-17/32) marked wrong, a highlighted as key; SMY1W5 Monday graded sheet (No.56, same question): 2-17/32 accepted. Calculation 81/32 = 2.53125: a and b are the same value"
+ },
+ {
+  "src": "Y1W3",
+  "n": 34,
+  "q": "7/16",
+  "hint": null,
+  "opts": [
+   ".4375",
+   ".4385",
+   "14/32",
+   ".3875"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong; calculation 7/16 = 0.4375"
+ },
+ {
+  "src": "Y1W3",
+  "n": 37,
+  "q": "A circumference is found by using π (3.1416) in the following equation:",
+  "hint": null,
+  "opts": [
+   "Circumference = π x Diameter²",
+   "Circumference = π x Radius",
+   "Circumference = π x 3 x Radius",
+   "Circumference = π x Diameter"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 40,
+  "q": "7 steel joists are 6’- 8” apart center to center. The distance, center to center, between the two outside joists is 46'-8\"",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Calculation: 6 spaces x 6'-8\" = 40'-0\"; Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 46,
+  "q": "A 4-5-6 triangle could be used to check for a square corner.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Calculation: 4^2 + 5^2 = 41 != 36; Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 47,
+  "q": "What is the area of a triangle that has a base of 22\" and an altitude of 38\"?",
+  "hint": null,
+  "opts": [
+   "418 sq. in.",
+   "836 sq. in.",
+   "420 sq. ft.",
+   "1728 sq. in."
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Calculation; Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 48,
+  "q": "The altitude of a triangle is 1 ft 3-3/4 inches. The length of the base is 1 ft 3/8 inch. What is the area of the triangle?",
+  "hint": null,
+  "opts": [
+   "1.3535 sq ft",
+   "28.125 sq in",
+   "97.453 sq in",
+   "194.906 sq in"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Calculation; Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 50,
+  "q": "What is the diameter of a circle with a 44\" circumference?",
+  "hint": null,
+  "opts": [
+   "138.23\" Ø",
+   "7” Ø",
+   "14” Ø",
+   "22” Ø"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Calculation 44/pi = 14.006; Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 51,
+  "q": "Calculate the area of the Oval.",
+  "hint": null,
+  "opts": [
+   "305.19",
+   "305.01",
+   "305.1",
+   "305.098"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": "q51",
+  "evidence": "Calculation pi*6^2 + 12*16 = 305.0973; c 305.1 not marked wrong on both graded sheets (Trade Intro, SMY1W3)"
+ },
+ {
+  "src": "Y1W3",
+  "n": 52,
+  "q": "Calculate the area of the trapezoid.",
+  "hint": "instructions: Formula: (A + B / 2) x Height A and B are the parallel sides.",
+  "opts": [
+   "1970 sq. in.",
+   "1650 sq. in.",
+   "1680 sq. in.",
+   "1750 sq. in."
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": "q52",
+  "evidence": "Calculation (48 + 52)/2 x 35 = 1750; Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 54,
+  "q": "You need to make a duct that has a working length of 22\", S & Drive on 1 end and a 2\" flange on the other. You will shear it's length at:",
+  "hint": null,
+  "opts": [
+   "19.5\"",
+   "24-1/2\"",
+   "25\"",
+   "22- 1/2\""
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY1W3 graded sheet: b (24-1/2\") marked wrong, c highlighted as key; calculation 22 + 1 + 2"
+ },
+ {
+  "src": "Y1W3",
+  "n": 55,
+  "q": "A sheet metal fitting has 5 equally spaced rivets along one seam that is 8-3/4\" long. The first two rivets start 5/8\" from each end. What is the distance between rivets?",
+  "hint": null,
+  "opts": [
+   "1.5\"",
+   "1.875\"",
+   "1-3/8\"",
+   "1-3/4\""
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Calculation (8.75 - 1.25)/4 = 1.875; Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 56,
+  "q": "An edge that is bent to a 90° angle is called a _________.",
+  "hint": null,
+  "opts": [
+   "hem",
+   "flange",
+   "drip edge",
+   "angle iron edge",
+   "blind edge"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 57,
+  "q": "Convert the decimal to the nearest sixteenth. 14.653 =",
+  "hint": null,
+  "opts": [
+   "14-3/4\"",
+   "14-11/16",
+   "14-5/8\"",
+   "14-10/16"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Calculation .653 x 16 = 10.45 -> 10/16 = 5/8; Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 59,
+  "q": "Express 83 inches as decimals of a foot.",
+  "hint": null,
+  "opts": [
+   "6.667'",
+   "6.917'",
+   "6.916'",
+   "6'-11\""
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Calculation 83/12 = 6.9167; Graded sheets SMY1W3 15.12.2025 (msg_980-990) and Trade Intro 14.11.2025 (msg_754-766): this answer was not marked wrong"
+ },
+ {
+  "src": "Y1W3",
+  "n": 60,
+  "q": "Give the perimeter of the following figure in feet and inches to the nearest 16th.",
+  "hint": null,
+  "opts": [
+   "108' 3-5/16\"",
+   "103' 3-5/16\"",
+   "106' 1-9/16\"",
+   "None of the above"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": "q60",
+  "evidence": "SMY1W3 graded sheet: d marked wrong, a highlighted as key, instructor's working on the sheet; calculation 108.2768 ft"
+ }
+]
