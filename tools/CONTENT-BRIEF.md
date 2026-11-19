@@ -46,6 +46,11 @@ ogee, trim joints, rise/run of duct systems), `fittings` (seams, connections, S&
   Pittsburgh, SMAW, GMAW, MIG, stick, DCEN, DCEP, electrode, flux, fillet, groove, bevel, reference line, arrow side,
   FOB, FOT, TOP, take off, spin-in, end cap, layout, true length, OSHA, SDS, etc. Units and numbers exactly as in
   English. Options in Russian must not hint at the answer more than the English ones do (same length/style).
+- **Washington rules (owner, 2026-11-19):** we work in Washington State. Where a WAC rule (L&I: chapters 296-155,
+  296-880 fall protection, 296-874 scaffolds, 296-876 ladders, 296-24, 296-800 …) differs from OSHA, the stricter one is
+  followed on the job. Whenever an explanation quotes an OSHA number, check the matching WAC on app.leg.wa.gov; if WA is
+  stricter, say so in the explanation ("In Washington the stricter WAC … applies: …"). The test answer stays the course
+  key; if the key itself conflicts with the stricter WA rule, say that too.
 - **Do not give the answer away in Russian.** When a question tests knowing an English term or definition
   ("An angle less than 90° is a(n) ____ angle", "Symptoms that show up suddenly are ____ effects"), leave those
   term options in English with no Russian gloss, and keep the term in English in the question too.

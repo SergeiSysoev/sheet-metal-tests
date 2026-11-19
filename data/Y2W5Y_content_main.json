@@ -242,8 +242,8 @@
    "#10",
    "#15"
   ],
-  "why_en": "#10 is the usual shade for GMAW (and SMAW) at common currents (Test-90 No.2). #2 and #5 are far too light for an electric arc — they are shades for torch soldering, brazing and gas cutting.",
-  "why_ru": "#10 — обычный светофильтр для GMAW (и SMAW) при ходовых токах (тест-90 №2). #2 и #5 слишком светлые для дуги — это фильтры для пайки горелкой, brazing и газовой резки.",
+  "why_en": "#10 is the usual shade for GMAW (and SMAW) at common currents (Test-90 No.2). #2 and #5 are far too light for an electric arc — they are shades for torch soldering, brazing and gas cutting. For points pick #10 (course key); the construction table (OSHA 1926.102 Table E-1, the same in WAC 296-155-215) lists shade 12 for gas-shielded arc welding on steel and 11 on nonferrous metals.",
+  "why_ru": "#10 — обычный светофильтр для GMAW (и SMAW) при ходовых токах (тест-90 №2). #2 и #5 слишком светлые для дуги — это фильтры для пайки горелкой, brazing и газовой резки. Для балла — #10 (ключ курса); по строительной таблице (OSHA 1926.102 Table E-1, то же в WAC 296-155-215) для gas-shielded arc по стали — 12, по цветным металлам — 11.",
   "flag": null
  },
  {
@@ -477,8 +477,8 @@
    ">60 градусов",
    "90 градусов"
   ],
-  "why_en": "Below 30° the tension multiplier is more than 2 (1 ÷ sin 30°) and rises fast as the angle drops, so sling angles under 30° are not recommended. Angles over 60° and a vertical 90° leg are the efficient ones.",
-  "why_ru": "Ниже 30° множитель натяжения больше 2 (1 ÷ sin 30°) и быстро растёт дальше, поэтому углы sling меньше 30° не рекомендуются. Углы больше 60° и вертикальная ветвь 90° — самые выгодные.",
+  "why_en": "Below 30° the tension multiplier is more than 2 (1 ÷ sin 30°) and rises fast as the angle drops, so sling angles under 30° are not recommended. Angles over 60° and a vertical 90° leg are the efficient ones. In Washington the stricter WAC sling rules apply on the job (e.g. WAC 296-155-33805, 296-155-55805): horizontal sling angles under 30° are prohibited, not just not recommended, unless the sling manufacturer or a qualified person approves.",
+  "why_ru": "Ниже 30° множитель натяжения больше 2 (1 ÷ sin 30°) и быстро растёт дальше, поэтому углы sling меньше 30° не рекомендуются. Углы больше 60° и вертикальная ветвь 90° — самые выгодные. В штате Washington на работе действуют более строгие правила WAC для slings (например, WAC 296-155-33805, 296-155-55805): горизонтальный угол sling меньше 30° запрещён, а не просто не рекомендуется, если его не разрешил производитель sling или qualified person.",
   "flag": null
  },
  {
@@ -552,8 +552,8 @@
    "1.5 диаметра резьбы",
    "половину диаметра резьбы"
   ],
-  "why_en": "A shoulder eyebolt in a tapped hole needs thread engagement of at least 1.5 times its thread diameter (in steel), so the threads carry the load without stripping.",
-  "why_ru": "Eyebolt с буртиком в резьбовом отверстии должен входить в резьбу минимум на 1.5 её диаметра (в стали), чтобы резьба держала груз и не сорвалась.",
+  "why_en": "A shoulder eyebolt in a tapped hole needs thread engagement of at least 1.5 times its thread diameter (in steel), so the threads carry the load without stripping. In Washington this is a rule, not only good practice: WAC 296-155-33910 (and 296-155-56110 for crane lifts) requires effective thread of at least 1.5 × the bolt diameter for an eyebolt in a tapped blind hole in steel; OSHA's rigging rule 1926.251 has no such requirement.",
+  "why_ru": "Eyebolt с буртиком в резьбовом отверстии должен входить в резьбу минимум на 1.5 её диаметра (в стали), чтобы резьба держала груз и не сорвалась. В штате Washington это требование правил, а не только хорошая практика: WAC 296-155-33910 (и 296-155-56110 для работ с краном) требует, чтобы eyebolt в глухом резьбовом отверстии в стали входил в резьбу не меньше чем на 1.5 диаметра болта; в федеральном правиле OSHA 1926.251 такого требования нет.",
   "flag": null
  },
  {

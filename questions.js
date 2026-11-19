@@ -30,6 +30,20 @@ const TOPICS = {
  }
 };
 const SOURCES = {
+ "CLS": {
+  "name": {
+   "en": "Review class 11/19 — what the instructor said will be on the test",
+   "ru": "Разбор 19.11 — что инструктор назвал на тест"
+  },
+  "sub": {
+   "en": "Our practice questions (not word for word from a test): law of cosines, WA fall protection, guardrails, lead, allowances",
+   "ru": "Наши учебные вопросы (не дословно из теста): law of cosines, защита от падения в WA, guardrails, lead, припуски"
+  },
+  "short": {
+   "en": "Review 11/19",
+   "ru": "Разбор 19.11"
+  }
+ },
  "T90": {
   "name": {
    "en": "Welding & Layout test",
@@ -4152,8 +4166,8 @@ const QUESTIONS = [
    "ru": "Какой номер светофильтра (filter lens shade) чаще всего используют для GMAW?"
   },
   "why": {
-   "en": "Shade #10 is the usual lens for GMAW (MIG) at normal shop amperage — the same answer the course gives for SMAW. #2 is far too light for an arc.",
-   "ru": "Для GMAW (MIG) на обычном токе в цеху ставят светофильтр #10 — тот же ответ, что курс даёт для SMAW. #2 слишком светлый для дуги."
+   "en": "Shade #10 is the usual lens for GMAW (MIG) at normal shop amperage — the same answer the course gives for SMAW. #2 is far too light for an arc. For points pick #10 (course key); the construction table (OSHA 1926.102 Table E-1, the same in WAC 296-155-215) lists shade 12 for gas-shielded arc welding on steel and 11 on nonferrous metals.",
+   "ru": "Для GMAW (MIG) на обычном токе в цеху ставят светофильтр #10 — тот же ответ, что курс даёт для SMAW. #2 слишком светлый для дуги. Для балла — #10 (ключ курса); по строительной таблице (OSHA 1926.102 Table E-1, то же в WAC 296-155-215) для gas-shielded arc по стали — 12, по цветным металлам — 11."
   },
   "opts": [
    {
@@ -8101,6 +8115,442 @@ const QUESTIONS = [
   ],
   "answer": [
    3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "CLS-1",
+  "src": "CLS",
+  "n": 1,
+  "topic": "math",
+  "q": {
+   "en": "Use the law of cosines. A triangle has sides A = 5'-11 1/2\", B = 3'-8\" and C = 3'-0 1/2\". What is angle A (the angle opposite side A)?",
+   "ru": "Используй law of cosines. У треугольника стороны A = 5'-11 1/2\", B = 3'-8\" и C = 3'-0 1/2\". Чему равен угол A (напротив стороны A)?"
+  },
+  "why": {
+   "en": "Law of cosines: cos A = (B² + C² − A²) ÷ (2·B·C) = (44² + 36.5² − 71.5²) ÷ (2 × 44 × 36.5) → A = 125.0364° (formula sheet p.12: 125.0364°). On the calculator: enter the sides as A, B, C (Conv 4, 5, 6), then Conv 9 (Law Cos) — angle A shows first. The angle is opposite its side, so the longest side gives the biggest angle. 54.96° = 180 − 125.04 is the trap. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
+   "ru": "Law of cosines: cos A = (B² + C² − A²) ÷ (2·B·C) = (44² + 36.5² − 71.5²) ÷ (2 × 44 × 36.5) → A = 125.0364° (formula sheet, стр. 12: 125.0364°). На калькуляторе: стороны как A, B, C (Conv 4, 5, 6), потом Conv 9 (Law Cos) — первым покажет угол A. Угол лежит напротив своей стороны: напротив самой длинной — самый большой. 54.96° = 180 − 125.04 — ловушка. (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+  },
+  "opts": [
+   {
+    "en": "125.04°",
+    "ru": "125.04°"
+   },
+   {
+    "en": "54.96°",
+    "ru": "54.96°"
+   },
+   {
+    "en": "30.26°",
+    "ru": "30.26°"
+   },
+   {
+    "en": "24.71°",
+    "ru": "24.71°"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "fig": "cls-q01.svg"
+ },
+ {
+  "id": "CLS-2",
+  "src": "CLS",
+  "n": 2,
+  "topic": "math",
+  "q": {
+   "en": "Same triangle (A = 5'-11 1/2\", B = 3'-8\", C = 3'-0 1/2\"). What is angle C (the angle opposite side C)?",
+   "ru": "Тот же треугольник (A = 5'-11 1/2\", B = 3'-8\", C = 3'-0 1/2\"). Чему равен угол C (напротив стороны C)?"
+  },
+  "why": {
+   "en": "cos C = (A² + B² − C²) ÷ (2·A·B) = (71.5² + 44² − 36.5²) ÷ (2 × 71.5 × 44) → C = 24.7073° (sheet: 24.70727°); press 9 twice after Conv 9. Check: A + B + C = 125.04 + 30.26 + 24.71 = 180°. 30.26° is angle B; 65.29° = 90 − 24.71 is the trap from right-triangle habits — this triangle has no 90° corner. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
+   "ru": "cos C = (A² + B² − C²) ÷ (2·A·B) = (71.5² + 44² − 36.5²) ÷ (2 × 71.5 × 44) → C = 24.7073° (на листе 24.70727°); после Conv 9 нажми 9 ещё два раза. Проверка: A + B + C = 125.04 + 30.26 + 24.71 = 180°. 30.26° — это угол B; 65.29° = 90 − 24.71 — ловушка по привычке к прямоугольному треугольнику, а тут прямого угла нет. (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+  },
+  "opts": [
+   {
+    "en": "24.71°",
+    "ru": "24.71°"
+   },
+   {
+    "en": "30.26°",
+    "ru": "30.26°"
+   },
+   {
+    "en": "65.29°",
+    "ru": "65.29°"
+   },
+   {
+    "en": "125.04°",
+    "ru": "125.04°"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "fig": "cls-q01.svg"
+ },
+ {
+  "id": "CLS-3",
+  "src": "CLS",
+  "n": 3,
+  "topic": "math",
+  "q": {
+   "en": "Use the law of cosines. A duct offset connects an 18\"x20\" to a 24\"x20\". From the corner of the 18\"x20\", A = 7'-5 5/8\" runs to the far end of the 24\" side C and B = 6'-5 7/8\" to the near end. What is the OFFSET?",
+   "ru": "Используй law of cosines. Duct offset соединяет 18\"x20\" и 24\"x20\". От угла 18\"x20\" сторона A = 7'-5 5/8\" идёт к дальнему концу 24\" стороны C, сторона B = 6'-5 7/8\" — к ближнему. Чему равен OFFSET?"
+  },
+  "why": {
+   "en": "Step 1, law of cosines with A = 89.625\", B = 77.875\", C = 24\": angle A (between B and the 24\" side) = 111.87°. Step 2: the 24\" side is square to the run, so B leans 68.13° (= 180 − 111.87) from it — the value the instructor entered as the pitch. Step 3, right triangle on B: OFFSET = B × cos 68.13° = 29.00\" ≈ 29\"; OFFSET LENGTH = B × sin 68.13° = 72.27\" ≈ 72-1/4\". (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
+   "ru": "Шаг 1, law of cosines с A = 89.625\", B = 77.875\", C = 24\": угол A (между B и 24\" стороной) = 111.87°. Шаг 2: 24\" сторона перпендикулярна направлению трассы, поэтому B отклонена от неё на 68.13° (= 180 − 111.87) — это число инструктор вводил как pitch. Шаг 3, прямоугольный треугольник на B: OFFSET = B × cos 68.13° = 29.00\" ≈ 29\"; OFFSET LENGTH = B × sin 68.13° = 72.27\" ≈ 72-1/4\". (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+  },
+  "opts": [
+   {
+    "en": "29\"",
+    "ru": "29\""
+   },
+   {
+    "en": "72-1/4\"",
+    "ru": "72-1/4\""
+   },
+   {
+    "en": "24\"",
+    "ru": "24\""
+   },
+   {
+    "en": "53\"",
+    "ru": "53\""
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "fig": "cls-q03.svg"
+ },
+ {
+  "id": "CLS-4",
+  "src": "CLS",
+  "n": 4,
+  "topic": "math",
+  "q": {
+   "en": "Same duct offset (A = 7'-5 5/8\", B = 6'-5 7/8\", C = 24\"). What is the OFFSET LENGTH?",
+   "ru": "Тот же duct offset (A = 7'-5 5/8\", B = 6'-5 7/8\", C = 24\"). Чему равна OFFSET LENGTH?"
+  },
+  "why": {
+   "en": "Same steps: angle A = 111.87° from the law of cosines, B leans 68.13° from the 24\" side, OFFSET LENGTH = 77.875 × sin 68.13° = 72.27\" → 72-1/4\" (OFFSET = 29.00\" ≈ 29\"). Check with A: √(72.27² + (29 + 24)²) = 89.62\" = 7'-5 5/8\". (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
+   "ru": "Те же шаги: угол A = 111.87° по law of cosines, B отклонена от 24\" стороны на 68.13°, OFFSET LENGTH = 77.875 × sin 68.13° = 72.27\" → 72-1/4\" (OFFSET = 29.00\" ≈ 29\"). Проверка через A: √(72.27² + (29 + 24)²) = 89.62\" = 7'-5 5/8\". (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+  },
+  "opts": [
+   {
+    "en": "72-1/4\"",
+    "ru": "72-1/4\""
+   },
+   {
+    "en": "29\"",
+    "ru": "29\""
+   },
+   {
+    "en": "77-7/8\"",
+    "ru": "77-7/8\""
+   },
+   {
+    "en": "89-5/8\"",
+    "ru": "89-5/8\""
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "fig": "cls-q03.svg"
+ },
+ {
+  "id": "CLS-5",
+  "src": "CLS",
+  "n": 5,
+  "topic": "safety",
+  "q": {
+   "en": "Working in Washington State, at what height is fall protection required (general rule)?",
+   "ru": "Работая в штате Washington: с какой высоты обязательна защита от падения (общее правило)?"
+  },
+  "why": {
+   "en": "In Washington the stricter state rule applies: fall protection from 4 ft (WAC 296-880-20005); federal OSHA says 6 ft (1926.501(b)(1)). The instructor: answer 4 (the most restrictive) — he credits 6 only if you name OSHA. Scaffolds have their own rule: 10 ft in both. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
+   "ru": "В Washington действует более строгое правило штата: защита от падения с 4 ft (WAC 296-880-20005); федеральный OSHA — 6 ft (1926.501(b)(1)). Инструктор: отвечай 4 (самое строгое) — 6 засчитает, только если назовёшь OSHA. У scaffold своё правило: 10 ft и там, и там. (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+  },
+  "opts": [
+   {
+    "en": "4 feet",
+    "ru": "4 фута"
+   },
+   {
+    "en": "6 feet",
+    "ru": "6 футов"
+   },
+   {
+    "en": "10 feet",
+    "ru": "10 футов"
+   },
+   {
+    "en": "15 feet",
+    "ru": "15 футов"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "CLS-6",
+  "src": "CLS",
+  "n": 6,
+  "topic": "safety",
+  "q": {
+   "en": "How much force must the top rail of a guardrail system (temporary ones included) withstand, applied outward or downward?",
+   "ru": "Какую силу, приложенную наружу или вниз, должен выдерживать верхний поручень guardrail system (и временный тоже)?"
+  },
+  "why": {
+   "en": "200 lb at the top rail, applied outward or downward (OSHA 1926.502(b)(3); the instructor stressed that temporary guardrails must hold it too). Mid rails must hold 150 lb. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
+   "ru": "200 lb на верхний поручень, наружу или вниз (OSHA 1926.502(b)(3); инструктор подчеркнул: временный guardrail тоже). Средний поручень — 150 lb. (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+  },
+  "opts": [
+   {
+    "en": "200 pounds",
+    "ru": "200 фунтов"
+   },
+   {
+    "en": "250 pounds",
+    "ru": "250 фунтов"
+   },
+   {
+    "en": "100 pounds",
+    "ru": "100 фунтов"
+   },
+   {
+    "en": "50 pounds",
+    "ru": "50 фунтов"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "CLS-7",
+  "src": "CLS",
+  "n": 7,
+  "topic": "shop",
+  "q": {
+   "en": "Sheet lead is specified by:",
+   "ru": "Листовой lead (свинец) заказывают по:"
+  },
+  "why": {
+   "en": "Sheet lead is sold by weight: pounds per square foot (e.g. 4 lb lead). Copper is ounces per square foot (16 oz, 20 oz); steel is gauged by thickness. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
+   "ru": "Листовой свинец продают по весу: фунты на квадратный фут (например, 4 lb lead). Медь — унции на квадратный фут (16 oz, 20 oz); сталь — по gauge (толщине). (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+  },
+  "opts": [
+   {
+    "en": "Pounds per square foot",
+    "ru": "Фунтам на квадратный фут"
+   },
+   {
+    "en": "Ounces per square foot",
+    "ru": "Унциям на квадратный фут"
+   },
+   {
+    "en": "Gauge number",
+    "ru": "Номеру gauge"
+   },
+   {
+    "en": "Thickness in mils",
+    "ru": "Толщине в mils"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "CLS-8",
+  "src": "CLS",
+  "n": 8,
+  "topic": "trade",
+  "q": {
+   "en": "Always use the ____ tool for the job.",
+   "ru": "Всегда используй ____ инструмент для работы."
+  },
+  "why": {
+   "en": "The right tool for the job — not the nearest one. The instructor: \"not necessarily the nearest… use the right tool.\" (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
+   "ru": "Right — подходящий для работы инструмент, а не ближайший. Инструктор: «not necessarily the nearest… use the right tool». (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+  },
+  "opts": [
+   {
+    "en": "right",
+    "ru": "right"
+   },
+   {
+    "en": "nearest",
+    "ru": "nearest"
+   },
+   {
+    "en": "newest",
+    "ru": "newest"
+   },
+   {
+    "en": "cheapest",
+    "ru": "cheapest"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "CLS-9",
+  "src": "CLS",
+  "n": 9,
+  "topic": "safety",
+  "q": {
+   "en": "How far should a ladder extend above the roof line (the upper landing)?",
+   "ru": "На сколько лестница должна выступать над краем крыши (верхней площадкой)?"
+  },
+  "why": {
+   "en": "3 ft above the landing (OSHA 1926.1053(b)(1)); set the ladder at about 75°, i.e. 1 ft out for every 4 ft up. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
+   "ru": "На 3 ft над площадкой (OSHA 1926.1053(b)(1)); ставят под углом около 75°, то есть 1 ft от стены на каждые 4 ft высоты. (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+  },
+  "opts": [
+   {
+    "en": "3 feet",
+    "ru": "3 фута"
+   },
+   {
+    "en": "2 feet",
+    "ru": "2 фута"
+   },
+   {
+    "en": "4 feet",
+    "ru": "4 фута"
+   },
+   {
+    "en": "1 foot",
+    "ru": "1 фут"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "CLS-10",
+  "src": "CLS",
+  "n": 10,
+  "topic": "math",
+  "q": {
+   "en": "8 + 4 × 3 − 6 ÷ 2 =",
+   "ru": "8 + 4 × 3 − 6 ÷ 2 ="
+  },
+  "why": {
+   "en": "Order of operations: multiply and divide first, left to right: 4 × 3 = 12, 6 ÷ 2 = 3; then add and subtract: 8 + 12 − 3 = 17. 33 comes from working left to right ((8 + 4) × 3 − 6 = 30, ÷ 2 …) — the trap the instructor warned about. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
+   "ru": "Порядок действий: сначала умножение и деление слева направо: 4 × 3 = 12, 6 ÷ 2 = 3; потом сложение и вычитание: 8 + 12 − 3 = 17. 33 получается, если считать подряд слева направо — ловушка, о которой предупреждал инструктор. (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+  },
+  "opts": [
+   {
+    "en": "17",
+    "ru": "17"
+   },
+   {
+    "en": "33",
+    "ru": "33"
+   },
+   {
+    "en": "15",
+    "ru": "15"
+   },
+   {
+    "en": "18",
+    "ru": "18"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "CLS-11",
+  "src": "CLS",
+  "n": 11,
+  "topic": "math",
+  "q": {
+   "en": "A trench is 36\" wide, 2' deep and 27' long. How many cubic yards of soil come out of it?",
+   "ru": "Траншея шириной 36\", глубиной 2' и длиной 27'. Сколько кубических ярдов грунта из неё вынут?"
+  },
+  "why": {
+   "en": "Bring everything to one unit first: 36\" = 3'. Volume = 3 × 2 × 27 = 162 cu. ft; 1 cu. yd. = 3 × 3 × 3 = 27 cu. ft, so 162 ÷ 27 = 6 cu. yd. 162 is cubic feet (the unit trap); 18 divides by 9 (square yards). (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
+   "ru": "Сначала всё в одни единицы: 36\" = 3'. Объём = 3 × 2 × 27 = 162 cu. ft; 1 cu. yd. = 3 × 3 × 3 = 27 cu. ft, значит, 162 ÷ 27 = 6 cu. yd. 162 — это кубические футы (ловушка с единицами); 18 — деление на 9 (квадратные ярды). (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+  },
+  "opts": [
+   {
+    "en": "6 cu. yd.",
+    "ru": "6 cu. yd."
+   },
+   {
+    "en": "162 cu. yd.",
+    "ru": "162 cu. yd."
+   },
+   {
+    "en": "18 cu. yd.",
+    "ru": "18 cu. yd."
+   },
+   {
+    "en": "4.5 cu. yd.",
+    "ru": "4.5 cu. yd."
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "CLS-12",
+  "src": "CLS",
+  "n": 12,
+  "topic": "layout",
+  "q": {
+   "en": "A transition is drawn drive to drive (connection length) 20\" with S&D on both ends. What is the working (layout) length, and what is the shear length?",
+   "ru": "Transition нарисован drive to drive (connection length) 20\", S&D на обоих концах. Чему равны working (layout) length и shear length?"
+  },
+  "why": {
+   "en": "The S&D allowance is 1\" bent in half, so the line is ½\" in from each drive: working = 20 − ½ − ½ = 19\". Do the triangulation on 19\", then add the full 1\" allowance on each end: shear = 19 + 1 + 1 = 21\". The instructor: most wrong answers are \"one inch off\" — people forget that extra half inch. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
+   "ru": "Припуск S&D — 1\", загнутый пополам, поэтому линия на ½\" внутри от каждого drive: working = 20 − ½ − ½ = 19\". Triangulation считают на 19\", потом добавляют полный припуск 1\" на каждый конец: shear = 19 + 1 + 1 = 21\". Инструктор: чаще всего ошибаются «на дюйм» — забывают ту самую половину. (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+  },
+  "opts": [
+   {
+    "en": "19\" working, 21\" shear",
+    "ru": "19\" working, 21\" shear"
+   },
+   {
+    "en": "20\" working, 22\" shear",
+    "ru": "20\" working, 22\" shear"
+   },
+   {
+    "en": "19\" working, 20\" shear",
+    "ru": "19\" working, 20\" shear"
+   },
+   {
+    "en": "21\" working, 22\" shear",
+    "ru": "21\" working, 22\" shear"
+   }
+  ],
+  "answer": [
+   0
   ],
   "type": "single"
  },
@@ -14132,8 +14582,8 @@ const QUESTIONS = [
    "ru": "Qualified person в rigging — это человек, у которого есть:"
   },
   "why": {
-   "en": "The course defines a qualified rigging person by the knowledge and training gained in a rigging program. Practice alone or who your employer is does not make you qualified; a recognized certificate counts only together with that training.",
-   "ru": "По курсу qualified в rigging — тот, у кого есть знания и подготовка, полученные в rigging program. Одна практика или то, на кого ты работаешь, этого не дают; признанный сертификат засчитывается только вместе с такой подготовкой."
+   "en": "The course defines a qualified rigging person by the knowledge and training gained in a rigging program. Practice alone or who your employer is does not make you qualified; a recognized certificate counts only together with that training. In Washington the stricter WAC 296-155-53306 applies on crane lifts: the rigger must pass a documented written and practical test given by a qualified evaluator, the record must be kept on site, and the qualification is renewed every 5 years — training alone is not enough.",
+   "ru": "По курсу qualified в rigging — тот, у кого есть знания и подготовка, полученные в rigging program. Одна практика или то, на кого ты работаешь, этого не дают; признанный сертификат засчитывается только вместе с такой подготовкой. В штате Washington на работе с краном действует более строгий WAC 296-155-53306: rigger должен сдать письменный и практический тест у qualified evaluator, документ об этом должен быть на объекте, а квалификацию обновляют каждые 5 лет — одного обучения мало."
   },
   "opts": [
    {
@@ -15748,8 +16198,8 @@ const QUESTIONS = [
    "ru": "При работе на scaffold guardrails должны:"
   },
   "why": {
-   "en": "For the test pick d (6'-0\"): it is the answer accepted on the graded sheet. Strictly, scaffolds have their own threshold of 10 ft, both federally (OSHA 1926.451(g)(1)) and in Washington (WAC 296-880-30030); 6 ft is OSHA's general construction fall-protection height (1926.501(b)(1)), which does not govern scaffolds. 15'-0\" is too high under any rule. A top rail stands 38–45\" above the platform, well above the knees.",
-   "ru": "Для балла — d (6'-0\"): этот ответ засчитан на проверенном листе. Строго по правилам у scaffold свой порог — 10 ft, и по федеральному стандарту (OSHA 1926.451(g)(1)), и в Washington (WAC 296-880-30030); 6 ft — общий порог защиты от падения на стройке по OSHA (1926.501(b)(1)), к scaffold он не относится. 15'-0\" слишком высоко по любому правилу. Верхний поручень стоит на 38–45\" над настилом — гораздо выше колен."
+   "en": "For the test pick d (6'-0\"): it is the answer accepted on the graded sheet. On a scaffold the real threshold is 10 ft, both federally (OSHA 1926.451(g)(1)) and in Washington (WAC 296-880-30030). 6 ft is OSHA's general construction fall-protection height (1926.501(b)(1)); Washington's general rule is stricter — 4 ft (WAC 296-880-20005) — but neither general rule covers scaffolds. Working in Washington, follow the stricter rule wherever WAC and OSHA differ. 15'-0\" is too high under any rule. A top rail stands 38–45\" above the platform, well above the knees. Instructor, review class Nov 19, 2026: for \"at what point is fall protection required in Washington\" he gives credit for 4 ft or 6 ft if you name the regulation — 4 ft is WAC 296-880-20005 (the stricter one, followed on the job), 6 ft is OSHA 1926.501(b)(1).",
+   "ru": "Для балла — d (6'-0\"): этот ответ засчитан на проверенном листе. На scaffold реальный порог — 10 ft, и по федеральному стандарту (OSHA 1926.451(g)(1)), и в штате Washington (WAC 296-880-30030). 6 ft — общий порог защиты от падения на стройке по OSHA (1926.501(b)(1)); общее правило Washington строже — 4 ft (WAC 296-880-20005), но ни одно из общих правил к scaffold не относится. Работая в Washington, где WAC и OSHA расходятся, выполняем более строгое. 15'-0\" слишком высоко по любому правилу. Верхний поручень стоит на 38–45\" над настилом — гораздо выше колен. Инструктор на разборе 19.11.2026: на вопрос «с какой высоты в штате Washington нужна защита от падения» он засчитывает 4 ft или 6 ft, если назвать правило — 4 ft по WAC 296-880-20005 (оно строже, на работе выполняется оно), 6 ft по OSHA 1926.501(b)(1)."
   },
   "opts": [
    {
@@ -15848,8 +16298,8 @@ const QUESTIONS = [
    "ru": "Если две складные лестницы полностью раскрыты и стоят на устойчивом основании, можно ли положить на них scaffold plank?"
   },
   "why": {
-   "en": "No. A scaffold plank must rest on proper scaffold supports: ladders may be used only for what they were designed for (OSHA 1926.1053(b)(4)), and unstable objects may not support scaffolds or platforms (OSHA 1926.451(c)(2)(ii)). A stepladder is not built to be a support for a plank with a worker on it.",
-   "ru": "Нет. Scaffold plank должна лежать на настоящих опорах scaffold: лестницу можно использовать только по назначению (OSHA 1926.1053(b)(4)), а неустойчивые предметы не должны служить опорой для scaffold и платформ (OSHA 1926.451(c)(2)(ii)). Складная лестница не рассчитана быть опорой для plank с человеком."
+   "en": "No. A scaffold plank must rest on proper scaffold supports: ladders may be used only for what they were designed for (OSHA 1926.1053(b)(4)), and unstable objects may not support scaffolds or platforms (OSHA 1926.451(c)(2)(ii)). A plank on stepladders is allowed only as a step-ladder scaffold that meets the scaffold rules (OSHA 1926.452(n)). In Washington the stricter WAC 296-874-40038 applies on the job: a plank may rest on stepladders only as a step-ladder scaffold — Type I or IA ladders (250–300 lb), the platform no higher than the second-highest step, ladders kept from slipping — so stable ground alone is not enough.",
+   "ru": "Нет. Scaffold plank должна лежать на настоящих опорах scaffold: лестницу можно использовать только по назначению (OSHA 1926.1053(b)(4)), а неустойчивые предметы не должны служить опорой для scaffold и платформ (OSHA 1926.451(c)(2)(ii)). Plank на складных лестницах допускается только как step-ladder scaffold по правилам для scaffold (OSHA 1926.452(n)). В штате Washington на работе действует более строгий WAC 296-874-40038: plank можно положить на складные лестницы только как step-ladder scaffold — лестницы Type I или IA (250–300 lb), настил не выше второй сверху ступени, лестницы закреплены от скольжения, — так что одной ровной земли мало."
   },
   "opts": [
    {
@@ -18300,8 +18750,8 @@ const QUESTIONS = [
    "ru": "Чем темнее светофильтр, тем больше номер. Самый распространённый фильтр для сварки GMAW:"
   },
   "why": {
-   "en": "#10 is the usual shade for GMAW (and SMAW) at common currents (Test-90 No.2). #2 and #5 are far too light for an electric arc — they are shades for torch soldering, brazing and gas cutting.",
-   "ru": "#10 — обычный светофильтр для GMAW (и SMAW) при ходовых токах (тест-90 №2). #2 и #5 слишком светлые для дуги — это фильтры для пайки горелкой, brazing и газовой резки."
+   "en": "#10 is the usual shade for GMAW (and SMAW) at common currents (Test-90 No.2). #2 and #5 are far too light for an electric arc — they are shades for torch soldering, brazing and gas cutting. For points pick #10 (course key); the construction table (OSHA 1926.102 Table E-1, the same in WAC 296-155-215) lists shade 12 for gas-shielded arc welding on steel and 11 on nonferrous metals.",
+   "ru": "#10 — обычный светофильтр для GMAW (и SMAW) при ходовых токах (тест-90 №2). #2 и #5 слишком светлые для дуги — это фильтры для пайки горелкой, brazing и газовой резки. Для балла — #10 (ключ курса); по строительной таблице (OSHA 1926.102 Table E-1, то же в WAC 296-155-215) для gas-shielded arc по стали — 12, по цветным металлам — 11."
   },
   "opts": [
    {
@@ -18828,8 +19278,8 @@ const QUESTIONS = [
    "ru": "Какой горизонтальный угол sling не рекомендуется?"
   },
   "why": {
-   "en": "Below 30° the tension multiplier is more than 2 (1 ÷ sin 30°) and rises fast as the angle drops, so sling angles under 30° are not recommended. Angles over 60° and a vertical 90° leg are the efficient ones.",
-   "ru": "Ниже 30° множитель натяжения больше 2 (1 ÷ sin 30°) и быстро растёт дальше, поэтому углы sling меньше 30° не рекомендуются. Углы больше 60° и вертикальная ветвь 90° — самые выгодные."
+   "en": "Below 30° the tension multiplier is more than 2 (1 ÷ sin 30°) and rises fast as the angle drops, so sling angles under 30° are not recommended. Angles over 60° and a vertical 90° leg are the efficient ones. In Washington the stricter WAC sling rules apply on the job (e.g. WAC 296-155-33805, 296-155-55805): horizontal sling angles under 30° are prohibited, not just not recommended, unless the sling manufacturer or a qualified person approves.",
+   "ru": "Ниже 30° множитель натяжения больше 2 (1 ÷ sin 30°) и быстро растёт дальше, поэтому углы sling меньше 30° не рекомендуются. Углы больше 60° и вертикальная ветвь 90° — самые выгодные. В штате Washington на работе действуют более строгие правила WAC для slings (например, WAC 296-155-33805, 296-155-55805): горизонтальный угол sling меньше 30° запрещён, а не просто не рекомендуется, если его не разрешил производитель sling или qualified person."
   },
   "opts": [
    {
@@ -18988,8 +19438,8 @@ const QUESTIONS = [
    "ru": "Eyebolts вкручивают в резьбовое отверстие минимум на ____."
   },
   "why": {
-   "en": "A shoulder eyebolt in a tapped hole needs thread engagement of at least 1.5 times its thread diameter (in steel), so the threads carry the load without stripping.",
-   "ru": "Eyebolt с буртиком в резьбовом отверстии должен входить в резьбу минимум на 1.5 её диаметра (в стали), чтобы резьба держала груз и не сорвалась."
+   "en": "A shoulder eyebolt in a tapped hole needs thread engagement of at least 1.5 times its thread diameter (in steel), so the threads carry the load without stripping. In Washington this is a rule, not only good practice: WAC 296-155-33910 (and 296-155-56110 for crane lifts) requires effective thread of at least 1.5 × the bolt diameter for an eyebolt in a tapped blind hole in steel; OSHA's rigging rule 1926.251 has no such requirement.",
+   "ru": "Eyebolt с буртиком в резьбовом отверстии должен входить в резьбу минимум на 1.5 её диаметра (в стали), чтобы резьба держала груз и не сорвалась. В штате Washington это требование правил, а не только хорошая практика: WAC 296-155-33910 (и 296-155-56110 для работ с краном) требует, чтобы eyebolt в глухом резьбовом отверстии в стали входил в резьбу не меньше чем на 1.5 диаметра болта; в федеральном правиле OSHA 1926.251 такого требования нет."
   },
   "opts": [
    {

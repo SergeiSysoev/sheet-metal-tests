@@ -1,0 +1,194 @@
+[
+ {
+  "src": "CLS",
+  "n": 1,
+  "q": "Use the law of cosines. A triangle has sides A = 5'-11 1/2\", B = 3'-8\" and C = 3'-0 1/2\". What is angle A (the angle opposite side A)?",
+  "opts": [
+   "125.04°",
+   "54.96°",
+   "30.26°",
+   "24.71°"
+  ],
+  "answer": [
+   0
+  ],
+  "fig": "q01",
+  "note_ru": null
+ },
+ {
+  "src": "CLS",
+  "n": 2,
+  "q": "Same triangle (A = 5'-11 1/2\", B = 3'-8\", C = 3'-0 1/2\"). What is angle C (the angle opposite side C)?",
+  "opts": [
+   "24.71°",
+   "30.26°",
+   "65.29°",
+   "125.04°"
+  ],
+  "answer": [
+   0
+  ],
+  "fig": "q01",
+  "note_ru": null
+ },
+ {
+  "src": "CLS",
+  "n": 3,
+  "q": "Use the law of cosines. A duct offset connects an 18\"x20\" to a 24\"x20\". From the corner of the 18\"x20\", A = 7'-5 5/8\" runs to the far end of the 24\" side C and B = 6'-5 7/8\" to the near end. What is the OFFSET?",
+  "opts": [
+   "29\"",
+   "72-1/4\"",
+   "24\"",
+   "53\""
+  ],
+  "answer": [
+   0
+  ],
+  "fig": "q03",
+  "note_ru": null
+ },
+ {
+  "src": "CLS",
+  "n": 4,
+  "q": "Same duct offset (A = 7'-5 5/8\", B = 6'-5 7/8\", C = 24\"). What is the OFFSET LENGTH?",
+  "opts": [
+   "72-1/4\"",
+   "29\"",
+   "77-7/8\"",
+   "89-5/8\""
+  ],
+  "answer": [
+   0
+  ],
+  "fig": "q03",
+  "note_ru": null
+ },
+ {
+  "src": "CLS",
+  "n": 5,
+  "q": "Working in Washington State, at what height is fall protection required (general rule)?",
+  "opts": [
+   "4 feet",
+   "6 feet",
+   "10 feet",
+   "15 feet"
+  ],
+  "answer": [
+   0
+  ],
+  "fig": null,
+  "note_ru": null
+ },
+ {
+  "src": "CLS",
+  "n": 6,
+  "q": "How much force must the top rail of a guardrail system (temporary ones included) withstand, applied outward or downward?",
+  "opts": [
+   "200 pounds",
+   "250 pounds",
+   "100 pounds",
+   "50 pounds"
+  ],
+  "answer": [
+   0
+  ],
+  "fig": null,
+  "note_ru": null
+ },
+ {
+  "src": "CLS",
+  "n": 7,
+  "q": "Sheet lead is specified by:",
+  "opts": [
+   "Pounds per square foot",
+   "Ounces per square foot",
+   "Gauge number",
+   "Thickness in mils"
+  ],
+  "answer": [
+   0
+  ],
+  "fig": null,
+  "note_ru": null
+ },
+ {
+  "src": "CLS",
+  "n": 8,
+  "q": "Always use the ____ tool for the job.",
+  "opts": [
+   "right",
+   "nearest",
+   "newest",
+   "cheapest"
+  ],
+  "answer": [
+   0
+  ],
+  "fig": null,
+  "note_ru": null
+ },
+ {
+  "src": "CLS",
+  "n": 9,
+  "q": "How far should a ladder extend above the roof line (the upper landing)?",
+  "opts": [
+   "3 feet",
+   "2 feet",
+   "4 feet",
+   "1 foot"
+  ],
+  "answer": [
+   0
+  ],
+  "fig": null,
+  "note_ru": null
+ },
+ {
+  "src": "CLS",
+  "n": 10,
+  "q": "8 + 4 × 3 − 6 ÷ 2 =",
+  "opts": [
+   "17",
+   "33",
+   "15",
+   "18"
+  ],
+  "answer": [
+   0
+  ],
+  "fig": null,
+  "note_ru": null
+ },
+ {
+  "src": "CLS",
+  "n": 11,
+  "q": "A trench is 36\" wide, 2' deep and 27' long. How many cubic yards of soil come out of it?",
+  "opts": [
+   "6 cu. yd.",
+   "162 cu. yd.",
+   "18 cu. yd.",
+   "4.5 cu. yd."
+  ],
+  "answer": [
+   0
+  ],
+  "fig": null,
+  "note_ru": null
+ },
+ {
+  "src": "CLS",
+  "n": 12,
+  "q": "A transition is drawn drive to drive (connection length) 20\" with S&D on both ends. What is the working (layout) length, and what is the shear length?",
+  "opts": [
+   "19\" working, 21\" shear",
+   "20\" working, 22\" shear",
+   "19\" working, 20\" shear",
+   "21\" working, 22\" shear"
+  ],
+  "answer": [
+   0
+  ],
+  "fig": null,
+  "note_ru": null
+ }
+]

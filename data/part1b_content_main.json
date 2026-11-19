@@ -10,8 +10,8 @@
    "#10",
    "#8"
   ],
-  "why_en": "Shade #10 is the usual lens for GMAW (MIG) at normal shop amperage — the same answer the course gives for SMAW. #2 is far too light for an arc.",
-  "why_ru": "Для GMAW (MIG) на обычном токе в цеху ставят светофильтр #10 — тот же ответ, что курс даёт для SMAW. #2 слишком светлый для дуги.",
+  "why_en": "Shade #10 is the usual lens for GMAW (MIG) at normal shop amperage — the same answer the course gives for SMAW. #2 is far too light for an arc. For points pick #10 (course key); the construction table (OSHA 1926.102 Table E-1, the same in WAC 296-155-215) lists shade 12 for gas-shielded arc welding on steel and 11 on nonferrous metals.",
+  "why_ru": "Для GMAW (MIG) на обычном токе в цеху ставят светофильтр #10 — тот же ответ, что курс даёт для SMAW. #2 слишком светлый для дуги. Для балла — #10 (ключ курса); по строительной таблице (OSHA 1926.102 Table E-1, то же в WAC 296-155-215) для gas-shielded arc по стали — 12, по цветным металлам — 11.",
   "flag": null
  },
  {

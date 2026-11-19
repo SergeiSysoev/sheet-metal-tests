@@ -44,6 +44,9 @@ SOURCES = {
     'Y2W5Y': {'name': {'en': 'SMY2W5 Year End Cumulative Written Exam', 'ru': 'SMY2W5 Year End Cumulative Written Exam'}, 'sub': {'en': '2nd year, end of year', 'ru': '2-й год, итоговый экзамен года'}, 'short': {'en': 'Year End', 'ru': 'Year End'}},
     'FIN5': {'name': {'en': '005 Final Written Test', 'ru': '005 Final Written Test'}, 'sub': {'en': 'Final written test', 'ru': 'Итоговый письменный тест'}, 'short': {'en': '005 Final', 'ru': '005 Final'}},
     'APR': {'name': {'en': 'Written test, April 2026 (likely SMY1W4)', 'ru': 'Письменный тест, апрель 2026 (видимо, SMY1W4)'}, 'sub': {'en': 'Shop standards, tools, math', 'ru': 'Shop standards, инструменты, математика'}, 'short': {'en': 'April test', 'ru': 'April test'}},
+    'CLS': {'name': {'en': 'Review class 11/19 — what the instructor said will be on the test', 'ru': 'Разбор 19.11 — что инструктор назвал на тест'},
+            'sub': {'en': 'Our practice questions (not word for word from a test): law of cosines, WA fall protection, guardrails, lead, allowances', 'ru': 'Наши учебные вопросы (не дословно из теста): law of cosines, защита от падения в WA, guardrails, lead, припуски'},
+            'short': {'en': 'Review 11/19', 'ru': 'Разбор 19.11'}},
     'TRI': {'name': {'en': 'SMY2W2 Triangulation quiz', 'ru': 'SMY2W2 Triangulation'},
             'sub': {'en': 'TotalTrack homework quiz, official key', 'ru': 'Домашний квиз TotalTrack, официальный ключ'},
             'short': {'en': 'Triangulation', 'ru': 'Triangulation'}},
@@ -64,13 +67,13 @@ GROUP_OF = {'welding': 'welding', 'weldsym': 'welding', 'math': 'math', 'trig': 
             'materials': 'shop', 'tools': 'shop', 'safety': 'safety', 'trade': 'trade', 'dampers': 'dampers'}
 # Fire & smoke dampers are their own topic (owner, 2026-11-19): the whole FSD course, plus damper questions in any test.
 DAMPER_RE = re.compile(r'\bdampers?\b|fusible link|UL ?555|smoke detector', re.I)
-SRC_ORDER = ['T90', 'FRI', 'MON', 'TRI', 'Y2W3M', 'Y2W3F', 'Y2W4M', 'Y2W4F', 'Y2W5M', 'Y2W5Y', 'Y1W3', 'Y1W5M', 'Y1W5F',
+SRC_ORDER = ['CLS', 'T90', 'FRI', 'MON', 'TRI', 'Y2W3M', 'Y2W3F', 'Y2W4M', 'Y2W4F', 'Y2W5M', 'Y2W5Y', 'Y1W3', 'Y1W5M', 'Y1W5F',
              'APR', 'BRZ', 'FSD', 'FIN5']
 SOURCES = {k: SOURCES[k] for k in SRC_ORDER + [k for k in SOURCES if k not in SRC_ORDER]}
 # Tests after the first one repeat many questions; the bank keeps each question once, under the first test it
 # appeared in. Say so on every later test card, so a small count is not mistaken for a missing test.
 for _k, _v in SOURCES.items():
-    if _k in ('T90', 'FRI', 'MON'):
+    if _k in ('T90', 'FRI', 'MON', 'CLS'):
         continue
     if 'only new' not in _v['sub']['en']:
         _v['sub'] = {'en': _v['sub']['en'] + ' · only questions not already in the tests above',
@@ -204,6 +207,25 @@ def main():
     out = kept
     if dups:
         print('Duplicates dropped:', ', '.join(dups))
+    # Full exams (data/exam_CODE.json): every printed question of one test, in printed order, pointing at the bank
+    # question that is word for word the same (it may live under another test). The app's "By test" view then
+    # shows the whole exam with its own numbers.
+    resolve = dict(d.split('=') for d in dups)
+    by_id = {it['id']: it for it in out}
+    for ep in ([] if '--no-exams' in sys.argv else sorted(D.glob('exam_*.json'))):
+        ex = json.loads(ep.read_text())
+        code = ex['code']
+        if code not in SOURCES:
+            problems.append(f'{ep.name}: unknown code {code}'); continue
+        for e in ex['items']:
+            qid = resolve.get(e['id'], e['id'])
+            it = by_id.get(qid)
+            if not it:
+                problems.append(f'{ep.name}: №{e["n"]} -> {e["id"]} not in bank'); continue
+            it.setdefault('on', []).append([code, e['n']])
+        SOURCES[code]['full'] = len(ex['items'])
+        SOURCES[code]['sub'] = {'en': SOURCES[code]['sub']['en'].split(' · only')[0] + f" · full test, {len(ex['items'])} questions as printed",
+                                'ru': SOURCES[code]['sub']['ru'].split(' · только')[0] + f" · полный тест, {len(ex['items'])} вопросов как на бланке"}
     if held:
         print('HELD BACK until the drawing exists:', ', '.join(held))
     if problems:
