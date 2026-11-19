@@ -1,0 +1,1261 @@
+[
+ {
+  "src": "MON",
+  "n": 1,
+  "q": "What do the letters SMART stand for?",
+  "opts": [
+   "Sheet Metal, Air, Rail, and Transportation",
+   "Sheet Metal, Airway, Rail, and Transportation",
+   "Sheet Metal, Air, Railroad, and Transportation",
+   "Sheet Metal and Railroad Transportation"
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 1
+ },
+ {
+  "src": "MON",
+  "n": 2,
+  "q": "A line that is at a right angle to another is a:",
+  "opts": [
+   "Oblique line",
+   "Vertical line",
+   "Perpendicular line",
+   "Parallel line"
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 1
+ },
+ {
+  "src": "MON",
+  "n": 3,
+  "q": "A 3-4-5 triangle will always have a 90 degree corner.",
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 1
+ },
+ {
+  "src": "MON",
+  "n": 4,
+  "q": "List the three views that are shown in an orthographic projection.",
+  "opts": [
+   "PLAN or TOP View",
+   "FRONT ELEVATION",
+   "PERSPECTIVE VIEW",
+   "SIDE or END ELEVATION"
+  ],
+  "answer": [
+   0,
+   1,
+   3
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 1
+ },
+ {
+  "src": "MON",
+  "n": 5,
+  "q": "In an orthographic drawing, what view is placed in the lower right hand corner of the drawing",
+  "opts": [
+   "SIDE or END VIEW",
+   "PLAN or TOP VIEW",
+   "ISOMETRIC",
+   "FRONT ELEVATION"
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 2
+ },
+ {
+  "src": "MON",
+  "n": 7,
+  "q": "Dovetail seams are practical for",
+  "opts": [
+   "Substituting for lap seams.",
+   "Using as duct connectors.",
+   "Turning around elbow locks.",
+   "Connecting round pipe or collar to flat metal."
+  ],
+  "answer": [
+   3
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 2
+ },
+ {
+  "src": "MON",
+  "n": 8,
+  "q": "If you ordered a transition and marked TOP UP 7” on it, would it be necessary to place an arrow on it?",
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 2
+ },
+ {
+  "src": "MON",
+  "n": 9,
+  "q": "A higher gauge number means:",
+  "opts": [
+   "Heavier Metal",
+   "Thinner Metal",
+   "Thicker Metal",
+   "More ounces per square foot"
+  ],
+  "answer": [
+   1
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 2
+ },
+ {
+  "src": "MON",
+  "n": 10,
+  "q": "When exposed to oxygen, every metal forms",
+  "opts": [
+   "Carbonization",
+   "Electrolysis",
+   "Low Carbon Content",
+   "An Oxide"
+  ],
+  "answer": [
+   3
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 2
+ },
+ {
+  "src": "MON",
+  "n": 11,
+  "q": "Copper is gauged by",
+  "opts": [
+   "Pounds per square foot",
+   "Ounces per square foot",
+   "Decimals of an inch",
+   "Ounces per linear foot"
+  ],
+  "answer": [
+   1
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 3
+ },
+ {
+  "src": "MON",
+  "n": 12,
+  "q": "When installing ductwork the side of the duct with the drives is usually specified to be on the top and bottom.",
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 3
+ },
+ {
+  "src": "MON",
+  "n": 13,
+  "q": "Symptoms that show up long after toxic exposure are:",
+  "opts": [
+   "Acute effects",
+   "Seldom job related",
+   "Weaker than early effects",
+   "Chronic effects"
+  ],
+  "answer": [
+   3
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 3
+ },
+ {
+  "src": "MON",
+  "n": 14,
+  "q": "General ventilation can usually be handled by:",
+  "opts": [
+   "Air hoses and a respirator",
+   "An air tank and a respirator",
+   "Setting up a floor fan",
+   "A chemical cartridge respirator"
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 3
+ },
+ {
+  "src": "MON",
+  "n": 15,
+  "q": "Even non toxic gases can be hazardous in a confined space because they can:",
+  "opts": [
+   "Heat up",
+   "React with oxygen",
+   "Replace the oxygen in the air",
+   "Sink to the floor"
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 3
+ },
+ {
+  "src": "MON",
+  "n": 16,
+  "q": "Name 2 ways to attach round pipe to a flat surface:",
+  "opts": [
+   "SPIN – IN COLLAR",
+   "SLIP & DRIVE CLEATS",
+   "DOVE TAIL",
+   "HANGER STRAP"
+  ],
+  "answer": [
+   0,
+   2
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 4
+ },
+ {
+  "src": "MON",
+  "n": 17,
+  "q": "What is a good rule of thumb to use when determining how long to make an OG offset?",
+  "opts": [
+   "Offset x length",
+   "Offset + cheek width",
+   "Offset + length",
+   "Length x width"
+  ],
+  "answer": [
+   1
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 4
+ },
+ {
+  "src": "MON",
+  "n": 18,
+  "q": "What alloy is hard and strong, does not stain and resists corrosion?",
+  "opts": [
+   "Aluminum",
+   "Copper",
+   "Zinc",
+   "Stainless Steel"
+  ],
+  "answer": [
+   3
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 4
+ },
+ {
+  "src": "MON",
+  "n": 19,
+  "q": "16 gauge metal is about 1/16 of an inch thick. What gauge of metal is approximately twice as thick?",
+  "opts": [
+   "10 Gauge",
+   "20 Gauge",
+   "12 Gauge",
+   "22 Gauge"
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 4
+ },
+ {
+  "src": "MON",
+  "n": 20,
+  "q": "What do the letters FOB mean that are written on a transition?",
+  "opts": [
+   "Flat on back",
+   "Front or back",
+   "Flat on bottom",
+   "Fold over back"
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 4
+ },
+ {
+  "src": "MON",
+  "n": 22,
+  "q": "Sheet metal that is slit and stretched:",
+  "opts": [
+   "Perforated",
+   "Diamond plate",
+   "Expanded metal",
+   "Tread plate"
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 5
+ },
+ {
+  "src": "MON",
+  "n": 25,
+  "q": "If necessary an OG offset could be accomplished by using two equal elbows.",
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 5
+ },
+ {
+  "src": "MON",
+  "n": 26,
+  "q": "How many views are needed on a shop ticket to build a transition?",
+  "opts": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 6
+ },
+ {
+  "src": "MON",
+  "n": 27,
+  "q": "What type of sheet metal changes color with age?",
+  "opts": [
+   "Aluminum",
+   "Copper",
+   "Stainless",
+   "Galvanized"
+  ],
+  "answer": [
+   1
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 6
+ },
+ {
+  "src": "MON",
+  "n": 28,
+  "q": "2.543 + 128.14 – 16.968453 =",
+  "opts": [
+   "113.715",
+   "147.652",
+   "113.714",
+   "147.651"
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 6
+ },
+ {
+  "src": "MON",
+  "n": 29,
+  "q": "Express 68 inches in feet and decimals of a foot.",
+  "opts": [
+   "5.667'",
+   "5.666'",
+   "5'-8\"",
+   "5'-6\""
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 6
+ },
+ {
+  "src": "MON",
+  "n": 30,
+  "q": "7 steel joists are 6’- 8” apart center to center. The distance, center to center, between the two outside joists is 40'-0\"",
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 6
+ },
+ {
+  "src": "MON",
+  "n": 31,
+  "q": "The area of a circle is given as 23.68 square feet. What is the area in square inches?",
+  "opts": [
+   "1.97",
+   "1.973",
+   "3,409.90",
+   "3,409.92"
+  ],
+  "answer": [
+   3
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 7
+ },
+ {
+  "src": "MON",
+  "n": 32,
+  "q": "What is the circumference of a circle with a 45” radius?",
+  "opts": [
+   "141.372\"",
+   "282.743\"",
+   "6361.725\"",
+   "141.38\""
+  ],
+  "answer": [
+   1
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 7
+ },
+ {
+  "src": "MON",
+  "n": 33,
+  "q": "What is the area of the triangle in the figure below?",
+  "opts": [
+   "16 sq. in.",
+   "32 sq. in.",
+   "32.247 sq. in.",
+   "32 cu. in."
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": "q33",
+  "page": 7
+ },
+ {
+  "src": "MON",
+  "n": 34,
+  "q": "Find the volume of the box in cubic inches",
+  "opts": [
+   "440 cu. in.",
+   "440 sq. in.",
+   "1.904 gallons",
+   "256"
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": "q34",
+  "page": 7
+ },
+ {
+  "src": "MON",
+  "n": 35,
+  "q": "A duct is to be 256 square inches. What are the dimensions of the sides of a square duct?",
+  "opts": [
+   "16\"",
+   "64\"",
+   "1.777\"",
+   "32\""
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 8
+ },
+ {
+  "src": "MON",
+  "n": 36,
+  "q": "What is the size of the radius on a 36” x 14” section of flat oval?",
+  "opts": [
+   "18\"",
+   "14\"",
+   "7\"",
+   "36\""
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 8
+ },
+ {
+  "src": "MON",
+  "n": 37,
+  "q": "When you are looking at a set of plans, the ductwork is labeled 36” x 16”. Are you looking at the 36” side or the 16” side?",
+  "opts": [
+   "16\" side",
+   "36\" side"
+  ],
+  "answer": [
+   1
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 8
+ },
+ {
+  "src": "MON",
+  "n": 38,
+  "q": "How many cubic inches are there in a cubic foot?",
+  "opts": [
+   "1728",
+   "144",
+   "231",
+   "12 x 12"
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 8
+ },
+ {
+  "src": "MON",
+  "n": 39,
+  "q": "How cubic inches are there in 2.5 gallons?",
+  "opts": [
+   "462 cu. in.",
+   "231 cu. in.",
+   "577.5 cu. in.",
+   "231 sq. in."
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 9
+ },
+ {
+  "src": "MON",
+  "n": 40,
+  "q": "Find the area of the flat oval.",
+  "opts": [
+   "130.27 sq.in.",
+   "150.27 sq. in.",
+   "178.54 sq. in.",
+   "52.57 sq. in."
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": "q40",
+  "page": 9
+ },
+ {
+  "src": "MON",
+  "n": 41,
+  "q": "If you drill a hole 9 3/4\" away from the end of a steel bar that is 29\" long, how far is the hole from the opposite end of the bar?",
+  "opts": [
+   "38-3/4\"",
+   "19-3/4\"",
+   "19-1/4\"",
+   "20-1/4\""
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 9
+ },
+ {
+  "src": "MON",
+  "n": 42,
+  "q": "Calculate the duct offset from the given dimensions.",
+  "opts": [
+   "2' 4-5/8\"",
+   "12-5/8\"",
+   "1' 8-5/8\"",
+   "20-1/2\""
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": null,
+  "fig": "q42",
+  "page": 9
+ },
+ {
+  "src": "MON",
+  "n": 43,
+  "q": "Solve the length of dimension \"x\".",
+  "opts": [
+   "30.9376\"",
+   "297-1/2\"",
+   "99",
+   "29.938\""
+  ],
+  "answer": [
+   3
+  ],
+  "note_ru": null,
+  "fig": "q43",
+  "page": 10
+ },
+ {
+  "src": "MON",
+  "n": 44,
+  "q": "Solve for the missing angle.",
+  "opts": [
+   "90 degrees",
+   "18.12 degrees",
+   "71.88 degrees",
+   "71.877 degrees"
+  ],
+  "answer": [
+   1
+  ],
+  "note_ru": null,
+  "fig": "q44",
+  "page": 10
+ },
+ {
+  "src": "MON",
+  "n": 45,
+  "q": "Solve for the missing angle.",
+  "opts": [
+   "35.471 degrees",
+   "35.48 degrees",
+   "54.53 degrees",
+   "55.52 degrees"
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": null,
+  "fig": "q45",
+  "page": 11
+ },
+ {
+  "src": "MON",
+  "n": 46,
+  "q": "You're making a trim joint and sheared 2 pieces 17\" x 17-1/4\". The duct size is 10\" x 6\" with Pittsburgh's, the drive to drive length of the duct will be",
+  "opts": [
+   "18\"",
+   "15\"",
+   "16\"",
+   "12-1/4\""
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 11
+ },
+ {
+  "src": "MON",
+  "n": 47,
+  "q": "You're making a piece of duct for a Slip and Drive connection and sheared it 31\" for the overall length, it's working length will be",
+  "opts": [
+   "29\"",
+   "28\"",
+   "27\"",
+   "30\""
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 12
+ },
+ {
+  "src": "MON",
+  "n": 48,
+  "q": "A room measures 21'-2\" x 45'-7\", what is the distance of the room from corner to opposite corner?",
+  "opts": [
+   "50.23'",
+   "41'-6 5/8\"",
+   "50'-2\"",
+   "50'-3 1/8\""
+  ],
+  "answer": [
+   3
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 12
+ },
+ {
+  "src": "MON",
+  "n": 50,
+  "q": "Convert the following to the nearest 16th: 6.545",
+  "opts": [
+   "6-5/8",
+   "6-7/16",
+   "6-9/16",
+   "6-1/2"
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 12
+ },
+ {
+  "src": "MON",
+  "n": 51,
+  "q": "What is the perimeter of a 22\" x 12\" duct?",
+  "opts": [
+   "68\"",
+   "34\"",
+   "264\"",
+   "46\""
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 13
+ },
+ {
+  "src": "MON",
+  "n": 52,
+  "q": "What is the area of 32\" x 18\" duct?",
+  "opts": [
+   "576 sq. in.",
+   "100 sq. in.",
+   "675 sq. in.",
+   "612 sq. in."
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 13
+ },
+ {
+  "src": "MON",
+  "n": 53,
+  "q": "What is the volume of 28\" x 16\" duct that is 4 feet long?",
+  "opts": [
+   "1792 cu. in.",
+   "21,504 cu. in",
+   "448 cu. in.",
+   "18,484 cu.in."
+  ],
+  "answer": [
+   1
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 13
+ },
+ {
+  "src": "MON",
+  "n": 54,
+  "q": "Calculate the length of the transition for a 15 degree angle?",
+  "opts": [
+   "44 - 13/16\"",
+   "3- 3/16\"",
+   "44 - 3/4\"",
+   "45- 11/16"
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": "q54",
+  "page": 13
+ },
+ {
+  "src": "MON",
+  "n": 55,
+  "q": "Calculate the wrapper length for an Ogee offset that is 22\" drive to drive with a 6\" offset.",
+  "opts": [
+   "20-1/8\"",
+   "21-1/8\"",
+   "23-5/8\"",
+   "24-1/8\""
+  ],
+  "answer": [
+   3
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 13
+ },
+ {
+  "src": "MON",
+  "n": 56,
+  "q": "Solve dimensions \"L\" and \"D\" for the offset problem.",
+  "opts": [
+   "L= 35-3/8\"",
+   "L= 33-1/8\"",
+   "L= 31-3/4\"",
+   "D= 55-3/16\"",
+   "D= 60-7/8\"",
+   "D= 62-9/16\""
+  ],
+  "answer": [
+   1,
+   5
+  ],
+  "note_ru": null,
+  "fig": "q56",
+  "page": 14
+ },
+ {
+  "src": "MON",
+  "n": 57,
+  "q": "Solve dimensions \"L\" and \"D\" for the offset problem.",
+  "opts": [
+   "L= 65-5/8\"",
+   "L= 62-5/16\"",
+   "L= 60-3/8\"",
+   "D= 121\"",
+   "D= 125\"",
+   "D= 119-1/2\""
+  ],
+  "answer": [
+   0,
+   4
+  ],
+  "note_ru": null,
+  "fig": "q57",
+  "page": 14
+ },
+ {
+  "src": "MON",
+  "n": 58,
+  "q": "Calculate a shear list for the transition provided.",
+  "opts": [
+   "Top = 16\" x 17-1/2\"",
+   "Top = 16\" x 16-1/2\"",
+   "Top = 16-1/2\" x 16-7/16\"",
+   "Bottom = 16-1/2\" x 17-1/4\"",
+   "Bottom = 16\" x 17-1/2\"",
+   "Bottom = 16\" x 16-1/2\"",
+   "Left side = 14\" x 16\"",
+   "Left side = 18\" x 14\"",
+   "Left side = 16-5/8\" x 14\"",
+   "Right side = 18-1/4\" x 14\"",
+   "Right side = 18-1/16\" x 14\"",
+   "Right side = 18-1/8\" x 14\""
+  ],
+  "answer": [
+   1,
+   3,
+   6,
+   11
+  ],
+  "note_ru": null,
+  "fig": "q58",
+  "page": 15
+ },
+ {
+  "src": "MON",
+  "n": 59,
+  "q": "7 steel joists are 6’- 8” apart center to center. The distance, center to center, between the two outside joists is 40'-0\"",
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 15
+ },
+ {
+  "src": "MON",
+  "n": 60,
+  "q": "What is the circumference of a circle with a 40” radius?",
+  "opts": [
+   "141.372\"",
+   "282.743\"",
+   "251.327\"",
+   "141.38\""
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 15
+ },
+ {
+  "src": "MON",
+  "n": 61,
+  "q": "What is the circumference of a circle with a 42” radius?",
+  "opts": [
+   "141.372\"",
+   "282.743\"",
+   "263.894\"",
+   "141.38\""
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 15
+ },
+ {
+  "src": "MON",
+  "n": 62,
+  "q": "Symptoms that show up shortly after toxic exposure are:",
+  "opts": [
+   "Acute effects",
+   "Seldom job related",
+   "Weaker than early effects",
+   "Chronic effects"
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 16
+ },
+ {
+  "src": "MON",
+  "n": 63,
+  "q": "In most cases, forming instructions are placed on the _______________ of a sheet metal pattern.",
+  "opts": [
+   "Inside (all layout marking)",
+   "Outside (forming and detail stickers)",
+   "Both"
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 16
+ },
+ {
+  "src": "MON",
+  "n": 64,
+  "q": "With the GMAW process, shielding gases are used to:",
+  "opts": [
+   "Protect the weld from the surrounding air.",
+   "Produce hotter arcs.",
+   "Reduce weld defects.",
+   "All the above."
+  ],
+  "answer": [
+   3
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 16
+ },
+ {
+  "src": "MON",
+  "n": 65,
+  "q": "GMAW uses a constant current (CC) power source.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 16
+ },
+ {
+  "src": "MON",
+  "n": 66,
+  "q": "Your safety harness and lifeline system should keep you from falling more than",
+  "opts": [
+   "3 feet.",
+   "6 feet.",
+   "8 feet.",
+   "10 feet."
+  ],
+  "answer": [
+   1
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 16
+ },
+ {
+  "src": "MON",
+  "n": 67,
+  "q": "How many square feet are in the area of a rectangle that is 28\" x 20\"?",
+  "opts": [
+   "488 sq.ft.",
+   "3.889 sq.ft.",
+   "3.888 sq.ft.",
+   "46.67 sq.ft."
+  ],
+  "answer": [
+   1
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 17
+ },
+ {
+  "src": "MON",
+  "n": 68,
+  "q": "What is the total price of a $575 furnace with a 8-1/4% sales tax?",
+  "opts": [
+   "$47.33",
+   "$47.44",
+   "$622.44",
+   "$622.43"
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 17
+ },
+ {
+  "src": "MON",
+  "n": 69,
+  "q": "How many whole 15\" pieces can be cut from a 12 foot strip of metal?",
+  "opts": [
+   "9 pieces",
+   "12 pieces",
+   "10 pieces",
+   "8 pieces"
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 17
+ },
+ {
+  "src": "MON",
+  "n": 70,
+  "q": "Select the image that represents a break-line for rectangular duct.",
+  "opts": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F"
+  ],
+  "answer": [
+   4
+  ],
+  "note_ru": null,
+  "fig": "q70",
+  "page": 17
+ },
+ {
+  "src": "MON",
+  "n": 71,
+  "q": "What kind of metal comes very oily when purchased?",
+  "opts": [
+   "Cold rolled steel",
+   "Hot rolled steel",
+   "Copper",
+   "Galvanized"
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 18
+ },
+ {
+  "src": "MON",
+  "n": 72,
+  "q": "What formula could be used to fabricate a field offset?",
+  "opts": [
+   "Offset divided by width times length",
+   "Width plus offset",
+   "Offset plus width divided by length",
+   "Offset times width divided by length"
+  ],
+  "answer": [
+   3
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 18
+ },
+ {
+  "src": "MON",
+  "n": 73,
+  "q": "What is the size of the radius on a 42\" x 22\" section of flat oval?",
+  "opts": [
+   "5.5\"",
+   "21\"",
+   "11\"",
+   "22\""
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 18
+ },
+ {
+  "src": "MON",
+  "n": 74,
+  "q": "A sheet of stainless steel that has a number 8 finish on it is",
+  "opts": [
+   "dull",
+   "brushed",
+   "very shiny",
+   "oily"
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 18
+ },
+ {
+  "src": "MON",
+  "n": 75,
+  "q": "The proper angle to the ground for a ladder is",
+  "opts": [
+   "75 degrees",
+   "57 degrees",
+   "30 degrees",
+   "60 degrees"
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 18
+ },
+ {
+  "src": "MON",
+  "n": 76,
+  "q": "Using the plan and section view provided select the transition to use for the duct connection.",
+  "opts": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": "q76",
+  "page": 18
+ },
+ {
+  "src": "MON",
+  "n": 77,
+  "q": "Is a number 9 welding lens darker or lighter than a number 12?",
+  "opts": null,
+  "answer": null,
+  "note_ru": null,
+  "fig": null,
+  "page": 19,
+  "kind": "text",
+  "accept": [
+   "lighter"
+  ],
+  "answer_text": "Lighter"
+ },
+ {
+  "src": "MON",
+  "n": 78,
+  "q": "To avoid unnecessary exposure to fumes:",
+  "opts": [
+   "Avoid welding in humid conditions.",
+   "Weld with a dust mask, like the kind painters use.",
+   "Avoid welding outdoors.",
+   "Wait 10 seconds for fumes to clear before inspecting your weld."
+  ],
+  "answer": [
+   3
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 19
+ },
+ {
+  "src": "MON",
+  "n": 79,
+  "q": "If leather is not available, the next best choice for clothing is nylon or polyester. True or False?",
+  "opts": [
+   "False",
+   "True"
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": null,
+  "page": 19
+ }
+]

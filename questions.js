@@ -78,6 +78,20 @@ const SOURCES = {
    "ru": "Friday Written"
   }
  },
+ "MON": {
+  "name": {
+   "en": "SMY2W2 Monday Written",
+   "ru": "SMY2W2 Monday Written"
+  },
+  "sub": {
+   "en": "Last year's Monday test: questions not already in the tests above",
+   "ru": "Тест понедельника прошлого года: вопросы, которых нет в тестах выше"
+  },
+  "short": {
+   "en": "Monday Written",
+   "ru": "Monday Written"
+  }
+ },
  "TRI": {
   "name": {
    "en": "SMY2W2 Triangulation quiz",
@@ -114,21 +128,25 @@ const UI = {
   "en": "Study material, not an official answer key. Answers follow the course key; where a key answer is debatable, the explanation says so. More tests are being added.",
   "ru": "Это учебный материал, а не официальный ключ. Ответы — по ключу курса; где ответ ключа спорный, это сказано в пояснении. Новые тесты добавляются."
  },
- "mode_mixed": {
-  "en": "Practice set — {N} questions",
-  "ru": "Тренировка — {N} вопросов"
- },
- "mode_mixed_sub": {
-  "en": "Random mix of all topics, no repeats until a topic is used up",
-  "ru": "Вперемешку из всех тем, без повторов, пока тема не пройдена"
- },
  "mode_all": {
-  "en": "All questions",
-  "ru": "Все вопросы"
+  "en": "Start the test — all questions",
+  "ru": "Начать тест — все вопросы"
  },
  "mode_all_sub": {
-  "en": "The whole bank in random order",
-  "ru": "Вся база в случайном порядке"
+  "en": "Random order. Answer as many as you like, then finish and see your result",
+  "ru": "Вперемешку. Отвечай сколько хочешь, потом заверши тест и посмотри результат"
+ },
+ "finish_test": {
+  "en": "Finish test and show results",
+  "ru": "Завершить тест и показать результат"
+ },
+ "continue_test": {
+  "en": "Continue the test ({N} left)",
+  "ru": "Продолжить тест (осталось {N})"
+ },
+ "end_answered": {
+  "en": "Answered {D} of {T} questions.",
+  "ru": "Отвечено {D} из {T} вопросов."
  },
  "mode_mistakes": {
   "en": "My mistakes",
@@ -215,11 +233,11 @@ const UI = {
   "ru": "Светлая / тёмная тема"
  },
  "end_head": {
-  "en": "{S} of {T} — {P}%",
-  "ru": "{S} из {T} — {P}%"
+  "en": "{S} of {D} right — {P}%",
+  "ru": "Верно {S} из {D} — {P}%"
  },
  "end_line_missed": {
-  "en": "{N} to review. They are saved in “My mistakes”.",
+  "en": "Mistakes: {N}. They are saved in “My mistakes”.",
   "ru": "Ошибок: {N}. Они сохранены в «Мои ошибки»."
  },
  "end_line_perfect": {
@@ -231,8 +249,8 @@ const UI = {
   "ru": "Перерешать ошибки ({N})"
  },
  "again": {
-  "en": "New set",
-  "ru": "Новый набор"
+  "en": "Start over",
+  "ru": "Начать заново"
  }
 };
 const QUESTIONS = [
@@ -3347,6 +3365,1149 @@ const QUESTIONS = [
   ],
   "answer": [
    0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-1",
+  "src": "MON",
+  "n": 1,
+  "topic": "trade",
+  "q": {
+   "en": "What do the letters SMART stand for?",
+   "ru": "Что означают буквы SMART?"
+  },
+  "why": {
+   "en": "SMART is the union Local 66 belongs to: the International Association of Sheet Metal, Air, Rail and Transportation Workers, formed when the Sheet Metal Workers (SMWIA) merged with the United Transportation Union. The wrong options change one word (Airway, Railroad) or drop Air and Rail.",
+   "ru": "SMART — профсоюз, в который входит Local 66: International Association of Sheet Metal, Air, Rail and Transportation Workers. Он появился при слиянии профсоюза Sheet Metal Workers (SMWIA) с United Transportation Union. В неверных вариантах заменено одно слово (Airway, Railroad) или выпали Air и Rail."
+  },
+  "opts": [
+   {
+    "en": "Sheet Metal, Air, Rail, and Transportation",
+    "ru": "Sheet Metal, Air, Rail, and Transportation"
+   },
+   {
+    "en": "Sheet Metal, Airway, Rail, and Transportation",
+    "ru": "Sheet Metal, Airway, Rail, and Transportation"
+   },
+   {
+    "en": "Sheet Metal, Air, Railroad, and Transportation",
+    "ru": "Sheet Metal, Air, Railroad, and Transportation"
+   },
+   {
+    "en": "Sheet Metal and Railroad Transportation",
+    "ru": "Sheet Metal and Railroad Transportation"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-2",
+  "src": "MON",
+  "n": 2,
+  "topic": "drawing",
+  "q": {
+   "en": "A line that is at a right angle to another is a:",
+   "ru": "Линия, которая идёт под прямым углом к другой линии, — это:"
+  },
+  "why": {
+   "en": "Perpendicular lines meet at 90°. A vertical line is perpendicular only to a horizontal one, an oblique line is slanted (it meets at an angle other than 90°), and parallel lines never meet.",
+   "ru": "Перпендикулярные линии встречаются под 90°. Вертикальная перпендикулярна только горизонтальной, oblique — наклонная (угол не 90°), а параллельные линии вообще не пересекаются."
+  },
+  "opts": [
+   {
+    "en": "Oblique line",
+    "ru": "Oblique line (наклонная)"
+   },
+   {
+    "en": "Vertical line",
+    "ru": "Vertical line (вертикальная)"
+   },
+   {
+    "en": "Perpendicular line",
+    "ru": "Perpendicular line (перпендикулярная)"
+   },
+   {
+    "en": "Parallel line",
+    "ru": "Parallel line (параллельная)"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-3",
+  "src": "MON",
+  "n": 3,
+  "topic": "trig",
+  "q": {
+   "en": "A 3-4-5 triangle will always have a 90 degree corner.",
+   "ru": "Треугольник 3-4-5 всегда имеет угол 90 градусов."
+  },
+  "why": {
+   "en": "3² + 4² = 9 + 16 = 25 = 5², so by the Pythagorean theorem the angle between the 3 and 4 sides is exactly 90°. Any multiple works too (6-8-10, 9-12-15, 12-16-20), which is how a corner is squared with a tape in layout.",
+   "ru": "3² + 4² = 9 + 16 = 25 = 5², поэтому по теореме Пифагора угол между сторонами 3 и 4 ровно 90°. Годится и любое кратное (6-8-10, 9-12-15, 12-16-20) — так рулеткой выводят прямой угол при разметке."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-4",
+  "src": "MON",
+  "n": 4,
+  "topic": "drawing",
+  "q": {
+   "en": "List the three views that are shown in an orthographic projection.",
+   "ru": "Назовите три вида, которые показывают в orthographic projection."
+  },
+  "why": {
+   "en": "An orthographic projection shows the object in three flat views: plan (top), front elevation and side (end) elevation. Each view looks straight at one face, so true sizes can be measured on it. Perspective is a pictorial view with lines running to vanishing points, not an orthographic view.",
+   "ru": "Orthographic projection показывает предмет тремя плоскими видами: plan (сверху), front elevation (спереди) и side или end elevation (сбоку, с торца). Каждый вид смотрит прямо на одну грань, поэтому размеры на нём истинные. Perspective — наглядная картинка, линии в ней сходятся к точкам схода, к orthographic она не относится."
+  },
+  "opts": [
+   {
+    "en": "PLAN or TOP View",
+    "ru": "PLAN или TOP View (вид сверху)"
+   },
+   {
+    "en": "FRONT ELEVATION",
+    "ru": "FRONT ELEVATION (вид спереди)"
+   },
+   {
+    "en": "PERSPECTIVE VIEW",
+    "ru": "PERSPECTIVE VIEW (перспектива)"
+   },
+   {
+    "en": "SIDE or END ELEVATION",
+    "ru": "SIDE или END ELEVATION (вид сбоку / с торца)"
+   }
+  ],
+  "answer": [
+   0,
+   1,
+   3
+  ],
+  "type": "multi"
+ },
+ {
+  "id": "MON-5",
+  "src": "MON",
+  "n": 5,
+  "topic": "drawing",
+  "q": {
+   "en": "In an orthographic drawing, what view is placed in the lower right hand corner of the drawing",
+   "ru": "В orthographic drawing какой вид располагают в правом нижнем углу листа"
+  },
+  "why": {
+   "en": "In the standard layout the plan (top) view sits above the front elevation, and the side (end) view sits to the right of the front elevation: plan upper left, front elevation lower left, side view lower right. Isometric is a pictorial drawing, not one of the orthographic views.",
+   "ru": "В стандартной раскладке plan (вид сверху) стоит над front elevation, а side или end view — справа от front elevation: plan слева вверху, front elevation слева внизу, side view справа внизу. Isometric — наглядный рисунок, а не один из orthographic видов."
+  },
+  "opts": [
+   {
+    "en": "SIDE or END VIEW",
+    "ru": "SIDE или END VIEW (вид сбоку / с торца)"
+   },
+   {
+    "en": "PLAN or TOP VIEW",
+    "ru": "PLAN или TOP VIEW (вид сверху)"
+   },
+   {
+    "en": "ISOMETRIC",
+    "ru": "ISOMETRIC (изометрия)"
+   },
+   {
+    "en": "FRONT ELEVATION",
+    "ru": "FRONT ELEVATION (вид спереди)"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-7",
+  "src": "MON",
+  "n": 7,
+  "topic": "fittings",
+  "q": {
+   "en": "Dovetail seams are practical for",
+   "ru": "Dovetail seams удобны для"
+  },
+  "why": {
+   "en": "A dovetail collar has tabs cut around one end; it is pushed through a hole in the flat sheet and the tabs are bent alternately in and out to lock it. That is how round pipe or a collar is joined to flat metal such as a duct wall or plenum. It is not a duct-to-duct connector, a lap seam or an elbow seam.",
+   "ru": "У dovetail collar по краю нарезаны зубцы; его вставляют в отверстие плоского листа и отгибают зубцы поочерёдно внутрь и наружу, это его и держит. Так round pipe или collar присоединяют к плоскому металлу: стенке duct, plenum. Для соединения duct с duct, lap seam или шва elbow он не служит."
+  },
+  "opts": [
+   {
+    "en": "Substituting for lap seams.",
+    "ru": "Замены lap seams."
+   },
+   {
+    "en": "Using as duct connectors.",
+    "ru": "Соединения секций duct между собой."
+   },
+   {
+    "en": "Turning around elbow locks.",
+    "ru": "Загиба вокруг elbow locks."
+   },
+   {
+    "en": "Connecting round pipe or collar to flat metal.",
+    "ru": "Присоединения round pipe или collar к плоскому листу."
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-8",
+  "src": "MON",
+  "n": 8,
+  "topic": "transitions",
+  "q": {
+   "en": "If you ordered a transition and marked TOP UP 7” on it, would it be necessary to place an arrow on it?",
+   "ru": "Если вы заказали transition и написали на нём TOP UP 7”, нужно ли ставить на нём стрелку?"
+  },
+  "why": {
+   "en": "Yes. TOP UP 7\" tells which way the TOP moves (UP = toward the viewer) and by how much, but only the arrow shows which end is the one that moves (course sheet 2I Transition Terminology). Without the arrow the transition can be built or hung backwards.",
+   "ru": "Да. TOP UP 7\" говорит, куда смещается TOP (UP — к смотрящему) и на сколько, но какой именно конец смещается, показывает только стрелка (лист курса 2I Transition Terminology). Без стрелки transition можно сделать или повесить задом наперёд."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-9",
+  "src": "MON",
+  "n": 9,
+  "topic": "materials",
+  "q": {
+   "en": "A higher gauge number means:",
+   "ru": "Больший номер gauge означает:"
+  },
+  "why": {
+   "en": "Gauge counts how many sheets fit in a set measure, so a higher number means thinner metal: 16 ga = 0.0598\", 22 ga = 0.0299\". A thinner sheet is also lighter, so heavier, thicker and more ounces per square foot all go the wrong way.",
+   "ru": "Gauge — это сколько листов укладывается в заданную меру, поэтому больший номер — тоньше: 16 ga = 0.0598\", 22 ga = 0.0299\". Тонкий лист к тому же легче, так что «тяжелее», «толще» и «больше унций на квадратный фут» — всё наоборот."
+  },
+  "opts": [
+   {
+    "en": "Heavier Metal",
+    "ru": "Более тяжёлый металл"
+   },
+   {
+    "en": "Thinner Metal",
+    "ru": "Более тонкий металл"
+   },
+   {
+    "en": "Thicker Metal",
+    "ru": "Более толстый металл"
+   },
+   {
+    "en": "More ounces per square foot",
+    "ru": "Больше унций на квадратный фут"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-10",
+  "src": "MON",
+  "n": 10,
+  "topic": "materials",
+  "q": {
+   "en": "When exposed to oxygen, every metal forms",
+   "ru": "При контакте с кислородом каждый металл образует"
+  },
+  "why": {
+   "en": "Oxygen combines with the metal surface into an oxide: rust on steel is iron oxide, the dull gray film on aluminum is aluminum oxide, the dark film on copper is copper oxide. Carbonization and electrolysis are different processes, and carbon content is a property of steel, not something oxygen forms.",
+   "ru": "Кислород соединяется с поверхностью металла в оксид: ржавчина на стали — оксид железа, тусклая серая плёнка на алюминии — оксид алюминия, тёмный налёт на меди — оксид меди. Карбонизация и электролиз — другие процессы, а содержание углерода — свойство стали, его кислород не образует."
+  },
+  "opts": [
+   {
+    "en": "Carbonization",
+    "ru": "Карбонизация"
+   },
+   {
+    "en": "Electrolysis",
+    "ru": "Электролиз"
+   },
+   {
+    "en": "Low Carbon Content",
+    "ru": "Низкое содержание углерода"
+   },
+   {
+    "en": "An Oxide",
+    "ru": "Оксид"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-11",
+  "src": "MON",
+  "n": 11,
+  "topic": "materials",
+  "q": {
+   "en": "Copper is gauged by",
+   "ru": "Толщину меди (copper) задают в"
+  },
+  "why": {
+   "en": "Sheet copper is specified by weight per area: 16 oz copper means 16 ounces per square foot, 20 oz means 20 ounces per square foot. Steel sheet is called by gauge number, and weight per linear foot is a measure for bar or pipe, not for sheet.",
+   "ru": "Листовую медь задают весом на площадь: 16 oz copper — это 16 унций на квадратный фут, 20 oz — 20 унций на квадратный фут. Стальной лист называют номером gauge, а вес на погонный фут — мера для прутка или трубы, не для листа."
+  },
+  "opts": [
+   {
+    "en": "Pounds per square foot",
+    "ru": "Фунтах на квадратный фут"
+   },
+   {
+    "en": "Ounces per square foot",
+    "ru": "Унциях на квадратный фут"
+   },
+   {
+    "en": "Decimals of an inch",
+    "ru": "Десятичных долях дюйма"
+   },
+   {
+    "en": "Ounces per linear foot",
+    "ru": "Унциях на погонный фут"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-12",
+  "src": "MON",
+  "n": 12,
+  "topic": "fittings",
+  "q": {
+   "en": "When installing ductwork the side of the duct with the drives is usually specified to be on the top and bottom.",
+   "ru": "При монтаже ductwork сторону duct с drives обычно задают сверху и снизу."
+  },
+  "why": {
+   "en": "No. Drives usually go on the short sides of the opening (on a typical wide, flat duct those are the sides), and the S slips go on the long top and bottom. On a drawing the drive hooks show exactly which sides get drives.",
+   "ru": "Нет. Drives обычно ставят на короткие стороны проёма (у обычного широкого плоского duct это боковые стенки), а S slips — на длинные верх и низ. На чертеже стороны с drives отмечают крючками (hooks)."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-13",
+  "src": "MON",
+  "n": 13,
+  "topic": "safety",
+  "q": {
+   "en": "Symptoms that show up long after toxic exposure are:",
+   "ru": "Симптомы, которые проявляются спустя долгое время после токсичного воздействия, — это:"
+  },
+  "why": {
+   "en": "Chronic effects come from long or repeated exposure and show up long after it, sometimes years later (for example lung disease from welding fumes). Acute effects appear right away or soon after a short exposure. Delayed symptoms are often job related and are not weaker.",
+   "ru": "Chronic effects возникают от долгого или повторного воздействия и проявляются намного позже, иногда через годы (например, болезни лёгких от сварочного дыма). Acute effects появляются сразу или вскоре после короткого воздействия. Поздние симптомы часто как раз связаны с работой и не слабее ранних."
+  },
+  "opts": [
+   {
+    "en": "Acute effects",
+    "ru": "Acute effects (острые)"
+   },
+   {
+    "en": "Seldom job related",
+    "ru": "Редко связаны с работой"
+   },
+   {
+    "en": "Weaker than early effects",
+    "ru": "Слабее ранних эффектов"
+   },
+   {
+    "en": "Chronic effects",
+    "ru": "Chronic effects (хронические)"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-14",
+  "src": "MON",
+  "n": 14,
+  "topic": "safety",
+  "q": {
+   "en": "General ventilation can usually be handled by:",
+   "ru": "General ventilation (общую вентиляцию) обычно можно обеспечить:"
+  },
+  "why": {
+   "en": "General (dilution) ventilation moves a large volume of air through the whole work area to thin out contaminants, and a floor fan (or open doors and windows) does exactly that. Respirators, air hoses and air tanks are personal protective equipment for one wearer, not ventilation of the space.",
+   "ru": "General (разбавляющая) ventilation прогоняет большой объём воздуха через всё рабочее место и разбавляет загрязнения; напольный вентилятор (или открытые двери и окна) делает именно это. Респираторы, шланги и баллоны с воздухом — средства защиты одного человека (PPE), а не вентиляция помещения."
+  },
+  "opts": [
+   {
+    "en": "Air hoses and a respirator",
+    "ru": "Воздушными шлангами и респиратором"
+   },
+   {
+    "en": "An air tank and a respirator",
+    "ru": "Баллоном с воздухом и респиратором"
+   },
+   {
+    "en": "Setting up a floor fan",
+    "ru": "Поставив напольный вентилятор"
+   },
+   {
+    "en": "A chemical cartridge respirator",
+    "ru": "Респиратором с химическим картриджем"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-15",
+  "src": "MON",
+  "n": 15,
+  "topic": "safety",
+  "q": {
+   "en": "Even non toxic gases can be hazardous in a confined space because they can:",
+   "ru": "Даже нетоксичные газы опасны в confined space, потому что они могут:"
+  },
+  "why": {
+   "en": "Inert gases such as argon, nitrogen and CO2 are not poisonous, but they take up the space of the air, so the oxygen level drops and a worker can pass out without warning. Some are heavier than air and collect in low spots, but the danger itself is the missing oxygen, not where the gas sits.",
+   "ru": "Инертные газы — argon, nitrogen, CO2 — не ядовиты, но занимают место воздуха, кислорода становится меньше, и человек может потерять сознание без всякого предупреждения. Некоторые из них тяжелее воздуха и скапливаются внизу, но опасность — именно нехватка кислорода, а не то, где лежит газ."
+  },
+  "opts": [
+   {
+    "en": "Heat up",
+    "ru": "Нагреваться"
+   },
+   {
+    "en": "React with oxygen",
+    "ru": "Вступать в реакцию с кислородом"
+   },
+   {
+    "en": "Replace the oxygen in the air",
+    "ru": "Замещать кислород в воздухе"
+   },
+   {
+    "en": "Sink to the floor",
+    "ru": "Опускаться к полу"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-16",
+  "src": "MON",
+  "n": 16,
+  "topic": "fittings",
+  "q": {
+   "en": "Name 2 ways to attach round pipe to a flat surface:",
+   "ru": "Назовите 2 способа присоединить round pipe к плоской поверхности:"
+  },
+  "why": {
+   "en": "A spin-in collar (air tight take off, ATTO) and a dovetail collar both join a round pipe to a flat sheet. Slip & drive cleats join rectangular duct sections to each other, and a hanger strap only supports the duct.",
+   "ru": "Spin-in collar (air tight take off, ATTO) и dovetail collar — оба присоединяют round pipe к плоскому листу. Slip & drive cleats соединяют между собой секции прямоугольного duct, а hanger strap только подвешивает duct."
+  },
+  "opts": [
+   {
+    "en": "SPIN – IN COLLAR",
+    "ru": "SPIN – IN COLLAR"
+   },
+   {
+    "en": "SLIP & DRIVE CLEATS",
+    "ru": "SLIP & DRIVE CLEATS"
+   },
+   {
+    "en": "DOVE TAIL",
+    "ru": "DOVE TAIL"
+   },
+   {
+    "en": "HANGER STRAP",
+    "ru": "HANGER STRAP"
+   }
+  ],
+  "answer": [
+   0,
+   2
+  ],
+  "type": "multi"
+ },
+ {
+  "id": "MON-17",
+  "src": "MON",
+  "n": 17,
+  "topic": "offsets",
+  "q": {
+   "en": "What is a good rule of thumb to use when determining how long to make an OG offset?",
+   "ru": "Какое практическое правило (rule of thumb) помогает решить, какой длины делать OG offset?"
+  },
+  "why": {
+   "en": "Course rule of thumb: make the OG about offset + cheek width long, where the cheek width is the duct side in the plane of the offset; for example a 6\" offset on a 12\" cheek gives about 18\". That keeps the S-bend gentle enough to form and for the air to follow. Offset x length and length x width multiply two dimensions (that is an area, not a length), and offset + length uses the very length you are trying to find.",
+   "ru": "Правило курса: длина OG — примерно offset + ширина cheek (cheek width — сторона duct в плоскости offset); например, offset 6\" при cheek 12\" даёт около 18\". Так S-изгиб получается достаточно плавным и для гибки, и для воздуха. Offset x длина и длина x ширина перемножают два размера (это площадь, а не длина), а offset + длина использует ту самую длину, которую ищем."
+  },
+  "opts": [
+   {
+    "en": "Offset x length",
+    "ru": "Offset x длина"
+   },
+   {
+    "en": "Offset + cheek width",
+    "ru": "Offset + ширина cheek"
+   },
+   {
+    "en": "Offset + length",
+    "ru": "Offset + длина"
+   },
+   {
+    "en": "Length x width",
+    "ru": "Длина x ширина"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-18",
+  "src": "MON",
+  "n": 18,
+  "topic": "materials",
+  "q": {
+   "en": "What alloy is hard and strong, does not stain and resists corrosion?",
+   "ru": "Какой сплав твёрдый и прочный, не покрывается пятнами и стоек к коррозии?"
+  },
+  "why": {
+   "en": "Stainless steel is steel alloyed with chromium; the chromium forms a thin protective film, so the metal does not stain or rust and stays hard and strong. Copper and zinc are pure metals, not alloys, and both tarnish; aluminum resists corrosion but is soft and dulls.",
+   "ru": "Stainless steel — сталь, легированная хромом; хром даёт тонкую защитную плёнку, поэтому металл не покрывается пятнами и не ржавеет, оставаясь твёрдым и прочным. Медь и цинк — чистые металлы, а не сплавы, и оба тускнеют; алюминий коррозии не боится, но мягкий и тускнеет."
+  },
+  "opts": [
+   {
+    "en": "Aluminum",
+    "ru": "Алюминий (aluminum)"
+   },
+   {
+    "en": "Copper",
+    "ru": "Медь (copper)"
+   },
+   {
+    "en": "Zinc",
+    "ru": "Цинк (zinc)"
+   },
+   {
+    "en": "Stainless Steel",
+    "ru": "Нержавеющая сталь (stainless steel)"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-19",
+  "src": "MON",
+  "n": 19,
+  "topic": "materials",
+  "q": {
+   "en": "16 gauge metal is about 1/16 of an inch thick. What gauge of metal is approximately twice as thick?",
+   "ru": "Металл 16 gauge имеет толщину около 1/16 дюйма. Какой gauge примерно вдвое толще?"
+  },
+  "why": {
+   "en": "Twice 1/16\" is 1/8\" = 0.125\". Course rule: thickness doubles about every 6 gauge numbers, so 16 − 6 = 10 gauge. Check with the gauge table: 10 ga = 0.1345\" (0.0095 off), 12 ga = 0.1046\" (0.0204 off), so 10 ga is closer; 20 and 22 ga are thinner than 16, not thicker.",
+   "ru": "Вдвое больше 1/16\" — это 1/8\" = 0.125\". Правило курса: толщина удваивается примерно через 6 номеров, поэтому 16 − 6 = 10 gauge. Проверка по таблице: 10 ga = 0.1345\" (разница 0.0095), 12 ga = 0.1046\" (разница 0.0204), значит, 10 ga ближе; 20 и 22 ga тоньше, чем 16, а не толще."
+  },
+  "opts": [
+   {
+    "en": "10 Gauge",
+    "ru": "10 Gauge"
+   },
+   {
+    "en": "20 Gauge",
+    "ru": "20 Gauge"
+   },
+   {
+    "en": "12 Gauge",
+    "ru": "12 Gauge"
+   },
+   {
+    "en": "22 Gauge",
+    "ru": "22 Gauge"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-20",
+  "src": "MON",
+  "n": 20,
+  "topic": "transitions",
+  "q": {
+   "en": "What do the letters FOB mean that are written on a transition?",
+   "ru": "Что означают буквы FOB, написанные на transition?"
+  },
+  "why": {
+   "en": "On course sheet 2I Transition Terminology, FOB = flat on bottom: the BOTTOM (the face behind the TOP, away from the viewer) is not sloped; it stays perpendicular to the line of vision. FOT is the same for the TOP. Flat on back is a common mix-up; the course term is bottom.",
+   "ru": "По листу курса 2I Transition Terminology FOB = flat on bottom: BOTTOM (грань за TOP, дальняя от смотрящего) не наклонена, она перпендикулярна линии взгляда. FOT — то же для TOP. «Flat on back» — частая путаница, в курсе это bottom."
+  },
+  "opts": [
+   {
+    "en": "Flat on back",
+    "ru": "Flat on back (плоская задняя сторона)"
+   },
+   {
+    "en": "Front or back",
+    "ru": "Front or back (передняя или задняя)"
+   },
+   {
+    "en": "Flat on bottom",
+    "ru": "Flat on bottom (плоская нижняя сторона)"
+   },
+   {
+    "en": "Fold over back",
+    "ru": "Fold over back (загиб назад)"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-22",
+  "src": "MON",
+  "n": 22,
+  "topic": "materials",
+  "q": {
+   "en": "Sheet metal that is slit and stretched:",
+   "ru": "Листовой металл, который надрезают и растягивают:"
+  },
+  "why": {
+   "en": "Expanded metal is made by slitting a solid sheet and stretching it, which opens the slits into diamond-shaped holes without losing any metal. Perforated sheet has punched holes, and diamond plate and tread plate are solid sheets with a raised anti-slip pattern.",
+   "ru": "Expanded metal делают так: цельный лист надрезают и растягивают, и надрезы раскрываются в ромбовидные ячейки, металл при этом не теряется. У perforated отверстия пробиты, а diamond plate и tread plate — цельные листы с выпуклым рифлением против скольжения."
+  },
+  "opts": [
+   {
+    "en": "Perforated",
+    "ru": "Perforated"
+   },
+   {
+    "en": "Diamond plate",
+    "ru": "Diamond plate"
+   },
+   {
+    "en": "Expanded metal",
+    "ru": "Expanded metal"
+   },
+   {
+    "en": "Tread plate",
+    "ru": "Tread plate"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-25",
+  "src": "MON",
+  "n": 25,
+  "topic": "offsets",
+  "q": {
+   "en": "If necessary an OG offset could be accomplished by using two equal elbows.",
+   "ru": "При необходимости OG offset можно сделать из двух одинаковых elbows."
+  },
+  "why": {
+   "en": "Yes. The course's OG (ogee) offset is two equal radius elbows turned in opposite directions, with or without a straight piece between them: the first elbow turns the duct off its line, the second turns it back parallel, shifted by the offset.",
+   "ru": "Да. OG (ogee) offset в курсе — это два одинаковых radius elbow, повёрнутых в разные стороны, с прямым куском между ними или без него: первый elbow уводит duct с оси, второй возвращает его параллельно, со смещением на offset."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-26",
+  "src": "MON",
+  "n": 26,
+  "topic": "transitions",
+  "q": {
+   "en": "How many views are needed on a shop ticket to build a transition?",
+   "ru": "Сколько видов нужно на shop ticket, чтобы изготовить transition?"
+  },
+  "why": {
+   "en": "One. Per course sheet 2I a single labeled plan view is complete: it shows the end sizes, the slope of Left and Right, the TOP/BOTTOM note (FOT, FOB or TOP UP/DOWN with an arrow) and the net length, and the fourth side follows from those.",
+   "ru": "Один. По листу курса 2I одного подписанного plan достаточно: на нём размеры концов, наклон Left и Right, пометка TOP/BOTTOM (FOT, FOB или TOP UP/DOWN со стрелкой) и net length, а четвёртая сторона выводится из них."
+  },
+  "opts": [
+   {
+    "en": "1",
+    "ru": "1"
+   },
+   {
+    "en": "2",
+    "ru": "2"
+   },
+   {
+    "en": "3",
+    "ru": "3"
+   },
+   {
+    "en": "4",
+    "ru": "4"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-27",
+  "src": "MON",
+  "n": 27,
+  "topic": "materials",
+  "q": {
+   "en": "What type of sheet metal changes color with age?",
+   "ru": "Какой листовой металл меняет цвет со временем?"
+  },
+  "why": {
+   "en": "Copper weathers from bright to brown and then to the green patina seen on old copper roofs. Stainless keeps its color, and aluminum and galvanized only dull to gray.",
+   "ru": "Медь со временем из блестящей становится коричневой, а потом покрывается зелёной патиной, как старые медные крыши. Stainless сохраняет цвет, а aluminum и galvanized только тускнеют до серого."
+  },
+  "opts": [
+   {
+    "en": "Aluminum",
+    "ru": "Алюминий (aluminum)"
+   },
+   {
+    "en": "Copper",
+    "ru": "Медь (copper)"
+   },
+   {
+    "en": "Stainless",
+    "ru": "Нержавейка (stainless)"
+   },
+   {
+    "en": "Galvanized",
+    "ru": "Оцинковка (galvanized)"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-28",
+  "src": "MON",
+  "n": 28,
+  "topic": "math",
+  "q": {
+   "en": "2.543 + 128.14 – 16.968453 =",
+   "ru": "2.543 + 128.14 – 16.968453 ="
+  },
+  "why": {
+   "en": "Left to right: 2.543 + 128.14 = 130.683; 130.683 − 16.968453 = 113.714547 → 113.715 (3 places, rounded). Traps: 113.714 cuts off the digits instead of rounding, and 147.651 adds the last number instead of subtracting it.",
+   "ru": "Слева направо: 2.543 + 128.14 = 130.683; 130.683 − 16.968453 = 113.714547 → 113.715 (3 знака, с округлением). Ловушки: 113.714 — цифры отброшены, а не округлены; 147.651 — последнее число прибавили, а не вычли."
+  },
+  "opts": [
+   {
+    "en": "113.715",
+    "ru": "113.715"
+   },
+   {
+    "en": "147.652",
+    "ru": "147.652"
+   },
+   {
+    "en": "113.714",
+    "ru": "113.714"
+   },
+   {
+    "en": "147.651",
+    "ru": "147.651"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-29",
+  "src": "MON",
+  "n": 29,
+  "topic": "math",
+  "q": {
+   "en": "Express 68 inches in feet and decimals of a foot.",
+   "ru": "Выразите 68 дюймов в футах и десятичных долях фута."
+  },
+  "why": {
+   "en": "68 ÷ 12 = 5.6667 → 5.667' (rounded to 3 places). 5.666' cuts off instead of rounding; 5'-8\" is the same length but in feet and inches, not decimals of a foot.",
+   "ru": "68 ÷ 12 = 5.6667 → 5.667' (округление до 3 знаков). 5.666' — отброшено, а не округлено; 5'-8\" — та же длина, но в футах и дюймах, а спрашивают десятичные доли фута."
+  },
+  "opts": [
+   {
+    "en": "5.667'",
+    "ru": "5.667'"
+   },
+   {
+    "en": "5.666'",
+    "ru": "5.666'"
+   },
+   {
+    "en": "5'-8\"",
+    "ru": "5'-8\""
+   },
+   {
+    "en": "5'-6\"",
+    "ru": "5'-6\""
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-30",
+  "src": "MON",
+  "n": 30,
+  "topic": "math",
+  "q": {
+   "en": "7 steel joists are 6’- 8” apart center to center. The distance, center to center, between the two outside joists is 40'-0\"",
+   "ru": "7 стальных joists стоят через 6’- 8” по центрам. Расстояние по центрам между двумя крайними joists — 40'-0\""
+  },
+  "why": {
+   "en": "7 joists have 6 spaces between them: 6 × 6'-8\" = 6 × 80\" = 480\" = 40'-0\", so the statement is true. Trap: 7 × 80\" = 560\" = 46'-8\" counts one space too many.",
+   "ru": "Между 7 joists — 6 промежутков: 6 × 6'-8\" = 6 × 80\" = 480\" = 40'-0\", утверждение верно. Ловушка: 7 × 80\" = 560\" = 46'-8\" — лишний промежуток."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-31",
+  "src": "MON",
+  "n": 31,
+  "topic": "math",
+  "q": {
+   "en": "The area of a circle is given as 23.68 square feet. What is the area in square inches?",
+   "ru": "Площадь круга — 23.68 квадратных фута. Сколько это в квадратных дюймах?"
+  },
+  "why": {
+   "en": "1 sq. ft = 12 × 12 = 144 sq. in., so 23.68 × 144 = 3,409.92 sq. in. exactly. Traps: 1.97 and 1.973 divide by 12 instead of multiplying by 144, and 3,409.90 is off in the last digit.",
+   "ru": "1 sq. ft = 12 × 12 = 144 sq. in., поэтому 23.68 × 144 = 3,409.92 sq. in. ровно. Ловушки: 1.97 и 1.973 — разделили на 12 вместо умножения на 144, у 3,409.90 неверна последняя цифра."
+  },
+  "opts": [
+   {
+    "en": "1.97",
+    "ru": "1.97"
+   },
+   {
+    "en": "1.973",
+    "ru": "1.973"
+   },
+   {
+    "en": "3,409.90",
+    "ru": "3,409.90"
+   },
+   {
+    "en": "3,409.92",
+    "ru": "3,409.92"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-32",
+  "src": "MON",
+  "n": 32,
+  "topic": "math",
+  "q": {
+   "en": "What is the circumference of a circle with a 45” radius?",
+   "ru": "Какова длина окружности (circumference) круга радиусом 45”?"
+  },
+  "why": {
+   "en": "C = 2πR = 2 × π × 45 = 282.7433 → 282.743\". Traps: 141.372 is πR (half the circle), 141.38 is also about half, and 6361.725 is πR², the area.",
+   "ru": "C = 2πR = 2 × π × 45 = 282.7433 → 282.743\". Ловушки: 141.372 — это πR (половина окружности), 141.38 — тоже около половины, а 6361.725 — πR², площадь."
+  },
+  "opts": [
+   {
+    "en": "141.372\"",
+    "ru": "141.372\""
+   },
+   {
+    "en": "282.743\"",
+    "ru": "282.743\""
+   },
+   {
+    "en": "6361.725\"",
+    "ru": "6361.725\""
+   },
+   {
+    "en": "141.38\"",
+    "ru": "141.38\""
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-35",
+  "src": "MON",
+  "n": 35,
+  "topic": "math",
+  "q": {
+   "en": "A duct is to be 256 square inches. What are the dimensions of the sides of a square duct?",
+   "ru": "Сечение duct должно быть 256 квадратных дюймов. Какие стороны у квадратного duct?"
+  },
+  "why": {
+   "en": "A square duct has equal sides, so side = √256 = 16\" (16\" x 16\" = 256 sq. in.). Traps: 64 is 256 ÷ 4, 32 is 256 ÷ 8, and 1.777 is 256 ÷ 144 = 1.7778, a conversion to square feet.",
+   "ru": "У квадратного duct стороны равны: сторона = √256 = 16\" (16\" x 16\" = 256 sq. in.). Ловушки: 64 = 256 ÷ 4, 32 = 256 ÷ 8, а 1.777 = 256 ÷ 144 = 1.7778 — перевод в квадратные футы."
+  },
+  "opts": [
+   {
+    "en": "16\"",
+    "ru": "16\""
+   },
+   {
+    "en": "64\"",
+    "ru": "64\""
+   },
+   {
+    "en": "1.777\"",
+    "ru": "1.777\""
+   },
+   {
+    "en": "32\"",
+    "ru": "32\""
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-36",
+  "src": "MON",
+  "n": 36,
+  "topic": "math",
+  "q": {
+   "en": "What is the size of the radius on a 36” x 14” section of flat oval?",
+   "ru": "Какой радиус у секции flat oval 36” x 14”?"
+  },
+  "why": {
+   "en": "The round ends of a flat oval are half-circles whose diameter is the small dimension, so R = 14 ÷ 2 = 7\"; the flat part is 36 − 14 = 22\". Trap: 18\" is half of the large dimension.",
+   "ru": "Закругления flat oval — полукруги с диаметром, равным малой стороне, поэтому R = 14 ÷ 2 = 7\"; прямой участок — 36 − 14 = 22\". Ловушка: 18\" — половина большой стороны."
+  },
+  "opts": [
+   {
+    "en": "18\"",
+    "ru": "18\""
+   },
+   {
+    "en": "14\"",
+    "ru": "14\""
+   },
+   {
+    "en": "7\"",
+    "ru": "7\""
+   },
+   {
+    "en": "36\"",
+    "ru": "36\""
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-37",
+  "src": "MON",
+  "n": 37,
+  "topic": "drawing",
+  "q": {
+   "en": "When you are looking at a set of plans, the ductwork is labeled 36” x 16”. Are you looking at the 36” side or the 16” side?",
+   "ru": "Вы смотрите на чертежи (plans), duct подписан 36” x 16”. Вы видите сторону 36” или 16”?"
+  },
+  "why": {
+   "en": "The 36\" side. In a duct size A x B the first number is the side you see on that view (on a plan, the width) and the second is the depth away from you, so on the plan you are looking at the 36\" side.",
+   "ru": "Сторону 36\". В размере duct A x B первая цифра — сторона, видимая на этом виде (на plan это ширина), вторая — глубина от смотрящего, поэтому на plan вы видите сторону 36\"."
+  },
+  "opts": [
+   {
+    "en": "16\" side",
+    "ru": "Сторону 16\""
+   },
+   {
+    "en": "36\" side",
+    "ru": "Сторону 36\""
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-38",
+  "src": "MON",
+  "n": 38,
+  "topic": "math",
+  "q": {
+   "en": "How many cubic inches are there in a cubic foot?",
+   "ru": "Сколько кубических дюймов в кубическом футе?"
+  },
+  "why": {
+   "en": "1 cu. ft = 12 × 12 × 12 = 1728 cu. in. Traps: 144 (= 12 x 12) is square inches in a square foot, and 231 is cubic inches in one US gallon.",
+   "ru": "1 cu. ft = 12 × 12 × 12 = 1728 cu. in. Ловушки: 144 (= 12 x 12) — квадратные дюймы в квадратном футе, а 231 — кубические дюймы в одном US gallon."
+  },
+  "opts": [
+   {
+    "en": "1728",
+    "ru": "1728"
+   },
+   {
+    "en": "144",
+    "ru": "144"
+   },
+   {
+    "en": "231",
+    "ru": "231"
+   },
+   {
+    "en": "12 x 12",
+    "ru": "12 x 12"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "MON-39",
+  "src": "MON",
+  "n": 39,
+  "topic": "math",
+  "q": {
+   "en": "How cubic inches are there in 2.5 gallons?",
+   "ru": "Сколько кубических дюймов в 2.5 галлонах?"
+  },
+  "why": {
+   "en": "One US gallon = 231 cu. in., so 2.5 × 231 = 577.5 cu. in. Traps: 462 is 2 gallons, 231 is one gallon, and sq. in. is an area unit.",
+   "ru": "Один US gallon = 231 cu. in., поэтому 2.5 × 231 = 577.5 cu. in. Ловушки: 462 — это 2 галлона, 231 — один галлон, а sq. in. — единица площади."
+  },
+  "opts": [
+   {
+    "en": "462 cu. in.",
+    "ru": "462 cu. in."
+   },
+   {
+    "en": "231 cu. in.",
+    "ru": "231 cu. in."
+   },
+   {
+    "en": "577.5 cu. in.",
+    "ru": "577.5 cu. in."
+   },
+   {
+    "en": "231 sq. in.",
+    "ru": "231 sq. in."
+   }
+  ],
+  "answer": [
+   2
   ],
   "type": "single"
  }

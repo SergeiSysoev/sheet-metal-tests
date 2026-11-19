@@ -11,13 +11,14 @@ TESTS = {
     'SMY1W3': 'msg_997_Monday_Review_Test_Print_ready__3__SMY1W4__1_.pdf',
 }
 QRE = re.compile(r'^(\d{1,2})\.\s+(.*)')
-ORE = re.compile(r'^([a-h])\.\s*(.*)')
+ORE = re.compile(r'^([a-l])\.\s*(.*)')
 
 def parse(path):
     d = pdfium.PdfDocument(str(path))
     items, cur, last = [], None, None
     for pi in range(len(d)):
-        for raw in d[pi].get_textpage().get_text_range().splitlines():
+        text = d[pi].get_textpage().get_text_range()
+        for raw in text.splitlines():
             line = raw.strip()
             if not line:
                 continue

@@ -121,7 +121,8 @@ button{font-family:inherit}
 /* end */
 .endcard{text-align:center;padding:var(--s8) 0 var(--s6)}
 .endhead{font-weight:700;font-size:26px;margin:0 0 var(--s2)}
-.endline{color:var(--muted);margin:0 0 var(--s6)}
+.endline{color:var(--muted);margin:0 0 var(--s2)}
+.endline2{color:var(--muted);margin:0 0 var(--s6)}
 .endbtns{display:flex;flex-direction:column;gap:var(--s3);max-width:360px;margin-inline:auto}
 .btn2{appearance:none;width:100%;height:50px;border-radius:12px;background:var(--surface);color:var(--primary);border:1.5px solid var(--border);font-size:16px;font-weight:600;cursor:pointer}
 .btn2:hover{border-color:var(--primary)}
@@ -175,7 +176,7 @@ button{font-family:inherit}
     <div class="actionzone">
       <button class="nextbtn" type="button" id="checkbtn" hidden></button>
       <button class="nextbtn" type="button" id="nextbtn" hidden></button>
-      <button class="linkbtn" type="button" id="quitbtn"></button>
+      <button class="btn2" type="button" id="finishbtn"></button>
     </div>
   </section>
 
@@ -183,7 +184,9 @@ button{font-family:inherit}
     <div class="endcard">
       <h2 class="endhead" id="endhead"></h2>
       <p class="endline" id="endline"></p>
+      <p class="endline2" id="endline2"></p>
       <div class="endbtns">
+        <button class="nextbtn" type="button" id="continuebtn"></button>
         <button class="nextbtn" type="button" id="reviewbtn"></button>
         <button class="btn2" type="button" id="againbtn"></button>
         <button class="btn2" type="button" id="endhome"></button>
@@ -193,11 +196,11 @@ button{font-family:inherit}
   <div class="sronly" id="live" aria-live="polite" role="status"></div>
 </main>
 
-<script src="questions.js?v=1"></script>
+<script src="questions.js?v=3"></script>
 <script>
 (function(){
   "use strict";
-  var LET="ABCDEFGH", SET_SIZE=25, PASS=70;
+  var LET="ABCDEFGH", PASS=70;
   var byId={}; QUESTIONS.forEach(function(q,i){ byId[q.id]=i; });
   var st={view:"home", lang:"en", theme:"light", order:[], pos:0, answered:false, picked:[], typed:"", right:false,
           score:0, done:0, missed:[], mode:null};
@@ -221,34 +224,15 @@ button{font-family:inherit}
 
   // ---- dealing ----
   function poolBy(fn){ var r=[]; QUESTIONS.forEach(function(q,i){ if(fn(q)) r.push(i); }); return r; }
-  function dealMixed(){
-    // proportional to topic size; per-topic bags so nothing repeats until a topic is used up
-    var bags=load("bags",{}), topics={}, picked=[];
-    QUESTIONS.forEach(function(q,i){ (topics[q.topic]=topics[q.topic]||[]).push(i); });
-    var n=Math.min(SET_SIZE,QUESTIONS.length), keys=Object.keys(topics), quota={}, given=0;
-    keys.forEach(function(k){ quota[k]=Math.floor(n*topics[k].length/QUESTIONS.length); given+=quota[k]; });
-    shuffle(keys).sort(function(a,b){ return (n*topics[b].length/QUESTIONS.length%1)-(n*topics[a].length/QUESTIONS.length%1); })
-      .forEach(function(k){ if(given<n){ quota[k]++; given++; } });
-    keys.forEach(function(k){
-      var pool=topics[k], set={}; pool.forEach(function(i){ set[i]=1; });
-      var bag=(bags[k]||[]).map(function(id){ return byId[id]; }).filter(function(i){ return set[i]===1; });
-      if(bag.length<quota[k]){ var seen={}; bag.forEach(function(i){ seen[i]=1; }); shuffle(pool).forEach(function(i){ if(!seen[i]) bag.push(i); }); }
-      picked=picked.concat(bag.slice(0,quota[k]));
-      bags[k]=bag.slice(quota[k]).map(function(i){ return QUESTIONS[i].id; });
-    });
-    store("bags",bags);
-    return shuffle(picked.filter(function(v,i,a){ return a.indexOf(v)===i; }));
-  }
   function start(mode,arg){
     var order;
-    if(mode==="mixed") order=dealMixed();
-    else if(mode==="all") order=shuffle(poolBy(function(){ return true; }));
+    if(mode==="all") order=shuffle(poolBy(function(){ return true; }));
     else if(mode==="topic") order=shuffle(poolBy(function(q){ return q.topic===arg; }));
     else if(mode==="test") order=poolBy(function(q){ return q.src===arg; }).sort(function(a,b){ return QUESTIONS[a].n-QUESTIONS[b].n; });
     else if(mode==="mistakes") order=shuffle(mistakes().map(function(id){ return byId[id]; }));
     else if(mode==="review") order=arg;
     if(!order || !order.length) return;
-    st.mode={m:mode,a:arg}; st.order=order; st.pos=0; st.score=0; st.done=0; st.missed=[];
+    st.mode={m:mode,a:arg}; st.order=order; st.pos=0; st.score=0; st.done=0; st.missed=[]; st.finished=false;
     resetQ(); st.view="quiz"; render(); window.scrollTo({top:0});
   }
   function resetQ(){ st.answered=false; st.picked=[]; st.typed=""; st.right=false; }
@@ -273,8 +257,7 @@ button{font-family:inherit}
     var a=document.createElement("a"); a.href="/"; a.textContent=t("more_tools");
     $("h-foot").appendChild(document.createTextNode(t("footer")+" ")); $("h-foot").appendChild(a);
     var mm=$("modes-main"); mm.innerHTML="";
-    mm.appendChild(modeBtn(t("mode_mixed",{N:Math.min(SET_SIZE,QUESTIONS.length)}),t("mode_mixed_sub"),null,function(){ start("mixed"); },true));
-    mm.appendChild(modeBtn(t("mode_all"),t("mode_all_sub"),QUESTIONS.length,function(){ start("all"); }));
+    mm.appendChild(modeBtn(t("mode_all"),t("mode_all_sub"),QUESTIONS.length,function(){ start("all"); },true));
     var mk=mistakes().length;
     mm.appendChild(modeBtn(t("mode_mistakes"),mk?t("mode_mistakes_sub"):t("mode_mistakes_empty"),mk,function(){ start("mistakes"); },false,!mk));
     var mt=$("modes-topic"); mt.innerHTML="";
@@ -292,6 +275,9 @@ button{font-family:inherit}
   // ---- quiz ----
   function chosenSet(q){ return q.type==="input" ? null : st.picked.slice().sort(); }
   function isRight(q){
+    if(q.type==="input" && q.answer.accept){
+      var w=String(st.typed).toLowerCase(); return q.answer.accept.some(function(a){ return w.indexOf(a)>=0; });
+    }
     if(q.type==="input"){
       var v=parseFloat(String(st.typed).replace(/[$,\s]/g,"")); return !isNaN(v) && Math.abs(v-q.answer.value)<=q.answer.tol;
     }
@@ -314,10 +300,11 @@ button{font-family:inherit}
     if(isMulti(q)){ var i=st.picked.indexOf(idx); if(i<0) st.picked.push(idx); else st.picked.splice(i,1); render(); }
     else { st.picked=[idx]; submit(); }
   }
+  function finish(){ if(!st.done) return; st.finished=true; render(); window.scrollTo({top:0}); }
   function next(){ if(!st.answered) return; st.pos++; resetQ(); render(); if(st.pos<st.order.length){ window.scrollTo({top:0}); $("question").focus(); } }
 
   function renderQuiz(){
-    if(st.pos>=st.order.length){ renderEnd(); return; }
+    if(st.finished || st.pos>=st.order.length){ renderEnd(); return; }
     $("quizarea").hidden=false; $("endarea").hidden=true;
     var q=cur(), n=st.pos+1, total=st.order.length;
     $("counter").textContent=n+"/"+total;
@@ -337,7 +324,8 @@ button{font-family:inherit}
     if(q.type==="input"){
       $("prompt").textContent=st.answered?"":t("type_prompt");
       $("inpre").textContent=q.answer.prefix||"";
-      var ib=$("inbox"); if(!st.answered){ ib.disabled=false; ib.className=""; if(document.activeElement!==ib) ib.value=st.typed; }
+      var ib=$("inbox"); ib.inputMode=q.answer.accept?"text":"decimal";
+      if(!st.answered){ ib.disabled=false; ib.className=""; if(document.activeElement!==ib) ib.value=st.typed; }
       else { ib.disabled=true; ib.value=st.typed; ib.className=st.right?"ok":"bad"; }
     } else {
       var multi=isMulti(q);
@@ -374,17 +362,21 @@ button{font-family:inherit}
     var needCheck=!st.answered && (q.type==="input" || isMulti(q));
     $("checkbtn").hidden=!needCheck; $("checkbtn").textContent=t("check");
     $("checkbtn").disabled = needCheck && q.type!=="input" && !st.picked.length;
-    $("nextbtn").hidden=!st.answered; $("nextbtn").textContent=(st.pos===st.order.length-1)?t("finish"):t("next");
-    $("quitbtn").textContent=t("to_home");
+    $("nextbtn").hidden=!st.answered; $("nextbtn").textContent=(st.pos===st.order.length-1)?t("finish_test"):t("next");
+    $("finishbtn").textContent=t("finish_test"); $("finishbtn").disabled=!st.done;
   }
   function renderEnd(){
     $("quizarea").hidden=true; $("endarea").hidden=false;
-    var total=st.order.length, pct=total?Math.round(st.score/total*100):0;
-    $("railfill").style.width="100%"; $("counter").textContent=total+"/"+total;
+    var total=st.order.length, done=st.done, pct=done?Math.round(st.score/done*100):0;
+    var left=total-Math.min(total, st.pos + (st.answered?1:0));
+    $("railfill").style.width=(total?Math.min(100,done/total*100):0)+"%"; $("counter").textContent=done+"/"+total;
     $("tally").textContent=pct+"%"; $("tally").classList.toggle("pass",pct>=PASS);
-    $("endhead").textContent=t("end_head",{S:st.score,T:total,P:pct});
-    $("endline").textContent=st.missed.length?t("end_line_missed",{N:st.missed.length}):t("end_line_perfect");
+    $("endhead").textContent=t("end_head",{S:st.score,D:done,P:pct});
+    $("endline").textContent=t("end_answered",{D:done,T:total});
+    $("endline2").textContent=st.missed.length?t("end_line_missed",{N:st.missed.length}):t("end_line_perfect");
+    var cb=$("continuebtn"); cb.hidden=!left; cb.textContent=t("continue_test",{N:left});
     var rb=$("reviewbtn"); rb.hidden=!st.missed.length; rb.textContent=t("review_missed",{N:st.missed.length});
+    rb.className=left?"btn2":"nextbtn";
     $("againbtn").textContent=t("again"); $("endhome").textContent=t("to_home");
   }
   function render(){
@@ -406,7 +398,8 @@ button{font-family:inherit}
   $("seg-ru").addEventListener("click",function(){ setLang("ru"); });
   $("themebtn").addEventListener("click",function(){ st.theme=st.theme==="dark"?"light":"dark"; document.documentElement.setAttribute("data-theme",st.theme); try{ localStorage.setItem("smt_theme",st.theme); }catch(e){} });
   $("homebtn").addEventListener("click",goHome);
-  $("quitbtn").addEventListener("click",goHome);
+  $("finishbtn").addEventListener("click",finish);
+  $("continuebtn").addEventListener("click",function(){ st.finished=false; if(st.answered) next(); else render(); window.scrollTo({top:0}); });
   $("endhome").addEventListener("click",goHome);
   $("checkbtn").addEventListener("click",submit);
   $("nextbtn").addEventListener("click",next);

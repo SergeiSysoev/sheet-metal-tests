@@ -27,6 +27,9 @@ SOURCES = {
     'FRI': {'name': {'en': 'SMY2W2 Friday Written — Math / Welding', 'ru': 'SMY2W2 Friday Written — математика / сварка'},
             'sub': {'en': "Last year's Friday test: only the questions not already in Welding & Layout", 'ru': 'Пятничный тест прошлого года: только вопросы, которых нет в Welding & Layout'},
             'short': {'en': 'Friday Written', 'ru': 'Friday Written'}},
+    'MON': {'name': {'en': 'SMY2W2 Monday Written', 'ru': 'SMY2W2 Monday Written'},
+            'sub': {'en': "Last year's Monday test: questions not already in the tests above", 'ru': 'Тест понедельника прошлого года: вопросы, которых нет в тестах выше'},
+            'short': {'en': 'Monday Written', 'ru': 'Monday Written'}},
     'TRI': {'name': {'en': 'SMY2W2 Triangulation quiz', 'ru': 'SMY2W2 Triangulation'},
             'sub': {'en': 'TotalTrack homework quiz, official key', 'ru': 'Домашний квиз TotalTrack, официальный ключ'},
             'short': {'en': 'Triangulation', 'ru': 'Triangulation'}},
@@ -44,10 +47,11 @@ UI = {
                 'ru': '{N} вопросов из письменных тестов sheet metal apprenticeship. Вопросы и варианты — слово в слово как на тестах, у каждого ответа есть пояснение, чертежи перерисованы. В русском режиме под переводом показан английский оригинал — так на тесте вопрос узнаётся сразу.'},
     'home_note': {'en': 'Study material, not an official answer key. Answers follow the course key; where a key answer is debatable, the explanation says so. More tests are being added.',
                   'ru': 'Это учебный материал, а не официальный ключ. Ответы — по ключу курса; где ответ ключа спорный, это сказано в пояснении. Новые тесты добавляются.'},
-    'mode_mixed': {'en': 'Practice set — {N} questions', 'ru': 'Тренировка — {N} вопросов'},
-    'mode_mixed_sub': {'en': 'Random mix of all topics, no repeats until a topic is used up', 'ru': 'Вперемешку из всех тем, без повторов, пока тема не пройдена'},
-    'mode_all': {'en': 'All questions', 'ru': 'Все вопросы'},
-    'mode_all_sub': {'en': 'The whole bank in random order', 'ru': 'Вся база в случайном порядке'},
+    'mode_all': {'en': 'Start the test — all questions', 'ru': 'Начать тест — все вопросы'},
+    'mode_all_sub': {'en': 'Random order. Answer as many as you like, then finish and see your result', 'ru': 'Вперемешку. Отвечай сколько хочешь, потом заверши тест и посмотри результат'},
+    'finish_test': {'en': 'Finish test and show results', 'ru': 'Завершить тест и показать результат'},
+    'continue_test': {'en': 'Continue the test ({N} left)', 'ru': 'Продолжить тест (осталось {N})'},
+    'end_answered': {'en': 'Answered {D} of {T} questions.', 'ru': 'Отвечено {D} из {T} вопросов.'},
     'mode_mistakes': {'en': 'My mistakes', 'ru': 'Мои ошибки'},
     'mode_mistakes_sub': {'en': 'A question leaves this list once you answer it right', 'ru': 'Вопрос уходит из списка, когда ответишь на него верно'},
     'mode_mistakes_empty': {'en': 'Wrong answers collect here', 'ru': 'Сюда собираются вопросы, где ты ошибся'},
@@ -69,11 +73,11 @@ UI = {
     'incorrect': {'en': 'Not quite', 'ru': 'Неверно'},
     'answer_is': {'en': 'answer:', 'ru': 'ответ:'},
     'theme': {'en': 'Light / dark theme', 'ru': 'Светлая / тёмная тема'},
-    'end_head': {'en': '{S} of {T} — {P}%', 'ru': '{S} из {T} — {P}%'},
-    'end_line_missed': {'en': '{N} to review. They are saved in “My mistakes”.', 'ru': 'Ошибок: {N}. Они сохранены в «Мои ошибки».'},
+    'end_head': {'en': '{S} of {D} right — {P}%', 'ru': 'Верно {S} из {D} — {P}%'},
+    'end_line_missed': {'en': 'Mistakes: {N}. They are saved in “My mistakes”.', 'ru': 'Ошибок: {N}. Они сохранены в «Мои ошибки».'},
     'end_line_perfect': {'en': 'No mistakes. Nice work.', 'ru': 'Без ошибок.'},
     'review_missed': {'en': 'Redo the {N} missed', 'ru': 'Перерешать ошибки ({N})'},
-    'again': {'en': 'New set', 'ru': 'Новый набор'},
+    'again': {'en': 'Start over', 'ru': 'Начать заново'},
 }
 
 
@@ -96,6 +100,8 @@ def main():
             k = (b['src'], b['n'])
             c = content.get(k)
             if not c:
+                if '--skip-no-content' in sys.argv:
+                    held.append(f'{b["src"]}-{b["n"]}'); continue
                 problems.append(f'{k}: no content'); continue
             qid = f"{b['src']}-{b['n']}"
             if c['topic'] not in TOPICS:
@@ -105,7 +111,9 @@ def main():
                     'why': {'en': c['why_en'], 'ru': c['why_ru']}}
             if b.get('hint'):
                 item['hint'] = {'en': b['hint'], 'ru': HINT_RU[b['hint']]}
-            if b.get('kind') == 'input':
+            if b.get('kind') == 'text':
+                item.update(type='input', answer={'accept': b['accept'], 'text': b['answer_text'], 'prefix': ''})
+            elif b.get('kind') == 'input':
                 v = float(b['input_answer'])
                 item.update(type='input', answer={'value': v, 'tol': 0.005, 'prefix': b.get('input_unit', ''), 'text': b['input_answer']})
             else:
