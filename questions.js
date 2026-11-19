@@ -20,6 +20,10 @@ const TOPICS = {
   "en": "Safety",
   "ru": "Безопасность"
  },
+ "dampers": {
+  "en": "Fire & smoke dampers",
+  "ru": "Fire & smoke dampers"
+ },
  "trade": {
   "en": "Trade, union & conduct",
   "ru": "Профессия, профсоюз и поведение"

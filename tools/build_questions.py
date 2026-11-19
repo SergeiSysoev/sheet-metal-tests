@@ -55,11 +55,14 @@ GROUPS = {
     'layout':  {'en': 'Drawings, layout & fittings',     'ru': 'Чертежи, layout и fittings'},
     'shop':    {'en': 'Metals, tools & machines',        'ru': 'Металлы, инструменты и станки'},
     'safety':  {'en': 'Safety',                          'ru': 'Безопасность'},
+    'dampers': {'en': 'Fire & smoke dampers',            'ru': 'Fire & smoke dampers'},
     'trade':   {'en': 'Trade, union & conduct',          'ru': 'Профессия, профсоюз и поведение'},
 }
 GROUP_OF = {'welding': 'welding', 'weldsym': 'welding', 'math': 'math', 'trig': 'math',
             'drawing': 'layout', 'transitions': 'layout', 'offsets': 'layout', 'fittings': 'layout',
-            'materials': 'shop', 'tools': 'shop', 'safety': 'safety', 'trade': 'trade'}
+            'materials': 'shop', 'tools': 'shop', 'safety': 'safety', 'trade': 'trade', 'dampers': 'dampers'}
+# Fire & smoke dampers are their own topic (owner, 2026-11-19): the whole FSD course, plus damper questions in any test.
+DAMPER_RE = re.compile(r'\bdampers?\b|fusible link|UL ?555|smoke detector', re.I)
 SRC_ORDER = ['T90', 'FRI', 'MON', 'TRI', 'Y2W3M', 'Y2W3F', 'Y2W4M', 'Y2W4F', 'Y2W5M', 'Y2W5Y', 'Y1W3', 'Y1W5M', 'Y1W5F',
              'APR', 'BRZ', 'FSD', 'FIN5']
 SOURCES = {k: SOURCES[k] for k in SRC_ORDER + [k for k in SOURCES if k not in SRC_ORDER]}
@@ -121,6 +124,9 @@ def main():
     out, problems, held = [], [], []
     for base_path in sorted(D.glob('*_base.json'), key=lambda p: (not p.name.startswith('part'), p.name)):
         part = base_path.name[:-len('_base.json')]
+        excl = [a.split('=', 1)[1].split(',') for a in sys.argv if a.startswith('--exclude=')]
+        if excl and part in excl[0]:
+            continue
         base = json.loads(base_path.read_text())
         content = {}
         for cp in sorted(D.glob(f'{part}_content_*.json')):
@@ -138,7 +144,10 @@ def main():
                 problems.append(f'{qid}: source {b["src"]} not in SOURCES')
             if c['topic'] not in TOPICS:
                 problems.append(f'{qid}: bad topic {c["topic"]}')
-            item = {'id': qid, 'src': b['src'], 'n': b['n'], 'topic': GROUP_OF.get(c['topic'], c['topic']),
+            grp = GROUP_OF.get(c['topic'], c['topic'])
+            if b['src'] == 'FSD' or DAMPER_RE.search(b['q'] + ' ' + ' '.join(b.get('opts') or [])):
+                grp = 'dampers'
+            item = {'id': qid, 'src': b['src'], 'n': b['n'], 'topic': grp,
                     'q': {'en': b['q'], 'ru': c['ru_q']},
                     'why': {'en': c['why_en'], 'ru': c['why_ru']}}
             if b.get('hint'):

@@ -45,7 +45,7 @@ your report.
 {"src": "CODE", "n": 12, "topic": "<id>", "ru_q": "...", "ru_hint": null | "...", "ru_opts": [...] | null,
  "why_en": "...", "why_ru": "...", "flag": null | "note for the editor"}
 ```
-Topic ids: welding, weldsym, safety, materials, math, trig, drawing, transitions, offsets, fittings, tools, trade
+Topic ids: welding, weldsym, safety, materials, math, trig, drawing, transitions, offsets, fittings, tools, dampers, trade
 (see tools/CONTENT-BRIEF.md for what each covers, and for the Russian/explanation writing rules — follow them exactly).
 
 ## 4. Duplicates

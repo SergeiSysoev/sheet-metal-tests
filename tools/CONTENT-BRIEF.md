@@ -38,7 +38,7 @@ symbols), `safety` (OSHA, WISHA, SDS, hazards, PPE, ladders, first aid, gas cyli
 properties), `math` (fractions, decimals, ft-in, area, volume, gallons, percent, money), `trig` (right triangles,
 angles, diagonals), `drawing` (views, scales, lines, reading prints), `transitions`, `offsets` (offsets, elbows,
 ogee, trim joints, rise/run of duct systems), `fittings` (seams, connections, S&D, takeoffs, end caps, allowances),
-`tools` (shears, brakes, machines, hand tools), `trade` (conduct, customer policy, union, jobsite rules).
+`tools` (shears, brakes, machines, hand tools), `dampers` (fire, smoke and combination dampers, FSD inspection and testing), `trade` (conduct, customer policy, union, jobsite rules).
 
 ## Writing rules
 - **Russian (`ru_q`, `ru_opts`, `why_ru`)**: plain natural Russian. Trade and technical terms stay in English, never
