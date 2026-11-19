@@ -70,7 +70,7 @@ const SOURCES = {
    "ru": "SMY2W2 Friday Written — математика / сварка"
   },
   "sub": {
-   "en": "Last year's Friday test: only the questions not already in Welding & Layout",
+   "en": "Last year's Friday test: questions not already in Welding & Layout",
    "ru": "Пятничный тест прошлого года: только вопросы, которых нет в Welding & Layout"
   },
   "short": {
@@ -104,6 +104,188 @@ const SOURCES = {
   "short": {
    "en": "Triangulation",
    "ru": "Triangulation"
+  }
+ },
+ "Y2W3M": {
+  "name": {
+   "en": "SMY2W3 Monday Written Review",
+   "ru": "SMY2W3 Monday Written Review"
+  },
+  "sub": {
+   "en": "2nd year, week 3",
+   "ru": "2-й год, неделя 3"
+  },
+  "short": {
+   "en": "SMY2W3 Monday",
+   "ru": "SMY2W3 Monday"
+  }
+ },
+ "Y2W3F": {
+  "name": {
+   "en": "SMY2W3 Friday Written",
+   "ru": "SMY2W3 Friday Written"
+  },
+  "sub": {
+   "en": "2nd year, week 3",
+   "ru": "2-й год, неделя 3"
+  },
+  "short": {
+   "en": "SMY2W3 Friday",
+   "ru": "SMY2W3 Friday"
+  }
+ },
+ "Y2W4M": {
+  "name": {
+   "en": "SMY2W4 Fitting Review — Monday Written",
+   "ru": "SMY2W4 Fitting Review — Monday Written"
+  },
+  "sub": {
+   "en": "2nd year, week 4",
+   "ru": "2-й год, неделя 4"
+  },
+  "short": {
+   "en": "SMY2W4 Monday",
+   "ru": "SMY2W4 Monday"
+  }
+ },
+ "Y2W4F": {
+  "name": {
+   "en": "SMY2W4 Friday Written/Math",
+   "ru": "SMY2W4 Friday Written/Math"
+  },
+  "sub": {
+   "en": "2nd year, week 4",
+   "ru": "2-й год, неделя 4"
+  },
+  "short": {
+   "en": "SMY2W4 Friday",
+   "ru": "SMY2W4 Friday"
+  }
+ },
+ "Y2W5M": {
+  "name": {
+   "en": "SMY2W5 Intro to Arch Metals — Monday Written Review",
+   "ru": "SMY2W5 Intro to Arch Metals — Monday Written Review"
+  },
+  "sub": {
+   "en": "2nd year, week 5",
+   "ru": "2-й год, неделя 5"
+  },
+  "short": {
+   "en": "SMY2W5 Monday",
+   "ru": "SMY2W5 Monday"
+  }
+ },
+ "Y2W5Y": {
+  "name": {
+   "en": "SMY2W5 Year End Cumulative Written Exam",
+   "ru": "SMY2W5 Year End Cumulative Written Exam"
+  },
+  "sub": {
+   "en": "2nd year, end of year",
+   "ru": "2-й год, итоговый экзамен года"
+  },
+  "short": {
+   "en": "Year End",
+   "ru": "Year End"
+  }
+ },
+ "Y1W3": {
+  "name": {
+   "en": "SMY1W3 Monday Review = Trade Intro Final",
+   "ru": "SMY1W3 Monday Review = Trade Intro Final"
+  },
+  "sub": {
+   "en": "1st year: trade intro, shop standards, math",
+   "ru": "1-й год: введение в профессию, shop standards, математика"
+  },
+  "short": {
+   "en": "SMY1W3 Monday",
+   "ru": "SMY1W3 Monday"
+  }
+ },
+ "Y1W5M": {
+  "name": {
+   "en": "SMY1W5 Monday Written/Math — Ortho & Ogee Offsets",
+   "ru": "SMY1W5 Monday Written/Math — Ortho & Ogee Offsets"
+  },
+  "sub": {
+   "en": "1st year Monday test",
+   "ru": "Тест понедельника 1-го года"
+  },
+  "short": {
+   "en": "SMY1W5 Monday",
+   "ru": "SMY1W5 Monday"
+  }
+ },
+ "Y1W5F": {
+  "name": {
+   "en": "SMY1W5 Friday Written — Ortho & Ogee",
+   "ru": "SMY1W5 Friday Written — Ortho & Ogee"
+  },
+  "sub": {
+   "en": "1st year Friday test",
+   "ru": "Пятничный тест 1-го года"
+  },
+  "short": {
+   "en": "SMY1W5 Friday",
+   "ru": "SMY1W5 Friday"
+  }
+ },
+ "APR": {
+  "name": {
+   "en": "Written test (April)",
+   "ru": "Письменный тест (апрель)"
+  },
+  "sub": {
+   "en": "Shop standards, tools, math",
+   "ru": "Shop standards, инструменты, математика"
+  },
+  "short": {
+   "en": "April test",
+   "ru": "April test"
+  }
+ },
+ "BRZ": {
+  "name": {
+   "en": "SMY1W3 Friday — Brazing & Soldering",
+   "ru": "SMY1W3 Friday — brazing и soldering"
+  },
+  "sub": {
+   "en": "TotalTrack, official key",
+   "ru": "TotalTrack, официальный ключ"
+  },
+  "short": {
+   "en": "Brazing",
+   "ru": "Brazing"
+  }
+ },
+ "FSD": {
+  "name": {
+   "en": "Fire & Smoke Damper Technician (FSD units 1–6)",
+   "ru": "Fire & Smoke Damper Technician (FSD, части 1–6)"
+  },
+  "sub": {
+   "en": "TotalTrack, official key",
+   "ru": "TotalTrack, официальный ключ"
+  },
+  "short": {
+   "en": "FSD",
+   "ru": "FSD"
+  }
+ },
+ "FIN5": {
+  "name": {
+   "en": "005 Final Written Test",
+   "ru": "005 Final Written Test"
+  },
+  "sub": {
+   "en": "Final written test",
+   "ru": "Итоговый письменный тест"
+  },
+  "short": {
+   "en": "005 Final",
+   "ru": "005 Final"
   }
  }
 };
@@ -179,6 +361,10 @@ const UI = {
  "original": {
   "en": "Original",
   "ru": "Оригинал"
+ },
+ "tap_to_enlarge": {
+  "en": "Tap the drawing to open it full size",
+  "ru": "Нажми на чертёж, чтобы открыть его крупно"
  },
  "figure_alt": {
   "en": "Drawing for the question",
@@ -1181,8 +1367,8 @@ const QUESTIONS = [
    "ru": "Правильный угол bevel одной детали под «V» groove weld — ____."
   },
   "why": {
-   "en": "A standard single-V groove (AWS D1.1 prequalified joint B-U2) has a 60° included angle shared by two plates, so each plate is beveled 60° ÷ 2 = 30°. 22.5° per plate (45° groove) is a special prequalified joint used only with steel backing and a 1/4\" root opening (B-U2a), so it is not the general answer.",
-   "ru": "Стандартный single-V groove (prequalified соединение AWS D1.1 B-U2) — разделка 60° на две детали, значит, каждая скашивается на 60° ÷ 2 = 30°. 22.5° на деталь (разделка 45°) — частный случай только с подкладкой (backing) и зазором 1/4\" (B-U2a), поэтому общим ответом он не является."
+   "en": "A standard single-V groove (AWS D1.1 prequalified joint B-U2) has a 60° included angle shared by two plates, so each plate is beveled 60° ÷ 2 = 30°. 22.5° per plate (45° groove) is a special prequalified joint used only with steel backing and a 1/4\" root opening (B-U2a), so it is not the general answer. On the graded sheet the instructor wrote \"more correct\" next to 22.5°, but 30° was credited.",
+   "ru": "Стандартный single-V groove (prequalified соединение AWS D1.1 B-U2) — разделка 60° на две детали, значит, каждая скашивается на 60° ÷ 2 = 30°. 22.5° на деталь (разделка 45°) — частный случай только с подкладкой (backing) и зазором 1/4\" (B-U2a), поэтому общим ответом он не является. На проверенном листе инструктор написал «more correct» у 22.5°, но засчитал 30°."
   },
   "opts": [
    {
@@ -1260,19 +1446,19 @@ const QUESTIONS = [
   "opts": [
    {
     "en": "Hardness",
-    "ru": "Hardness (твёрдость)"
+    "ru": "Hardness"
    },
    {
     "en": "Ductility",
-    "ru": "Ductility (пластичность)"
+    "ru": "Ductility"
    },
    {
     "en": "Yield strength",
-    "ru": "Yield strength (предел текучести)"
+    "ru": "Yield strength"
    },
    {
     "en": "Tensile strength",
-    "ru": "Tensile strength (предел прочности)"
+    "ru": "Tensile strength"
    }
   ],
   "answer": [
@@ -2154,8 +2340,8 @@ const QUESTIONS = [
   "n": 53,
   "topic": "trig",
   "q": {
-   "en": "You're tasked to set up an extension ladder on a 12' high wall. Following OSHA's regulations and standards for setting up a portable ladder, what is the minimum distance you need to extend the ladder to comply with OSHA's standards? Round answer off to the nearest inch. 1926.1053(b)(1): side rails shall extend at least 3 feet above the upper landing surface. 1926.1053(b)(5)(i): the horizontal distance from the top support to the foot of the ladder is approximately one quarter of the working length of the ladder.",
-   "ru": "Нужно поставить extension ladder к стене высотой 12'. По правилам и стандартам OSHA для переносных лестниц: на какую минимальную длину нужно выдвинуть лестницу, чтобы соблюсти стандарты OSHA? Ответ округлить до ближайшего дюйма. 1926.1053(b)(1): боковины лестницы (side rails) должны выступать минимум на 3 фута над верхней площадкой. 1926.1053(b)(5)(i): расстояние по горизонтали от верхней опоры до основания лестницы — примерно четверть рабочей длины лестницы."
+   "en": "You're tasked to set up an extension ladder on a 12' high wall. Following Osha's regulations and standards (see below) for setting up a portable ladder. What is the minimum distance you need to extend the ladder to comply with OSHA's standards? Round answer off to the nearest inch. 1926.1053(b)(1) When portable ladders are used for access to an upper landing surface, the ladder side rails shall extend at least 3 feet (.9 m) above the upper landing surface to which the ladder is used to gain access. 1926.1053(b) (5)(i) Non-self-supporting ladders shall be used at an angle such that the horizontal distance from the top support to the foot of the ladder is approximately one quarter of the working length of the ladder (the distance along the ladder between the foot and the top support).",
+   "ru": "Нужно поставить выдвижную лестницу (extension ladder) к стене высотой 12'. По правилам OSHA (см. ниже) для переносных лестниц: на какую минимальную длину нужно выдвинуть лестницу, чтобы соблюсти стандарт OSHA? Ответ округлить до дюйма. 1926.1053(b)(1): если переносная лестница служит для подъёма на верхнюю площадку, её боковины должны выступать над этой площадкой минимум на 3 фута (0.9 м). 1926.1053(b)(5)(i): лестницы без собственной опоры ставят под таким углом, чтобы расстояние по горизонтали от верхней опоры до основания лестницы было примерно в четверть рабочей длины лестницы (расстояния вдоль лестницы от основания до верхней опоры)."
   },
   "why": {
    "en": "The working length L is the hypotenuse and its foot stands L/4 out from the wall: L² = 12² + (L/4)² → L = 12 ÷ √(15/16) = 12.3935'. Add 3' above the landing: 15.3935' = 184.72\" → 185\" = 15'-5\". Trap: 12'-5\" is the working length alone, without the 3' extension.",
@@ -2339,7 +2525,7 @@ const QUESTIONS = [
   "topic": "drawing",
   "q": {
    "en": "Oblique lines are always drawn at an angle.",
-   "ru": "Oblique lines (наклонные линии) всегда проводятся под углом."
+   "ru": "Oblique lines всегда проводятся под углом."
   },
   "why": {
    "en": "An oblique line is by definition neither horizontal nor vertical, so it is always drawn at an angle.",
@@ -2376,19 +2562,19 @@ const QUESTIONS = [
   "opts": [
    {
     "en": "Common",
-    "ru": "Common (обычный)"
+    "ru": "Common"
    },
    {
     "en": "Acute",
-    "ru": "Acute (острый)"
+    "ru": "Acute"
    },
    {
     "en": "Obtuse",
-    "ru": "Obtuse (тупой)"
+    "ru": "Obtuse"
    },
    {
     "en": "Less Common",
-    "ru": "Less Common (менее обычный)"
+    "ru": "Less Common"
    }
   ],
   "answer": [
@@ -2596,7 +2782,7 @@ const QUESTIONS = [
   "opts": [
    {
     "en": "Acute effects",
-    "ru": "Acute effects (острые)"
+    "ru": "Acute effects"
    },
    {
     "en": "Seldom job related",
@@ -2608,7 +2794,7 @@ const QUESTIONS = [
    },
    {
     "en": "Chronic effects",
-    "ru": "Chronic effects (хронические)"
+    "ru": "Chronic effects"
    }
   ],
   "answer": [
@@ -2626,8 +2812,8 @@ const QUESTIONS = [
    "ru": "Shear capacity 1016 означает, что brake рассчитан на гибку 10 футов 16 gauge."
   },
   "why": {
-   "en": "A shear cuts, it does not bend; bending is the brake's job. The number itself is read right (1016 = 10 ft long, up to 16 gauge mild steel), but the statement assigns it to a brake, so the answer is No.",
-   "ru": "Shear режет, а не гнёт; гнёт brake. Само число прочитано верно (1016 = длина 10 футов, до 16 gauge mild steel), но утверждение приписывает его brake, поэтому ответ — «Нет»."
+   "en": "A shear cuts, it does not bend; bending is the brake's job. The number itself is read right (1016 = 10 ft long, up to 16 gauge mild steel), but the statement assigns it to a brake, so the answer is No. The instructor's margin note \"10 = gauge, 16 = max length\" reads the number the other way; machine makers (e.g. Wysong 1016 = 10 ft × 16 ga) name them length first, and the answer is No either way.",
+   "ru": "Shear режет, а не гнёт; гнёт brake. Само число прочитано верно (1016 = длина 10 футов, до 16 gauge mild steel), но утверждение приписывает его brake, поэтому ответ — «Нет». Пометка инструктора на полях «10 = gauge, 16 = max length» читает число наоборот; производители (например, Wysong 1016 = 10 ft × 16 ga) пишут сначала длину, а ответ No в любом случае."
   },
   "opts": [
    {
@@ -2863,8 +3049,8 @@ const QUESTIONS = [
    "ru": "Переведите 74 дюйма в футы с десятичными долями фута."
   },
   "why": {
-   "en": "74 ÷ 12 = 6.1667 → 6.167'. Traps: 5.667' and 5.666' are 68\" (rounded and cut off), and 6.116' has two digits swapped.",
-   "ru": "74 ÷ 12 = 6.1667 → 6.167'. Ловушки: 5.667' и 5.666' — это 68\" (с округлением и с обрезкой), а в 6.116' переставлены цифры."
+   "en": "74 ÷ 12 = 6.1667 → 6.167'. Traps: 5.667' and 5.666' are 68\" (rounded and cut off), and 6.116' is simply a wrong value.",
+   "ru": "74 ÷ 12 = 6.1667 → 6.167'. Ловушки: 5.667' и 5.666' — это 68\" (с округлением и с обрезкой), а 6.116' — просто неверное значение."
   },
   "opts": [
    {
@@ -3233,8 +3419,8 @@ const QUESTIONS = [
    "ru": "Переведите 21' - 9\" в метры. (Округлить до 3 знаков после точки. Подсказка: 1 метр = 3.2808 фута.)"
   },
   "why": {
-   "en": "21'-9\" = 21.75' (9 ÷ 12 = 0.75); 21.75 ÷ 3.2808 = 6.6295 → 6.629 m. Traps: 6.675 m reads 21'-9\" as 21.9' (21.9 ÷ 3.2808 = 6.6752), and 71.358 m multiplies by the factor instead of dividing.",
-   "ru": "21'-9\" = 21.75' (9 ÷ 12 = 0.75); 21.75 ÷ 3.2808 = 6.6295 → 6.629 m. Ловушки: 6.675 m — 21'-9\" принято за 21.9' (21.9 ÷ 3.2808 = 6.6752), а 71.358 m — на коэффициент умножили, а не разделили."
+   "en": "21'-9\" = 21.75' (9 ÷ 12 = 0.75); 21.75 ÷ 3.2808 = 6.6295 → 6.629 m. Traps: 6.675 m reads 21'-9\" as 21.9' (21.9 ÷ 3.2808 = 6.6752), and 71.358 m multiplies instead of dividing (21.75 × 3.28084 = 71.358).",
+   "ru": "21'-9\" = 21.75' (9 ÷ 12 = 0.75); 21.75 ÷ 3.2808 = 6.6295 → 6.629 m. Ловушки: 6.675 m — 21'-9\" принято за 21.9' (21.9 ÷ 3.2808 = 6.6752), а 71.358 m — умножили, а не разделили (21.75 × 3.28084 = 71.358)."
   },
   "opts": [
    {
@@ -3375,8 +3561,8 @@ const QUESTIONS = [
   "n": 90,
   "topic": "trig",
   "q": {
-   "en": "Solve outside wall angle \"A\". Round number to nearest whole degree.",
-   "ru": "Найдите угол \"A\" по наружной стенке (outside wall). Округлите до целого градуса."
+   "en": "Solve outside wall angle \"A\". round number to nearest whole degree",
+   "ru": "Найдите угол \"A\" по наружной стенке (outside wall). округлите до целого градуса"
   },
   "why": {
    "en": "Along the outside wall the run is 14'-5¼\" − 10'-6\" = 47.25\" and the rise is 4'-6¼\" = 54.25\"; A = atan(54.25 ÷ 47.25) = 48.945° → 49°. Traps: 41° is the other acute angle (90 − 48.945), and 48° cuts off the decimals instead of rounding.",
@@ -3847,80 +4033,6 @@ const QUESTIONS = [
   "fig": "tri-q12.svg"
  },
  {
-  "id": "TRI-13",
-  "src": "TRI",
-  "n": 13,
-  "topic": "trig",
-  "q": {
-   "en": "Solve length \"L\" for the triangle.",
-   "ru": "Найдите длину \"L\" треугольника."
-  },
-  "why": {
-   "en": "13.67\" is the hypotenuse (opposite the right angle) and L is the side adjacent to the 52.4° angle, so L = 13.67 × cos 52.4° = 8.3407\" → 8.34\". Traps: 10.83\" uses sin instead of cos, 17.75\" uses tan.",
-   "ru": "13.67\" — гипотенуза (напротив прямого угла), L — катет, прилежащий к углу 52.4°, поэтому L = 13.67 × cos 52.4° = 8.3407\" → 8.34\". Ловушки: 10.83\" — sin вместо cos, 17.75\" — tan."
-  },
-  "opts": [
-   {
-    "en": "10.83\"",
-    "ru": "10.83\""
-   },
-   {
-    "en": "17.75\"",
-    "ru": "17.75\""
-   },
-   {
-    "en": "10.53\"",
-    "ru": "10.53\""
-   },
-   {
-    "en": "8.34\"",
-    "ru": "8.34\""
-   }
-  ],
-  "answer": [
-   3
-  ],
-  "type": "single",
-  "fig": "tri-q13.svg"
- },
- {
-  "id": "TRI-14",
-  "src": "TRI",
-  "n": 14,
-  "topic": "trig",
-  "q": {
-   "en": "Solve angle \"A\" for the triangle.",
-   "ru": "Найдите угол \"A\" треугольника."
-  },
-  "why": {
-   "en": "25-3/8\" is the hypotenuse and 18-5/8\" is the side opposite A: sin A = 18.625 ÷ 25.375 = 0.7340 → A = 47.22°. Traps: 42.78° is the other acute angle (cos instead of sin), and 36.28° uses tan as if 25-3/8\" were a leg.",
-   "ru": "25-3/8\" — гипотенуза, 18-5/8\" — катет напротив угла A: sin A = 18.625 ÷ 25.375 = 0.7340 → A = 47.22°. Ловушки: 42.78° — второй острый угол (cos вместо sin), 36.28° — tan, будто 25-3/8\" это катет."
-  },
-  "opts": [
-   {
-    "en": "47.22 degrees",
-    "ru": "47.22 градуса"
-   },
-   {
-    "en": "42.78 degrees",
-    "ru": "42.78 градуса"
-   },
-   {
-    "en": "38.23 degrees",
-    "ru": "38.23 градуса"
-   },
-   {
-    "en": "36.28 degrees",
-    "ru": "36.28 градуса"
-   }
-  ],
-  "answer": [
-   0
-  ],
-  "type": "single",
-  "fig": "tri-q14.svg"
- },
- {
   "id": "TRI-15",
   "src": "TRI",
   "n": 15,
@@ -4129,7 +4241,7 @@ const QUESTIONS = [
   "topic": "safety",
   "q": {
    "en": "You're tasked to setup an extension ladder on a 12' high wall. Following OSHA's regulations and standards (see below) for setting up a portable ladder. What is the minimum distance you need to extend the ladder to comply with OSHA's standards? Round answer off to the nearest inch. 1926.1053(b)(1) When portable ladders are used for access to an upper landing surface, the ladder side rails shall extend at least 3 feet (.9 m) above the upper landing surface to which the ladder is used to gain access. 1926.1053(b)(5)(i) Non-self-supporting ladders shall be used at an angle such that the horizontal distance from the top support to the foot of the ladder is approximately one-quarter of the working length of the ladder (the distance along the ladder between the foot and the top support).",
-   "ru": "Нужно поставить приставную лестницу (extension ladder) к стене высотой 12'. По правилам OSHA (см. ниже) для переносных лестниц: на какую минимальную длину нужно выдвинуть лестницу, чтобы соблюсти стандарт OSHA? Ответ округлить до дюйма. 1926.1053(b)(1): если переносная лестница служит для подъёма на верхнюю площадку, её боковины должны выступать над этой площадкой минимум на 3 фута (0.9 м). 1926.1053(b)(5)(i): лестницы без собственной опоры ставят под таким углом, чтобы расстояние по горизонтали от верхней опоры до основания лестницы было примерно в четверть рабочей длины лестницы (расстояния вдоль лестницы от основания до верхней опоры)."
+   "ru": "Нужно поставить выдвижную лестницу (extension ladder) к стене высотой 12'. По правилам OSHA (см. ниже) для переносных лестниц: на какую минимальную длину нужно выдвинуть лестницу, чтобы соблюсти стандарт OSHA? Ответ округлить до дюйма. 1926.1053(b)(1): если переносная лестница служит для подъёма на верхнюю площадку, её боковины должны выступать над этой площадкой минимум на 3 фута (0.9 м). 1926.1053(b)(5)(i): лестницы без собственной опоры ставят под таким углом, чтобы расстояние по горизонтали от верхней опоры до основания лестницы было примерно в четверть рабочей длины лестницы (расстояния вдоль лестницы от основания до верхней опоры)."
   },
   "why": {
    "en": "The base is 1/4 of the ladder's working length L (not of the wall height). So L² = 12² + (L/4)² → L = 12 ÷ √(15/16) = 12.394'. Add 3' above the landing: 15.394' = 15'-4.72\" → 15'-5\". Traps: 15' = 12' + 3' ignores that a leaning ladder is longer than the wall; 12'-5\" forgets the 3' above the landing; 192\" = 16' is not the minimum.",
@@ -4210,19 +4322,19 @@ const QUESTIONS = [
   "opts": [
    {
     "en": "Oblique line",
-    "ru": "Oblique line (наклонная)"
+    "ru": "Oblique line"
    },
    {
     "en": "Vertical line",
-    "ru": "Vertical line (вертикальная)"
+    "ru": "Vertical line"
    },
    {
     "en": "Perpendicular line",
-    "ru": "Perpendicular line (перпендикулярная)"
+    "ru": "Perpendicular line"
    },
    {
     "en": "Parallel line",
-    "ru": "Parallel line (параллельная)"
+    "ru": "Parallel line"
    }
   ],
   "answer": [
@@ -4442,8 +4554,8 @@ const QUESTIONS = [
    "ru": "При контакте с кислородом каждый металл образует"
   },
   "why": {
-   "en": "Oxygen combines with the metal surface into an oxide: rust on steel is iron oxide, the dull gray film on aluminum is aluminum oxide, the dark film on copper is copper oxide. Carbonization and electrolysis are different processes, and carbon content is a property of steel, not something oxygen forms.",
-   "ru": "Кислород соединяется с поверхностью металла в оксид: ржавчина на стали — оксид железа, тусклая серая плёнка на алюминии — оксид алюминия, тёмный налёт на меди — оксид меди. Карбонизация и электролиз — другие процессы, а содержание углерода — свойство стали, его кислород не образует."
+   "en": "Oxygen combines with the metal surface into an oxide: rust on steel is iron oxide, the dull gray film on aluminum is aluminum oxide, the dark film on copper is copper oxide. Carbonization and electrolysis are different processes, and carbon content is a property of steel, not something oxygen forms. Note: not confirmed by a graded key.",
+   "ru": "Кислород соединяется с поверхностью металла в оксид: ржавчина на стали — оксид железа, тусклая серая плёнка на алюминии — оксид алюминия, тёмный налёт на меди — оксид меди. Карбонизация и электролиз — другие процессы, а содержание углерода — свойство стали, его кислород не образует. Внимание: проверенного ключа нет."
   },
   "opts": [
    {
@@ -4548,7 +4660,7 @@ const QUESTIONS = [
   "opts": [
    {
     "en": "Acute effects",
-    "ru": "Acute effects (острые)"
+    "ru": "Acute effects"
    },
    {
     "en": "Seldom job related",
@@ -4560,7 +4672,7 @@ const QUESTIONS = [
    },
    {
     "en": "Chronic effects",
-    "ru": "Chronic effects (хронические)"
+    "ru": "Chronic effects"
    }
   ],
   "answer": [
@@ -4578,8 +4690,8 @@ const QUESTIONS = [
    "ru": "General ventilation (общую вентиляцию) обычно можно обеспечить:"
   },
   "why": {
-   "en": "General (dilution) ventilation moves a large volume of air through the whole work area to thin out contaminants, and a floor fan (or open doors and windows) does exactly that. Respirators, air hoses and air tanks are personal protective equipment for one wearer, not ventilation of the space.",
-   "ru": "General (разбавляющая) ventilation прогоняет большой объём воздуха через всё рабочее место и разбавляет загрязнения; напольный вентилятор (или открытые двери и окна) делает именно это. Респираторы, шланги и баллоны с воздухом — средства защиты одного человека (PPE), а не вентиляция помещения."
+   "en": "General (dilution) ventilation moves a large volume of air through the whole work area to thin out contaminants, and a floor fan (or open doors and windows) does exactly that. Respirators, air hoses and air tanks are personal protective equipment for one wearer, not ventilation of the space. Note: not confirmed by a graded key.",
+   "ru": "General (разбавляющая) ventilation прогоняет большой объём воздуха через всё рабочее место и разбавляет загрязнения; напольный вентилятор (или открытые двери и окна) делает именно это. Респираторы, шланги и баллоны с воздухом — средства защиты одного человека (PPE), а не вентиляция помещения. Внимание: проверенного ключа нет."
   },
   "opts": [
    {
@@ -4723,8 +4835,8 @@ const QUESTIONS = [
    "ru": "Какой сплав твёрдый и прочный, не покрывается пятнами и стоек к коррозии?"
   },
   "why": {
-   "en": "Stainless steel is steel alloyed with chromium; the chromium forms a thin protective film, so the metal does not stain or rust and stays hard and strong. Copper and zinc are pure metals, not alloys, and both tarnish; aluminum resists corrosion but is soft and dulls.",
-   "ru": "Stainless steel — сталь, легированная хромом; хром даёт тонкую защитную плёнку, поэтому металл не покрывается пятнами и не ржавеет, оставаясь твёрдым и прочным. Медь и цинк — чистые металлы, а не сплавы, и оба тускнеют; алюминий коррозии не боится, но мягкий и тускнеет."
+   "en": "Stainless steel is steel alloyed with chromium; the chromium forms a thin protective film, so the metal does not stain or rust and stays hard and strong. Copper and zinc are pure metals, not alloys, and both tarnish; aluminum resists corrosion but is soft and dulls. Note: not confirmed by a graded key.",
+   "ru": "Stainless steel — сталь, легированная хромом; хром даёт тонкую защитную плёнку, поэтому металл не покрывается пятнами и не ржавеет, оставаясь твёрдым и прочным. Медь и цинк — чистые металлы, а не сплавы, и оба тускнеют; алюминий коррозии не боится, но мягкий и тускнеет. Внимание: проверенного ключа нет."
   },
   "opts": [
    {
@@ -4801,19 +4913,19 @@ const QUESTIONS = [
   "opts": [
    {
     "en": "Flat on back",
-    "ru": "Flat on back (плоская задняя сторона)"
+    "ru": "Flat on back"
    },
    {
     "en": "Front or back",
-    "ru": "Front or back (передняя или задняя)"
+    "ru": "Front or back"
    },
    {
     "en": "Flat on bottom",
-    "ru": "Flat on bottom (плоская нижняя сторона)"
+    "ru": "Flat on bottom"
    },
    {
     "en": "Fold over back",
-    "ru": "Fold over back (загиб назад)"
+    "ru": "Fold over back"
    }
   ],
   "answer": [
@@ -5599,8 +5711,8 @@ const QUESTIONS = [
    "ru": "Рассчитайте длину wrapper для Ogee offset длиной 22\" drive to drive с offset 6\"."
   },
   "why": {
-   "en": "Treat the ogee as an S of two equal arcs (formula sheet \"OGEE OFFSET\") between the bend lines: L = 22 − 1 = 21\", CL R = (O² + L²) ÷ 4O = (36 + 441) ÷ 24 = 19.875\". Each arc: cos φ = (441 − 36) ÷ (441 + 36) → φ = 31.8908° (0.556599 rad), so the CL length = 2 × 19.875 × 0.556599 = 22.1248\". Add 1\" per end for the connections: 22.1248 + 2 = 24.1248\" → 24-1/8\"; the formula-sheet shortcut slant + (slant − L) ÷ 3 = 21.8403 + 0.2801 = 22.1204 gives the same 24-1/8\".",
-   "ru": "Ogee считаем как S из двух равных дуг (formula sheet «OGEE OFFSET») между линиями изгиба: L = 22 − 1 = 21\", CL R = (O² + L²) ÷ 4O = (36 + 441) ÷ 24 = 19.875\". Каждая дуга: cos φ = (441 − 36) ÷ (441 + 36) → φ = 31.8908° (0.556599 рад), значит, длина по CL = 2 × 19.875 × 0.556599 = 22.1248\". Плюс 1\" на каждый конец под соединения: 22.1248 + 2 = 24.1248\" → 24-1/8\"; короткая формула листа slant + (slant − L) ÷ 3 = 21.8403 + 0.2801 = 22.1204 даёт те же 24-1/8\"."
+   "en": "Treat the ogee as an S of two equal arcs (formula sheet \"OGEE OFFSET\") between the bend lines: L = 22 − 1 = 21\", CL R = (O² + L²) ÷ 4O = (36 + 441) ÷ 24 = 19.875\". Each arc: cos φ = (441 − 36) ÷ (441 + 36) → φ = 31.8908° (0.556599 rad), so the CL length = 2 × 19.875 × 0.556599 = 22.1248\". Add 1\" per end for the connections: 22.1248 + 2 = 24.1248\" → 24-1/8\"; the formula-sheet shortcut slant + (slant − L) ÷ 3 = 21.8403 + 0.2801 = 22.1204 gives the same 24-1/8\". Note: not confirmed by a graded key.",
+   "ru": "Ogee считаем как S из двух равных дуг (formula sheet «OGEE OFFSET») между линиями изгиба: L = 22 − 1 = 21\", CL R = (O² + L²) ÷ 4O = (36 + 441) ÷ 24 = 19.875\". Каждая дуга: cos φ = (441 − 36) ÷ (441 + 36) → φ = 31.8908° (0.556599 рад), значит, длина по CL = 2 × 19.875 × 0.556599 = 22.1248\". Плюс 1\" на каждый конец под соединения: 22.1248 + 2 = 24.1248\" → 24-1/8\"; короткая формула листа slant + (slant − L) ÷ 3 = 21.8403 + 0.2801 = 22.1204 даёт те же 24-1/8\". Внимание: проверенного ключа нет."
   },
   "opts": [
    {
@@ -5622,34 +5734,6 @@ const QUESTIONS = [
   ],
   "answer": [
    3
-  ],
-  "type": "single"
- },
- {
-  "id": "MON-59",
-  "src": "MON",
-  "n": 59,
-  "topic": "math",
-  "q": {
-   "en": "7 steel joists are 6’- 8” apart center to center. The distance, center to center, between the two outside joists is 40'-0\"",
-   "ru": "7 стальных балок (joists) стоят на расстоянии 6'- 8\" друг от друга center to center. Расстояние center to center между двумя крайними joists — 40'-0\""
-  },
-  "why": {
-   "en": "7 joists have 6 spaces between them: 6 × 6'-8\" = 6 × 80\" = 480\" = 40'-0\", so Yes. Trap: 7 × 80\" = 560\" = 46'-8\" counts joists instead of spaces.",
-   "ru": "Между 7 joists — 6 промежутков: 6 × 6'-8\" = 6 × 80\" = 480\" = 40'-0\", значит, Да. Ловушка: 7 × 80\" = 560\" = 46'-8\" — посчитали joists, а не промежутки."
-  },
-  "opts": [
-   {
-    "en": "Yes",
-    "ru": "Да"
-   },
-   {
-    "en": "No",
-    "ru": "Нет"
-   }
-  ],
-  "answer": [
-   0
   ],
   "type": "single"
  },
@@ -5741,7 +5825,7 @@ const QUESTIONS = [
   "opts": [
    {
     "en": "Acute effects",
-    "ru": "Acute effects (острые)"
+    "ru": "Acute effects"
    },
    {
     "en": "Seldom job related",
@@ -5753,7 +5837,7 @@ const QUESTIONS = [
    },
    {
     "en": "Chronic effects",
-    "ru": "Chronic effects (хронические)"
+    "ru": "Chronic effects"
    }
   ],
   "answer": [
@@ -5771,8 +5855,8 @@ const QUESTIONS = [
    "ru": "Чаще всего инструкции по формовке (forming instructions) наносят на _______________ sheet metal pattern."
   },
   "why": {
-   "en": "A pattern carries information on both faces: all layout marking is scribed on the inside, which is hidden in the finished fitting, and the forming and detail stickers go on the outside, where they stay readable while the piece is formed and installed. So the answer is Both. Note: this answer comes from another student's sheet, not a graded key; b (Outside) is a possible intended answer.",
-   "ru": "Информация на pattern есть с обеих сторон: вся разметка layout наносится на внутреннюю сторону, которая в готовом fitting не видна, а наклейки с forming и detail — на наружную, где их видно при формовке и монтаже. Поэтому ответ — обе стороны. Внимание: ответ взят с листа другого ученика, проверенного ключа нет; возможно, в ключе b (Outside)."
+   "en": "Forming instructions are the forming and detail stickers, and the options themselves place those on the outside of the pattern; layout marking goes on the inside. So the answer is b, Outside. Note: last year's sheet had \"Both\" picked and there is no graded key for this item.",
+   "ru": "Forming instructions — это наклейки с forming и detail, и сами варианты ответа относят их к наружной стороне (Outside); разметка layout — на внутренней. Поэтому ответ b, Outside. Внимание: на листе прошлого года выбрано «Both», проверенного ключа на этот вопрос нет."
   },
   "opts": [
    {
@@ -5789,7 +5873,7 @@ const QUESTIONS = [
    }
   ],
   "answer": [
-   2
+   1
   ],
   "type": "single"
  },
@@ -5803,8 +5887,8 @@ const QUESTIONS = [
    "ru": "В процессе GMAW shielding gases (защитные газы) используют, чтобы:"
   },
   "why": {
-   "en": "The main job of the shielding gas is to keep the oxygen and nitrogen of the air away from the molten weld, and by doing that it prevents porosity and other defects. The gas mix also sets the arc heat: CO2 and helium give a hotter arc and deeper penetration than pure argon. All three statements are true.",
-   "ru": "Главная задача shielding gas — не пускать кислород и азот воздуха к расплавленному шву, и тем самым он предотвращает поры и другие дефекты. Состав газа ещё и задаёт тепло дуги: CO2 и helium дают более горячую дугу и более глубокий провар, чем чистый argon. Верны все три утверждения."
+   "en": "The main job of the shielding gas is to keep the oxygen and nitrogen of the air away from the molten weld, and by doing that it prevents porosity and other defects. The gas mix also sets the arc heat: CO2 and helium give a hotter arc and deeper penetration than pure argon. All three statements are true. Note: not confirmed by a graded key.",
+   "ru": "Главная задача shielding gas — не пускать кислород и азот воздуха к расплавленному шву, и тем самым он предотвращает поры и другие дефекты. Состав газа ещё и задаёт тепло дуги: CO2 и helium дают более горячую дугу и более глубокий провар, чем чистый argon. Верны все три утверждения. Внимание: проверенного ключа нет."
   },
   "opts": [
    {
@@ -5939,8 +6023,8 @@ const QUESTIONS = [
    "ru": "Какова итоговая цена печи (furnace) за $575 с налогом с продаж 8-1/4%?"
   },
   "why": {
-   "en": "Tax = 575 × 0.0825 = 47.4375; total = 575 + 47.4375 = 622.4375 → $622.44 (the half cent rounds up). Traps: $47.44 is only the tax, and $622.43 cuts off instead of rounding.",
-   "ru": "Налог = 575 × 0.0825 = 47.4375; итого = 575 + 47.4375 = 622.4375 → $622.44 (полцента округляется вверх). Ловушки: $47.44 — это только налог, а $622.43 — обрезали, а не округлили."
+   "en": "Tax = 575 × 0.0825 = 47.4375; total = 575 + 47.4375 = 622.4375 → $622.44 (0.75 of a cent rounds up). Traps: $47.44 is only the tax, and $622.43 cuts off instead of rounding.",
+   "ru": "Налог = 575 × 0.0825 = 47.4375; итого = 575 + 47.4375 = 622.4375 → $622.44 (¾ цента округляется вверх). Ловушки: $47.44 — это только налог, а $622.43 — обрезали, а не округлили."
   },
   "opts": [
    {
@@ -6011,8 +6095,8 @@ const QUESTIONS = [
    "ru": "Какой металл при покупке приходит очень масляным?"
   },
   "why": {
-   "en": "Cold rolled steel has no zinc coating and no mill scale, so the mill oils it to keep it from rusting in storage. Standard hot rolled steel carries dark mill scale and is usually sold dry (only the pickled-and-oiled grade is oiled), galvanized is protected by its zinc, and copper does not rust.",
-   "ru": "У cold rolled steel нет ни цинкового покрытия, ни окалины, поэтому завод покрывает её маслом, чтобы она не ржавела на складе. Обычная hot rolled steel покрыта тёмной окалиной и продаётся сухой (маслом покрыт только сорт pickled and oiled), galvanized защищает цинк, а медь не ржавеет."
+   "en": "Cold rolled steel has no zinc coating and no mill scale, so the mill oils it to keep it from rusting in storage. Standard hot rolled steel carries dark mill scale and is usually sold dry (only the pickled-and-oiled grade is oiled), galvanized is protected by its zinc, and copper does not rust. Note: not confirmed by a graded key.",
+   "ru": "У cold rolled steel нет ни цинкового покрытия, ни окалины, поэтому завод покрывает её маслом, чтобы она не ржавела на складе. Обычная hot rolled steel покрыта тёмной окалиной и продаётся сухой (маслом покрыт только сорт pickled and oiled), galvanized защищает цинк, а медь не ржавеет. Внимание: проверенного ключа нет."
   },
   "opts": [
    {
@@ -6119,8 +6203,8 @@ const QUESTIONS = [
    "ru": "Лист нержавеющей стали (stainless steel) с финишем номер 8 —"
   },
   "why": {
-   "en": "Stainless finish numbers run from dull to bright: No. 2B is a dull mill finish, No. 4 is brushed (satin), and No. 8 is a polished mirror finish, the shiniest standard one.",
-   "ru": "Номера финиша stainless идут от тусклого к блестящему: No. 2B — тусклый заводской, No. 4 — шлифованный (brushed, satin), No. 8 — полированный до зеркала, самый блестящий из стандартных."
+   "en": "Stainless finish numbers run from dull to bright: No. 1 and 2D are dull mill finishes, 2B is smooth and moderately reflective, No. 4 is brushed (satin), and No. 8 is a polished mirror finish, the shiniest standard one.",
+   "ru": "Номера финиша stainless идут от тусклого к блестящему: No. 1 и 2D — тусклые заводские, 2B — гладкий, умеренно отражающий, No. 4 — шлифованный (brushed, satin), No. 8 — полированный до зеркала, самый блестящий из стандартных."
   },
   "opts": [
    {
@@ -6197,47 +6281,18 @@ const QUESTIONS = [
   "type": "input",
   "answer": {
    "accept": [
-    "lighter"
+    "lighter",
+    "светлее",
+    "светлей"
+   ],
+   "reject": [
+    "darker",
+    "темнее",
+    "темней"
    ],
    "text": "Lighter",
    "prefix": ""
   }
- },
- {
-  "id": "MON-78",
-  "src": "MON",
-  "n": 78,
-  "topic": "safety",
-  "q": {
-   "en": "To avoid unnecessary exposure to fumes:",
-   "ru": "Чтобы избежать лишнего воздействия сварочного дыма (fumes):"
-  },
-  "why": {
-   "en": "Fumes keep rising from the hot weld for a few seconds after the arc stops, so wait about 10 seconds and keep your head out of the plume before inspecting. Welding outdoors actually helps ventilation, a painter's dust mask does not stop welding fume, and humidity does not create fumes.",
-   "ru": "Дым ещё несколько секунд поднимается от горячего шва после того, как дуга погасла, поэтому подождите около 10 секунд и не держите голову в столбе дыма. Сварка на улице как раз улучшает вентиляцию, малярная пылевая маска от сварочного дыма не защищает, а влажность дыма не создаёт."
-  },
-  "opts": [
-   {
-    "en": "Avoid welding in humid conditions.",
-    "ru": "Не варите во влажных условиях."
-   },
-   {
-    "en": "Weld with a dust mask, like the kind painters use.",
-    "ru": "Варите в пылевой маске, как у маляров."
-   },
-   {
-    "en": "Avoid welding outdoors.",
-    "ru": "Не варите на открытом воздухе."
-   },
-   {
-    "en": "Wait 10 seconds for fumes to clear before inspecting your weld.",
-    "ru": "Подождите 10 секунд, пока дым рассеется, прежде чем осматривать шов."
-   }
-  ],
-  "answer": [
-   3
-  ],
-  "type": "single"
  },
  {
   "id": "MON-79",

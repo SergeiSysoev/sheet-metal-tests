@@ -20,10 +20,10 @@
   "topic": "drawing",
   "ru_q": "Линия, которая идёт под прямым углом к другой линии, — это:",
   "ru_opts": [
-   "Oblique line (наклонная)",
-   "Vertical line (вертикальная)",
-   "Perpendicular line (перпендикулярная)",
-   "Parallel line (параллельная)"
+   "Oblique line",
+   "Vertical line",
+   "Perpendicular line",
+   "Parallel line"
   ],
   "why_en": "Perpendicular lines meet at 90°. A vertical line is perpendicular only to a horizontal one, an oblique line is slanted (it meets at an angle other than 90°), and parallel lines never meet.",
   "why_ru": "Перпендикулярные линии встречаются под 90°. Вертикальная перпендикулярна только горизонтальной, oblique — наклонная (угол не 90°), а параллельные линии вообще не пересекаются.",
@@ -126,8 +126,8 @@
    "Низкое содержание углерода",
    "Оксид"
   ],
-  "why_en": "Oxygen combines with the metal surface into an oxide: rust on steel is iron oxide, the dull gray film on aluminum is aluminum oxide, the dark film on copper is copper oxide. Carbonization and electrolysis are different processes, and carbon content is a property of steel, not something oxygen forms.",
-  "why_ru": "Кислород соединяется с поверхностью металла в оксид: ржавчина на стали — оксид железа, тусклая серая плёнка на алюминии — оксид алюминия, тёмный налёт на меди — оксид меди. Карбонизация и электролиз — другие процессы, а содержание углерода — свойство стали, его кислород не образует.",
+  "why_en": "Oxygen combines with the metal surface into an oxide: rust on steel is iron oxide, the dull gray film on aluminum is aluminum oxide, the dark film on copper is copper oxide. Carbonization and electrolysis are different processes, and carbon content is a property of steel, not something oxygen forms. Note: not confirmed by a graded key.",
+  "why_ru": "Кислород соединяется с поверхностью металла в оксид: ржавчина на стали — оксид железа, тусклая серая плёнка на алюминии — оксид алюминия, тёмный налёт на меди — оксид меди. Карбонизация и электролиз — другие процессы, а содержание углерода — свойство стали, его кислород не образует. Внимание: проверенного ключа нет.",
   "flag": null
  },
  {
@@ -164,10 +164,10 @@
   "topic": "safety",
   "ru_q": "Симптомы, которые проявляются спустя долгое время после токсичного воздействия, — это:",
   "ru_opts": [
-   "Acute effects (острые)",
+   "Acute effects",
    "Редко связаны с работой",
    "Слабее ранних эффектов",
-   "Chronic effects (хронические)"
+   "Chronic effects"
   ],
   "why_en": "Chronic effects come from long or repeated exposure and show up long after it, sometimes years later (for example lung disease from welding fumes). Acute effects appear right away or soon after a short exposure. Delayed symptoms are often job related and are not weaker.",
   "why_ru": "Chronic effects возникают от долгого или повторного воздействия и проявляются намного позже, иногда через годы (например, болезни лёгких от сварочного дыма). Acute effects появляются сразу или вскоре после короткого воздействия. Поздние симптомы часто как раз связаны с работой и не слабее ранних.",
@@ -184,8 +184,8 @@
    "Поставив напольный вентилятор",
    "Респиратором с химическим картриджем"
   ],
-  "why_en": "General (dilution) ventilation moves a large volume of air through the whole work area to thin out contaminants, and a floor fan (or open doors and windows) does exactly that. Respirators, air hoses and air tanks are personal protective equipment for one wearer, not ventilation of the space.",
-  "why_ru": "General (разбавляющая) ventilation прогоняет большой объём воздуха через всё рабочее место и разбавляет загрязнения; напольный вентилятор (или открытые двери и окна) делает именно это. Респираторы, шланги и баллоны с воздухом — средства защиты одного человека (PPE), а не вентиляция помещения.",
+  "why_en": "General (dilution) ventilation moves a large volume of air through the whole work area to thin out contaminants, and a floor fan (or open doors and windows) does exactly that. Respirators, air hoses and air tanks are personal protective equipment for one wearer, not ventilation of the space. Note: not confirmed by a graded key.",
+  "why_ru": "General (разбавляющая) ventilation прогоняет большой объём воздуха через всё рабочее место и разбавляет загрязнения; напольный вентилятор (или открытые двери и окна) делает именно это. Респираторы, шланги и баллоны с воздухом — средства защиты одного человека (PPE), а не вентиляция помещения. Внимание: проверенного ключа нет.",
   "flag": null
  },
  {
@@ -244,8 +244,8 @@
    "Цинк (zinc)",
    "Нержавеющая сталь (stainless steel)"
   ],
-  "why_en": "Stainless steel is steel alloyed with chromium; the chromium forms a thin protective film, so the metal does not stain or rust and stays hard and strong. Copper and zinc are pure metals, not alloys, and both tarnish; aluminum resists corrosion but is soft and dulls.",
-  "why_ru": "Stainless steel — сталь, легированная хромом; хром даёт тонкую защитную плёнку, поэтому металл не покрывается пятнами и не ржавеет, оставаясь твёрдым и прочным. Медь и цинк — чистые металлы, а не сплавы, и оба тускнеют; алюминий коррозии не боится, но мягкий и тускнеет.",
+  "why_en": "Stainless steel is steel alloyed with chromium; the chromium forms a thin protective film, so the metal does not stain or rust and stays hard and strong. Copper and zinc are pure metals, not alloys, and both tarnish; aluminum resists corrosion but is soft and dulls. Note: not confirmed by a graded key.",
+  "why_ru": "Stainless steel — сталь, легированная хромом; хром даёт тонкую защитную плёнку, поэтому металл не покрывается пятнами и не ржавеет, оставаясь твёрдым и прочным. Медь и цинк — чистые металлы, а не сплавы, и оба тускнеют; алюминий коррозии не боится, но мягкий и тускнеет. Внимание: проверенного ключа нет.",
   "flag": null
  },
  {
@@ -269,10 +269,10 @@
   "topic": "transitions",
   "ru_q": "Что означают буквы FOB, написанные на transition?",
   "ru_opts": [
-   "Flat on back (плоская задняя сторона)",
-   "Front or back (передняя или задняя)",
-   "Flat on bottom (плоская нижняя сторона)",
-   "Fold over back (загиб назад)"
+   "Flat on back",
+   "Front or back",
+   "Flat on bottom",
+   "Fold over back"
   ],
   "why_en": "On course sheet 2I Transition Terminology, FOB = flat on bottom: the BOTTOM (the face behind the TOP, away from the viewer) is not sloped; it stays perpendicular to the line of vision. FOT is the same for the TOP. Flat on back is a common mix-up; the course term is bottom.",
   "why_ru": "По листу курса 2I Transition Terminology FOB = flat on bottom: BOTTOM (грань за TOP, дальняя от смотрящего) не наклонена, она перпендикулярна линии взгляда. FOT — то же для TOP. «Flat on back» — частая путаница, в курсе это bottom.",

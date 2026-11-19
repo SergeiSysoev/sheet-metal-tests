@@ -205,8 +205,8 @@
    "23-5/8\"",
    "24-1/8\""
   ],
-  "why_en": "Treat the ogee as an S of two equal arcs (formula sheet \"OGEE OFFSET\") between the bend lines: L = 22 − 1 = 21\", CL R = (O² + L²) ÷ 4O = (36 + 441) ÷ 24 = 19.875\". Each arc: cos φ = (441 − 36) ÷ (441 + 36) → φ = 31.8908° (0.556599 rad), so the CL length = 2 × 19.875 × 0.556599 = 22.1248\". Add 1\" per end for the connections: 22.1248 + 2 = 24.1248\" → 24-1/8\"; the formula-sheet shortcut slant + (slant − L) ÷ 3 = 21.8403 + 0.2801 = 22.1204 gives the same 24-1/8\".",
-  "why_ru": "Ogee считаем как S из двух равных дуг (formula sheet «OGEE OFFSET») между линиями изгиба: L = 22 − 1 = 21\", CL R = (O² + L²) ÷ 4O = (36 + 441) ÷ 24 = 19.875\". Каждая дуга: cos φ = (441 − 36) ÷ (441 + 36) → φ = 31.8908° (0.556599 рад), значит, длина по CL = 2 × 19.875 × 0.556599 = 22.1248\". Плюс 1\" на каждый конец под соединения: 22.1248 + 2 = 24.1248\" → 24-1/8\"; короткая формула листа slant + (slant − L) ÷ 3 = 21.8403 + 0.2801 = 22.1204 даёт те же 24-1/8\".",
+  "why_en": "Treat the ogee as an S of two equal arcs (formula sheet \"OGEE OFFSET\") between the bend lines: L = 22 − 1 = 21\", CL R = (O² + L²) ÷ 4O = (36 + 441) ÷ 24 = 19.875\". Each arc: cos φ = (441 − 36) ÷ (441 + 36) → φ = 31.8908° (0.556599 rad), so the CL length = 2 × 19.875 × 0.556599 = 22.1248\". Add 1\" per end for the connections: 22.1248 + 2 = 24.1248\" → 24-1/8\"; the formula-sheet shortcut slant + (slant − L) ÷ 3 = 21.8403 + 0.2801 = 22.1204 gives the same 24-1/8\". Note: not confirmed by a graded key.",
+  "why_ru": "Ogee считаем как S из двух равных дуг (formula sheet «OGEE OFFSET») между линиями изгиба: L = 22 − 1 = 21\", CL R = (O² + L²) ÷ 4O = (36 + 441) ÷ 24 = 19.875\". Каждая дуга: cos φ = (441 − 36) ÷ (441 + 36) → φ = 31.8908° (0.556599 рад), значит, длина по CL = 2 × 19.875 × 0.556599 = 22.1248\". Плюс 1\" на каждый конец под соединения: 22.1248 + 2 = 24.1248\" → 24-1/8\"; короткая формула листа slant + (slant − L) ÷ 3 = 21.8403 + 0.2801 = 22.1204 даёт те же 24-1/8\". Внимание: проверенного ключа нет.",
   "flag": "Course method for the ogee wrapper is not on any course sheet found (KB 08, open question 7). Computed by the formula-sheet ogee with L = 22 − 1 and + 2 for the ends (the transition convention); the exact arc 24.1248 and the sheet shortcut 24.1204 both give 24-1/8\", the student's pick."
  },
  {
@@ -315,10 +315,10 @@
   "topic": "safety",
   "ru_q": "Симптомы, которые появляются вскоре после токсичного воздействия, — это:",
   "ru_opts": [
-   "Acute effects (острые)",
+   "Acute effects",
    "Редко связаны с работой",
    "Слабее ранних эффектов",
-   "Chronic effects (хронические)"
+   "Chronic effects"
   ],
   "why_en": "Acute effects appear soon after a short exposure. Chronic effects build up over long or repeated exposure and show up later.",
   "why_ru": "Acute effects появляются вскоре после короткого воздействия. Chronic effects накапливаются при долгом или повторном воздействии и проявляются позже.",
@@ -334,8 +334,8 @@
    "Наружную сторону (forming и наклейки detail)",
    "Обе стороны"
   ],
-  "why_en": "A pattern carries information on both faces: all layout marking is scribed on the inside, which is hidden in the finished fitting, and the forming and detail stickers go on the outside, where they stay readable while the piece is formed and installed. So the answer is Both. Note: this answer comes from another student's sheet, not a graded key; b (Outside) is a possible intended answer.",
-  "why_ru": "Информация на pattern есть с обеих сторон: вся разметка layout наносится на внутреннюю сторону, которая в готовом fitting не видна, а наклейки с forming и detail — на наружную, где их видно при формовке и монтаже. Поэтому ответ — обе стороны. Внимание: ответ взят с листа другого ученика, проверенного ключа нет; возможно, в ключе b (Outside).",
+  "why_en": "Forming instructions are the forming and detail stickers, and the options themselves place those on the outside of the pattern; layout marking goes on the inside. So the answer is b, Outside. Note: last year's sheet had \"Both\" picked and there is no graded key for this item.",
+  "why_ru": "Forming instructions — это наклейки с forming и detail, и сами варианты ответа относят их к наружной стороне (Outside); разметка layout — на внутренней. Поэтому ответ b, Outside. Внимание: на листе прошлого года выбрано «Both», проверенного ключа на этот вопрос нет.",
   "flag": "Student pick only (в); no course source found. The option text itself puts forming stickers on the outside and layout on the inside, so b (Outside) is a plausible alternative key; keep c until a graded copy settles it."
  },
  {
@@ -349,8 +349,8 @@
    "Уменьшить дефекты шва.",
    "Всё перечисленное."
   ],
-  "why_en": "The main job of the shielding gas is to keep the oxygen and nitrogen of the air away from the molten weld, and by doing that it prevents porosity and other defects. The gas mix also sets the arc heat: CO2 and helium give a hotter arc and deeper penetration than pure argon. All three statements are true.",
-  "why_ru": "Главная задача shielding gas — не пускать кислород и азот воздуха к расплавленному шву, и тем самым он предотвращает поры и другие дефекты. Состав газа ещё и задаёт тепло дуги: CO2 и helium дают более горячую дугу и более глубокий провар, чем чистый argon. Верны все три утверждения.",
+  "why_en": "The main job of the shielding gas is to keep the oxygen and nitrogen of the air away from the molten weld, and by doing that it prevents porosity and other defects. The gas mix also sets the arc heat: CO2 and helium give a hotter arc and deeper penetration than pure argon. All three statements are true. Note: not confirmed by a graded key.",
+  "why_ru": "Главная задача shielding gas — не пускать кислород и азот воздуха к расплавленному шву, и тем самым он предотвращает поры и другие дефекты. Состав газа ещё и задаёт тепло дуги: CO2 и helium дают более горячую дугу и более глубокий провар, чем чистый argon. Верны все три утверждения. Внимание: проверенного ключа нет.",
   "flag": null
  },
  {
@@ -407,8 +407,8 @@
    "$622.44",
    "$622.43"
   ],
-  "why_en": "Tax = 575 × 0.0825 = 47.4375; total = 575 + 47.4375 = 622.4375 → $622.44 (the half cent rounds up). Traps: $47.44 is only the tax, and $622.43 cuts off instead of rounding.",
-  "why_ru": "Налог = 575 × 0.0825 = 47.4375; итого = 575 + 47.4375 = 622.4375 → $622.44 (полцента округляется вверх). Ловушки: $47.44 — это только налог, а $622.43 — обрезали, а не округлили.",
+  "why_en": "Tax = 575 × 0.0825 = 47.4375; total = 575 + 47.4375 = 622.4375 → $622.44 (0.75 of a cent rounds up). Traps: $47.44 is only the tax, and $622.43 cuts off instead of rounding.",
+  "why_ru": "Налог = 575 × 0.0825 = 47.4375; итого = 575 + 47.4375 = 622.4375 → $622.44 (¾ цента округляется вверх). Ловушки: $47.44 — это только налог, а $622.43 — обрезали, а не округлили.",
   "flag": "Original: \"a 8-1/4%\" (= an). Kept as printed."
  },
  {
@@ -454,8 +454,8 @@
    "Copper (медь)",
    "Galvanized (оцинкованная сталь)"
   ],
-  "why_en": "Cold rolled steel has no zinc coating and no mill scale, so the mill oils it to keep it from rusting in storage. Standard hot rolled steel carries dark mill scale and is usually sold dry (only the pickled-and-oiled grade is oiled), galvanized is protected by its zinc, and copper does not rust.",
-  "why_ru": "У cold rolled steel нет ни цинкового покрытия, ни окалины, поэтому завод покрывает её маслом, чтобы она не ржавела на складе. Обычная hot rolled steel покрыта тёмной окалиной и продаётся сухой (маслом покрыт только сорт pickled and oiled), galvanized защищает цинк, а медь не ржавеет.",
+  "why_en": "Cold rolled steel has no zinc coating and no mill scale, so the mill oils it to keep it from rusting in storage. Standard hot rolled steel carries dark mill scale and is usually sold dry (only the pickled-and-oiled grade is oiled), galvanized is protected by its zinc, and copper does not rust. Note: not confirmed by a graded key.",
+  "why_ru": "У cold rolled steel нет ни цинкового покрытия, ни окалины, поэтому завод покрывает её маслом, чтобы она не ржавела на складе. Обычная hot rolled steel покрыта тёмной окалиной и продаётся сухой (маслом покрыт только сорт pickled and oiled), galvanized защищает цинк, а медь не ржавеет. Внимание: проверенного ключа нет.",
   "flag": null
  },
  {
@@ -499,8 +499,8 @@
    "очень блестящий",
    "масляный"
   ],
-  "why_en": "Stainless finish numbers run from dull to bright: No. 2B is a dull mill finish, No. 4 is brushed (satin), and No. 8 is a polished mirror finish, the shiniest standard one.",
-  "why_ru": "Номера финиша stainless идут от тусклого к блестящему: No. 2B — тусклый заводской, No. 4 — шлифованный (brushed, satin), No. 8 — полированный до зеркала, самый блестящий из стандартных.",
+  "why_en": "Stainless finish numbers run from dull to bright: No. 1 and 2D are dull mill finishes, 2B is smooth and moderately reflective, No. 4 is brushed (satin), and No. 8 is a polished mirror finish, the shiniest standard one.",
+  "why_ru": "Номера финиша stainless идут от тусклого к блестящему: No. 1 и 2D — тусклые заводские, 2B — гладкий, умеренно отражающий, No. 4 — шлифованный (brushed, satin), No. 8 — полированный до зеркала, самый блестящий из стандартных.",
   "flag": null
  },
  {

@@ -1100,7 +1100,7 @@
  {
   "src": "T90",
   "n": 53,
-  "q": "You're tasked to set up an extension ladder on a 12' high wall. Following OSHA's regulations and standards for setting up a portable ladder, what is the minimum distance you need to extend the ladder to comply with OSHA's standards? Round answer off to the nearest inch. 1926.1053(b)(1): side rails shall extend at least 3 feet above the upper landing surface. 1926.1053(b)(5)(i): the horizontal distance from the top support to the foot of the ladder is approximately one quarter of the working length of the ladder.",
+  "q": "You're tasked to set up an extension ladder on a 12' high wall. Following Osha's regulations and standards (see below) for setting up a portable ladder. What is the minimum distance you need to extend the ladder to comply with OSHA's standards? Round answer off to the nearest inch. 1926.1053(b)(1) When portable ladders are used for access to an upper landing surface, the ladder side rails shall extend at least 3 feet (.9 m) above the upper landing surface to which the ladder is used to gain access. 1926.1053(b) (5)(i) Non-self-supporting ladders shall be used at an angle such that the horizontal distance from the top support to the foot of the ladder is approximately one quarter of the working length of the ladder (the distance along the ladder between the foot and the top support).",
   "opts": [
    "15'-5\"",
    "192\"",
@@ -1849,7 +1849,7 @@
  {
   "src": "T90",
   "n": 90,
-  "q": "Solve outside wall angle \"A\". Round number to nearest whole degree.",
+  "q": "Solve outside wall angle \"A\". round number to nearest whole degree",
   "opts": [
    "41 degrees",
    "49 degrees",

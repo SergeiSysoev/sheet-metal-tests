@@ -1,7 +1,7 @@
 """Build questions.js from data/*_base.json + data/*_content_*.json.
 Checks: English text untouched, answers in range, RU options aligned, topics valid, figure files present.
 Run: python3 tools/build_questions.py"""
-import json, pathlib, sys
+import json, pathlib, sys, re, hashlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 D = ROOT / 'data'
@@ -25,15 +25,31 @@ SOURCES = {
             'sub': {'en': 'Monday written test, graded key', 'ru': 'Письменный тест понедельника, проверенный ключ'},
             'short': {'en': 'Welding & Layout', 'ru': 'Welding & Layout'}},
     'FRI': {'name': {'en': 'SMY2W2 Friday Written — Math / Welding', 'ru': 'SMY2W2 Friday Written — математика / сварка'},
-            'sub': {'en': "Last year's Friday test: only the questions not already in Welding & Layout", 'ru': 'Пятничный тест прошлого года: только вопросы, которых нет в Welding & Layout'},
+            'sub': {'en': "Last year's Friday test: questions not already in Welding & Layout", 'ru': 'Пятничный тест прошлого года: только вопросы, которых нет в Welding & Layout'},
             'short': {'en': 'Friday Written', 'ru': 'Friday Written'}},
     'MON': {'name': {'en': 'SMY2W2 Monday Written', 'ru': 'SMY2W2 Monday Written'},
             'sub': {'en': "Last year's Monday test: questions not already in the tests above", 'ru': 'Тест понедельника прошлого года: вопросы, которых нет в тестах выше'},
             'short': {'en': 'Monday Written', 'ru': 'Monday Written'}},
+    'Y1W3': {'name': {'en': 'SMY1W3 Monday Review = Trade Intro Final', 'ru': 'SMY1W3 Monday Review = Trade Intro Final'}, 'sub': {'en': '1st year: trade intro, shop standards, math', 'ru': '1-й год: введение в профессию, shop standards, математика'}, 'short': {'en': 'SMY1W3 Monday', 'ru': 'SMY1W3 Monday'}},
+    'BRZ': {'name': {'en': 'SMY1W3 Friday — Brazing & Soldering', 'ru': 'SMY1W3 Friday — brazing и soldering'}, 'sub': {'en': 'TotalTrack, official key', 'ru': 'TotalTrack, официальный ключ'}, 'short': {'en': 'Brazing', 'ru': 'Brazing'}},
+    'FSD': {'name': {'en': 'Fire & Smoke Damper Technician (FSD units 1–6)', 'ru': 'Fire & Smoke Damper Technician (FSD, части 1–6)'}, 'sub': {'en': 'TotalTrack, official key', 'ru': 'TotalTrack, официальный ключ'}, 'short': {'en': 'FSD', 'ru': 'FSD'}},
+    'Y1W5F': {'name': {'en': 'SMY1W5 Friday Written — Ortho & Ogee', 'ru': 'SMY1W5 Friday Written — Ortho & Ogee'}, 'sub': {'en': '1st year Friday test', 'ru': 'Пятничный тест 1-го года'}, 'short': {'en': 'SMY1W5 Friday', 'ru': 'SMY1W5 Friday'}},
+    'Y1W5M': {'name': {'en': 'SMY1W5 Monday Written/Math — Ortho & Ogee Offsets', 'ru': 'SMY1W5 Monday Written/Math — Ortho & Ogee Offsets'}, 'sub': {'en': '1st year Monday test', 'ru': 'Тест понедельника 1-го года'}, 'short': {'en': 'SMY1W5 Monday', 'ru': 'SMY1W5 Monday'}},
+    'Y2W3M': {'name': {'en': 'SMY2W3 Monday Written Review', 'ru': 'SMY2W3 Monday Written Review'}, 'sub': {'en': '2nd year, week 3', 'ru': '2-й год, неделя 3'}, 'short': {'en': 'SMY2W3 Monday', 'ru': 'SMY2W3 Monday'}},
+    'Y2W3F': {'name': {'en': 'SMY2W3 Friday Written', 'ru': 'SMY2W3 Friday Written'}, 'sub': {'en': '2nd year, week 3', 'ru': '2-й год, неделя 3'}, 'short': {'en': 'SMY2W3 Friday', 'ru': 'SMY2W3 Friday'}},
+    'Y2W4M': {'name': {'en': 'SMY2W4 Fitting Review — Monday Written', 'ru': 'SMY2W4 Fitting Review — Monday Written'}, 'sub': {'en': '2nd year, week 4', 'ru': '2-й год, неделя 4'}, 'short': {'en': 'SMY2W4 Monday', 'ru': 'SMY2W4 Monday'}},
+    'Y2W4F': {'name': {'en': 'SMY2W4 Friday Written/Math', 'ru': 'SMY2W4 Friday Written/Math'}, 'sub': {'en': '2nd year, week 4', 'ru': '2-й год, неделя 4'}, 'short': {'en': 'SMY2W4 Friday', 'ru': 'SMY2W4 Friday'}},
+    'Y2W5M': {'name': {'en': 'SMY2W5 Intro to Arch Metals — Monday Written Review', 'ru': 'SMY2W5 Intro to Arch Metals — Monday Written Review'}, 'sub': {'en': '2nd year, week 5', 'ru': '2-й год, неделя 5'}, 'short': {'en': 'SMY2W5 Monday', 'ru': 'SMY2W5 Monday'}},
+    'Y2W5Y': {'name': {'en': 'SMY2W5 Year End Cumulative Written Exam', 'ru': 'SMY2W5 Year End Cumulative Written Exam'}, 'sub': {'en': '2nd year, end of year', 'ru': '2-й год, итоговый экзамен года'}, 'short': {'en': 'Year End', 'ru': 'Year End'}},
+    'FIN5': {'name': {'en': '005 Final Written Test', 'ru': '005 Final Written Test'}, 'sub': {'en': 'Final written test', 'ru': 'Итоговый письменный тест'}, 'short': {'en': '005 Final', 'ru': '005 Final'}},
+    'APR': {'name': {'en': 'Written test (April)', 'ru': 'Письменный тест (апрель)'}, 'sub': {'en': 'Shop standards, tools, math', 'ru': 'Shop standards, инструменты, математика'}, 'short': {'en': 'April test', 'ru': 'April test'}},
     'TRI': {'name': {'en': 'SMY2W2 Triangulation quiz', 'ru': 'SMY2W2 Triangulation'},
             'sub': {'en': 'TotalTrack homework quiz, official key', 'ru': 'Домашний квиз TotalTrack, официальный ключ'},
             'short': {'en': 'Triangulation', 'ru': 'Triangulation'}},
 }
+SRC_ORDER = ['T90', 'FRI', 'MON', 'TRI', 'Y2W3M', 'Y2W3F', 'Y2W4M', 'Y2W4F', 'Y2W5M', 'Y2W5Y', 'Y1W3', 'Y1W5M', 'Y1W5F',
+             'APR', 'BRZ', 'FSD', 'FIN5']
+SOURCES = {k: SOURCES[k] for k in SRC_ORDER + [k for k in SOURCES if k not in SRC_ORDER]}
 HINT_RU = {
     'Round to 2 Decimals': 'Округлить до 2 знаков после запятой',
     'Convert to a 3 place decimal': 'Перевести в десятичную дробь с 3 знаками',
@@ -60,6 +76,7 @@ UI = {
     'footer': {'en': 'Free, no ads, no sign-up.', 'ru': 'Бесплатно, без рекламы и регистрации.'},
     'more_tools': {'en': 'More tools →', 'ru': 'Другие инструменты →'},
     'original': {'en': 'Original', 'ru': 'Оригинал'},
+    'tap_to_enlarge': {'en': 'Tap the drawing to open it full size', 'ru': 'Нажми на чертёж, чтобы открыть его крупно'},
     'figure_alt': {'en': 'Drawing for the question', 'ru': 'Чертёж к вопросу'},
     'choose_prompt': {'en': 'Choose one answer', 'ru': 'Выбери один ответ'},
     'multi_prompt': {'en': 'Choose {N} answers, then press Check', 'ru': 'Выбери {N} ответа и нажми «Проверить»'},
@@ -89,7 +106,7 @@ def fig_file(src, fig):
 
 def main():
     out, problems, held = [], [], []
-    for base_path in sorted(D.glob('*_base.json')):
+    for base_path in sorted(D.glob('*_base.json'), key=lambda p: (not p.name.startswith('part'), p.name)):
         part = base_path.name[:-len('_base.json')]
         base = json.loads(base_path.read_text())
         content = {}
@@ -104,15 +121,20 @@ def main():
                     held.append(f'{b["src"]}-{b["n"]}'); continue
                 problems.append(f'{k}: no content'); continue
             qid = f"{b['src']}-{b['n']}"
+            if b['src'] not in SOURCES:
+                problems.append(f'{qid}: source {b["src"]} not in SOURCES')
             if c['topic'] not in TOPICS:
                 problems.append(f'{qid}: bad topic {c["topic"]}')
             item = {'id': qid, 'src': b['src'], 'n': b['n'], 'topic': c['topic'],
                     'q': {'en': b['q'], 'ru': c['ru_q']},
                     'why': {'en': c['why_en'], 'ru': c['why_ru']}}
             if b.get('hint'):
-                item['hint'] = {'en': b['hint'], 'ru': HINT_RU[b['hint']]}
+                ru_h = c.get('ru_hint') or HINT_RU.get(b['hint'])
+                if not ru_h:
+                    problems.append(f'{qid}: hint without Russian')
+                item['hint'] = {'en': b['hint'], 'ru': ru_h or b['hint']}
             if b.get('kind') == 'text':
-                item.update(type='input', answer={'accept': b['accept'], 'text': b['answer_text'], 'prefix': ''})
+                item.update(type='input', answer={'accept': b['accept'], 'reject': b.get('reject', []), 'text': b['answer_text'], 'prefix': ''})
             elif b.get('kind') == 'input':
                 v = float(b['input_answer'])
                 item.update(type='input', answer={'value': v, 'tol': 0.005, 'prefix': b.get('input_unit', ''), 'text': b['input_answer']})
@@ -135,6 +157,19 @@ def main():
                     problems.append(f'{qid}: figure {f} missing')
                 item['fig'] = f
             out.append(item)
+    # cross-test dedup (tests reuse questions with shuffled letters): keep the first occurrence
+    norm = lambda t: re.sub(r'[^a-z0-9]+', ' ', t.lower()).strip()
+    seen, kept, dups = {}, [], []
+    for it in out:
+        figsig = hashlib.md5((ROOT / 'img' / it['fig']).read_bytes()).hexdigest() if it.get('fig') else ''
+        opts = tuple(sorted(norm(o['en']) for o in it.get('opts', [])))
+        sig = (norm(it['q']['en']), opts, figsig, json.dumps(it.get('hint'), sort_keys=True))
+        if sig in seen:
+            dups.append(f"{it['id']}={seen[sig]}"); continue
+        seen[sig] = it['id']; kept.append(it)
+    out = kept
+    if dups:
+        print('Duplicates dropped:', ', '.join(dups))
     if held:
         print('HELD BACK until the drawing exists:', ', '.join(held))
     if problems:

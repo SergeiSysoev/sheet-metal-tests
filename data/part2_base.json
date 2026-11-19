@@ -984,7 +984,7 @@
    "Both"
   ],
   "answer": [
-   2
+   1
   ],
   "note_ru": null,
   "fig": null,
@@ -1222,9 +1222,16 @@
   "page": 19,
   "kind": "text",
   "accept": [
-   "lighter"
+   "lighter",
+   "светлее",
+   "светлей"
   ],
-  "answer_text": "Lighter"
+  "answer_text": "Lighter",
+  "reject": [
+   "darker",
+   "темнее",
+   "темней"
+  ]
  },
  {
   "src": "MON",

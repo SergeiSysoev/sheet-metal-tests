@@ -1,679 +1,679 @@
 [
-  {
-    "src": "T90",
-    "n": 1,
-    "topic": "welding",
-    "ru_q": "Что означают принципы сварки DASH?",
-    "ru_opts": [
-      "Distance (расстояние), Amperage (ток), Speed (скорость), Heat (нагрев)",
-      "Distance (расстояние), Angle (угол), Speed (скорость), Height (высота)",
-      "Drag (протяжка), Angle (угол), Sparks (искры), Heat (нагрев)",
-      "Distance (расстояние), Angle (угол), Speed (скорость), Heat (нагрев)"
-    ],
-    "why_en": "DASH = Distance (arc length), Angle (electrode angle), Speed (travel speed), Heat (amperage): the four things the welder controls. Amperage is covered by Heat, not a separate letter; height, drag and sparks are not DASH terms.",
-    "why_ru": "DASH = Distance (длина дуги), Angle (угол electrode), Speed (скорость сварки), Heat (ток): четыре параметра, которыми управляет сварщик. Ток входит в Heat, отдельной буквы у него нет; height, drag и sparks в DASH не входят.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 2,
-    "topic": "safety",
-    "ru_q": "Самый распространённый номер затемнения filter lens для SMAW:",
-    "ru_opts": [
-      "#2",
-      "#H",
-      "#10",
-      "#8"
-    ],
-    "why_en": "Shade #10 is the standard filter for SMAW with common electrodes (course manual p. 15; OSHA 1926.102 gives shade 10 for 1/16\"–5/32\" electrodes). The higher the number, the darker the lens: #2 is far too light for an arc, #8 is only the OSHA minimum at low current, and #H is not a shade number.",
-    "why_ru": "Shade #10 — стандартный светофильтр для SMAW с обычными electrode (учебник курса, стр. 15; OSHA 1926.102 даёт shade 10 для electrode 1/16\"–5/32\"). Чем больше номер, тем темнее: #2 для дуги слишком светлый, #8 — лишь минимум OSHA на малом токе, а #H вообще не номер затемнения.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 3,
-    "topic": "welding",
-    "ru_q": "SMAW не следует применять на материале тоньше ____ gage.",
-    "ru_opts": [
-      "18",
-      "16",
-      "14",
-      "12"
-    ],
-    "why_en": "Stick welding puts a lot of heat into the metal and burns through thin sheet, so metal lighter than 18 gauge (0.0478\") is seldom welded with SMAW (course manual p. 11). \"Less than 18 gauge\" means thinner, i.e. a higher number such as 20 or 22; 16, 14 and 12 gauge are thicker and can be stick welded.",
-    "why_ru": "Stick даёт много тепла и прожигает тонкий лист, поэтому металл тоньше 18 gauge (0.0478\") SMAW почти не варят (учебник курса, стр. 11). «Тоньше 18 gauge» — это номер больше: 20, 22; 16, 14 и 12 gauge толще, их stick варит.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 4,
-    "topic": "welding",
-    "ru_q": "Какой тип источника питания используется в SMAW?",
-    "ru_opts": [
-      "Constant Potential",
-      "Constant Current",
-      "Constant Voltage",
-      "Variable Current"
-    ],
-    "why_en": "SMAW uses a constant current (CC) machine: the welder sets the amperage, and it stays nearly the same when the arc length changes with hand movement. Constant voltage (also called constant potential) is the GMAW machine; \"variable current\" is not a machine type.",
-    "why_ru": "Для SMAW нужен источник constant current (CC): сварщик задаёт ток, и он почти не меняется, когда длина дуги гуляет от движения руки. Constant voltage (он же constant potential) — источник для GMAW; «variable current» — не тип машины.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 5,
-    "topic": "welding",
-    "ru_q": "В SMAW, если electrode требует straight polarity, нужно ____.",
-    "ru_opts": [
-      "подключить electrode к положительной клемме, а ground — к отрицательной",
-      "подключить electrode к отрицательной клемме, а ground — к положительной",
-      "подключить electrode к клемме AC, а ground — к DC",
-      "подключить electrode к отрицательной клемме, а ground — к base metal"
-    ],
-    "why_en": "For points pick d: straight polarity = DCEN, so the electrode goes to the negative terminal and the ground (work) clamp goes on the base metal. b is also technically correct: DCEN by definition means electrode lead to negative and work lead to positive (course manual ITI p. 13), the same wording the key accepts for reverse polarity in question 24.",
-    "why_ru": "Для балла ставьте d: straight polarity = DCEN, electrode — на отрицательную клемму, ground (work clamp) — на base metal. b технически тоже верен: DCEN по определению — electrode на минус, work clamp на плюс (учебник курса ITI, стр. 13), и ту же формулировку ключ засчитывает для reverse polarity в вопросе 24.",
-    "flag": "Disputed: key d. b is technically also correct (ITI manual p. 13: DCEN = holder to −, work clamp to +; the key accepts the same wording for reverse polarity in №24). Points were taken off for b on 16.11.2026."
-  },
-  {
-    "src": "T90",
-    "n": 6,
-    "topic": "safety",
-    "ru_q": "Выберите лучший ответ. Какие меры безопасности нужно принять перед началом сварки или резки?",
-    "ru_opts": [
-      "Убрать мусор с рабочего места.",
-      "Предупредить тех, кто работает рядом.",
-      "Получить разрешение заказчика.",
-      "Всё перечисленное"
-    ],
-    "why_en": "All three are required: clear combustible debris (sparks can fly up to 35 ft), warn people nearby about the arc and sparks, and get the customer's approval, which on a jobsite is the hot work permit.",
-    "why_ru": "Нужны все три: убрать горючий мусор (искры разлетаются до 35 ft), предупредить людей рядом о дуге и искрах и получить разрешение заказчика — на объекте это hot work permit.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 7,
-    "topic": "welding",
-    "ru_q": "Multiple Choice: выберите лучший ответ. Сварка base material многими короткими участками называется:",
-    "ru_opts": [
-      "Stitching.",
-      "Stud.",
-      "Tacking."
-    ],
-    "why_en": "Stitch (intermittent) welding lays the weld in short sections along the joint, which limits heat and distortion on thin metal. Tacking is short temporary welds that only hold the parts before the final weld; stud welding attaches studs.",
-    "why_ru": "Stitch (прерывистая) сварка — шов короткими участками вдоль соединения, так меньше тепла и коробления на тонком металле. Tacking — короткие временные прихватки, которые только держат детали до основной сварки; stud — приварка шпилек.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 8,
-    "topic": "trade",
-    "ru_q": "Если политика заказчика требует пройти тест на наркотики или психологическое тестирование, прежде чем допустить вас к работе в ответственных или напряжённых зонах, вы должны:",
-    "ru_opts": [
-      "Сослаться на право на частную жизнь и отказаться от любых таких тестов.",
-      "Найти человека, который не употребляет наркотики, и отправить его на тесты вместо себя.",
-      "Сказать работодателю, что вы, скорее всего, не пройдёте такие тесты, и попросить не направлять вас на этот объект.",
-      "Признать обоснованность политики заказчика, пройти любые разумные проверки и всеми силами показать себя надёжным работником.",
-      "Ни один ответ не верен"
-    ],
-    "why_en": "The customer sets the rules for its site: accept reasonable testing and show you are dependable, and you keep yourself and your employer on the job. Refusing costs the job, sending someone in your place is fraud, and asking off the site tells your employer you have a problem.",
-    "why_ru": "Правила на своём объекте устанавливает заказчик: пройти разумные проверки и показать себя надёжным — так вы сохраняете работу себе и работодателю. Отказ стоит работы, подставной человек — это обман, а просьба не посылать на объект говорит работодателю, что у вас проблема.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 9,
-    "topic": "welding",
-    "ru_q": "Чтобы шов можно было зашлифовать до гладкой поверхности, важно ____.",
-    "ru_opts": [
-      "Использовать braze welding на соединении",
-      "Использовать fusion welding на соединении",
-      "Наплавить достаточно металла, чтобы заполнить соединение",
-      "Использовать chill bar для отвода тепла"
-    ],
-    "why_en": "Grinding removes metal, so the joint must first be filled with enough weld, slightly above the surface; if the bead is low, grinding leaves a dip or cuts into the base metal. Braze or fusion welding and a chill bar do not make up for missing weld metal.",
-    "why_ru": "Шлифовка снимает металл, поэтому сначала соединение надо заполнить швом с небольшим запасом над поверхностью; если шов низкий, после шлифовки останется впадина или пострадает base metal. Braze или fusion welding и chill bar недостающий металл не заменят.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 10,
-    "topic": "welding",
-    "ru_q": "Размер electrode выбирают в зависимости от ____ свариваемого материала.",
-    "ru_opts": [
-      "Цвета",
-      "Толщины",
-      "Жаростойкости",
-      "Температуры плавления"
-    ],
-    "why_en": "Thicker metal needs more heat and a larger electrode diameter; thin metal needs a small electrode to avoid burn-through (course manual p. 12: current depends on base metal thickness and electrode diameter). The kind of metal decides the electrode classification, not its size.",
-    "why_ru": "Толстому металлу нужно больше тепла и electrode большего диаметра, тонкому — маленький electrode, чтобы не прожечь (учебник курса, стр. 12: ток зависит от толщины base metal и диаметра electrode). Вид металла определяет марку electrode, а не его размер.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 11,
-    "topic": "weldsym",
-    "ru_q": "____ — это полный набор сокращённых инструкций, которым передают нужную информацию о сварке всем участникам, прежде всего сварщику.",
-    "ru_opts": [
-      "Welding symbol",
-      "Procedure check list",
-      "Reference line",
-      "Arrow"
-    ],
-    "why_en": "The welding symbol is the whole sign: reference line, arrow, weld symbol, dimensions and tail together (AWS A2.4). The reference line and the arrow are only parts of it.",
-    "why_ru": "Welding symbol — весь знак целиком: reference line, arrow, weld symbol, размеры и tail (AWS A2.4). Reference line и arrow — только его части.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 12,
-    "topic": "weldsym",
-    "ru_q": "Если welding symbol указывает на соединение, которое нужно сварить, а знак типа шва стоит над reference line, варить нужно ____.",
-    "ru_opts": [
-      "с обеих сторон",
-      "с противоположной стороны",
-      "с arrow side",
-      "со всех сторон"
-    ],
-    "why_en": "A weld symbol below the reference line means the arrow side; above the line means the other side, opposite the arrow. Symbols on both sides of the line mean both sides.",
-    "why_ru": "Знак шва под reference line — arrow side, над линией — other side, то есть сторона напротив стрелки. Знаки по обе стороны линии — сварка с обеих сторон.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 13,
-    "topic": "weldsym",
-    "ru_q": "____ — обязательный элемент, всегда горизонтальный; это постоянное звено, к которому привязаны все остальные знаки сварки.",
-    "ru_opts": [
-      "Welding symbol",
-      "Weld symbol",
-      "Reference line",
-      "Arrow"
-    ],
-    "why_en": "The reference line is the horizontal line every welding symbol has; the arrow, weld symbols, dimensions and tail all attach to it. The arrow can point at any angle, so it is not always horizontal.",
-    "why_ru": "Reference line — горизонтальная линия, которая есть в любом welding symbol; к ней крепятся arrow, weld symbols, размеры и tail. Arrow может идти под любым углом, поэтому «всегда горизонтальный» — не про неё.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 14,
-    "topic": "weldsym",
-    "ru_q": "____ соединяет reference line с соединением, которое нужно сварить.",
-    "ru_opts": [
-      "Welding symbol",
-      "Weld symbol",
-      "Reference line",
-      "Arrow"
-    ],
-    "why_en": "The arrow leads from the reference line to the joint; the side of the joint it touches is the arrow side. The reference line itself stays horizontal and does not touch the joint.",
-    "why_ru": "Arrow идёт от reference line к соединению; сторона, которой она касается, — arrow side. Сама reference line горизонтальна и соединения не касается.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 15,
-    "topic": "materials",
-    "ru_q": "В общем случае, поскольку gauge обычно определяется тем, сколько листов помещается в заданный размер, меньший номер gauge означает, что каждый лист ____, а больший номер — что каждый лист ____.",
-    "ru_opts": [
-      "Тоньше, толще",
-      "Более ковкий, менее ковкий",
-      "Толще, тоньше",
-      "Менее ковкий, более ковкий",
-      "Легче, тяжелее"
-    ],
-    "why_en": "Fewer sheets fit in the same measurement only if each sheet is thicker, so a lower number is thicker: 10 ga = 0.1345\", 16 ga = 0.0598\", 22 ga = 0.0299\". A thicker sheet is also heavier, so \"lighter, heavier\" is backwards; malleability does not depend on gauge.",
-    "why_ru": "В тот же размер помещается меньше листов, только если каждый толще, поэтому меньший номер — толще: 10 ga = 0.1345\", 16 ga = 0.0598\", 22 ga = 0.0299\". Толстый лист и тяжелее, так что «легче, тяжелее» — наоборот; ковкость от gauge не зависит.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 16,
-    "topic": "materials",
-    "ru_q": "В общем случае толщина листового металла уменьшается вдвое примерно через каждые ____ номеров gauge.",
-    "ru_opts": [
-      "Два",
-      "Четыре",
-      "Шесть",
-      "Дюжину",
-      "Две дюжины"
-    ],
-    "why_en": "Thickness roughly halves every 6 gauge numbers: 16 ga 0.0598\" → 22 ga 0.0299\" (0.0598 ÷ 0.0299 = 2.00); 10 ga 0.1345\" → 16 ga 0.0598\" (ratio 2.25). The rule is approximate and closest on the thinner gauges.",
-    "why_ru": "Толщина уменьшается примерно вдвое через 6 номеров: 16 ga 0.0598\" → 22 ga 0.0299\" (0.0598 ÷ 0.0299 = 2.00); 10 ga 0.1345\" → 16 ga 0.0598\" (отношение 2.25). Правило приближённое, точнее всего на тонких gauge.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 17,
-    "topic": "materials",
-    "ru_q": "«Ferritic» металл — это металл, который:",
-    "ru_opts": [
-      "Плавится при низких температурах",
-      "Выдерживает очень высокие температуры",
-      "Содержит железо",
-      "Похож на хорька"
-    ],
-    "why_en": "\"Ferritic\" comes from Latin ferrum, iron: the metal is iron-based (carbon steel, ferritic stainless such as 430) and is magnetic. The word says nothing about melting temperature.",
-    "why_ru": "«Ferritic» — от латинского ferrum, железо: металл на основе железа (углеродистая сталь, ferritic stainless, например 430), он магнитится. О температуре плавления это слово ничего не говорит.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 18,
-    "topic": "safety",
-    "ru_q": "Федеральное ведомство, которое существует для защиты работников на работе:",
-    "ru_opts": [
-      "FDIC",
-      "NASA",
-      "OSHA",
-      "EPA",
-      "USGS"
-    ],
-    "why_en": "OSHA (Occupational Safety and Health Administration, U.S. Department of Labor) sets and enforces workplace safety rules; in Washington the state program is L&I DOSH under WISHA. FDIC insures bank deposits, EPA protects the environment, USGS studies geology, NASA runs the space program.",
-    "why_ru": "OSHA (Occupational Safety and Health Administration, Министерство труда США) устанавливает правила безопасности на работе и следит за ними; в штате Washington это L&I DOSH по закону WISHA. FDIC страхует банковские вклады, EPA охраняет окружающую среду, USGS занимается геологией, NASA — космосом.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 19,
-    "topic": "safety",
-    "ru_q": "Опасное или токсичное вещество может попасть в организм через:",
-    "ru_opts": [
-      "Вдыхание (дыхание)",
-      "Впитывание (через кожу или глаза)",
-      "Проглатывание (еда, питьё, глотание)",
-      "Инъекцию",
-      "Все ответы верны"
-    ],
-    "why_en": "There are four routes of entry: inhalation, absorption through skin or eyes, ingestion, and injection (a puncture by a sharp contaminated object). The SDS lists the likely routes for each product (Section 11).",
-    "why_ru": "Путей попадания четыре: вдыхание, впитывание через кожу или глаза, проглатывание и инъекция (прокол острым загрязнённым предметом). Пути для каждого вещества указаны в SDS (Section 11).",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 20,
-    "topic": "welding",
-    "ru_q": "Какой тип источника питания у машин GMAW?",
-    "ru_opts": [
-      "Automatic Machine",
-      "Constant Variable",
-      "Constant Current",
-      "Constant Voltage"
-    ],
-    "why_en": "GMAW (MIG) machines are constant voltage (CV): the welder sets the voltage, which holds the arc length, and the current follows the wire feed speed. Constant current is the stick (SMAW) machine; \"constant variable\" is not a machine type.",
-    "why_ru": "Машины GMAW (MIG) — constant voltage (CV): сварщик задаёт напряжение, оно держит длину дуги, а ток следует за wire feed speed. Constant current — машина для stick (SMAW); «constant variable» — не тип машины.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 21,
-    "topic": "welding",
-    "ru_q": "В GMAW wire feed speed управляет ____.",
-    "ru_opts": [
-      "hertz (частота)",
-      "Amperage (ток)",
-      "Load Voltage (напряжение под нагрузкой)",
-      "Open Circuit Voltage (напряжение холостого хода)"
-    ],
-    "why_en": "On a CV machine, feeding wire faster takes more current to melt it, so wire feed speed sets the amperage, while the voltage knob sets arc length. Hertz is AC frequency; open circuit voltage is the voltage with no arc.",
-    "why_ru": "На машине CV чем быстрее подаётся проволока, тем больше ток, который её плавит, поэтому wire feed speed задаёт ток, а регулятор voltage — длину дуги. Hertz — частота переменного тока; open circuit voltage — напряжение без дуги.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 22,
-    "topic": "welding",
-    "ru_q": "Другое название DCEN — ____.",
-    "ru_opts": [
-      "DCEP",
-      "AC",
-      "Reverse Polarity",
-      "Straight Polarity"
-    ],
-    "why_en": "DCEN (direct current electrode negative) is called straight polarity; DCEP (electrode positive) is reverse polarity. AC has no fixed polarity.",
-    "why_ru": "DCEN (direct current electrode negative) называют straight polarity; DCEP (electrode positive) — reverse polarity. У AC постоянной полярности нет.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 23,
-    "topic": "welding",
-    "ru_q": "Какой tensile strength у electrode E7018?",
-    "ru_opts": [
-      "1800 lbs.",
-      "18000 lbs.",
-      "7000 lbs.",
-      "70000 lbs."
-    ],
-    "why_en": "In E7018 the first two digits, 70, are the minimum tensile strength of the weld metal in ksi: 70 × 1,000 = 70,000 psi. The options print \"lbs.\", but the unit is pounds per square inch; \"1\" means all positions and \"8\" the low-hydrogen coating.",
-    "why_ru": "В E7018 первые две цифры, 70, — минимальный tensile strength металла шва в ksi: 70 × 1,000 = 70,000 psi. В вариантах написано «lbs.», а единица — фунты на квадратный дюйм (psi); «1» — все положения, «8» — low-hydrogen покрытие.",
-    "flag": "Options say \"lbs.\"; the correct unit is psi (70 ksi = 70,000 psi). Kept as printed."
-  },
-  {
-    "src": "T90",
-    "n": 24,
-    "topic": "welding",
-    "ru_q": "В SMAW, если electrode требует reverse polarity, нужно ____.",
-    "ru_opts": [
-      "подключить electrode к положительной клемме, а ground — к отрицательной",
-      "подключить electrode к отрицательной клемме, а ground — к положительной",
-      "подключить electrode к клемме AC, а ground — к DC",
-      "подключить electrode к отрицательной клемме, а ground — к base metal"
-    ],
-    "why_en": "Reverse polarity = DCEP: the electrode lead goes to the positive terminal and the work (ground) lead to the negative terminal. b and d are straight polarity (DCEN), and c is impossible: AC and DC are not mixed in one circuit.",
-    "why_ru": "Reverse polarity = DCEP: electrode — на положительную клемму, ground (work clamp) — на отрицательную. b и d — это straight polarity (DCEN), а c невозможен: AC и DC в одной цепи не смешивают.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 25,
-    "topic": "weldsym",
-    "ru_q": "Этот знак показывает ____ тип шва.",
-    "ru_opts": [
-      "scarf",
-      "bevel",
-      "fillet",
-      "corner"
-    ],
-    "why_en": "A right triangle on the reference line, with its vertical leg on the left, is the fillet weld symbol. A bevel is drawn as a vertical line plus a slanted line with no third side; scarf is a brazed joint and corner is a joint type, not a weld symbol.",
-    "why_ru": "Прямоугольный треугольник на reference line, вертикальный катет слева, — знак fillet. Bevel рисуют вертикальной и наклонной чертой без третьей стороны; scarf — соединение под brazing, а corner — тип соединения, а не знак шва.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 26,
-    "topic": "welding",
-    "ru_q": "Правильный угол bevel одной детали под «V» groove weld — ____.",
-    "ru_opts": [
-      "15°",
-      "22.5°",
-      "30°",
-      "45°"
-    ],
-    "why_en": "A standard single-V groove (AWS D1.1 prequalified joint B-U2) has a 60° included angle shared by two plates, so each plate is beveled 60° ÷ 2 = 30°. 22.5° per plate (45° groove) is a special prequalified joint used only with steel backing and a 1/4\" root opening (B-U2a), so it is not the general answer.",
-    "why_ru": "Стандартный single-V groove (prequalified соединение AWS D1.1 B-U2) — разделка 60° на две детали, значит, каждая скашивается на 60° ÷ 2 = 30°. 22.5° на деталь (разделка 45°) — частный случай только с подкладкой (backing) и зазором 1/4\" (B-U2a), поэтому общим ответом он не является.",
-    "flag": "Typo in original: \"grove\" = groove. Instructor wrote \"more correct\" next to 22.5°, but 30° was credited and is the AWS D1.1 B-U2 value (60° groove); 22.5° fits only the backed joint B-U2a."
-  },
-  {
-    "src": "T90",
-    "n": 27,
-    "topic": "weldsym",
-    "ru_q": "Какой тип шва обозначает этот знак:",
-    "ru_opts": [
-      "scarf",
-      "groove",
-      "fillet",
-      "square"
-    ],
-    "why_en": "Two parallel vertical lines on the reference line are the square-groove weld symbol: the plate edges stay square, with no bevel. A square weld is technically one kind of groove weld, so \"groove\" is not absurd, but the symbol names the specific type, square; a fillet would be a triangle.",
-    "why_ru": "Две параллельные вертикальные черты на reference line — знак square-groove: кромки остаются прямыми, без bevel. Формально square — разновидность groove, поэтому «groove» не абсурд, но знак называет конкретный тип — square; fillet был бы треугольником.",
-    "flag": "Square is a square-groove weld, so b \"groove\" is broader but not wrong; d is the specific, keyed answer."
-  },
-  {
-    "src": "T90",
-    "n": 28,
-    "topic": "materials",
-    "ru_q": "Напряжение, при котором металл разрывается, называется ____.",
-    "ru_opts": [
-      "Hardness (твёрдость)",
-      "Ductility (пластичность)",
-      "Yield strength (предел текучести)",
-      "Tensile strength (предел прочности)"
-    ],
-    "why_en": "Tensile strength is the highest stress the metal takes in a pull test before it tears apart (E7018 weld metal: at least 70,000 psi). Yield strength is lower: the point where the metal starts to stretch permanently but does not break yet.",
-    "why_ru": "Tensile strength — наибольшее напряжение, которое металл выдерживает на растяжение, прежде чем разорваться (металл шва E7018: не меньше 70,000 psi). Yield strength ниже: с него металл начинает необратимо тянуться, но ещё не рвётся.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 29,
-    "topic": "safety",
-    "ru_q": "Какого цвета обычно шланги для кислорода (oxygen)?",
-    "ru_opts": [
-      "Зелёный",
-      "Красный",
-      "Синий",
-      "Жёлтый"
-    ],
-    "why_en": "In the U.S. the oxygen hose is green and the fuel gas hose (acetylene, propane) is red. Blue for oxygen is the European (ISO) color, a common trap; OSHA itself only requires the hoses to be easy to tell apart.",
-    "why_ru": "В США шланг oxygen — зелёный, шланг fuel gas (ацетилен, пропан) — красный. Синий для кислорода — европейский стандарт (ISO), частая ловушка; сам OSHA требует только, чтобы шланги легко различались.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 30,
-    "topic": "welding",
-    "ru_q": "Flux-покрытие на electrode:",
-    "ru_opts": [
-      "Даёт shielding gas",
-      "Пропускает атмосферу в расплавленный металл",
-      "Устраняет slag",
-      "Ускоряет остывание"
-    ],
-    "why_en": "When the flux burns it gives off a shielding gas that keeps air out of the molten weld, and it leaves slag over the bead (course manual p. 12). So it keeps the atmosphere out, it creates slag instead of eliminating it, and the slag cover slows cooling.",
-    "why_ru": "Сгорая, flux выделяет shielding gas, который не пускает воздух к расплавленному шву, и оставляет на валике slag (учебник курса, стр. 12). Значит, атмосферу он не пропускает, slag не устраняет, а создаёт, и под слоем slag шов остывает медленнее.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 31,
-    "topic": "welding",
-    "ru_q": "Gas Metal Arc Welding также называют:",
-    "ru_opts": [
-      "Stick Welding",
-      "Soldering",
-      "Flux core welding",
-      "MIG welding"
-    ],
-    "why_en": "GMAW is MIG (metal inert gas) welding: solid wire fed through the gun, with shielding gas from a cylinder. Stick is SMAW, flux core is FCAW (tubular wire with flux inside), and soldering is not arc welding at all.",
-    "why_ru": "GMAW — это MIG (metal inert gas): сплошная проволока подаётся через горелку, shielding gas идёт из баллона. Stick — это SMAW, flux core — FCAW (трубчатая проволока с flux внутри), а soldering — пайка, вообще не дуговая сварка.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 32,
-    "topic": "welding",
-    "ru_q": "Какой inert gas лучше всего использовать для тонкого металла?",
-    "ru_opts": [
-      "Argon",
-      "Oxygen",
-      "Carbon Dioxide",
-      "Helium"
-    ],
-    "why_en": "Argon is inert and gives a cooler, stable arc, so it is the gas for thin metal. Helium is also inert but runs a hotter arc for thick metal; oxygen and carbon dioxide are not inert, they react with the weld.",
-    "why_ru": "Argon инертен и даёт более холодную, стабильную дугу — это газ для тонкого металла. Helium тоже инертен, но дуга горячее, он для толстого металла; oxygen и carbon dioxide не инертны, они реагируют с металлом шва.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 33,
-    "topic": "safety",
-    "ru_q": "Чтобы избежать лишнего воздействия сварочного дыма (fumes):",
-    "ru_opts": [
-      "Подождите 10 секунд, пока дым рассеется, прежде чем осматривать шов",
-      "Не варите на открытом воздухе",
-      "Варите в пылевой маске, как у маляров",
-      "Не варите во влажных условиях"
-    ],
-    "why_en": "Fumes keep rising from the hot weld for a few seconds after the arc stops, so wait about 10 seconds and keep your head out of the plume before inspecting. Welding outdoors actually helps ventilation, a painter's dust mask does not stop welding fume, and humidity does not create fumes.",
-    "why_ru": "Дым ещё несколько секунд поднимается от горячего шва после того, как дуга погасла, поэтому подождите около 10 секунд и не держите голову в столбе дыма. Сварка на улице как раз улучшает вентиляцию, малярная пылевая маска от сварочного дыма не защищает, а влажность дыма не создаёт.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 34,
-    "topic": "welding",
-    "ru_q": "Shielded Metal Arc Welding также называют:",
-    "ru_opts": [
-      "Pedal to metal",
-      "Arc art",
-      "Flux core welding",
-      "Stick welding"
-    ],
-    "why_en": "SMAW is called stick welding because it uses a coated electrode rod, a \"stick\". Flux core welding is FCAW, a wire-fed process; the other two are made-up names.",
-    "why_ru": "SMAW называют stick welding, потому что electrode — покрытый пруток, «палочка» (stick). Flux core welding — это FCAW, процесс с подачей проволоки; два других варианта — выдуманные названия.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 35,
-    "topic": "welding",
-    "ru_q": "Как в процессе GMAW устанавливают длину дуги?",
-    "ru_opts": [
-      "Регулятором wire feed speed.",
-      "Расходомером shielding gas.",
-      "Регулятором voltage.",
-      "Настройкой high frequency."
-    ],
-    "why_en": "On a CV machine the voltage setting holds the arc length: more voltage, longer arc. Wire feed speed sets the amperage, the flow meter sets gas flow, and high frequency is used to start a TIG arc.",
-    "why_ru": "На машине CV длину дуги держит напряжение: больше voltage — длиннее дуга. Wire feed speed задаёт ток, расходомер — расход газа, а high frequency служит для зажигания дуги в TIG.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 36,
-    "topic": "safety",
-    "ru_q": "Какие меры предосторожности нужно соблюдать при cracking баллонов?",
-    "ru_opts": [
-      "Наклонить баллон набок.",
-      "Встряхнуть баллон.",
-      "Положить его.",
-      "Встать сбоку от баллона."
-    ],
-    "why_en": "Cracking means opening the cylinder valve slightly for a moment to blow dirt out before attaching the regulator; stand to one side of the outlet, never in front of it (OSHA 1926.350(d)(1)). The cylinder stays upright and secured; tipping, shaking or laying it down is not part of cracking.",
-    "why_ru": "Cracking — кратко приоткрыть вентиль баллона, чтобы выдуть грязь перед установкой регулятора; стоять сбоку от выхода, никогда не напротив (OSHA 1926.350(d)(1)). Баллон стоит вертикально и закреплён; наклонять, трясти или класть его при cracking не нужно.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 37,
-    "topic": "welding",
-    "ru_q": "Все ground clamp должны иметь соединения:",
-    "ru_opts": [
-      "Паяные (soldered)",
-      "Сварные (welded)",
-      "Паяные (brazed)",
-      "Механические (mechanical)"
-    ],
-    "why_en": "Cable lugs and clamps are bolted or screwed on, a mechanical connection (course manual p. 32). A soldered joint conducts worse, heats up under welding current and can melt, breaking the circuit; a screw-type clamp is the best.",
-    "why_ru": "Наконечники кабеля и clamp крепят болтом или винтом — это механическое соединение (учебник курса, стр. 32). Пайка проводит хуже, греется от сварочного тока и может расплавиться и разорвать цепь; лучший clamp — винтовой (screw-type).",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 38,
-    "topic": "welding",
-    "ru_q": "Почти без исключений GMAW используется с:",
-    "ru_opts": [
-      "DCEP",
-      "DCEN",
-      "AC",
-      "DCHF"
-    ],
-    "why_en": "GMAW runs on DCEP (reverse polarity): it gives a stable arc, smooth metal transfer and deep penetration. With solid wire, DCEN gives an unstable, spattery arc (it is used only with some flux-cored wires), and AC is not used for standard MIG.",
-    "why_ru": "GMAW работает на DCEP (reverse polarity): стабильная дуга, ровный перенос металла и глубокий провар. Со сплошной проволокой DCEN даёт нестабильную дугу и брызги (его применяют только с некоторыми flux-cored проволоками), а AC в обычном MIG не используют.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 39,
-    "topic": "fittings",
-    "ru_q": "Вы делаете кусок duct под соединение Slip and Drive и отрезали его на 27\" по общей длине; его working length будет",
-    "ru_opts": [
-      "28\"",
-      "27\"",
-      "26\"",
-      "25\""
-    ],
-    "why_en": "S&D takes 1\" of metal on each end beyond the bend line, so working length = 27 − 1 − 1 = 25\". Trap: 26\" counts only 1/2\" per end (the 1/2\" on the formula sheet is added beyond drive-to-drive, not beyond working length).",
-    "why_ru": "S&D забирает 1\" металла на каждом конце за линией изгиба, поэтому working length = 27 − 1 − 1 = 25\". Ловушка: 26\" — это только по 1/2\" на конец (1/2\" из листа формул отсчитывают от drive-to-drive, а не от working length).",
-    "flag": "Typo in original: \"it's working length\" = its; no question mark. Kept as printed."
-  },
-  {
-    "src": "T90",
-    "n": 40,
-    "topic": "transitions",
-    "ru_q": "По plan и section view выберите transition для соединения duct.",
-    "ru_opts": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "why_en": "Section: bottom 7'-1\" → 7'-9\" (up 8\"), top 7'-1\" + 14\" = 8'-3\" → 7'-9\" + 8\" = 8'-5\" (up 2\"); A and B are both drawn with these 8\" and 2\" offsets and differ only in the label. They show the heights 14 and 8, so they are side views seen from the wall, and by course sheet 2I TOP is the face toward the viewer, here the wall face. In plan both ducts are 9½\" from the wall, so that face is flat → FOT → B; A (FOB) would need the room-side face flat, but it moves 20 − 16 = 4\". C says TOP UP 8\" (the top rises only 2\"); D has 2\" but its arrow points at the 20\"x14\" end, whose top is the lower one.",
-    "why_ru": "Section: низ 7'-1\" → 7'-9\" (вверх на 8\"), верх 7'-1\" + 14\" = 8'-3\" → 7'-9\" + 8\" = 8'-5\" (вверх на 2\"); A и B нарисованы с этими смещениями 8\" и 2\" и различаются только подписью. На них видны высоты 14 и 8, значит, это вид сбоку со стороны стены, а по листу курса 2I TOP — грань к смотрящему, здесь грань у стены. В plan оба duct стоят в 9½\" от стены, значит, эта грань плоская → FOT → B; A (FOB) требует плоской грани со стороны комнаты, а она смещается на 20 − 16 = 4\". У C TOP UP 8\" (верх поднимается только на 2\"); у D 2\" верно, но стрелка указывает на конец 20\"x14\", у которого верх как раз ниже.",
-    "flag": "note_ru in the base is outdated (argued A); B is confirmed by course sheet 2I (TOP = face toward the viewer). Figure exists only as photo p08.jpg."
-  },
-  {
-    "src": "T90",
-    "n": 41,
-    "topic": "welding",
-    "ru_q": "Какой режим переноса металла чаще всего используют для тонкого металла (thin gauge)?",
-    "ru_opts": [
-      "globular transfer",
-      "pulsed transfer",
-      "spray transfer",
-      "short circuit transfer"
-    ],
-    "why_en": "In short circuit transfer the wire touches the puddle and shorts many times a second at low voltage and current, so heat input is low and thin metal does not burn through. Spray and globular need high current and suit thicker metal; pulsed can do thin metal but needs a special machine.",
-    "why_ru": "При short circuit transfer проволока много раз в секунду касается ванны и замыкает цепь при низком напряжении и токе, тепла мало, тонкий металл не прожигается. Spray и globular требуют большого тока и подходят для толстого металла; pulsed справляется и с тонким, но нужна специальная машина.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 42,
-    "topic": "welding",
-    "ru_q": "GMAW на reverse polarity даёт",
-    "ru_opts": [
-      "глубокий провар",
-      "средний провар",
-      "мелкий провар",
-      "поверхностный шов"
-    ],
-    "why_en": "Reverse polarity is DCEP (electrode positive); in GMAW it gives a stable arc and deep penetration, which is why MIG almost always runs on DCEP (question 38). DCEN in GMAW gives a wider, shallower, spattery weld.",
-    "why_ru": "Reverse polarity — это DCEP (electrode на плюсе); в GMAW она даёт стабильную дугу и глубокий провар, поэтому MIG почти всегда варят на DCEP (вопрос 38). DCEN в GMAW даёт более широкий и мелкий шов с брызгами.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 43,
-    "topic": "welding",
-    "ru_q": "Какая функция у contact tip в GMAW?",
-    "ru_opts": [
-      "С его помощью устанавливают ESO.",
-      "Подаёт shielding gas в зону сварки.",
-      "Выпрямляет проволоку electrode.",
-      "Обеспечивает электрический контакт с проволокой electrode."
-    ],
-    "why_en": "The copper contact tip passes the welding current into the wire as it slides through, so the arc gets its current there. The gas comes out of the nozzle around the tip, and ESO is set by how far the welder holds the gun from the work.",
-    "why_ru": "Медный contact tip передаёт сварочный ток проволоке, которая скользит через него, — отсюда дуга и получает ток. Газ выходит из nozzle вокруг tip, а ESO задаёт сварщик тем, на каком расстоянии держит горелку.",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 44,
-    "topic": "welding",
-    "ru_q": "GMAW использует источник питания constant current (CC).",
-    "ru_opts": [
-      "Да",
-      "Нет"
-    ],
-    "why_en": "No: GMAW uses a constant voltage (CV) power source, where voltage sets arc length and wire feed speed sets amperage. Constant current is the SMAW (stick) machine.",
-    "why_ru": "Нет: у GMAW источник constant voltage (CV), где voltage задаёт длину дуги, а wire feed speed — ток. Constant current — машина для SMAW (stick).",
-    "flag": null
-  },
-  {
-    "src": "T90",
-    "n": 45,
-    "topic": "welding",
-    "ru_q": "Electrical stick out (расстояние от contact tip до конца проволоки electrode) при short circuit сварке должен быть:",
-    "ru_opts": [
-      "1/8\"",
-      "1/4\"",
-      "3/8\"",
-      "3/4\""
-    ],
-    "why_en": "Short circuit transfer needs a short stick out, about 3/8\" (0.375\"), so the current path through the wire is short and the arc stays stable on thin metal. A long stick out like 3/4\" is for spray transfer: it preheats the wire and lowers the current; 1/8\" puts the contact tip too close to the puddle.",
-    "why_ru": "Для short circuit transfer stick out держат коротким, около 3/8\" (0.375\"): путь тока по проволоке короткий, дуга на тонком металле стабильна. Длинный stick out, как 3/4\", — для spray transfer: он подогревает проволоку и снижает ток; при 1/8\" contact tip слишком близко к ванне.",
-    "flag": "Not a key dispute: sources give 1/4–3/8\" for short circuit (some up to 1/2\"), so 1/4\" is also within range; 3/8\" was credited and fits every range."
-  }
+ {
+  "src": "T90",
+  "n": 1,
+  "topic": "welding",
+  "ru_q": "Что означают принципы сварки DASH?",
+  "ru_opts": [
+   "Distance (расстояние), Amperage (ток), Speed (скорость), Heat (нагрев)",
+   "Distance (расстояние), Angle (угол), Speed (скорость), Height (высота)",
+   "Drag (протяжка), Angle (угол), Sparks (искры), Heat (нагрев)",
+   "Distance (расстояние), Angle (угол), Speed (скорость), Heat (нагрев)"
+  ],
+  "why_en": "DASH = Distance (arc length), Angle (electrode angle), Speed (travel speed), Heat (amperage): the four things the welder controls. Amperage is covered by Heat, not a separate letter; height, drag and sparks are not DASH terms.",
+  "why_ru": "DASH = Distance (длина дуги), Angle (угол electrode), Speed (скорость сварки), Heat (ток): четыре параметра, которыми управляет сварщик. Ток входит в Heat, отдельной буквы у него нет; height, drag и sparks в DASH не входят.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 2,
+  "topic": "safety",
+  "ru_q": "Самый распространённый номер затемнения filter lens для SMAW:",
+  "ru_opts": [
+   "#2",
+   "#H",
+   "#10",
+   "#8"
+  ],
+  "why_en": "Shade #10 is the standard filter for SMAW with common electrodes (course manual p. 15; OSHA 1926.102 gives shade 10 for 1/16\"–5/32\" electrodes). The higher the number, the darker the lens: #2 is far too light for an arc, #8 is only the OSHA minimum at low current, and #H is not a shade number.",
+  "why_ru": "Shade #10 — стандартный светофильтр для SMAW с обычными electrode (учебник курса, стр. 15; OSHA 1926.102 даёт shade 10 для electrode 1/16\"–5/32\"). Чем больше номер, тем темнее: #2 для дуги слишком светлый, #8 — лишь минимум OSHA на малом токе, а #H вообще не номер затемнения.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 3,
+  "topic": "welding",
+  "ru_q": "SMAW не следует применять на материале тоньше ____ gage.",
+  "ru_opts": [
+   "18",
+   "16",
+   "14",
+   "12"
+  ],
+  "why_en": "Stick welding puts a lot of heat into the metal and burns through thin sheet, so metal lighter than 18 gauge (0.0478\") is seldom welded with SMAW (course manual p. 11). \"Less than 18 gauge\" means thinner, i.e. a higher number such as 20 or 22; 16, 14 and 12 gauge are thicker and can be stick welded.",
+  "why_ru": "Stick даёт много тепла и прожигает тонкий лист, поэтому металл тоньше 18 gauge (0.0478\") SMAW почти не варят (учебник курса, стр. 11). «Тоньше 18 gauge» — это номер больше: 20, 22; 16, 14 и 12 gauge толще, их stick варит.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 4,
+  "topic": "welding",
+  "ru_q": "Какой тип источника питания используется в SMAW?",
+  "ru_opts": [
+   "Constant Potential",
+   "Constant Current",
+   "Constant Voltage",
+   "Variable Current"
+  ],
+  "why_en": "SMAW uses a constant current (CC) machine: the welder sets the amperage, and it stays nearly the same when the arc length changes with hand movement. Constant voltage (also called constant potential) is the GMAW machine; \"variable current\" is not a machine type.",
+  "why_ru": "Для SMAW нужен источник constant current (CC): сварщик задаёт ток, и он почти не меняется, когда длина дуги гуляет от движения руки. Constant voltage (он же constant potential) — источник для GMAW; «variable current» — не тип машины.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 5,
+  "topic": "welding",
+  "ru_q": "В SMAW, если electrode требует straight polarity, нужно ____.",
+  "ru_opts": [
+   "подключить electrode к положительной клемме, а ground — к отрицательной",
+   "подключить electrode к отрицательной клемме, а ground — к положительной",
+   "подключить electrode к клемме AC, а ground — к DC",
+   "подключить electrode к отрицательной клемме, а ground — к base metal"
+  ],
+  "why_en": "For points pick d: straight polarity = DCEN, so the electrode goes to the negative terminal and the ground (work) clamp goes on the base metal. b is also technically correct: DCEN by definition means electrode lead to negative and work lead to positive (course manual ITI p. 13), the same wording the key accepts for reverse polarity in question 24.",
+  "why_ru": "Для балла ставьте d: straight polarity = DCEN, electrode — на отрицательную клемму, ground (work clamp) — на base metal. b технически тоже верен: DCEN по определению — electrode на минус, work clamp на плюс (учебник курса ITI, стр. 13), и ту же формулировку ключ засчитывает для reverse polarity в вопросе 24.",
+  "flag": "Disputed: key d. b is technically also correct (ITI manual p. 13: DCEN = holder to −, work clamp to +; the key accepts the same wording for reverse polarity in №24). Points were taken off for b on 16.11.2026."
+ },
+ {
+  "src": "T90",
+  "n": 6,
+  "topic": "safety",
+  "ru_q": "Выберите лучший ответ. Какие меры безопасности нужно принять перед началом сварки или резки?",
+  "ru_opts": [
+   "Убрать мусор с рабочего места.",
+   "Предупредить тех, кто работает рядом.",
+   "Получить разрешение заказчика.",
+   "Всё перечисленное"
+  ],
+  "why_en": "All three are required: clear combustible debris (sparks can fly up to 35 ft), warn people nearby about the arc and sparks, and get the customer's approval, which on a jobsite is the hot work permit.",
+  "why_ru": "Нужны все три: убрать горючий мусор (искры разлетаются до 35 ft), предупредить людей рядом о дуге и искрах и получить разрешение заказчика — на объекте это hot work permit.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 7,
+  "topic": "welding",
+  "ru_q": "Multiple Choice: выберите лучший ответ. Сварка base material многими короткими участками называется:",
+  "ru_opts": [
+   "Stitching.",
+   "Stud.",
+   "Tacking."
+  ],
+  "why_en": "Stitch (intermittent) welding lays the weld in short sections along the joint, which limits heat and distortion on thin metal. Tacking is short temporary welds that only hold the parts before the final weld; stud welding attaches studs.",
+  "why_ru": "Stitch (прерывистая) сварка — шов короткими участками вдоль соединения, так меньше тепла и коробления на тонком металле. Tacking — короткие временные прихватки, которые только держат детали до основной сварки; stud — приварка шпилек.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 8,
+  "topic": "trade",
+  "ru_q": "Если политика заказчика требует пройти тест на наркотики или психологическое тестирование, прежде чем допустить вас к работе в ответственных или напряжённых зонах, вы должны:",
+  "ru_opts": [
+   "Сослаться на право на частную жизнь и отказаться от любых таких тестов.",
+   "Найти человека, который не употребляет наркотики, и отправить его на тесты вместо себя.",
+   "Сказать работодателю, что вы, скорее всего, не пройдёте такие тесты, и попросить не направлять вас на этот объект.",
+   "Признать обоснованность политики заказчика, пройти любые разумные проверки и всеми силами показать себя надёжным работником.",
+   "Ни один ответ не верен"
+  ],
+  "why_en": "The customer sets the rules for its site: accept reasonable testing and show you are dependable, and you keep yourself and your employer on the job. Refusing costs the job, sending someone in your place is fraud, and asking off the site tells your employer you have a problem.",
+  "why_ru": "Правила на своём объекте устанавливает заказчик: пройти разумные проверки и показать себя надёжным — так вы сохраняете работу себе и работодателю. Отказ стоит работы, подставной человек — это обман, а просьба не посылать на объект говорит работодателю, что у вас проблема.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 9,
+  "topic": "welding",
+  "ru_q": "Чтобы шов можно было зашлифовать до гладкой поверхности, важно ____.",
+  "ru_opts": [
+   "Использовать braze welding на соединении",
+   "Использовать fusion welding на соединении",
+   "Наплавить достаточно металла, чтобы заполнить соединение",
+   "Использовать chill bar для отвода тепла"
+  ],
+  "why_en": "Grinding removes metal, so the joint must first be filled with enough weld, slightly above the surface; if the bead is low, grinding leaves a dip or cuts into the base metal. Braze or fusion welding and a chill bar do not make up for missing weld metal.",
+  "why_ru": "Шлифовка снимает металл, поэтому сначала соединение надо заполнить швом с небольшим запасом над поверхностью; если шов низкий, после шлифовки останется впадина или пострадает base metal. Braze или fusion welding и chill bar недостающий металл не заменят.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 10,
+  "topic": "welding",
+  "ru_q": "Размер electrode выбирают в зависимости от ____ свариваемого материала.",
+  "ru_opts": [
+   "Цвета",
+   "Толщины",
+   "Жаростойкости",
+   "Температуры плавления"
+  ],
+  "why_en": "Thicker metal needs more heat and a larger electrode diameter; thin metal needs a small electrode to avoid burn-through (course manual p. 12: current depends on base metal thickness and electrode diameter). The kind of metal decides the electrode classification, not its size.",
+  "why_ru": "Толстому металлу нужно больше тепла и electrode большего диаметра, тонкому — маленький electrode, чтобы не прожечь (учебник курса, стр. 12: ток зависит от толщины base metal и диаметра electrode). Вид металла определяет марку electrode, а не его размер.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 11,
+  "topic": "weldsym",
+  "ru_q": "____ — это полный набор сокращённых инструкций, которым передают нужную информацию о сварке всем участникам, прежде всего сварщику.",
+  "ru_opts": [
+   "Welding symbol",
+   "Procedure check list",
+   "Reference line",
+   "Arrow"
+  ],
+  "why_en": "The welding symbol is the whole sign: reference line, arrow, weld symbol, dimensions and tail together (AWS A2.4). The reference line and the arrow are only parts of it.",
+  "why_ru": "Welding symbol — весь знак целиком: reference line, arrow, weld symbol, размеры и tail (AWS A2.4). Reference line и arrow — только его части.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 12,
+  "topic": "weldsym",
+  "ru_q": "Если welding symbol указывает на соединение, которое нужно сварить, а знак типа шва стоит над reference line, варить нужно ____.",
+  "ru_opts": [
+   "с обеих сторон",
+   "с противоположной стороны",
+   "с arrow side",
+   "со всех сторон"
+  ],
+  "why_en": "A weld symbol below the reference line means the arrow side; above the line means the other side, opposite the arrow. Symbols on both sides of the line mean both sides.",
+  "why_ru": "Знак шва под reference line — arrow side, над линией — other side, то есть сторона напротив стрелки. Знаки по обе стороны линии — сварка с обеих сторон.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 13,
+  "topic": "weldsym",
+  "ru_q": "____ — обязательный элемент, всегда горизонтальный; это постоянное звено, к которому привязаны все остальные знаки сварки.",
+  "ru_opts": [
+   "Welding symbol",
+   "Weld symbol",
+   "Reference line",
+   "Arrow"
+  ],
+  "why_en": "The reference line is the horizontal line every welding symbol has; the arrow, weld symbols, dimensions and tail all attach to it. The arrow can point at any angle, so it is not always horizontal.",
+  "why_ru": "Reference line — горизонтальная линия, которая есть в любом welding symbol; к ней крепятся arrow, weld symbols, размеры и tail. Arrow может идти под любым углом, поэтому «всегда горизонтальный» — не про неё.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 14,
+  "topic": "weldsym",
+  "ru_q": "____ соединяет reference line с соединением, которое нужно сварить.",
+  "ru_opts": [
+   "Welding symbol",
+   "Weld symbol",
+   "Reference line",
+   "Arrow"
+  ],
+  "why_en": "The arrow leads from the reference line to the joint; the side of the joint it touches is the arrow side. The reference line itself stays horizontal and does not touch the joint.",
+  "why_ru": "Arrow идёт от reference line к соединению; сторона, которой она касается, — arrow side. Сама reference line горизонтальна и соединения не касается.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 15,
+  "topic": "materials",
+  "ru_q": "В общем случае, поскольку gauge обычно определяется тем, сколько листов помещается в заданный размер, меньший номер gauge означает, что каждый лист ____, а больший номер — что каждый лист ____.",
+  "ru_opts": [
+   "Тоньше, толще",
+   "Более ковкий, менее ковкий",
+   "Толще, тоньше",
+   "Менее ковкий, более ковкий",
+   "Легче, тяжелее"
+  ],
+  "why_en": "Fewer sheets fit in the same measurement only if each sheet is thicker, so a lower number is thicker: 10 ga = 0.1345\", 16 ga = 0.0598\", 22 ga = 0.0299\". A thicker sheet is also heavier, so \"lighter, heavier\" is backwards; malleability does not depend on gauge.",
+  "why_ru": "В тот же размер помещается меньше листов, только если каждый толще, поэтому меньший номер — толще: 10 ga = 0.1345\", 16 ga = 0.0598\", 22 ga = 0.0299\". Толстый лист и тяжелее, так что «легче, тяжелее» — наоборот; ковкость от gauge не зависит.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 16,
+  "topic": "materials",
+  "ru_q": "В общем случае толщина листового металла уменьшается вдвое примерно через каждые ____ номеров gauge.",
+  "ru_opts": [
+   "Два",
+   "Четыре",
+   "Шесть",
+   "Дюжину",
+   "Две дюжины"
+  ],
+  "why_en": "Thickness roughly halves every 6 gauge numbers: 16 ga 0.0598\" → 22 ga 0.0299\" (0.0598 ÷ 0.0299 = 2.00); 10 ga 0.1345\" → 16 ga 0.0598\" (ratio 2.25). The rule is approximate and closest on the thinner gauges.",
+  "why_ru": "Толщина уменьшается примерно вдвое через 6 номеров: 16 ga 0.0598\" → 22 ga 0.0299\" (0.0598 ÷ 0.0299 = 2.00); 10 ga 0.1345\" → 16 ga 0.0598\" (отношение 2.25). Правило приближённое, точнее всего на тонких gauge.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 17,
+  "topic": "materials",
+  "ru_q": "«Ferritic» металл — это металл, который:",
+  "ru_opts": [
+   "Плавится при низких температурах",
+   "Выдерживает очень высокие температуры",
+   "Содержит железо",
+   "Похож на хорька"
+  ],
+  "why_en": "\"Ferritic\" comes from Latin ferrum, iron: the metal is iron-based (carbon steel, ferritic stainless such as 430) and is magnetic. The word says nothing about melting temperature.",
+  "why_ru": "«Ferritic» — от латинского ferrum, железо: металл на основе железа (углеродистая сталь, ferritic stainless, например 430), он магнитится. О температуре плавления это слово ничего не говорит.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 18,
+  "topic": "safety",
+  "ru_q": "Федеральное ведомство, которое существует для защиты работников на работе:",
+  "ru_opts": [
+   "FDIC",
+   "NASA",
+   "OSHA",
+   "EPA",
+   "USGS"
+  ],
+  "why_en": "OSHA (Occupational Safety and Health Administration, U.S. Department of Labor) sets and enforces workplace safety rules; in Washington the state program is L&I DOSH under WISHA. FDIC insures bank deposits, EPA protects the environment, USGS studies geology, NASA runs the space program.",
+  "why_ru": "OSHA (Occupational Safety and Health Administration, Министерство труда США) устанавливает правила безопасности на работе и следит за ними; в штате Washington это L&I DOSH по закону WISHA. FDIC страхует банковские вклады, EPA охраняет окружающую среду, USGS занимается геологией, NASA — космосом.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 19,
+  "topic": "safety",
+  "ru_q": "Опасное или токсичное вещество может попасть в организм через:",
+  "ru_opts": [
+   "Вдыхание (дыхание)",
+   "Впитывание (через кожу или глаза)",
+   "Проглатывание (еда, питьё, глотание)",
+   "Инъекцию",
+   "Все ответы верны"
+  ],
+  "why_en": "There are four routes of entry: inhalation, absorption through skin or eyes, ingestion, and injection (a puncture by a sharp contaminated object). The SDS lists the likely routes for each product (Section 11).",
+  "why_ru": "Путей попадания четыре: вдыхание, впитывание через кожу или глаза, проглатывание и инъекция (прокол острым загрязнённым предметом). Пути для каждого вещества указаны в SDS (Section 11).",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 20,
+  "topic": "welding",
+  "ru_q": "Какой тип источника питания у машин GMAW?",
+  "ru_opts": [
+   "Automatic Machine",
+   "Constant Variable",
+   "Constant Current",
+   "Constant Voltage"
+  ],
+  "why_en": "GMAW (MIG) machines are constant voltage (CV): the welder sets the voltage, which holds the arc length, and the current follows the wire feed speed. Constant current is the stick (SMAW) machine; \"constant variable\" is not a machine type.",
+  "why_ru": "Машины GMAW (MIG) — constant voltage (CV): сварщик задаёт напряжение, оно держит длину дуги, а ток следует за wire feed speed. Constant current — машина для stick (SMAW); «constant variable» — не тип машины.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 21,
+  "topic": "welding",
+  "ru_q": "В GMAW wire feed speed управляет ____.",
+  "ru_opts": [
+   "hertz (частота)",
+   "Amperage (ток)",
+   "Load Voltage (напряжение под нагрузкой)",
+   "Open Circuit Voltage (напряжение холостого хода)"
+  ],
+  "why_en": "On a CV machine, feeding wire faster takes more current to melt it, so wire feed speed sets the amperage, while the voltage knob sets arc length. Hertz is AC frequency; open circuit voltage is the voltage with no arc.",
+  "why_ru": "На машине CV чем быстрее подаётся проволока, тем больше ток, который её плавит, поэтому wire feed speed задаёт ток, а регулятор voltage — длину дуги. Hertz — частота переменного тока; open circuit voltage — напряжение без дуги.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 22,
+  "topic": "welding",
+  "ru_q": "Другое название DCEN — ____.",
+  "ru_opts": [
+   "DCEP",
+   "AC",
+   "Reverse Polarity",
+   "Straight Polarity"
+  ],
+  "why_en": "DCEN (direct current electrode negative) is called straight polarity; DCEP (electrode positive) is reverse polarity. AC has no fixed polarity.",
+  "why_ru": "DCEN (direct current electrode negative) называют straight polarity; DCEP (electrode positive) — reverse polarity. У AC постоянной полярности нет.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 23,
+  "topic": "welding",
+  "ru_q": "Какой tensile strength у electrode E7018?",
+  "ru_opts": [
+   "1800 lbs.",
+   "18000 lbs.",
+   "7000 lbs.",
+   "70000 lbs."
+  ],
+  "why_en": "In E7018 the first two digits, 70, are the minimum tensile strength of the weld metal in ksi: 70 × 1,000 = 70,000 psi. The options print \"lbs.\", but the unit is pounds per square inch; \"1\" means all positions and \"8\" the low-hydrogen coating.",
+  "why_ru": "В E7018 первые две цифры, 70, — минимальный tensile strength металла шва в ksi: 70 × 1,000 = 70,000 psi. В вариантах написано «lbs.», а единица — фунты на квадратный дюйм (psi); «1» — все положения, «8» — low-hydrogen покрытие.",
+  "flag": "Options say \"lbs.\"; the correct unit is psi (70 ksi = 70,000 psi). Kept as printed."
+ },
+ {
+  "src": "T90",
+  "n": 24,
+  "topic": "welding",
+  "ru_q": "В SMAW, если electrode требует reverse polarity, нужно ____.",
+  "ru_opts": [
+   "подключить electrode к положительной клемме, а ground — к отрицательной",
+   "подключить electrode к отрицательной клемме, а ground — к положительной",
+   "подключить electrode к клемме AC, а ground — к DC",
+   "подключить electrode к отрицательной клемме, а ground — к base metal"
+  ],
+  "why_en": "Reverse polarity = DCEP: the electrode lead goes to the positive terminal and the work (ground) lead to the negative terminal. b and d are straight polarity (DCEN), and c is impossible: AC and DC are not mixed in one circuit.",
+  "why_ru": "Reverse polarity = DCEP: electrode — на положительную клемму, ground (work clamp) — на отрицательную. b и d — это straight polarity (DCEN), а c невозможен: AC и DC в одной цепи не смешивают.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 25,
+  "topic": "weldsym",
+  "ru_q": "Этот знак показывает ____ тип шва.",
+  "ru_opts": [
+   "scarf",
+   "bevel",
+   "fillet",
+   "corner"
+  ],
+  "why_en": "A right triangle on the reference line, with its vertical leg on the left, is the fillet weld symbol. A bevel is drawn as a vertical line plus a slanted line with no third side; scarf is a brazed joint and corner is a joint type, not a weld symbol.",
+  "why_ru": "Прямоугольный треугольник на reference line, вертикальный катет слева, — знак fillet. Bevel рисуют вертикальной и наклонной чертой без третьей стороны; scarf — соединение под brazing, а corner — тип соединения, а не знак шва.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 26,
+  "topic": "welding",
+  "ru_q": "Правильный угол bevel одной детали под «V» groove weld — ____.",
+  "ru_opts": [
+   "15°",
+   "22.5°",
+   "30°",
+   "45°"
+  ],
+  "why_en": "A standard single-V groove (AWS D1.1 prequalified joint B-U2) has a 60° included angle shared by two plates, so each plate is beveled 60° ÷ 2 = 30°. 22.5° per plate (45° groove) is a special prequalified joint used only with steel backing and a 1/4\" root opening (B-U2a), so it is not the general answer. On the graded sheet the instructor wrote \"more correct\" next to 22.5°, but 30° was credited.",
+  "why_ru": "Стандартный single-V groove (prequalified соединение AWS D1.1 B-U2) — разделка 60° на две детали, значит, каждая скашивается на 60° ÷ 2 = 30°. 22.5° на деталь (разделка 45°) — частный случай только с подкладкой (backing) и зазором 1/4\" (B-U2a), поэтому общим ответом он не является. На проверенном листе инструктор написал «more correct» у 22.5°, но засчитал 30°.",
+  "flag": "Typo in original: \"grove\" = groove. Instructor wrote \"more correct\" next to 22.5°, but 30° was credited and is the AWS D1.1 B-U2 value (60° groove); 22.5° fits only the backed joint B-U2a."
+ },
+ {
+  "src": "T90",
+  "n": 27,
+  "topic": "weldsym",
+  "ru_q": "Какой тип шва обозначает этот знак:",
+  "ru_opts": [
+   "scarf",
+   "groove",
+   "fillet",
+   "square"
+  ],
+  "why_en": "Two parallel vertical lines on the reference line are the square-groove weld symbol: the plate edges stay square, with no bevel. A square weld is technically one kind of groove weld, so \"groove\" is not absurd, but the symbol names the specific type, square; a fillet would be a triangle.",
+  "why_ru": "Две параллельные вертикальные черты на reference line — знак square-groove: кромки остаются прямыми, без bevel. Формально square — разновидность groove, поэтому «groove» не абсурд, но знак называет конкретный тип — square; fillet был бы треугольником.",
+  "flag": "Square is a square-groove weld, so b \"groove\" is broader but not wrong; d is the specific, keyed answer."
+ },
+ {
+  "src": "T90",
+  "n": 28,
+  "topic": "materials",
+  "ru_q": "Напряжение, при котором металл разрывается, называется ____.",
+  "ru_opts": [
+   "Hardness",
+   "Ductility",
+   "Yield strength",
+   "Tensile strength"
+  ],
+  "why_en": "Tensile strength is the highest stress the metal takes in a pull test before it tears apart (E7018 weld metal: at least 70,000 psi). Yield strength is lower: the point where the metal starts to stretch permanently but does not break yet.",
+  "why_ru": "Tensile strength — наибольшее напряжение, которое металл выдерживает на растяжение, прежде чем разорваться (металл шва E7018: не меньше 70,000 psi). Yield strength ниже: с него металл начинает необратимо тянуться, но ещё не рвётся.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 29,
+  "topic": "safety",
+  "ru_q": "Какого цвета обычно шланги для кислорода (oxygen)?",
+  "ru_opts": [
+   "Зелёный",
+   "Красный",
+   "Синий",
+   "Жёлтый"
+  ],
+  "why_en": "In the U.S. the oxygen hose is green and the fuel gas hose (acetylene, propane) is red. Blue for oxygen is the European (ISO) color, a common trap; OSHA itself only requires the hoses to be easy to tell apart.",
+  "why_ru": "В США шланг oxygen — зелёный, шланг fuel gas (ацетилен, пропан) — красный. Синий для кислорода — европейский стандарт (ISO), частая ловушка; сам OSHA требует только, чтобы шланги легко различались.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 30,
+  "topic": "welding",
+  "ru_q": "Flux-покрытие на electrode:",
+  "ru_opts": [
+   "Даёт shielding gas",
+   "Пропускает атмосферу в расплавленный металл",
+   "Устраняет slag",
+   "Ускоряет остывание"
+  ],
+  "why_en": "When the flux burns it gives off a shielding gas that keeps air out of the molten weld, and it leaves slag over the bead (course manual p. 12). So it keeps the atmosphere out, it creates slag instead of eliminating it, and the slag cover slows cooling.",
+  "why_ru": "Сгорая, flux выделяет shielding gas, который не пускает воздух к расплавленному шву, и оставляет на валике slag (учебник курса, стр. 12). Значит, атмосферу он не пропускает, slag не устраняет, а создаёт, и под слоем slag шов остывает медленнее.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 31,
+  "topic": "welding",
+  "ru_q": "Gas Metal Arc Welding также называют:",
+  "ru_opts": [
+   "Stick Welding",
+   "Soldering",
+   "Flux core welding",
+   "MIG welding"
+  ],
+  "why_en": "GMAW is MIG (metal inert gas) welding: solid wire fed through the gun, with shielding gas from a cylinder. Stick is SMAW, flux core is FCAW (tubular wire with flux inside), and soldering is not arc welding at all.",
+  "why_ru": "GMAW — это MIG (metal inert gas): сплошная проволока подаётся через горелку, shielding gas идёт из баллона. Stick — это SMAW, flux core — FCAW (трубчатая проволока с flux внутри), а soldering — пайка, вообще не дуговая сварка.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 32,
+  "topic": "welding",
+  "ru_q": "Какой inert gas лучше всего использовать для тонкого металла?",
+  "ru_opts": [
+   "Argon",
+   "Oxygen",
+   "Carbon Dioxide",
+   "Helium"
+  ],
+  "why_en": "Argon is inert and gives a cooler, stable arc, so it is the gas for thin metal. Helium is also inert but runs a hotter arc for thick metal; oxygen and carbon dioxide are not inert, they react with the weld.",
+  "why_ru": "Argon инертен и даёт более холодную, стабильную дугу — это газ для тонкого металла. Helium тоже инертен, но дуга горячее, он для толстого металла; oxygen и carbon dioxide не инертны, они реагируют с металлом шва.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 33,
+  "topic": "safety",
+  "ru_q": "Чтобы избежать лишнего воздействия сварочного дыма (fumes):",
+  "ru_opts": [
+   "Подождите 10 секунд, пока дым рассеется, прежде чем осматривать шов",
+   "Не варите на открытом воздухе",
+   "Варите в пылевой маске, как у маляров",
+   "Не варите во влажных условиях"
+  ],
+  "why_en": "Fumes keep rising from the hot weld for a few seconds after the arc stops, so wait about 10 seconds and keep your head out of the plume before inspecting. Welding outdoors actually helps ventilation, a painter's dust mask does not stop welding fume, and humidity does not create fumes.",
+  "why_ru": "Дым ещё несколько секунд поднимается от горячего шва после того, как дуга погасла, поэтому подождите около 10 секунд и не держите голову в столбе дыма. Сварка на улице как раз улучшает вентиляцию, малярная пылевая маска от сварочного дыма не защищает, а влажность дыма не создаёт.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 34,
+  "topic": "welding",
+  "ru_q": "Shielded Metal Arc Welding также называют:",
+  "ru_opts": [
+   "Pedal to metal",
+   "Arc art",
+   "Flux core welding",
+   "Stick welding"
+  ],
+  "why_en": "SMAW is called stick welding because it uses a coated electrode rod, a \"stick\". Flux core welding is FCAW, a wire-fed process; the other two are made-up names.",
+  "why_ru": "SMAW называют stick welding, потому что electrode — покрытый пруток, «палочка» (stick). Flux core welding — это FCAW, процесс с подачей проволоки; два других варианта — выдуманные названия.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 35,
+  "topic": "welding",
+  "ru_q": "Как в процессе GMAW устанавливают длину дуги?",
+  "ru_opts": [
+   "Регулятором wire feed speed.",
+   "Расходомером shielding gas.",
+   "Регулятором voltage.",
+   "Настройкой high frequency."
+  ],
+  "why_en": "On a CV machine the voltage setting holds the arc length: more voltage, longer arc. Wire feed speed sets the amperage, the flow meter sets gas flow, and high frequency is used to start a TIG arc.",
+  "why_ru": "На машине CV длину дуги держит напряжение: больше voltage — длиннее дуга. Wire feed speed задаёт ток, расходомер — расход газа, а high frequency служит для зажигания дуги в TIG.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 36,
+  "topic": "safety",
+  "ru_q": "Какие меры предосторожности нужно соблюдать при cracking баллонов?",
+  "ru_opts": [
+   "Наклонить баллон набок.",
+   "Встряхнуть баллон.",
+   "Положить его.",
+   "Встать сбоку от баллона."
+  ],
+  "why_en": "Cracking means opening the cylinder valve slightly for a moment to blow dirt out before attaching the regulator; stand to one side of the outlet, never in front of it (OSHA 1926.350(d)(1)). The cylinder stays upright and secured; tipping, shaking or laying it down is not part of cracking.",
+  "why_ru": "Cracking — кратко приоткрыть вентиль баллона, чтобы выдуть грязь перед установкой регулятора; стоять сбоку от выхода, никогда не напротив (OSHA 1926.350(d)(1)). Баллон стоит вертикально и закреплён; наклонять, трясти или класть его при cracking не нужно.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 37,
+  "topic": "welding",
+  "ru_q": "Все ground clamp должны иметь соединения:",
+  "ru_opts": [
+   "Паяные (soldered)",
+   "Сварные (welded)",
+   "Паяные (brazed)",
+   "Механические (mechanical)"
+  ],
+  "why_en": "Cable lugs and clamps are bolted or screwed on, a mechanical connection (course manual p. 32). A soldered joint conducts worse, heats up under welding current and can melt, breaking the circuit; a screw-type clamp is the best.",
+  "why_ru": "Наконечники кабеля и clamp крепят болтом или винтом — это механическое соединение (учебник курса, стр. 32). Пайка проводит хуже, греется от сварочного тока и может расплавиться и разорвать цепь; лучший clamp — винтовой (screw-type).",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 38,
+  "topic": "welding",
+  "ru_q": "Почти без исключений GMAW используется с:",
+  "ru_opts": [
+   "DCEP",
+   "DCEN",
+   "AC",
+   "DCHF"
+  ],
+  "why_en": "GMAW runs on DCEP (reverse polarity): it gives a stable arc, smooth metal transfer and deep penetration. With solid wire, DCEN gives an unstable, spattery arc (it is used only with some flux-cored wires), and AC is not used for standard MIG.",
+  "why_ru": "GMAW работает на DCEP (reverse polarity): стабильная дуга, ровный перенос металла и глубокий провар. Со сплошной проволокой DCEN даёт нестабильную дугу и брызги (его применяют только с некоторыми flux-cored проволоками), а AC в обычном MIG не используют.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 39,
+  "topic": "fittings",
+  "ru_q": "Вы делаете кусок duct под соединение Slip and Drive и отрезали его на 27\" по общей длине; его working length будет",
+  "ru_opts": [
+   "28\"",
+   "27\"",
+   "26\"",
+   "25\""
+  ],
+  "why_en": "S&D takes 1\" of metal on each end beyond the bend line, so working length = 27 − 1 − 1 = 25\". Trap: 26\" counts only 1/2\" per end (the 1/2\" on the formula sheet is added beyond drive-to-drive, not beyond working length).",
+  "why_ru": "S&D забирает 1\" металла на каждом конце за линией изгиба, поэтому working length = 27 − 1 − 1 = 25\". Ловушка: 26\" — это только по 1/2\" на конец (1/2\" из листа формул отсчитывают от drive-to-drive, а не от working length).",
+  "flag": "Typo in original: \"it's working length\" = its; no question mark. Kept as printed."
+ },
+ {
+  "src": "T90",
+  "n": 40,
+  "topic": "transitions",
+  "ru_q": "По plan и section view выберите transition для соединения duct.",
+  "ru_opts": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "why_en": "Section: bottom 7'-1\" → 7'-9\" (up 8\"), top 7'-1\" + 14\" = 8'-3\" → 7'-9\" + 8\" = 8'-5\" (up 2\"); A and B are both drawn with these 8\" and 2\" offsets and differ only in the label. They show the heights 14 and 8, so they are side views seen from the wall, and by course sheet 2I TOP is the face toward the viewer, here the wall face. In plan both ducts are 9½\" from the wall, so that face is flat → FOT → B; A (FOB) would need the room-side face flat, but it moves 20 − 16 = 4\". C says TOP UP 8\" (the top rises only 2\"); D has 2\" but its arrow points at the 20\"x14\" end, whose top is the lower one.",
+  "why_ru": "Section: низ 7'-1\" → 7'-9\" (вверх на 8\"), верх 7'-1\" + 14\" = 8'-3\" → 7'-9\" + 8\" = 8'-5\" (вверх на 2\"); A и B нарисованы с этими смещениями 8\" и 2\" и различаются только подписью. На них видны высоты 14 и 8, значит, это вид сбоку со стороны стены, а по листу курса 2I TOP — грань к смотрящему, здесь грань у стены. В plan оба duct стоят в 9½\" от стены, значит, эта грань плоская → FOT → B; A (FOB) требует плоской грани со стороны комнаты, а она смещается на 20 − 16 = 4\". У C TOP UP 8\" (верх поднимается только на 2\"); у D 2\" верно, но стрелка указывает на конец 20\"x14\", у которого верх как раз ниже.",
+  "flag": "note_ru in the base is outdated (argued A); B is confirmed by course sheet 2I (TOP = face toward the viewer). Figure exists only as photo p08.jpg."
+ },
+ {
+  "src": "T90",
+  "n": 41,
+  "topic": "welding",
+  "ru_q": "Какой режим переноса металла чаще всего используют для тонкого металла (thin gauge)?",
+  "ru_opts": [
+   "globular transfer",
+   "pulsed transfer",
+   "spray transfer",
+   "short circuit transfer"
+  ],
+  "why_en": "In short circuit transfer the wire touches the puddle and shorts many times a second at low voltage and current, so heat input is low and thin metal does not burn through. Spray and globular need high current and suit thicker metal; pulsed can do thin metal but needs a special machine.",
+  "why_ru": "При short circuit transfer проволока много раз в секунду касается ванны и замыкает цепь при низком напряжении и токе, тепла мало, тонкий металл не прожигается. Spray и globular требуют большого тока и подходят для толстого металла; pulsed справляется и с тонким, но нужна специальная машина.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 42,
+  "topic": "welding",
+  "ru_q": "GMAW на reverse polarity даёт",
+  "ru_opts": [
+   "глубокий провар",
+   "средний провар",
+   "мелкий провар",
+   "поверхностный шов"
+  ],
+  "why_en": "Reverse polarity is DCEP (electrode positive); in GMAW it gives a stable arc and deep penetration, which is why MIG almost always runs on DCEP (question 38). DCEN in GMAW gives a wider, shallower, spattery weld.",
+  "why_ru": "Reverse polarity — это DCEP (electrode на плюсе); в GMAW она даёт стабильную дугу и глубокий провар, поэтому MIG почти всегда варят на DCEP (вопрос 38). DCEN в GMAW даёт более широкий и мелкий шов с брызгами.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 43,
+  "topic": "welding",
+  "ru_q": "Какая функция у contact tip в GMAW?",
+  "ru_opts": [
+   "С его помощью устанавливают ESO.",
+   "Подаёт shielding gas в зону сварки.",
+   "Выпрямляет проволоку electrode.",
+   "Обеспечивает электрический контакт с проволокой electrode."
+  ],
+  "why_en": "The copper contact tip passes the welding current into the wire as it slides through, so the arc gets its current there. The gas comes out of the nozzle around the tip, and ESO is set by how far the welder holds the gun from the work.",
+  "why_ru": "Медный contact tip передаёт сварочный ток проволоке, которая скользит через него, — отсюда дуга и получает ток. Газ выходит из nozzle вокруг tip, а ESO задаёт сварщик тем, на каком расстоянии держит горелку.",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 44,
+  "topic": "welding",
+  "ru_q": "GMAW использует источник питания constant current (CC).",
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "No: GMAW uses a constant voltage (CV) power source, where voltage sets arc length and wire feed speed sets amperage. Constant current is the SMAW (stick) machine.",
+  "why_ru": "Нет: у GMAW источник constant voltage (CV), где voltage задаёт длину дуги, а wire feed speed — ток. Constant current — машина для SMAW (stick).",
+  "flag": null
+ },
+ {
+  "src": "T90",
+  "n": 45,
+  "topic": "welding",
+  "ru_q": "Electrical stick out (расстояние от contact tip до конца проволоки electrode) при short circuit сварке должен быть:",
+  "ru_opts": [
+   "1/8\"",
+   "1/4\"",
+   "3/8\"",
+   "3/4\""
+  ],
+  "why_en": "Short circuit transfer needs a short stick out, about 3/8\" (0.375\"), so the current path through the wire is short and the arc stays stable on thin metal. A long stick out like 3/4\" is for spray transfer: it preheats the wire and lowers the current; 1/8\" puts the contact tip too close to the puddle.",
+  "why_ru": "Для short circuit transfer stick out держат коротким, около 3/8\" (0.375\"): путь тока по проволоке короткий, дуга на тонком металле стабильна. Длинный stick out, как 3/4\", — для spray transfer: он подогревает проволоку и снижает ток; при 1/8\" contact tip слишком близко к ванне.",
+  "flag": "Not a key dispute: sources give 1/4–3/8\" for short circuit (some up to 1/2\"), so 1/4\" is also within range; 3/8\" was credited and fits every range."
+ }
 ]
