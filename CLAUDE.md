@@ -1,0 +1,27 @@
+# Тренажёр к тестам курса — https://sergeisysoev.github.io/sheet-metal-tests/
+
+Задача Сержа 2026-11-19: тренажёр для подготовки к письменным тестам курса (Local 66 apprenticeship).
+Тесты курса повторяют те же вопросы в новых наборах, поэтому **английский текст вопроса и вариантов —
+дословно с бланка**, даже с опечатками (опечатку отметить в пояснении). Сайт открытый, для всех,
+ссылка с главной https://sergeisysoev.github.io/ (репозиторий /Users/assistant/sergeisysoev.github.io/).
+
+## Правила
+- Ответы — по ключу курса: /Users/assistant/shared-lib/duct-layout/knowledge/08-testy-i-klyuchi.md и
+  /Users/assistant/.claude/projects/-Users-assistant/memory/reference_union_course_test_keys.md.
+  Спорный ключ: «для балла — X; технически Y тоже верен, потому что…». Ответ в данных не менять без доказательства.
+- Каждое число в пояснении — посчитано кодом.
+- Рисунки — только свои чертежи (SVG из tools/figures.py) с теми же размерами, что на бланке. Фото и сканы не вставлять.
+- Русский: простой язык, термины трейда по-английски. В русском режиме под переводом — английский оригинал.
+- Один и тот же вопрос с другими числами или с другим словом (SMAW / GMAW) — отдельный вопрос: на тесте это ловушка.
+  Точные дубли сливать.
+
+## Порядок наполнения
+1. Часть 1 (19.11): вопросы недели 16–19.11 — тест Welding & Layout (90) и SMY2W2 Triangulation (18).
+2. Дальше по базе курса: SMY2W2 Monday (79), SMY1W5 (66), Weld Quiz (20), SMY1W3 = Trade Intro (60),
+   brazing/FSD (TotalTrack), SMY2W3, SMY2W4. Источники и номера фото — 08-testy-i-klyuchi.md, раздел «Источники».
+
+## Данные и сборка
+- data/<part>_base.json — английский текст, варианты, ответ по ключу (tools/extract_*.py).
+- data/<part>_content_*.json — тема, перевод, пояснения EN/RU (бриф: tools/CONTENT-BRIEF.md).
+- python3 tools/build_questions.py → questions.js; поднять ?v=N в index.html.
+- Выкладка: git push в main; проверять живую страницу по содержимому, не по коду 200.

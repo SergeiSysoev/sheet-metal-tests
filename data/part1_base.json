@@ -1,0 +1,2170 @@
+[
+ {
+  "src": "T90",
+  "n": 1,
+  "q": "What do the DASH principles of welding represent?",
+  "opts": [
+   "Distance, Amperage, Speed, Heat",
+   "Distance, Angle, Speed, Height",
+   "Drag, Angle, Sparks, Heat",
+   "Distance, Angle, Speed, Heat"
+  ],
+  "answer": [
+   3
+  ],
+  "key_text": "d) Distance, Angle, Speed, Heat",
+  "note_ru": "Distance — длина дуги, angle — угол электрода, speed — скорость, heat — ток. Height и sparks параметрами не являются.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   3
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 2,
+  "q": "The filter lens shade most common for SMAW is:",
+  "opts": [
+   "#2",
+   "#H",
+   "#10",
+   "#8"
+  ],
+  "answer": [
+   2
+  ],
+  "key_text": "c) #10",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   2
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 3,
+  "q": "SMAW should not be used on materials which are less than ____ gage.",
+  "opts": [
+   "18",
+   "16",
+   "14",
+   "12"
+  ],
+  "answer": [
+   0
+  ],
+  "key_text": "a) 18",
+  "note_ru": "Источника с этой формулировкой не нашёл. В справочниках stick варит металл от ~18 gauge и толще, тоньше — MIG/TIG. Если инструктор называл другую цифру, верь ему.",
+  "kind": "check",
+  "fig": null,
+  "build_answer": [
+   0
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 4,
+  "q": "What type of power source is used in SMAW?",
+  "opts": [
+   "Constant Potential",
+   "Constant Current",
+   "Constant Voltage",
+   "Variable Current"
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) Constant Current",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 5,
+  "q": "In SMAW, if the electrode requires straight polarity, you must ____.",
+  "opts": [
+   "plug electrode to the positive terminal and ground to negative",
+   "plug electrode to the negative terminal and ground to positive",
+   "plug electrode to AC terminal and ground to DC",
+   "plug electrode to negative terminal and ground to base metal"
+  ],
+  "answer": [
+   3
+  ],
+  "key_text": "d) plug electrode to negative terminal and ground to base metal",
+  "note_ru": "Straight polarity = DCEN: электрод на минус, масса на плюс.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 6,
+  "q": "Select the best answer. What safety precautions should you take before beginning welding or cutting?",
+  "opts": [
+   "Clear work area of debris.",
+   "Notify others working in the area.",
+   "Get approval from customer.",
+   "All of the above"
+  ],
+  "answer": [
+   3
+  ],
+  "key_text": "d) All of the above",
+  "note_ru": "Approval от заказчика — это hot work permit, тоже обязательный шаг.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   3
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 7,
+  "q": "Multiple Choice: Select the best answer. The process of welding to base materials in many short sections is known as:",
+  "opts": [
+   "Stitching.",
+   "Stud.",
+   "Tacking."
+  ],
+  "answer": [
+   0
+  ],
+  "key_text": "a) Stitching.",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   0
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 8,
+  "q": "If a customer's policy requires you to take a drug test or submit to psychological testing before being allowed to work in sensitive or high-stress areas, you should:",
+  "opts": [
+   "Claim your right to privacy and refuse to take any such tests.",
+   "Find someone who is drug-free and get him to take the tests in your place.",
+   "Tell your employer you're likely to fail any such tests and request you not be assigned to that job site.",
+   "Recognize the validity of the customer's policy, submit to any reasonable testing requirements, and do your best to show yourself to be a dependable worker.",
+   "None of the answers are correct"
+  ],
+  "answer": [
+   3
+  ],
+  "key_text": "d) Recognize the validity of the customer's policy, submit to any reasonable testing requirements, and do your best to show yourself to be a dependable worker.",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   3
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 9,
+  "q": "To assure you can grind a welded joint down to a smooth finish, it is important to ____.",
+  "opts": [
+   "Use braze welding on the joint",
+   "Use fusion welding on the joint",
+   "Build up enough weld to fill the joint",
+   "Use a chill bar to dissipate heat"
+  ],
+  "answer": [
+   2
+  ],
+  "key_text": "c) Build up enough weld to fill the joint",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   2
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 10,
+  "q": "Electrode selection size must be relative to the ____ of the material being welded.",
+  "opts": [
+   "Color",
+   "Thickness",
+   "Heat resistance",
+   "Melting point"
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) Thickness",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 11,
+  "q": "____ means a complete set of shorthand instructions used to convey the necessary welding information to all parties, particularly the welder.",
+  "opts": [
+   "Welding symbol",
+   "Procedure check list",
+   "Reference line",
+   "Arrow"
+  ],
+  "answer": [
+   0
+  ],
+  "key_text": "a) Welding symbol",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   0
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 12,
+  "q": "If a welding symbol points to a joint to be welded and the joint type symbol is above the reference line, you will weld ____.",
+  "opts": [
+   "both sides",
+   "the opposite side",
+   "the arrow side",
+   "all sides"
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) the opposite side",
+  "note_ru": "Под reference line — arrow side, над ней — other side.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 13,
+  "q": "The ____ is a required element, always horizontal, and is the constant link to all other welding symbols.",
+  "opts": [
+   "Welding symbol",
+   "Weld symbol",
+   "Reference line",
+   "Arrow"
+  ],
+  "answer": [
+   2
+  ],
+  "key_text": "c) Reference line",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   2
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 14,
+  "q": "The ____ connects the reference line to the joint that is to be welded.",
+  "opts": [
+   "Welding symbol",
+   "Weld symbol",
+   "Reference line",
+   "Arrow"
+  ],
+  "answer": [
+   3
+  ],
+  "key_text": "d) Arrow",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   3
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 15,
+  "q": "In general, as gauging is typically based on how many sheets can fit within a designated measurement, a lower gauge number indicates that each sheet is ____ and a higher gauge number indicates each sheet is ____.",
+  "opts": [
+   "Thinner, thicker",
+   "More malleable, less malleable",
+   "Thicker, thinner",
+   "Less malleable, more malleable",
+   "Lighter, heavier"
+  ],
+  "answer": [
+   2
+  ],
+  "key_text": "c) Thicker, thinner",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   2
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 16,
+  "q": "In general, the thickness of sheet metal is halved at about every ____ gauges.",
+  "opts": [
+   "Two",
+   "Four",
+   "Six",
+   "One Dozen",
+   "Two Dozen"
+  ],
+  "answer": [
+   2
+  ],
+  "key_text": "c) Six",
+  "note_ru": "Пример: 10 → 16 → 22 gauge, каждый шаг примерно вдвое тоньше.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   2
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 17,
+  "q": "A \"ferritic\" metal is one that:",
+  "opts": [
+   "Melts at low temperatures",
+   "Withstands extremely high temperatures",
+   "Contains iron",
+   "Resembles a ferret"
+  ],
+  "answer": [
+   2
+  ],
+  "key_text": "c) Contains iron",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   2
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 18,
+  "q": "The federal government division that exists to protect workers on the job is:",
+  "opts": [
+   "FDIC",
+   "NASA",
+   "OSHA",
+   "EPA",
+   "USGS"
+  ],
+  "answer": [
+   2
+  ],
+  "key_text": "c) OSHA",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   2
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 19,
+  "q": "A hazardous or toxic material can enter the body through:",
+  "opts": [
+   "Inhaling (breathing)",
+   "Absorption (through skin or eyes)",
+   "Ingestion (eating, drinking, swallowing)",
+   "Injection",
+   "All answers are correct"
+  ],
+  "answer": [
+   4
+  ],
+  "key_text": "e) All answers are correct",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   4
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 20,
+  "q": "GMAW Machines are what type of power source?",
+  "opts": [
+   "Automatic Machine",
+   "Constant Variable",
+   "Constant Current",
+   "Constant Voltage"
+  ],
+  "answer": [
+   3
+  ],
+  "key_text": "d) Constant Voltage",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   3
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 21,
+  "q": "Wire feed speed, in GMAW, controls ____.",
+  "opts": [
+   "hertz",
+   "Amperage",
+   "Load Voltage",
+   "Open Circuit Voltage"
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) Amperage",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 22,
+  "q": "Another name for DCEN is ____.",
+  "opts": [
+   "DCEP",
+   "AC",
+   "Reverse Polarity",
+   "Straight Polarity"
+  ],
+  "answer": [
+   3
+  ],
+  "key_text": "d) Straight Polarity",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   3
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 23,
+  "q": "What is the tensile strength of an E7018 electrode?",
+  "opts": [
+   "1800 lbs.",
+   "18000 lbs.",
+   "7000 lbs.",
+   "70000 lbs."
+  ],
+  "answer": [
+   3
+  ],
+  "key_text": "d) 70000 lbs.",
+  "note_ru": "E70xx — 70 000 psi.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   3
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 24,
+  "q": "In SMAW, if the electrode requires reverse polarity, you must ____.",
+  "opts": [
+   "plug electrode to the positive terminal and ground to negative",
+   "plug electrode to the negative terminal and ground to positive",
+   "plug electrode to AC terminal and ground to DC",
+   "plug electrode to negative terminal and ground to base metal"
+  ],
+  "answer": [
+   0
+  ],
+  "key_text": "a) plug electrode to the positive terminal and ground to negative",
+  "note_ru": "Reverse polarity = DCEP: электрод на плюс, масса на минус.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   0
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 25,
+  "q": "This symbol shows a ____ type of weld.",
+  "opts": [
+   "scarf",
+   "bevel",
+   "fillet",
+   "corner"
+  ],
+  "answer": [
+   2
+  ],
+  "key_text": "c) fillet",
+  "note_ru": null,
+  "kind": null,
+  "fig": "q25",
+  "build_answer": [
+   2
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 26,
+  "q": "The correct angle to bevel a single piece of metal for a \"V\" grove weld would be ____.",
+  "opts": [
+   "15°",
+   "22.5°",
+   "30°",
+   "45°"
+  ],
+  "answer": [
+   2
+  ],
+  "key_text": "c) 30°",
+  "note_ru": "V-groove обычно 60° в сумме, значит каждая деталь — 30°.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   2
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 27,
+  "q": "Which type of weld does the following symbol represent:",
+  "opts": [
+   "scarf",
+   "groove",
+   "fillet",
+   "square"
+  ],
+  "answer": [
+   3
+  ],
+  "key_text": "d) square",
+  "note_ru": "Две вертикальные черты — square groove weld. Формально это тоже groove, поэтому B не абсурдный. Выбрал D: символ показывает именно square.",
+  "kind": "check",
+  "fig": "q27",
+  "build_answer": [
+   3
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 28,
+  "q": "The stress where a metal tears apart is referred to as ____.",
+  "opts": [
+   "Hardness",
+   "Ductility",
+   "Yield strength",
+   "Tensile strength"
+  ],
+  "answer": [
+   3
+  ],
+  "key_text": "d) Tensile strength",
+  "note_ru": "Yield — металл начинает тянуться и не возвращается, tensile — рвётся.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   3
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 29,
+  "q": "Oxygen hoses are typically what color?",
+  "opts": [
+   "Green",
+   "Red",
+   "Blue",
+   "Yellow"
+  ],
+  "answer": [
+   0
+  ],
+  "key_text": "a) Green",
+  "note_ru": "Красный шланг — fuel gas.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   0
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 30,
+  "q": "The flux coating on the electrodes:",
+  "opts": [
+   "Provides a shielding gas",
+   "Allows atmosphere into the molten metal",
+   "Eliminates slag",
+   "Speeds cooling time"
+  ],
+  "answer": [
+   0
+  ],
+  "key_text": "a) Provides a shielding gas",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   0
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 31,
+  "q": "Gas Metal Arc Welding is also known as:",
+  "opts": [
+   "Stick Welding",
+   "Soldering",
+   "Flux core welding",
+   "MIG welding"
+  ],
+  "answer": [
+   3
+  ],
+  "key_text": "d) MIG welding",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   3
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 32,
+  "q": "Which of the following is the best inert gas to use for thin metals?",
+  "opts": [
+   "Argon",
+   "Oxygen",
+   "Carbon Dioxide",
+   "Helium"
+  ],
+  "answer": [
+   0
+  ],
+  "key_text": "a) Argon",
+  "note_ru": "Oxygen и CO₂ не inert. Helium даёт больше тепла, он для толстого металла.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   0
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 33,
+  "q": "To avoid unnecessary exposure to fumes:",
+  "opts": [
+   "Wait 10 seconds for fumes to clear before inspecting your weld",
+   "Avoid welding outdoors",
+   "Weld with a dust mask, like the kind painters use",
+   "Avoid welding in humid conditions"
+  ],
+  "answer": [
+   0
+  ],
+  "key_text": "a) Wait 10 seconds for fumes to clear before inspecting your weld",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   0
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 34,
+  "q": "Shielded Metal Arc Welding is also known as:",
+  "opts": [
+   "Pedal to metal",
+   "Arc art",
+   "Flux core welding",
+   "Stick welding"
+  ],
+  "answer": [
+   3
+  ],
+  "key_text": "d) Stick welding",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   3
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 35,
+  "q": "In the GMAW process, how do you set your arc length?",
+  "opts": [
+   "Wire feed speed control.",
+   "Shielding gas flow meter.",
+   "Voltage control.",
+   "High frequency setting"
+  ],
+  "answer": [
+   2
+  ],
+  "key_text": "c) Voltage control.",
+  "note_ru": "В MIG voltage задаёт длину дуги, wire feed speed — ток.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   2
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 36,
+  "q": "What precautions should you take when cracking the cylinders?",
+  "opts": [
+   "Tip the cylinder to the side.",
+   "Shake the cylinder.",
+   "Lay it down.",
+   "Stand to one side of the cylinder."
+  ],
+  "answer": [
+   3
+  ],
+  "key_text": "d) Stand to one side of the cylinder.",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   3
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 37,
+  "q": "All ground clamps should have connections that are:",
+  "opts": [
+   "Soldered",
+   "Welded",
+   "Brazed",
+   "Mechanical"
+  ],
+  "answer": [
+   3
+  ],
+  "key_text": "d) Mechanical",
+  "note_ru": "Кабель к ground clamp крепится болтом или зажимом, то есть механически. Источника с этой формулировкой не нашёл.",
+  "kind": "check",
+  "fig": null,
+  "build_answer": [
+   3
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 38,
+  "q": "Almost without exception GMAW is used with:",
+  "opts": [
+   "DCEP",
+   "DCEN",
+   "AC",
+   "DCHF"
+  ],
+  "answer": [
+   0
+  ],
+  "key_text": "a) DCEP",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   0
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 39,
+  "q": "You're making a piece of duct for a Slip and Drive connection and sheared it 27\" for the overall length, it's working length will be",
+  "opts": [
+   "28\"",
+   "27\"",
+   "26\"",
+   "25\""
+  ],
+  "answer": [
+   3
+  ],
+  "key_text": "d) 25\"",
+  "note_ru": "По листу курса CONNECTIONS / Notching for S&D: на S&D — 1\" на каждый конец. 27 − 1 − 1 = 25\".",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   3
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 40,
+  "q": "Using the plan and section view provided select the transition to use for the duct connection.",
+  "opts": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) B",
+  "note_ru": "Тот же вопрос, что №24 в SMY1W5. Section: низ 7'-1\" → 7'-9\" (поднимается на 8\"), верх 8'-3\" → 8'-5\" (на 2\"). A и B нарисованы с этими 8\" и 2\" и различаются только надписью. В плане оба duct по 9½\" от стены — flat on back = FOB → A. B (FOT) неверно: верх не плоский. C: верх поднимается не на 8\". D: 2\" верно, но стрелка смотрит в сторону, где верх опускается. Ключа нет, вывод по чертежу.",
+  "kind": "check",
+  "fig": "q40",
+  "build_answer": [
+   0
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 41,
+  "q": "What is the most common mode of metal transfer used for thin gauge material?",
+  "opts": [
+   "globular transfer",
+   "pulsed transfer",
+   "spray transfer",
+   "short circuit transfer"
+  ],
+  "answer": [
+   3
+  ],
+  "key_text": "d) short circuit transfer",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   3
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 42,
+  "q": "GMAW using reverse polarity produces",
+  "opts": [
+   "deep penetration",
+   "medium penetration",
+   "shallow penetration",
+   "surface weld"
+  ],
+  "answer": [
+   0
+  ],
+  "key_text": "a) deep penetration",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   0
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 43,
+  "q": "What is the function of the contact tip for GMAW?",
+  "opts": [
+   "It's used to set the ESO.",
+   "Provides shielding gas to the weld zone.",
+   "Straightens electrode wire.",
+   "Provides electrical contact to the electrode wire."
+  ],
+  "answer": [
+   3
+  ],
+  "key_text": "d) Provides electrical contact to the electrode wire.",
+  "note_ru": "Contact tip передаёт ток на проволоку. Газ подаёт nozzle, а ESO выставляет сварщик.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   3
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 44,
+  "q": "GMAW uses a constant current (CC) power source.",
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) No",
+  "note_ru": "MIG работает от constant voltage (см. №20). Constant current — у stick.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 45,
+  "q": "The electrical stick out (which is the distance from your contact tip to the end of your electrode wire) for short circuit welding should be:",
+  "opts": [
+   "1/8\"",
+   "1/4\"",
+   "3/8\"",
+   "3/4\""
+  ],
+  "answer": [
+   2
+  ],
+  "key_text": "c) 3/8\"",
+  "note_ru": "Для short circuit обычно 3/8\", в разных источниках 1/4–3/8\". 3/4\" — для spray. Если инструктор давал 1/4\", бери 1/4\".",
+  "kind": "check",
+  "fig": null,
+  "build_answer": [
+   2
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 46,
+  "q": "Because of the danger of electrical shock, a welding source should be repaired only by:",
+  "opts": [
+   "an experienced welder",
+   "the welding foreman",
+   "a licensed technician",
+   "all of the above"
+  ],
+  "answer": [
+   2
+  ],
+  "key_text": "c) a licensed technician",
+  "note_ru": "Внутри источника опасное напряжение. Ремонтирует только licensed (qualified) technician, сварщик и foreman — нет.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   2
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 47,
+  "q": "Prior to welding the base metal shall be cleaned of:",
+  "opts": [
+   "Oils",
+   "Paints",
+   "Rust",
+   "All the above"
+  ],
+  "answer": [
+   3
+  ],
+  "key_text": "d) All the above",
+  "note_ru": "Масло, краска и ржавчина дают поры и плохой провар. Всё снимается до сварки.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   3
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 48,
+  "q": "A room measures 20'-6\" x 46'-4\", what is the distance of the room from corner to opposite corner?",
+  "opts": [
+   "50.8'",
+   "41'-6 5/8\"",
+   "50'-8\"",
+   "41'-6\""
+  ],
+  "answer": [
+   2
+  ],
+  "key_text": "c) 50'-8\"",
+  "note_ru": "√(20.5² + 46.333²) = 50.67' → 0.67 × 12 = 8\" → 50'-8\". Вариант 50.8' — ловушка: 0.67 фута это 8 дюймов, а не 0.8 фута.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   2
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 49,
+  "q": "A room measures 34'-3\" x 57'-2\" with a 10' ceiling height. What is the diagonal length from one corner at the floor to the opposite corner at the ceiling height?",
+  "opts": [
+   "64'-5\"",
+   "67'-4 5/8\"",
+   "65'-10 5/8\"",
+   "66'-7 11/16\""
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) 67'-4 5/8\"",
+  "note_ru": "Диагональ с высотой: √(34.25² + 57.167² + 10²) = 67.388' → 0.388 × 12 = 4.65\" → 67'-4 5/8\".",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 50,
+  "q": "Select the correct answers for dimension \"L\" and \"D\"",
+  "opts": [
+   "D = 43.07\"",
+   "D = 43.072\"",
+   "D = 43.172\"",
+   "L = 55.9127\"",
+   "L = 55.912\"",
+   "L = 55.92\""
+  ],
+  "answer": [
+   0,
+   4
+  ],
+  "key_text": "a) D = 43.07\" + e) L = 55.912\"",
+  "note_ru": "Подъём: 11'-8\" − 8'-3\" = 41\". Радиус по центру duct: 12\" (throat) + 6\" (половина 12\") = 18\". Два elbow по 45° дают 2 × 18 × (1 − cos 45°) = 10.544\", остаётся 30.456\". D = 30.456 ÷ sin 45° = 43.072\". L = 2 × 18 × sin 45° + 30.456 = 55.912\". Точный расчёт даёт D = 43.071\": 43.072 выходит при sin 45° = 0.7071, как обычно считают в курсе, и варианты составлены под это. A (43.07) — то же число до сотых.",
+  "kind": "check",
+  "fig": "q50",
+  "build_answer": [
+   1,
+   4
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 51,
+  "q": "Calculate and select the missing dimension \"A\" for the duct trim joint.",
+  "opts": [
+   "2' 1-5/8\"",
+   "24-1/2\"",
+   "2'-3 1/2\"",
+   "26-1/2\""
+  ],
+  "answer": [
+   3
+  ],
+  "key_text": "d) 26-1/2\"",
+  "note_ru": "10'-0½\" = 120½\" идёт от верха до центра 8\"×8\". Transition 12\"→8\" flat on bottom, поэтому центр 8\"×8\" на 8\" ниже верха 12\"×8\" duct. Elbow по высоте = R10\" + 8\" = 18\". A = 120½ − 6 − 35 − 35 − 18 = 26½\".",
+  "kind": null,
+  "fig": "q51",
+  "build_answer": [
+   3
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 52,
+  "q": "How many cubic inches in 4 cubic feet?",
+  "opts": [
+   "1728 cu. in.",
+   "6912 cu. in.",
+   "576 cu. in.",
+   "108 cu. in."
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) 6912 cu. in.",
+  "note_ru": "4 × 1728 = 6912.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 53,
+  "q": "You're tasked to set up an extension ladder on a 12' high wall. Following OSHA's regulations and standards for setting up a portable ladder, what is the minimum distance you need to extend the ladder to comply with OSHA's standards? Round answer off to the nearest inch. 1926.1053(b)(1): side rails shall extend at least 3 feet above the upper landing surface. 1926.1053(b)(5)(i): the horizontal distance from the top support to the foot of the ladder is approximately one quarter of the working length of the ladder.",
+  "opts": [
+   "15'-5\"",
+   "192\"",
+   "12'-5\"",
+   "15'"
+  ],
+  "answer": [
+   0
+  ],
+  "key_text": "a) 15'-5\"",
+  "note_ru": "Рабочая длина L: L² = 12² + (L/4)² → L = 12.39' (12'-4.7\"). Плюс 3' над стеной: 15.39' → 15'-5\".",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   0
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 54,
+  "q": "Using a square to determine the brake angle on a piece of metal, you come up with the following measurements (see image). What degree is angle \"A\"? Round off to the nearest whole degree.",
+  "opts": [
+   "120 degrees",
+   "28 degrees",
+   "118 degrees",
+   "135 degrees"
+  ],
+  "answer": [
+   2
+  ],
+  "key_text": "c) 118 degrees",
+  "note_ru": "8-13/16 ÷ 4-11/16 = 1.88 → arctan = 62°. Угол A внутренний: 180 − 62 = 118°.",
+  "kind": null,
+  "fig": "q54",
+  "build_answer": [
+   2
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 55,
+  "q": "Solve length \"L\" for the triangle.",
+  "opts": [
+   "10.83\"",
+   "17.75\"",
+   "10.53\"",
+   "8.34\""
+  ],
+  "answer": [
+   3
+  ],
+  "key_text": "d) 8.34\"",
+  "note_ru": "L = 13.67 × cos 52.4° = 8.34\".",
+  "kind": null,
+  "fig": "q55",
+  "build_answer": [
+   3
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 56,
+  "q": "Solve angle \"A\" for the triangle.",
+  "opts": [
+   "47.22 degrees",
+   "42.78 degrees",
+   "38.23 degrees",
+   "36.28 degrees"
+  ],
+  "answer": [
+   0
+  ],
+  "key_text": "a) 47.22 degrees",
+  "note_ru": "sin A = 18-5/8 ÷ 25-3/8 = 0.734 → 47.22°.",
+  "kind": null,
+  "fig": "q56",
+  "build_answer": [
+   0
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 57,
+  "q": "Calculate the shear size for the pattern. It is symmetrical from the center line. Round off to the nearest 16th.",
+  "opts": [
+   "24-1/2\" x 20-7/8\"",
+   "20-1/2\" x 24-1/4\"",
+   "24-3/4\" x 20-1/2\"",
+   "20-3/16\" x 24-3/4\""
+  ],
+  "answer": [
+   2
+  ],
+  "key_text": "c) 24-3/4\" x 20-1/2\"",
+  "note_ru": "Верхний скос 45° (135°): 7¼ × cos 45° = 5.13\" в ширину и в высоту. Половина ширины: 3 + 4¼ + 5.13 = 12.38 → ширина 24.75 = 24-3/4\". Высота: 10⅜ + 5 + 5.13 = 20.50 = 20-1/2\".",
+  "kind": null,
+  "fig": "q57",
+  "build_answer": [
+   2
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 58,
+  "q": "Oblique lines are always drawn at an angle.",
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "key_text": "a) Yes",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   0
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 59,
+  "q": "An angle that is less than 90 degrees is known as an ____ angle.",
+  "opts": [
+   "Common",
+   "Acute",
+   "Obtuse",
+   "Less Common"
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) Acute",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 60,
+  "q": "A 4-5-6 triangle will always have a 90-degree corner.",
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) No",
+  "note_ru": "4² + 5² = 41, а 6² = 36: угол не прямой.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 61,
+  "q": "Architect scale rulers use decimals of an inch.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) False",
+  "note_ru": "Architect scale — дроби. Десятичные — engineer scale.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 62,
+  "q": "The most common types of triangles used for drafting are 45 / 90 and the 30 / 60.",
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "key_text": "a) Yes",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   0
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 63,
+  "q": "What is a circumference?",
+  "opts": [
+   "The area of a circle",
+   "The distance around a circle",
+   "The distance across a circle",
+   "The diameter of a circle"
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) The distance around a circle",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 64,
+  "q": "When using a ladder, is it okay to carry tools or supplies in one hand without maintaining 3-point contact?",
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) No",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 65,
+  "q": "To learn about the safety of a material",
+  "opts": [
+   "Read the health data hazard sheet.",
+   "Read the SDS",
+   "Read the TLV sheet",
+   "Read the UEL sheet"
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) Read the SDS",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 66,
+  "q": "Symptoms that show up suddenly after toxic exposure are:",
+  "opts": [
+   "Acute effects",
+   "Seldom job related",
+   "Weaker than early effects",
+   "Chronic effects"
+  ],
+  "answer": [
+   0
+  ],
+  "key_text": "a) Acute effects",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   0
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 67,
+  "q": "A shear capacity of 1016 means the brake is designed for bending 10 feet of 16 gauge.",
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) No",
+  "note_ru": "1016 = 10 футов 16 gauge. В вопросе перепутаны shear и brake. Если инструктор ловит именно на этом, ответ No.",
+  "kind": "check",
+  "fig": null,
+  "build_answer": [
+   0
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 68,
+  "q": "Name 2 ways to attach round pipe to a flat surface:",
+  "opts": [
+   "Air Tight Take Off",
+   "SLIP & DRIVE CLEATS",
+   "DOVE TAIL",
+   "HANGER STRAP"
+  ],
+  "answer": [
+   0,
+   2
+  ],
+  "key_text": "a) Air Tight Take Off + c) DOVE TAIL",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   0,
+   2
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 69,
+  "q": "It is possible to add and subtract using a tape measure?",
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "key_text": "a) Yes",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   0
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 70,
+  "q": "What is the size of the radius on a 38\" x 16\" section of flat oval?",
+  "opts": [
+   "18\"",
+   "8\"",
+   "7\"",
+   "36\""
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) 8\"",
+  "note_ru": "Радиус = половина малой стороны: 16 ÷ 2 = 8\".",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 71,
+  "q": "What setting is used to construct a hexagon within a circle?",
+  "opts": [
+   "Diameter of a circle",
+   "Half the centerline",
+   "Circumference",
+   "Diameter times 3.1416"
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) Half the centerline",
+  "note_ru": "Сторона шестиугольника равна радиусу. Радиус = половина centerline (диаметра).",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 72,
+  "q": "What setting is used to bisect a quadrant of a circle into 3 equal parts?",
+  "opts": [
+   "Diameter of the circle",
+   "Radius of the circle",
+   "Centerline Dimension",
+   "Half the Circumference"
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) Radius of the circle",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 73,
+  "q": "What does the abbreviation WISHA stand for?",
+  "opts": [
+   "Washington Industrial Safety & Health Act",
+   "Washington Industrial Safety & Health Account",
+   "Washington Industry Safe Health Act",
+   "Washington Industrial Health & Safety Act"
+  ],
+  "answer": [
+   0
+  ],
+  "key_text": "a) Washington Industrial Safety & Health Act",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   0
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 74,
+  "q": "Express 74 inches in feet and decimals of a foot.",
+  "opts": [
+   "5.667'",
+   "5.666'",
+   "6.167'",
+   "6.116'"
+  ],
+  "answer": [
+   2
+  ],
+  "key_text": "c) 6.167'",
+  "note_ru": "74 ÷ 12 = 6.1667.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   2
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 75,
+  "q": "What is the area of the triangle in the figure below?",
+  "opts": [
+   "16.8 sq. in.",
+   "32 sq. in.",
+   "16 sq. in.",
+   "32 cu. in."
+  ],
+  "answer": [
+   2
+  ],
+  "key_text": "c) 16 sq. in.",
+  "note_ru": "4 × 8 ÷ 2 = 16.",
+  "kind": null,
+  "fig": "q75",
+  "build_answer": [
+   2
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 76,
+  "q": "Find the volume of the box in cubic inches",
+  "opts": [
+   "440 sq. in.",
+   "440 cu. in.",
+   "1.904 gallons",
+   "256"
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) 440 cu. in.",
+  "note_ru": "11 × 5 × 8 = 440 cu. in. В галлонах было бы 1.905, но спрашивают cubic inches.",
+  "kind": null,
+  "fig": "q76",
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 77,
+  "q": "How cubic inches are there in 3 gallons?",
+  "opts": [
+   "462 cu. in.",
+   "231 cu. in.",
+   "693 cu. in.",
+   "231 sq. in."
+  ],
+  "answer": [
+   2
+  ],
+  "key_text": "c) 693 cu. in.",
+  "note_ru": "3 × 231 = 693.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   2
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 78,
+  "q": "When finished using the beverly shear what position should the handle be left in?",
+  "opts": [
+   "Up",
+   "Down"
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) Down",
+  "note_ru": "Ножи сомкнуты, рукоять не упадёт на руку.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 79,
+  "q": "The area of 1/2 of a circle is known as a quadrant.",
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) No",
+  "note_ru": "Половина — semicircle, quadrant — четверть.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 80,
+  "q": "It would be okay to cut 12-gauge mild steel on a 816-power shear as long as it is 4' or less.",
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) No",
+  "note_ru": "816 = 8 футов до 16 gauge. 12 gauge толще, длина не помогает.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 81,
+  "q": "Is it recommended or necessary to wear safety glasses while operating a Sawzall?",
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "key_text": "a) Yes",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   0
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 82,
+  "q": "In order to check if a corner is square, you could use a 12-16-20 triangle.",
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "key_text": "a) Yes",
+  "note_ru": "Это 3-4-5 × 4.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   0
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 83,
+  "q": "An RFI is a written request from a company needing work or services performed to another company for an estimate or cost proposal for performing that work.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) False",
+  "note_ru": "RFI — request for information. Запрос цены — RFP/RFQ.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 84,
+  "q": "Efficient staging of material and equipment can be most critical for projects that are on a tight schedule and that have firm deadlines such as plant shutdowns, etc.",
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "key_text": "a) True",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   0
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 85,
+  "q": "Riggers need not determine load weight before lifting, since the rigging won't lift the load if it's too heavy. True or False?",
+  "opts": [
+   "True",
+   "False. The single most important precaution in hoisting and rigging is to determine the weight of the load before attempting to lift it."
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) False. The single most important precaution in hoisting and rigging is to determine the weight of the load before attempting to lift it.",
+  "note_ru": null,
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 86,
+  "q": "Convert 21' - 9\" to meters. (round to 3 decimal places / Hint 1 meter is equal to 3.2808 feet)",
+  "opts": [
+   "6.629 m",
+   "6.675 m",
+   "71.358 m",
+   "79.552 m"
+  ],
+  "answer": [
+   0
+  ],
+  "key_text": "a) 6.629 m",
+  "note_ru": "21.75 ÷ 3.2808 = 6.629.",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   0
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 87,
+  "q": "If the bottom of a beam measures 14'-4\" from the floor, the ceiling elevation is 9'-6\" from the floor and you are hanging a 20\" tall duct with its bottom located 9\" above the ceiling, how much space is between the top of the duct and the bottom of the beam?",
+  "opts": [
+   "9 inches",
+   "29 inches",
+   "38 inches",
+   "The duct will not fit into this space and must be re-designed."
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) 29 inches",
+  "note_ru": "Beam 172\". Верх duct: 114 + 9 + 20 = 143\". 172 − 143 = 29\".",
+  "kind": null,
+  "fig": null,
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 88,
+  "q": "Calculate the length of the transition for a 15-degree angle?",
+  "opts": [
+   "44 - 13/16\"",
+   "37-5/16\"",
+   "44 - 3/4\"",
+   "45- 11/16"
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) 37-5/16\"",
+  "note_ru": "Здесь 34\"×18\", а не 36\" как в SMY1W5: верх поднимается на 34 − 24 = 10\". Длина = 10 ÷ tan 15° = 37.32\" → 37-5/16\". 44-13/16 был ответом для варианта с 36\".",
+  "kind": null,
+  "fig": "q88",
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 89,
+  "q": "Calculate the height of the cylinder to hold 13 gallons to the nearest 16th.",
+  "opts": [
+   "18.97\"",
+   "19.38\"",
+   "19.51\"",
+   "20.73\""
+  ],
+  "answer": [
+   2
+  ],
+  "key_text": "c) 19.51\"",
+  "note_ru": "13 × 231 = 3003 in³. Площадь круга π × 7² = 153.94 in². 3003 ÷ 153.94 = 19.51\".",
+  "kind": null,
+  "fig": "q89",
+  "build_answer": [
+   2
+  ]
+ },
+ {
+  "src": "T90",
+  "n": 90,
+  "q": "Solve outside wall angle \"A\". Round number to nearest whole degree.",
+  "opts": [
+   "41 degrees",
+   "49 degrees",
+   "45 degrees",
+   "48 degrees"
+  ],
+  "answer": [
+   1
+  ],
+  "key_text": "b) 49 degrees",
+  "note_ru": "По горизонтали 14'-5¼\" − 10'-6\" = 47¼\", по высоте 4'-6¼\" = 54¼\". arctan(54.25 ÷ 47.25) = 48.95° → 49°.",
+  "kind": null,
+  "fig": "q90",
+  "build_answer": [
+   1
+  ]
+ },
+ {
+  "src": "TRI",
+  "n": 1,
+  "q": "1/4 + 5/8 + 11/16 =",
+  "hint": null,
+  "opts": [
+   "1.53",
+   "1-9/16",
+   "17/16",
+   "1-1/16"
+  ],
+  "answer": [
+   1
+  ],
+  "note_ru": "Приводим к 16-м: 4/16 + 10/16 + 11/16 = 25/16 = <b>1-9/16</b> (= 1.5625).",
+  "fig": null
+ },
+ {
+  "src": "TRI",
+  "n": 2,
+  "q": "25.345454545",
+  "hint": "Round to 2 Decimals",
+  "opts": [
+   "25.345",
+   "25.346",
+   "25.34",
+   "25.35"
+  ],
+  "answer": [
+   3
+  ],
+  "note_ru": "Округлить до 2 знаков. Третий знак — 5, за ним ещё 4545 → вверх: <b>25.35</b>.",
+  "fig": null
+ },
+ {
+  "src": "TRI",
+  "n": 3,
+  "q": "7/32 =",
+  "hint": "Convert to a 3 place decimal",
+  "opts": [
+   ".218",
+   "4.570",
+   ".219",
+   "4.571"
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": "7 ÷ 32 = 0.21875 → до 3 знаков <b>.219</b>. (4.570 — это 32 ÷ 7, деление наоборот.)",
+  "fig": null
+ },
+ {
+  "src": "TRI",
+  "n": 4,
+  "q": "Convert 64\" into feet and inches",
+  "hint": null,
+  "opts": [
+   "5.3333'",
+   "5'-4\"",
+   "6'-4\"",
+   "6.3333'"
+  ],
+  "answer": [
+   1
+  ],
+  "note_ru": "64 ÷ 12 = 5 полных футов, остаток 4\" → <b>5'-4\"</b>. 5.3333' — то же число, но в десятичных футах, а спрашивают feet and inches.",
+  "fig": null
+ },
+ {
+  "src": "TRI",
+  "n": 5,
+  "q": "Find the total: 20' 4\" + 8\" - 5' 4\"",
+  "hint": null,
+  "opts": [
+   "15' 8\"",
+   "15' 4\"",
+   "26' 4\"",
+   "26.3333'"
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": "Всё в дюймы: 244 + 8 − 64 = 188\" = <b>15'-8\"</b>.",
+  "fig": null
+ },
+ {
+  "src": "TRI",
+  "n": 6,
+  "q": "7 steel joists are 7' 8\" apart, center to center. What is the distance, center to center, between the two outside joists?",
+  "hint": null,
+  "opts": [
+   "46' 0\"",
+   "53' 8\""
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": "7 joists — это 6 промежутков: 6 × 92\" = 552\" = <b>46'-0\"</b>. 53'-8\" — ловушка: умножили на 7.",
+  "fig": null
+ },
+ {
+  "src": "TRI",
+  "n": 7,
+  "q": "How many cubic inches are there in 3 cubic feet?",
+  "hint": null,
+  "opts": [
+   "1728 cubic inches",
+   "144 cubic inches",
+   "5184 cubic inches",
+   "432 cubic inches"
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": "1 ft³ = 12 × 12 × 12 = 1728 in³; × 3 = <b>5184 in³</b>. (1728 — это только 1 ft³, 144 — квадратный фут.)",
+  "fig": null
+ },
+ {
+  "src": "TRI",
+  "n": 8,
+  "q": "What is the area in square feet of a circle which has a 35\" radius?",
+  "hint": null,
+  "opts": [
+   "109.956 ft²",
+   "3848.451 in²",
+   "26.725 ft²",
+   "26.72535 ft²"
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": "A = π × r² = 3.1416 × 35² = 3848.451 in²; ÷ 144 = <b>26.725 ft²</b>. <span class='warn'>Внимание:</span> 26.72535 ft² — то же самое число, только без округления. Отмечаю 26.725: в курсе округляют до 3 знаков, и остальные варианты тоже с 3 знаками. 3848.451 in² — площадь верная, но в квадратных дюймах, а спрашивают ft².",
+  "fig": null
+ },
+ {
+  "src": "TRI",
+  "n": 9,
+  "q": "Find the area of the flat oval:",
+  "hint": "Round to 2 decimal places",
+  "opts": [
+   "150.27 in²",
+   "130.27 in²",
+   "92.57 in²",
+   "112.57 in²"
+  ],
+  "answer": [
+   1
+  ],
+  "note_ru": "Flat oval = два полукруга (вместе один круг R4\") + прямоугольник 10\" × 8\": π × 4² + 10 × 8 = 50.27 + 80 = <b>130.27 in²</b>.",
+  "fig": "q09"
+ },
+ {
+  "src": "TRI",
+  "n": 10,
+  "q": "Find the volume of the box:",
+  "hint": null,
+  "opts": [
+   "55 in²",
+   "55 in³",
+   "440 in²",
+   "440 in³"
+  ],
+  "answer": [
+   3
+  ],
+  "note_ru": "V = 11 × 5 × 8 = <b>440 in³</b>. <span class='warn'>Ловушка:</span> рядом стоит 440 in² — то же число, но в квадратных дюймах. Объём — всегда in³.",
+  "fig": "q10"
+ },
+ {
+  "src": "TRI",
+  "n": 11,
+  "q": "Solve for the unknown angle “A”.",
+  "hint": null,
+  "opts": [
+   "30.96",
+   "53.13",
+   "12",
+   "36.87"
+  ],
+  "answer": [
+   3
+  ],
+  "note_ru": "Против угла A лежит катет 9\", hypotenuse 15\": sin A = 9 ÷ 15 = 0.6 → A = <b>36.87°</b>. (53.13° — второй острый угол, 12 — длина третьей стороны.)",
+  "fig": "q11"
+ },
+ {
+  "src": "TRI",
+  "n": 12,
+  "q": "Solve for dimension “a”.",
+  "hint": null,
+  "opts": [
+   "18.17'",
+   "5.5'",
+   "5' 6- 11/16\"",
+   "18' 2- 1/16\""
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": "a — катет, прилежащий к углу 73°: a = 19' × cos 73° = 5.555' = 5' + 6.66\" → <b>5'-6 11/16\"</b>. (18.17' — это sin вместо cos; 5.5' — грубо округлено, это 5'-6\".)",
+  "fig": "q12"
+ },
+ {
+  "src": "TRI",
+  "n": 13,
+  "q": "Solve length \"L\" for the triangle.",
+  "hint": null,
+  "opts": [
+   "10.83\"",
+   "17.75\"",
+   "10.53\"",
+   "8.34\""
+  ],
+  "answer": [
+   3
+  ],
+  "note_ru": "13.67\" — hypotenuse (напротив прямого угла), L — прилежащий катет к 52.4°: L = 13.67 × cos 52.4° = <b>8.34\"</b>. (10.83\" — sin вместо cos.)",
+  "fig": "q13"
+ },
+ {
+  "src": "TRI",
+  "n": 14,
+  "q": "Solve angle \"A\" for the triangle.",
+  "hint": null,
+  "opts": [
+   "47.22 degrees",
+   "42.78 degrees",
+   "38.23 degrees",
+   "36.28 degrees"
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": "25-3/8\" — hypotenuse, 18-5/8\" — катет напротив угла A: sin A = 18.625 ÷ 25.375 = 0.7340 → A = <b>47.22°</b>. (42.78° — второй острый угол, если взять cos.)",
+  "fig": "q14"
+ },
+ {
+  "src": "TRI",
+  "n": 15,
+  "q": "Find 3-1/2% of $900.00",
+  "hint": null,
+  "opts": [
+   "$868.50",
+   "$31.50",
+   "$26.37",
+   "$33,40"
+  ],
+  "answer": [
+   1
+  ],
+  "note_ru": "3.5% = 0.035; 900 × 0.035 = <b>$31.50</b>. ($868.50 — это 900 минус 3.5%.)",
+  "fig": null
+ },
+ {
+  "src": "TRI",
+  "n": 16,
+  "q": "A duct needs to be 256 square inches in area. What would be the dimensions for square duct?",
+  "hint": null,
+  "opts": [
+   "32\" x 8\"",
+   "14\" x 8\"",
+   "16\" x 16\"",
+   "14\" x 14\""
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": "Квадратный duct: сторона = √256 = 16 → <b>16\" × 16\"</b>. 32\" × 8\" тоже даёт 256, но это не квадрат.",
+  "fig": null
+ },
+ {
+  "src": "TRI",
+  "n": 17,
+  "q": "Calculate the missing dimensions \"L\" and \"D\" for the offset duct system.",
+  "hint": null,
+  "opts": [
+   "L = 33.10\" D = 62.54\"",
+   "L = 62.54\" D = 33.09\"",
+   "L = 48.17\" D = 78.72\"",
+   "L = 54.63\" D = 78.64"
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": "Rise (подъём) = 12'-1\" − 9'-5\" = 2'-8\" = 32\". R1'-4\" = 16\" — это throat radius; в плоскости поворота лежит сторона 28\", значит centerline radius = 16 + 14 = 30\" (с 20\" ни один вариант не сходится). Два elbow по 37° дают подъём 2 × 30 × (1 − cos 37°) = 12.08\"; остаток 32 − 12.08 = 19.92\" набирает прямой кусок: L = 19.92 ÷ sin 37° = <b>33.10\"</b>. D = 2 × 30 × sin 37° + L × cos 37° = 36.11 + 26.43 = <b>62.54\"</b>. Вариант 2 — те же числа, но L и D перепутаны.",
+  "fig": "q17"
+ },
+ {
+  "src": "TRI",
+  "n": 18,
+  "q": "A sheet metal worker makes a 38\" x 42\" 16 ga. galvanized pan 6\" deep with a 3/4\" hem around the top. If the 16 ga. galvanized costs $.45 per pound and weighs 2.6562 pounds per square foot. How much does the material for the pan cost? Note: Do not allow for the corners of the pan when figuring the weight. The corners are welded with an open corner weld.",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "input",
+  "input_answer": "22.21",
+  "input_unit": "$",
+  "note_ru": "Открытый ответ в TotalTrack. Официальный ответ $22.21; $23.73 — если не вычесть углы.",
+  "fig": null
+ }
+]

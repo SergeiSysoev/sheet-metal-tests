@@ -1,0 +1,50 @@
+[
+ {
+  "src": "FRI",
+  "n": 2,
+  "q": "The filter lens shade most common for GMAW is:",
+  "opts": [
+   "#2",
+   "#H",
+   "#10",
+   "#8"
+  ],
+  "answer": [
+   2
+  ],
+  "note_ru": null,
+  "fig": null
+ },
+ {
+  "src": "FRI",
+  "n": 21,
+  "q": "What is the tensile strength of an ER70S-6 electrode?",
+  "opts": [
+   "1800 lbs",
+   "18000 lbs",
+   "7000 lbs",
+   "70000 lbs"
+  ],
+  "answer": [
+   3
+  ],
+  "note_ru": null,
+  "fig": null
+ },
+ {
+  "src": "FRI",
+  "n": 49,
+  "q": "You're tasked to setup an extension ladder on a 12' high wall. Following OSHA's regulations and standards (see below) for setting up a portable ladder. What is the minimum distance you need to extend the ladder to comply with OSHA's standards? Round answer off to the nearest inch. 1926.1053(b)(1) When portable ladders are used for access to an upper landing surface, the ladder side rails shall extend at least 3 feet (.9 m) above the upper landing surface to which the ladder is used to gain access. 1926.1053(b)(5)(i) Non-self-supporting ladders shall be used at an angle such that the horizontal distance from the top support to the foot of the ladder is approximately one-quarter of the working length of the ladder (the distance along the ladder between the foot and the top support).",
+  "opts": [
+   "15'-5\"",
+   "192\"",
+   "12'-5\"",
+   "15'"
+  ],
+  "answer": [
+   0
+  ],
+  "note_ru": null,
+  "fig": null
+ }
+]
