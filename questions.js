@@ -78,8 +78,8 @@ const SOURCES = {
    "ru": "SMY2W2 Triangulation"
   },
   "sub": {
-   "en": "TotalTrack homework quiz, official key",
-   "ru": "Домашний квиз TotalTrack, официальный ключ"
+   "en": "TotalTrack homework quiz, official key · only questions not already in the tests above",
+   "ru": "Домашний квиз TotalTrack, официальный ключ · только вопросы, которых нет в тестах выше"
   },
   "short": {
    "en": "Triangulation",
@@ -92,8 +92,8 @@ const SOURCES = {
    "ru": "SMY2W3 Monday Written Review"
   },
   "sub": {
-   "en": "2nd year, week 3",
-   "ru": "2-й год, неделя 3"
+   "en": "2nd year, week 3 · only questions not already in the tests above",
+   "ru": "2-й год, неделя 3 · только вопросы, которых нет в тестах выше"
   },
   "short": {
    "en": "SMY2W3 Monday",
@@ -106,8 +106,8 @@ const SOURCES = {
    "ru": "SMY2W3 Friday Written"
   },
   "sub": {
-   "en": "2nd year, week 3",
-   "ru": "2-й год, неделя 3"
+   "en": "2nd year, week 3 · only questions not already in the tests above",
+   "ru": "2-й год, неделя 3 · только вопросы, которых нет в тестах выше"
   },
   "short": {
    "en": "SMY2W3 Friday",
@@ -120,8 +120,8 @@ const SOURCES = {
    "ru": "SMY2W4 Fitting Review — Monday Written"
   },
   "sub": {
-   "en": "2nd year, week 4",
-   "ru": "2-й год, неделя 4"
+   "en": "2nd year, week 4 · only questions not already in the tests above",
+   "ru": "2-й год, неделя 4 · только вопросы, которых нет в тестах выше"
   },
   "short": {
    "en": "SMY2W4 Monday",
@@ -134,8 +134,8 @@ const SOURCES = {
    "ru": "SMY2W4 Friday Written/Math"
   },
   "sub": {
-   "en": "2nd year, week 4",
-   "ru": "2-й год, неделя 4"
+   "en": "2nd year, week 4 · only questions not already in the tests above",
+   "ru": "2-й год, неделя 4 · только вопросы, которых нет в тестах выше"
   },
   "short": {
    "en": "SMY2W4 Friday",
@@ -148,8 +148,8 @@ const SOURCES = {
    "ru": "SMY2W5 Intro to Arch Metals — Monday Written Review"
   },
   "sub": {
-   "en": "2nd year, week 5",
-   "ru": "2-й год, неделя 5"
+   "en": "2nd year, week 5 · only questions not already in the tests above",
+   "ru": "2-й год, неделя 5 · только вопросы, которых нет в тестах выше"
   },
   "short": {
    "en": "SMY2W5 Monday",
@@ -162,8 +162,8 @@ const SOURCES = {
    "ru": "SMY2W5 Year End Cumulative Written Exam"
   },
   "sub": {
-   "en": "2nd year, end of year",
-   "ru": "2-й год, итоговый экзамен года"
+   "en": "2nd year, end of year · only questions not already in the tests above",
+   "ru": "2-й год, итоговый экзамен года · только вопросы, которых нет в тестах выше"
   },
   "short": {
    "en": "Year End",
@@ -176,8 +176,8 @@ const SOURCES = {
    "ru": "SMY1W3 Monday Review = Trade Intro Final"
   },
   "sub": {
-   "en": "1st year: trade intro, shop standards, math",
-   "ru": "1-й год: введение в профессию, shop standards, математика"
+   "en": "1st year: trade intro, shop standards, math · only questions not already in the tests above",
+   "ru": "1-й год: введение в профессию, shop standards, математика · только вопросы, которых нет в тестах выше"
   },
   "short": {
    "en": "SMY1W3 Monday",
@@ -190,8 +190,8 @@ const SOURCES = {
    "ru": "SMY1W5 Monday Written/Math — Ortho & Ogee Offsets"
   },
   "sub": {
-   "en": "1st year Monday test",
-   "ru": "Тест понедельника 1-го года"
+   "en": "1st year Monday test · only questions not already in the tests above",
+   "ru": "Тест понедельника 1-го года · только вопросы, которых нет в тестах выше"
   },
   "short": {
    "en": "SMY1W5 Monday",
@@ -204,8 +204,8 @@ const SOURCES = {
    "ru": "SMY1W5 Friday Written — Ortho & Ogee"
   },
   "sub": {
-   "en": "1st year Friday test",
-   "ru": "Пятничный тест 1-го года"
+   "en": "1st year Friday test · only questions not already in the tests above",
+   "ru": "Пятничный тест 1-го года · только вопросы, которых нет в тестах выше"
   },
   "short": {
    "en": "SMY1W5 Friday",
@@ -218,8 +218,8 @@ const SOURCES = {
    "ru": "Письменный тест, апрель 2026 (видимо, SMY1W4)"
   },
   "sub": {
-   "en": "Shop standards, tools, math",
-   "ru": "Shop standards, инструменты, математика"
+   "en": "Shop standards, tools, math · only questions not already in the tests above",
+   "ru": "Shop standards, инструменты, математика · только вопросы, которых нет в тестах выше"
   },
   "short": {
    "en": "April test",
@@ -232,8 +232,8 @@ const SOURCES = {
    "ru": "SMY1W3 Friday — brazing и soldering"
   },
   "sub": {
-   "en": "TotalTrack, official key",
-   "ru": "TotalTrack, официальный ключ"
+   "en": "TotalTrack, official key · only questions not already in the tests above",
+   "ru": "TotalTrack, официальный ключ · только вопросы, которых нет в тестах выше"
   },
   "short": {
    "en": "Brazing",
@@ -246,8 +246,8 @@ const SOURCES = {
    "ru": "Fire & Smoke Damper Technician (FSD, части 1–6)"
   },
   "sub": {
-   "en": "TotalTrack, official key",
-   "ru": "TotalTrack, официальный ключ"
+   "en": "TotalTrack, official key · only questions not already in the tests above",
+   "ru": "TotalTrack, официальный ключ · только вопросы, которых нет в тестах выше"
   },
   "short": {
    "en": "FSD",
@@ -260,8 +260,8 @@ const SOURCES = {
    "ru": "005 Final Written Test"
   },
   "sub": {
-   "en": "Final written test",
-   "ru": "Итоговый письменный тест"
+   "en": "Final written test · only questions not already in the tests above",
+   "ru": "Итоговый письменный тест · только вопросы, которых нет в тестах выше"
   },
   "short": {
    "en": "005 Final",

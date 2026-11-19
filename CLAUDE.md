@@ -21,10 +21,24 @@
 - Один и тот же вопрос с другими числами или с другим словом (SMAW / GMAW) — отдельный вопрос: на тесте это ловушка.
   Точные дубли сливать.
 
-## Порядок наполнения
-1. Часть 1 (19.11): вопросы недели 16–19.11 — тест Welding & Layout (90) и SMY2W2 Triangulation (18).
-2. Дальше по базе курса: SMY2W2 Monday (79), SMY1W5 (66), Weld Quiz (20), SMY1W3 = Trade Intro (60),
-   brazing/FSD (TotalTrack), SMY2W3, SMY2W4. Источники и номера фото — 08-testy-i-klyuchi.md, раздел «Источники».
+## Что внутри (2026-11-19 вечер): 574 вопроса после удаления дублей
+Коды тестов (src) и откуда взяты — архив группы Local 66, /Users/assistant/.telegram-archive/local_66/inbox/:
+- T90 Welding & Layout (16.11, фото Сержа, prior-work/t90), FRI SMY2W2 Friday (msg_994), MON SMY2W2 Monday (msg_993),
+  TRI SMY2W2 Triangulation (TotalTrack, официальный ключ);
+- Y2W3M/F SMY2W3 Monday msg_1244–1270, Friday msg_1295–1306; Y2W4M/F SMY2W4 msg_1869–1885, 1887–1903;
+  Y2W5M SMY2W5 Monday Review msg_2721–2730; Y2W5Y Year End Cumulative msg_2739–2752 (лист Тимофея);
+- Y1W3 SMY1W3 Monday = Trade Intro (msg_997 + листы msg_980–990, 754–766); Y1W5F/M SMY1W5 Friday msg_2604–2621,
+  Monday msg_2572–2582 (листы Сержа, проверены красным); APR апрель 2026 (видимо SMY1W4) msg_2213–2215;
+- BRZ brazing (msg_995) и FSD units 1–6 (msg_999…1007) — TotalTrack, официальный ключ; FIN5 «005 Final» msg_3247–3249.
+Не вошли: Y2W4M №49, 52 (не читаются чертежи), Y2W3M №3, Y2W3F №35, BRZ №19, Y2W5Y №63 (открытые списки).
+Темы в приложении — 7 крупных (сварка, математика, чертежи/layout/fittings, металлы/инструменты, безопасность,
+fire & smoke dampers, профессия/профсоюз); в данных — мелкие id, сборка сворачивает (GROUP_OF).
+«also» в данных — второй засчитываемый вариант, где проверенный лист и доказательство расходятся (Y1W3-51, Y2W3F-7, Y2W5Y-41).
+
+## Как добавить новый тест
+Бриф для исполнителя — tools/TEST-BRIEF.md (+ CONTENT-BRIEF.md): data/CODE_base.json, CODE_content_main.json,
+tools/figures_CODE.py, img/code-qNN.svg; код добавить в SOURCES/SRC_ORDER в build_questions.py. Дубли между тестами
+сборка убирает сама (текст + набор вариантов + рисунок). После — независимая проверка (отдельный агент, только чтение).
 
 ## Данные и сборка
 - data/<part>_base.json — английский текст, варианты, ответ по ключу (tools/extract_*.py).

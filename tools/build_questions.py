@@ -67,6 +67,14 @@ DAMPER_RE = re.compile(r'\bdampers?\b|fusible link|UL ?555|smoke detector', re.I
 SRC_ORDER = ['T90', 'FRI', 'MON', 'TRI', 'Y2W3M', 'Y2W3F', 'Y2W4M', 'Y2W4F', 'Y2W5M', 'Y2W5Y', 'Y1W3', 'Y1W5M', 'Y1W5F',
              'APR', 'BRZ', 'FSD', 'FIN5']
 SOURCES = {k: SOURCES[k] for k in SRC_ORDER + [k for k in SOURCES if k not in SRC_ORDER]}
+# Tests after the first one repeat many questions; the bank keeps each question once, under the first test it
+# appeared in. Say so on every later test card, so a small count is not mistaken for a missing test.
+for _k, _v in SOURCES.items():
+    if _k in ('T90', 'FRI', 'MON'):
+        continue
+    if 'only new' not in _v['sub']['en']:
+        _v['sub'] = {'en': _v['sub']['en'] + ' · only questions not already in the tests above',
+                     'ru': _v['sub']['ru'] + ' · только вопросы, которых нет в тестах выше'}
 HINT_RU = {
     'Round to 2 Decimals': 'Округлить до 2 знаков после запятой',
     'Convert to a 3 place decimal': 'Перевести в десятичную дробь с 3 знаками',
