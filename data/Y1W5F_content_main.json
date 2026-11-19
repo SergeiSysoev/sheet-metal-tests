@@ -1,0 +1,132 @@
+[
+ {
+  "src": "Y1W5F",
+  "n": 39,
+  "topic": "math",
+  "ru_q": "Сколько кубических дюймов в 2 галлонах?",
+  "ru_hint": null,
+  "ru_opts": [
+   "462 cu. in.",
+   "38.5 cu. in.",
+   "231 cu. in.",
+   "231 sq. in."
+  ],
+  "why_en": "One US gallon = 231 cu. in., so 2 × 231 = 462 cu. in. Traps: 231 cu. in. is one gallon, 231 sq. in. is an area unit, and 38.5 is 231 ÷ 6, which has nothing to do with gallons.",
+  "why_ru": "Один US gallon = 231 cu. in., поэтому 2 × 231 = 462 cu. in. Ловушки: 231 cu. in. — это один галлон, 231 sq. in. — единица площади, а 38.5 — это 231 ÷ 6, к галлонам отношения не имеет.",
+  "flag": "Typo in original: \"How cubic inches\" (= How many cubic inches). Kept as printed. Same question with 2.5 gal is MON No.39, with 3 gal T90 No.77."
+ },
+ {
+  "src": "Y1W5F",
+  "n": 59,
+  "topic": "drawing",
+  "ru_q": "Orthographic drawing похож на коробку, развёрнутую на плоскость.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Неверно",
+   "Верно"
+  ],
+  "why_en": "Picture the object inside a glass box: each view is projected straight onto the side of the box facing it, and then the box is opened flat, so the plan, front and side views lie on one sheet, each in its fixed place.",
+  "why_ru": "Представь предмет внутри стеклянной коробки: каждый вид проецируется прямо на ту стенку коробки, что напротив, а потом коробку раскрывают на плоскость. Так plan, front и side views оказываются на одном листе, каждый на своём месте.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5F",
+  "n": 60,
+  "topic": "drawing",
+  "ru_q": "В orthographic drawing какой вид располагают в правом нижнем углу листа?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Plan",
+   "Oblique",
+   "Side",
+   "Front"
+  ],
+  "why_en": "In the standard layout the plan (top) view is upper left, the front elevation lower left, and the side view sits to the right of the front elevation, lower right. Oblique is a pictorial drawing, not one of the orthographic views.",
+  "why_ru": "В стандартной раскладке plan (вид сверху) — слева вверху, front elevation — слева внизу, а side view стоит справа от front elevation, то есть справа внизу. Oblique — наглядный рисунок, а не один из orthographic видов.",
+  "flag": "Same question as No.5 of this test (MON No.5) but with different options (Plan / Oblique / Side / Front), so it is kept as a separate item."
+ },
+ {
+  "src": "Y1W5F",
+  "n": 61,
+  "topic": "drawing",
+  "ru_q": "Строительные планы и технические чертежи обычно показывают предмет тремя видами (top, front, side).",
+  "ru_hint": null,
+  "ru_opts": [
+   "Неверно",
+   "Верно"
+  ],
+  "why_en": "Top (plan), front and side views together give the width, depth and height of an object, so three views are the usual set on building plans and shop drawings. A simple part may need fewer, but three is the standard.",
+  "why_ru": "Top (plan), front и side вместе дают ширину, глубину и высоту предмета, поэтому три вида — обычный набор на строительных и рабочих чертежах. Простой детали может хватить меньшего, но стандарт — три.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5F",
+  "n": 62,
+  "topic": "drawing",
+  "ru_q": "Orthographic projection можно построить под углом 35 градусов.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Неверно",
+   "Верно"
+  ],
+  "why_en": "In orthographic projection the projection lines are perpendicular (90°) to the plane of each view, and every view is seen straight on. Lines receding at an angle belong to pictorial drawings: 30° in isometric, often 45° in oblique.",
+  "why_ru": "В orthographic projection линии проекции перпендикулярны (90°) плоскости каждого вида, и каждый вид показан так, будто смотришь прямо. Линии, уходящие под углом, — это наглядные рисунки: 30° в isometric, часто 45° в oblique.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5F",
+  "n": 63,
+  "topic": "drawing",
+  "ru_q": "Orthographic projection — это построение линий, чтобы показать три вида предмета на одном чертеже.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Верно",
+   "Неверно"
+  ],
+  "why_en": "Projection lines carry each point and edge from one view to the next, so the plan, front and side views are constructed and lined up on the same drawing.",
+  "why_ru": "Линии проекции переносят каждую точку и каждое ребро из одного вида в другой, поэтому plan, front и side views строятся и выравниваются на одном чертеже.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5F",
+  "n": 64,
+  "topic": "drawing",
+  "ru_q": "В orthographic projection виды plan, front elevation и side elevation показаны так, будто на них смотрят прямо (straight on).",
+  "ru_hint": null,
+  "ru_opts": [
+   "Неверно",
+   "Верно"
+  ],
+  "why_en": "Each orthographic view looks at the object at 90° to that face, so faces parallel to the view show in their true size and shape, without perspective.",
+  "why_ru": "Каждый orthographic вид смотрит на предмет под 90° к его грани, поэтому грани, параллельные виду, показаны в натуральную величину и форму, без перспективы.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5F",
+  "n": 65,
+  "topic": "drawing",
+  "ru_q": "Orthographic projection можно построить по наглядному рисунку (pictorial view).",
+  "ru_hint": null,
+  "ru_opts": [
+   "Неверно",
+   "Верно"
+  ],
+  "why_en": "A pictorial view (isometric or oblique) shows the width, depth and height of the object, so the top, front and side views can be drawn from it.",
+  "why_ru": "Pictorial view (isometric или oblique) показывает ширину, глубину и высоту предмета, поэтому по нему можно начертить top, front и side views.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5F",
+  "n": 66,
+  "topic": "drawing",
+  "ru_q": "Isometric drawing можно построить по данным orthographic drawing.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Неверно",
+   "Верно"
+  ],
+  "why_en": "The orthographic views give every dimension; lay them off along the three isometric axes (one vertical, two at 30° to the horizontal) to build the isometric drawing.",
+  "why_ru": "Orthographic виды дают все размеры; их откладывают по трём осям isometric (одна вертикальная, две под 30° к горизонтали) — так получается isometric drawing.",
+  "flag": null
+ }
+]

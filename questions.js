@@ -4887,8 +4887,8 @@ const QUESTIONS = [
    "ru": "Что означают буквы FOB, написанные на transition?"
   },
   "why": {
-   "en": "On course sheet 2I Transition Terminology, FOB = flat on bottom: the BOTTOM (the face behind the TOP, away from the viewer) is not sloped; it stays perpendicular to the line of vision. FOT is the same for the TOP. Flat on back is a common mix-up; the course term is bottom.",
-   "ru": "По листу курса 2I Transition Terminology FOB = flat on bottom: BOTTOM (грань за TOP, дальняя от смотрящего) не наклонена, она перпендикулярна линии взгляда. FOT — то же для TOP. «Flat on back» — частая путаница, в курсе это bottom."
+   "en": "On course sheet 2I Transition Terminology, FOB = flat on bottom: the BOTTOM (the face behind the TOP, away from the viewer) is not sloped; it stays perpendicular to the line of vision. FOT is the same for the TOP. The course term is bottom. On a graded SMY1W5 sheet the instructor also ticked \"Flat on back\" as acceptable; for points pick \"Flat on bottom\", the course term.",
+   "ru": "По листу курса 2I Transition Terminology FOB = flat on bottom: BOTTOM (грань за TOP, дальняя от смотрящего) не наклонена, она перпендикулярна линии взгляда. FOT — то же для TOP. В курсе это bottom. На проверенном листе SMY1W5 инструктор засчитал и «Flat on back»; для балла ставь «Flat on bottom» — термин курса."
   },
   "opts": [
    {
@@ -7386,5 +7386,974 @@ const QUESTIONS = [
    2
   ],
   "type": "single"
+ },
+ {
+  "id": "Y1W5F-39",
+  "src": "Y1W5F",
+  "n": 39,
+  "topic": "math",
+  "q": {
+   "en": "How cubic inches are there in 2 gallons?",
+   "ru": "Сколько кубических дюймов в 2 галлонах?"
+  },
+  "why": {
+   "en": "One US gallon = 231 cu. in., so 2 × 231 = 462 cu. in. Traps: 231 cu. in. is one gallon, 231 sq. in. is an area unit, and 38.5 is 231 ÷ 6, which has nothing to do with gallons.",
+   "ru": "Один US gallon = 231 cu. in., поэтому 2 × 231 = 462 cu. in. Ловушки: 231 cu. in. — это один галлон, 231 sq. in. — единица площади, а 38.5 — это 231 ÷ 6, к галлонам отношения не имеет."
+  },
+  "opts": [
+   {
+    "en": "462 cu. in.",
+    "ru": "462 cu. in."
+   },
+   {
+    "en": "38.5 cu. in.",
+    "ru": "38.5 cu. in."
+   },
+   {
+    "en": "231 cu. in.",
+    "ru": "231 cu. in."
+   },
+   {
+    "en": "231 sq. in.",
+    "ru": "231 sq. in."
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5F-59",
+  "src": "Y1W5F",
+  "n": 59,
+  "topic": "layout",
+  "q": {
+   "en": "An orthographic drawing is like a box opened flat.",
+   "ru": "Orthographic drawing похож на коробку, развёрнутую на плоскость."
+  },
+  "why": {
+   "en": "Picture the object inside a glass box: each view is projected straight onto the side of the box facing it, and then the box is opened flat, so the plan, front and side views lie on one sheet, each in its fixed place.",
+   "ru": "Представь предмет внутри стеклянной коробки: каждый вид проецируется прямо на ту стенку коробки, что напротив, а потом коробку раскрывают на плоскость. Так plan, front и side views оказываются на одном листе, каждый на своём месте."
+  },
+  "opts": [
+   {
+    "en": "False",
+    "ru": "Неверно"
+   },
+   {
+    "en": "True",
+    "ru": "Верно"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5F-60",
+  "src": "Y1W5F",
+  "n": 60,
+  "topic": "layout",
+  "q": {
+   "en": "In an orthographic drawing, what view is placed in the lower right-hand corner of the drawing?",
+   "ru": "В orthographic drawing какой вид располагают в правом нижнем углу листа?"
+  },
+  "why": {
+   "en": "In the standard layout the plan (top) view is upper left, the front elevation lower left, and the side view sits to the right of the front elevation, lower right. Oblique is a pictorial drawing, not one of the orthographic views.",
+   "ru": "В стандартной раскладке plan (вид сверху) — слева вверху, front elevation — слева внизу, а side view стоит справа от front elevation, то есть справа внизу. Oblique — наглядный рисунок, а не один из orthographic видов."
+  },
+  "opts": [
+   {
+    "en": "Plan",
+    "ru": "Plan"
+   },
+   {
+    "en": "Oblique",
+    "ru": "Oblique"
+   },
+   {
+    "en": "Side",
+    "ru": "Side"
+   },
+   {
+    "en": "Front",
+    "ru": "Front"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5F-61",
+  "src": "Y1W5F",
+  "n": 61,
+  "topic": "layout",
+  "q": {
+   "en": "Building plans and technical drawings commonly use three views (top, front, side) to show an object.",
+   "ru": "Строительные планы и технические чертежи обычно показывают предмет тремя видами (top, front, side)."
+  },
+  "why": {
+   "en": "Top (plan), front and side views together give the width, depth and height of an object, so three views are the usual set on building plans and shop drawings. A simple part may need fewer, but three is the standard.",
+   "ru": "Top (plan), front и side вместе дают ширину, глубину и высоту предмета, поэтому три вида — обычный набор на строительных и рабочих чертежах. Простой детали может хватить меньшего, но стандарт — три."
+  },
+  "opts": [
+   {
+    "en": "False",
+    "ru": "Неверно"
+   },
+   {
+    "en": "True",
+    "ru": "Верно"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5F-62",
+  "src": "Y1W5F",
+  "n": 62,
+  "topic": "layout",
+  "q": {
+   "en": "An orthographic projection can be made using a 35-degree angle.",
+   "ru": "Orthographic projection можно построить под углом 35 градусов."
+  },
+  "why": {
+   "en": "In orthographic projection the projection lines are perpendicular (90°) to the plane of each view, and every view is seen straight on. Lines receding at an angle belong to pictorial drawings: 30° in isometric, often 45° in oblique.",
+   "ru": "В orthographic projection линии проекции перпендикулярны (90°) плоскости каждого вида, и каждый вид показан так, будто смотришь прямо. Линии, уходящие под углом, — это наглядные рисунки: 30° в isometric, часто 45° в oblique."
+  },
+  "opts": [
+   {
+    "en": "False",
+    "ru": "Неверно"
+   },
+   {
+    "en": "True",
+    "ru": "Верно"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5F-63",
+  "src": "Y1W5F",
+  "n": 63,
+  "topic": "layout",
+  "q": {
+   "en": "Orthographic projection is the process of constructing lines to show three views of an object in the same drawing.",
+   "ru": "Orthographic projection — это построение линий, чтобы показать три вида предмета на одном чертеже."
+  },
+  "why": {
+   "en": "Projection lines carry each point and edge from one view to the next, so the plan, front and side views are constructed and lined up on the same drawing.",
+   "ru": "Линии проекции переносят каждую точку и каждое ребро из одного вида в другой, поэтому plan, front и side views строятся и выравниваются на одном чертеже."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "Верно"
+   },
+   {
+    "en": "False",
+    "ru": "Неверно"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5F-64",
+  "src": "Y1W5F",
+  "n": 64,
+  "topic": "layout",
+  "q": {
+   "en": "In an orthographic projection, the plan, front-elevation, and side-elevation views are shown as if they were viewed straight on.",
+   "ru": "В orthographic projection виды plan, front elevation и side elevation показаны так, будто на них смотрят прямо (straight on)."
+  },
+  "why": {
+   "en": "Each orthographic view looks at the object at 90° to that face, so faces parallel to the view show in their true size and shape, without perspective.",
+   "ru": "Каждый orthographic вид смотрит на предмет под 90° к его грани, поэтому грани, параллельные виду, показаны в натуральную величину и форму, без перспективы."
+  },
+  "opts": [
+   {
+    "en": "False",
+    "ru": "Неверно"
+   },
+   {
+    "en": "True",
+    "ru": "Верно"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5F-65",
+  "src": "Y1W5F",
+  "n": 65,
+  "topic": "layout",
+  "q": {
+   "en": "An orthographic projection can be made from a pictorial view.",
+   "ru": "Orthographic projection можно построить по наглядному рисунку (pictorial view)."
+  },
+  "why": {
+   "en": "A pictorial view (isometric or oblique) shows the width, depth and height of the object, so the top, front and side views can be drawn from it.",
+   "ru": "Pictorial view (isometric или oblique) показывает ширину, глубину и высоту предмета, поэтому по нему можно начертить top, front и side views."
+  },
+  "opts": [
+   {
+    "en": "False",
+    "ru": "Неверно"
+   },
+   {
+    "en": "True",
+    "ru": "Верно"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5F-66",
+  "src": "Y1W5F",
+  "n": 66,
+  "topic": "layout",
+  "q": {
+   "en": "An isometric drawing can be made from the information given on an orthographic drawing.",
+   "ru": "Isometric drawing можно построить по данным orthographic drawing."
+  },
+  "why": {
+   "en": "The orthographic views give every dimension; lay them off along the three isometric axes (one vertical, two at 30° to the horizontal) to build the isometric drawing.",
+   "ru": "Orthographic виды дают все размеры; их откладывают по трём осям isometric (одна вертикальная, две под 30° к горизонтали) — так получается isometric drawing."
+  },
+  "opts": [
+   {
+    "en": "False",
+    "ru": "Неверно"
+   },
+   {
+    "en": "True",
+    "ru": "Верно"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5M-3",
+  "src": "Y1W5M",
+  "n": 3,
+  "topic": "trade",
+  "q": {
+   "en": "Roughly 2/3 of all sheet metal workers are employed in this area of the trade.",
+   "ru": "Примерно 2/3 всех sheet metal workers заняты в этой области профессии."
+  },
+  "why": {
+   "en": "HVAC (heating, ventilating and air-conditioning) ductwork is the largest area of the sheet metal trade; industrial, architectural and service work employ fewer workers.",
+   "ru": "HVAC (отопление, вентиляция и кондиционирование) — самая большая область профессии sheet metal; в industrial, architectural и service занято меньше людей."
+  },
+  "opts": [
+   {
+    "en": "Industrial",
+    "ru": "Industrial"
+   },
+   {
+    "en": "Architectural",
+    "ru": "Architectural"
+   },
+   {
+    "en": "Service",
+    "ru": "Service"
+   },
+   {
+    "en": "HVAC",
+    "ru": "HVAC"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5M-4",
+  "src": "Y1W5M",
+  "n": 4,
+  "topic": "shop",
+  "q": {
+   "en": "All snips can be classified as either straight blade or combination blade.",
+   "ru": "Все snips можно разделить на straight blade и combination blade."
+  },
+  "why": {
+   "en": "Snips are grouped by blade shape: straight blades for straight cuts and gentle outside curves, combination blades for both straight lines and curves.",
+   "ru": "Snips делят по форме лезвий: straight blade — для прямых резов и плавных наружных кривых, combination blade — и для прямых, и для кривых."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5M-7",
+  "src": "Y1W5M",
+  "n": 7,
+  "topic": "shop",
+  "q": {
+   "en": "An easy edger machine turns a _______ inch edge.",
+   "ru": "Easy edger загибает кромку шириной _______ дюйма."
+  },
+  "why": {
+   "en": "The easy edger turns a 3/16\" edge, and 3 ÷ 16 = .1875\". The other values are other fractions: .8125 = 13/16, .25 = 1/4, .375 = 3/8.",
+   "ru": "Easy edger загибает кромку 3/16\", а 3 ÷ 16 = .1875\". Остальные значения — другие дроби: .8125 = 13/16, .25 = 1/4, .375 = 3/8."
+  },
+  "opts": [
+   {
+    "en": ".8125",
+    "ru": ".8125"
+   },
+   {
+    "en": ".25",
+    "ru": ".25"
+   },
+   {
+    "en": ".375",
+    "ru": ".375"
+   },
+   {
+    "en": ".1875",
+    "ru": ".1875"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5M-8",
+  "src": "Y1W5M",
+  "n": 8,
+  "topic": "shop",
+  "q": {
+   "en": "Rotary machines are also called turning machines.",
+   "ru": "Rotary machines ещё называют turning machines."
+  },
+  "why": {
+   "en": "A rotary machine forms the edge between a pair of turning rolls; with interchangeable rolls the same machine does turning, burring, wiring, beading and crimping, so in the shop it is also called a turning machine.",
+   "ru": "Rotary machine формует кромку между парой вращающихся роликов; со сменными роликами одна машина делает turning, burring, wiring, beading и crimping, поэтому в мастерской её называют и turning machine."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5M-9",
+  "src": "Y1W5M",
+  "n": 9,
+  "topic": "shop",
+  "q": {
+   "en": "An adjustable gauge on the bar folder allows a number of pieces to be bent to the same dimension without marking each piece.",
+   "ru": "Регулируемый gauge на bar folder позволяет согнуть несколько деталей на один размер, не размечая каждую."
+  },
+  "why": {
+   "en": "The depth gauge sets how wide a fold the bar folder makes; once it is set, every piece pushed against it is folded to the same width, so no layout line is needed on each piece.",
+   "ru": "Gauge задаёт ширину отгиба на bar folder; после настройки каждая деталь, вставленная до упора, сгибается на ту же ширину, поэтому размечать каждую не нужно."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5M-14",
+  "src": "Y1W5M",
+  "n": 14,
+  "topic": "safety",
+  "q": {
+   "en": "An experience modifier determines the dollar amount that a contractor pays, based on the shop safety record.",
+   "ru": "Experience modifier определяет, сколько долларов платит подрядчик, в зависимости от истории безопасности (safety record) мастерской."
+  },
+  "why": {
+   "en": "The experience modification rate (EMR) adjusts a contractor's workers' compensation insurance premium by its injury claim history: a worse record than average pushes the rate above 1.0 and raises the cost, a better record lowers it.",
+   "ru": "Experience modification rate (EMR) пересчитывает взнос подрядчика за страховку workers' compensation по его истории травм: хуже среднего — коэффициент выше 1.0 и платить больше, лучше — меньше."
+  },
+  "opts": [
+   {
+    "en": "No",
+    "ru": "Нет"
+   },
+   {
+    "en": "Yes",
+    "ru": "Да"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5M-19",
+  "src": "Y1W5M",
+  "n": 19,
+  "topic": "trade",
+  "q": {
+   "en": "Body language, tone of voice and facial expressions are ways that we communicate indirectly.",
+   "ru": "Язык тела, тон голоса и выражение лица — это способы общаться косвенно."
+  },
+  "why": {
+   "en": "They are nonverbal signals: they carry a message without words, along with what is said or even against it.",
+   "ru": "Это невербальные сигналы: они передают смысл без слов, вместе со сказанным или даже вопреки ему."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5M-23",
+  "src": "Y1W5M",
+  "n": 23,
+  "topic": "layout",
+  "q": {
+   "en": "The three basic types of elbows: (a) Square Throat/Square Heel, (b) Radius Throat/Square Heel, (c) Radius Throat/Radius Heel",
+   "ru": "Три основных типа elbows: (a) Square Throat/Square Heel, (b) Radius Throat/Square Heel, (c) Radius Throat/Radius Heel"
+  },
+  "why": {
+   "en": "The list is wrong in (b). The three basic rectangular elbows are square throat/square heel, square throat/radius heel (the usual square throat elbow) and radius throat/radius heel; a radius throat with a square heel is not one of them.",
+   "ru": "Ошибка в пункте (b). Три основных типа прямоугольных elbows: square throat/square heel, square throat/radius heel (обычный square throat elbow) и radius throat/radius heel. Radius throat с square heel в их число не входит."
+  },
+  "opts": [
+   {
+    "en": "No",
+    "ru": "Нет"
+   },
+   {
+    "en": "Yes",
+    "ru": "Да"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5M-29",
+  "src": "Y1W5M",
+  "n": 29,
+  "topic": "shop",
+  "q": {
+   "en": "Pushing snips completely to the end of the last cut before making the next cut helps avoid fishhooks or burrs.",
+   "ru": "Если перед следующим резом вдвигать snips до конца предыдущего реза, это помогает избежать fishhooks и заусенцев (burrs)."
+  },
+  "why": {
+   "en": "Open the snips and push them in until the blades reach the end of the last cut, then close them again. If you close the blade tips all the way at the end of each stroke, every stroke leaves a small jagged step (fishhook) on the edge.",
+   "ru": "Раскрой snips и вдвинь их, пока лезвия не дойдут до конца прошлого реза, потом снова сжимай. Если на каждом ходе смыкать кончики лезвий до конца, после каждого хода на кромке остаётся зазубрина (fishhook)."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5M-42",
+  "src": "Y1W5M",
+  "n": 42,
+  "topic": "layout",
+  "q": {
+   "en": "What is a common seam that is used to attach a round duct to a flat surface?",
+   "ru": "Какой распространённый seam используют, чтобы присоединить round duct к плоской поверхности?"
+  },
+  "why": {
+   "en": "Dovetail: tabs cut around the end of the round collar go through the hole in the flat sheet and are bent alternately in and out to lock it. Pittsburgh, S lock and clinch lock join sheet edges and duct sections, not a round collar to a flat surface.",
+   "ru": "Dovetail: зубцы, нарезанные по краю round collar, вставляют в отверстие плоского листа и отгибают поочерёдно внутрь и наружу. Pittsburgh, S lock и clinch lock соединяют кромки листов и секции duct, а не round collar с плоскостью."
+  },
+  "opts": [
+   {
+    "en": "Dovetail",
+    "ru": "Dovetail"
+   },
+   {
+    "en": "Pittsburgh",
+    "ru": "Pittsburgh"
+   },
+   {
+    "en": "S lock",
+    "ru": "S lock"
+   },
+   {
+    "en": "Clinch lock",
+    "ru": "Clinch lock"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5M-45",
+  "src": "Y1W5M",
+  "n": 45,
+  "topic": "math",
+  "q": {
+   "en": "What is a Circumference?",
+   "ru": "Что такое Circumference?"
+  },
+  "why": {
+   "en": "Circumference is the perimeter of a circle, the distance around it: C = π × D. The distance across through the center is the diameter, and the area is the space inside.",
+   "ru": "Circumference — периметр круга, расстояние вокруг него: C = π × D. Расстояние поперёк через центр — это диаметр, а площадь — то, что внутри."
+  },
+  "opts": [
+   {
+    "en": "THE DIAMETER OF A CIRCLE",
+    "ru": "Диаметр круга"
+   },
+   {
+    "en": "THE DISTANCE ACROSS A CIRCLE",
+    "ru": "Расстояние поперёк круга"
+   },
+   {
+    "en": "THE PERIMETER AROUND A CIRCLE",
+    "ru": "Периметр вокруг круга"
+   },
+   {
+    "en": "THE AREA OF A CIRCLE",
+    "ru": "Площадь круга"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5M-46",
+  "src": "Y1W5M",
+  "n": 46,
+  "topic": "layout",
+  "q": {
+   "en": "A pencil that is labeled 4H will be darker than a pencil that is labeled 2B.",
+   "ru": "Карандаш с маркировкой 4H чертит темнее, чем карандаш 2B."
+  },
+  "why": {
+   "en": "H means hard: the higher the H number, the harder the lead and the lighter the line. B means black (soft): 2B is soft and dark. So 4H draws lighter than 2B, not darker.",
+   "ru": "H — hard (твёрдый): чем больше число H, тем твёрже грифель и светлее линия. B — black (мягкий): 2B мягкий и тёмный. Значит, 4H чертит светлее, чем 2B, а не темнее."
+  },
+  "opts": [
+   {
+    "en": "No",
+    "ru": "Нет"
+   },
+   {
+    "en": "Yes",
+    "ru": "Да"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5M-47",
+  "src": "Y1W5M",
+  "n": 47,
+  "topic": "layout",
+  "q": {
+   "en": "Architect scale rules use decimals of an inch.",
+   "ru": "На architect scale rules деления — в десятичных долях дюйма."
+  },
+  "why": {
+   "en": "An architect scale is divided in feet and fractions of an inch (1/8\" = 1'-0\", 1/4\" = 1'-0\" and so on). Decimal divisions are on the engineer's scale.",
+   "ru": "Architect scale размечен в футах и дробях дюйма (1/8\" = 1'-0\", 1/4\" = 1'-0\" и т. д.). Десятичные деления — на engineer's scale."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5M-48",
+  "src": "Y1W5M",
+  "n": 48,
+  "topic": "layout",
+  "q": {
+   "en": "If the scale on a drawing is listed as 1/4 scale, this means that the drawing was produced at:",
+   "ru": "Если масштаб на чертеже указан как 1/4 scale, значит, чертёж выполнен в масштабе:"
+  },
+  "why": {
+   "en": "\"1/4 scale\" is a ratio, 1:4: the drawing is a quarter of full size, and a quarter of 12\" is 12 ÷ 4 = 3\", so 3\" = 1'-0\" (full scale is 12\" = 1'-0\", half scale 6\" = 1'-0\"). 1/4\" = 1'-0\" is a different scale, 1:48 (12 ÷ 1/4 = 48).",
+   "ru": "\"1/4 scale\" — это отношение 1:4: чертёж в четверть натуральной величины, а четверть от 12\" — это 12 ÷ 4 = 3\", то есть 3\" = 1'-0\" (full scale — 12\" = 1'-0\", half scale — 6\" = 1'-0\"). 1/4\" = 1'-0\" — другой масштаб, 1:48 (12 ÷ 1/4 = 48)."
+  },
+  "opts": [
+   {
+    "en": "1/4\" = 1'- 0\"",
+    "ru": "1/4\" = 1'- 0\""
+   },
+   {
+    "en": "3\" = 1'- 0\"",
+    "ru": "3\" = 1'- 0\""
+   },
+   {
+    "en": "4\" = 1'- 0\"",
+    "ru": "4\" = 1'- 0\""
+   },
+   {
+    "en": "3\" = 1\"",
+    "ru": "3\" = 1\""
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5M-49",
+  "src": "Y1W5M",
+  "n": 49,
+  "topic": "layout",
+  "q": {
+   "en": "On a drawing, a cutting plane line shows where an imaginary cut is made. The arrow on it points in the direction you would be looking in a _______________ view.",
+   "ru": "На чертеже cutting plane line показывает, где сделан воображаемый разрез. Стрелка на ней указывает направление взгляда в _______________ view."
+  },
+  "why": {
+   "en": "The arrows on a cutting plane line show the line of sight for the section view: you look at the cut surface in the direction the arrows point. The section view is labeled with the same letters as the line (SECTION A-A).",
+   "ru": "Стрелки на cutting plane line показывают направление взгляда для section view: на поверхность разреза смотрят туда, куда указывают стрелки. Section view подписывают теми же буквами, что и линию (SECTION A-A)."
+  },
+  "opts": [
+   {
+    "en": "IMAGINARY",
+    "ru": "IMAGINARY"
+   },
+   {
+    "en": "SIDE",
+    "ru": "SIDE"
+   },
+   {
+    "en": "COMMON",
+    "ru": "COMMON"
+   },
+   {
+    "en": "SECTION",
+    "ru": "SECTION"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5M-50",
+  "src": "Y1W5M",
+  "n": 50,
+  "topic": "layout",
+  "q": {
+   "en": "The radius dimension line",
+   "ru": "Radius dimension line"
+  },
+  "why": {
+   "en": "A radius is dimensioned with a straight line from the center of the arc to the arc, with one arrowhead on the arc and the value marked R (for example 8'R). Short and long dashes are a centerline, and an arc is used to dimension an angle.",
+   "ru": "Радиус образмеривают прямой линией от центра дуги до дуги, со стрелкой на дуге и значением с буквой R (например, 8'R). Короткие и длинные штрихи — это centerline, а дугой образмеривают угол."
+  },
+  "opts": [
+   {
+    "en": "indicates the centerline of an object.",
+    "ru": "обозначает centerline объекта."
+   },
+   {
+    "en": "is drawn from the arc center to the object.",
+    "ru": "проводится от центра дуги к объекту."
+   },
+   {
+    "en": "is drawn with short and long dashes.",
+    "ru": "чертится короткими и длинными штрихами."
+   },
+   {
+    "en": "is always an arc.",
+    "ru": "всегда является дугой."
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5M-51",
+  "src": "Y1W5M",
+  "n": 51,
+  "topic": "math",
+  "q": {
+   "en": "A duct system was estimated to need six 15 gal. buckets of duct sealer. When the person doing the sealing noticed that not enough sealer on the job he ordered 2 more 15 gal. buckets and 3 two-gallon cans. After he had finished the job, he noticed four unused 15 gal. buckets stored behind some construction material. How many gallons of sealer were actually used on the duct?",
+   "ru": "Для системы duct рассчитали шесть 15-галлонных вёдер duct sealer. Тот, кто герметизировал, заметил, что sealer на объекте не хватает, и заказал ещё 2 ведра по 15 галлонов и 3 банки по два галлона. Закончив работу, он нашёл четыре неиспользованных 15-галлонных ведра за строительными материалами. Сколько галлонов sealer реально ушло на duct?"
+  },
+  "why": {
+   "en": "Delivered: (6 + 2) × 15 + 3 × 2 = 120 + 6 = 126 gal. Left over: 4 × 15 = 60 gal. Used: 126 − 60 = 66 gal. Traps: 126 is everything delivered, 60 is what was left over.",
+   "ru": "Привезли: (6 + 2) × 15 + 3 × 2 = 120 + 6 = 126 gal. Осталось: 4 × 15 = 60 gal. Ушло: 126 − 60 = 66 gal. Ловушки: 126 — всё привезённое, 60 — остаток."
+  },
+  "opts": [
+   {
+    "en": "36 Gallons",
+    "ru": "36 Gallons"
+   },
+   {
+    "en": "60 Gallons",
+    "ru": "60 Gallons"
+   },
+   {
+    "en": "126 Gallons",
+    "ru": "126 Gallons"
+   },
+   {
+    "en": "66 Gallons",
+    "ru": "66 Gallons"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5M-52",
+  "src": "Y1W5M",
+  "n": 52,
+  "topic": "safety",
+  "q": {
+   "en": "A confined space is defined as having limited egress, can be bodily entered, and is not designed for continuous occupancy.",
+   "ru": "Confined space определяется так: ограниченный выход (egress), человек может войти туда целиком, и место не предназначено для постоянного пребывания."
+  },
+  "why": {
+   "en": "This is the OSHA definition (29 CFR 1910.146): a space large enough for a worker to bodily enter and work in, with limited or restricted means of entry or exit (tanks, vessels, silos, bins, hoppers, vaults, pits), and not designed for continuous employee occupancy.",
+   "ru": "Это определение OSHA (29 CFR 1910.146): пространство, куда работник может войти целиком и работать, с ограниченным входом или выходом (баки, ёмкости, силосы, бункеры, колодцы, ямы) и не предназначенное для постоянного пребывания людей."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5M-53",
+  "src": "Y1W5M",
+  "n": 53,
+  "topic": "safety",
+  "q": {
+   "en": "Some confined spaces may be classified as non-permit required.",
+   "ru": "Некоторые confined spaces могут относиться к non-permit required."
+  },
+  "why": {
+   "en": "OSHA 29 CFR 1910.146 separates permit-required confined spaces (hazardous atmosphere, engulfment, an entrapping shape or another serious hazard) from non-permit confined spaces, which meet the definition but contain no hazard that can cause death or serious physical harm.",
+   "ru": "OSHA 29 CFR 1910.146 отделяет permit-required confined spaces (опасная атмосфера, риск засыпания, форма, в которой можно застрять, или другая серьёзная опасность) от non-permit confined spaces: они подходят под определение, но опасности смерти или тяжёлой травмы в них нет."
+  },
+  "opts": [
+   {
+    "en": "No",
+    "ru": "Нет"
+   },
+   {
+    "en": "Yes",
+    "ru": "Да"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5M-54",
+  "src": "Y1W5M",
+  "n": 54,
+  "topic": "safety",
+  "q": {
+   "en": "Confined space entry is routinely one of the leading causes of occupational fatalities.",
+   "ru": "Работы в confined space регулярно входят в число основных причин гибели на производстве."
+  },
+  "why": {
+   "en": "Confined spaces kill workers every year, mostly through hazardous atmospheres (too little oxygen, toxic or flammable gases), and many victims are co-workers who go in to rescue without training or equipment. That is why OSHA requires a permit, air testing, an attendant and a rescue plan for permit spaces.",
+   "ru": "Confined spaces каждый год убивают рабочих, чаще всего из-за опасной атмосферы (мало кислорода, ядовитые или горючие газы), и многие погибшие — коллеги, которые полезли спасать без подготовки и снаряжения. Поэтому для permit spaces OSHA требует permit, замер воздуха, наблюдающего снаружи и план спасения."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5M-57",
+  "src": "Y1W5M",
+  "n": 57,
+  "topic": "math",
+  "q": {
+   "en": "7/16",
+   "ru": "7/16"
+  },
+  "why": {
+   "en": "7 ÷ 16 = .4375 exactly, and this version prints no rounding instruction. 14/32 has the same value but is still a fraction, .438 is the value rounded to 3 places (correct only when the question says \"Round to 3 decimals\", as another version of this test does), and .3875 is simply wrong.",
+   "ru": "7 ÷ 16 = .4375 ровно, а указания округлять здесь нет. 14/32 равно 7/16, но это всё ещё дробь; .438 — значение, округлённое до 3 знаков (верно, только если в вопросе написано \"Round to 3 decimals\", как в другой версии этого теста); .3875 — просто неверно."
+  },
+  "opts": [
+   {
+    "en": ".4375",
+    "ru": ".4375"
+   },
+   {
+    "en": "14/32",
+    "ru": "14/32"
+   },
+   {
+    "en": ".438",
+    "ru": ".438"
+   },
+   {
+    "en": ".3875",
+    "ru": ".3875"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single"
+ },
+ {
+  "id": "Y1W5M-64",
+  "src": "Y1W5M",
+  "n": 64,
+  "topic": "math",
+  "q": {
+   "en": "If the 11\" x 5\" side remained the same, how tall would it have to be in order to hold 7 gallons?",
+   "ru": "Если сторона 11\" x 5\" останется той же, какой высоты должна быть коробка, чтобы вместить 7 галлонов?"
+  },
+  "why": {
+   "en": "7 gal × 231 = 1617 cu. in. Height = volume ÷ base area = 1617 ÷ (11 × 5 = 55) = 29.4\" → 29.40\". Traps: 1617.00 cu. in. is the volume, not the height; 29-3/8\" (= 29.375\") is a fraction, not two decimals; 231 cu. in. is one gallon.",
+   "ru": "7 gal × 231 = 1617 cu. in. Высота = объём ÷ площадь основания = 1617 ÷ (11 × 5 = 55) = 29.4\" → 29.40\". Ловушки: 1617.00 cu. in. — объём, а не высота; 29-3/8\" (= 29.375\") — дробь, а не два знака после запятой; 231 cu. in. — один галлон."
+  },
+  "hint": {
+   "en": "Round to two decimal places",
+   "ru": "Округлить до двух знаков после запятой"
+  },
+  "opts": [
+   {
+    "en": "231 cu. in.",
+    "ru": "231 cu. in."
+   },
+   {
+    "en": "29-3/8\"",
+    "ru": "29-3/8\""
+   },
+   {
+    "en": "1617.00 cu. in.",
+    "ru": "1617.00 cu. in."
+   },
+   {
+    "en": "29.40\"",
+    "ru": "29.40\""
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single",
+  "fig": "y1w5m-q64.svg"
  }
 ];

@@ -1,0 +1,374 @@
+[
+ {
+  "src": "Y1W5M",
+  "n": 3,
+  "q": "Roughly 2/3 of all sheet metal workers are employed in this area of the trade.",
+  "hint": null,
+  "opts": [
+   "Industrial",
+   "Architectural",
+   "Service",
+   "HVAC"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Monday Written/Math 05/18/2026 (64/70), page 1 (msg_2582): pick not marked wrong; same fact keyed in SMY1W3 No.21 (HVAC Work)"
+ },
+ {
+  "src": "Y1W5M",
+  "n": 4,
+  "q": "All snips can be classified as either straight blade or combination blade.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Monday Written/Math 05/18/2026 (64/70), page 1 (msg_2582): pick not marked wrong (no other source found)"
+ },
+ {
+  "src": "Y1W5M",
+  "n": 7,
+  "q": "An easy edger machine turns a _______ inch edge.",
+  "hint": null,
+  "opts": [
+   ".8125",
+   ".25",
+   ".375",
+   ".1875"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Monday Written/Math 05/18/2026 (64/70), page 2 (msg_2581): pick not marked wrong; course KB 06: easy edger turns 3/16\" = .1875"
+ },
+ {
+  "src": "Y1W5M",
+  "n": 8,
+  "q": "Rotary machines are also called turning machines.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Monday Written/Math 05/18/2026 (64/70), page 2 (msg_2581): pick not marked wrong"
+ },
+ {
+  "src": "Y1W5M",
+  "n": 9,
+  "q": "An adjustable gauge on the bar folder allows a number of pieces to be bent to the same dimension without marking each piece.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Monday Written/Math 05/18/2026 (64/70), page 2 (msg_2581): pick not marked wrong"
+ },
+ {
+  "src": "Y1W5M",
+  "n": 14,
+  "q": "An experience modifier determines the dollar amount that a contractor pays, based on the shop safety record.",
+  "hint": null,
+  "opts": [
+   "No",
+   "Yes"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Monday Written/Math 05/18/2026 (64/70), page 3 (msg_2580): pick not marked wrong"
+ },
+ {
+  "src": "Y1W5M",
+  "n": 19,
+  "q": "Body language, tone of voice and facial expressions are ways that we communicate indirectly.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Monday Written/Math 05/18/2026 (64/70), page 3 (msg_2580): pick not marked wrong"
+ },
+ {
+  "src": "Y1W5M",
+  "n": 23,
+  "q": "The three basic types of elbows: (a) Square Throat/Square Heel, (b) Radius Throat/Square Heel, (c) Radius Throat/Radius Heel",
+  "hint": null,
+  "opts": [
+   "No",
+   "Yes"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Monday Written/Math 05/18/2026 (64/70), page 4 (msg_2579): Yes marked -1, instructor circled No and wrote '(b) Should be Rad heel/Sq throat'; course glossary (KB 12): square throat elbow = square throat + radius heel"
+ },
+ {
+  "src": "Y1W5M",
+  "n": 29,
+  "q": "Pushing snips completely to the end of the last cut before making the next cut helps avoid fishhooks or burrs.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Monday Written/Math 05/18/2026 (64/70), page 5 (msg_2578): pick not marked wrong; course KB 06: fish hooks come from closing the snips fully on every stroke"
+ },
+ {
+  "src": "Y1W5M",
+  "n": 42,
+  "q": "What is a common seam that is used to attach a round duct to a flat surface?",
+  "hint": null,
+  "opts": [
+   "Dovetail",
+   "Pittsburgh",
+   "S lock",
+   "Clinch lock"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Monday Written/Math 05/18/2026 (64/70), page 7 (msg_2576): pick not marked wrong; same as MON No.7 (dovetail connects round pipe or collar to flat metal)"
+ },
+ {
+  "src": "Y1W5M",
+  "n": 45,
+  "q": "What is a Circumference?",
+  "hint": null,
+  "opts": [
+   "THE DIAMETER OF A CIRCLE",
+   "THE DISTANCE ACROSS A CIRCLE",
+   "THE PERIMETER AROUND A CIRCLE",
+   "THE AREA OF A CIRCLE"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Monday Written/Math 05/18/2026 (64/70), page 7 (msg_2576): pick not marked wrong; definition C = pi x D"
+ },
+ {
+  "src": "Y1W5M",
+  "n": 46,
+  "q": "A pencil that is labeled 4H will be darker than a pencil that is labeled 2B.",
+  "hint": null,
+  "opts": [
+   "No",
+   "Yes"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Monday Written/Math 05/18/2026 (64/70), page 7 (msg_2576): pick not marked wrong; H = hard (lighter), B = black/soft (darker)"
+ },
+ {
+  "src": "Y1W5M",
+  "n": 47,
+  "q": "Architect scale rules use decimals of an inch.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Monday Written/Math 05/18/2026 (64/70), page 7 (msg_2576): pick not marked wrong; same fact as T90 No.61 (False)"
+ },
+ {
+  "src": "Y1W5M",
+  "n": 48,
+  "q": "If the scale on a drawing is listed as 1/4 scale, this means that the drawing was produced at:",
+  "hint": null,
+  "opts": [
+   "1/4\" = 1'- 0\"",
+   "3\" = 1'- 0\"",
+   "4\" = 1'- 0\"",
+   "3\" = 1\""
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Monday Written/Math 05/18/2026 (64/70), page 7 (msg_2576): 1/4\" = 1'-0\" marked -1, instructor circled 3\" = 1'-0\" and wrote 'Scale NOT inches; Full (1): 12\" = 1', Half (1/2): 6\" = 1', Qtr (1/4): 3\" = 1''; same key SMY2W4 Friday No.15 (KB 01 §12)"
+ },
+ {
+  "src": "Y1W5M",
+  "n": 49,
+  "q": "On a drawing, a cutting plane line shows where an imaginary cut is made. The arrow on it points in the direction you would be looking in a _______________ view.",
+  "hint": null,
+  "opts": [
+   "IMAGINARY",
+   "SIDE",
+   "COMMON",
+   "SECTION"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Monday Written/Math 05/18/2026 (64/70), page 8 (msg_2575): pick marked '+1' by the instructor"
+ },
+ {
+  "src": "Y1W5M",
+  "n": 50,
+  "q": "The radius dimension line",
+  "hint": null,
+  "opts": [
+   "indicates the centerline of an object.",
+   "is drawn from the arc center to the object.",
+   "is drawn with short and long dashes.",
+   "is always an arc."
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Monday Written/Math 05/18/2026 (64/70), page 8 (msg_2575): pick not marked wrong"
+ },
+ {
+  "src": "Y1W5M",
+  "n": 51,
+  "q": "A duct system was estimated to need six 15 gal. buckets of duct sealer. When the person doing the sealing noticed that not enough sealer on the job he ordered 2 more 15 gal. buckets and 3 two-gallon cans. After he had finished the job, he noticed four unused 15 gal. buckets stored behind some construction material. How many gallons of sealer were actually used on the duct?",
+  "hint": null,
+  "opts": [
+   "36 Gallons",
+   "60 Gallons",
+   "126 Gallons",
+   "66 Gallons"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Monday Written/Math 05/18/2026 (64/70), page 8 (msg_2575): pick not marked wrong; calculation (6 + 2) x 15 + 3 x 2 - 4 x 15 = 66"
+ },
+ {
+  "src": "Y1W5M",
+  "n": 52,
+  "q": "A confined space is defined as having limited egress, can be bodily entered, and is not designed for continuous occupancy.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Monday Written/Math 05/18/2026 (64/70), page 8 (msg_2575): pick not marked wrong; OSHA 29 CFR 1910.146(b) definition of confined space"
+ },
+ {
+  "src": "Y1W5M",
+  "n": 53,
+  "q": "Some confined spaces may be classified as non-permit required.",
+  "hint": null,
+  "opts": [
+   "No",
+   "Yes"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Monday Written/Math 05/18/2026 (64/70), page 8 (msg_2575): pick not marked wrong; OSHA 29 CFR 1910.146(b) 'non-permit confined space'"
+ },
+ {
+  "src": "Y1W5M",
+  "n": 54,
+  "q": "Confined space entry is routinely one of the leading causes of occupational fatalities.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Monday Written/Math 05/18/2026 (64/70), page 8 (msg_2575): pick not marked wrong"
+ },
+ {
+  "src": "Y1W5M",
+  "n": 57,
+  "q": "7/16",
+  "hint": null,
+  "opts": [
+   ".4375",
+   "14/32",
+   ".438",
+   ".3875"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Monday Written/Math 05/18/2026 (64/70), page 9 (msg_2574): pick not marked wrong; calculation 7/16 = 0.4375 exactly; no rounding instruction printed (SMY1W3 No.34 key .4375; the April version with 'Round to 3 decimals' keys .438)"
+ },
+ {
+  "src": "Y1W5M",
+  "n": 64,
+  "q": "If the 11\" x 5\" side remained the same, how tall would it have to be in order to hold 7 gallons?",
+  "hint": "Round to two decimal places",
+  "opts": [
+   "231 cu. in.",
+   "29-3/8\"",
+   "1617.00 cu. in.",
+   "29.40\""
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": "q64",
+  "evidence": "Graded sheet of the owner, SMY1W5 Monday Written/Math 05/18/2026 (64/70), page 10 (msg_2573): pick not marked wrong; calculation 7 x 231 = 1617 cu. in., 1617 / 55 = 29.40"
+ }
+]

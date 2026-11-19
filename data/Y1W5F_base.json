@@ -1,0 +1,150 @@
+[
+ {
+  "src": "Y1W5F",
+  "n": 39,
+  "q": "How cubic inches are there in 2 gallons?",
+  "hint": null,
+  "opts": [
+   "462 cu. in.",
+   "38.5 cu. in.",
+   "231 cu. in.",
+   "231 sq. in."
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Friday Written 05.21.2026 (69/73), page 8 (msg_2614): pick not marked wrong; calculation 2 x 231 = 462"
+ },
+ {
+  "src": "Y1W5F",
+  "n": 59,
+  "q": "An orthographic drawing is like a box opened flat.",
+  "hint": null,
+  "opts": [
+   "False",
+   "True"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Friday Written 05.21.2026 (69/73), page 15 (msg_2607): pick not marked wrong; glass-box method of orthographic projection"
+ },
+ {
+  "src": "Y1W5F",
+  "n": 60,
+  "q": "In an orthographic drawing, what view is placed in the lower right-hand corner of the drawing?",
+  "hint": null,
+  "opts": [
+   "Plan",
+   "Oblique",
+   "Side",
+   "Front"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Friday Written 05.21.2026 (69/73), page 15 (msg_2607): pick not marked wrong; same layout as No.5 (side view lower right)"
+ },
+ {
+  "src": "Y1W5F",
+  "n": 61,
+  "q": "Building plans and technical drawings commonly use three views (top, front, side) to show an object.",
+  "hint": null,
+  "opts": [
+   "False",
+   "True"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Friday Written 05.21.2026 (69/73), page 15 (msg_2607): False marked -1, instructor circled True in red"
+ },
+ {
+  "src": "Y1W5F",
+  "n": 62,
+  "q": "An orthographic projection can be made using a 35-degree angle.",
+  "hint": null,
+  "opts": [
+   "False",
+   "True"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Friday Written 05.21.2026 (69/73), page 15 (msg_2607): pick not marked wrong; orthographic projectors are at 90 degrees"
+ },
+ {
+  "src": "Y1W5F",
+  "n": 63,
+  "q": "Orthographic projection is the process of constructing lines to show three views of an object in the same drawing.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Friday Written 05.21.2026 (69/73), page 15 (msg_2607): pick not marked wrong"
+ },
+ {
+  "src": "Y1W5F",
+  "n": 64,
+  "q": "In an orthographic projection, the plan, front-elevation, and side-elevation views are shown as if they were viewed straight on.",
+  "hint": null,
+  "opts": [
+   "False",
+   "True"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Friday Written 05.21.2026 (69/73), page 15 (msg_2607): pick not marked wrong"
+ },
+ {
+  "src": "Y1W5F",
+  "n": 65,
+  "q": "An orthographic projection can be made from a pictorial view.",
+  "hint": null,
+  "opts": [
+   "False",
+   "True"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Friday Written 05.21.2026 (69/73), page 15 (msg_2607): pick not marked wrong"
+ },
+ {
+  "src": "Y1W5F",
+  "n": 66,
+  "q": "An isometric drawing can be made from the information given on an orthographic drawing.",
+  "hint": null,
+  "opts": [
+   "False",
+   "True"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet of the owner, SMY1W5 Friday Written 05.21.2026 (69/73), page 15 (msg_2607): pick not marked wrong"
+ }
+]

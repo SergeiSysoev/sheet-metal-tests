@@ -1,0 +1,330 @@
+[
+ {
+  "src": "Y1W5M",
+  "n": 3,
+  "topic": "trade",
+  "ru_q": "Примерно 2/3 всех sheet metal workers заняты в этой области профессии.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Industrial",
+   "Architectural",
+   "Service",
+   "HVAC"
+  ],
+  "why_en": "HVAC (heating, ventilating and air-conditioning) ductwork is the largest area of the sheet metal trade; industrial, architectural and service work employ fewer workers.",
+  "why_ru": "HVAC (отопление, вентиляция и кондиционирование) — самая большая область профессии sheet metal; в industrial, architectural и service занято меньше людей.",
+  "flag": "The 2/3 share is the course's statement; no outside statistic was checked."
+ },
+ {
+  "src": "Y1W5M",
+  "n": 4,
+  "topic": "tools",
+  "ru_q": "Все snips можно разделить на straight blade и combination blade.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "Snips are grouped by blade shape: straight blades for straight cuts and gentle outside curves, combination blades for both straight lines and curves.",
+  "why_ru": "Snips делят по форме лезвий: straight blade — для прямых резов и плавных наружных кривых, combination blade — и для прямых, и для кривых.",
+  "flag": "Only basis: the graded sheet did not mark Yes wrong. No course sheet with this classification was found."
+ },
+ {
+  "src": "Y1W5M",
+  "n": 7,
+  "topic": "tools",
+  "ru_q": "Easy edger загибает кромку шириной _______ дюйма.",
+  "ru_hint": null,
+  "ru_opts": [
+   ".8125",
+   ".25",
+   ".375",
+   ".1875"
+  ],
+  "why_en": "The easy edger turns a 3/16\" edge, and 3 ÷ 16 = .1875\". The other values are other fractions: .8125 = 13/16, .25 = 1/4, .375 = 3/8.",
+  "why_ru": "Easy edger загибает кромку 3/16\", а 3 ÷ 16 = .1875\". Остальные значения — другие дроби: .8125 = 13/16, .25 = 1/4, .375 = 3/8.",
+  "flag": "Option d: the leading point of \".1875\" is hidden under the student's circle in the photo; read as .1875 (all other options are printed with a point)."
+ },
+ {
+  "src": "Y1W5M",
+  "n": 8,
+  "topic": "tools",
+  "ru_q": "Rotary machines ещё называют turning machines.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "A rotary machine forms the edge between a pair of turning rolls; with interchangeable rolls the same machine does turning, burring, wiring, beading and crimping, so in the shop it is also called a turning machine.",
+  "why_ru": "Rotary machine формует кромку между парой вращающихся роликов; со сменными роликами одна машина делает turning, burring, wiring, beading и crimping, поэтому в мастерской её называют и turning machine.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5M",
+  "n": 9,
+  "topic": "tools",
+  "ru_q": "Регулируемый gauge на bar folder позволяет согнуть несколько деталей на один размер, не размечая каждую.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "The depth gauge sets how wide a fold the bar folder makes; once it is set, every piece pushed against it is folded to the same width, so no layout line is needed on each piece.",
+  "why_ru": "Gauge задаёт ширину отгиба на bar folder; после настройки каждая деталь, вставленная до упора, сгибается на ту же ширину, поэтому размечать каждую не нужно.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5M",
+  "n": 14,
+  "topic": "safety",
+  "ru_q": "Experience modifier определяет, сколько долларов платит подрядчик, в зависимости от истории безопасности (safety record) мастерской.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Нет",
+   "Да"
+  ],
+  "why_en": "The experience modification rate (EMR) adjusts a contractor's workers' compensation insurance premium by its injury claim history: a worse record than average pushes the rate above 1.0 and raises the cost, a better record lowers it.",
+  "why_ru": "Experience modification rate (EMR) пересчитывает взнос подрядчика за страховку workers' compensation по его истории травм: хуже среднего — коэффициент выше 1.0 и платить больше, лучше — меньше.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5M",
+  "n": 19,
+  "topic": "trade",
+  "ru_q": "Язык тела, тон голоса и выражение лица — это способы общаться косвенно.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "They are nonverbal signals: they carry a message without words, along with what is said or even against it.",
+  "why_ru": "Это невербальные сигналы: они передают смысл без слов, вместе со сказанным или даже вопреки ему.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5M",
+  "n": 23,
+  "topic": "offsets",
+  "ru_q": "Три основных типа elbows: (a) Square Throat/Square Heel, (b) Radius Throat/Square Heel, (c) Radius Throat/Radius Heel",
+  "ru_hint": null,
+  "ru_opts": [
+   "Нет",
+   "Да"
+  ],
+  "why_en": "The list is wrong in (b). The three basic rectangular elbows are square throat/square heel, square throat/radius heel (the usual square throat elbow) and radius throat/radius heel; a radius throat with a square heel is not one of them.",
+  "why_ru": "Ошибка в пункте (b). Три основных типа прямоугольных elbows: square throat/square heel, square throat/radius heel (обычный square throat elbow) и radius throat/radius heel. Radius throat с square heel в их число не входит.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5M",
+  "n": 29,
+  "topic": "tools",
+  "ru_q": "Если перед следующим резом вдвигать snips до конца предыдущего реза, это помогает избежать fishhooks и заусенцев (burrs).",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "Open the snips and push them in until the blades reach the end of the last cut, then close them again. If you close the blade tips all the way at the end of each stroke, every stroke leaves a small jagged step (fishhook) on the edge.",
+  "why_ru": "Раскрой snips и вдвинь их, пока лезвия не дойдут до конца прошлого реза, потом снова сжимай. Если на каждом ходе смыкать кончики лезвий до конца, после каждого хода на кромке остаётся зазубрина (fishhook).",
+  "flag": null
+ },
+ {
+  "src": "Y1W5M",
+  "n": 42,
+  "topic": "fittings",
+  "ru_q": "Какой распространённый seam используют, чтобы присоединить round duct к плоской поверхности?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Dovetail",
+   "Pittsburgh",
+   "S lock",
+   "Clinch lock"
+  ],
+  "why_en": "Dovetail: tabs cut around the end of the round collar go through the hole in the flat sheet and are bent alternately in and out to lock it. Pittsburgh, S lock and clinch lock join sheet edges and duct sections, not a round collar to a flat surface.",
+  "why_ru": "Dovetail: зубцы, нарезанные по краю round collar, вставляют в отверстие плоского листа и отгибают поочерёдно внутрь и наружу. Pittsburgh, S lock и clinch lock соединяют кромки листов и секции duct, а не round collar с плоскостью.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5M",
+  "n": 45,
+  "topic": "math",
+  "ru_q": "Что такое Circumference?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Диаметр круга",
+   "Расстояние поперёк круга",
+   "Периметр вокруг круга",
+   "Площадь круга"
+  ],
+  "why_en": "Circumference is the perimeter of a circle, the distance around it: C = π × D. The distance across through the center is the diameter, and the area is the space inside.",
+  "why_ru": "Circumference — периметр круга, расстояние вокруг него: C = π × D. Расстояние поперёк через центр — это диаметр, а площадь — то, что внутри.",
+  "flag": "Same question as T90 No.63 but with different options (\"THE PERIMETER AROUND A CIRCLE\" instead of \"The distance around a circle\"), so it is kept as a separate item."
+ },
+ {
+  "src": "Y1W5M",
+  "n": 46,
+  "topic": "drawing",
+  "ru_q": "Карандаш с маркировкой 4H чертит темнее, чем карандаш 2B.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Нет",
+   "Да"
+  ],
+  "why_en": "H means hard: the higher the H number, the harder the lead and the lighter the line. B means black (soft): 2B is soft and dark. So 4H draws lighter than 2B, not darker.",
+  "why_ru": "H — hard (твёрдый): чем больше число H, тем твёрже грифель и светлее линия. B — black (мягкий): 2B мягкий и тёмный. Значит, 4H чертит светлее, чем 2B, а не темнее.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5M",
+  "n": 47,
+  "topic": "drawing",
+  "ru_q": "На architect scale rules деления — в десятичных долях дюйма.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "An architect scale is divided in feet and fractions of an inch (1/8\" = 1'-0\", 1/4\" = 1'-0\" and so on). Decimal divisions are on the engineer's scale.",
+  "why_ru": "Architect scale размечен в футах и дробях дюйма (1/8\" = 1'-0\", 1/4\" = 1'-0\" и т. д.). Десятичные деления — на engineer's scale.",
+  "flag": "Near-copy of T90 No.61 (\"rulers\", True/False); this sheet prints \"rules\" with Yes/No, so it is kept as a separate item."
+ },
+ {
+  "src": "Y1W5M",
+  "n": 48,
+  "topic": "drawing",
+  "ru_q": "Если масштаб на чертеже указан как 1/4 scale, значит, чертёж выполнен в масштабе:",
+  "ru_hint": null,
+  "ru_opts": [
+   "1/4\" = 1'- 0\"",
+   "3\" = 1'- 0\"",
+   "4\" = 1'- 0\"",
+   "3\" = 1\""
+  ],
+  "why_en": "\"1/4 scale\" is a ratio, 1:4: the drawing is a quarter of full size, and a quarter of 12\" is 12 ÷ 4 = 3\", so 3\" = 1'-0\" (full scale is 12\" = 1'-0\", half scale 6\" = 1'-0\"). 1/4\" = 1'-0\" is a different scale, 1:48 (12 ÷ 1/4 = 48).",
+  "why_ru": "\"1/4 scale\" — это отношение 1:4: чертёж в четверть натуральной величины, а четверть от 12\" — это 12 ÷ 4 = 3\", то есть 3\" = 1'-0\" (full scale — 12\" = 1'-0\", half scale — 6\" = 1'-0\"). 1/4\" = 1'-0\" — другой масштаб, 1:48 (12 ÷ 1/4 = 48).",
+  "flag": null
+ },
+ {
+  "src": "Y1W5M",
+  "n": 49,
+  "topic": "drawing",
+  "ru_q": "На чертеже cutting plane line показывает, где сделан воображаемый разрез. Стрелка на ней указывает направление взгляда в _______________ view.",
+  "ru_hint": null,
+  "ru_opts": [
+   "IMAGINARY",
+   "SIDE",
+   "COMMON",
+   "SECTION"
+  ],
+  "why_en": "The arrows on a cutting plane line show the line of sight for the section view: you look at the cut surface in the direction the arrows point. The section view is labeled with the same letters as the line (SECTION A-A).",
+  "why_ru": "Стрелки на cutting plane line показывают направление взгляда для section view: на поверхность разреза смотрят туда, куда указывают стрелки. Section view подписывают теми же буквами, что и линию (SECTION A-A).",
+  "flag": "On the graded sheet the instructor wrote \"+1 / 0pts\" next to this item (apparently a bonus point)."
+ },
+ {
+  "src": "Y1W5M",
+  "n": 50,
+  "topic": "drawing",
+  "ru_q": "Radius dimension line",
+  "ru_hint": null,
+  "ru_opts": [
+   "обозначает centerline объекта.",
+   "проводится от центра дуги к объекту.",
+   "чертится короткими и длинными штрихами.",
+   "всегда является дугой."
+  ],
+  "why_en": "A radius is dimensioned with a straight line from the center of the arc to the arc, with one arrowhead on the arc and the value marked R (for example 8'R). Short and long dashes are a centerline, and an arc is used to dimension an angle.",
+  "why_ru": "Радиус образмеривают прямой линией от центра дуги до дуги, со стрелкой на дуге и значением с буквой R (например, 8'R). Короткие и длинные штрихи — это centerline, а дугой образмеривают угол.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5M",
+  "n": 51,
+  "topic": "math",
+  "ru_q": "Для системы duct рассчитали шесть 15-галлонных вёдер duct sealer. Тот, кто герметизировал, заметил, что sealer на объекте не хватает, и заказал ещё 2 ведра по 15 галлонов и 3 банки по два галлона. Закончив работу, он нашёл четыре неиспользованных 15-галлонных ведра за строительными материалами. Сколько галлонов sealer реально ушло на duct?",
+  "ru_hint": null,
+  "ru_opts": [
+   "36 Gallons",
+   "60 Gallons",
+   "126 Gallons",
+   "66 Gallons"
+  ],
+  "why_en": "Delivered: (6 + 2) × 15 + 3 × 2 = 120 + 6 = 126 gal. Left over: 4 × 15 = 60 gal. Used: 126 − 60 = 66 gal. Traps: 126 is everything delivered, 60 is what was left over.",
+  "why_ru": "Привезли: (6 + 2) × 15 + 3 × 2 = 120 + 6 = 126 gal. Осталось: 4 × 15 = 60 gal. Ушло: 126 − 60 = 66 gal. Ловушки: 126 — всё привезённое, 60 — остаток.",
+  "flag": "Original wording is missing words: \"noticed that not enough sealer on the job\" (= that there was not enough sealer). Kept as printed."
+ },
+ {
+  "src": "Y1W5M",
+  "n": 52,
+  "topic": "safety",
+  "ru_q": "Confined space определяется так: ограниченный выход (egress), человек может войти туда целиком, и место не предназначено для постоянного пребывания.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "This is the OSHA definition (29 CFR 1910.146): a space large enough for a worker to bodily enter and work in, with limited or restricted means of entry or exit (tanks, vessels, silos, bins, hoppers, vaults, pits), and not designed for continuous employee occupancy.",
+  "why_ru": "Это определение OSHA (29 CFR 1910.146): пространство, куда работник может войти целиком и работать, с ограниченным входом или выходом (баки, ёмкости, силосы, бункеры, колодцы, ямы) и не предназначенное для постоянного пребывания людей.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5M",
+  "n": 53,
+  "topic": "safety",
+  "ru_q": "Некоторые confined spaces могут относиться к non-permit required.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Нет",
+   "Да"
+  ],
+  "why_en": "OSHA 29 CFR 1910.146 separates permit-required confined spaces (hazardous atmosphere, engulfment, an entrapping shape or another serious hazard) from non-permit confined spaces, which meet the definition but contain no hazard that can cause death or serious physical harm.",
+  "why_ru": "OSHA 29 CFR 1910.146 отделяет permit-required confined spaces (опасная атмосфера, риск засыпания, форма, в которой можно застрять, или другая серьёзная опасность) от non-permit confined spaces: они подходят под определение, но опасности смерти или тяжёлой травмы в них нет.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5M",
+  "n": 54,
+  "topic": "safety",
+  "ru_q": "Работы в confined space регулярно входят в число основных причин гибели на производстве.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "Confined spaces kill workers every year, mostly through hazardous atmospheres (too little oxygen, toxic or flammable gases), and many victims are co-workers who go in to rescue without training or equipment. That is why OSHA requires a permit, air testing, an attendant and a rescue plan for permit spaces.",
+  "why_ru": "Confined spaces каждый год убивают рабочих, чаще всего из-за опасной атмосферы (мало кислорода, ядовитые или горючие газы), и многие погибшие — коллеги, которые полезли спасать без подготовки и снаряжения. Поэтому для permit spaces OSHA требует permit, замер воздуха, наблюдающего снаружи и план спасения.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5M",
+  "n": 57,
+  "topic": "math",
+  "ru_q": "7/16",
+  "ru_hint": null,
+  "ru_opts": [
+   ".4375",
+   "14/32",
+   ".438",
+   ".3875"
+  ],
+  "why_en": "7 ÷ 16 = .4375 exactly, and this version prints no rounding instruction. 14/32 has the same value but is still a fraction, .438 is the value rounded to 3 places (correct only when the question says \"Round to 3 decimals\", as another version of this test does), and .3875 is simply wrong.",
+  "why_ru": "7 ÷ 16 = .4375 ровно, а указания округлять здесь нет. 14/32 равно 7/16, но это всё ещё дробь; .438 — значение, округлённое до 3 знаков (верно, только если в вопросе написано \"Round to 3 decimals\", как в другой версии этого теста); .3875 — просто неверно.",
+  "flag": "Same text and options as APR No.32, which prints \"Round to 3 decimals\" and keys .438; this sheet has no rounding line and the graded sheet accepted .4375, so it is kept as a separate item."
+ },
+ {
+  "src": "Y1W5M",
+  "n": 64,
+  "topic": "math",
+  "ru_q": "Если сторона 11\" x 5\" останется той же, какой высоты должна быть коробка, чтобы вместить 7 галлонов?",
+  "ru_hint": "Округлить до двух знаков после запятой",
+  "ru_opts": [
+   "231 cu. in.",
+   "29-3/8\"",
+   "1617.00 cu. in.",
+   "29.40\""
+  ],
+  "why_en": "7 gal × 231 = 1617 cu. in. Height = volume ÷ base area = 1617 ÷ (11 × 5 = 55) = 29.4\" → 29.40\". Traps: 1617.00 cu. in. is the volume, not the height; 29-3/8\" (= 29.375\") is a fraction, not two decimals; 231 cu. in. is one gallon.",
+  "why_ru": "7 gal × 231 = 1617 cu. in. Высота = объём ÷ площадь основания = 1617 ÷ (11 × 5 = 55) = 29.4\" → 29.40\". Ловушки: 1617.00 cu. in. — объём, а не высота; 29-3/8\" (= 29.375\") — дробь, а не два знака после запятой; 231 cu. in. — один галлон.",
+  "flag": null
+ }
+]
