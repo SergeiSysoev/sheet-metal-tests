@@ -1,0 +1,1338 @@
+[
+ {
+  "src": "Y2W5Y",
+  "n": 3,
+  "q": "Metal that contains iron.",
+  "hint": null,
+  "opts": [
+   "Stainless steel",
+   "Ferrous metal",
+   "Type 304",
+   "Terne"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 4,
+  "q": "An Alloy of steel and chromium and other metals.",
+  "hint": null,
+  "opts": [
+   "High-carbon steel",
+   "Soft aluminum",
+   "Half-hard aluminum",
+   "Stainless steel"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 5,
+  "q": "Copper oxide.",
+  "hint": null,
+  "opts": [
+   "Terne",
+   "Mill finish",
+   "Patina",
+   "Anodized"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 6,
+  "q": "Steel used for tools and other high strength applications.",
+  "hint": null,
+  "opts": [
+   "Ferrous metal",
+   "High-Carbon steel",
+   "Low-carbon steel",
+   "Temper"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 7,
+  "q": "Common finish for aluminum.",
+  "hint": null,
+  "opts": [
+   "Anodizing",
+   "Mill Finish",
+   "#4 Finish",
+   "#2B Finish"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 8,
+  "q": "Process that builds up a natural oxide protective layer.",
+  "hint": null,
+  "opts": [
+   "Terne",
+   "Nitric acid",
+   "Anodizing",
+   "Hydrochloric acid"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 9,
+  "q": "Standard stainless-steel finish in the food service industry.",
+  "hint": null,
+  "opts": [
+   "#2B Finish",
+   "Mill Finish",
+   "#4 Finish",
+   "#8 Finish"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 10,
+  "q": "Mirror stainless steel finish.",
+  "hint": null,
+  "opts": [
+   "#2B Finish",
+   "#4 Finish",
+   "#8 Finish",
+   "Mill Finish"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 11,
+  "q": "Type of stainless steel that contains 2-3% molybdenum.",
+  "hint": null,
+  "opts": [
+   "Type 301",
+   "Type 304",
+   "Type 316",
+   "Type 430"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 14,
+  "q": "When installing ductwork, the side with the slip cleats is usually specified to be on the top and bottom.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. Consistent with SMY2W2 Monday No.12 (drives on top and bottom -> No)."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 15,
+  "q": "What is a good rule of thumb to use when determining how long to make an OG offset?",
+  "hint": null,
+  "opts": [
+   "Offset x length",
+   "Offset x cheek width",
+   "Offset + length",
+   "Offset + cheek width"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): instructor's red circle on d with 'plus' (student picked a, -1); same rule in SMY2W2 Monday No.17."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 23,
+  "q": "If you drill a hole 9 3/4\" away from the end of a steel bar that is 29\" long, how far is the hole from the opposite end of the bar?",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong (student wrote 19 1/4\"); calculation.",
+  "accept": [
+   "19-1/4",
+   "19 1/4",
+   "19.25",
+   "19¼"
+  ],
+  "answer_text": "19-1/4\""
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 25,
+  "q": "You're making a trim joint and sheared 2 pieces 18\" x 17-1/4\". The duct size is 10\" x 6\"with Pittsburgh's, the drive-to-drive length of the duct will be",
+  "hint": null,
+  "opts": [
+   "17\"",
+   "15\"",
+   "16\"",
+   "12-1/4\""
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. Calculation; course rule drive-to-drive = shear - 1 (knowledge base 08 П1)."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 31,
+  "q": "When should a shielding gas cylinder be capped?",
+  "hint": null,
+  "opts": [
+   "Before attaching a regulator.",
+   "When moving it.",
+   "Only when the cylinder is full.",
+   "Only when the cylinder is empty."
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. OSHA 1926.350(a)(1); Weld Quiz No.1 (knowledge base 08 §8)."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 32,
+  "q": "Using shielding gases in confined space is a potential hazard?",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. Weld Quiz No.2; SMY2W2 Monday No.15."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 34,
+  "q": "The darker the shade of filter the higher the number. The most common filter used for GMAW Welding is:",
+  "hint": null,
+  "opts": [
+   "#2",
+   "#5",
+   "#10",
+   "#15"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. Same shade as Test-90 No.2 / Friday No.2."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 35,
+  "q": "With the GMAW process, shielding gases are used to:",
+  "hint": null,
+  "opts": [
+   "Protect the weld from the surrounding air.",
+   "Produce hotter arcs.",
+   "Reduce weld defects.",
+   "All of the above.",
+   "None of the above."
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. Same answer as SMY2W2 Monday No.64."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 38,
+  "q": "The wire speed of a GMAW welding machine determines the:",
+  "hint": null,
+  "opts": [
+   "Voltage",
+   "Amperage",
+   "Slope",
+   "None of the above."
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. Test-90 No.21."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 39,
+  "q": "Almost without exception GMAW is used with:",
+  "hint": null,
+  "opts": [
+   "DCEP",
+   "DCEH",
+   "AC",
+   "DCHF"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. Test-90 No.38."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 40,
+  "q": "In the AWS designation of ER70S-3 for one of the filler metals for GMAW, the \"S\" means:",
+  "hint": null,
+  "opts": [
+   "Some",
+   "Strong",
+   "Solid",
+   "Stromberg"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. Weld Quiz No.13 (knowledge base 08 §8)."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 41,
+  "q": "For GTAW reverse polarity produces",
+  "hint": null,
+  "opts": [
+   "Deep penetration",
+   "Medium penetration",
+   "Shallow penetration"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): instructor's red circle on a (student picked c, -1). Kept c: for GTAW, DCEP puts most of the heat into the tungsten and gives shallow penetration (ESAB 'GTAW polarity: an introduction'). The key's 'deep' is true for GMAW / SMAW (Test-90 No.42).",
+  "also": [
+   2
+  ]
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 42,
+  "q": "What is the function of the contact tip?",
+  "hint": null,
+  "opts": [
+   "Provides electrical current to the electrode wire.",
+   "Provides shielding gas to the weld zone.",
+   "Straightens the electrode wire.",
+   "None of the above."
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. Test-90 No.43; Weld Quiz No.16."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 43,
+  "q": "Loss of shielding gas and voltage fluctuations are some of the problems encountered when GMAW is used in the field?",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No",
+   "N/A"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. Weld Quiz No.17."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 44,
+  "q": "In the GMAW process, how do you set your arc length?",
+  "hint": null,
+  "opts": [
+   "Wire feed speed control",
+   "Shielding gas flow meter",
+   "Voltage control",
+   "Pray to the welding gods"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. Test-90 No.35."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 45,
+  "q": "What precautions should you take when cracking the cylinders?",
+  "hint": null,
+  "opts": [
+   "Stand to one side of the cylinder.",
+   "Tip the cylinder to the side.",
+   "Shake the cylinder.",
+   "All of the above."
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. Test-90 No.36."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 54,
+  "q": "When can you extend a slings length by knotting or tying them together?:",
+  "hint": null,
+  "opts": [
+   "Never",
+   "Only when the slings are synthetic",
+   "Only when the slings are wire rope"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. Knowledge base 08 §11 p.16."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 57,
+  "q": "A helpful technique for finding the height of an object whose height cannot be measured directly is to ____.",
+  "hint": null,
+  "opts": [
+   "measure two sides of a right triangle whose third side is the object's height",
+   "drop a plumb line from the object and then measure the length of the string",
+   "compare the objects height to nearby object of a known height and estimate from here",
+   "create a scale field drawing and estimate from the drawing"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 59,
+  "q": "You have just fabricated 250 pieces of the sample shown in the image out of 14 ga. and now you have to calculate the weight in order to ship them. 14ga. weighs 3.2 lbs. per square foot. Calculate the weight to ship 250 pieces to the closest pound.",
+  "hint": null,
+  "opts": [
+   "878 lbs",
+   "464 lbs",
+   "312 lbs",
+   "475 lbs"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": "q59",
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): instructor's red circle on d (student circled b, -1 of 2 pts); calculation."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 64,
+  "q": "How does the operator of a Chain Fall verify the hoist brake is working properly?",
+  "hint": null,
+  "opts": [
+   "Max load the hoist and hold load aloft for 3 minutes.",
+   "Visually inspect the braking system prior to use.",
+   "Hoist load a few inches and allow brake to apply."
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. ASME B30.16 (test the brake by raising the load a short distance and applying the brake)."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 65,
+  "q": "When the horizontal angle of a sling is decreased ____.",
+  "hint": null,
+  "opts": [
+   "the tension is reduced",
+   "the tension is increased",
+   "the capacity of sling is increased"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 66,
+  "q": "Which horizontal sling angle is not recommended?",
+  "hint": null,
+  "opts": [
+   "<30 degrees",
+   ">60 degrees",
+   "90 degrees"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. OSHA 'Guidance on Safe Sling Use' (sling angles under 30 degrees not recommended)."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 67,
+  "q": "Double wrapping a choker or basket hitch provides?",
+  "hint": null,
+  "opts": [
+   "Greater capacity",
+   "Reduced capacity",
+   "Greater surface contact"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 68,
+  "q": "When a chain sling length has increased ____ beyond its tag length, it must be removed from service.",
+  "hint": null,
+  "opts": [
+   "5%",
+   "10%",
+   "15%"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. OSHA 1915.112 and 1918.62: chain slings are removed from service when stretch increases a measured length by more than 5 percent."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 69,
+  "q": "What is the maximum included angle allowed when using two slings suspended in a shackle bowl with no shackle rating reduction?",
+  "hint": null,
+  "opts": [
+   "45 degrees",
+   "90 degrees",
+   "120 degrees"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. Crosby shackle warnings: two sling legs in the bow at an included angle up to 120 degrees may use the full working load limit."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 70,
+  "q": "Hooks used to lift personnel platforms must be the type that are:",
+  "hint": null,
+  "opts": [
+   "Closed and locked",
+   "Latched",
+   "Rated for platform load"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. OSHA 1926.1431 (personnel platforms)."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 71,
+  "q": "Eyebolts must be threaded into the surface hole a minimum of ____.",
+  "hint": null,
+  "opts": [
+   "1x eyebolt diameter",
+   "1.5x the threaded diameter",
+   "Half the threaded diameter"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 72,
+  "q": "What is the clearance required to be maintained from energized powerlines which you don't know the specific rating but are <350KV?",
+  "hint": null,
+  "opts": [
+   "10 feet",
+   "20 feet",
+   "50 feet"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. OSHA 1926.1408(a)(2) option 20 ft (up to 350 kV), 1926.1409 (50 ft over 350 kV), Table A (10 ft up to 50 kV)."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 73,
+  "q": "Generally, where is the most dangerous position to stand during initial hoisting of load off the ground?",
+  "hint": null,
+  "opts": [
+   "Directly behind the load.",
+   "Directly to the side of the load.",
+   "Directly in-front of the load."
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 74,
+  "q": "What is the initial hazard caused by boom deflection?",
+  "hint": null,
+  "opts": [
+   "Stability hazard",
+   "Counterweight pinch point hazard",
+   "Load pinch point hazard"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): instructor's red circle on c (student picked b, -1)."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 75,
+  "q": "Crushing hazard between the counterweight and a solid object can be caused when:",
+  "hint": null,
+  "opts": [
+   "Both winches are used simultaneously.",
+   "Boom rotation.",
+   "Boom is extended."
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. OSHA 1926.1424 (swing radius hazards)."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 76,
+  "q": "Tag lines are required to prevent:",
+  "hint": null,
+  "opts": [
+   "Exceeding dynamic ratings",
+   "Ground contact",
+   "Load rotation hazards"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 77,
+  "q": "Architectural sheet metal works with gravity to shed and channel water.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 78,
+  "q": "The lower the slope, the more quickly a roof sheds water.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 79,
+  "q": "Seams should always be lapped against the direction of water flow.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 80,
+  "q": "Water always flows downhill.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 81,
+  "q": "To shed water, architectural products should be installed from the bottom up, shingle style.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 82,
+  "q": "Capillary action can cause water to move upward against the force of gravity.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 83,
+  "q": "Wind can drive water into seams against the force of gravity",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 84,
+  "q": "Counterflashing is installed on the interior of a wall and will divert water that enters behind the wall to the exterior of the building.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 85,
+  "q": "A difference in pressure on two sides of a surface will force moisture to move from the side of lower pressure to the side of higher pressure.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 86,
+  "q": "Vapor pressure does not depend on temperature.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 87,
+  "q": "A vapor retarder has a perm value less than 1.0, which means it allows very little moisture to diffuse through.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 88,
+  "q": "Reducing the number of joints and seams in a roof is one way to minimize leaks.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 89,
+  "q": "Most roofing leaks are caused by improperly installed or missing flashing.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 90,
+  "q": "Which of the following problems are caused by water?",
+  "hint": null,
+  "opts": [
+   "corrosion",
+   "chemical deterioration",
+   "swelling, warping, shrinkage",
+   "all of the above",
+   "none of the above"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 91,
+  "q": "Which of the following conditions are necessary for water to enter a building?",
+  "hint": null,
+  "opts": [
+   "water in the form of rain, snow, ice or vapor",
+   "an opening",
+   "a force that moves water",
+   "all of the above",
+   "none of the above"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 92,
+  "q": "Which of the following products channels water off a roof?",
+  "hint": null,
+  "opts": [
+   "roofing felt",
+   "capillary break",
+   "valley flashing",
+   "all of the above",
+   "none of the above"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 93,
+  "q": "Which force causes horizontal flow along a metal edge?",
+  "hint": null,
+  "opts": [
+   "gravity",
+   "adhesion",
+   "capillary action",
+   "wind",
+   "differential pressure"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 94,
+  "q": "Which force draws moisture between two closely spaced surfaces against the force of gravity?",
+  "hint": null,
+  "opts": [
+   "gravity",
+   "adhesion",
+   "capillary action",
+   "wind",
+   "differential pressure"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 95,
+  "q": "In cold climates, water vapor tends to move",
+  "hint": null,
+  "opts": [
+   "from the cold, drier interior to the warm, humid exterior",
+   "from the warm, humid interior to the cold, drier exterior",
+   "downward through the roof",
+   "in random directions"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 96,
+  "q": "What is the purpose of a drip edge?",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): open question; student wrote 'Shed water' (check mark), instructor added in red 'Allows water to drip free of a wall'; not marked wrong.",
+  "accept": [
+   "drip",
+   "shed",
+   "away",
+   "free of",
+   "clear of",
+   "off the wall"
+  ],
+  "answer_text": "Allows water to drip free of a wall (sheds water away from the wall)"
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 97,
+  "q": "Are underlayments like roofing felt, and ice and water shield a first line of defense or a second line of defense?",
+  "hint": null,
+  "opts": [
+   "Second",
+   "First"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 98,
+  "q": "Should the front edge of a gutter be higher or lower than the back edge?",
+  "hint": null,
+  "opts": [
+   "Lower",
+   "Higher"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 99,
+  "q": "It would be okay to use a copper head and aluminum downspout together.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 100,
+  "q": "A 1-inch-wide gap joint that is sealed with a sealant that allows for 25% joint movement should be able to compress to ____ and expand to ____ without failure.",
+  "hint": null,
+  "opts": [
+   "compress: 1/2\"",
+   "compress: 1/4\"",
+   "compress: 3/4\"",
+   "expand: 1-1/4\"",
+   "expand: 1-1/2\"",
+   "expand: 1-3/4\""
+  ],
+  "answer": [
+   2,
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. (2 pts); calculation."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 101,
+  "q": "What component guides water from the scupper to the downspout?",
+  "hint": null,
+  "opts": [
+   "conductor head",
+   "valley flashing",
+   "splash block",
+   "conductor pipe"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 102,
+  "q": "What degree would you cut the miter to match the angle of the coping in the picture?",
+  "hint": null,
+  "opts": [
+   "37.5 degrees",
+   "75 degrees",
+   "15 degrees",
+   "7.5 degrees"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": "q102",
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. (2 pts); calculation."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 103,
+  "q": "An expansion joint is used",
+  "hint": null,
+  "opts": [
+   "as a back-up plate for a butt seam.",
+   "to extend flashing that is a little short.",
+   "to allow two parts of a building or metal item to expand separately.",
+   "to enlarge a sheet metal cap."
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 104,
+  "q": "Select the letter that represents a bend cleat from the hook strips in the image.",
+  "hint": null,
+  "opts": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F",
+   "G",
+   "H"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": "q104",
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): instructor's red circle on d (student picked a, -1)."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 105,
+  "q": "Select the letter that represents a continuous cleat from the hook strips in the image.",
+  "hint": null,
+  "opts": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F",
+   "G",
+   "H"
+  ],
+  "answer": [
+   5
+  ],
+  "kind": null,
+  "fig": "q105",
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): instructor's red circle on f (student picked h, -1)."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 106,
+  "q": "Select the letter that represents a J-hook cleat from the hook strips in the image.",
+  "hint": null,
+  "opts": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F",
+   "G",
+   "H"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": "q106",
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): instructor's red circle on b (student picked f, -1)."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 107,
+  "q": "Calculate the degree of the miter angel to cut for coping the wall in the image, rounded to 2 decimal places.",
+  "hint": null,
+  "opts": [
+   "32.31 degrees",
+   "23.13 degrees",
+   "66.87 degrees",
+   "21.11 degrees"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": "q107",
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. (2 pts); calculation."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 108,
+  "q": "Calculate the brake angle for the valley flashing.",
+  "hint": null,
+  "opts": [
+   "45.24 degrees",
+   "42.45 degrees",
+   "39.82 degrees",
+   "37.46 degrees"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": "q108",
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. (2 pts); calculation."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 109,
+  "q": "Calculate the brake angle for the hip flashing.",
+  "hint": null,
+  "opts": [
+   "45.24 degrees",
+   "50.78 degrees",
+   "39.82 degrees",
+   "49.25 degrees"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": "q109",
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. (2 pts); calculation."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 110,
+  "q": "Calculate the brake angle for the ridge flashing.",
+  "hint": null,
+  "opts": [
+   "50.21 degrees",
+   "75.32 degrees",
+   "73.74 degrees",
+   "64.23 degrees"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": "q110",
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong. (2 pts); calculation."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 111,
+  "q": "Calculate the total square feet to cover the exterior of the building with siding to 2 decimal places.",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "input",
+  "fig": "q111",
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): instructor's red answer 12614.81 sq ft (student -2); calculation reproduces it exactly (walls + gables + roof).",
+  "input_answer": "12614.81"
+ }
+]

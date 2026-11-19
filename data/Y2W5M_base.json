@@ -1,0 +1,202 @@
+[
+ {
+  "src": "Y2W5M",
+  "n": 5,
+  "q": "Fire dampers that have labels indicating the maximum air velocity through the open damper, the maximum pressure differential across the closed damper, the air flow and the pressure rating are intended for use in:",
+  "hint": null,
+  "opts": [
+   "Dynamic systems",
+   "Negative or positive pressurized systems",
+   "Air flow systems",
+   "Closed corridor systems"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 39/48 (msg_2721-2730): not marked wrong. UL 555 labeling of dynamic fire dampers (velocity and pressure ratings)."
+ },
+ {
+  "src": "Y2W5M",
+  "n": 7,
+  "q": "The acceptance testing is documented to establish a:",
+  "hint": null,
+  "opts": [
+   "Point of reference from which to begin a damper testing and maintenance program",
+   "Line of communication between the owner and the contractor",
+   "Timeline to establish the warranty period",
+   "The point in time that the responsibility is transferred to the occupant for maintenance"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 39/48 (msg_2721-2730): not marked wrong. FSD manual Unit 6."
+ },
+ {
+  "src": "Y2W5M",
+  "n": 11,
+  "q": "A properly tied bowline knot____.",
+  "hint": null,
+  "opts": [
+   "Never jams or slips",
+   "Is a universal knot",
+   "Can be used for hoisting or hitching",
+   "All listed answers are correct"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 39/48 (msg_2721-2730): not marked wrong."
+ },
+ {
+  "src": "Y2W5M",
+  "n": 12,
+  "q": "As part of a hoisting operation to put a large object in place, the industrial sheet metalworker must be thoroughly skilled in what aspect of this process?",
+  "hint": null,
+  "opts": [
+   "Operating a tower crane",
+   "Piloting a helicopter",
+   "Safely and correctly rigging the object",
+   "Obtaining any permits needed",
+   "All answers are correct"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 39/48 (msg_2721-2730): not marked wrong."
+ },
+ {
+  "src": "Y2W5M",
+  "n": 13,
+  "q": "Which of the following hoisting and rigging equipment allows you to shorten or lengthen a sling?",
+  "hint": null,
+  "opts": [
+   "Turnbuckle",
+   "Clip and thimble",
+   "Hook and swivel",
+   "Johnson bar"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 39/48 (msg_2721-2730): not marked wrong."
+ },
+ {
+  "src": "Y2W5M",
+  "n": 15,
+  "q": "The person in command at all times during a helicopter lift operation is the:",
+  "hint": null,
+  "opts": [
+   "Project supervisor",
+   "Helicopter pilot",
+   "Government inspector",
+   "Signal person",
+   "None of the answers are correct"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 39/48 (msg_2721-2730): not marked wrong. OSHA 1926.551 (helicopters): the operator is responsible for how loads are connected and does not make a lift he believes is unsafe."
+ },
+ {
+  "src": "Y2W5M",
+  "n": 18,
+  "q": "Which hazard is the leading cause of most fatalities when working around cranes?",
+  "hint": null,
+  "opts": [
+   "power line contact",
+   "crane tipping",
+   "struck by load",
+   "operator error"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 39/48 (msg_2721-2730): not marked wrong. OSHA cranes & derricks rule (1926.1407-1411) is built around power line contact."
+ },
+ {
+  "src": "Y2W5M",
+  "n": 20,
+  "q": "Select the crane signal shown in the image.",
+  "hint": null,
+  "opts": [
+   "Raise boom slowly",
+   "Raise load slowly",
+   "Let cable out slowly",
+   "Load up"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": "q20",
+  "evidence": "Graded sheet 39/48 (msg_2721-2730): instructor's red circle on b and note 'notice the pointer finger' (student picked a, -1). ASME B30.5 hand signals: hoist = forefinger, raise boom = thumb, 'move slowly' = other hand held still at the signaling hand."
+ },
+ {
+  "src": "Y2W5M",
+  "n": 21,
+  "q": "Select the crane signal shown in the image.",
+  "hint": null,
+  "opts": [
+   "swing load",
+   "extend boom",
+   "emergency stop",
+   "secure load"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": "q21",
+  "evidence": "Graded sheet 39/48 (msg_2721-2730): instructor's red circle on c (student picked b, -1). ASME B30.5: emergency stop = both arms out, palms down, moved back and forth."
+ },
+ {
+  "src": "Y2W5M",
+  "n": 23,
+  "q": "Storing duct near the installation site is what part of duct preparation?",
+  "hint": null,
+  "opts": [
+   "distribution",
+   "sectioning",
+   "planning",
+   "staging"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 39/48 (msg_2721-2730): not marked wrong; Test-90 No.84 (staging)."
+ },
+ {
+  "src": "Y2W5M",
+  "n": 30,
+  "q": "After finishing a soldering job in the field, you should always use ____ when doing a joint wash.",
+  "hint": null,
+  "opts": [
+   "Rosin",
+   "Water",
+   "Neutralizer",
+   "Strong acid"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 39/48 (msg_2721-2730): not marked wrong."
+ }
+]

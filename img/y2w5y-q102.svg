@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="520" height="520" fill="#fff"/>
+<polygon points="49.31,161.38 407.93,31.38 459.03,165.86 206.21,260" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<line x1="49.31" y1="161.38" x2="71.72" y2="479.66" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<line x1="206.21" y1="260" x2="215.17" y2="468" fill="none" stroke="#111" stroke-width="2.2" stroke-linecap="butt"/>
+<polyline points="52,482.34 118.34,482.34 138.07,439.31 159.59,505.66 181.1,473.38 251.03,469.79" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<polyline points="340.69,213.38 340.69,322.76" fill="none" stroke="#111" stroke-width="1.15" stroke-linejoin="miter"/>
+<polygon points="340.69,213.38 344.19,226.38 337.19,226.38" fill="#111" stroke="none"/>
+<polyline points="218.76,405.24 304.83,372.97" fill="none" stroke="#111" stroke-width="1.15" stroke-linejoin="miter"/>
+<polygon points="218.76,405.24 229.7,397.4 232.16,403.95" fill="#111" stroke="none"/>
+<text x="329.93" y="355.67" font-size="22" text-anchor="middle" font-weight="bold" fill="#111">105°</text>
+</svg>

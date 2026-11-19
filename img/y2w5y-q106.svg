@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 490.57" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="520" height="490.57" fill="#fff"/>
+<polyline points="125.58,68.68 78.49,68.68 78.49,206.04" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<text x="82.42" y="43.3" font-size="28" text-anchor="middle" font-weight="bold" fill="#111">A</text>
+<polyline points="199.17,82.42 186.42,68.68 186.42,206.04 169.74,220.75" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<text x="190.34" y="43.3" font-size="28" text-anchor="middle" font-weight="bold" fill="#111">B</text>
+<polyline points="294.34,68.68 294.34,206.04 279.62,189.36" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<text x="298.26" y="43.3" font-size="28" text-anchor="middle" font-weight="bold" fill="#111">C</text>
+<polyline points="449.36,68.68 402.26,68.68 402.26,206.04 385.58,220.75" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<text x="406.19" y="43.3" font-size="28" text-anchor="middle" font-weight="bold" fill="#111">D</text>
+<polyline points="125.58,274.72 78.49,274.72 78.49,412.08 63.77,395.4" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<text x="82.42" y="467.15" font-size="28" text-anchor="middle" font-weight="bold" fill="#111">E</text>
+<polyline points="186.42,274.72 186.42,412.08 169.74,426.79" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<text x="190.34" y="467.15" font-size="28" text-anchor="middle" font-weight="bold" fill="#111">F</text>
+<polyline points="307.09,288.45 294.34,274.72 294.34,412.08 279.62,395.4" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<text x="298.26" y="467.15" font-size="28" text-anchor="middle" font-weight="bold" fill="#111">G</text>
+<polyline points="355.17,274.72 402.26,274.72 402.26,412.08 385.58,426.79" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<text x="402.26" y="467.15" font-size="28" text-anchor="middle" font-weight="bold" fill="#111">H</text>
+</svg>

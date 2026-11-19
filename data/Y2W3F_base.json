@@ -99,11 +99,14 @@
    "False"
   ],
   "answer": [
-   0
+   1
   ],
   "kind": null,
   "fig": null,
-  "evidence": "Question struck out by the instructor on the graded sheet (msg_1296, total changed 69 → 68); answer from the course definition 'a load placed at right angles to the fastener is a shear load' (SMY1W3 №27)"
+  "evidence": "Question struck out by the instructor on the graded sheet (msg_1296, total changed 69 → 68); answer from the course definition 'a load placed at right angles to the fastener is a shear load' (SMY1W3 №27)",
+  "also": [
+   0
+  ]
  },
  {
   "src": "Y2W3F",

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 551.25" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="360" height="551.25" fill="#fff"/>
+<ellipse cx="253.12" cy="75.38" rx="60.75" ry="10.12" fill="none" stroke="#111" stroke-width="3.52"/>
+<path d="M217.12,69.75 C214.88,24.75 289.12,18 290.25,67.5" fill="none" stroke="#111" stroke-width="3.52" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M220.5,58.5 Q253.12,50.62 288,56.25" fill="none" stroke="#111" stroke-width="1.61" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M225,85.5 Q220.5,126 243,144 Q261,155.25 282.38,136.12 Q292.5,114.75 288,85.5" fill="none" stroke="#111" stroke-width="3.52" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="243" cy="104.62" r="2.93" fill="#111"/>
+<circle cx="268.88" cy="102.38" r="2.93" fill="#111"/>
+<line x1="249.75" y1="130.5" x2="265.5" y2="128.25" fill="none" stroke="#111" stroke-width="1.61" stroke-linecap="butt"/>
+<line x1="238.5" y1="146.25" x2="235.12" y2="162" fill="none" stroke="#111" stroke-width="3.52" stroke-linecap="butt"/>
+<line x1="279" y1="141.75" x2="283.5" y2="159.75" fill="none" stroke="#111" stroke-width="3.52" stroke-linecap="butt"/>
+<path d="M330.75,175.5 Q236.25,146.25 126,135" fill="none" stroke="#111" stroke-width="3.52" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M317.25,231.75 Q225,198 128.25,177.75" fill="none" stroke="#111" stroke-width="3.52" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="126" y1="135" x2="128.25" y2="177.75" fill="none" stroke="#111" stroke-width="3.52" stroke-linecap="butt"/>
+<path d="M126,137.25 Q96.75,126 81,137.25 Q69.75,155.25 81,173.25 Q103.5,184.5 128.25,175.5" fill="none" stroke="#111" stroke-width="3.52" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M83.25,136.12 L29.25,124.88 Q20.25,128.25 27,135 L78.75,148.5" fill="none" stroke="#111" stroke-width="3.52" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="87.75" y1="155.25" x2="112.5" y2="157.5" fill="none" stroke="#111" stroke-width="1.61" stroke-linecap="butt"/>
+<path d="M65.25,182.25 Q56.25,209.25 69.75,238.5 L99,238.5 Q110.25,209.25 101.25,184.5 Q83.25,175.5 65.25,182.25" fill="none" stroke="#111" stroke-width="3.52" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="74.25" y1="191.25" x2="74.25" y2="220.5" fill="none" stroke="#111" stroke-width="1.49" stroke-linecap="butt"/>
+<line x1="85.5" y1="189" x2="86.62" y2="222.75" fill="none" stroke="#111" stroke-width="1.49" stroke-linecap="butt"/>
+<path d="M69.75,238.5 L130.5,310.5 Q159.75,328.5 186.75,303.75" fill="none" stroke="#111" stroke-width="3.52" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M99,238.5 L159.75,276.75 L186.75,261" fill="none" stroke="#111" stroke-width="3.52" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="123.75" y1="270" x2="135" y2="261" fill="none" stroke="#111" stroke-width="1.49" stroke-linecap="butt"/>
+<line x1="186.75" y1="261" x2="186.75" y2="355.5" fill="none" stroke="#111" stroke-width="3.52" stroke-linecap="butt"/>
+<path d="M330.75,175.5 Q346.5,261 299.25,355.5" fill="none" stroke="#111" stroke-width="3.52" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="245.25" y1="234" x2="240.75" y2="353.25" fill="none" stroke="#111" stroke-width="1.72" stroke-linecap="butt"/>
+<path d="M256.5,247.5 L290.25,245.25 L288,281.25 L258.75,283.5 Z" fill="none" stroke="#111" stroke-width="1.72" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="184.5,355.5 301.5,355.5 301.5,371.25 184.5,371.25" fill="none" stroke="#111" stroke-width="3.52" stroke-linejoin="miter"/>
+<line x1="186.75" y1="371.25" x2="178.88" y2="542.25" fill="none" stroke="#111" stroke-width="3.52" stroke-linecap="butt"/>
+<line x1="297" y1="371.25" x2="300.38" y2="542.25" fill="none" stroke="#111" stroke-width="3.52" stroke-linecap="butt"/>
+<line x1="241.88" y1="414" x2="237.38" y2="542.25" fill="none" stroke="#111" stroke-width="3.52" stroke-linecap="butt"/>
+</svg>

@@ -89,8 +89,8 @@
    "Верно",
    "Неверно"
   ],
-  "why_en": "A shear load acts across the fastener, at a right angle to its axis — for example a duct hanging on a strap screwed to its side: the weight pulls straight down across the screws. The screw then has to be cut through rather than pulled out, so it holds far better than under a pull-out (tension) load. Note: not confirmed by a graded key.",
-  "why_ru": "Shear load действует поперёк fastener, под прямым углом к его оси — например, duct на hanger strap, прикрученном к боковой стенке: вес тянет вниз поперёк винтов. Винт тогда надо срезать, а не вырвать, поэтому он держит гораздо лучше, чем на вырыв (tension). Внимание: проверенного ключа нет.",
+  "why_en": "For points pick False: on a graded SMY2W5 Monday sheet (the same question) the instructor circled False and took the point off for True; on this SMY2W3 sheet the question was struck out. Technically a shear load acts across the fastener, at a right angle to its axis (a duct on a strap screwed to its side: the weight pulls down across the screws), and a screw holds better in shear than in pull-out, so True is also defensible — both count here.",
+  "why_ru": "Для балла ставь False: на проверенном листе SMY2W5 Monday (тот же вопрос) инструктор обвёл False и снял балл за True; на этом листе SMY2W3 вопрос был вычеркнут. Технически shear load действует поперёк fastener, под прямым углом к оси (duct на strap, прикрученном сбоку: вес тянет вниз поперёк винтов), и на срез винт держит лучше, чем на вырыв, — поэтому True тоже можно защитить; здесь засчитываются оба.",
   "flag": "The instructor voided this question with a red wavy line, so there is no graded answer. True follows the course definition of shear load; 'straight down' is shear only when the fastener is horizontal (strap on the duct side)."
  },
  {
