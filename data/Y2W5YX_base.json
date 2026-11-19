@@ -1,0 +1,167 @@
+[
+ {
+  "src": "Y2W5Y",
+  "n": 21,
+  "q": "The area of a circle is given as 23.68 square feet. What is the area in square inches?",
+  "hint": null,
+  "opts": [
+   "1.97 sq.in.",
+   "1.973 sq.in.",
+   "3,409.90 sq.in.",
+   "3,409.92 sq.in."
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong (student d). Calculation 23.68 x 144. Same as SMY2W2 Monday No.31, but here every option ends in 'sq.in.'."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 22,
+  "q": "Find the area of the flat oval:",
+  "hint": null,
+  "opts": [
+   "150.27 in²",
+   "130.27 in²",
+   "92.57 in²",
+   "112.57 in²"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": "q22",
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong (student b). Calculation. Same as SMY2W2 Triangulation No.9 (TotalTrack key b), but printed here without its 'Round to 2 decimal places'."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 26,
+  "q": "You're making a piece of duct for Slip and Drive connections and sheared it 31\" for the overall length, it's working length will be",
+  "hint": null,
+  "opts": [
+   "29\"",
+   "28\"",
+   "27\"",
+   "30\""
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): instructor's red circle on a (student circled d, -1). Course rule: sheared X -> working length = X - 2 (knowledge base 01/04, Test-90 No.39). SMY2W2 Monday No.47 has 'for a Slip and Drive connection'."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 36,
+  "q": "Prior to welding, base metal shall be cleaned of:",
+  "hint": null,
+  "opts": [
+   "Oils",
+   "Paints",
+   "Rust",
+   "All of the above"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong (student d). Test-90 No.47 is the same question worded 'Prior to welding the base metal' / 'All the above' (checked on the Test-90 photo p09)."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 51,
+  "q": "Fill in the blank: Access doors are required to provide access to all fire dampers for ____.",
+  "hint": null,
+  "opts": [
+   "Installation",
+   "Training",
+   "Removal",
+   "Testing"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong (student d). Same as FSD unit 5 No.509 (TotalTrack 'Correct Answer: Testing'), here with 'Fill in the blank:' in front."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 63,
+  "q": "Using the 2 elbows provided, calculate how much needs to be trimmed off one of the ducts for the offset system to fit, and the length of the trim joint.",
+  "hint": "Pipe length= ____ Trim length ____",
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": "q63",
+  "accept": [],
+  "all": [
+   [
+    "18",
+    "1'-6",
+    "1' 6",
+    "1'6",
+    "1’-6",
+    "1’ 6",
+    "1’6"
+   ],
+   [
+    "79.5",
+    "79-1/2",
+    "79 1/2",
+    "79½",
+    "79-9/16",
+    "79 9/16",
+    "6'-7 1/2",
+    "6' 7 1/2",
+    "6'7 1/2",
+    "6'-7-1/2",
+    "6'-7.5",
+    "6'-7½",
+    "6’-7 1/2",
+    "6’ 7 1/2",
+    "6’7 1/2",
+    "6’-7-1/2",
+    "6’-7.5",
+    "6’-7½",
+    "6'-7\"1/2",
+    "6'-7\" 1/2",
+    "6'7.5",
+    "6’-7”1/2",
+    "6’-7” 1/2",
+    "6'-7”1/2",
+    "6’-7\"1/2"
+   ]
+  ],
+  "reject": [
+   "18.5",
+   "13.1",
+   "13.2",
+   "84.3"
+  ],
+  "answer_text": "Pipe length = 79-1/2\" (6'-7 1/2\"), Trim length = 18\" (1'-6\")",
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): student left both blanks empty, instructor circled them (-4); no key on the sheet. Calculation by the course method; same drawing and numbers as Formula Sheets p.15 (000 SM Formula Sheets rev 5.13.26.pdf, no answer there), knowledge base 03 Type B: trim joint 79.5307\", trim 18.0006\"."
+ },
+ {
+  "src": "Y2W5Y",
+  "n": 113,
+  "q": "Calculate the shear size for the pattern. It is symmetrical from the center line. Roundoff to the nearest 16th.",
+  "hint": null,
+  "opts": [
+   "24-1/2\" x 20-7/8\"",
+   "20-1/2\" x 24-1/4\"",
+   "24-3/4\" x 20-1/2\"",
+   "20-3/16\" x 24-3/4\""
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": "q113",
+  "evidence": "Graded sheet 131/151 (msg_2739-2752): not marked wrong (student c). Same drawing and options as Test-90 No.57 (graded key c); calculation."
+ }
+]

@@ -176,13 +176,14 @@ const SOURCES = {
    "ru": "SMY2W5 Year End Cumulative Written Exam"
   },
   "sub": {
-   "en": "2nd year, end of year · only questions not already in the tests above",
-   "ru": "2-й год, итоговый экзамен года · только вопросы, которых нет в тестах выше"
+   "en": "2nd year, end of year · full test, 113 questions as printed",
+   "ru": "2-й год, итоговый экзамен года · полный тест, 113 вопросов как на бланке"
   },
   "short": {
    "en": "Year End",
    "ru": "Year End"
-  }
+  },
+  "full": 113
  },
  "Y1W3": {
   "name": {
@@ -1312,7 +1313,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    46
+   ]
+  ]
  },
  {
   "id": "T90-25",
@@ -1530,7 +1537,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    47
+   ]
+  ]
  },
  {
   "id": "T90-31",
@@ -1891,7 +1904,13 @@ const QUESTIONS = [
    1
   ],
   "type": "single",
-  "fig": "t90-q40.svg"
+  "fig": "t90-q40.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    18
+   ]
+  ]
  },
  {
   "id": "T90-41",
@@ -1927,7 +1946,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    48
+   ]
+  ]
  },
  {
   "id": "T90-42",
@@ -2063,7 +2088,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    37
+   ]
+  ]
  },
  {
   "id": "T90-46",
@@ -2290,7 +2321,13 @@ const QUESTIONS = [
    3
   ],
   "type": "single",
-  "fig": "t90-q51.svg"
+  "fig": "t90-q51.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    49
+   ]
+  ]
  },
  {
   "id": "T90-52",
@@ -2399,7 +2436,13 @@ const QUESTIONS = [
    2
   ],
   "type": "single",
-  "fig": "t90-q54.svg"
+  "fig": "t90-q54.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    112
+   ]
+  ]
  },
  {
   "id": "T90-55",
@@ -2473,7 +2516,13 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "fig": "t90-q56.svg"
+  "fig": "t90-q56.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    27
+   ]
+  ]
  },
  {
   "id": "T90-57",
@@ -2538,7 +2587,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    13
+   ]
+  ]
  },
  {
   "id": "T90-59",
@@ -4400,7 +4455,13 @@ const QUESTIONS = [
    1,
    3
   ],
-  "type": "multi"
+  "type": "multi",
+  "on": [
+   [
+    "Y2W5Y",
+    12
+   ]
+  ]
  },
  {
   "id": "MON-5",
@@ -4853,7 +4914,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    16
+   ]
+  ]
  },
  {
   "id": "MON-19",
@@ -4961,7 +5028,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    17
+   ]
+  ]
  },
  {
   "id": "MON-25",
@@ -4989,7 +5062,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    19
+   ]
+  ]
  },
  {
   "id": "MON-26",
@@ -5025,7 +5104,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    20
+   ]
+  ]
  },
  {
   "id": "MON-27",
@@ -5552,7 +5637,13 @@ const QUESTIONS = [
    2
   ],
   "type": "single",
-  "fig": "mon-q42.svg"
+  "fig": "mon-q42.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    24
+   ]
+  ]
  },
  {
   "id": "MON-43",
@@ -5952,7 +6043,13 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "fig": "mon-q54.svg"
+  "fig": "mon-q54.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    28
+   ]
+  ]
  },
  {
   "id": "MON-55",
@@ -6034,7 +6131,13 @@ const QUESTIONS = [
    5
   ],
   "type": "multi",
-  "fig": "mon-q56.svg"
+  "fig": "mon-q56.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    29
+   ]
+  ]
  },
  {
   "id": "MON-57",
@@ -6080,7 +6183,13 @@ const QUESTIONS = [
    4
   ],
   "type": "multi",
-  "fig": "mon-q57.svg"
+  "fig": "mon-q57.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    30
+   ]
+  ]
  },
  {
   "id": "MON-58",
@@ -6356,7 +6465,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    33
+   ]
+  ]
  },
  {
   "id": "MON-66",
@@ -13449,7 +13564,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    2
+   ]
+  ]
  },
  {
   "id": "Y1W5F-62",
@@ -13561,7 +13682,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    1
+   ]
+  ]
  },
  {
   "id": "Y1W5F-66",
@@ -14434,7 +14561,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    50
+   ]
+  ]
  },
  {
   "id": "Y2W3F-5",
@@ -14534,7 +14667,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    53
+   ]
+  ]
  },
  {
   "id": "Y2W3F-10",
@@ -15003,7 +15142,13 @@ const QUESTIONS = [
    3
   ],
   "type": "single",
-  "fig": "y2w3f-q23.svg"
+  "fig": "y2w3f-q23.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    58
+   ]
+  ]
  },
  {
   "id": "Y2W3F-24",
@@ -15234,7 +15379,13 @@ const QUESTIONS = [
    4
   ],
   "type": "multi",
-  "fig": "y2w3f-q30.svg"
+  "fig": "y2w3f-q30.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    60
+   ]
+  ]
  },
  {
   "id": "Y2W3F-31",
@@ -15292,7 +15443,13 @@ const QUESTIONS = [
    7
   ],
   "type": "multi",
-  "fig": "y2w3f-q31.svg"
+  "fig": "y2w3f-q31.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    61
+   ]
+  ]
  },
  {
   "id": "Y2W3F-32",
@@ -15364,7 +15521,13 @@ const QUESTIONS = [
    11
   ],
   "type": "multi",
-  "fig": "y2w3f-q32.svg"
+  "fig": "y2w3f-q32.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    62
+   ]
+  ]
  },
  {
   "id": "Y2W3F-36",
@@ -17931,7 +18094,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    52
+   ]
+  ]
  },
  {
   "id": "Y2W5M-12",
@@ -18120,7 +18289,13 @@ const QUESTIONS = [
    1
   ],
   "type": "single",
-  "fig": "y2w5m-q20.svg"
+  "fig": "y2w5m-q20.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    55
+   ]
+  ]
  },
  {
   "id": "Y2W5M-21",
@@ -18157,7 +18332,13 @@ const QUESTIONS = [
    2
   ],
   "type": "single",
-  "fig": "y2w5m-q21.svg"
+  "fig": "y2w5m-q21.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    56
+   ]
+  ]
  },
  {
   "id": "Y2W5M-23",
@@ -18232,6 +18413,335 @@ const QUESTIONS = [
   "type": "single"
  },
  {
+  "id": "Y2W5Y-21",
+  "src": "Y2W5Y",
+  "n": 21,
+  "topic": "math",
+  "q": {
+   "en": "The area of a circle is given as 23.68 square feet. What is the area in square inches?",
+   "ru": "Площадь круга — 23.68 квадратных фута. Сколько это в квадратных дюймах?"
+  },
+  "why": {
+   "en": "1 sq. ft = 12 × 12 = 144 sq. in., so 23.68 × 144 = 3,409.92 sq. in. exactly. Traps: 1.97 and 1.973 come from dividing by 12 (23.68 ÷ 12 = 1.9733) instead of multiplying by 144; 3,409.90 is off in the last digit.",
+   "ru": "1 sq. ft = 12 × 12 = 144 sq. in., поэтому 23.68 × 144 = 3,409.92 sq. in. ровно. Ловушки: 1.97 и 1.973 — разделили на 12 (23.68 ÷ 12 = 1.9733) вместо умножения на 144; у 3,409.90 неверна последняя цифра."
+  },
+  "opts": [
+   {
+    "en": "1.97 sq.in.",
+    "ru": "1.97 sq.in."
+   },
+   {
+    "en": "1.973 sq.in.",
+    "ru": "1.973 sq.in."
+   },
+   {
+    "en": "3,409.90 sq.in.",
+    "ru": "3,409.90 sq.in."
+   },
+   {
+    "en": "3,409.92 sq.in.",
+    "ru": "3,409.92 sq.in."
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    21
+   ]
+  ]
+ },
+ {
+  "id": "Y2W5Y-22",
+  "src": "Y2W5Y",
+  "n": 22,
+  "topic": "math",
+  "q": {
+   "en": "Find the area of the flat oval:",
+   "ru": "Найдите площадь flat oval:"
+  },
+  "why": {
+   "en": "The width is 2 × R4\" = 8\", and the two half-circle ends make one full circle: π × 4² = 50.2655 in²; the middle rectangle is 10\" × 8\" = 80 in²; total 130.2655 → 130.27 in². Traps: 150.27 takes the rectangle as 10\" × 10\", and 92.57 uses π × 4 (radius not squared).",
+   "ru": "Ширина = 2 × R4\" = 8\", два полукруга вместе дают один круг: π × 4² = 50.2655 in²; прямоугольник посередине 10\" × 8\" = 80 in²; итого 130.2655 → 130.27 in². Ловушки: 150.27 — прямоугольник посчитан как 10\" × 10\", 92.57 — π × 4, радиус не возведён в квадрат."
+  },
+  "opts": [
+   {
+    "en": "150.27 in²",
+    "ru": "150.27 in²"
+   },
+   {
+    "en": "130.27 in²",
+    "ru": "130.27 in²"
+   },
+   {
+    "en": "92.57 in²",
+    "ru": "92.57 in²"
+   },
+   {
+    "en": "112.57 in²",
+    "ru": "112.57 in²"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "fig": "y2w5y-q22.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    22
+   ]
+  ]
+ },
+ {
+  "id": "Y2W5Y-26",
+  "src": "Y2W5Y",
+  "n": 26,
+  "topic": "layout",
+  "q": {
+   "en": "You're making a piece of duct for Slip and Drive connections and sheared it 31\" for the overall length, it's working length will be",
+   "ru": "Вы делаете кусок duct под соединения Slip and Drive и отрезали его на 31\" по общей длине; его working length будет"
+  },
+  "why": {
+   "en": "S&D takes 1\" of metal on each end beyond the bend line, so working length = 31 − 1 − 1 = 29\". Trap: 30\" takes only 1/2\" per end (that is the drive-to-drive length, 31 − 1).",
+   "ru": "S&D забирает 1\" металла на каждом конце за линией изгиба, поэтому working length = 31 − 1 − 1 = 29\". Ловушка: 30\" — только по 1/2\" на конец (это длина drive to drive, 31 − 1)."
+  },
+  "opts": [
+   {
+    "en": "29\"",
+    "ru": "29\""
+   },
+   {
+    "en": "28\"",
+    "ru": "28\""
+   },
+   {
+    "en": "27\"",
+    "ru": "27\""
+   },
+   {
+    "en": "30\"",
+    "ru": "30\""
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    26
+   ]
+  ]
+ },
+ {
+  "id": "Y2W5Y-36",
+  "src": "Y2W5Y",
+  "n": 36,
+  "topic": "welding",
+  "q": {
+   "en": "Prior to welding, base metal shall be cleaned of:",
+   "ru": "Перед сваркой base metal нужно очистить от:"
+  },
+  "why": {
+   "en": "Oil, paint and rust all contaminate the weld: they burn into gases and oxides that cause porosity and poor fusion. All three are removed before you strike an arc.",
+   "ru": "Масло, краска и ржавчина загрязняют шов: сгорают в газы и окислы, дают поры (porosity) и плохое сплавление. Все три снимают до начала сварки."
+  },
+  "opts": [
+   {
+    "en": "Oils",
+    "ru": "Масла"
+   },
+   {
+    "en": "Paints",
+    "ru": "Краски"
+   },
+   {
+    "en": "Rust",
+    "ru": "Ржавчины"
+   },
+   {
+    "en": "All of the above",
+    "ru": "Всего перечисленного"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    36
+   ]
+  ]
+ },
+ {
+  "id": "Y2W5Y-51",
+  "src": "Y2W5Y",
+  "n": 51,
+  "topic": "dampers",
+  "q": {
+   "en": "Fill in the blank: Access doors are required to provide access to all fire dampers for ____.",
+   "ru": "Заполните пропуск: access doors нужны, чтобы был доступ ко всем fire dampers для ____."
+  },
+  "why": {
+   "en": "Every fire damper needs an access door so it can be inspected and tested — resetting the link and checking that it closes. The door is required for this inspection and testing, not for installation or removal.",
+   "ru": "К каждому fire damper нужна access door, чтобы его осматривать и проверять: перезаряжать link и убеждаться, что он закрывается. Дверца нужна именно для осмотра и проверки, а не для монтажа или демонтажа."
+  },
+  "opts": [
+   {
+    "en": "Installation",
+    "ru": "Монтажа"
+   },
+   {
+    "en": "Training",
+    "ru": "Обучения"
+   },
+   {
+    "en": "Removal",
+    "ru": "Демонтажа"
+   },
+   {
+    "en": "Testing",
+    "ru": "Проверки"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    51
+   ]
+  ]
+ },
+ {
+  "id": "Y2W5Y-63",
+  "src": "Y2W5Y",
+  "n": 63,
+  "topic": "layout",
+  "q": {
+   "en": "Using the 2 elbows provided, calculate how much needs to be trimmed off one of the ducts for the offset system to fit, and the length of the trim joint.",
+   "ru": "С помощью двух данных elbows рассчитайте, сколько нужно срезать с одного из duct, чтобы offset встал на место, и длину trim joint."
+  },
+  "why": {
+   "en": "The R1'-6\" arrow points to the throat, so CL R = 18 + 18/2 = 27\" (18 is the side seen on the view). Offset O = 12'-1\" − 8'-2\" = 145 − 98 = 47\". K = 27 × tan 15° = 7.2346\", 2K = 14.4693\". Pipe length (the trim joint) = O ÷ sin 30° − 2K = 94 − 14.4693 = 79.5307\" → 79-1/2\" (6'-7 1/2\"). The offset needs O ÷ tan 30° + 2K = 81.4064 + 14.4693 = 95.8756\" of run, but only 6'-5 7/8\" = 77.875\" is there, so trim 95.8756 − 77.875 = 18.0006\" → 18\" (1'-6\") off the lower duct (the dashed line). Trap: R1'-6\" taken as the CL radius gives 84.35\" and 13.18\". Type both numbers, e.g. 79-1/2 and 18.",
+   "ru": "Стрелка R1'-6\" упирается в throat, поэтому CL R = 18 + 18/2 = 27\" (18 — сторона, видимая на виде). Offset O = 12'-1\" − 8'-2\" = 145 − 98 = 47\". K = 27 × tan 15° = 7.2346\", 2K = 14.4693\". Pipe length (trim joint) = O ÷ sin 30° − 2K = 94 − 14.4693 = 79.5307\" → 79-1/2\" (6'-7 1/2\"). Offset требует по горизонтали O ÷ tan 30° + 2K = 81.4064 + 14.4693 = 95.8756\", а между концами только 6'-5 7/8\" = 77.875\", поэтому срезать 95.8756 − 77.875 = 18.0006\" → 18\" (1'-6\") с нижнего duct (там пунктир). Ловушка: R1'-6\" как CL радиус даёт 84.35\" и 13.18\". Впишите оба числа, например 79-1/2 и 18."
+  },
+  "hint": {
+   "en": "Pipe length= ____ Trim length ____",
+   "ru": "Pipe length = ____, Trim length = ____ (впишите оба размера)"
+  },
+  "type": "input",
+  "answer": {
+   "accept": [],
+   "all": [
+    [
+     "18",
+     "1'-6",
+     "1' 6",
+     "1'6",
+     "1’-6",
+     "1’ 6",
+     "1’6"
+    ],
+    [
+     "79.5",
+     "79-1/2",
+     "79 1/2",
+     "79½",
+     "79-9/16",
+     "79 9/16",
+     "6'-7 1/2",
+     "6' 7 1/2",
+     "6'7 1/2",
+     "6'-7-1/2",
+     "6'-7.5",
+     "6'-7½",
+     "6’-7 1/2",
+     "6’ 7 1/2",
+     "6’7 1/2",
+     "6’-7-1/2",
+     "6’-7.5",
+     "6’-7½",
+     "6'-7\"1/2",
+     "6'-7\" 1/2",
+     "6'7.5",
+     "6’-7”1/2",
+     "6’-7” 1/2",
+     "6'-7”1/2",
+     "6’-7\"1/2"
+    ]
+   ],
+   "reject": [
+    "18.5",
+    "13.1",
+    "13.2",
+    "84.3"
+   ],
+   "text": "Pipe length = 79-1/2\" (6'-7 1/2\"), Trim length = 18\" (1'-6\")",
+   "prefix": ""
+  },
+  "fig": "y2w5y-q63.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    63
+   ]
+  ]
+ },
+ {
+  "id": "Y2W5Y-113",
+  "src": "Y2W5Y",
+  "n": 113,
+  "topic": "math",
+  "q": {
+   "en": "Calculate the shear size for the pattern. It is symmetrical from the center line. Roundoff to the nearest 16th.",
+   "ru": "Рассчитайте shear size (размер заготовки) для pattern. Он симметричен относительно center line. Округлите до ближайшей 1/16."
+  },
+  "why": {
+   "en": "The top flare is 7-1/4\" long at 135° to the vertical side (45° to horizontal), so it adds 7.25 × sin 45° = 5.1265\" both across and up. Width = 2 × (3 + 4.25 + 5.1265) = 24.7530\" → 24-3/4\"; height = 10.375 + 5 + 5.1265 = 20.5015\" → 20-1/2\". Only 24-3/4\" x 20-1/2\" has both sizes right (width x height).",
+   "ru": "Верхний скос длиной 7-1/4\" стоит под 135° к вертикальной стенке (45° к горизонтали), поэтому добавляет 7.25 × sin 45° = 5.1265\" и в ширину, и в высоту. Ширина = 2 × (3 + 4.25 + 5.1265) = 24.7530\" → 24-3/4\"; высота = 10.375 + 5 + 5.1265 = 20.5015\" → 20-1/2\". Оба размера верны только в варианте 24-3/4\" x 20-1/2\" (ширина x высота)."
+  },
+  "opts": [
+   {
+    "en": "24-1/2\" x 20-7/8\"",
+    "ru": "24-1/2\" x 20-7/8\""
+   },
+   {
+    "en": "20-1/2\" x 24-1/4\"",
+    "ru": "20-1/2\" x 24-1/4\""
+   },
+   {
+    "en": "24-3/4\" x 20-1/2\"",
+    "ru": "24-3/4\" x 20-1/2\""
+   },
+   {
+    "en": "20-3/16\" x 24-3/4\"",
+    "ru": "20-3/16\" x 24-3/4\""
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single",
+  "fig": "y2w5y-q113.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    113
+   ]
+  ]
+ },
+ {
   "id": "Y2W5Y-3",
   "src": "Y2W5Y",
   "n": 3,
@@ -18265,7 +18775,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    3
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-4",
@@ -18301,7 +18817,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    4
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-5",
@@ -18337,7 +18859,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    5
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-6",
@@ -18373,7 +18901,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    6
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-7",
@@ -18409,7 +18943,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    7
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-8",
@@ -18445,7 +18985,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    8
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-9",
@@ -18481,7 +19027,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    9
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-10",
@@ -18517,7 +19069,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    10
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-11",
@@ -18553,7 +19111,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    11
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-14",
@@ -18581,7 +19145,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    14
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-15",
@@ -18617,7 +19187,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    15
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-23",
@@ -18638,7 +19214,13 @@ const QUESTIONS = [
    "tol": 0.01,
    "prefix": "",
    "text": "19-1/4\""
-  }
+  },
+  "on": [
+   [
+    "Y2W5Y",
+    23
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-25",
@@ -18674,7 +19256,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    25
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-31",
@@ -18710,7 +19298,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    31
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-32",
@@ -18738,7 +19332,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    32
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-34",
@@ -18774,7 +19374,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    34
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-35",
@@ -18814,7 +19420,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    35
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-38",
@@ -18850,7 +19462,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    38
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-39",
@@ -18886,7 +19504,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    39
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-40",
@@ -18922,7 +19546,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    40
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-41",
@@ -18957,6 +19587,12 @@ const QUESTIONS = [
   "type": "single",
   "also": [
    2
+  ],
+  "on": [
+   [
+    "Y2W5Y",
+    41
+   ]
   ]
  },
  {
@@ -18993,7 +19629,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    42
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-43",
@@ -19025,7 +19667,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    43
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-44",
@@ -19061,7 +19709,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    44
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-45",
@@ -19097,7 +19751,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    45
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-54",
@@ -19129,7 +19789,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    54
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-57",
@@ -19165,7 +19831,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    57
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-59",
@@ -19202,7 +19874,13 @@ const QUESTIONS = [
    3
   ],
   "type": "single",
-  "fig": "y2w5y-q59.svg"
+  "fig": "y2w5y-q59.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    59
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-64",
@@ -19234,7 +19912,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    64
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-65",
@@ -19266,7 +19950,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    65
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-66",
@@ -19298,7 +19988,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    66
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-67",
@@ -19330,7 +20026,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    67
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-68",
@@ -19362,7 +20064,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    68
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-69",
@@ -19394,7 +20102,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    69
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-70",
@@ -19426,7 +20140,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    70
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-71",
@@ -19458,7 +20178,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    71
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-72",
@@ -19490,7 +20216,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    72
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-73",
@@ -19522,7 +20254,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    73
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-74",
@@ -19554,7 +20292,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    74
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-75",
@@ -19586,7 +20330,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    75
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-76",
@@ -19618,7 +20368,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    76
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-77",
@@ -19646,7 +20402,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    77
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-78",
@@ -19674,7 +20436,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    78
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-79",
@@ -19702,7 +20470,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    79
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-80",
@@ -19730,7 +20504,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    80
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-81",
@@ -19758,7 +20538,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    81
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-82",
@@ -19786,7 +20572,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    82
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-83",
@@ -19814,7 +20606,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    83
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-84",
@@ -19842,7 +20640,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    84
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-85",
@@ -19870,7 +20674,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    85
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-86",
@@ -19898,7 +20708,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    86
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-87",
@@ -19926,7 +20742,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    87
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-88",
@@ -19954,7 +20776,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    88
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-89",
@@ -19982,7 +20810,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    89
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-90",
@@ -20022,7 +20856,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    90
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-91",
@@ -20062,7 +20902,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    91
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-92",
@@ -20102,7 +20948,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    92
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-93",
@@ -20142,7 +20994,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    93
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-94",
@@ -20182,7 +21040,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    94
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-95",
@@ -20218,7 +21082,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    95
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-96",
@@ -20253,7 +21123,13 @@ const QUESTIONS = [
    "reject": [],
    "text": "Allows water to drip free of a wall (sheds water away from the wall)",
    "prefix": ""
-  }
+  },
+  "on": [
+   [
+    "Y2W5Y",
+    96
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-97",
@@ -20281,7 +21157,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    97
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-98",
@@ -20309,7 +21191,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    98
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-99",
@@ -20337,7 +21225,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    99
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-100",
@@ -20382,7 +21276,13 @@ const QUESTIONS = [
    2,
    3
   ],
-  "type": "multi"
+  "type": "multi",
+  "on": [
+   [
+    "Y2W5Y",
+    100
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-101",
@@ -20418,7 +21318,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    101
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-102",
@@ -20455,7 +21361,13 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "fig": "y2w5y-q102.svg"
+  "fig": "y2w5y-q102.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    102
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-103",
@@ -20491,7 +21403,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "Y2W5Y",
+    103
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-104",
@@ -20544,7 +21462,13 @@ const QUESTIONS = [
    3
   ],
   "type": "single",
-  "fig": "y2w5y-q104.svg"
+  "fig": "y2w5y-q104.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    104
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-105",
@@ -20597,7 +21521,13 @@ const QUESTIONS = [
    5
   ],
   "type": "single",
-  "fig": "y2w5y-q105.svg"
+  "fig": "y2w5y-q105.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    105
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-106",
@@ -20650,7 +21580,13 @@ const QUESTIONS = [
    1
   ],
   "type": "single",
-  "fig": "y2w5y-q106.svg"
+  "fig": "y2w5y-q106.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    106
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-107",
@@ -20687,7 +21623,13 @@ const QUESTIONS = [
    1
   ],
   "type": "single",
-  "fig": "y2w5y-q107.svg"
+  "fig": "y2w5y-q107.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    107
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-108",
@@ -20724,7 +21666,13 @@ const QUESTIONS = [
    2
   ],
   "type": "single",
-  "fig": "y2w5y-q108.svg"
+  "fig": "y2w5y-q108.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    108
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-109",
@@ -20761,7 +21709,13 @@ const QUESTIONS = [
    3
   ],
   "type": "single",
-  "fig": "y2w5y-q109.svg"
+  "fig": "y2w5y-q109.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    109
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-110",
@@ -20798,7 +21752,13 @@ const QUESTIONS = [
    2
   ],
   "type": "single",
-  "fig": "y2w5y-q110.svg"
+  "fig": "y2w5y-q110.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    110
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-111",
@@ -20820,6 +21780,12 @@ const QUESTIONS = [
    "prefix": "",
    "text": "12614.81"
   },
-  "fig": "y2w5y-q111.svg"
+  "fig": "y2w5y-q111.svg",
+  "on": [
+   [
+    "Y2W5Y",
+    111
+   ]
+  ]
  }
 ];

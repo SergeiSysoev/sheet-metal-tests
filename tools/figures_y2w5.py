@@ -353,10 +353,76 @@ def y2w5y_q111():
     return f
 
 
+def _elbow(f, c, r_out=290.0, r_in=146.0, deg=30.0):
+    """Loose 30 deg elbow drawn as an annular sector: heel arc on the left, throat arc on the right."""
+    o0, o1 = f.P(pol(c, r_out, 180)), f.P(pol(c, r_out, 180 + deg))
+    i0, i1 = f.P(pol(c, r_in, 180)), f.P(pol(c, r_in, 180 + deg))
+    ro, ri = r_out * f.k, r_in * f.k
+    f._path(f"M{f2(o0[0])},{f2(o0[1])} A{f2(ro)},{f2(ro)} 0 0 1 {f2(o1[0])},{f2(o1[1])} "
+            f"L{f2(i1[0])},{f2(i1[1])} A{f2(ri)},{f2(ri)} 0 0 0 {f2(i0[0])},{f2(i0[1])} Z", f.lw)
+
+
+def y2w5y_q63():
+    """Trim joint (= Formula Sheets p.15): two 30 deg elbows R1'-6", 18"x20" ducts at 8'-2" and 12'-1" to floor,
+    6'-5 7/8" between the duct ends; the trim joint and the trim are the two "?" (no answers on the drawing).
+    Model = pixels of the formula-sheet page rendered at scale 2; the exam photo (msg_2747) shows the same drawing."""
+    f = Fig((112, 252, 1440, 1206), 640)
+    WL, WR, TOP, FL = 150.0, 1418.0, 268.0, 1157.0
+    f.poly([(WL, FL), (WL, TOP), (WR, TOP), (WR, FL)])                     # room: walls and ceiling
+    f.poly([(130, FL), (756.5, FL), (768.5, 1188.5), (792.5, 1125), (805, FL), (WR, FL)])   # floor with break
+    # loose fittings: two elbows and the trim joint
+    for c, lab, tip, frm, txt in (((506.0, 457.0), (288, 411), (363.1, 427), (418, 441), (424, 446)),
+                                  ((477.0, 644.0), (259, 600), (335.0, 610), (398, 630), (404, 635))):
+        _elbow(f, c)
+        f.text(lab, "30°")
+        f.leader([tip, frm])
+        f.text(txt, 'R1\'-6"', anchor="start")
+    f.poly([(544, 332), (1022, 332), (1022, 476), (544, 476)], closed=True)
+    f.dim((544, 476), (1022, 476), (544, 561), (1022, 561), "?", gap=10)
+    # installed ducts: lower one from the left wall (dashed cut line), upper one into the right wall
+    f.poly([(WL, 711), (628, 711), (628, 855), (WL, 855)])
+    f.line((533, 711), (533, 855), thin=True, dash=(9 * f.u, 5 * f.u))
+    f.text((313, 782), '18"x20"')
+    f.poly([(WR, 338), (1251, 338), (1251, 482), (WR, 482)])
+    f.text((1336, 408), '18"x20"')
+    # trim "?": extension lines through the dimension line, label to the right
+    f.line((533, 640), (533, 688), thin=True)
+    f.line((628, 640), (628, 688), thin=True)
+    f.dim((533, 656), (628, 656), (533, 656), (628, 656), None, ext=(False, False))
+    f.line((628, 656), (700, 656), thin=True)
+    f.text((710, 656), "?", anchor="start")
+    # 6'-5 7/8" between the duct ends
+    f.line((628, 880), (628, 998), thin=True)
+    f.line((1249, 505), (1249, 998), thin=True)
+    f.dim((628, 981), (1249, 981), (628, 981), (1249, 981), "6'-5 7/8\"", ext=(False, False), tpos=(935, 981))
+    # elevations of the duct bottoms
+    for x, ytop, ty, label, tx, anc in ((373.0, 855.0, 1096.0, "8'-2\" TO FLOOR", 372.0, "middle"),
+                                        (1337.0, 482.0, 1058.0, "12'-1\" TO FLOOR", 1406.0, "end")):
+        f.line((x, FL), (x, ty + 20), thin=True)
+        f.line((x, ty - 20), (x, ytop), thin=True)
+        f.arrow((x, ytop), (x, ytop + 40))
+        f.text((tx, ty), label, size=15, anchor=anc)
+    return f
+
+
+def y2w5y_q22():
+    """Same flat oval as SMY2W2 Triangulation No.9 (R4" ends, 10" between centres)."""
+    from figures import tri_q09
+    return tri_q09()
+
+
+def y2w5y_q113():
+    """Same pattern as Test-90 No.57 (shear size, symmetrical about the centre line)."""
+    from figures import t90_q57
+    return t90_q57()
+
+
 FIGS = {
     "y2w5m-q20": y2w5m_q20,
     "y2w5m-q21": y2w5m_q21,
+    "y2w5y-q22": y2w5y_q22,     # = Triangulation No.9 drawing (question printed without the rounding hint)
     "y2w5y-q59": y2w5y_q59,
+    "y2w5y-q63": y2w5y_q63,
     "y2w5y-q102": y2w5y_q102,
     "y2w5y-q104": y2w5y_q104,
     "y2w5y-q105": y2w5y_q104,   # same hook strips
@@ -366,6 +432,7 @@ FIGS = {
     "y2w5y-q109": y2w5y_q109,
     "y2w5y-q110": y2w5y_q110,
     "y2w5y-q111": y2w5y_q111,
+    "y2w5y-q113": y2w5y_q113,   # = Test-90 No.57 drawing (question printed with "Roundoff")
 }
 
 
