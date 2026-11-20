@@ -355,10 +355,19 @@ button{font-family:inherit}
     $("live").textContent=(st.right?t("correct"):t("incorrect"))+". "+L(q.why);
     showVerdict();
   }
-  // the verdict line names the right option: after an answer it must be on screen (not pushed up by a long explanation)
+  // the verdict line names your answer and the right one: after an answer it must be on screen with the start of the
+  // explanation under it. When the page has to move, the marked options (yours, the right one) go to the top if the
+  // verdict still fits under them; otherwise the verdict goes to the top.
   function showVerdict(){
-    var vh=window.innerHeight||document.documentElement.clientHeight, r=$("exp-status").getBoundingClientRect();
-    if(r.top<64 || r.bottom>vh-8) $("explain").scrollIntoView({block:"start"});
+    var vh=window.innerHeight||document.documentElement.clientHeight, hb=document.querySelector(".hdr").getBoundingClientRect().bottom;
+    var v=$("exp-status").getBoundingClientRect();
+    function fits(dy){ return v.top-dy>=hb+8 && v.bottom-dy<=vh-72; }
+    if(!fits(0)){
+      var marks=$("inputrow").hidden ? [document.querySelector("#options .correct, #options .incorrect"), document.querySelector("#options .chosen")] : [$("inputrow")];
+      for(var i=0;i<marks.length;i++){ if(marks[i]){ var dy=marks[i].getBoundingClientRect().top-(hb+12); if(fits(dy)){ window.scrollBy(0,dy); break; } } }
+      v=$("exp-status").getBoundingClientRect();
+      if(v.top<hb || v.bottom>vh-72) $("explain").scrollIntoView({block:"start"});
+    }
     try{ $("nextbtn").focus({preventScroll:true}); }catch(e){}
     var img=$("qimg"), k=st.pos;                       // a drawing that finishes loading later pushes the verdict down: check again
     if(!$("qfig").hidden && img.src && !img.complete) img.addEventListener("load",function(){ if(st.answered && st.pos===k) showVerdict(); },{once:true});
@@ -412,7 +421,7 @@ button{font-family:inherit}
           b.setAttribute("aria-pressed",chosen?"true":"false");
           b.addEventListener("click",function(){ tap(idx); });
         } else {
-          b.setAttribute("aria-disabled","true"); b.tabIndex=-1;
+          b.setAttribute("aria-disabled","true"); b.tabIndex=-1; if(chosen) b.classList.add("chosen");
           if(good && chosen){ b.classList.add("correct"); bd.textContent="✓"; }
           else if(good){ b.classList.add("correct","missed"); bd.textContent="✓"; }
           else if(chosen){ b.classList.add("incorrect"); bd.textContent="✗"; }
@@ -424,8 +433,12 @@ button{font-family:inherit}
     var ex=$("explain");
     if(st.answered){
       ex.hidden=false; ex.className="explain "+(st.right?"ok":"err");
+      // options by the letter and text shown on screen, top to bottom
+      var named=function(list){ return list.map(function(i){ return perm().indexOf(i); }).sort(function(a,b){ return a-b; }).map(function(p){ return LET[p]+" "+L(q.opts[perm()[p]]); }).join(" + "); };
       var head=st.right?t("correct"):t("incorrect");
-      if(!st.right) head+=" — "+(q.type==="input" ? t("answer_is")+" "+(q.answer.prefix||"")+q.answer.text : t("answer_is")+" "+q.answer.map(function(i){ return perm().indexOf(i); }).sort().map(function(p){ return LET[p]+" "+L(q.opts[perm()[p]]); }).join(" + "));
+      if(q.type==="input"){ if(!st.right) head+=" — "+t("answer_is")+" "+(q.answer.prefix||"")+q.answer.text; }
+      else if(st.right) head+=" — "+named(st.picked);
+      else head+=" — "+t("you_chose")+" "+named(st.picked).replace(/\.$/,"")+"; "+t("answer_is")+" "+named(q.answer);
       $("exp-status").textContent=(st.right?"✓ ":"✗ ")+head;
       $("exp-body").textContent=L(q.why);
     } else ex.hidden=true;
@@ -482,7 +495,9 @@ button{font-family:inherit}
     return t("run_all");
   }
   function runOpen(){ return st.mode && st.order.length && st.pos<st.order.length; }
-  function resume(){ st.view="quiz"; pushQuiz(); render(); window.scrollTo({top:0}); }
+  function resume(){ st.view="quiz"; pushQuiz(); render(); window.scrollTo({top:0}); verdictBack(); }
+  // an answered question shown again (Continue from home, reopened page): the verdict comes back on screen
+  function verdictBack(){ if(st.view==="quiz" && st.answered && !$("quizarea").hidden) showVerdict(); }
   function pushQuiz(){ try{ if(!(history.state && history.state.smt)) history.pushState({smt:"quiz"},""); }catch(e){} }
   function render(){
     document.title=t("app_title");
@@ -531,6 +546,7 @@ button{font-family:inherit}
   var saved=restoreRun();
   if(saved && saved.view==="quiz" && (Date.now()-(saved.at||0))<12*3600*1000){ st.view="quiz"; pushQuiz(); }
   render();
+  verdictBack(); window.addEventListener("load",verdictBack);   // again once fonts and the drawing have loaded
 })();
 </script>
 </body>
