@@ -450,6 +450,10 @@ const UI = {
   "en": "answer:",
   "ru": "ответ:"
  },
+ "you_chose": {
+  "en": "you chose",
+  "ru": "твой выбор:"
+ },
  "theme": {
   "en": "Light / dark theme",
   "ru": "Светлая / тёмная тема"

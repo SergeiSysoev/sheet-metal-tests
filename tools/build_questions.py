@@ -125,6 +125,7 @@ UI = {
     'correct': {'en': 'Correct', 'ru': 'Верно'},
     'incorrect': {'en': 'Not quite', 'ru': 'Неверно'},
     'answer_is': {'en': 'answer:', 'ru': 'ответ:'},
+    'you_chose': {'en': 'you chose', 'ru': 'твой выбор:'},
     'theme': {'en': 'Light / dark theme', 'ru': 'Светлая / тёмная тема'},
     'end_head': {'en': '{S} of {D} right — {P}%', 'ru': 'Верно {S} из {D} — {P}%'},
     'end_line_missed': {'en': 'Mistakes: {N}. They are saved in “My mistakes”.', 'ru': 'Ошибок: {N}. Они сохранены в «Мои ошибки».'},
