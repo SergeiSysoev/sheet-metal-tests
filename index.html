@@ -213,13 +213,22 @@ button{font-family:inherit}
   function cur(){ return QUESTIONS[st.order[st.pos]]; }
   // display order of the options: shuffled once per test run; "All / None of the above", "Both…" stay last;
   // Yes/No and True/False pairs, figure labels (A, B, C…) and questions that name options by letter keep the printed order
-  var PIN=/\b(all of the above|all the above|none of the above|both of the above|neither)\b/i;
+  var PIN=/\b(all of the above|all the above|none of the above|both of the above|neither)\b|^(all|none of the) (listed )?answers( listed)? (are|is) correct|^(all answers|both)\.?$/i;
+  // an option is pinned when it speaks about the other options: "All answers are correct", "Both", or "Both X or Y" naming two of them
+  // ("both sides", "Both winches are used…" are ordinary answers and are shuffled)
+  function pinnedOpt(e,ens){
+    if(PIN.test(e)) return true;
+    if(!/^both\b/i.test(e)) return false;
+    var low=e.toLowerCase();
+    return ens.filter(function(o){ o=o.toLowerCase().replace(/\.$/,""); return o.length>2 && o!==low && low.indexOf(o)>=0; }).length>=2;
+  }
   function makePerm(q){
     var n=q.opts.length, idx=[]; for(var i=0;i<n;i++) idx.push(i);
     var ens=q.opts.map(function(o){ return String(o.en).trim(); });
     if(q.keep || (n===2 && ens.every(function(e){ return /^(yes|no|true|false)\.?$/i.test(e); }))) return idx;   // Yes/No, True/False: as printed
-    if(ens.every(function(e){ return e.length<=2; })) return idx;
-    var pinned=idx.filter(function(i){ return PIN.test(ens[i]); }), free=idx.filter(function(i){ return !PIN.test(ens[i]); });
+    if(ens.every(function(e){ return /^[A-Z]$/.test(e); })) return idx;                                   // figure labels A, B, C…: as printed
+    var pin=ens.map(function(e){ return pinnedOpt(e,ens); });
+    var pinned=idx.filter(function(i){ return pin[i]; }), free=idx.filter(function(i){ return !pin[i]; });
     return shuffle(free).concat(pinned);
   }
   function perm(){ var k=st.order[st.pos]; st.perms=st.perms||{}; if(!st.perms[k]) st.perms[k]=makePerm(cur()); return st.perms[k]; }
