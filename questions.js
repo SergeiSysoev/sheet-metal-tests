@@ -473,6 +473,22 @@ const UI = {
  "again": {
   "en": "Start over",
   "ru": "Начать заново"
+ },
+ "run_all": {
+  "en": "All questions",
+  "ru": "Все вопросы"
+ },
+ "resume_run": {
+  "en": "Continue: {NAME}",
+  "ru": "Продолжить: {NAME}"
+ },
+ "resume_sub": {
+  "en": "Question {N} of {T} · {P}% right so far",
+  "ru": "Вопрос {N} из {T} · пока верно {P}%"
+ },
+ "resume_sub0": {
+  "en": "Question {N} of {T}",
+  "ru": "Вопрос {N} из {T}"
  }
 };
 const QUESTIONS = [
@@ -679,9 +695,6 @@ const QUESTIONS = [
    3
   ],
   "type": "single",
-  "also": [
-   1
-  ],
   "on": [
    [
     "F20",
@@ -23436,9 +23449,6 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "also": [
-   2
-  ],
   "on": [
    [
     "F20",

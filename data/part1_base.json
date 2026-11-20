@@ -103,9 +103,7 @@
   "build_answer": [
    1
   ],
-  "also": [
-   1
-  ]
+  "evidence": "also removed 20.11 (audit P0): on the graded T90 sheet the \"negative terminal and ground to positive\" option lost the point; the explanation keeps \"for points / technically\"."
  },
  {
   "src": "T90",

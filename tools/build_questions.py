@@ -131,6 +131,10 @@ UI = {
     'end_line_perfect': {'en': 'No mistakes. Nice work.', 'ru': 'Без ошибок.'},
     'review_missed': {'en': 'Redo the {N} missed', 'ru': 'Перерешать ошибки ({N})'},
     'again': {'en': 'Start over', 'ru': 'Начать заново'},
+    'run_all': {'en': 'All questions', 'ru': 'Все вопросы'},
+    'resume_run': {'en': 'Continue: {NAME}', 'ru': 'Продолжить: {NAME}'},
+    'resume_sub': {'en': 'Question {N} of {T} · {P}% right so far', 'ru': 'Вопрос {N} из {T} · пока верно {P}%'},
+    'resume_sub0': {'en': 'Question {N} of {T}', 'ru': 'Вопрос {N} из {T}'},
 }
 
 
