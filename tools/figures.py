@@ -689,12 +689,14 @@ def t90_q50():
 
 def t90_q51():
     """Duct trim joint: riser 6"/35"/35"/A, R10" elbow, 12"x8", 12" transition, 6" of 8"x8" into wall."""
-    f = Fig((20, 0, 1290, 1370), 560)
+    f = Fig((20, -30, 1290, 1370), 560)
     ceil, xl, xr = 25.0, 215.0, 345.0
     wi, wo, wbot = 1035.0, 1072.0, 1356.0
+    co = ceil - 42                        # outer ceiling line: ceiling and wall are double lines, as printed
     f.line((30, ceil), (wi, ceil))
     f.line((wi, ceil), (wi, wbot))
-    f.line((wo, ceil - 14), (wo, wbot))   # outer wall line crosses the dimension's extension line, as printed
+    f.line((30, co), (wo, co))
+    f.line((wo, co), (wo, wbot))          # outer wall line crosses the dimension's extension line, as printed
     joints = [ceil, 92.0, 467.0, 828.0, 1103.0]
     f.line((xl, ceil), (xl, joints[-1]))
     f.line((xr, ceil), (xr, joints[-1]))

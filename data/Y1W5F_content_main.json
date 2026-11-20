@@ -11,8 +11,8 @@
    "231 cu. in.",
    "231 sq. in."
   ],
-  "why_en": "One US gallon = 231 cu. in., so 2 × 231 = 462 cu. in. Traps: 231 cu. in. is one gallon, 231 sq. in. is an area unit, and 38.5 is 231 ÷ 6, which has nothing to do with gallons.",
-  "why_ru": "Один US gallon = 231 cu. in., поэтому 2 × 231 = 462 cu. in. Ловушки: 231 cu. in. — это один галлон, 231 sq. in. — единица площади, а 38.5 — это 231 ÷ 6, к галлонам отношения не имеет.",
+  "why_en": "One US gallon = 231 cu. in., so 2 gallons = 2 × 231 = 462 cu. in. Traps: 231 cu. in. is only one gallon, and 231 sq. in. is an area unit.",
+  "why_ru": "Один US gallon = 231 cu. in., значит, 2 галлона = 2 × 231 = 462 cu. in. Ловушки: 231 cu. in. — только один галлон, а 231 sq. in. — единица площади.",
   "flag": "Typo in original: \"How cubic inches\" (= How many cubic inches). Kept as printed. Same question with 2.5 gal is MON No.39, with 3 gal T90 No.77."
  },
  {
@@ -26,7 +26,7 @@
    "Верно"
   ],
   "why_en": "Picture the object inside a glass box: each view is projected straight onto the side of the box facing it, and then the box is opened flat, so the plan, front and side views lie on one sheet, each in its fixed place.",
-  "why_ru": "Представь предмет внутри стеклянной коробки: каждый вид проецируется прямо на ту стенку коробки, что напротив, а потом коробку раскрывают на плоскость. Так plan, front и side views оказываются на одном листе, каждый на своём месте.",
+  "why_ru": "Представьте предмет внутри стеклянной коробки: каждый вид проецируется прямо на ту стенку коробки, что напротив, а потом коробку раскрывают на плоскость. Так plan, front и side views оказываются на одном листе, каждый на своём месте.",
   "flag": null
  },
  {
@@ -69,8 +69,8 @@
    "Неверно",
    "Верно"
   ],
-  "why_en": "In orthographic projection the projection lines are perpendicular (90°) to the plane of each view, and every view is seen straight on. Lines receding at an angle belong to pictorial drawings: 30° in isometric, often 45° in oblique.",
-  "why_ru": "В orthographic projection линии проекции перпендикулярны (90°) плоскости каждого вида, и каждый вид показан так, будто смотришь прямо. Линии, уходящие под углом, — это наглядные рисунки: 30° в isometric, часто 45° в oblique.",
+  "why_en": "In orthographic projection the projection lines are perpendicular (90°) to the plane of each view, and every view is seen straight on, so no angle like 35° is used. Lines receding at an angle belong to pictorial drawings: 30° in isometric, often 45° in oblique.",
+  "why_ru": "В orthographic projection линии проекции перпендикулярны (90°) плоскости каждого вида, и каждый вид показан так, будто смотришь прямо, поэтому никаких углов вроде 35° там нет. Линии, уходящие под углом, — это наглядные рисунки: 30° в isometric, часто 45° в oblique.",
   "flag": null
  },
  {

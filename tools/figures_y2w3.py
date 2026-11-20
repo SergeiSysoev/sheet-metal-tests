@@ -142,6 +142,7 @@ def _offset(g):
     f.arc(C1, Rt, 90, a1)
     f.arc(C1, Rh, 90, a1)
     f.line(C1, vadd(C1, u, Rh))
+    f.arrow(vadd(C1, u, Rt), C1)          # radius arrow on the throat, as printed (24" Rad. = throat)
     # straight piece
     T1, H1 = vadd(C1, u, Rt), vadd(C1, u, Rh)
     f.line(T1, vadd(T1, t, Ls))
@@ -150,6 +151,7 @@ def _offset(g):
     f.arc(C2, Rt, a2, 270)
     f.arc(C2, Rh, a2, 270)
     f.line(C2, vadd(C2, u, -Rh))
+    f.arrow(vadd(C2, u, -Rt), C2)
     f.line((C2[0], C2[1] - Rt), (xR, C2[1] - Rt))
     f.line((C2[0], C2[1] - Rh), (xR, C2[1] - Rh))
     # verticals for L

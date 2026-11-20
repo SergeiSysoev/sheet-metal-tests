@@ -1,0 +1,290 @@
+[
+ {
+  "src": "F20",
+  "n": 1,
+  "q": "Which reading of these two machine numbers is correct: a Roper Whitney 816 hand brake and a Wysong 1652 power shear?",
+  "hint": null,
+  "opts": [
+   "816 brake: 8 ft long, 16 ga max | 1652 shear: 16 ga max, 52\" long",
+   "816 brake: 8 ga max, 16 ft long | 1652 shear: 16 ft long, 52 ga max",
+   "816 brake: 8 ft long, 16 ga max | 1652 shear: 16 ft long, 52 ga max",
+   "816 brake: 8 ga max, 16\" long | 1652 shear: 16 ga max, 52\" long"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Manufacturer: https://roperwhitney.com/our-products/816-hand-brake/ — 'This machine has a bending capacity of 16 gauge up to 8 feet long', bending length 97 in, 16 ga mild steel. Wysong 1652: https://surplusrecord.com/listing/16-gauge-x-4-wysong-h-1652-hydraulic-power-squaring-shear-52-cut-l-3-hp-58-spm-1145183/ ('16 gauge x 4' Wysong H-1652 ... 52\" cut'), https://www.machinetools.com/en/for-sale/751248-wysong-1652-power-squaring-shears-gauge/spec_sheet; same naming by Jet: FS-1652J '52\" x 16 Gauge Foot Shear' (https://www.penntoolco.com/jet-foot-shear-52-x-16-gauge-capacity-fs-1652j-87-112-061/). Wysong's own parts-manual model list (https://wysong.us/resources/parts-manuals/) has the same gauge+inches family: 1052, 1252, 1452, 1472, 1096, 1460. Class 11/19 transcript 12:32:07-12:32:22: brake 'length first, then gauge', shear 'flip, gauge then length'."
+ },
+ {
+  "src": "F20",
+  "n": 2,
+  "q": "A Roper Whitney U-616-6 box and pan brake. What do the numbers 6-16-6 stand for?",
+  "hint": null,
+  "opts": [
+   "6 ft bending length, 16 ga mild steel, 6\" max box depth",
+   "6 ga mild steel, 16 ft bending length, 6\" finger width",
+   "6 ft bending length, 16 fingers, 6 ga mild steel",
+   "6\" bending length, 16 ga mild steel, 6 ft box depth"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Manufacturer: https://roperwhitney.com/our-products/u-616-6-bending-brake/ — 'a 6-inch depth of box capacity, 6 feet of 16 gauge bending capacity', bending length 72 in, capacity 16 ga mild steel, finger widths 3, 4 and 5 in, maximum depth of box 6 in. Sister model https://roperwhitney.com/our-products/u-412-6-bending-brake/ — '4 feet of 12 gauge bending capacity', 6-inch box depth."
+ },
+ {
+  "src": "F20",
+  "n": 3,
+  "q": "A bar folder is mainly used to:",
+  "hint": null,
+  "opts": [
+   "Make many identical bends, hems and locks along a sheet edge",
+   "Cut many identical blanks from a full sheet",
+   "Roll many identical rounds of one diameter",
+   "Bend heavy plate into identical angles"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Class 11/19 transcript 12:32:43-12:33:50: shop bar folder on a stand 'is used to make multiple bends ... multiple of the same bend ... back gauge ... set the depth ... 45 or 90 ... make a hem all the way over'. Complements Y1W5M-9 (adjustable gauge)."
+ },
+ {
+  "src": "F20",
+  "n": 4,
+  "q": "Sheet copper is specified by:",
+  "hint": null,
+  "opts": [
+   "Ounces per square foot",
+   "Pounds per square foot",
+   "Gauge number",
+   "Thickness in mils"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Class 11/19 transcript 12:43:55-12:44:07: lead 'gauged by a weight ... pounds per square foot. Whereas copper is ounces per square foot'. Thickness check in python with copper density 8.96 g/cm³ = 0.3237 lb/in³: 16 oz → 0.0215\", 20 oz → 0.0268\" (industry tables: 0.0216\", 0.0270\"). Mirror question to CLS-7 (different answer, not a duplicate)."
+ },
+ {
+  "src": "F20",
+  "n": 5,
+  "q": "Sheet metal that is approximately 1/8\" thick is about ____ gauge.",
+  "hint": null,
+  "opts": [
+   "16",
+   "12",
+   "10",
+   "8"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Review class 11/19, 12:15:49-12:16:41: instructor: 1/8 = 10 ga on the test, 11 ga more accurate in real life. MSG thicknesses from knowledge/06 §9 table; differences computed in python. Same fact as bank MON-19 (16 ga about 1/16, twice as thick -> 10), different wording as the instructor asked it."
+ },
+ {
+  "src": "F20",
+  "n": 6,
+  "q": "A hand (leaf) brake has a capacity of 816. What does that mean?",
+  "hint": null,
+  "opts": [
+   "It bends up to 8 gauge mild steel, 16 feet long",
+   "It bends up to 16 gauge mild steel, 8 feet long",
+   "It bends up to 16 gauge stainless steel, 8 feet long",
+   "It bends up to 8 gauge mild steel, 16 inches long"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Review class 11/19, 12:30:43-12:32:22: instructor: brake = length first, then gauge; shear flipped (gauge, then length); numbers are flip-flop. Manufacturers (web, 11/19): Tin Knocker TK-816 leaf brake, Capacity 16 Ga, Bend Length 8'1\" (penntoolco.com/tin-knocker-8ft-leaf-brake-tk-816); Tennsmith HBU48-16: mild steel 16 ga, bending length 48-1/4\" (penntoolco.com/tennsmith-bench-model-hand-brake-16-ga-hbu48-16); Tennsmith HBU72-16 and TK-816 vendors: 16 ga mild / 20 ga stainless. Course: brake capacity = max mild steel (bank Y2W3M-53)."
+ },
+ {
+  "src": "F20",
+  "n": 7,
+  "q": "A foot squaring shear is rated 1652. What does that mean?",
+  "hint": null,
+  "opts": [
+   "It cuts up to 16 gauge mild steel, 52\" long",
+   "It cuts 16 ft long sheets up to 52 gauge",
+   "It cuts up to 16 gauge stainless steel, 52\" long",
+   "It cuts sheets up to 52\" wide in any gauge"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Review class 11/19, 12:30:43-12:32:22 (shear = gauge first, then length). Web 11/19: Tin Knocker TN-1652 'Capacity: 16 Ga Mild Steel', 'Shearing Length: 52\"' (penntoolco.com/tin-knocker-foot-operated-shear-tn-1652); JET FS-1652J '52\" x 16 Gauge Foot Shear' (wurthlac / homedepot listings); Wysong 1072 = 10 ga x 72\", Wysong 1652 = 16 ga; Wysong #1016 power squaring shear: 'Gauge: 16', 'Length: 10.0' ft (surplusrecord listing 811610). So power shears 1010/1016/1025 are length-first; T90-80 (816 power shear, 12 ga -> No) and T90-67 (No) keys stand."
+ },
+ {
+  "src": "F20",
+  "n": 8,
+  "q": "Which scale ruler divides the inch into decimal parts (10, 20, 30, 40, 50 or 60 parts per inch)?",
+  "hint": null,
+  "opts": [
+   "Architect scale",
+   "Both architect and engineer scales",
+   "Neither",
+   "Engineer scale"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Review class 11/19, 12:47:17-12:48:11: instructor: engineer scale uses decimals, architectural uses fractions. Pool T90-61 / Y1W5M-47 test only the architect half."
+ },
+ {
+  "src": "F20",
+  "n": 9,
+  "q": "Perforated metal is sheet metal that has been:",
+  "hint": null,
+  "opts": [
+   "Slit and stretched",
+   "Rolled with a raised pattern",
+   "Punched with a pattern of holes",
+   "Woven from wire"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Review class 11/19, 12:14:43-12:15:31: instructor: perforated is just punched, nothing stretched; expanded is slit and stretched. Russian question keeps 'Perforated metal' in English so the translation does not give away 'punched'."
+ },
+ {
+  "src": "F20",
+  "n": 10,
+  "q": "When you solve a right triangle on the calculator (X = run, Y = rise), which side is the Y value?",
+  "hint": null,
+  "opts": [
+   "The side that runs to and from the angle you are working from",
+   "The side opposite the angle you are working from",
+   "The hypotenuse, across from the 90° corner",
+   "Always the vertical side, whatever angle you work from"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Review class 11/19, 12:18:24-12:19:02: instructor: Y is always opposite the relative angle, X runs to and from the angle; values change with the angle asked. Numbers: python, 13.67 cos/sin 52.4 = 8.3407 / 10.8306 (same data as T90-55)."
+ },
+ {
+  "src": "F20",
+  "n": 11,
+  "q": "Before you can solve the pipe length and overall length of an offset made with two equal elbows, which three values do you need?",
+  "hint": null,
+  "opts": [
+   "Throat radius, heel radius and duct gauge",
+   "Duct width, duct depth and overall length",
+   "Centerline radius, elbow degree and the offset",
+   "Pipe length, overall length and elbow degree"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Review class 11/19, 12:19:58-12:20:44: instructor: three things needed: centerline radius, elbow degree, offset. Formulas: knowledge/03 §3; example = formula sheet p15 (18x20, R1'-6\" throat, 30°, offset 145 − 98 = 47): python K 7.2346, 2K 14.4693, PL 79.5307, L 95.8756 (checked by arcs), same as 03 Type B and Y2W5Y-63."
+ },
+ {
+  "src": "F20",
+  "n": 12,
+  "q": "In the first part of the two-elbow offset formula, K = centerline radius × tan of an angle. Which angle do you use?",
+  "hint": null,
+  "opts": [
+   "The full elbow degree",
+   "Twice the elbow degree",
+   "90° minus the elbow degree",
+   "Half the elbow degree"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Review class 11/19, 12:20:44-12:20:45: instructor: for the first part of the formula you need half the elbow degree; people enter the full degree and get the pipe length wrong. Python: 27 tan 15 = 7.2346; 27 tan 30 = 15.5885; PL 79.5307 vs 62.8231 (difference 16.7076). Method knowledge/03 §3 step 5."
+ },
+ {
+  "src": "F20",
+  "n": 13,
+  "q": "Which set of length names is correct for a duct section with S&D connections?",
+  "hint": null,
+  "opts": [
+   "Layout = shear length, Net = working length, Gross = connection length",
+   "Layout = working length, Net = shear length, Gross = connection length",
+   "Layout = working length, Net = connection length, Gross = shear length",
+   "Layout = connection length, Net = shear length, Gross = working length"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Review class 11/19, 12:21:03-12:21:29: instructor: layout = working length, net = connection (drive to drive), gross = shear. Course sheet 2J / knowledge/06 §2 (Net = Layout + 1, Gross = Layout + 2); examples = T90-39 (27 -> 25) and CLS-12 (20 -> 19 / 21). Term options kept in English in Russian because the question tests the English names."
+ },
+ {
+  "src": "F20",
+  "n": 14,
+  "q": "Use the law of cosines. The triangle's sides are not labeled. What is its largest angle?",
+  "hint": null,
+  "opts": [
+   "75.52°",
+   "28.96°",
+   "104.48°",
+   "46.57°"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": "q81",
+  "evidence": "Review class 11/19, 1:04:27-1:05:10: instructor: at least one law-of-cosines triangle on the test is not labeled; assign A, B, C yourself; the question will say use the law of cosines; calculator Conv 4/5/6, Conv 9. Python: A 104.4775°, B 46.5675°, C 28.9550°, sum 180. Drawing tools/figures_f20.py tri_unlabeled (base 3'-0\", left 2'-0\", long side 4'-0\", to scale)."
+ },
+ {
+  "src": "F20",
+  "n": 15,
+  "q": "The shape is symmetrical about the center line. What is its perimeter in feet and inches?",
+  "hint": null,
+  "opts": [
+   "5'-3\"",
+   "3'-7\"",
+   "5'-6\"",
+   "5'-8\""
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": "q82",
+  "evidence": "Review class 11/19, 12:35:13-12:35:57: instructor: an odd shape to find the perimeter of is on the test; it is symmetrical (mirror line), one side gives one size, the other side the other; do not redo math for given values. Own shape: half outline 5 from CL, 9 up, slant 4 across x 3 up = 5, 6 up, top 18. Python: 68\" = 5'-8\"; traps 63, 43, 66."
+ },
+ {
+  "src": "F20",
+  "n": 16,
+  "q": "The pattern is symmetrical from the center line. Calculate its perimeter, rounded to 2 decimal places.",
+  "hint": null,
+  "opts": [
+   "75.28\"",
+   "78.28\"",
+   "82.53\"",
+   "72.25\""
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": "q83",
+  "evidence": "Same symmetrical pattern as T90-57 / Y2W5Y-113 (shear size 24-3/4 x 20-1/2, key confirmed); the instructor on 11/19 (12:35:13-12:35:57) described a symmetrical odd shape whose perimeter is on the test. Geometry from tools/figures.py t90_q57 (150° and 135° corners as on the original). Python: perimeter 78.2806 (to the nearest 16th it would sit 0.0006\" from the 1/4-5/16 boundary, so 2 decimals are asked). f20-q83.svg is byte-identical to t90-q57.svg."
+ }
+]

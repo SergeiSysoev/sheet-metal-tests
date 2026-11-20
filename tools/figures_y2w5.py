@@ -60,7 +60,7 @@ def arc_arrows(f, c, r, a0, a1, w=None):
 
 # ======================================================================= Y2W5M (Monday Written)
 def y2w5m_q20():
-    """Crane signal: forefinger pointing out, other hand held still under it (hoist slowly)."""
+    """Crane signal: lower hand forearm up, index finger pointing up (hoist); the other hand held still above it (slowly)."""
     f = Fig((40, 30, 360, 520), 360)
     lw = f.lw * 1.6
     # hard hat
@@ -83,14 +83,15 @@ def y2w5m_q20():
              ("Q", (132, 194), (154, 186))], w=lw)
     path(f, [("M", (114, 151)), ("L", (66, 141)), ("Q", (58, 144), (64, 150)), ("L", (110, 162))], w=lw)
     f.line((118, 168), (140, 170), w=f.tw * 1.4)
-    # the other hand, held still under the pointing hand, and its arm
-    path(f, [("M", (98, 192)), ("Q", (90, 216), (102, 242)), ("L", (128, 242)), ("Q", (138, 216), (130, 194)),
-             ("Q", (114, 186), (98, 192))], w=lw)
-    f.line((106, 200), (106, 226), w=f.tw * 1.3)
-    f.line((116, 198), (117, 228), w=f.tw * 1.3)
-    path(f, [("M", (102, 242)), ("L", (156, 306)), ("Q", (182, 322), (206, 300))], w=lw)
-    path(f, [("M", (128, 242)), ("L", (182, 276)), ("L", (206, 262))], w=lw)
-    f.line((150, 270), (160, 262), w=f.tw * 1.3)
+    # the signaling hand under it: forearm up, index finger pointing up (hoist); the hand above is held still (slowly)
+    path(f, [("M", (98, 232)), ("Q", (90, 256), (102, 282)), ("L", (128, 282)), ("Q", (138, 256), (130, 234)),
+             ("Q", (114, 226), (98, 232))], w=lw)
+    f.line((106, 240), (106, 266), w=f.tw * 1.3)
+    f.line((116, 238), (117, 268), w=f.tw * 1.3)
+    path(f, [("M", (104, 232)), ("L", (104, 202)), ("Q", (110, 193), (116, 202)), ("L", (116, 229))], w=lw)
+    path(f, [("M", (102, 282)), ("L", (140, 336)), ("Q", (162, 352), (188, 334)), ("L", (206, 312))], w=lw)
+    path(f, [("M", (128, 282)), ("L", (164, 306)), ("L", (206, 280))], w=lw)
+    f.line((134, 290), (144, 282), w=f.tw * 1.3)
     # body
     f.line((206, 262), (206, 346), w=lw)
     path(f, [("M", (334, 186)), ("Q", (348, 262), (306, 346))], w=lw)

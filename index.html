@@ -196,7 +196,7 @@ button{font-family:inherit}
   <div class="sronly" id="live" aria-live="polite" role="status"></div>
 </main>
 
-<script src="questions.js?v=19"></script>
+<script src="questions.js?v=20"></script>
 <script>
 (function(){
   "use strict";
@@ -302,6 +302,10 @@ button{font-family:inherit}
       var w=String(st.typed).toLowerCase();
       // short tokens (PE, OD, ABS, PVC…) must be whole words; longer ones may be part of a word
       var has=function(a){
+        if(/[0-9]/.test(a)){                       // numbers: not part of a longer number (79.5 must not match 79.56)
+          var n=a.replace(/[.*+?^${}()|[\]\\\/]/g,"\\$&");
+          return new RegExp("(^|[^0-9.])"+n+"(?![0-9]|\\.[0-9])").test(w);
+        }
         if(a.length>3) return w.indexOf(a)>=0;
         var e=a.replace(/[.*+?^${}()|[\]\\\/]/g,"\\$&");
         return new RegExp("(^|[^a-z\u0430-\u044f\u04510-9])"+e+"($|[^a-z\u0430-\u044f\u04510-9])").test(w);

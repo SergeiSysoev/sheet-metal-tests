@@ -53,8 +53,8 @@
    "PERSPECTIVE VIEW (перспектива)",
    "SIDE или END ELEVATION (вид сбоку / с торца)"
   ],
-  "why_en": "An orthographic projection shows the object in three flat views: plan (top), front elevation and side (end) elevation. Each view looks straight at one face, so true sizes can be measured on it. Perspective is a pictorial view with lines running to vanishing points, not an orthographic view.",
-  "why_ru": "Orthographic projection показывает предмет тремя плоскими видами: plan (сверху), front elevation (спереди) и side или end elevation (сбоку, с торца). Каждый вид смотрит прямо на одну грань, поэтому размеры на нём истинные. Perspective — наглядная картинка, линии в ней сходятся к точкам схода, к orthographic она не относится.",
+  "why_en": "An orthographic projection shows the object in three flat views: plan (top), front elevation and side (end) elevation, each looked at straight on, so true sizes can be measured on it. A perspective view is a pictorial drawing with lines running to vanishing points, so it is not one of the three.",
+  "why_ru": "Orthographic projection показывает предмет тремя плоскими видами: plan (сверху), front elevation (спереди) и side или end elevation (сбоку, с торца); на каждый вид смотрят прямо, поэтому размеры на нём истинные. Perspective — наглядная картинка, линии в ней сходятся к точкам схода, в эти три вида она не входит.",
   "flag": null
  },
  {
@@ -244,8 +244,8 @@
    "Цинк (zinc)",
    "Нержавеющая сталь (stainless steel)"
   ],
-  "why_en": "Stainless steel is steel alloyed with chromium; the chromium forms a thin protective film, so the metal does not stain or rust and stays hard and strong. Copper and zinc are pure metals, not alloys, and both tarnish; aluminum resists corrosion but is soft and dulls. Note: not confirmed by a graded key.",
-  "why_ru": "Stainless steel — сталь, легированная хромом; хром даёт тонкую защитную плёнку, поэтому металл не покрывается пятнами и не ржавеет, оставаясь твёрдым и прочным. Медь и цинк — чистые металлы, а не сплавы, и оба тускнеют; алюминий коррозии не боится, но мягкий и тускнеет. Внимание: проверенного ключа нет.",
+  "why_en": "Stainless steel is steel alloyed with chromium; the chromium forms a thin protective film, so the metal does not stain or rust and stays hard and strong. Copper and zinc are pure metals, not alloys, and both tarnish; aluminum resists corrosion but is soft.",
+  "why_ru": "Stainless steel — сталь, легированная хромом; хром даёт тонкую защитную плёнку, поэтому металл не покрывается пятнами и не ржавеет, оставаясь твёрдым и прочным. Медь и цинк — чистые металлы, а не сплавы, и оба тускнеют; алюминий коррозии не боится, но мягкий.",
   "flag": null
  },
  {
@@ -289,8 +289,8 @@
    "Expanded metal",
    "Tread plate"
   ],
-  "why_en": "Expanded metal is made by slitting a solid sheet and stretching it, which opens the slits into diamond-shaped holes without losing any metal. Perforated sheet has punched holes, and diamond plate and tread plate are solid sheets with a raised anti-slip pattern.",
-  "why_ru": "Expanded metal делают так: цельный лист надрезают и растягивают, и надрезы раскрываются в ромбовидные ячейки, металл при этом не теряется. У perforated отверстия пробиты, а diamond plate и tread plate — цельные листы с выпуклым рифлением против скольжения.",
+  "why_en": "Expanded metal is made by slitting a solid sheet and stretching it, which opens the slits into diamond-shaped openings without losing any metal. Perforated sheet is punched (nothing is stretched), and diamond plate and tread plate are solid sheets with a raised anti-slip pattern.",
+  "why_ru": "Expanded metal делают так: цельный лист надрезают и растягивают, надрезы раскрываются в ромбовидные ячейки, и металл при этом не теряется. Perforated лист пробивают (punched), ничего не растягивая, а diamond plate и tread plate — цельные листы с выпуклым рифлением против скольжения.",
   "flag": null
  },
  {
@@ -302,8 +302,8 @@
    "Да",
    "Нет"
   ],
-  "why_en": "Yes. The course's OG (ogee) offset is two equal radius elbows turned in opposite directions, with or without a straight piece between them: the first elbow turns the duct off its line, the second turns it back parallel, shifted by the offset.",
-  "why_ru": "Да. OG (ogee) offset в курсе — это два одинаковых radius elbow, повёрнутых в разные стороны, с прямым куском между ними или без него: первый elbow уводит duct с оси, второй возвращает его параллельно, со смещением на offset.",
+  "why_en": "Yes. An OG (ogee) offset can be made from two equal elbows turned in opposite directions, with or without a straight piece between them: the first turns the duct off its line, the second turns it back parallel, shifted by the offset.",
+  "why_ru": "Да. OG (ogee) offset можно собрать из двух одинаковых elbow, повёрнутых в разные стороны, с прямым куском между ними или без него: первый elbow уводит duct с оси, второй возвращает его параллельно, со смещением на offset.",
   "flag": null
  },
  {
@@ -317,8 +317,8 @@
    "3",
    "4"
   ],
-  "why_en": "One. Per course sheet 2I a single labeled plan view is complete: it shows the end sizes, the slope of Left and Right, the TOP/BOTTOM note (FOT, FOB or TOP UP/DOWN with an arrow) and the net length, and the fourth side follows from those.",
-  "why_ru": "Один. По листу курса 2I одного подписанного plan достаточно: на нём размеры концов, наклон Left и Right, пометка TOP/BOTTOM (FOT, FOB или TOP UP/DOWN со стрелкой) и net length, а четвёртая сторона выводится из них.",
+  "why_en": "One. A correctly labeled plan view shows both end sizes, the slope of the left and right sides, the top/bottom note (FOT, FOB, CL, or TOP UP/DOWN with an arrow) and the drive-to-drive length; the fourth side follows from these. If you need a second view, the ticket was not drawn or labeled correctly.",
+  "why_ru": "Один. Правильно подписанный plan показывает размеры обоих концов, наклон левой и правой сторон, пометку TOP/BOTTOM (FOT, FOB, CL или TOP UP/DOWN со стрелкой) и длину drive to drive; четвёртая сторона выводится из них. Если нужен второй вид, тикет нарисован или подписан неправильно.",
   "flag": null
  },
  {

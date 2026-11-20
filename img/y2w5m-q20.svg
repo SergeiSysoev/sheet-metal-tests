@@ -15,12 +15,13 @@
 <path d="M126,137.25 Q96.75,126 81,137.25 Q69.75,155.25 81,173.25 Q103.5,184.5 128.25,175.5" fill="none" stroke="#111" stroke-width="3.52" stroke-linejoin="round" stroke-linecap="round"/>
 <path d="M83.25,136.12 L29.25,124.88 Q20.25,128.25 27,135 L78.75,148.5" fill="none" stroke="#111" stroke-width="3.52" stroke-linejoin="round" stroke-linecap="round"/>
 <line x1="87.75" y1="155.25" x2="112.5" y2="157.5" fill="none" stroke="#111" stroke-width="1.61" stroke-linecap="butt"/>
-<path d="M65.25,182.25 Q56.25,209.25 69.75,238.5 L99,238.5 Q110.25,209.25 101.25,184.5 Q83.25,175.5 65.25,182.25" fill="none" stroke="#111" stroke-width="3.52" stroke-linejoin="round" stroke-linecap="round"/>
-<line x1="74.25" y1="191.25" x2="74.25" y2="220.5" fill="none" stroke="#111" stroke-width="1.49" stroke-linecap="butt"/>
-<line x1="85.5" y1="189" x2="86.62" y2="222.75" fill="none" stroke="#111" stroke-width="1.49" stroke-linecap="butt"/>
-<path d="M69.75,238.5 L130.5,310.5 Q159.75,328.5 186.75,303.75" fill="none" stroke="#111" stroke-width="3.52" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M99,238.5 L159.75,276.75 L186.75,261" fill="none" stroke="#111" stroke-width="3.52" stroke-linejoin="round" stroke-linecap="round"/>
-<line x1="123.75" y1="270" x2="135" y2="261" fill="none" stroke="#111" stroke-width="1.49" stroke-linecap="butt"/>
+<path d="M65.25,227.25 Q56.25,254.25 69.75,283.5 L99,283.5 Q110.25,254.25 101.25,229.5 Q83.25,220.5 65.25,227.25" fill="none" stroke="#111" stroke-width="3.52" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="74.25" y1="236.25" x2="74.25" y2="265.5" fill="none" stroke="#111" stroke-width="1.49" stroke-linecap="butt"/>
+<line x1="85.5" y1="234" x2="86.62" y2="267.75" fill="none" stroke="#111" stroke-width="1.49" stroke-linecap="butt"/>
+<path d="M72,227.25 L72,193.5 Q78.75,183.38 85.5,193.5 L85.5,223.88" fill="none" stroke="#111" stroke-width="3.52" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M69.75,283.5 L112.5,344.25 Q137.25,362.25 166.5,342 L186.75,317.25" fill="none" stroke="#111" stroke-width="3.52" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M99,283.5 L139.5,310.5 L186.75,281.25" fill="none" stroke="#111" stroke-width="3.52" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="105.75" y1="292.5" x2="117" y2="283.5" fill="none" stroke="#111" stroke-width="1.49" stroke-linecap="butt"/>
 <line x1="186.75" y1="261" x2="186.75" y2="355.5" fill="none" stroke="#111" stroke-width="3.52" stroke-linecap="butt"/>
 <path d="M330.75,175.5 Q346.5,261 299.25,355.5" fill="none" stroke="#111" stroke-width="3.52" stroke-linejoin="round" stroke-linecap="round"/>
 <line x1="245.25" y1="234" x2="240.75" y2="353.25" fill="none" stroke="#111" stroke-width="1.72" stroke-linecap="butt"/>

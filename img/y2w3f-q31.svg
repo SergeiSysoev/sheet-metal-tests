@@ -5,11 +5,13 @@
 <path d="M170.1,274.29 A97.81,97.81 0 0 0 245.02,239.35" fill="none" stroke="#111" stroke-width="2.35"/>
 <path d="M170.1,374.22 A197.74,197.74 0 0 0 321.58,303.58" fill="none" stroke="#111" stroke-width="2.35"/>
 <line x1="170.1" y1="176.48" x2="321.58" y2="303.58" fill="none" stroke="#111" stroke-width="2.35" stroke-linecap="butt"/>
+<polygon points="245.02,239.35 232,233.29 236.8,227.57" fill="#111" stroke="none"/>
 <line x1="245.02" y1="239.35" x2="320.19" y2="149.76" fill="none" stroke="#111" stroke-width="2.35" stroke-linecap="butt"/>
 <line x1="321.58" y1="303.58" x2="396.75" y2="214" fill="none" stroke="#111" stroke-width="2.35" stroke-linecap="butt"/>
 <path d="M396.75,214 A97.81,97.81 0 0 1 471.67,179.06" fill="none" stroke="#111" stroke-width="2.35"/>
 <path d="M320.19,149.76 A197.74,197.74 0 0 1 471.67,79.13" fill="none" stroke="#111" stroke-width="2.35"/>
 <line x1="471.67" y1="276.87" x2="320.19" y2="149.76" fill="none" stroke="#111" stroke-width="2.35" stroke-linecap="butt"/>
+<polygon points="396.75,214 409.77,220.05 404.97,225.77" fill="#111" stroke="none"/>
 <line x1="471.67" y1="179.06" x2="525.18" y2="179.06" fill="none" stroke="#111" stroke-width="2.35" stroke-linecap="butt"/>
 <line x1="471.67" y1="79.13" x2="525.18" y2="79.13" fill="none" stroke="#111" stroke-width="2.35" stroke-linecap="butt"/>
 <line x1="170.1" y1="25.51" x2="170.1" y2="374.22" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>

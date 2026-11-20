@@ -11,8 +11,8 @@
    "Type 304",
    "Terne"
   ],
-  "why_en": "'Ferrous' comes from the Latin ferrum, iron: any metal that contains iron is a ferrous metal (Test-90 No.17). Stainless steel and Type 304 contain iron too, but they are kinds of ferrous metal, not the name of the group; terne is steel coated with a lead-tin alloy.",
-  "why_ru": "«Ferrous» — от латинского ferrum, железо: любой металл с железом — ferrous metal (тест-90 №17). Stainless steel и Type 304 тоже содержат железо, но это виды ferrous metal, а не название группы; terne — сталь с покрытием из сплава свинца и олова.",
+  "why_en": "\"Ferrous\" comes from the Latin ferrum, iron: any metal that contains iron is a ferrous metal. Stainless steel and Type 304 contain iron too, but they are kinds of ferrous metal, not the name of the group; terne is steel coated with a lead-tin alloy.",
+  "why_ru": "«Ferrous» — от латинского ferrum, железо: любой металл, в котором есть железо, — ferrous metal. Stainless steel и Type 304 тоже содержат железо, но это виды ferrous metal, а не название группы; terne — сталь с покрытием из сплава свинца и олова.",
   "flag": null
  },
  {
@@ -43,8 +43,8 @@
    "Patina",
    "Anodized"
   ],
-  "why_en": "Patina is the brown-to-green oxide layer copper forms with age outdoors (SMY2W2 Monday No.27: copper changes color with age). Terne is a coating; mill finish and anodized are aluminum finishes.",
-  "why_ru": "Patina — коричнево-зелёный оксидный слой, который медь со временем образует на воздухе (SMY2W2 Monday №27: медь меняет цвет с возрастом). Terne — покрытие, mill finish и anodized — отделка алюминия.",
+  "why_en": "Patina is the brown-to-green layer copper forms outdoors with age: bright copper first darkens to brown (copper oxide), then turns green. Terne is a lead-tin coating; mill finish and anodized are aluminum finishes.",
+  "why_ru": "Patina — коричнево-зелёный слой, который медь со временем образует на воздухе: блестящая медь сначала темнеет до коричневого (оксид меди), потом зеленеет. Terne — покрытие из свинца и олова, mill finish и anodized — отделка алюминия.",
   "flag": null
  },
  {
@@ -60,7 +60,7 @@
    "Temper"
   ],
   "why_en": "High-carbon steel can be hardened and holds an edge, so it is used for tools, springs and cutting blades. Low-carbon (mild) steel is soft and easy to form; temper is a heat treatment, not a steel.",
-  "why_ru": "High-carbon steel можно закалить, она держит кромку — из неё делают инструмент, пружины, ножи. Low-carbon (mild) steel мягкая и легко гнётся; temper — это термообработка, а не сталь.",
+  "why_ru": "High-carbon steel можно закалить, и она долго держит заточку — из неё делают инструмент, пружины, ножи. Low-carbon (mild) steel мягкая и легко гнётся; temper — это термообработка, а не сталь.",
   "flag": null
  },
  {
@@ -75,8 +75,8 @@
    "#4 Finish",
    "#2B Finish"
   ],
-  "why_en": "Mill finish is aluminum as it comes off the rolling mill, the usual finish of aluminum sheet. #4 and #2B are stainless-steel finishes; anodizing is a process that adds an oxide layer (next question).",
-  "why_ru": "Mill finish — алюминий в том виде, в каком он выходит с прокатного стана; так обычно поставляют лист. #4 и #2B — отделка нержавейки, anodizing — процесс, который наращивает оксидный слой (следующий вопрос).",
+  "why_en": "Mill finish is aluminum as it comes off the rolling mill, the usual finish of aluminum sheet. Anodizing is also done on aluminum, but it is an added process, not the everyday finish; #4 and #2B are stainless-steel finishes.",
+  "why_ru": "Mill finish — алюминий в том виде, в каком он выходит с прокатного стана; так обычно поставляют лист. Anodizing тоже делают на алюминии, но это дополнительный процесс, а не обычная отделка; #4 и #2B — отделка нержавейки.",
   "flag": null
  },
  {
@@ -91,8 +91,8 @@
    "Anodizing",
    "Hydrochloric acid"
   ],
-  "why_en": "Anodizing is an electrolytic process that thickens aluminum's natural oxide film into a hard, corrosion-resistant layer that can also be dyed.",
-  "why_ru": "Anodizing — электролитический процесс, который утолщает естественную оксидную плёнку алюминия до твёрдого коррозионностойкого слоя; его можно и окрасить.",
+  "why_en": "Anodizing is an electrolytic process that thickens aluminum's natural oxide film into a hard, corrosion-resistant layer that can also be dyed. Terne is a coating, and nitric and hydrochloric acid are chemicals, not the name of a process.",
+  "why_ru": "Anodizing — электролитический процесс, который утолщает естественную оксидную плёнку алюминия до твёрдого коррозионностойкого слоя; его можно и окрасить. Terne — покрытие, а nitric и hydrochloric acid — химикаты, а не название процесса.",
   "flag": null
  },
  {
@@ -123,8 +123,8 @@
    "#8 Finish",
    "Mill Finish"
   ],
-  "why_en": "#8 is polished to a mirror (SMY2W2 Monday No.74: a #8 finish is very shiny). #4 is brushed, #2B is dull.",
-  "why_ru": "#8 отполирована до зеркала (SMY2W2 Monday №74: #8 — very shiny). #4 — шлифованная, #2B — матовая.",
+  "why_en": "#8 is polished to a mirror. #4 is brushed (satin), #2B is a dull mill finish, and mill finish is the term for aluminum as rolled.",
+  "why_ru": "#8 отполирована до зеркала. #4 — шлифованная (сатиновая), #2B — матовая заводская, а mill finish — так называют алюминий после проката.",
   "flag": null
  },
  {
@@ -139,8 +139,8 @@
    "Type 316",
    "Type 430"
   ],
-  "why_en": "Type 316 is chromium-nickel stainless with 2–3% molybdenum added for better resistance to salt and chemicals. 304 has no molybdenum, and 430 is a chromium-only (ferritic) grade.",
-  "why_ru": "Type 316 — хромоникелевая нержавейка с добавкой 2–3% молибдена для стойкости к соли и химии. В 304 молибдена нет, 430 — только хромистая (ferritic) марка.",
+  "why_en": "Type 316 is chromium-nickel stainless with 2–3% molybdenum added for better resistance to salt and chemicals. 301 and 304 have no molybdenum, and 430 is a chromium-only (ferritic) grade.",
+  "why_ru": "Type 316 — хромоникелевая нержавейка с добавкой 2–3% молибдена для стойкости к соли и химии. В 301 и 304 молибдена нет, 430 — только хромистая (ferritic) марка.",
   "flag": null
  },
  {
@@ -153,8 +153,8 @@
    "Да",
    "Нет"
   ],
-  "why_en": "Slip (S) cleats go on the top and bottom and the drives on the sides. The reverse question — drives on top and bottom — is answered No (SMY2W2 Monday No.12).",
-  "why_ru": "Slip (S) cleats ставят сверху и снизу, а drives — по бокам. Обратный вопрос — drives сверху и снизу — в тестах отвечают No (SMY2W2 Monday №12).",
+  "why_en": "Yes. The usual S&D arrangement puts the S (slip) cleats on the top and bottom and the drive cleats on the two sides. When the drawing does not show it, the slips go on the long sides of the opening and the drives on the short sides. The reverse statement (drives on top and bottom) is answered No.",
+  "why_ru": "Да. Обычная схема S&D: S (slip) cleats сверху и снизу, drive cleats — на двух боковых сторонах. Если на чертеже это не показано, slips ставят на длинные стороны проёма, а drives — на короткие. На обратное утверждение (drives сверху и снизу) отвечают «Нет».",
   "flag": null
  },
  {
@@ -169,8 +169,8 @@
    "Offset + length",
    "Offset + ширина cheek"
   ],
-  "why_en": "The course rule of thumb: make an OG offset as long as the offset plus the cheek width (SMY2W2 Monday No.17). The '×' versions multiply inches by inches and give an area, not a length.",
-  "why_ru": "Правило курса: длина OG offset = offset + ширина cheek (SMY2W2 Monday №17). Варианты с «×» перемножают дюймы и дают площадь, а не длину.",
+  "why_en": "Rule of thumb: make an OG offset about as long as the offset plus the cheek width. 'Offset + length' uses the very length you are trying to find, and the '×' options multiply inches by inches, which gives an area, not a length.",
+  "why_ru": "Практическое правило: длина OG offset ≈ offset + ширина cheek. «Offset + length» использует ту самую длину, которую ищем, а варианты с «×» перемножают дюймы на дюймы и дают площадь, а не длину.",
   "flag": "Same question as SMY2W2 Monday No.17 with a different option set (b 'Offset x cheek width' here)."
  },
  {
@@ -180,8 +180,8 @@
   "ru_q": "Если просверлить отверстие в 9 3/4\" от конца стального прутка длиной 29\", на каком расстоянии оно будет от другого конца?",
   "ru_hint": null,
   "ru_opts": null,
-  "why_en": "29 − 9.75 = 19.25\" = 19-1/4\". Type it as 19-1/4 or 19.25.",
-  "why_ru": "29 − 9.75 = 19.25\" = 19-1/4\". Вводите 19-1/4 или 19.25.",
+  "why_en": "The two parts of the bar add up to its length: 29 − 9-3/4 = 29 − 9.75 = 19.25\" = 19-1/4\". Type it as 19-1/4 or 19.25.",
+  "why_ru": "Две части прутка вместе дают его длину: 29 − 9-3/4 = 29 − 9.75 = 19.25\" = 19-1/4\". Вводите 19-1/4 или 19.25.",
   "flag": "Open answer on the test (no options); same numbers as SMY2W2 Monday No.41, which has options."
  },
  {
@@ -196,8 +196,8 @@
    "16\"",
    "12-1/4\""
   ],
-  "why_en": "17-1/4\" is the girth of one L-half: 10 + 6 + 1\" female + 1/4\" male Pittsburgh = 17.25\". 18\" is the length, and drive to drive = 18 − 1 = 17\" (course rule: Net = Gross − 1, as 17\" → 16\" in SMY2W2 Monday No.46).",
-  "why_ru": "17-1/4\" — развёртка одной L-половины: 10 + 6 + 1\" female + 1/4\" male Pittsburgh = 17.25\". 18\" — длина, а drive to drive = 18 − 1 = 17\" (правило курса: Net = Gross − 1, как 17\" → 16\" в SMY2W2 Monday №46).",
+  "why_en": "17-1/4\" is the girth of one L-shaped half: 10 + 6 + 1\" female + 1/4\" male Pittsburgh = 17.25\". So 18\" is the length, and drive to drive = shear − 1 = 18 − 1 = 17\" (1/2\" off each end). Trap: 16\" (18 − 2) is the working (layout) length.",
+  "why_ru": "17-1/4\" — развёртка одной L-половины: 10 + 6 + 1\" female + 1/4\" male Pittsburgh = 17.25\". Значит, 18\" — это длина, и drive to drive = shear − 1 = 18 − 1 = 17\" (по 1/2\" с каждого конца). Ловушка: 16\" (18 − 2) — это working (layout) length.",
   "flag": "Printed '6\"with' (no space). Same as SMY2W2 Monday No.46 but with 18\" and a different option set."
  },
  {
@@ -212,8 +212,8 @@
    "Только когда баллон полный.",
    "Только когда баллон пустой."
   ],
-  "why_en": "The cap protects the valve, so it must be on whenever the regulator is off and the cylinder is moved (OSHA 1926.350(a)(6)), full or empty. It has to come off before a regulator can be attached.",
-  "why_ru": "Колпак защищает вентиль, поэтому он должен стоять всегда, когда регулятор снят и баллон перемещают (OSHA 1926.350(a)(6)), полный он или пустой. Перед установкой регулятора колпак как раз снимают.",
+  "why_en": "The valve protection cap goes on whenever the cylinder is moved: OSHA 1926.350(a)(6) says remove the regulator and put the cap on before the cylinder is moved, full or empty. The cap has to come off before a regulator can be attached, so 'before attaching a regulator' is backwards.",
+  "why_ru": "Колпак на вентиль надевают всякий раз, когда баллон перемещают: по OSHA 1926.350(a)(6) перед перемещением снимают регулятор и надевают колпак, полный баллон или пустой. Перед установкой регулятора колпак, наоборот, снимают.",
   "flag": null
  },
  {
@@ -226,8 +226,8 @@
    "Да",
    "Нет"
   ],
-  "why_en": "Argon, CO2 and helium are not poisonous but they push out the oxygen; in a confined space a leak can cause suffocation (SMY2W2 Monday No.15).",
-  "why_ru": "Аргон, CO2 и гелий не ядовиты, но вытесняют кислород; в замкнутом пространстве утечка может привести к удушью (SMY2W2 Monday №15).",
+  "why_en": "Yes. Argon and helium are not poisonous and carbon dioxide is harmful only in high concentrations, but all three push out the oxygen: a leak in a tank, pit or other confined space can cause suffocation, and there is no smell to warn you. Ventilate, check the oxygen level and follow confined-space entry rules.",
+  "why_ru": "Да. Аргон и гелий не ядовиты, CO2 вреден только в высокой концентрации, но все три вытесняют кислород: утечка в ёмкости, приямке или другом замкнутом пространстве может вызвать удушье, а запаха, который бы предупредил, нет. Проветривают, проверяют уровень кислорода и соблюдают правила работы в confined space.",
   "flag": null
  },
  {
@@ -242,8 +242,8 @@
    "#10",
    "#15"
   ],
-  "why_en": "#10 is the usual shade for GMAW (and SMAW) at common currents (Test-90 No.2). #2 and #5 are far too light for an electric arc — they are shades for torch soldering, brazing and gas cutting. For points pick #10 (course key); the construction table (OSHA 1926.102 Table E-1, the same in WAC 296-155-215) lists shade 12 for gas-shielded arc welding on steel and 11 on nonferrous metals.",
-  "why_ru": "#10 — обычный светофильтр для GMAW (и SMAW) при ходовых токах (тест-90 №2). #2 и #5 слишком светлые для дуги — это фильтры для пайки горелкой, brazing и газовой резки. Для балла — #10 (ключ курса); по строительной таблице (OSHA 1926.102 Table E-1, то же в WAC 296-155-215) для gas-shielded arc по стали — 12, по цветным металлам — 11.",
+  "why_en": "#10 is the usual shade for GMAW (and SMAW) at common currents; the higher the number, the darker the lens. #2 and #5 are far too light for an arc (they are soldering, brazing and gas-cutting shades), and #15 is darker than any shade in the OSHA tables, which stop at 14. The OSHA general-industry table (1910.133) sets shade 10 as the minimum for GMAW from 60 to 500 A. The construction tables, OSHA 1926.102 Table E-1 and Washington's WAC 296-155-215 Table C-2 (same numbers), are a guide: they list 12 for gas-shielded arc welding on steel and 11 on nonferrous metals, and a darker shade is always allowed.",
+  "why_ru": "#10 — обычный светофильтр для GMAW (и SMAW) при ходовых токах; чем больше номер, тем темнее стекло. #2 и #5 для дуги слишком светлые (это фильтры для пайки, brazing и газовой резки), а #15 темнее любого номера в таблицах OSHA — они кончаются на 14. В таблице OSHA для промышленности (1910.133) минимум для GMAW при токе от 60 до 500 A — как раз 10. Строительные таблицы — OSHA 1926.102 Table E-1 и в Washington WAC 296-155-215 Table C-2 (цифры те же) — даны как ориентир: для gas-shielded arc по стали в них 12, по цветным металлам 11, а более тёмный фильтр можно всегда.",
   "flag": null
  },
  {
@@ -259,8 +259,8 @@
    "Всё перечисленное.",
    "Ничего из перечисленного."
   ],
-  "why_en": "Shielding gas keeps oxygen and nitrogen away from the molten pool, which prevents porosity and other defects, and the gas mix (CO2, helium) also changes the arc heat and penetration. All of the above (SMY2W2 Monday No.64).",
-  "why_ru": "Защитный газ не пускает кислород и азот к сварочной ванне — это убирает поры и другие дефекты, а состав газа (CO2, гелий) ещё и меняет нагрев дуги и проплавление. Верно всё перечисленное (SMY2W2 Monday №64).",
+  "why_en": "Shielding gas keeps the oxygen and nitrogen in the air away from the molten pool, which prevents porosity and other weld defects, and the gas mix (argon, CO2, helium) also changes how hot the arc runs and how deep it penetrates. So all three are true.",
+  "why_ru": "Защитный газ не пускает кислород и азот воздуха к сварочной ванне — это убирает поры (porosity) и другие дефекты, а состав газа (argon, CO2, helium) ещё и меняет нагрев дуги и проплавление. Значит, верны все три пункта.",
   "flag": "Same as SMY2W2 Monday No.64, but here there is a fifth option 'None of the above.' and d reads 'All of the above.'"
  },
  {
@@ -275,8 +275,8 @@
    "Наклон характеристики (slope)",
    "Ничего из перечисленного."
   ],
-  "why_en": "In GMAW the wire feed speed sets the current (amperage): more wire per second needs more current to melt it. Voltage is set on the machine and controls the arc length (Test-90 No.21, No.35).",
-  "why_ru": "В GMAW скорость подачи проволоки задаёт ток (amperage): чем больше проволоки в секунду, тем больший ток нужен, чтобы её расплавить. Напряжение задают на аппарате, оно управляет длиной дуги (тест-90 №21, №35).",
+  "why_en": "In GMAW the wire feed speed sets the amperage: the more wire per second, the more current the machine must deliver to melt it. Voltage has its own control and sets the arc length; slope is a separate machine adjustment.",
+  "why_ru": "В GMAW скорость подачи проволоки задаёт ток (amperage): чем больше проволоки в секунду, тем больший ток нужен, чтобы её расплавить. Voltage задают своим регулятором, он управляет длиной дуги; slope — отдельная настройка аппарата.",
   "flag": null
  },
  {
@@ -291,8 +291,8 @@
    "AC",
    "DCHF"
   ],
-  "why_en": "GMAW runs almost always on DC electrode positive (reverse polarity), which gives a stable arc and good penetration (Test-90 No.38).",
-  "why_ru": "GMAW почти всегда работает на постоянном токе с электродом на плюсе (DCEP, reverse polarity) — так дуга стабильна и проплавление хорошее (тест-90 №38).",
+  "why_en": "GMAW runs almost always on DC electrode positive (DCEP, reverse polarity): stable arc, smooth metal transfer, good penetration. DCEH and DCHF are not standard terms (DCEH stands where DCEN, straight polarity, would be, and solid MIG wire is not run on DCEN), and AC is not used for standard GMAW.",
+  "why_ru": "GMAW почти всегда работает на постоянном токе с electrode на плюсе (DCEP, reverse polarity): стабильная дуга, ровный перенос металла, хороший провар. DCEH и DCHF — не стандартные обозначения (DCEH стоит на месте DCEN, straight polarity, а сплошную MIG-проволоку на DCEN не варят), AC в обычном GMAW не используют.",
   "flag": "Option b reads 'DCEH' on this low-resolution photo; Test-90 No.38 has 'DCEN' in this place. Kept as read - check against a clearer copy (if it is DCEN, this is a duplicate of Test-90 No.38)."
  },
  {
@@ -307,8 +307,8 @@
    "Solid",
    "Stromberg"
   ],
-  "why_en": "In ER70S-3: E = electrode, R = rod, 70 = 70,000 psi tensile strength, S = solid wire, 3 = the wire's chemistry (deoxidizers).",
-  "why_ru": "В ER70S-3: E — electrode, R — rod, 70 — прочность на разрыв 70 000 psi, S — solid (сплошная проволока), 3 — химический состав (раскислители).",
+  "why_en": "In the AWS A5.18 designation ER70S-3: E = electrode, R = rod (the wire can be used either way), 70 = 70,000 psi minimum tensile strength, S = solid wire, 3 = the wire chemistry (amount of deoxidizers). Some, Strong and Stromberg are not part of any AWS designation.",
+  "why_ru": "В обозначении AWS A5.18 ER70S-3: E — electrode, R — rod (проволоку можно использовать и так, и так), 70 — минимальный tensile strength 70,000 psi, S — solid (сплошная проволока), 3 — химический состав проволоки (количество раскислителей). Some, Strong и Stromberg ни в одно обозначение AWS не входят.",
   "flag": null
  },
  {
@@ -322,8 +322,8 @@
    "Среднее проплавление",
    "Мелкое проплавление"
   ],
-  "why_en": "The course key marks a (Deep penetration) — that is true for GMAW and SMAW on reverse polarity (Test-90 No.42). Technically, for GTAW reverse polarity (DCEP) gives shallow penetration: about two-thirds of the arc heat goes into the tungsten, not the work, and it is DCEN that penetrates deep. The printed 'GTAW' is probably a misprint of GMAW; for points on this test, pick a. Both a and c count here.",
-  "why_ru": "В ключе курса — a (Deep penetration); это верно для GMAW и SMAW на обратной полярности (тест-90 №42). Технически для GTAW reverse polarity (DCEP) даёт мелкое проплавление: около двух третей тепла дуги уходит в вольфрам, а не в деталь, глубоко проплавляет как раз DCEN. «GTAW» в вопросе, скорее всего, опечатка вместо GMAW; для балла на этом тесте ставь a. Здесь засчитываются оба: a и c.",
+  "why_en": "For points pick a: \"reverse polarity gives deep penetration\" is the rule for GMAW and SMAW. Technically c is also correct for GTAW (TIG), because on DCEP about 70% of the arc heat goes into the tungsten electrode and only about 30% into the work, so the weld is wide and shallow; in GTAW it is DCEN that gives deep penetration.",
+  "why_ru": "Для балла — a: «reverse polarity даёт глубокий провар» — правило для GMAW и SMAW. Технически для GTAW (TIG) c тоже верен, потому что на DCEP около 70% тепла дуги уходит в вольфрамовый electrode и только около 30% — в деталь, поэтому шов широкий и мелкий; глубокий провар в GTAW даёт как раз DCEN.",
   "flag": "Answer differs from the instructor's mark: key a (Deep penetration), kept c (Shallow) - correct for GTAW as printed; the key fits GMAW (likely misprint)."
  },
  {
@@ -338,8 +338,8 @@
    "Выпрямляет электродную проволоку.",
    "Ничего из перечисленного."
   ],
-  "why_en": "The contact tip passes the welding current into the wire as it feeds through. The gas comes out of the nozzle around the tip, and the drive rolls feed the wire (Test-90 No.43).",
-  "why_ru": "Через contact tip сварочный ток передаётся на проволоку, пока она проходит сквозь него. Газ выходит из сопла вокруг наконечника, а подают проволоку ролики (тест-90 №43).",
+  "why_en": "The contact tip passes the welding current into the wire as it slides through. The shielding gas comes out of the nozzle around the tip, and the drive rolls feed the wire; straightening is not the tip's job.",
+  "why_ru": "Через contact tip сварочный ток передаётся на проволоку, пока она скользит сквозь него. Shielding gas выходит из nozzle вокруг tip, а подают проволоку drive rolls; выпрямлять её — не работа tip.",
   "flag": null
  },
  {
@@ -353,8 +353,8 @@
    "Нет",
    "N/A"
   ],
-  "why_en": "Outdoors the wind blows the shielding gas away, and long leads or shared power make the voltage swing — that is why GMAW is harder to use in the field.",
-  "why_ru": "На улице ветер сдувает защитный газ, а длинные кабели и общее питание дают скачки напряжения — поэтому GMAW на объекте применять сложнее.",
+  "why_en": "Yes. Outdoors the wind blows the shielding gas away from the arc and the weld gets porosity, and long leads or shared field power make the voltage swing, which changes the arc length. That is why stick (SMAW) is more common for field welding.",
+  "why_ru": "Да. На улице ветер сдувает защитный газ от дуги, и в шве появляются поры (porosity), а длинные кабели и общее питание на объекте дают скачки напряжения, от которых меняется длина дуги. Поэтому на объекте чаще варят stick (SMAW).",
   "flag": null
  },
  {
@@ -369,8 +369,8 @@
    "Регулятором напряжения",
    "Молитвой богам сварки"
   ],
-  "why_en": "GMAW uses a constant-voltage machine, and the arc length is set with the voltage control; the wire feed speed sets the amperage (Test-90 No.35).",
-  "why_ru": "Для GMAW используют аппарат постоянного напряжения, длину дуги задают регулятором напряжения; скорость подачи проволоки задаёт ток (тест-90 №35).",
+  "why_en": "GMAW machines are constant voltage, and the arc length is set with the voltage control: more voltage, longer arc. Wire feed speed sets the amperage, and the flow meter only sets how much gas flows.",
+  "why_ru": "Аппарат GMAW — constant voltage, длину дуги задают регулятором voltage: больше напряжение — длиннее дуга. Скорость подачи проволоки задаёт ток, а расходомер — только расход газа.",
   "flag": "Same as Test-90 No.35 except option d ('Pray to the welding gods' instead of 'High frequency setting')."
  },
  {
@@ -385,8 +385,8 @@
    "Встряхнуть баллон.",
    "Всё перечисленное."
   ],
-  "why_en": "Cracking means opening the valve for a moment to blow out dirt; stand to one side, never in front of the outlet, so the blast does not hit you. Never tip or shake a cylinder (Test-90 No.36).",
-  "why_ru": "Cracking — на секунду приоткрыть вентиль, чтобы выдуть грязь; стоять нужно сбоку, не напротив выхода, чтобы струя не попала в вас. Баллон не наклоняют и не трясут (тест-90 №36).",
+  "why_en": "Cracking means opening the cylinder valve slightly for a moment to blow dirt out before the regulator goes on; OSHA 1926.350(d)(1) says the person cracking it stands to one side of the outlet, not in front of it. The cylinder stays upright and secured — it is never tipped or shaken, so 'All of the above' is wrong.",
+  "why_ru": "Cracking — на мгновение чуть приоткрыть вентиль баллона, чтобы выдуть грязь перед установкой регулятора; по OSHA 1926.350(d)(1) тот, кто это делает, стоит сбоку от выхода, не напротив него. Баллон стоит вертикально и закреплён — его не наклоняют и не трясут, поэтому «всё перечисленное» неверно.",
   "flag": "Same as Test-90 No.36 except one option ('All of the above.' instead of 'Lay it down.')."
  },
  {
@@ -400,8 +400,8 @@
    "Только если slings синтетические",
    "Только если slings из стального троса"
   ],
-  "why_en": "Never: a knot sharply cuts the strength of any sling, and OSHA sling rules (1910.184) forbid knots and makeshift devices to change sling length.",
-  "why_ru": "Никогда: узел резко снижает прочность любого sling, а правила OSHA для slings (1910.184) запрещают менять длину узлами и самодельными приспособлениями.",
+  "why_en": "Never. A knot sharply cuts a sling's strength and cannot be inspected, so OSHA (1926.251, 1910.184) forbids shortening slings with knots, bolts or other makeshift devices, whatever the sling material. Washington's WAC 296-155-33800 and 296-155-33805 also forbid knotting or twisting and allow length changes only by methods the manufacturer or a qualified person approves.",
+  "why_ru": "Никогда. Узел резко снижает прочность sling, и его нельзя нормально осмотреть, поэтому OSHA (1926.251, 1910.184) запрещает укорачивать slings узлами, болтами и самодельными приспособлениями, из какого бы материала ни был sling. В штате Washington WAC 296-155-33800 и 296-155-33805 тоже запрещают узлы и скручивание, а длину меняют только способом, который одобрил производитель или qualified person.",
   "flag": "Printed '?:' at the end. Three options here; the four-option version is SMY2W3 Friday No.10."
  },
  {
@@ -416,8 +416,8 @@
    "сравнить высоту предмета с соседним предметом известной высоты и прикинуть отсюда",
    "сделать масштабный чертёж на месте и оценить по нему"
   ],
-  "why_en": "Measure two sides you can reach — for example the distance along the floor and the slope line to the top — and the height, the third side of the right triangle, follows from a² + b² = c². The other options are estimates, and a plumb line needs you to reach the top.",
-  "why_ru": "Измеряют две доступные стороны — например расстояние по полу и наклонную линию до верха, — а высоту, третью сторону прямоугольного треугольника, находят по a² + b² = c². Остальные варианты — прикидка, а для отвеса нужно добраться до верха.",
+  "why_en": "If two sides of a right triangle can be measured from the ground, the third side, the height, follows from a² + b² = c²: height = √(c² − a²). For example, measure the distance along the ground from the base of the object, and the slanted line from that point to the top with a laser distance meter. A plumb line has to be hung from the top, which is exactly the measurement you cannot make, and comparing with a nearby object or a scale drawing is only an estimate.",
+  "why_ru": "Если две стороны прямоугольного треугольника можно измерить с земли, третья сторона — высота — находится по a² + b² = c²: высота = √(c² − a²). Например, расстояние по земле от основания предмета и наклонная линия от этой точки до верха, измеренная лазерным дальномером. Отвес надо опускать сверху, а туда как раз не добраться; сравнение с соседним предметом и масштабный чертёж — только прикидка.",
   "flag": "Option c printed 'objects height' (no apostrophe) and 'estimate from here'. Same stem as SMY2W3 Friday No.19 with different options."
  },
  {
@@ -432,8 +432,8 @@
    "312 lbs",
    "475 lbs"
   ],
-  "why_en": "Blank 11\" × 9.5\" (3\" + 8\" wide) = 104.5 in²; minus the 3\" × 3\" corner triangle 4.5 in², the R2\" hole π·2² = 12.566 in² and two 1\" squares 2 in² → 85.434 in². 250 pieces: 21358.4 in² ÷ 144 = 148.322 ft² × 3.2 = 474.6 → 475 lbs. 464 lbs is the answer for the other plate (4\" corner, round holes, SMY2W3 Friday No.29).",
-  "why_ru": "Заготовка 11\" × 9.5\" (3\" + 8\") = 104.5 in²; минус угловой треугольник 3\" × 3\" 4.5 in², отверстие R2\" π·2² = 12.566 in² и два квадрата 1\" — 2 in² → 85.434 in². 250 штук: 21358.4 in² ÷ 144 = 148.322 ft² × 3.2 = 474.6 → 475 lbs. 464 lbs — ответ для другой детали (угол 4\", круглые отверстия, SMY2W3 Friday №29).",
+  "why_en": "Blank 11\" × 9.5\" (3\" + 8\" wide) = 104.5 in². Take off the cut-outs: the corner triangle ½ × 3 × 3 = 4.5 in² (135° means a 45° corner cut), the R2\" hole π × 2² = 12.566 in² and two 1\" squares = 2 in² → 85.434 in² per piece. 250 pieces: 21358.4 in² ÷ 144 = 148.322 ft² × 3.2 lb = 474.6 → 475 lbs. Convert to square feet (÷ 144) before multiplying by the weight per square foot.",
+  "why_ru": "Заготовка 11\" × 9.5\" (3\" + 8\" в ширину) = 104.5 in². Минус вырезы: угловой треугольник ½ × 3 × 3 = 4.5 in² (135° — это срез угла под 45°), отверстие R2\" π × 2² = 12.566 in² и два квадрата 1\" = 2 in² → 85.434 in² на деталь. 250 штук: 21358.4 in² ÷ 144 = 148.322 ft² × 3.2 lb = 474.6 → 475 lbs. Сначала перевести в квадратные футы (÷ 144), потом умножать на вес квадратного фута.",
   "flag": null
  },
  {
@@ -447,8 +447,8 @@
    "Осмотреть тормозную систему перед работой.",
    "Поднять груз на несколько дюймов и дать тормозу сработать."
   ],
-  "why_en": "Lift the load a few inches and let the brake take it: if the load holds without creeping, the brake works (ASME B30.16). A visual check cannot prove the brake holds, and a 3-minute hold at maximum load is not the procedure.",
-  "why_ru": "Поднимают груз на несколько дюймов и дают тормозу его принять: если груз держится и не ползёт вниз, тормоз исправен (ASME B30.16). Осмотр не доказывает, что тормоз держит, а 3 минуты под максимальным грузом — не процедура проверки.",
+  "why_en": "Raise the load a few inches and let the brake take it: if the load hangs without drifting down, the brake works — this is the standard check in hoist operating instructions before the lift continues. A visual check cannot prove the brake holds, and a 3-minute hold at maximum load is not the procedure.",
+  "why_ru": "Поднимают груз на несколько дюймов и дают тормозу его принять: если груз висит и не ползёт вниз, тормоз исправен — это стандартная проверка из инструкций к талям перед тем, как продолжать подъём. Осмотр не доказывает, что тормоз держит, а 3 минуты под максимальным грузом — не процедура проверки.",
   "flag": null
  },
  {
@@ -462,8 +462,8 @@
    "натяжение увеличивается",
    "грузоподъёмность sling увеличивается"
   ],
-  "why_en": "Tension in each leg = its share of the load ÷ sin(horizontal angle): the factor is 1.155 at 60°, 1.414 at 45° and 2.000 at 30° — the flatter the sling, the higher the tension.",
-  "why_ru": "Натяжение каждой ветви = её доля груза ÷ sin(горизонтального угла): множитель 1.155 при 60°, 1.414 при 45° и 2.000 при 30° — чем положе sling, тем больше натяжение.",
+  "why_en": "Tension in each leg = its share of the load ÷ sin(horizontal angle). The factor 1 ÷ sin is 1.155 at 60°, 1.414 at 45° and 2.000 at 30°: a 1,000 lb load on two legs puts 577 lb in each leg at 60°, but 1,000 lb in each leg at 30°. The flatter the sling, the higher the tension, and the usable capacity drops, it does not rise.",
+  "why_ru": "Натяжение каждой ветви = её доля груза ÷ sin(горизонтального угла). Множитель 1 ÷ sin равен 1.155 при 60°, 1.414 при 45° и 2.000 при 30°: груз 1,000 lb на двух ветвях даёт по 577 lb в ветви при 60°, но по 1,000 lb при 30°. Чем положе sling, тем больше натяжение, а допустимая нагрузка падает, а не растёт.",
   "flag": null
  },
  {
@@ -477,8 +477,8 @@
    ">60 градусов",
    "90 градусов"
   ],
-  "why_en": "Below 30° the tension multiplier is more than 2 (1 ÷ sin 30°) and rises fast as the angle drops, so sling angles under 30° are not recommended. Angles over 60° and a vertical 90° leg are the efficient ones. In Washington the stricter WAC sling rules apply on the job (e.g. WAC 296-155-33805, 296-155-55805): horizontal sling angles under 30° are prohibited, not just not recommended, unless the sling manufacturer or a qualified person approves.",
-  "why_ru": "Ниже 30° множитель натяжения больше 2 (1 ÷ sin 30°) и быстро растёт дальше, поэтому углы sling меньше 30° не рекомендуются. Углы больше 60° и вертикальная ветвь 90° — самые выгодные. В штате Washington на работе действуют более строгие правила WAC для slings (например, WAC 296-155-33805, 296-155-55805): горизонтальный угол sling меньше 30° запрещён, а не просто не рекомендуется, если его не разрешил производитель sling или qualified person.",
+  "why_en": "Below 30° the tension factor (1 ÷ sin of the angle) is over 2 and climbs fast — 2.924 at 20°, 3.864 at 15° — so OSHA's sling guidance calls angles under 30° not recommended; angles over 60° and a vertical 90° leg are the efficient ones. In Washington the rule is stricter: WAC 296-155-33800 and 296-155-33805 prohibit horizontal sling angles under 30° unless the sling manufacturer or a qualified person recommends it.",
+  "why_ru": "Ниже 30° множитель натяжения (1 ÷ sin угла) больше 2 и быстро растёт — 2.924 при 20°, 3.864 при 15°, — поэтому в руководстве OSHA по slings углы меньше 30° не рекомендуются; выгодны углы больше 60° и вертикальная ветвь 90°. В штате Washington правило строже: WAC 296-155-33800 и 296-155-33805 запрещают горизонтальный угол sling меньше 30°, если это не рекомендовал производитель sling или qualified person.",
   "flag": null
  },
  {
@@ -492,8 +492,8 @@
    "Меньшую грузоподъёмность",
    "Больший контакт с поверхностью груза"
   ],
-  "why_en": "A double wrap goes a full 360° around the load, so more of the sling touches it and grips it — useful for loose bundles and round loads. It does not raise the sling's rated capacity.",
-  "why_ru": "При двойном обхвате sling проходит вокруг груза на все 360°, касается его большей площадью и лучше держит — это нужно для пучков и круглых грузов. Грузоподъёмность sling от этого не растёт.",
+  "why_en": "A double wrap takes the sling a full 360° around the load, so more of the sling touches and grips it — used for loose bundles, pipe and round loads that could slide out. It does not raise the sling's rated capacity.",
+  "why_ru": "При двойном обхвате sling проходит вокруг груза на все 360°, касается его большей площадью и лучше держит — так берут пучки, трубы и круглые грузы, которые могут выскользнуть. Грузоподъёмность sling от этого не растёт.",
   "flag": null
  },
  {
@@ -507,8 +507,8 @@
    "10%",
    "15%"
   ],
-  "why_en": "Stretch means the links have yielded. OSHA's sling rules for shipyards and longshoring (1915.112, 1918.62) remove a chain sling from service when stretch has increased a measured length by more than 5%.",
-  "why_ru": "Растяжение значит, что звенья потекли. По правилам OSHA для slings на верфях и в порту (1915.112, 1918.62) цепной sling выводят из эксплуатации, когда растяжение увеличило измеренную длину больше чем на 5%.",
+  "why_en": "Stretch means the links have yielded from overload. OSHA's sling rules (1915.112, 1918.62) remove a chain sling from service when stretch has increased a measured length by more than 5%. On a Washington construction job, WAC 296-155-33800 removes a chain sling with stretched links or components and gives no percentage allowance.",
+  "why_ru": "Растяжение значит, что звенья потекли от перегрузки. По правилам OSHA для slings (1915.112, 1918.62) цепной sling выводят из эксплуатации, когда растяжение увеличило измеренный участок больше чем на 5%. На стройке в штате Washington WAC 296-155-33800 выводит из эксплуатации цепной sling с растянутыми звеньями или деталями, без всякого допуска в процентах.",
   "flag": null
  },
  {
@@ -522,8 +522,8 @@
    "90 градусов",
    "120 градусов"
   ],
-  "why_en": "Crosby, the shackle maker: two sling legs in the bow of a shackle may be loaded to the full working load limit as long as the included angle between them is 120° or less; over that the shackle must be derated.",
-  "why_ru": "По данным производителя Crosby, две ветви sling в скобе shackle можно нагружать на полную рабочую нагрузку, пока угол между ними не больше 120°; при большем угле грузоподъёмность shackle снижают.",
+  "why_en": "\"Shackle bowl\" in the question means the shackle bow. Crosby, the shackle maker: a bolt-type or screw-pin shackle with two sling legs in the bow, loaded evenly, may be used at its full working load limit up to a 120° included angle, and 120° must never be exceeded. Round-pin shackles must not be used to gather sling legs.",
+  "why_ru": "«Shackle bowl» в вопросе — опечатка, имеется в виду bow (скоба) shackle. По данным производителя Crosby, shackle с болтом (bolt type) или винтовым пальцем (screw pin), в скобе которого две ветви sling нагружены поровну, работает на полную рабочую нагрузку (WLL) при угле между ветвями до 120°, а больше 120° нельзя никогда. Shackle с гладким пальцем (round pin) для сбора ветвей sling не применяют.",
   "flag": null
  },
  {
@@ -537,8 +537,8 @@
    "Имеет защёлку",
    "Рассчитан на нагрузку платформы"
   ],
-  "why_en": "OSHA 1926.1431: hooks used to hoist a personnel platform must be the kind that can be closed and locked, eliminating the throat opening. A plain safety latch or mousing is not enough.",
-  "why_ru": "OSHA 1926.1431: крюки для подъёма платформы с людьми должны закрываться и запираться так, чтобы зев был полностью закрыт. Обычной защёлки или обмотки проволокой недостаточно.",
+  "why_en": "OSHA 1926.1431(g), and the same rule in Washington (WAC 296-155-54900): hooks used to hoist a personnel platform must be a type that can be closed and locked, eliminating the throat opening; the alternative is an alloy anchor shackle with bolt, nut and retaining pin. A plain spring latch can be pushed open, so 'latched' is not enough.",
+  "why_ru": "OSHA 1926.1431(g) и то же правило в штате Washington (WAC 296-155-54900): крюки для подъёма платформы с людьми должны закрываться и запираться так, чтобы зев был полностью закрыт; другой вариант — alloy anchor shackle с болтом, гайкой и шплинтом. Обычную пружинную защёлку можно отжать, поэтому «с защёлкой» недостаточно.",
   "flag": null
  },
  {
@@ -552,8 +552,8 @@
    "1.5 диаметра резьбы",
    "половину диаметра резьбы"
   ],
-  "why_en": "A shoulder eyebolt in a tapped hole needs thread engagement of at least 1.5 times its thread diameter (in steel), so the threads carry the load without stripping. In Washington this is a rule, not only good practice: WAC 296-155-33910 (and 296-155-56110 for crane lifts) requires effective thread of at least 1.5 × the bolt diameter for an eyebolt in a tapped blind hole in steel; OSHA's rigging rule 1926.251 has no such requirement.",
-  "why_ru": "Eyebolt с буртиком в резьбовом отверстии должен входить в резьбу минимум на 1.5 её диаметра (в стали), чтобы резьба держала груз и не сорвалась. В штате Washington это требование правил, а не только хорошая практика: WAC 296-155-33910 (и 296-155-56110 для работ с краном) требует, чтобы eyebolt в глухом резьбовом отверстии в стали входил в резьбу не меньше чем на 1.5 диаметра болта; в федеральном правиле OSHA 1926.251 такого требования нет.",
+  "why_en": "A shoulder eyebolt in a tapped blind hole in steel needs thread engagement of at least 1.5 × the bolt diameter so the threads carry the load without stripping: a 1/2\" eyebolt needs at least 3/4\" of thread in the hole. In Washington this is the law: WAC 296-155-33910 (and 296-155-56110 for crane rigging); the federal rigging rule 1926.251 has no eyebolt requirement, and ASME B30.26 gives the same 1.5 ×.",
+  "why_ru": "Eyebolt с буртиком в глухом резьбовом отверстии в стали должен входить в резьбу минимум на 1.5 диаметра болта, чтобы резьба держала груз и не сорвалась: eyebolt 1/2\" — не меньше 3/4\" резьбы в отверстии. В штате Washington это требование закона: WAC 296-155-33910 (и 296-155-56110 для такелажа кранов); в федеральном правиле OSHA по такелажу 1926.251 такого требования нет, а ASME B30.26 даёт те же 1.5.",
   "flag": null
  },
  {
@@ -567,8 +567,8 @@
    "20 футов",
    "50 футов"
   ],
-  "why_en": "OSHA 1926.1408: when you do not know the voltage, keep every part of the crane and load at least 20 feet from the line; that covers lines up to 350 kV, and over 350 kV the distance becomes 50 feet (1926.1409). 10 feet applies only when the line is known to be 50 kV or less (Table A).",
-  "why_ru": "OSHA 1926.1408: если напряжение неизвестно, все части крана и груз держат не ближе 20 футов от линии; это для линий до 350 kV, а выше 350 kV расстояние — 50 футов (1926.1409). 10 футов — только если точно известно, что линия 50 kV или меньше (Table A).",
+  "why_en": "OSHA 1926.1408, Option 2: when the line's voltage is not known, keep every part of the crane, load line and load at least 20 ft from a line up to 350 kV; over 350 kV it becomes 50 ft (1926.1409). 10 ft applies only when the line is confirmed to be 50 kV or less (Table A). Washington's WAC 296-155-53408 uses the same 20 ft and 50 ft.",
+  "why_ru": "OSHA 1926.1408, Option 2: если напряжение линии неизвестно, все части крана, трос и груз держат не ближе 20 футов от линии до 350 kV; выше 350 kV — 50 футов (1926.1409). 10 футов — только если подтверждено, что линия 50 kV или меньше (Table A). В штате Washington WAC 296-155-53408 даёт те же 20 и 50 футов.",
   "flag": null
  },
  {
@@ -582,8 +582,8 @@
    "Прямо сбоку от груза.",
    "Прямо перед грузом."
   ],
-  "why_en": "When the load first leaves the ground it can swing or slide toward the people facing it, especially if the hook is not exactly over its center of gravity; standing directly in front of the load puts you in that path. Stand clear and control the load with tag lines. Note: the only basis is the instructor's mark on a graded sheet; no standard or course sheet confirms it.",
-  "why_ru": "Когда груз отрывается от земли, он может качнуться или поехать на тех, кто стоит перед ним, особенно если крюк не точно над центром тяжести; стоя прямо перед грузом, вы оказываетесь на этом пути. Отходят в сторону и управляют грузом оттяжками (tag lines). Внимание: основа — только пометка инструктора на проверенном листе; стандарта или листа курса, который это подтверждает, нет.",
+  "why_en": "At lift-off the load can lurch and swing: the boom flexes under the new weight and the hook moves out, and if the hook is not exactly over the center of gravity the load swings toward the point under the hook. Whoever stands directly in front of the load is in that path. Stay out of the path, never between the load and a fixed object, and steer the load with tag lines.",
+  "why_ru": "В момент отрыва груз может дёрнуться и качнуться: стрела прогибается под новым весом и крюк уходит наружу, а если крюк не точно над центром тяжести, груз качается к точке под крюком. Кто стоит прямо перед грузом, оказывается на этом пути. Не стойте на пути груза и никогда — между грузом и неподвижным предметом; управляйте грузом оттяжками (tag lines).",
   "flag": "Answer rests on the graded sheet (not marked wrong); no standard found that ranks these three positions."
  },
  {
@@ -597,8 +597,8 @@
    "Защемление противовесом",
    "Защемление грузом"
   ],
-  "why_en": "As the load is picked up, the boom bends and its tip moves out, so the hanging load shifts and swings; the first hazard is someone being pinched between the load and nearby objects. Counterweight pinch points come from swinging the crane, not from boom deflection. Note: the only basis is the instructor's mark on a graded sheet; no standard or course sheet confirms it.",
-  "why_ru": "Когда груз поднимают, стрела прогибается и её конец уходит вперёд, поэтому висящий груз смещается и качается; первая опасность — зажать человека между грузом и соседними предметами. Защемление противовесом бывает при повороте крана, а не от прогиба стрелы. Внимание: основа — только пометка инструктора на проверенном листе; стандарта или листа курса, который это подтверждает, нет.",
+  "why_en": "When the load comes off the ground the boom bends under it (deflection), the radius grows and the hook moves out, so the load shifts and swings; the first hazard is a person pinched between the load and a nearby object. The longer radius also cuts capacity, but the immediate hazard is the moving load; counterweight pinch points come from rotating the crane, not from boom deflection.",
+  "why_ru": "Когда груз отрывается от земли, стрела прогибается под ним (deflection), вылет растёт и крюк уходит наружу, поэтому груз смещается и качается; первая опасность — зажать человека между грузом и соседним предметом. Больший вылет уменьшает и грузоподъёмность, но немедленная опасность — движущийся груз; защемление противовесом бывает при повороте крана, а не от прогиба стрелы.",
   "flag": null
  },
  {
@@ -612,8 +612,8 @@
    "Стрела поворачивается.",
    "Стрела выдвинута."
   ],
-  "why_en": "When the crane rotates, the counterweight swings around behind it and can crush anyone between it and a wall, truck or other object, which is why OSHA 1926.1424 requires the swing radius to be barricaded.",
-  "why_ru": "Когда кран поворачивается, противовес описывает дугу позади него и может раздавить человека между собой и стеной, машиной или другим предметом; поэтому OSHA 1926.1424 требует ограждать зону поворота.",
+  "why_en": "When the crane rotates, the counterweight at the back of the upper works sweeps around and can crush anyone between it and a wall, truck or other object. OSHA 1926.1424, and in Washington WAC 296-155-53400(41), require training and control lines or barriers marking this swing-radius hazard area.",
+  "why_ru": "Когда кран поворачивается, противовес позади поворотной части описывает дугу и может раздавить человека между собой и стеной, машиной или другим предметом. OSHA 1926.1424, а в штате Washington WAC 296-155-53400(41), требуют обучать людей и ограждать эту зону поворота лентами или барьерами.",
   "flag": null
  },
  {
@@ -627,8 +627,8 @@
    "Касание земли",
    "Опасное вращение груза"
   ],
-  "why_en": "Tag lines let a worker steer the load from a safe distance so it does not spin or swing into people or structures.",
-  "why_ru": "Tag lines позволяют рабочему управлять грузом с безопасного расстояния, чтобы груз не крутился и не врезался в людей или конструкции.",
+  "why_en": "A tag line lets a worker steer the load from a safe distance so it does not spin or swing into people or structures. Washington's crane rule WAC 296-155-53400(62) requires tag or restraint lines whenever rotation or swinging of the load is hazardous; near power lines they must be nonconductive.",
+  "why_ru": "Tag line позволяет рабочему управлять грузом с безопасного расстояния, чтобы груз не крутился и не врезался в людей или конструкции. В штате Washington правило для кранов WAC 296-155-53400(62) требует tag lines или restraint lines всегда, когда вращение или раскачивание груза опасно; рядом с линиями электропередачи они должны быть непроводящими.",
   "flag": null
  },
  {
@@ -641,8 +641,8 @@
    "Да",
    "Нет"
   ],
-  "why_en": "Roofing, flashing and gutters are laid out so gravity carries water down and off: upper pieces lap over lower ones, and every surface slopes toward a drain.",
-  "why_ru": "Кровлю, flashing и gutters раскладывают так, чтобы сила тяжести уводила воду вниз и прочь: верхние детали заходят внахлёст на нижние, и все поверхности имеют уклон к водостоку.",
+  "why_en": "Yes. Roofing, flashing, gutters and downspouts are designed so gravity carries water down and off: upper pieces lap over lower ones, and every surface slopes toward a gutter or drain.",
+  "why_ru": "Да. Кровлю, flashing, gutters и downspouts делают так, чтобы сила тяжести уводила воду вниз и прочь: верхние детали заходят внахлёст на нижние, а все поверхности имеют уклон к gutter или водостоку.",
   "flag": null
  },
  {
@@ -655,8 +655,8 @@
    "Да",
    "Нет"
   ],
-  "why_en": "The opposite: the steeper the roof, the faster water runs off. Low-slope roofs drain slowly, so they need tighter, sealed seams.",
-  "why_ru": "Наоборот: чем круче кровля, тем быстрее стекает вода. Пологие кровли отводят воду медленно, поэтому им нужны более плотные, герметичные швы.",
+  "why_en": "No, the opposite. The steeper the slope, the faster water runs off; on a low slope water moves slowly and can stand, so low-slope roofs need tighter, sealed seams.",
+  "why_ru": "Нет, наоборот. Чем круче уклон, тем быстрее стекает вода; на пологой кровле вода движется медленно и может стоять, поэтому там нужны более плотные, герметичные швы.",
   "flag": null
  },
  {
@@ -669,8 +669,8 @@
    "Да",
    "Нет"
   ],
-  "why_en": "Seams are lapped with the flow: the upper piece overlaps the lower one (shingle style), so water runs over the lap instead of into it.",
-  "why_ru": "Нахлёст делают по направлению потока: верхняя деталь накрывает нижнюю (как черепица), чтобы вода перетекала через нахлёст, а не затекала в него.",
+  "why_en": "No. Seams are lapped with the flow: the upper (upstream) piece goes over the lower one, shingle style, so water runs across the lap. Lapped against the flow, the exposed edge faces the water and it runs straight into the seam.",
+  "why_ru": "Нет. Нахлёст делают по направлению потока: верхняя деталь ложится на нижнюю, как черепица, и вода перетекает через нахлёст. Если сделать против потока, открытая кромка смотрит навстречу воде, и вода затекает прямо в шов.",
   "flag": null
  },
  {
@@ -683,8 +683,8 @@
    "Да",
    "Нет"
   ],
-  "why_en": "Water usually runs downhill, but capillary action, wind and pressure differences can move it sideways and even uphill into laps and seams — that is why the answer is No.",
-  "why_ru": "Обычно вода течёт вниз, но капиллярный эффект, ветер и разница давлений могут гнать её вбок и даже вверх в нахлёсты и швы — поэтому ответ No.",
+  "why_en": "No. Gravity pulls water down, but capillary action, wind, adhesion and pressure differences can move it sideways and even uphill into laps and seams. That is why architectural work needs laps, hems and drip edges, not just slope.",
+  "why_ru": "Нет. Сила тяжести тянет воду вниз, но капиллярный эффект, ветер, адгезия и разница давлений могут гнать её вбок и даже вверх в нахлёсты и швы. Поэтому в architectural работе кроме уклона нужны нахлёсты, подгибы (hem) и drip edge.",
   "flag": null
  },
  {
@@ -697,8 +697,8 @@
    "Да",
    "Нет"
   ],
-  "why_en": "Starting at the bottom lets every higher piece lap over the one below it, like shingles, so water always runs over the joints.",
-  "why_ru": "Если начинать снизу, каждая следующая деталь ложится внахлёст на нижнюю, как черепица, и вода всегда стекает поверх стыков.",
+  "why_en": "Yes. Starting at the bottom lets every higher piece lap over the one below it, like shingles, so water always runs over the joints, never into them.",
+  "why_ru": "Да. Если начинать снизу, каждая следующая деталь ложится внахлёст на нижнюю, как черепица, и вода всегда стекает поверх стыков, а не в них.",
   "flag": null
  },
  {
@@ -711,8 +711,8 @@
    "Да",
    "Нет"
   ],
-  "why_en": "Capillary action pulls water into narrow gaps such as laps and seams and can lift it above the water level; laps need a capillary break or sealant to stop it.",
-  "why_ru": "Капиллярный эффект втягивает воду в узкие щели — нахлёсты, швы — и может поднять её выше уровня воды; чтобы это остановить, в нахлёсте делают capillary break или ставят герметик.",
+  "why_en": "Yes. Capillary action pulls water into narrow gaps such as laps and seams and can lift it above the level of the water outside. A lap needs a capillary break (an open hem or a gap too wide for water to bridge) or sealant.",
+  "why_ru": "Да. Капиллярный эффект втягивает воду в узкие щели — нахлёсты, швы — и может поднять её выше уровня воды снаружи. Поэтому в нахлёсте делают capillary break (открытый подгиб или зазор, который вода не перекроет) или ставят герметик.",
   "flag": null
  },
  {
@@ -725,8 +725,8 @@
    "Да",
    "Нет"
   ],
-  "why_en": "Wind pressure can push water up a slope and into laps and seams, so exposed seams need longer laps or sealing.",
-  "why_ru": "Давление ветра может загнать воду вверх по уклону в нахлёсты и швы, поэтому открытым швам нужен больший нахлёст или герметизация.",
+  "why_en": "Yes. Wind pressure can push water up a slope and into laps and seams; that is why exposed seams get longer laps, cleats or sealant.",
+  "why_ru": "Да. Давление ветра может загнать воду вверх по уклону в нахлёсты и швы; поэтому на открытых местах делают больший нахлёст, ставят cleats или герметик.",
   "flag": null
  },
  {
@@ -739,8 +739,8 @@
    "Да",
    "Нет"
   ],
-  "why_en": "That describes through-wall flashing, which sits inside the wall and carries water out. Counterflashing is on the outside: it covers the top edge of the base flashing so water cannot run behind it.",
-  "why_ru": "Так описан through-wall flashing — он стоит внутри стены и выводит воду наружу. Counterflashing — снаружи: он накрывает верхний край base flashing, чтобы вода не затекала за него.",
+  "why_en": "No. That describes through-wall flashing, which is built into the wall and carries water that gets behind the face out to the exterior. Counterflashing (cap flashing) is on the outside: it covers the top edge of the base flashing so water cannot run behind it.",
+  "why_ru": "Нет. Так описан through-wall flashing: его закладывают внутрь стены, и он выводит наружу воду, попавшую за облицовку. Counterflashing (cap flashing) стоит снаружи: он накрывает верхний край base flashing, чтобы вода не затекала за него.",
   "flag": null
  },
  {
@@ -753,8 +753,8 @@
    "Да",
    "Нет"
   ],
-  "why_en": "Moisture is pushed from the side of higher pressure to the side of lower pressure; the statement has it backwards.",
-  "why_ru": "Влагу выдавливает со стороны высокого давления на сторону низкого; в утверждении наоборот.",
+  "why_en": "No, it is backwards. Moisture is pushed from the higher-pressure side to the lower-pressure side, the way wind pressing on a wall drives rain toward the lower-pressure inside.",
+  "why_ru": "Нет, в утверждении наоборот. Влагу выдавливает со стороны высокого давления на сторону низкого; так ветер, давящий на стену, гонит дождь внутрь, где давление ниже.",
   "flag": null
  },
  {
@@ -767,8 +767,8 @@
    "Да",
    "Нет"
   ],
-  "why_en": "Vapor pressure rises with temperature — warm air holds much more water vapor — and that is what drives vapor from warm areas to cold ones.",
-  "why_ru": "Давление пара растёт с температурой — тёплый воздух держит намного больше водяного пара, — и именно это гонит пар из тёплой зоны в холодную.",
+  "why_en": "No. Vapor pressure rises with temperature: saturated air at 70°F has about 4 times the vapor pressure of saturated air at 32°F. That difference is what drives vapor from warm areas toward cold ones.",
+  "why_ru": "Нет. Давление пара растёт с температурой: у насыщенного воздуха при 70°F оно примерно в 4 раза выше, чем при 32°F. Именно эта разница гонит пар из тёплой зоны в холодную.",
   "flag": null
  },
  {
@@ -781,8 +781,8 @@
    "Да",
    "Нет"
   ],
-  "why_en": "The perm rating measures how much water vapor passes through a material; a material under 1.0 perm counts as a vapor retarder (building codes: Class II is 0.1–1.0 perm, Class I is 0.1 perm or less).",
-  "why_ru": "Perm показывает, сколько водяного пара проходит через материал; материал меньше 1.0 perm считается vapor retarder (по нормам: Class II — 0.1–1.0 perm, Class I — 0.1 perm и меньше).",
+  "why_en": "Yes. Perm measures how much water vapor diffuses through a material (1 perm = 1 grain of vapor per hour, per sq ft, per inch of mercury of pressure difference), and the classic definition of a vapor retarder is 1.0 perm or less. Codes split this into Class I, 0.1 perm or less (polyethylene, foil), and Class II, above 0.1 up to 1.0 (kraft facing on batts). Codes also name a weaker Class III (above 1.0 up to 10 perm, such as latex paint), but the test uses the classic definition.",
+  "why_ru": "Да. Perm показывает, сколько водяного пара проходит через материал диффузией (1 perm = 1 grain пара в час на 1 sq ft при разнице давлений в 1 дюйм ртутного столба), и классическое определение vapor retarder — 1.0 perm и меньше. Нормы делят их на Class I — 0.1 perm и меньше (полиэтилен, фольга) и Class II — от 0.1 до 1.0 (крафт-бумага на утеплителе). Есть ещё более слабый Class III (от 1.0 до 10 perm, например латексная краска), но тест исходит из классического определения.",
   "flag": null
  },
  {
@@ -795,8 +795,8 @@
    "Да",
    "Нет"
   ],
-  "why_en": "Every joint or seam is a possible leak path, so fewer joints mean fewer places for water to get in.",
-  "why_ru": "Каждый стык или шов — возможный путь для воды, поэтому чем меньше стыков, тем меньше мест для протечки.",
+  "why_en": "Yes. Every joint or seam is a possible leak path, so fewer joints (longer panels, fewer penetrations) mean fewer places for water to get in.",
+  "why_ru": "Да. Каждый стык или шов — возможный путь для воды, поэтому чем меньше стыков (длиннее панели, меньше проходок), тем меньше мест для протечки.",
   "flag": null
  },
  {
@@ -809,8 +809,8 @@
    "Да",
    "Нет"
   ],
-  "why_en": "Most leaks start at transitions and penetrations — walls, curbs, valleys, pipes — where flashing is missing or installed wrong, not in the open field of the roof.",
-  "why_ru": "Большинство протечек начинается на примыканиях и проходках — стены, бортики, ендовы, трубы, — где flashing нет или он поставлен неправильно, а не на ровной части кровли.",
+  "why_en": "Yes. Most leaks start where the roof meets something else — walls, curbs, chimneys, valleys, pipe penetrations — and those spots are sealed by flashing. Where flashing is missing or installed wrong, that is where water gets in, not in the open field of the roof.",
+  "why_ru": "Да. Большинство протечек начинается там, где кровля примыкает к чему-то ещё — стены, curbs, дымоходы, valleys, проходки труб, — а эти места закрывает flashing. Если flashing нет или он поставлен неправильно, вода заходит именно там, а не на ровной части кровли.",
   "flag": null
  },
  {
@@ -826,8 +826,8 @@
    "всё перечисленное",
    "ничего из перечисленного"
   ],
-  "why_en": "Water corrodes metal, breaks materials down chemically, and makes wood and other materials swell, warp and shrink — all of these.",
-  "why_ru": "Вода вызывает коррозию металла, химически разрушает материалы, а дерево и другие материалы от неё разбухают, коробятся и дают усадку — верно всё.",
+  "why_en": "All of the above. Water corrodes metal, breaks materials down chemically (mortar, sealants, finishes), and makes wood and other porous materials swell, warp and shrink.",
+  "why_ru": "Всё перечисленное. Вода вызывает коррозию металла, химически разрушает материалы (раствор, герметики, покрытия), а дерево и другие пористые материалы от неё разбухают, коробятся и дают усадку.",
   "flag": null
  },
  {
@@ -843,8 +843,8 @@
    "всё перечисленное",
    "ничего из перечисленного"
   ],
-  "why_en": "A leak needs all three at once: water, an opening, and a force to move the water through it (gravity, capillary action, wind, pressure). Take away any one and there is no leak.",
-  "why_ru": "Для протечки нужны все три сразу: вода, отверстие и сила, которая протолкнёт воду (сила тяжести, капиллярный эффект, ветер, давление). Убери любое — протечки не будет.",
+  "why_en": "All of the above. A leak needs all three at once: water, an opening, and a force to move the water through it (gravity, capillary action, adhesion, wind, pressure difference). Take away any one and there is no leak — that is the idea behind every flashing detail.",
+  "why_ru": "Всё перечисленное. Для протечки нужны все три сразу: вода, отверстие и сила, которая протолкнёт воду (сила тяжести, капиллярный эффект, адгезия, ветер, разница давлений). Убери любое одно — протечки не будет; на этом построена любая деталь flashing.",
   "flag": null
  },
  {
@@ -860,8 +860,8 @@
    "всё перечисленное",
    "ничего из перечисленного"
   ],
-  "why_en": "Valley flashing lines the valley where two roof slopes meet and carries the water off the roof. Roofing felt is an underlayment, and a capillary break only stops water wicking into a joint.",
-  "why_ru": "Valley flashing выстилает ендову — место, где сходятся два ската, — и уводит воду с кровли. Roofing felt — подкладочный слой, а capillary break только не даёт воде затягиваться в шов.",
+  "why_en": "Valley flashing lines the valley where two roof slopes meet and channels the water down and off the roof. Roofing felt is an underlayment under the roofing, and a capillary break only stops water wicking into a joint, so 'all of the above' is wrong.",
+  "why_ru": "Valley flashing выстилает ендову — место, где сходятся два ската, — и уводит по ней воду вниз, с кровли. Roofing felt — подкладочный слой под кровлей, а capillary break только не даёт воде затягиваться в шов, поэтому «всё перечисленное» неверно.",
   "flag": null
  },
  {
@@ -877,8 +877,8 @@
    "ветер",
    "разница давлений"
   ],
-  "why_en": "Adhesion makes water cling to the underside of a metal edge and run along it sideways, back toward the wall; a drip edge or hem breaks that path.",
-  "why_ru": "Из-за адгезии вода прилипает к нижней стороне металлической кромки и бежит вдоль неё вбок, обратно к стене; drip edge или подгиб (hem) прерывают этот путь.",
+  "why_en": "Adhesion: water clings to the underside of a metal edge and runs along it sideways, back toward the wall. A drip edge or hem breaks that path so the water drops free. The trap is capillary action, which draws water into a narrow gap between two surfaces, not along a single edge.",
+  "why_ru": "Адгезия: вода прилипает к нижней стороне металлической кромки и бежит вдоль неё вбок, обратно к стене. Drip edge или подгиб (hem) прерывают этот путь, и вода срывается вниз. Ловушка — капиллярный эффект: он втягивает воду в узкую щель между двумя поверхностями, а не ведёт вдоль одной кромки.",
   "flag": null
  },
  {
@@ -894,8 +894,8 @@
    "ветер",
    "разница давлений"
   ],
-  "why_en": "Capillary action draws water into a narrow gap between two closely spaced surfaces, even upward against gravity.",
-  "why_ru": "Капиллярный эффект втягивает воду в узкую щель между двумя близкими поверхностями, даже вверх против силы тяжести.",
+  "why_en": "Capillary action draws water into a narrow gap between two closely spaced surfaces, even upward against gravity; the narrower the gap, the higher it climbs. The trap is adhesion, which moves water along a single surface or edge.",
+  "why_ru": "Капиллярный эффект втягивает воду в узкую щель между двумя близкими поверхностями, даже вверх против силы тяжести; чем уже щель, тем выше поднимается вода. Ловушка — адгезия: она ведёт воду вдоль одной поверхности или кромки.",
   "flag": null
  },
  {
@@ -910,8 +910,8 @@
    "вниз через кровлю",
    "в случайных направлениях"
   ],
-  "why_en": "Vapor moves from warm, moist air toward cold, dry air; in winter that means from the heated, humid inside to the cold outside, which is why the vapor retarder goes on the warm (inside) side.",
-  "why_ru": "Пар идёт из тёплого влажного воздуха к холодному сухому; зимой это значит из отапливаемого влажного помещения наружу, поэтому vapor retarder ставят с тёплой (внутренней) стороны.",
+  "why_en": "Vapor moves from warm, humid air toward cold, dry air (from higher vapor pressure to lower). In a cold climate the heated, humid inside is the warm side, so vapor moves outward, and the vapor retarder goes on the warm (inside) face of the insulation.",
+  "why_ru": "Пар идёт из тёплого влажного воздуха к холодному сухому (от высокого давления пара к низкому). В холодном климате тёплая и влажная сторона — отапливаемое помещение, поэтому пар движется наружу, а vapor retarder ставят с тёплой (внутренней) стороны утеплителя.",
   "flag": null
  },
  {
@@ -921,8 +921,8 @@
   "ru_q": "Для чего нужен drip edge?",
   "ru_hint": null,
   "ru_opts": null,
-  "why_en": "A drip edge is bent out and down at the edge of a roof, coping or sill so water drips off clear of the wall instead of running back along the underside (adhesion) and down the wall. Instructor's wording: 'Allows water to drip free of a wall.'",
-  "why_ru": "Drip edge отогнут наружу и вниз на краю кровли, парапета или отлива, чтобы вода капала мимо стены, а не затекала по нижней стороне (адгезия) и не бежала по стене. Формулировка инструктора: «Allows water to drip free of a wall».",
+  "why_en": "Answer: it lets water drip free of the wall. A drip edge is bent out and down at the edge of a roof, coping or sill, so water falls clear instead of creeping along the underside of the edge and running down the wall.",
+  "why_ru": "Ответ: чтобы вода капала мимо стены (allows water to drip free of a wall). Drip edge отогнут наружу и вниз на краю кровли, coping или отлива, поэтому вода падает в сторону, а не ползёт по нижней стороне кромки и не стекает по стене.",
   "flag": "Open question on the test; made a typed answer (accepted words: drip / shed / away / free of / clear of). The English answer check cannot read Russian input."
  },
  {
@@ -935,8 +935,8 @@
    "Вторая",
    "Первая"
   ],
-  "why_en": "The roofing or metal on top is the first line of defense; the underlayment beneath it is the second line, catching water that gets past.",
-  "why_ru": "Кровельное покрытие или металл сверху — первая линия защиты; подкладочный слой под ним — вторая, он ловит воду, которая прошла через первую.",
+  "why_en": "Second. The roofing or metal on top is the first line of defense and sheds most of the water; the underlayment beneath it (roofing felt, ice and water shield) is the second line, catching water that gets past, such as wind-driven rain or ice-dam backup.",
+  "why_ru": "Вторая. Кровельное покрытие или металл сверху — первая линия защиты, оно сбрасывает основную воду; подкладочный слой под ним (roofing felt, ice and water shield) — вторая линия, он ловит воду, прошедшую через первую: дождь под ветром или подпор от ледяного затора (ice dam).",
   "flag": null
  },
  {
@@ -949,8 +949,8 @@
    "Ниже",
    "Выше"
   ],
-  "why_en": "The front edge is set lower, so if the gutter overflows the water spills out the front, away from the building, not behind the gutter into the fascia and wall.",
-  "why_ru": "Передний край делают ниже, чтобы при переполнении вода переливалась вперёд, от здания, а не за gutter на fascia и стену.",
+  "why_en": "Lower. The front edge is set lower than the back (common rule: at least 1\" lower), so when the gutter overflows the water spills out the front, away from the building, not behind the gutter into the fascia and wall.",
+  "why_ru": "Ниже. Передний край ставят ниже заднего (обычное правило — минимум на 1\"), чтобы при переполнении вода переливалась вперёд, от здания, а не за gutter на fascia и стену.",
   "flag": null
  },
  {
@@ -981,8 +981,8 @@
    "расширение: 1-1/2\"",
    "расширение: 1-3/4\""
   ],
-  "why_en": "25% of 1\" = 0.25\". Compressed: 1 − 0.25 = 0.75\" = 3/4\"; expanded: 1 + 0.25 = 1.25\" = 1-1/4\".",
-  "why_ru": "25% от 1\" = 0.25\". Сжатие: 1 − 0.25 = 0.75\" = 3/4\"; расширение: 1 + 0.25 = 1.25\" = 1-1/4\".",
+  "why_en": "25% of 1\" = 0.25\". Compressed: 1 − 0.25 = 0.75\" = 3/4\"; expanded: 1 + 0.25 = 1.25\" = 1-1/4\". Traps: 1/4\" is the movement itself, not the joint width after compression; 1/2\" and 1-1/2\" would be 50% movement.",
+  "why_ru": "25% от 1\" = 0.25\". Сжатие: 1 − 0.25 = 0.75\" = 3/4\"; расширение: 1 + 0.25 = 1.25\" = 1-1/4\". Ловушки: 1/4\" — это сама подвижность, а не ширина шва после сжатия; 1/2\" и 1-1/2\" соответствуют 50%.",
   "flag": null
  },
  {
@@ -997,8 +997,8 @@
    "splash block",
    "conductor pipe"
   ],
-  "why_en": "A conductor head (leader head) is the box on the wall that catches water from the scupper and feeds it into the downspout. The conductor pipe is the downspout itself; a splash block sits at its bottom.",
-  "why_ru": "Conductor head (leader head) — коробка на стене, которая принимает воду из scupper и направляет её в downspout. Conductor pipe — это сама водосточная труба, splash block лежит под её низом.",
+  "why_en": "A conductor head (leader head) is the box on the wall that catches water from the scupper and feeds it into the downspout. The conductor pipe is the downspout itself, a splash block lies on the ground under its outlet, and valley flashing is on the roof.",
+  "why_ru": "Conductor head (leader head) — коробка на стене, которая принимает воду из scupper и направляет её в downspout. Conductor pipe — это сама водосточная труба, splash block лежит на земле под её выходом, а valley flashing — на кровле.",
   "flag": null
  },
  {
@@ -1013,8 +1013,8 @@
    "15 градусов",
    "7.5 градуса"
   ],
-  "why_en": "Both pieces are cut on the bisector of the 105° corner. Measured from a square cut, the miter is (180° − 105°) ÷ 2 = 37.5°. 75° is the whole turn, not half of it.",
-  "why_ru": "Обе детали режут по биссектрисе угла 105°. От прямого реза miter = (180° − 105°) ÷ 2 = 37.5°. 75° — весь поворот, а не его половина.",
+  "why_en": "A miter splits the turn in half between the two pieces. The coping turns 180° − 105° = 75° from straight, so each piece is cut at 75 ÷ 2 = 37.5° from a square cut (the same as 90° − 105° ÷ 2 = 37.5°). Traps: 75° is the whole turn, 15° = 105 − 90, and 7.5° is half of 15.",
+  "why_ru": "Miter делит поворот пополам между двумя деталями. Coping поворачивает на 180° − 105° = 75° от прямой, поэтому каждую деталь режут на 75 ÷ 2 = 37.5° от прямого реза (то же самое: 90° − 105° ÷ 2 = 37.5°). Ловушки: 75° — весь поворот, 15° = 105 − 90, 7.5° — половина от 15.",
   "flag": null
  },
  {
@@ -1029,8 +1029,8 @@
    "чтобы две части здания или металлического изделия расширялись независимо.",
    "чтобы увеличить колпак из листа."
   ],
-  "why_en": "An expansion joint lets two parts of a building, or a long run of metal such as a gutter or coping, move separately as they expand and contract with temperature.",
-  "why_ru": "Expansion joint позволяет двум частям здания или длинному металлическому элементу — gutter, coping — двигаться независимо, когда они расширяются и сжимаются от температуры.",
+  "why_en": "An expansion joint is a break built into a building or into a long run of metal (gutter, coping, flashing) so the two parts can expand and contract with temperature separately, without buckling or tearing. It is not used to lengthen short flashing or as a backing plate for a seam.",
+  "why_ru": "Expansion joint — разрыв в здании или в длинном металлическом элементе (gutter, coping, flashing), чтобы две части могли независимо расширяться и сжиматься от температуры, не коробясь и не разрываясь. Удлинять короткий flashing или подкладывать под шов его не используют.",
   "flag": null
  },
  {
@@ -1049,8 +1049,8 @@
    "G",
    "H"
   ],
-  "why_en": "On this sheet the bend cleat is profile D: a flange bent over at the top for fastening, a straight leg, and the bottom edge kicked out to hook the panel. Note: the only basis is the instructor's mark on a graded sheet; no standard or course sheet confirms it.",
-  "why_ru": "На этом листе bend cleat — профиль D: сверху отогнутая полка для крепления, прямая стенка и отогнутый наружу нижний край, за который цепляется панель. Внимание: основа — только пометка инструктора на проверенном листе; стандарта или листа курса, который это подтверждает, нет.",
+  "why_en": "D: a hook strip with a flange bent over at the top (it is fastened through that flange) and the bottom edge kicked out the other way to catch the hemmed edge of the panel. H looks almost the same, but its top flange is bent to the same side as the kicked-out edge; A has the top flange but no kicked-out edge, so the panel has nothing to hook onto, and E ends in a hook turned back up.",
+  "why_ru": "D: hook strip с полкой, отогнутой сверху (через неё крепят), и нижним краем, отогнутым наружу в другую сторону, — за него цепляется подогнутая кромка (hem) панели. H почти такая же, но полка у неё отогнута в ту же сторону, что и нижний край; у A полка сверху есть, но нижний край не отогнут — панели не за что зацепиться, а у E внизу крючок, загнутый вверх.",
   "flag": "Answer taken from the instructor's red mark on the graded sheet; no course sheet with these hook-strip profiles was found to check it independently."
  },
  {
@@ -1069,8 +1069,8 @@
    "G",
    "H"
   ],
-  "why_en": "On this sheet the continuous cleat is profile F: a straight strip fastened along its length with only the bottom edge kicked out to hook the panel. Note: the only basis is the instructor's mark on a graded sheet; no standard or course sheet confirms it.",
-  "why_ru": "На этом листе continuous cleat — профиль F: прямая полоса, которую крепят по всей длине, и только нижний край отогнут наружу, чтобы зацепить панель. Внимание: основа — только пометка инструктора на проверенном листе; стандарта или листа курса, который это подтверждает, нет.",
+  "why_en": "F: a plain flat strip fastened along its whole length, with only the bottom edge kicked out to catch the hemmed edge of the panel; there is no bend at the top. H has a flange bent over at the top, so it is not a plain strip.",
+  "why_ru": "F: простая ровная полоса, которую крепят по всей длине; наружу отогнут только нижний край, за него цепляется hem панели, а сверху гиба нет. У H сверху отогнута полка, значит, это уже не простая полоса.",
   "flag": "Answer taken from the instructor's red mark on the graded sheet; no course sheet with these hook-strip profiles was found to check it independently."
  },
  {
@@ -1089,8 +1089,8 @@
    "G",
    "H"
   ],
-  "why_en": "On this sheet the J-hook cleat is profile B: a straight leg with a short hook bent at the top and the bottom edge kicked out. Note: the only basis is the instructor's mark on a graded sheet; no standard or course sheet confirms it.",
-  "why_ru": "На этом листе J-hook cleat — профиль B: прямая стенка с коротким загибом сверху и отогнутым нижним краем. Внимание: основа — только пометка инструктора на проверенном листе; стандарта или листа курса, который это подтверждает, нет.",
+  "why_en": "B: a straight strip with a short return bent at the top and the bottom edge kicked out, so it hooks at both ends. F has no bend at the top, and G ends in a hook turned back up instead of a kicked-out edge.",
+  "why_ru": "B: прямая полоса с коротким загибом сверху и отогнутым наружу нижним краем — зацепы на обоих концах. У F сверху гиба нет, а у G внизу не отогнутый край, а крючок, загнутый вверх.",
   "flag": "Answer taken from the instructor's red mark on the graded sheet; no course sheet with these hook-strip profiles was found to check it independently."
  },
  {
@@ -1105,8 +1105,8 @@
    "66.87 градуса",
    "21.11 градуса"
   ],
-  "why_en": "Outside 3'-2\" = 38\", inside 2' 11-7/16\" = 35.4375\", so the miter runs 38 − 35.4375 = 2.5625\" across the 6\" width: A = atan(2.5625 ÷ 6) = 23.13°. 66.87° is the other angle, measured from the edge.",
-  "why_ru": "Снаружи 3'-2\" = 38\", внутри 2' 11-7/16\" = 35.4375\", значит miter проходит 2.5625\" на ширине 6\": A = atan(2.5625 ÷ 6) = 23.13°. 66.87° — другой угол, от кромки.",
+  "why_en": "Outside edge 3'-2\" = 38\", inside edge 2'-11 7/16\" = 35.4375\", so across the 6\" width the miter line runs 38 − 35.4375 = 2.5625\". A is measured from the square line: tan A = 2.5625 ÷ 6, A = 23.13°. Trap: 66.87° = 90 − 23.13 is the same line measured from the long edge.",
+  "why_ru": "Снаружи 3'-2\" = 38\", внутри 2'-11 7/16\" = 35.4375\", значит, на ширине 6\" линия miter уходит на 38 − 35.4375 = 2.5625\". Угол A отсчитывается от прямой поперечной линии: tan A = 2.5625 ÷ 6, A = 23.13°. Ловушка: 66.87° = 90 − 23.13 — та же линия, но угол от длинной кромки.",
   "flag": "'angel' is printed so (typo for 'angle')."
  },
  {
@@ -1121,8 +1121,8 @@
    "39.82 градуса",
    "37.46 градуса"
   ],
-  "why_en": "The valley joins the 5/12 main roof and the 8/12 wing, whose slopes fall at right angles to each other in plan. The brake angle is the angle between the two roof planes' normals: cos A = 1 ÷ (√(1 + (5/12)²) · √(1 + (8/12)²)) = 0.7680, A = 39.82°. Adding the two pitch angles (22.62° + 33.69°) works only at a ridge.",
-  "why_ru": "Ендова соединяет основной скат 5/12 и скат пристройки 8/12, которые в плане падают под прямым углом друг к другу. Угол гиба — угол между нормалями двух скатов: cos A = 1 ÷ (√(1 + (5/12)²) · √(1 + (8/12)²)) = 0.7680, A = 39.82°. Сумма углов уклонов (22.62° + 33.69°) годится только для конька.",
+  "why_en": "At a valley (and a hip) the two roof planes meet at 90° in plan, so brake angle = arccos(cos α × cos β), where α and β are the pitch angles. 5/12: α = atan(5 ÷ 12) = 22.62°, cos = 0.9231; 8/12: β = atan(8 ÷ 12) = 33.69°, cos = 0.8321; 0.9231 × 0.8321 = 0.7680 → arccos = 39.82°. Trap: adding the two pitch angles (22.62 + 33.69 = 56.31°) is the ridge method and does not work at a valley.",
+  "why_ru": "У valley (и у hip) скаты сходятся в plan под 90°, поэтому brake angle = arccos(cos α × cos β), где α и β — углы уклонов. 5/12: α = atan(5 ÷ 12) = 22.62°, cos = 0.9231; 8/12: β = atan(8 ÷ 12) = 33.69°, cos = 0.8321; 0.9231 × 0.8321 = 0.7680 → arccos = 39.82°. Ловушка: сложить углы уклонов (22.62 + 33.69 = 56.31°) — это способ для ridge, для valley он не работает.",
   "flag": null
  },
  {
@@ -1137,8 +1137,8 @@
    "39.82 градуса",
    "49.25 градуса"
   ],
-  "why_en": "The hip joins a 5/12 side and the 12/12 end, whose slopes fall at right angles to each other in plan: cos A = 1 ÷ (√(1 + (5/12)²) · √(1 + 1²)) = 0.6527, A = 49.25°.",
-  "why_ru": "Hip соединяет боковой скат 5/12 и торцевой 12/12, которые в плане падают под прямым углом друг к другу: cos A = 1 ÷ (√(1 + (5/12)²) · √(1 + 1²)) = 0.6527, A = 49.25°.",
+  "why_en": "A hip uses the same rule as a valley, because the two planes meet at 90° in plan: brake angle = arccos(cos α × cos β). 5/12: cos 22.62° = 0.9231; 12/12: cos 45° = 0.7071; 0.9231 × 0.7071 = 0.6527 → 49.25°. Trap: 39.82° is the valley between 5/12 and 8/12, not this hip.",
+  "why_ru": "Hip считают так же, как valley, потому что скаты сходятся в plan под 90°: brake angle = arccos(cos α × cos β). 5/12: cos 22.62° = 0.9231; 12/12: cos 45° = 0.7071; 0.9231 × 0.7071 = 0.6527 → 49.25°. Ловушка: 39.82° — это valley между 5/12 и 8/12, а не этот hip.",
   "flag": null
  },
  {
@@ -1153,8 +1153,8 @@
    "73.74 градуса",
    "64.23 градуса"
   ],
-  "why_en": "At the ridge both 9/12 slopes fall away square to the ridge line, so the bend is the sum of the two pitch angles: 2 × atan(9/12) = 2 × 36.87° = 73.74° (by normals: cos A = (1 − 0.75²) ÷ (1 + 0.75²) = 0.28). 50.21° is the valley/hip formula wrongly used at a ridge.",
-  "why_ru": "У конька оба ската 9/12 падают перпендикулярно коньку, поэтому гиб равен сумме двух углов уклона: 2 × atan(9/12) = 2 × 36.87° = 73.74° (по нормалям: cos A = (1 − 0.75²) ÷ (1 + 0.75²) = 0.28). 50.21° — формула ендовы/hip, ошибочно применённая к коньку.",
+  "why_en": "At a ridge both 9/12 slopes fall away square to the ridge line, so the bend from flat is the two pitch angles added: atan(9 ÷ 12) = 36.87°, 2 × 36.87 = 73.74°. The two flanges then meet at 180 − 73.74 = 106.26°. Trap: 50.21° is the hip/valley formula, arccos(cos 36.87° × cos 36.87°) = arccos 0.64, wrongly used at a ridge.",
+  "why_ru": "У ridge оба ската 9/12 падают перпендикулярно линии ridge, поэтому гиб от плоского листа = сумма двух углов уклона: atan(9 ÷ 12) = 36.87°, 2 × 36.87 = 73.74°. Полки после гиба сходятся под 180 − 73.74 = 106.26°. Ловушка: 50.21° — формула hip/valley, arccos(cos 36.87° × cos 36.87°) = arccos 0.64, ошибочно применённая к ridge.",
   "flag": null
  },
  {
@@ -1164,8 +1164,8 @@
   "ru_q": "Вычислите общую площадь в квадратных футах, чтобы обшить снаружи здание сайдингом, с точностью до 2 знаков.",
   "ru_hint": null,
   "ru_opts": null,
-  "why_en": "The course counts walls, gables and roof: walls 2·60·19 + 2·99·19 = 6042 ft²; gables 2 · ½ · 60 · 7.5 = 450 ft² (rise 30 × 3/12 = 7.5'); roof 2 · 99 · 30.9233 = 6122.81 ft² (rafter 30 · √(1 + 0.25²)). Total = 12614.81 ft². Walls and gables alone (siding without the roof) would be 6492.00 ft².",
-  "why_ru": "Курс считает стены, фронтоны и кровлю: стены 2·60·19 + 2·99·19 = 6042 ft²; фронтоны 2 · ½ · 60 · 7.5 = 450 ft² (подъём 30 × 3/12 = 7.5'); кровля 2 · 99 · 30.9233 = 6122.81 ft² (стропило 30 · √(1 + 0.25²)). Итого 12614.81 ft². Только стены и фронтоны (сайдинг без кровли) дали бы 6492.00 ft².",
+  "why_en": "The exterior is every outside surface: 4 walls, 2 gable triangles and 2 roof planes. Walls: 2 × 60 × 19 + 2 × 99 × 19 = 6042 ft². Gables: half of 60' is 30', rise = 30 × 3/12 = 7.5', 2 × ½ × 60 × 7.5 = 450 ft². Roof: rafter = √(30² + 7.5²) = 30.9233', 2 × 99 × 30.9233 = 6122.81 ft²; total 6042 + 450 + 6122.81 = 12614.81 ft². Traps: counting the gables as rectangles (900 ft²) gives 13064.81, and leaving out the roof gives 6492.00.",
+  "why_ru": "Снаружи здания — все наружные поверхности: 4 стены, 2 треугольных фронтона и 2 ската кровли. Стены: 2 × 60 × 19 + 2 × 99 × 19 = 6042 ft². Фронтоны: половина 60' — 30', подъём = 30 × 3/12 = 7.5', 2 × ½ × 60 × 7.5 = 450 ft². Кровля: стропило = √(30² + 7.5²) = 30.9233', 2 × 99 × 30.9233 = 6122.81 ft²; итого 6042 + 450 + 6122.81 = 12614.81 ft². Ловушки: фронтоны как прямоугольники (900 ft²) дают 13064.81, а без кровли выходит 6492.00.",
   "flag": "Key is the instructor's red 12614.81, which includes the roof; strictly 'siding' covers only walls and gables (6492.00 sq ft)."
  }
 ]

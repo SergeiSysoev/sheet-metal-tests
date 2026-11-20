@@ -36,13 +36,14 @@ const SOURCES = {
    "ru": "Пятничный тест 20.11 — подготовка"
   },
   "sub": {
-   "en": "All questions of this week's tests in one test: Year End, Welding & Layout, Triangulation, SMY1W5, review class 11/19",
-   "ru": "Все вопросы тестов этой недели в одном тесте: Year End, Welding & Layout, Triangulation, SMY1W5, разбор 19.11"
+   "en": "All questions of this week's tests in one test: Year End, Welding & Layout, Triangulation, SMY1W5, review class 11/19 · full test, 263 questions",
+   "ru": "Все вопросы тестов этой недели в одном тесте: Year End, Welding & Layout, Triangulation, SMY1W5, разбор 19.11 · полный тест, 263 вопросов"
   },
   "short": {
    "en": "Friday 11/20",
    "ru": "Пятница 20.11"
-  }
+  },
+  "full": 263
  },
  "CLS": {
   "name": {
@@ -455,8 +456,8 @@ const QUESTIONS = [
    "ru": "Что означают принципы сварки DASH?"
   },
   "why": {
-   "en": "DASH = Distance (arc length), Angle (electrode angle), Speed (travel speed), Heat (amperage): the four things the welder controls. Amperage is covered by Heat, not a separate letter; height, drag and sparks are not DASH terms.",
-   "ru": "DASH = Distance (длина дуги), Angle (угол electrode), Speed (скорость сварки), Heat (ток): четыре параметра, которыми управляет сварщик. Ток входит в Heat, отдельной буквы у него нет; height, drag и sparks в DASH не входят."
+   "en": "DASH = Distance (arc length), Angle (electrode angle), Speed (travel speed), Heat (amperage): the four things the welder controls. Amperage is part of Heat, not a separate letter; height, drag and sparks are not DASH terms.",
+   "ru": "DASH = Distance (длина дуги), Angle (угол electrode), Speed (скорость ведения), Heat (ток): четыре параметра, которыми управляет сварщик. Ток входит в Heat, отдельной буквы у него нет; height, drag и sparks в DASH не входят."
   },
   "opts": [
    {
@@ -479,7 +480,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    162
+   ]
+  ]
  },
  {
   "id": "T90-2",
@@ -491,8 +498,8 @@ const QUESTIONS = [
    "ru": "Самый распространённый номер затемнения filter lens для SMAW:"
   },
   "why": {
-   "en": "Shade #10 is the standard filter for SMAW with common electrodes (course manual p. 15; OSHA 1926.102 gives shade 10 for 1/16\"–5/32\" electrodes). The higher the number, the darker the lens: #2 is far too light for an arc, #8 is only the OSHA minimum at low current, and #H is not a shade number.",
-   "ru": "Shade #10 — стандартный светофильтр для SMAW с обычными electrode (учебник курса, стр. 15; OSHA 1926.102 даёт shade 10 для electrode 1/16\"–5/32\"). Чем больше номер, тем темнее: #2 для дуги слишком светлый, #8 — лишь минимум OSHA на малом токе, а #H вообще не номер затемнения."
+   "en": "Shade #10 is the standard lens for SMAW with the usual 1/16\"–5/32\" electrodes: OSHA 1926.102 and Washington's WAC 296-155-215 both list shade 10 for them. The higher the number, the darker the lens: #2 is far too light for an arc, #8 is only the bare minimum allowed at 60–160 A (10 is the recommended shade there), and #H is not a shade number.",
+   "ru": "Shade #10 — стандартный светофильтр для SMAW с обычными electrode 1/16\"–5/32\": и OSHA 1926.102, и правило штата WAC 296-155-215 дают для них shade 10. Чем больше номер, тем темнее стекло: #2 для дуги слишком светлый, #8 — только допустимый минимум при 60–160 A (рекомендуемый там же — 10), а #H вообще не номер затемнения."
   },
   "opts": [
    {
@@ -515,7 +522,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    213
+   ]
+  ]
  },
  {
   "id": "T90-3",
@@ -527,8 +540,8 @@ const QUESTIONS = [
    "ru": "SMAW не следует применять на материале тоньше ____ gage."
   },
   "why": {
-   "en": "Stick welding puts a lot of heat into the metal and burns through thin sheet, so metal lighter than 18 gauge (0.0478\") is seldom welded with SMAW (course manual p. 11). \"Less than 18 gauge\" means thinner, i.e. a higher number such as 20 or 22; 16, 14 and 12 gauge are thicker and can be stick welded.",
-   "ru": "Stick даёт много тепла и прожигает тонкий лист, поэтому металл тоньше 18 gauge (0.0478\") SMAW почти не варят (учебник курса, стр. 11). «Тоньше 18 gauge» — это номер больше: 20, 22; 16, 14 и 12 gauge толще, их stick варит."
+   "en": "A stick arc puts a lot of heat into the metal and burns through thin sheet, so metal lighter than 18 gauge (0.0478\") is seldom welded with SMAW. Trap: \"less than 18 gage\" means thinner, which is a higher gauge number (20, 22, 24); 16, 14 and 12 gauge are thicker and can be stick welded.",
+   "ru": "Дуга stick даёт много тепла и прожигает тонкий лист, поэтому металл тоньше 18 gauge (0.0478\") SMAW почти не варят. Ловушка: «less than 18 gage» — это тоньше, то есть номер больше (20, 22, 24); 16, 14 и 12 gauge толще, их stick варит."
   },
   "opts": [
    {
@@ -551,7 +564,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    163
+   ]
+  ]
  },
  {
   "id": "T90-4",
@@ -563,8 +582,8 @@ const QUESTIONS = [
    "ru": "Какой тип источника питания используется в SMAW?"
   },
   "why": {
-   "en": "SMAW uses a constant current (CC) machine: the welder sets the amperage, and it stays nearly the same when the arc length changes with hand movement. Constant voltage (also called constant potential) is the GMAW machine; \"variable current\" is not a machine type.",
-   "ru": "Для SMAW нужен источник constant current (CC): сварщик задаёт ток, и он почти не меняется, когда длина дуги гуляет от движения руки. Constant voltage (он же constant potential) — источник для GMAW; «variable current» — не тип машины."
+   "en": "SMAW uses a constant current (CC) machine: the welder sets the amperage, and it stays nearly the same while the arc length changes with hand movement. Constant voltage (the same thing as constant potential) is the GMAW machine; \"variable current\" is not a machine type.",
+   "ru": "Для SMAW нужен источник constant current (CC): сварщик задаёт ток, и он почти не меняется, когда длина дуги гуляет от движения руки. Constant voltage (то же, что constant potential) — источник для GMAW; «variable current» — не тип машины."
   },
   "opts": [
    {
@@ -587,7 +606,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    164
+   ]
+  ]
  },
  {
   "id": "T90-5",
@@ -599,8 +624,8 @@ const QUESTIONS = [
    "ru": "В SMAW, если electrode требует straight polarity, нужно ____."
   },
   "why": {
-   "en": "For points pick d: straight polarity = DCEN, so the electrode goes to the negative terminal and the ground (work) clamp goes on the base metal. b is also technically correct: DCEN by definition means electrode lead to negative and work lead to positive (course manual ITI p. 13), the same wording the key accepts for reverse polarity in question 24.",
-   "ru": "Для балла ставьте d: straight polarity = DCEN, electrode — на отрицательную клемму, ground (work clamp) — на base metal. b технически тоже верен: DCEN по определению — electrode на минус, work clamp на плюс (учебник курса ITI, стр. 13), и ту же формулировку ключ засчитывает для reverse polarity в вопросе 24."
+   "en": "For points pick d: straight polarity is DCEN, so the electrode lead goes to the negative terminal and the work (ground) clamp goes on the base metal. Technically b is also correct, because DCEN by definition means electrode lead to negative and work lead to positive (ITI SMAW manual, p. 13), just as reverse polarity is electrode to positive, ground to negative. \"Ground to base metal\" is true for any polarity; a is reverse polarity (DCEP), and c mixes AC with DC, which is impossible.",
+   "ru": "Для балла — d: straight polarity — это DCEN, electrode подключают к отрицательной клемме, а ground (work clamp) — на base metal. Технически b тоже верен: DCEN по определению — electrode на минус, work clamp на плюс (учебник ITI по SMAW, стр. 13), так же как reverse polarity — electrode на плюс, ground на минус. «Ground на base metal» верно при любой полярности; a — это reverse polarity (DCEP), а c смешивает AC и DC, так не бывает."
   },
   "opts": [
    {
@@ -623,7 +648,16 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "also": [
+   1
+  ],
+  "on": [
+   [
+    "F20",
+    165
+   ]
+  ]
  },
  {
   "id": "T90-6",
@@ -635,8 +669,8 @@ const QUESTIONS = [
    "ru": "Выберите лучший ответ. Какие меры безопасности нужно принять перед началом сварки или резки?"
   },
   "why": {
-   "en": "All three are required: clear combustible debris (sparks can fly up to 35 ft), warn people nearby about the arc and sparks, and get the customer's approval, which on a jobsite is the hot work permit.",
-   "ru": "Нужны все три: убрать горючий мусор (искры разлетаются до 35 ft), предупредить людей рядом о дуге и искрах и получить разрешение заказчика — на объекте это hot work permit."
+   "en": "All three are needed before hot work. Sparks and hot slag fly far, so combustibles within 35 ft are moved or covered (OSHA 1910.252, WAC 296-24-69503); people nearby are warned about the arc and sparks; and the customer (building owner) approves the work, usually with a hot work permit.",
+   "ru": "Нужны все три. Искры и горячий шлак разлетаются далеко, поэтому горючее в радиусе 35 ft убирают или укрывают (OSHA 1910.252, WAC 296-24-69503); людей рядом предупреждают о дуге и искрах; заказчик (владелец здания) разрешает работу — обычно это hot work permit."
   },
   "opts": [
    {
@@ -659,7 +693,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    214
+   ]
+  ]
  },
  {
   "id": "T90-7",
@@ -671,8 +711,8 @@ const QUESTIONS = [
    "ru": "Multiple Choice: выберите лучший ответ. Сварка base material многими короткими участками называется:"
   },
   "why": {
-   "en": "Stitch (intermittent) welding lays the weld in short sections along the joint, which limits heat and distortion on thin metal. Tacking is short temporary welds that only hold the parts before the final weld; stud welding attaches studs.",
-   "ru": "Stitch (прерывистая) сварка — шов короткими участками вдоль соединения, так меньше тепла и коробления на тонком металле. Tacking — короткие временные прихватки, которые только держат детали до основной сварки; stud — приварка шпилек."
+   "en": "Stitch (intermittent) welding lays the weld in short sections along the joint, which limits heat and distortion on thin metal. Tacking is short temporary welds that only hold the parts in place before the final weld; stud welding attaches studs to a surface.",
+   "ru": "Stitch (прерывистая) сварка — шов короткими участками вдоль соединения: меньше тепла и коробления на тонком металле. Tacking — короткие временные прихватки, которые только держат детали до основной сварки; stud — приварка шпилек."
   },
   "opts": [
    {
@@ -691,7 +731,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    166
+   ]
+  ]
  },
  {
   "id": "T90-8",
@@ -703,8 +749,8 @@ const QUESTIONS = [
    "ru": "Если политика заказчика требует пройти тест на наркотики или психологическое тестирование, прежде чем допустить вас к работе в ответственных или напряжённых зонах, вы должны:"
   },
   "why": {
-   "en": "The customer sets the rules for its site: accept reasonable testing and show you are dependable, and you keep yourself and your employer on the job. Refusing costs the job, sending someone in your place is fraud, and asking off the site tells your employer you have a problem.",
-   "ru": "Правила на своём объекте устанавливает заказчик: пройти разумные проверки и показать себя надёжным — так вы сохраняете работу себе и работодателю. Отказ стоит работы, подставной человек — это обман, а просьба не посылать на объект говорит работодателю, что у вас проблема."
+   "en": "The customer owns the site and sets its rules; a drug or psychological test before work in sensitive or high-stress areas is a reasonable safety requirement, so you take it and show you are dependable. Refusing costs you and your employer the job, sending someone else in your place is fraud, and asking off the site tells your employer you expect to fail.",
+   "ru": "Объект принадлежит заказчику, и правила там устанавливает он; тест на наркотики или психологическая проверка перед работой в ответственных и напряжённых зонах — разумное требование безопасности, поэтому его проходят и показывают себя надёжным работником. Отказ стоит работы и вам, и работодателю, подставной человек — это обман, а просьба не посылать на объект говорит работодателю, что вы ждёте провала."
   },
   "opts": [
    {
@@ -731,7 +777,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    255
+   ]
+  ]
  },
  {
   "id": "T90-9",
@@ -767,7 +819,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    167
+   ]
+  ]
  },
  {
   "id": "T90-10",
@@ -779,8 +837,8 @@ const QUESTIONS = [
    "ru": "Размер electrode выбирают в зависимости от ____ свариваемого материала."
   },
   "why": {
-   "en": "Thicker metal needs more heat and a larger electrode diameter; thin metal needs a small electrode to avoid burn-through (course manual p. 12: current depends on base metal thickness and electrode diameter). The kind of metal decides the electrode classification, not its size.",
-   "ru": "Толстому металлу нужно больше тепла и electrode большего диаметра, тонкому — маленький electrode, чтобы не прожечь (учебник курса, стр. 12: ток зависит от толщины base metal и диаметра electrode). Вид металла определяет марку electrode, а не его размер."
+   "en": "Thicker metal needs more heat, so it gets a larger electrode diameter and more amperage; thin metal needs a small electrode so it does not burn through. The kind of metal decides the electrode classification, not its size; color, heat resistance and melting point do not set the diameter.",
+   "ru": "Толстому металлу нужно больше тепла — значит, electrode большего диаметра и больше ток; тонкому — маленький electrode, чтобы не прожечь. Вид металла определяет марку electrode, а не его размер; цвет, жаростойкость и температура плавления диаметр не задают."
   },
   "opts": [
    {
@@ -803,7 +861,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    168
+   ]
+  ]
  },
  {
   "id": "T90-11",
@@ -815,8 +879,8 @@ const QUESTIONS = [
    "ru": "____ — это полный набор сокращённых инструкций, которым передают нужную информацию о сварке всем участникам, прежде всего сварщику."
   },
   "why": {
-   "en": "The welding symbol is the whole sign: reference line, arrow, weld symbol, dimensions and tail together (AWS A2.4). The reference line and the arrow are only parts of it.",
-   "ru": "Welding symbol — весь знак целиком: reference line, arrow, weld symbol, размеры и tail (AWS A2.4). Reference line и arrow — только его части."
+   "en": "The welding symbol is the whole sign: reference line, arrow, weld symbol, dimensions and tail together (AWS A2.4). The reference line and the arrow are only parts of it, and a procedure check list is not a symbol at all.",
+   "ru": "Welding symbol — весь знак целиком: reference line, arrow, weld symbol, размеры и tail (AWS A2.4). Reference line и arrow — только его части, а procedure check list — вообще не знак."
   },
   "opts": [
    {
@@ -839,7 +903,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    169
+   ]
+  ]
  },
  {
   "id": "T90-12",
@@ -851,8 +921,8 @@ const QUESTIONS = [
    "ru": "Если welding symbol указывает на соединение, которое нужно сварить, а знак типа шва стоит над reference line, варить нужно ____."
   },
   "why": {
-   "en": "A weld symbol below the reference line means the arrow side; above the line means the other side, opposite the arrow. Symbols on both sides of the line mean both sides.",
-   "ru": "Знак шва под reference line — arrow side, над линией — other side, то есть сторона напротив стрелки. Знаки по обе стороны линии — сварка с обеих сторон."
+   "en": "A weld symbol below the reference line means the arrow side; above the line means the other side, opposite the arrow. Symbols on both sides of the line mean both sides; \"all sides\" is shown by a circle at the arrow bend (weld all around), not by where the symbol sits.",
+   "ru": "Знак шва под reference line — arrow side, над линией — other side, то есть сторона напротив стрелки. Знаки по обе стороны линии — сварка с обеих сторон; «со всех сторон» показывают кружком на изломе стрелки (weld all around), а не положением знака."
   },
   "opts": [
    {
@@ -875,7 +945,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    170
+   ]
+  ]
  },
  {
   "id": "T90-13",
@@ -887,8 +963,8 @@ const QUESTIONS = [
    "ru": "____ — обязательный элемент, всегда горизонтальный; это постоянное звено, к которому привязаны все остальные знаки сварки."
   },
   "why": {
-   "en": "The reference line is the horizontal line every welding symbol has; the arrow, weld symbols, dimensions and tail all attach to it. The arrow can point at any angle, so it is not always horizontal.",
-   "ru": "Reference line — горизонтальная линия, которая есть в любом welding symbol; к ней крепятся arrow, weld symbols, размеры и tail. Arrow может идти под любым углом, поэтому «всегда горизонтальный» — не про неё."
+   "en": "The reference line is the horizontal line every welding symbol has; the arrow, weld symbols, dimensions and tail all attach to it. The arrow can point at any angle, so it is not always horizontal; the weld symbol is only the small mark of the weld type on that line.",
+   "ru": "Reference line — горизонтальная линия, которая есть в любом welding symbol; к ней крепятся arrow, weld symbols, размеры и tail. Arrow может идти под любым углом, поэтому «всегда горизонтальный» — не про неё; weld symbol — только значок типа шва на этой линии."
   },
   "opts": [
    {
@@ -911,7 +987,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    171
+   ]
+  ]
  },
  {
   "id": "T90-14",
@@ -947,7 +1029,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    172
+   ]
+  ]
  },
  {
   "id": "T90-15",
@@ -959,8 +1047,8 @@ const QUESTIONS = [
    "ru": "В общем случае, поскольку gauge обычно определяется тем, сколько листов помещается в заданный размер, меньший номер gauge означает, что каждый лист ____, а больший номер — что каждый лист ____."
   },
   "why": {
-   "en": "Fewer sheets fit in the same measurement only if each sheet is thicker, so a lower number is thicker: 10 ga = 0.1345\", 16 ga = 0.0598\", 22 ga = 0.0299\". A thicker sheet is also heavier, so \"lighter, heavier\" is backwards; malleability does not depend on gauge.",
-   "ru": "В тот же размер помещается меньше листов, только если каждый толще, поэтому меньший номер — толще: 10 ga = 0.1345\", 16 ga = 0.0598\", 22 ga = 0.0299\". Толстый лист и тяжелее, так что «легче, тяжелее» — наоборот; ковкость от gauge не зависит."
+   "en": "Fewer sheets fit in the same measurement only if each sheet is thicker, so a lower gauge number means a thicker sheet: 10 ga = 0.1345\", 16 ga = 0.0598\", 22 ga = 0.0299\". A thicker sheet is also heavier, so \"lighter, heavier\" is backwards, and malleability does not depend on gauge.",
+   "ru": "В тот же размер помещается меньше листов, только если каждый толще, поэтому меньший номер gauge означает более толстый лист: 10 ga = 0.1345\", 16 ga = 0.0598\", 22 ga = 0.0299\". Толстый лист к тому же тяжелее, так что «легче, тяжелее» — наоборот, а ковкость от gauge не зависит."
   },
   "opts": [
    {
@@ -987,7 +1075,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    11
+   ]
+  ]
  },
  {
   "id": "T90-16",
@@ -999,8 +1093,8 @@ const QUESTIONS = [
    "ru": "В общем случае толщина листового металла уменьшается вдвое примерно через каждые ____ номеров gauge."
   },
   "why": {
-   "en": "Thickness roughly halves every 6 gauge numbers: 16 ga 0.0598\" → 22 ga 0.0299\" (0.0598 ÷ 0.0299 = 2.00); 10 ga 0.1345\" → 16 ga 0.0598\" (ratio 2.25). The rule is approximate and closest on the thinner gauges.",
-   "ru": "Толщина уменьшается примерно вдвое через 6 номеров: 16 ga 0.0598\" → 22 ga 0.0299\" (0.0598 ÷ 0.0299 = 2.00); 10 ga 0.1345\" → 16 ga 0.0598\" (отношение 2.25). Правило приближённое, точнее всего на тонких gauge."
+   "en": "Thickness roughly halves every 6 gauge numbers: 16 ga 0.0598\" → 22 ga 0.0299\" (0.0598 ÷ 0.0299 = 2.00); 10 ga 0.1345\" → 16 ga 0.0598\" (ratio 2.25). The same rule gives a pair worth remembering: 16 ga ≈ 1/16\", and 16 − 6 = 10 ga ≈ 1/8\", which is the answer to give for 1/8\" on the test (by the table 11 ga, 0.1196\", is a little closer: 0.0054\" off against 0.0095\").",
+   "ru": "Толщина уменьшается примерно вдвое через каждые 6 номеров: 16 ga 0.0598\" → 22 ga 0.0299\" (0.0598 ÷ 0.0299 = 2.00); 10 ga 0.1345\" → 16 ga 0.0598\" (отношение 2.25). Из этого правила пара, которую стоит запомнить: 16 ga ≈ 1/16\", а 16 − 6 = 10 ga ≈ 1/8\" — так и отвечать на тесте про 1/8\" (по таблице 11 ga, 0.1196\", чуть ближе: разница 0.0054\" против 0.0095\")."
   },
   "opts": [
    {
@@ -1027,7 +1121,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    12
+   ]
+  ]
  },
  {
   "id": "T90-17",
@@ -1039,8 +1139,8 @@ const QUESTIONS = [
    "ru": "«Ferritic» металл — это металл, который:"
   },
   "why": {
-   "en": "\"Ferritic\" comes from Latin ferrum, iron: the metal is iron-based (carbon steel, ferritic stainless such as 430) and is magnetic. The word says nothing about melting temperature.",
-   "ru": "«Ferritic» — от латинского ferrum, железо: металл на основе железа (углеродистая сталь, ferritic stainless, например 430), он магнитится. О температуре плавления это слово ничего не говорит."
+   "en": "\"Ferritic\" comes from the Latin ferrum, iron: a ferritic metal is iron-based (carbon steel, ferritic stainless such as Type 430) and is magnetic. The word says nothing about melting point or heat resistance.",
+   "ru": "«Ferritic» — от латинского ferrum, железо: ferritic металл — на основе железа (углеродистая сталь, ferritic stainless, например Type 430), он магнитится. О температуре плавления и жаростойкости это слово ничего не говорит."
   },
   "opts": [
    {
@@ -1063,7 +1163,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    13
+   ]
+  ]
  },
  {
   "id": "T90-18",
@@ -1075,8 +1181,8 @@ const QUESTIONS = [
    "ru": "Федеральное ведомство, которое существует для защиты работников на работе:"
   },
   "why": {
-   "en": "OSHA (Occupational Safety and Health Administration, U.S. Department of Labor) sets and enforces workplace safety rules; in Washington the state program is L&I DOSH under WISHA. FDIC insures bank deposits, EPA protects the environment, USGS studies geology, NASA runs the space program.",
-   "ru": "OSHA (Occupational Safety and Health Administration, Министерство труда США) устанавливает правила безопасности на работе и следит за ними; в штате Washington это L&I DOSH по закону WISHA. FDIC страхует банковские вклады, EPA охраняет окружающую среду, USGS занимается геологией, NASA — космосом."
+   "en": "OSHA, the Occupational Safety and Health Administration in the U.S. Department of Labor, writes and enforces workplace safety rules. In Washington the same job is done by L&I (DOSH) under WISHA, an OSHA-approved state plan. FDIC insures bank deposits, NASA runs the space program, EPA protects the environment and USGS studies geology.",
+   "ru": "OSHA (Occupational Safety and Health Administration, Министерство труда США) пишет правила безопасности на работе и следит за их выполнением. В штате Washington это делает L&I (DOSH) по закону WISHA — state plan, утверждённый OSHA. FDIC страхует банковские вклады, NASA занимается космосом, EPA охраняет окружающую среду, USGS изучает геологию."
   },
   "opts": [
    {
@@ -1103,7 +1209,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    215
+   ]
+  ]
  },
  {
   "id": "T90-19",
@@ -1115,8 +1227,8 @@ const QUESTIONS = [
    "ru": "Опасное или токсичное вещество может попасть в организм через:"
   },
   "why": {
-   "en": "There are four routes of entry: inhalation, absorption through skin or eyes, ingestion, and injection (a puncture by a sharp contaminated object). The SDS lists the likely routes for each product (Section 11).",
-   "ru": "Путей попадания четыре: вдыхание, впитывание через кожу или глаза, проглатывание и инъекция (прокол острым загрязнённым предметом). Пути для каждого вещества указаны в SDS (Section 11)."
+   "en": "There are four routes of entry: inhalation, absorption through skin or eyes, ingestion, and injection (a cut or puncture from a sharp contaminated object). Every listed route is real, so the answer is all of them; Section 11 of the SDS names the likely routes for each product.",
+   "ru": "Путей попадания в организм четыре: вдыхание, впитывание через кожу или глаза, проглатывание и инъекция (порез или прокол острым загрязнённым предметом). Все перечисленные пути реальны, поэтому верно «все ответы»; в SDS (Section 11) для каждого вещества указано, какими путями оно попадает в организм."
   },
   "opts": [
    {
@@ -1143,7 +1255,13 @@ const QUESTIONS = [
   "answer": [
    4
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    216
+   ]
+  ]
  },
  {
   "id": "T90-20",
@@ -1155,8 +1273,8 @@ const QUESTIONS = [
    "ru": "Какой тип источника питания у машин GMAW?"
   },
   "why": {
-   "en": "GMAW (MIG) machines are constant voltage (CV): the welder sets the voltage, which holds the arc length, and the current follows the wire feed speed. Constant current is the stick (SMAW) machine; \"constant variable\" is not a machine type.",
-   "ru": "Машины GMAW (MIG) — constant voltage (CV): сварщик задаёт напряжение, оно держит длину дуги, а ток следует за wire feed speed. Constant current — машина для stick (SMAW); «constant variable» — не тип машины."
+   "en": "GMAW (MIG) machines are constant voltage (CV): the welder sets the voltage, which holds the arc length, and the current follows the wire feed speed. Constant current is the stick (SMAW) machine; \"constant variable\" and \"automatic machine\" are not power source types.",
+   "ru": "Машины GMAW (MIG) — constant voltage (CV): сварщик задаёт напряжение, оно держит длину дуги, а ток следует за wire feed speed. Constant current — машина для stick (SMAW); «constant variable» и «automatic machine» — не типы источника."
   },
   "opts": [
    {
@@ -1179,7 +1297,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    173
+   ]
+  ]
  },
  {
   "id": "T90-21",
@@ -1251,7 +1375,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    174
+   ]
+  ]
  },
  {
   "id": "T90-23",
@@ -1263,8 +1393,8 @@ const QUESTIONS = [
    "ru": "Какой tensile strength у electrode E7018?"
   },
   "why": {
-   "en": "In E7018 the first two digits, 70, are the minimum tensile strength of the weld metal in ksi: 70 × 1,000 = 70,000 psi. The options print \"lbs.\", but the unit is pounds per square inch; \"1\" means all positions and \"8\" the low-hydrogen coating.",
-   "ru": "В E7018 первые две цифры, 70, — минимальный tensile strength металла шва в ksi: 70 × 1,000 = 70,000 psi. В вариантах написано «lbs.», а единица — фунты на квадратный дюйм (psi); «1» — все положения, «8» — low-hydrogen покрытие."
+   "en": "In E7018 the first two digits, 70, are the minimum tensile strength of the weld metal in ksi: 70 × 1,000 = 70,000 psi. The options say \"lbs.\", but the real unit is pounds per square inch; the \"1\" means all positions and the \"8\" the low-hydrogen coating. 7000 and 1800 come from reading the digits wrong.",
+   "ru": "В E7018 первые две цифры, 70, — минимальный tensile strength металла шва в ksi: 70 × 1,000 = 70,000 psi. В вариантах написано «lbs.», а настоящая единица — фунты на квадратный дюйм (psi); «1» — все положения, «8» — low-hydrogen покрытие. 7000 и 1800 — неверное чтение цифр."
   },
   "opts": [
    {
@@ -1287,7 +1417,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    175
+   ]
+  ]
  },
  {
   "id": "T90-24",
@@ -1326,6 +1462,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    176
+   ],
+   [
     "Y2W5Y",
     46
    ]
@@ -1341,8 +1481,8 @@ const QUESTIONS = [
    "ru": "Этот знак показывает ____ тип шва."
   },
   "why": {
-   "en": "A right triangle on the reference line, with its vertical leg on the left, is the fillet weld symbol. A bevel is drawn as a vertical line plus a slanted line with no third side; scarf is a brazed joint and corner is a joint type, not a weld symbol.",
-   "ru": "Прямоугольный треугольник на reference line, вертикальный катет слева, — знак fillet. Bevel рисуют вертикальной и наклонной чертой без третьей стороны; scarf — соединение под brazing, а corner — тип соединения, а не знак шва."
+   "en": "A right triangle sitting on the line, with its vertical leg on the left, is the fillet weld symbol (AWS A2.4). A bevel is drawn as a vertical line and a slanted line with no third side; corner is a joint type, not a weld symbol, and scarf is a brazing joint.",
+   "ru": "Прямоугольный треугольник на линии, вертикальный катет слева, — знак fillet (AWS A2.4). Bevel рисуют вертикальной и наклонной чертой без третьей стороны; corner — тип соединения, а не знак шва, а scarf — соединение под brazing."
   },
   "opts": [
    {
@@ -1366,7 +1506,13 @@ const QUESTIONS = [
    2
   ],
   "type": "single",
-  "fig": "t90-q25.svg"
+  "fig": "t90-q25.svg",
+  "on": [
+   [
+    "F20",
+    177
+   ]
+  ]
  },
  {
   "id": "T90-26",
@@ -1378,8 +1524,8 @@ const QUESTIONS = [
    "ru": "Правильный угол bevel одной детали под «V» groove weld — ____."
   },
   "why": {
-   "en": "A standard single-V groove (AWS D1.1 prequalified joint B-U2) has a 60° included angle shared by two plates, so each plate is beveled 60° ÷ 2 = 30°. 22.5° per plate (45° groove) is a special prequalified joint used only with steel backing and a 1/4\" root opening (B-U2a), so it is not the general answer. On the graded sheet the instructor wrote \"more correct\" next to 22.5°, but 30° was credited.",
-   "ru": "Стандартный single-V groove (prequalified соединение AWS D1.1 B-U2) — разделка 60° на две детали, значит, каждая скашивается на 60° ÷ 2 = 30°. 22.5° на деталь (разделка 45°) — частный случай только с подкладкой (backing) и зазором 1/4\" (B-U2a), поэтому общим ответом он не является. На проверенном листе инструктор написал «more correct» у 22.5°, но засчитал 30°."
+   "en": "\"Grove\" in the question is a misprint for groove. A standard single-V groove (AWS D1.1 prequalified joint B-U2) has a 60° included angle shared by two plates, so each plate is beveled 60° ÷ 2 = 30°. Trap: 22.5° per plate (a 45° groove) and 15° per plate (a 30° groove) are special joints used only with steel backing and a wider root opening, 1/4\" and 3/8\" (B-U2a); without that, a narrow groove does not let the arc reach the root. 45° per plate makes a 90° groove that wastes weld metal.",
+   "ru": "«Grove» в вопросе — опечатка, правильно groove. Стандартный single-V groove (prequalified соединение AWS D1.1 B-U2) имеет разделку 60° на две детали, значит, каждую скашивают на 60° ÷ 2 = 30°. Ловушка: 22.5° на деталь (разделка 45°) и 15° на деталь (разделка 30°) — частные случаи только с подкладкой (steel backing) и увеличенным зазором 1/4\" и 3/8\" (B-U2a); без них в узкую разделку дуга до корня не достаёт. 45° на деталь дают разделку 90° — лишний расход металла шва."
   },
   "opts": [
    {
@@ -1402,7 +1548,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    178
+   ]
+  ]
  },
  {
   "id": "T90-27",
@@ -1414,8 +1566,8 @@ const QUESTIONS = [
    "ru": "Какой тип шва обозначает этот знак:"
   },
   "why": {
-   "en": "Two parallel vertical lines on the reference line are the square-groove weld symbol: the plate edges stay square, with no bevel. A square weld is technically one kind of groove weld, so \"groove\" is not absurd, but the symbol names the specific type, square; a fillet would be a triangle.",
-   "ru": "Две параллельные вертикальные черты на reference line — знак square-groove: кромки остаются прямыми, без bevel. Формально square — разновидность groove, поэтому «groove» не абсурд, но знак называет конкретный тип — square; fillet был бы треугольником."
+   "en": "Two parallel vertical lines on the line are the square-groove weld symbol (AWS A2.4): the plate edges stay square, with no bevel. \"Groove\" is the whole family (square, V, bevel, U, J), so the option that names this symbol is square; a fillet would be a triangle, and scarf is a brazing joint.",
+   "ru": "Две параллельные вертикальные черты на линии — знак square-groove (AWS A2.4): кромки остаются прямыми, без bevel. «Groove» — целое семейство (square, V, bevel, U, J), поэтому этот знак называет вариант square; fillet был бы треугольником, а scarf — соединение под brazing."
   },
   "opts": [
    {
@@ -1439,7 +1591,13 @@ const QUESTIONS = [
    3
   ],
   "type": "single",
-  "fig": "t90-q27.svg"
+  "fig": "t90-q27.svg",
+  "on": [
+   [
+    "F20",
+    179
+   ]
+  ]
  },
  {
   "id": "T90-28",
@@ -1451,8 +1609,8 @@ const QUESTIONS = [
    "ru": "Напряжение, при котором металл разрывается, называется ____."
   },
   "why": {
-   "en": "Tensile strength is the highest stress the metal takes in a pull test before it tears apart (E7018 weld metal: at least 70,000 psi). Yield strength is lower: the point where the metal starts to stretch permanently but does not break yet.",
-   "ru": "Tensile strength — наибольшее напряжение, которое металл выдерживает на растяжение, прежде чем разорваться (металл шва E7018: не меньше 70,000 psi). Yield strength ниже: с него металл начинает необратимо тянуться, но ещё не рвётся."
+   "en": "Tensile strength is the highest stress a metal takes in a pull test before it tears apart (E7018 weld metal: at least 70,000 psi). Yield strength is lower: the point where the metal starts to stretch for good but does not break yet; hardness is resistance to denting, and ductility is how far the metal stretches before it breaks.",
+   "ru": "Tensile strength — наибольшее напряжение, которое металл выдерживает на растяжение, прежде чем разорваться (металл шва E7018: не меньше 70,000 psi). Yield strength ниже: с него металл начинает необратимо тянуться, но ещё не рвётся; hardness — сопротивление вмятинам, ductility — насколько металл тянется до разрыва."
   },
   "opts": [
    {
@@ -1475,7 +1633,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    14
+   ]
+  ]
  },
  {
   "id": "T90-29",
@@ -1487,8 +1651,8 @@ const QUESTIONS = [
    "ru": "Какого цвета обычно шланги для кислорода (oxygen)?"
   },
   "why": {
-   "en": "In the U.S. the oxygen hose is green and the fuel gas hose (acetylene, propane) is red. Blue for oxygen is the European (ISO) color, a common trap; OSHA itself only requires the hoses to be easy to tell apart.",
-   "ru": "В США шланг oxygen — зелёный, шланг fuel gas (ацетилен, пропан) — красный. Синий для кислорода — европейский стандарт (ISO), частая ловушка; сам OSHA требует только, чтобы шланги легко различались."
+   "en": "In the U.S. the oxygen hose is green and the fuel gas hose (acetylene, propane) is red. OSHA 1926.350(f)(1) and WAC 296-155-400(6)(a) only require the two hoses to be easy to tell apart, by color or by feel; green and red is the industry standard. Blue for oxygen is the European color, a common trap.",
+   "ru": "В США шланг oxygen — зелёный, шланг fuel gas (ацетилен, пропан) — красный. OSHA 1926.350(f)(1) и WAC 296-155-400(6)(a) требуют только, чтобы шланги легко различались по цвету или на ощупь; зелёный и красный — стандарт отрасли. Синий для кислорода — европейский цвет, частая ловушка."
   },
   "opts": [
    {
@@ -1511,7 +1675,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    217
+   ]
+  ]
  },
  {
   "id": "T90-30",
@@ -1523,8 +1693,8 @@ const QUESTIONS = [
    "ru": "Flux-покрытие на electrode:"
   },
   "why": {
-   "en": "When the flux burns it gives off a shielding gas that keeps air out of the molten weld, and it leaves slag over the bead (course manual p. 12). So it keeps the atmosphere out, it creates slag instead of eliminating it, and the slag cover slows cooling.",
-   "ru": "Сгорая, flux выделяет shielding gas, который не пускает воздух к расплавленному шву, и оставляет на валике slag (учебник курса, стр. 12). Значит, атмосферу он не пропускает, slag не устраняет, а создаёт, и под слоем slag шов остывает медленнее."
+   "en": "When the flux coating burns it gives off a shielding gas that keeps air out of the molten weld, and it leaves slag over the bead. So it keeps the atmosphere out rather than letting it in, it creates slag instead of eliminating it, and the slag cover slows cooling rather than speeding it.",
+   "ru": "Сгорая, flux-покрытие выделяет shielding gas, который не пускает воздух к расплавленному шву, и оставляет на валике slag. Значит, атмосферу оно не пропускает, slag не устраняет, а создаёт, и под слоем slag шов остывает медленнее, а не быстрее."
   },
   "opts": [
    {
@@ -1549,6 +1719,10 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
+   [
+    "F20",
+    180
+   ],
    [
     "Y2W5Y",
     47
@@ -1589,7 +1763,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    181
+   ]
+  ]
  },
  {
   "id": "T90-32",
@@ -1625,7 +1805,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    182
+   ]
+  ]
  },
  {
   "id": "T90-33",
@@ -1637,8 +1823,8 @@ const QUESTIONS = [
    "ru": "Чтобы избежать лишнего воздействия сварочного дыма (fumes):"
   },
   "why": {
-   "en": "Fumes keep rising from the hot weld for a few seconds after the arc stops, so wait about 10 seconds and keep your head out of the plume before inspecting. Welding outdoors actually helps ventilation, a painter's dust mask does not stop welding fume, and humidity does not create fumes.",
-   "ru": "Дым ещё несколько секунд поднимается от горячего шва после того, как дуга погасла, поэтому подождите около 10 секунд и не держите голову в столбе дыма. Сварка на улице как раз улучшает вентиляцию, малярная пылевая маска от сварочного дыма не защищает, а влажность дыма не создаёт."
+   "en": "Fumes keep rising from the hot weld for a few seconds after the arc stops, so wait about 10 seconds and keep your head out of the plume before you inspect the weld. Welding outdoors helps ventilation, a painter's dust mask does not filter welding fume, and humidity does not create fumes.",
+   "ru": "Дым ещё несколько секунд поднимается от горячего шва после того, как дуга погасла, поэтому подождите около 10 секунд и не держите голову в столбе дыма, когда осматриваете шов. Сварка на улице как раз улучшает вентиляцию, малярная пылевая маска сварочный дым не задерживает, а влажность дыма не создаёт."
   },
   "opts": [
    {
@@ -1661,7 +1847,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    218
+   ]
+  ]
  },
  {
   "id": "T90-34",
@@ -1697,7 +1889,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    183
+   ]
+  ]
  },
  {
   "id": "T90-35",
@@ -1745,8 +1943,8 @@ const QUESTIONS = [
    "ru": "Какие меры предосторожности нужно соблюдать при cracking баллонов?"
   },
   "why": {
-   "en": "Cracking means opening the cylinder valve slightly for a moment to blow dirt out before attaching the regulator; stand to one side of the outlet, never in front of it (OSHA 1926.350(d)(1)). The cylinder stays upright and secured; tipping, shaking or laying it down is not part of cracking.",
-   "ru": "Cracking — кратко приоткрыть вентиль баллона, чтобы выдуть грязь перед установкой регулятора; стоять сбоку от выхода, никогда не напротив (OSHA 1926.350(d)(1)). Баллон стоит вертикально и закреплён; наклонять, трясти или класть его при cracking не нужно."
+   "en": "Cracking means opening the cylinder valve slightly and closing it at once to blow dust out of the valve before the regulator goes on. Stand to one side of the outlet, never in front of it (OSHA 1926.350(d)(1); the same in Washington, WAC 296-155-400(4)(a)). The cylinder stays upright and secured: tipping, shaking or laying it down is never part of cracking.",
+   "ru": "Cracking — чуть приоткрыть вентиль баллона и сразу закрыть, чтобы выдуть пыль из вентиля перед установкой регулятора. Стоять сбоку от выхода, никогда не напротив (OSHA 1926.350(d)(1); в Washington то же, WAC 296-155-400(4)(a)). Баллон стоит вертикально и закреплён: наклонять, трясти или класть его при cracking нельзя."
   },
   "opts": [
    {
@@ -1781,13 +1979,13 @@ const QUESTIONS = [
    "ru": "Все ground clamp должны иметь соединения:"
   },
   "why": {
-   "en": "Cable lugs and clamps are bolted or screwed on, a mechanical connection (course manual p. 32). A soldered joint conducts worse, heats up under welding current and can melt, breaking the circuit; a screw-type clamp is the best.",
-   "ru": "Наконечники кабеля и clamp крепят болтом или винтом — это механическое соединение (учебник курса, стр. 32). Пайка проводит хуже, греется от сварочного тока и может расплавиться и разорвать цепь; лучший clamp — винтовой (screw-type)."
+   "en": "Cable lugs and clamp connections are bolted or screwed: a mechanical connection stays tight, carries the full welding current and can be taken apart to replace the cable or the clamp. Solder and brazing alloy conduct worse than copper, heat up under welding current and can melt and break the circuit; a welded joint is permanent (copper cable is not welded to a steel clamp), so nothing could be replaced. The best work clamp is a screw-type clamp.",
+   "ru": "Наконечники кабеля и соединения clamp крепят болтом или винтом. Такое механическое соединение плотно держит, проводит весь сварочный ток и разбирается, чтобы заменить кабель или clamp. Припой (soldered или brazed) проводит хуже меди, греется от сварочного тока и может расплавиться и разорвать цепь. Сварное соединение (welded) неразъёмное: медный кабель к стальному clamp не варят, и потом ничего не заменить. Лучший work clamp — винтовой (screw-type)."
   },
   "opts": [
    {
     "en": "Soldered",
-    "ru": "Паяные (soldered)"
+    "ru": "Паяные мягким припоем (soldered)"
    },
    {
     "en": "Welded",
@@ -1795,7 +1993,7 @@ const QUESTIONS = [
    },
    {
     "en": "Brazed",
-    "ru": "Паяные (brazed)"
+    "ru": "Паяные твёрдым припоем (brazed)"
    },
    {
     "en": "Mechanical",
@@ -1805,7 +2003,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    184
+   ]
+  ]
  },
  {
   "id": "T90-38",
@@ -1817,8 +2021,8 @@ const QUESTIONS = [
    "ru": "Почти без исключений GMAW используется с:"
   },
   "why": {
-   "en": "GMAW runs on DCEP (reverse polarity): it gives a stable arc, smooth metal transfer and deep penetration. With solid wire, DCEN gives an unstable, spattery arc (it is used only with some flux-cored wires), and AC is not used for standard MIG.",
-   "ru": "GMAW работает на DCEP (reverse polarity): стабильная дуга, ровный перенос металла и глубокий провар. Со сплошной проволокой DCEN даёт нестабильную дугу и брызги (его применяют только с некоторыми flux-cored проволоками), а AC в обычном MIG не используют."
+   "en": "GMAW runs on DCEP (reverse polarity): it gives a stable arc, smooth metal transfer and deep penetration. With solid wire, DCEN gives an unstable, spattery arc (it is used only with some flux-cored wires), AC is not used for standard MIG, and DCHF is not a standard term.",
+   "ru": "GMAW работает на DCEP (reverse polarity): стабильная дуга, ровный перенос металла и глубокий провар. Со сплошной проволокой DCEN даёт нестабильную дугу и брызги (его применяют только с некоторыми flux-cored проволоками), AC в обычном MIG не используют, а DCHF — не стандартное обозначение."
   },
   "opts": [
    {
@@ -1853,8 +2057,8 @@ const QUESTIONS = [
    "ru": "Вы делаете кусок duct под соединение Slip and Drive и отрезали его на 27\" по общей длине; его working length будет"
   },
   "why": {
-   "en": "S&D takes 1\" of metal on each end beyond the bend line, so working length = 27 − 1 − 1 = 25\". Trap: 26\" counts only 1/2\" per end (the 1/2\" on the formula sheet is added beyond drive-to-drive, not beyond working length).",
-   "ru": "S&D забирает 1\" металла на каждом конце за линией изгиба, поэтому working length = 27 − 1 − 1 = 25\". Ловушка: 26\" — это только по 1/2\" на конец (1/2\" из листа формул отсчитывают от drive-to-drive, а не от working length)."
+   "en": "Slip & drive uses 1\" of metal on each end beyond the bend line, so the shear (gross) length = working length + 2. Working length = 27 − 1 − 1 = 25\". Trap: 26\" takes off only ½\" per end — that is the drive-to-drive (net) length, 27 − 1.",
+   "ru": "Под slip & drive на каждом конце уходит 1\" металла за линией изгиба, поэтому shear (gross) length = working length + 2. Working length = 27 − 1 − 1 = 25\". Ловушка: 26\" — это минус только по ½\" на конец, то есть длина drive to drive (net), 27 − 1."
   },
   "opts": [
    {
@@ -1877,7 +2081,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    48
+   ]
+  ]
  },
  {
   "id": "T90-40",
@@ -1889,8 +2099,8 @@ const QUESTIONS = [
    "ru": "По plan и section view выберите transition для соединения duct."
   },
   "why": {
-   "en": "Section: bottom 7'-1\" → 7'-9\" (up 8\"), top 7'-1\" + 14\" = 8'-3\" → 7'-9\" + 8\" = 8'-5\" (up 2\"); A and B are both drawn with these 8\" and 2\" offsets and differ only in the label. They show the heights 14 and 8, so they are side views seen from the wall, and by course sheet 2I TOP is the face toward the viewer, here the wall face. In plan both ducts are 9½\" from the wall, so that face is flat → FOT → B; A (FOB) would need the room-side face flat, but it moves 20 − 16 = 4\". C says TOP UP 8\" (the top rises only 2\"); D has 2\" but its arrow points at the 20\"x14\" end, whose top is the lower one.",
-   "ru": "Section: низ 7'-1\" → 7'-9\" (вверх на 8\"), верх 7'-1\" + 14\" = 8'-3\" → 7'-9\" + 8\" = 8'-5\" (вверх на 2\"); A и B нарисованы с этими смещениями 8\" и 2\" и различаются только подписью. На них видны высоты 14 и 8, значит, это вид сбоку со стороны стены, а по листу курса 2I TOP — грань к смотрящему, здесь грань у стены. В plan оба duct стоят в 9½\" от стены, значит, эта грань плоская → FOT → B; A (FOB) требует плоской грани со стороны комнаты, а она смещается на 20 − 16 = 4\". У C TOP UP 8\" (верх поднимается только на 2\"); у D 2\" верно, но стрелка указывает на конец 20\"x14\", у которого верх как раз ниже."
+   "en": "Section AA: the bottom rises from 7'-1\" to 7'-9\" (8\"), the top from 7'-1\" + 14\" = 8'-3\" to 7'-9\" + 8\" = 8'-5\" (2\"). A and B both show these 8\" and 2\" offsets and the heights 14 and 8, so they are side views; with the big end at the bottom of the page and the duct bottom on the left, the viewer stands on the wall side. In transition terms TOP is the face toward the viewer, here the wall-side face, and in plan both ducts sit 9½\" from the wall, so that face is flat → flat on top (FOT) → B. A (FOB) would need the room-side face flat, but it moves 20 − 16 = 4\". C says TOP UP 8\" (the top rises only 2\"), and D's arrow points at the 20\"x14\" end, whose top is the lower one.",
+   "ru": "Section AA: низ поднимается с 7'-1\" до 7'-9\" (на 8\"), верх — с 7'-1\" + 14\" = 8'-3\" до 7'-9\" + 8\" = 8'-5\" (на 2\"). A и B показывают эти смещения 8\" и 2\" и высоты 14 и 8, значит, это виды сбоку; большой конец внизу листа, низ duct слева — смотрящий стоит со стороны стены. В терминах transition TOP — грань к смотрящему, здесь грань у стены, а в plan оба duct стоят в 9½\" от стены, значит, эта грань плоская → flat on top (FOT) → B. A (FOB) требует плоской грани со стороны комнаты, а она смещается на 20 − 16 = 4\". У C TOP UP 8\" (верх поднимается только на 2\"), а у D стрелка указывает на конец 20\"x14\", у которого верх как раз ниже."
   },
   "opts": [
    {
@@ -1916,6 +2126,10 @@ const QUESTIONS = [
   "type": "single",
   "fig": "t90-q40.svg",
   "on": [
+   [
+    "F20",
+    49
+   ],
    [
     "Y2W5Y",
     18
@@ -1959,6 +2173,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    185
+   ],
+   [
     "Y2W5Y",
     48
    ]
@@ -1974,8 +2192,8 @@ const QUESTIONS = [
    "ru": "GMAW на reverse polarity даёт"
   },
   "why": {
-   "en": "Reverse polarity is DCEP (electrode positive); in GMAW it gives a stable arc and deep penetration, which is why MIG almost always runs on DCEP (question 38). DCEN in GMAW gives a wider, shallower, spattery weld.",
-   "ru": "Reverse polarity — это DCEP (electrode на плюсе); в GMAW она даёт стабильную дугу и глубокий провар, поэтому MIG почти всегда варят на DCEP (вопрос 38). DCEN в GMAW даёт более широкий и мелкий шов с брызгами."
+   "en": "Reverse polarity is DCEP (electrode positive); in GMAW it gives a stable arc and deep penetration, which is why MIG almost always runs on DCEP. DCEN in GMAW gives a wider, shallower, spattery weld. Trap: in GTAW (TIG) it is the other way round.",
+   "ru": "Reverse polarity — это DCEP (electrode на плюсе); в GMAW она даёт стабильную дугу и глубокий провар, поэтому MIG почти всегда варят на DCEP. DCEN в GMAW даёт более широкий и мелкий шов с брызгами. Ловушка: в GTAW (TIG) наоборот."
   },
   "opts": [
    {
@@ -1998,7 +2216,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    186
+   ]
+  ]
  },
  {
   "id": "T90-43",
@@ -2074,8 +2298,8 @@ const QUESTIONS = [
    "ru": "Electrical stick out (расстояние от contact tip до конца проволоки electrode) при short circuit сварке должен быть:"
   },
   "why": {
-   "en": "Short circuit transfer needs a short stick out, about 3/8\" (0.375\"), so the current path through the wire is short and the arc stays stable on thin metal. A long stick out like 3/4\" is for spray transfer: it preheats the wire and lowers the current; 1/8\" puts the contact tip too close to the puddle.",
-   "ru": "Для short circuit transfer stick out держат коротким, около 3/8\" (0.375\"): путь тока по проволоке короткий, дуга на тонком металле стабильна. Длинный stick out, как 3/4\", — для spray transfer: он подогревает проволоку и снижает ток; при 1/8\" contact tip слишком близко к ванне."
+   "en": "For the test: 3/8\" (0.375\"). Short circuit transfer is run with a short electrical stickout, 1/4\" to 1/2\", and 3/8\" is the middle of that range: the short wire path keeps the current up and the arc stable on thin metal. 1/4\" is also inside the range (its short end), so it is not wrong in the shop, but the expected answer is the middle value. A long stickout like 3/4\" (0.75\") belongs to spray transfer, and 1/8\" (0.125\") puts the contact tip almost into the puddle, where spatter sticks to it and the wire burns back.",
+   "ru": "Для балла — 3/8\" (0.375\"). Для short circuit transfer держат короткий electrical stickout, от 1/4\" до 1/2\", и 3/8\" — середина этого диапазона: короткий путь тока по проволоке держит ток и стабильную дугу на тонком металле. 1/4\" тоже входит в диапазон (его короткий край), в работе это не ошибка, но ожидаемый ответ — середина. Длинный stickout, как 3/4\" (0.75\"), — для spray transfer, а при 1/8\" (0.125\") contact tip почти в ванне: к нему липнут брызги, проволока прогорает к tip (burnback)."
   },
   "opts": [
    {
@@ -2101,6 +2325,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    187
+   ],
+   [
     "Y2W5Y",
     37
    ]
@@ -2116,8 +2344,8 @@ const QUESTIONS = [
    "ru": "Из-за опасности поражения электрическим током ремонтировать сварочный источник (welding source) должен только:"
   },
   "why": {
-   "en": "Inside a welding power source is primary (line) voltage that can kill, so only a licensed (qualified) technician opens and repairs it. Welding skill or being the foreman does not make anyone qualified to work inside the machine, so \"all of the above\" is wrong too.",
-   "ru": "Внутри сварочного источника — первичное сетевое напряжение, опасное для жизни, поэтому вскрывать и ремонтировать его может только техник с лицензией (qualified). Опыт сварщика или должность foreman не дают права работать внутри машины, поэтому «все перечисленные» тоже неверно."
+   "en": "A welding power source carries primary line voltage inside that can kill, so only a licensed (qualified) technician opens and repairs it; OSHA's arc welding rule says repairs are made by qualified personnel. Welding skill or being the foreman does not make anyone qualified to work inside the machine, so \"all of the above\" is wrong too.",
+   "ru": "Внутри сварочного источника — первичное сетевое напряжение, опасное для жизни, поэтому вскрывать и ремонтировать его может только техник с лицензией (qualified); в правиле OSHA по дуговой сварке сказано, что ремонт делает квалифицированный персонал. Опыт сварщика или должность foreman такого права не дают, поэтому «все перечисленные» тоже неверно."
   },
   "opts": [
    {
@@ -2140,7 +2368,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    219
+   ]
+  ]
  },
  {
   "id": "T90-47",
@@ -2188,8 +2422,8 @@ const QUESTIONS = [
    "ru": "Комната 20'-6\" x 46'-4\". Какое расстояние от угла комнаты до противоположного угла?"
   },
   "why": {
-   "en": "Diagonal = √(20.5² + 46.3333²) = 50.6658'; 0.6658' × 12 = 7.99\" → 50'-8\". Traps: 50.8' mixes decimal feet with inches (0.6658' is 8\", not 0.8'), and 41'-6 5/8\" comes from subtracting the squares instead of adding them (√(46.3333² − 20.5²) = 41.5515').",
-   "ru": "Диагональ = √(20.5² + 46.3333²) = 50.6658'; 0.6658' × 12 = 7.99\" → 50'-8\". Ловушки: 50.8' путает десятичные футы с дюймами (0.6658' — это 8\", а не 0.8'), а 41'-6 5/8\" получается, если квадраты вычесть, а не сложить (√(46.3333² − 20.5²) = 41.5515')."
+   "en": "Diagonal of a rectangle = √(a² + b²). 20'-6\" = 20.5', 46'-4\" = 46.3333'; √(20.5² + 46.3333²) = 50.6658'. Change the decimal part to inches: 0.6658' × 12 = 7.99\" → 50'-8\". Traps: 50.8' reads the 8\" as 0.8 of a foot (8\" is only 0.667'), and 41'-6 5/8\" subtracts the squares instead of adding them (√(46.3333² − 20.5²) = 41.5515').",
+   "ru": "Диагональ прямоугольника = √(a² + b²). 20'-6\" = 20.5', 46'-4\" = 46.3333'; √(20.5² + 46.3333²) = 50.6658'. Дробную часть переводим в дюймы: 0.6658' × 12 = 7.99\" → 50'-8\". Ловушки: 50.8' — 8\" принято за 0.8 фута (а 8\" — это всего 0.667'), а 41'-6 5/8\" — квадраты вычли, а не сложили (√(46.3333² − 20.5²) = 41.5515')."
   },
   "opts": [
    {
@@ -2212,7 +2446,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    101
+   ]
+  ]
  },
  {
   "id": "T90-49",
@@ -2224,8 +2464,8 @@ const QUESTIONS = [
    "ru": "Комната 34'-3\" x 57'-2\", высота потолка 10'. Какова длина диагонали от угла на полу до противоположного угла под потолком?"
   },
   "why": {
-   "en": "Space diagonal = √(34.25² + 57.1667² + 10²) = 67.3876'; 0.3876' × 12 = 4.651\", × 16 = 74.4 → 74/16 = 4-5/8\" → 67'-4 5/8\". Trap: 66'-7 11/16\" is the floor diagonal only (√(34.25² + 57.1667²) = 66.6415'), with the 10' height left out.",
-   "ru": "Пространственная диагональ = √(34.25² + 57.1667² + 10²) = 67.3876'; 0.3876' × 12 = 4.651\", × 16 = 74.4 → 74/16 = 4-5/8\" → 67'-4 5/8\". Ловушка: 66'-7 11/16\" — диагональ одного пола (√(34.25² + 57.1667²) = 66.6415'), без высоты 10'."
+   "en": "Floor corner to opposite ceiling corner = √(length² + width² + height²) = √(34.25² + 57.1667² + 10²) = 67.3876'. 0.3876' × 12 = 4.651\"; 4.651 × 16 = 74.4 → 74/16 = 4-5/8\" → 67'-4 5/8\". Traps: 66'-7 11/16\" is the floor diagonal only (√(34.25² + 57.1667²) = 66.6415'), and 65'-10 5/8\" subtracts the 10' height instead of adding it (√(34.25² + 57.1667² − 10²) = 65.8870').",
+   "ru": "От угла на полу до противоположного угла под потолком = √(длина² + ширина² + высота²) = √(34.25² + 57.1667² + 10²) = 67.3876'. 0.3876' × 12 = 4.651\"; 4.651 × 16 = 74.4 → 74/16 = 4-5/8\" → 67'-4 5/8\". Ловушки: 66'-7 11/16\" — диагональ одного пола (√(34.25² + 57.1667²) = 66.6415'), а 65'-10 5/8\" — высоту 10' вычли, а не прибавили (√(34.25² + 57.1667² − 10²) = 65.8870')."
   },
   "opts": [
    {
@@ -2248,7 +2488,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    102
+   ]
+  ]
  },
  {
   "id": "T90-50",
@@ -2260,8 +2506,8 @@ const QUESTIONS = [
    "ru": "Выберите правильные значения размеров \"L\" и \"D\"."
   },
   "why": {
-   "en": "Rise = 11'-8\" − 8'-3\" = 41\". The 12\" R is the throat radius and the 12\" side lies in the plane of the turn, so CL R = 12 + 6 = 18\"; the two 45° elbows rise 2 × 18 × (1 − cos 45°) = 10.5442\", and the straight piece D covers the rest: D = (41 − 10.5442) ÷ sin 45° = 43.0711\" → 43.07\". L = 2 × 18 × sin 45° + D × cos 45° = 25.4558 + 30.4558 = 55.9117\" → 55.912\". 43.072\", 55.9127\" and 55.92\" each miss the exact value in the last digit.",
-   "ru": "Подъём = 11'-8\" − 8'-3\" = 41\". 12\" R — это throat radius, а в плоскости поворота лежит сторона 12\", поэтому CL R = 12 + 6 = 18\"; два elbow по 45° поднимают на 2 × 18 × (1 − cos 45°) = 10.5442\", остальное набирает прямой кусок D: D = (41 − 10.5442) ÷ sin 45° = 43.0711\" → 43.07\". L = 2 × 18 × sin 45° + D × cos 45° = 25.4558 + 30.4558 = 55.9117\" → 55.912\". У 43.072\", 55.9127\" и 55.92\" последняя цифра расходится с точным значением."
+   "en": "Here D is the straight piece and L the overall horizontal run. Rise = 11'-8\" − 8'-3\" = 140 − 99 = 41\". The 12\"R is the throat radius and the 12\" side lies in the plane of the turn, so CL R = 12 + 6 = 18\"; the two 45° elbows rise 2 × 18 × (1 − cos 45°) = 10.5442\", so D = (41 − 10.5442) ÷ sin 45° = 43.0711\" → 43.07\". L = 2 × 18 × sin 45° + D × cos 45° = 25.4558 + 30.4558 = 55.9117\" → 55.912\". Trap: 43.072\", 55.9127\" and 55.92\" each miss the exact value in the last digit.",
+   "ru": "Здесь D — прямой кусок, а L — общая длина по горизонтали. Подъём = 11'-8\" − 8'-3\" = 140 − 99 = 41\". 12\"R — throat radius, а в плоскости поворота лежит сторона 12\", поэтому CL R = 12 + 6 = 18\"; два elbow по 45° поднимают на 2 × 18 × (1 − cos 45°) = 10.5442\", значит D = (41 − 10.5442) ÷ sin 45° = 43.0711\" → 43.07\". L = 2 × 18 × sin 45° + D × cos 45° = 25.4558 + 30.4558 = 55.9117\" → 55.912\". Ловушка: у 43.072\", 55.9127\" и 55.92\" последняя цифра расходится с точным значением."
   },
   "opts": [
    {
@@ -2294,7 +2540,13 @@ const QUESTIONS = [
    4
   ],
   "type": "multi",
-  "fig": "t90-q50.svg"
+  "fig": "t90-q50.svg",
+  "on": [
+   [
+    "F20",
+    50
+   ]
+  ]
  },
  {
   "id": "T90-51",
@@ -2306,8 +2558,8 @@ const QUESTIONS = [
    "ru": "Рассчитайте и выберите недостающий размер \"A\" для duct trim joint."
   },
   "why": {
-   "en": "The 10'-0½\" (120.5\") runs from the top of the riser down to the centerline of the 8\"x8\". The 12\"x8\" → 8\"x8\" transition is flat on bottom, so that centerline is 12 − 4 = 8\" below the top of the 12\"x8\"; the elbow therefore takes its 10\" throat radius plus those 8\" = 18\". A = 120.5 − 6 − 35 − 35 − 18 = 26.5\" = 26-1/2\".",
-   "ru": "Размер 10'-0½\" (120.5\") идёт от верха стояка до centerline 8\"x8\". Transition 12\"x8\" → 8\"x8\" — FOB (плоский низ), поэтому centerline 8\"x8\" на 12 − 4 = 8\" ниже верха 12\"x8\"; elbow по высоте занимает throat radius 10\" плюс эти 8\" = 18\". A = 120.5 − 6 − 35 − 35 − 18 = 26.5\" = 26-1/2\"."
+   "en": "The 10'-0½\" (120.5\") runs from the top of the riser down to the centerline of the 8\"x8\". The 12\"x8\" → 8\"x8\" transition keeps the bottom flat, so that centerline is 12 − 4 = 8\" below the top of the 12\"x8\"; the elbow (10\" throat radius) plus those 8\" take 10 + 8 = 18\". A = 120.5 − 6 − 35 − 35 − 18 = 26.5\" = 26-1/2\". Trap: subtracting only the 10\" radius gives 34.5\", which is not among the options.",
+   "ru": "Размер 10'-0½\" (120.5\") идёт от верха стояка вниз до centerline 8\"x8\". Transition 12\"x8\" → 8\"x8\" с плоским низом, поэтому centerline 8\"x8\" на 12 − 4 = 8\" ниже верха 12\"x8\"; elbow (throat radius 10\") вместе с этими 8\" занимает 10 + 8 = 18\". A = 120.5 − 6 − 35 − 35 − 18 = 26.5\" = 26-1/2\". Ловушка: если вычесть только радиус 10\", выйдет 34.5\" — такого варианта нет."
   },
   "opts": [
    {
@@ -2334,6 +2586,10 @@ const QUESTIONS = [
   "fig": "t90-q51.svg",
   "on": [
    [
+    "F20",
+    51
+   ],
+   [
     "Y2W5Y",
     49
    ]
@@ -2349,8 +2605,8 @@ const QUESTIONS = [
    "ru": "Сколько кубических дюймов в 4 кубических футах?"
   },
   "why": {
-   "en": "1 cu. ft = 12 × 12 × 12 = 1728 cu. in.; 4 × 1728 = 6912 cu. in. Traps: 1728 is only one cubic foot, and 576 = 4 × 144 uses square inches per square foot.",
-   "ru": "1 cu. ft = 12 × 12 × 12 = 1728 cu. in.; 4 × 1728 = 6912 cu. in. Ловушки: 1728 — только один кубический фут, а 576 = 4 × 144 — это квадратные дюймы в квадратном футе."
+   "en": "1 cu. ft = 12 × 12 × 12 = 1728 cu. in., so 4 cu. ft = 4 × 1728 = 6912 cu. in. Traps: 1728 is only one cubic foot, and 576 = 4 × 144 uses square inches per square foot (an area conversion).",
+   "ru": "1 cu. ft = 12 × 12 × 12 = 1728 cu. in., поэтому 4 cu. ft = 4 × 1728 = 6912 cu. in. Ловушки: 1728 — только один кубический фут, а 576 = 4 × 144 — это квадратные дюймы в квадратном футе (пересчёт площади)."
   },
   "opts": [
    {
@@ -2373,7 +2629,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    103
+   ]
+  ]
  },
  {
   "id": "T90-53",
@@ -2385,8 +2647,8 @@ const QUESTIONS = [
    "ru": "Нужно поставить выдвижную лестницу (extension ladder) к стене высотой 12'. По правилам OSHA (см. ниже) для переносных лестниц: на какую минимальную длину нужно выдвинуть лестницу, чтобы соблюсти стандарт OSHA? Ответ округлить до дюйма. 1926.1053(b)(1): если переносная лестница служит для подъёма на верхнюю площадку, её боковины должны выступать над этой площадкой минимум на 3 фута (0.9 м). 1926.1053(b)(5)(i): лестницы без собственной опоры ставят под таким углом, чтобы расстояние по горизонтали от верхней опоры до основания лестницы было примерно в четверть рабочей длины лестницы (расстояния вдоль лестницы от основания до верхней опоры)."
   },
   "why": {
-   "en": "The working length L is the hypotenuse and its foot stands L/4 out from the wall: L² = 12² + (L/4)² → L = 12 ÷ √(15/16) = 12.3935'. Add 3' above the landing: 15.3935' = 184.72\" → 185\" = 15'-5\". Trap: 12'-5\" is the working length alone, without the 3' extension.",
-   "ru": "Рабочая длина L — гипотенуза, а её основание отстоит от стены на L/4: L² = 12² + (L/4)² → L = 12 ÷ √(15/16) = 12.3935'. Плюс 3' над площадкой: 15.3935' = 184.72\" → 185\" = 15'-5\". Ловушка: 12'-5\" — только рабочая длина, без выступа 3'."
+   "en": "The ladder leans so its foot is 1/4 of the working length L out from the wall: L² = 12² + (L/4)², so L = 12 ÷ √(15/16) = 12.3935'. Add the 3' the side rails must extend above the landing: 12.3935 + 3 = 15.3935' = 184.72\" → 185\" = 15'-5\". Washington's WAC 296-876-40020(1) and 296-876-40030(1) set the same 1/4 ratio and the same 3 ft, so the answer is the same on a WA job; a 1:4 lean is about 75° (acos ¼ = 75.52°). Traps: 12'-5\" is the working length alone, without the 3', and 15' just adds 3' to the wall height and ignores the lean.",
+   "ru": "Лестница стоит с наклоном: её основание отходит от стены на 1/4 рабочей длины L, поэтому L² = 12² + (L/4)², L = 12 ÷ √(15/16) = 12.3935'. Плюс 3', на которые боковины должны выступать над площадкой: 12.3935 + 3 = 15.3935' = 184.72\" → 185\" = 15'-5\". В Washington WAC 296-876-40020(1) и 296-876-40030(1) задают те же 1/4 и те же 3 ft, так что на объекте в WA ответ тот же; наклон 1:4 — это около 75° (acos ¼ = 75.52°). Ловушки: 12'-5\" — только рабочая длина, без 3', а 15' — просто высота стены плюс 3', без учёта наклона."
   },
   "opts": [
    {
@@ -2409,7 +2671,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    104
+   ]
+  ]
  },
  {
   "id": "T90-54",
@@ -2421,8 +2689,8 @@ const QUESTIONS = [
    "ru": "Угольником (square) вы определяете угол гиба (brake angle) на детали и получаете такие размеры (см. рисунок). Сколько градусов угол \"A\"? Округлите до целого градуса."
   },
   "why": {
-   "en": "The sloped leg rises 8-13/16\" over a run of 4-11/16\": tan θ = 8.8125 ÷ 4.6875 = 1.88 → θ = 61.99°, measured to the extension of the flat leg. Angle A is between the two legs of the bend, so A = 180 − 61.99 = 118.01° → 118°. Trap: 28° is the other acute angle of the triangle (90 − 61.99).",
-   "ru": "Наклонная полка поднимается на 8-13/16\" при выносе 4-11/16\": tan θ = 8.8125 ÷ 4.6875 = 1.88 → θ = 61.99° — это угол к продолжению плоской полки. Угол A — между самими полками гиба, поэтому A = 180 − 61.99 = 118.01° → 118°. Ловушка: 28° — второй острый угол треугольника (90 − 61.99)."
+   "en": "In the figure the sloped leg rises 8-13/16\" over a horizontal 4-11/16\": tan θ = 8.8125 ÷ 4.6875 = 1.88 → θ = 61.99°, the angle between the sloped leg and the flat leg extended. Angle A is inside the bend, between the two legs: A = 180 − 61.99 = 118.01° → 118°. Trap: 28° is the other acute angle of the small triangle (90 − 61.99).",
+   "ru": "На рисунке наклонная полка поднимается на 8-13/16\" при выносе по горизонтали 4-11/16\": tan θ = 8.8125 ÷ 4.6875 = 1.88 → θ = 61.99° — это угол между наклонной полкой и продолжением плоской. Угол A — внутри гиба, между самими полками: A = 180 − 61.99 = 118.01° → 118°. Ловушка: 28° — второй острый угол маленького треугольника (90 − 61.99)."
   },
   "opts": [
    {
@@ -2449,6 +2717,10 @@ const QUESTIONS = [
   "fig": "t90-q54.svg",
   "on": [
    [
+    "F20",
+    105
+   ],
+   [
     "Y2W5Y",
     112
    ]
@@ -2464,8 +2736,8 @@ const QUESTIONS = [
    "ru": "Найдите длину \"L\" треугольника."
   },
   "why": {
-   "en": "13.67\" is the hypotenuse (opposite the right angle) and L is the side adjacent to the 52.4° angle, so L = 13.67 × cos 52.4° = 8.3407\" → 8.34\". Traps: 10.83\" uses sin instead of cos, 17.75\" uses tan.",
-   "ru": "13.67\" — гипотенуза (напротив прямого угла), L — катет, прилежащий к углу 52.4°, поэтому L = 13.67 × cos 52.4° = 8.3407\" → 8.34\". Ловушки: 10.83\" — sin вместо cos, 17.75\" — tan."
+   "en": "13.67\" is the hypotenuse (across from the right angle) and L is the side next to the 52.4° angle, so L = hypotenuse × cos 52.4° = 13.67 × 0.6101 = 8.3407\" → 8.34\". Traps: 10.83\" uses sin (that is the side across from 52.4°), and 17.75\" uses tan.",
+   "ru": "13.67\" — гипотенуза (напротив прямого угла), L — катет, прилежащий к углу 52.4°, поэтому L = гипотенуза × cos 52.4° = 13.67 × 0.6101 = 8.3407\" → 8.34\". Ловушки: 10.83\" — sin вместо cos (это катет напротив 52.4°), 17.75\" — tan."
   },
   "opts": [
    {
@@ -2489,7 +2761,13 @@ const QUESTIONS = [
    3
   ],
   "type": "single",
-  "fig": "t90-q55.svg"
+  "fig": "t90-q55.svg",
+  "on": [
+   [
+    "F20",
+    106
+   ]
+  ]
  },
  {
   "id": "T90-56",
@@ -2501,8 +2779,8 @@ const QUESTIONS = [
    "ru": "Найдите угол \"A\" треугольника."
   },
   "why": {
-   "en": "25-3/8\" is the hypotenuse and 18-5/8\" is the side opposite A: sin A = 18.625 ÷ 25.375 = 0.7340 → A = 47.22°. Traps: 42.78° is the other acute angle (cos instead of sin), and 36.28° uses tan as if 25-3/8\" were a leg.",
-   "ru": "25-3/8\" — гипотенуза, 18-5/8\" — катет напротив угла A: sin A = 18.625 ÷ 25.375 = 0.7340 → A = 47.22°. Ловушки: 42.78° — второй острый угол (cos вместо sin), 36.28° — tan, будто 25-3/8\" это катет."
+   "en": "25-3/8\" is the hypotenuse and 18-5/8\" is the side across from A, so sin A = 18.625 ÷ 25.375 = 0.7340 → A = asin 0.7340 = 47.22°. Traps: 42.78° is the other acute angle (90 − 47.22), and 36.28° uses tan as if 25-3/8\" were a leg (atan(18.625 ÷ 25.375)).",
+   "ru": "25-3/8\" — гипотенуза, 18-5/8\" — катет напротив угла A, поэтому sin A = 18.625 ÷ 25.375 = 0.7340 → A = asin 0.7340 = 47.22°. Ловушки: 42.78° — второй острый угол (90 − 47.22), а 36.28° — tan, будто 25-3/8\" это катет (atan(18.625 ÷ 25.375))."
   },
   "opts": [
    {
@@ -2529,6 +2807,10 @@ const QUESTIONS = [
   "fig": "t90-q56.svg",
   "on": [
    [
+    "F20",
+    107
+   ],
+   [
     "Y2W5Y",
     27
    ]
@@ -2544,8 +2826,8 @@ const QUESTIONS = [
    "ru": "Рассчитайте shear size (размер заготовки) для pattern. Он симметричен относительно center line. Округлите до ближайшей 1/16."
   },
   "why": {
-   "en": "The top flare is 7-1/4\" long at 135° to the vertical side (45° to horizontal), so it adds 7.25 × sin 45° = 5.1265\" both across and up. Width = 2 × (3 + 4.25 + 5.1265) = 24.7530\" → 24-3/4\"; height = 10.375 + 5 + 5.1265 = 20.5015\" → 20-1/2\". Only 24-3/4\" x 20-1/2\" has both sizes right (width x height).",
-   "ru": "Верхний скос длиной 7-1/4\" стоит под 135° к вертикальной стенке (45° к горизонтали), поэтому добавляет 7.25 × sin 45° = 5.1265\" и в ширину, и в высоту. Ширина = 2 × (3 + 4.25 + 5.1265) = 24.7530\" → 24-3/4\"; высота = 10.375 + 5 + 5.1265 = 20.5015\" → 20-1/2\". Оба размера верны только в варианте 24-3/4\" x 20-1/2\" (ширина x высота)."
+   "en": "Work from the center line out and up. The top flare is 7-1/4\" long at 135° to the vertical side, i.e. at 45°, so it adds 7.25 × sin 45° = 5.1265\" both sideways and up. Width = 2 × (3 + 4-1/4 + 5.1265) = 24.7530\" → × 16 = 396.05 → 24-3/4\"; height = 10-3/8 + 5 + 5.1265 = 20.5015\" → × 16 = 328.02 → 20-1/2\". The 150° angle is not needed, because the 10-3/8\" already gives the rise of the lower slope. Only 24-3/4\" x 20-1/2\" (width x height) has both sizes right; the other options swap the order or have a wrong size.",
+   "ru": "Считаем от center line наружу и вверх. Верхний скос 7-1/4\" стоит под 135° к вертикальной стенке, то есть под 45°, и добавляет 7.25 × sin 45° = 5.1265\" и в сторону, и вверх. Ширина = 2 × (3 + 4-1/4 + 5.1265) = 24.7530\" → × 16 = 396.05 → 24-3/4\"; высота = 10-3/8 + 5 + 5.1265 = 20.5015\" → × 16 = 328.02 → 20-1/2\". Угол 150° не нужен: подъём нижнего скоса уже дан размером 10-3/8\". Оба размера верны только в 24-3/4\" x 20-1/2\" (ширина x высота); в остальных вариантах размеры переставлены или неверны."
   },
   "opts": [
    {
@@ -2569,7 +2851,13 @@ const QUESTIONS = [
    2
   ],
   "type": "single",
-  "fig": "t90-q57.svg"
+  "fig": "t90-q57.svg",
+  "on": [
+   [
+    "F20",
+    108
+   ]
+  ]
  },
  {
   "id": "T90-58",
@@ -2581,8 +2869,8 @@ const QUESTIONS = [
    "ru": "Oblique lines всегда проводятся под углом."
   },
   "why": {
-   "en": "An oblique line is by definition neither horizontal nor vertical, so it is always drawn at an angle.",
-   "ru": "Oblique line по определению не горизонтальная и не вертикальная, поэтому всегда идёт под углом."
+   "en": "An oblique line is by definition neither horizontal nor vertical, so it is always drawn at an angle (slanted).",
+   "ru": "Oblique line по определению не горизонтальная и не вертикальная, поэтому всегда идёт под углом (наклонно)."
   },
   "opts": [
    {
@@ -2600,6 +2888,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    52
+   ],
+   [
     "Y2W5Y",
     13
    ]
@@ -2615,8 +2907,8 @@ const QUESTIONS = [
    "ru": "Угол меньше 90 градусов называется ____ angle."
   },
   "why": {
-   "en": "An acute angle is less than 90°; a right angle is exactly 90°; an obtuse angle is between 90° and 180°.",
-   "ru": "Acute (острый) угол — меньше 90°; right (прямой) — ровно 90°; obtuse (тупой) — от 90° до 180°."
+   "en": "An acute angle is less than 90°. A right angle is exactly 90°, and an obtuse angle is more than 90° but less than 180°. \"Common\" and \"Less Common\" are not names of angles.",
+   "ru": "Acute (острый) угол — меньше 90°. Right (прямой) — ровно 90°, obtuse (тупой) — больше 90°, но меньше 180°. «Common» и «Less Common» — не названия углов."
   },
   "opts": [
    {
@@ -2639,7 +2931,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    109
+   ]
+  ]
  },
  {
   "id": "T90-60",
@@ -2651,8 +2949,8 @@ const QUESTIONS = [
    "ru": "Треугольник 4-5-6 всегда имеет угол 90 градусов."
   },
   "why": {
-   "en": "A right angle needs a² + b² = c²: 4² + 5² = 41, but 6² = 36, so the largest angle is 82.82°, not 90°. The square-corner set is 3-4-5 and its multiples.",
-   "ru": "Прямой угол будет, только если a² + b² = c²: 4² + 5² = 41, а 6² = 36, поэтому наибольший угол 82.82°, а не 90°. Для прямого угла берут 3-4-5 и кратные ему."
+   "en": "A triangle has a 90° corner only if the two short sides squared add up to the long side squared (a² + b² = c²). 4² + 5² = 16 + 25 = 41, but 6² = 36. By the law of cosines the largest angle is acos((16 + 25 − 36) ÷ (2 × 4 × 5)) = acos 0.125 = 82.82°, not 90°. Square-corner sets are 3-4-5 and its multiples (6-8-10, 12-16-20).",
+   "ru": "Прямой угол бывает, только если сумма квадратов двух коротких сторон равна квадрату длинной (a² + b² = c²). 4² + 5² = 16 + 25 = 41, а 6² = 36. По law of cosines наибольший угол = acos((16 + 25 − 36) ÷ (2 × 4 × 5)) = acos 0.125 = 82.82°, а не 90°. Прямой угол дают 3-4-5 и кратные ему (6-8-10, 12-16-20)."
   },
   "opts": [
    {
@@ -2667,7 +2965,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    110
+   ]
+  ]
  },
  {
   "id": "T90-61",
@@ -2679,8 +2983,8 @@ const QUESTIONS = [
    "ru": "На architect scale деления — в десятичных долях дюйма."
   },
   "why": {
-   "en": "An architect scale is divided in feet and fractions of an inch (1/8\" = 1'-0\", 1/4\" = 1'-0\" and so on). Decimal divisions are on the engineer's scale.",
-   "ru": "Architect scale размечен в футах и дробях дюйма (1/8\" = 1'-0\", 1/4\" = 1'-0\" и т. д.). Десятичные деления — на engineer's scale."
+   "en": "An architect scale is divided in feet and fractions of an inch (1/8\" = 1'-0\", 1/4\" = 1'-0\", 1\" = 1'-0\" and so on). Decimal divisions (10, 20, 30… parts to the inch) are on the engineer's scale.",
+   "ru": "Architect scale размечен в футах и дробях дюйма (1/8\" = 1'-0\", 1/4\" = 1'-0\", 1\" = 1'-0\" и т. д.). Десятичные деления (10, 20, 30… частей на дюйм) — на engineer's scale."
   },
   "opts": [
    {
@@ -2695,7 +2999,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    53
+   ]
+  ]
  },
  {
   "id": "T90-62",
@@ -2723,7 +3033,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    54
+   ]
+  ]
  },
  {
   "id": "T90-63",
@@ -2735,8 +3051,8 @@ const QUESTIONS = [
    "ru": "Что такое circumference?"
   },
   "why": {
-   "en": "Circumference is the distance around a circle, C = π × D. The distance across through the center is the diameter.",
-   "ru": "Circumference — длина окружности, расстояние вокруг круга: C = π × D. Расстояние поперёк через центр — это диаметр."
+   "en": "Circumference is the distance around a circle (its perimeter): C = π × D. The distance across through the center is the diameter, and the area is the surface inside the circle.",
+   "ru": "Circumference — расстояние вокруг круга (его периметр): C = π × D. Расстояние поперёк через центр — это диаметр, а площадь — поверхность внутри круга."
   },
   "opts": [
    {
@@ -2759,7 +3075,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    111
+   ]
+  ]
  },
  {
   "id": "T90-64",
@@ -2771,8 +3093,8 @@ const QUESTIONS = [
    "ru": "Можно ли на лестнице нести инструмент или материал в одной руке, не соблюдая 3-point contact?"
   },
   "why": {
-   "en": "On a ladder you keep 3-point contact at all times: two hands and a foot, or two feet and a hand. Tools go up in a tool belt or are raised on a hand line.",
-   "ru": "На лестнице всегда 3-point contact: две руки и нога или две ноги и рука. Инструмент несут в поясе или поднимают на верёвке."
+   "en": "No. On a ladder keep 3-point contact at all times: two hands and a foot, or two feet and a hand. OSHA 1926.1053(b)(21)–(22) and WAC 296-876-40025 require at least one hand on the ladder and forbid carrying any load that could make you lose balance. Tools go up in a tool belt or on a hand line.",
+   "ru": "Нет. На лестнице всегда 3-point contact: две руки и нога или две ноги и рука. OSHA 1926.1053(b)(21)–(22) и WAC 296-876-40025 требуют держаться за лестницу хотя бы одной рукой и запрещают нести груз, из-за которого можно потерять равновесие. Инструмент несут в поясе или поднимают на верёвке."
   },
   "opts": [
    {
@@ -2787,7 +3109,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    220
+   ]
+  ]
  },
  {
   "id": "T90-65",
@@ -2799,8 +3127,8 @@ const QUESTIONS = [
    "ru": "Чтобы узнать об опасности материала:"
   },
   "why": {
-   "en": "The SDS (Safety Data Sheet) lists a product's hazards, safe handling, PPE and first aid. TLV and UEL are single values printed inside an SDS, not separate sheets.",
-   "ru": "SDS (Safety Data Sheet) — лист с опасностями материала, правилами обращения, PPE и первой помощью. TLV и UEL — отдельные показатели внутри SDS, а не самостоятельные листы."
+   "en": "The SDS (Safety Data Sheet) is the document that gives a material's hazards, safe handling, PPE, first aid and spill cleanup; the employer must keep it where workers can read it. TLV (an exposure limit) and UEL (upper explosive limit) are single values printed inside the SDS, not separate sheets, and a \"health data hazard sheet\" is not a standard document.",
+   "ru": "SDS (Safety Data Sheet) — документ, где указаны опасности материала, правила обращения, PPE, первая помощь и уборка разлива; работодатель обязан держать его там, где рабочие могут его прочитать. TLV (предел воздействия) и UEL (верхний предел взрываемости) — отдельные числа внутри SDS, а не самостоятельные листы, а «health data hazard sheet» — не стандартный документ."
   },
   "opts": [
    {
@@ -2823,7 +3151,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    221
+   ]
+  ]
  },
  {
   "id": "T90-66",
@@ -2835,8 +3169,8 @@ const QUESTIONS = [
    "ru": "Симптомы, которые внезапно появляются после токсичного воздействия, — это:"
   },
   "why": {
-   "en": "Acute effects appear quickly after a short exposure. Chronic effects build up over long or repeated exposure and show up later.",
-   "ru": "Acute effects появляются быстро после короткого воздействия. Chronic effects накапливаются при долгом или повторном воздействии и проявляются позже."
+   "en": "Acute effects appear quickly, right after a short or single exposure (dizziness, burning eyes, nausea). Chronic effects build up over long or repeated exposure and show up months or years later. The other two options are not health-effect terms at all.",
+   "ru": "Acute effects появляются быстро, сразу после короткого или однократного воздействия (головокружение, жжение в глазах, тошнота). Chronic effects накапливаются при долгом или повторном воздействии и проявляются через месяцы или годы. Два других варианта вообще не термины."
   },
   "opts": [
    {
@@ -2859,7 +3193,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    222
+   ]
+  ]
  },
  {
   "id": "T90-67",
@@ -2871,8 +3211,8 @@ const QUESTIONS = [
    "ru": "Shear capacity 1016 означает, что brake рассчитан на гибку 10 футов 16 gauge."
   },
   "why": {
-   "en": "A shear cuts, it does not bend; bending is the brake's job. The number itself is read right (1016 = 10 ft long, up to 16 gauge mild steel), but the statement assigns it to a brake, so the answer is No. The instructor's margin note \"10 = gauge, 16 = max length\" reads the number the other way; machine makers (e.g. Wysong 1016 = 10 ft × 16 ga) name them length first, and the answer is No either way.",
-   "ru": "Shear режет, а не гнёт; гнёт brake. Само число прочитано верно (1016 = длина 10 футов, до 16 gauge mild steel), но утверждение приписывает его brake, поэтому ответ — «Нет». Пометка инструктора на полях «10 = gauge, 16 = max length» читает число наоборот; производители (например, Wysong 1016 = 10 ft × 16 ga) пишут сначала длину, а ответ No в любом случае."
+   "en": "No. A shear cuts and a brake bends, so \"shear capacity … brake … bending\" mixes two machines, and their capacity numbers read in mirror order. A brake is named length first, then gauge: an 1016 brake bends 16 ga up to 10 ft (Roper Whitney 1016, 816 = 16 ga up to 8 ft). A shear is named the other way round, gauge first, then length: a Wysong 1652 shear cuts 16 ga with a 52\" blade, 1052 cuts 10 ga, 52\". Read as a shear, 1016 is 10 ga, not 16 ga 10 ft long. If a test question says \"shear capacity\" about a brake, ask which machine is meant.",
+   "ru": "Нет. Shear режет, а brake гнёт, поэтому «shear capacity … brake … bending» смешивает два станка, и числа capacity у них читаются в зеркальном порядке. У brake сначала длина, потом gauge: brake 1016 гнёт 16 ga длиной до 10 футов (Roper Whitney 1016; 816 — 16 ga до 8 футов). У shear наоборот, сначала gauge, потом длина: shear Wysong 1652 режет 16 ga ножом 52\", 1052 — 10 ga, 52\". Если читать 1016 как shear, это 10 ga, а не 16 ga длиной 10 футов. Если в вопросе написано «shear capacity», а речь о brake, — уточни, о каком станке вопрос."
   },
   "opts": [
    {
@@ -2887,7 +3227,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    15
+   ]
+  ]
  },
  {
   "id": "T90-68",
@@ -2899,8 +3245,8 @@ const QUESTIONS = [
    "ru": "Назовите 2 способа присоединить round pipe к плоской поверхности:"
   },
   "why": {
-   "en": "An Air Tight Take Off (ATTO, spin-in collar) and a dovetail collar each join a round pipe to a flat sheet. Slip & drive cleats join rectangular duct sections to each other, and a hanger strap only supports the duct.",
-   "ru": "Air Tight Take Off (ATTO, spin-in) и dovetail collar — оба соединяют round pipe с плоским листом. Slip & drive cleats соединяют прямоугольные секции duct между собой, а hanger strap только подвешивает duct."
+   "en": "An Air Tight Take Off (ATTO, a spin-in collar) and a dovetail collar each join round pipe to a flat sheet; the question asks for exactly two. Slip & drive cleats join rectangular duct sections to each other, and a hanger strap only supports the duct.",
+   "ru": "Air Tight Take Off (ATTO, spin-in collar) и dovetail collar — оба соединяют round pipe с плоским листом; выбрать нужно ровно два. Slip & drive cleats соединяют прямоугольные секции duct между собой, а hanger strap только подвешивает duct."
   },
   "opts": [
    {
@@ -2924,7 +3270,13 @@ const QUESTIONS = [
    0,
    2
   ],
-  "type": "multi"
+  "type": "multi",
+  "on": [
+   [
+    "F20",
+    55
+   ]
+  ]
  },
  {
   "id": "T90-69",
@@ -2952,7 +3304,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    16
+   ]
+  ]
  },
  {
   "id": "T90-70",
@@ -2964,8 +3322,8 @@ const QUESTIONS = [
    "ru": "Какой радиус у секции flat oval 38\" x 16\"?"
   },
   "why": {
-   "en": "The round ends of a flat oval are half-circles whose diameter is the minor axis, so R = 16 ÷ 2 = 8\". The flat part is 38 − 16 = 22\" wide.",
-   "ru": "Закругления flat oval — полукруги с диаметром, равным малой стороне, поэтому R = 16 ÷ 2 = 8\". Прямой участок — 38 − 16 = 22\"."
+   "en": "A flat oval is two half-circles joined by flat sides, and the diameter of each half-circle equals the small dimension. R = 16 ÷ 2 = 8\". The flat part is 38 − 16 = 22\" long.",
+   "ru": "Flat oval — это два полукруга, соединённые прямыми стенками, и диаметр каждого полукруга равен малой стороне. R = 16 ÷ 2 = 8\". Прямой участок — 38 − 16 = 22\"."
   },
   "opts": [
    {
@@ -2988,7 +3346,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    112
+   ]
+  ]
  },
  {
   "id": "T90-71",
@@ -3000,8 +3364,8 @@ const QUESTIONS = [
    "ru": "Каким раствором циркуля (setting) строят шестиугольник (hexagon), вписанный в круг?"
   },
   "why": {
-   "en": "The side of a hexagon inscribed in a circle equals the radius, so the dividers are set to half the centerline (the diameter line), i.e. the radius, and stepped around the circle six times.",
-   "ru": "Сторона вписанного шестиугольника равна радиусу, поэтому циркуль ставят на половину centerline (диаметра), то есть на радиус, и шагают по окружности шесть раз."
+   "en": "The side of a hexagon inscribed in a circle equals the radius (the hexagon is six equilateral triangles). Half the centerline — half the diameter line across the circle — is the radius, so set the dividers to it and step around the circle: six steps close the hexagon.",
+   "ru": "Сторона шестиугольника, вписанного в круг, равна радиусу (он состоит из шести равносторонних треугольников). Половина centerline — половина линии диаметра через круг — это и есть радиус: циркуль ставят на него и шагают по окружности, шесть шагов замыкают шестиугольник."
   },
   "opts": [
    {
@@ -3024,7 +3388,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    56
+   ]
+  ]
  },
  {
   "id": "T90-72",
@@ -3036,8 +3406,8 @@ const QUESTIONS = [
    "ru": "Каким раствором циркуля делят quadrant круга на 3 равные части?"
   },
   "why": {
-   "en": "With the dividers set to the radius, swing an arc from each end of the quadrant: each mark lands 60° from its end, so the marks fall at 30° and 60° and split the 90° into three 30° parts.",
-   "ru": "Циркуль ставят на радиус и делают засечки из обоих концов quadrant: каждая засечка отстоит от своего конца на 60°, поэтому они ложатся на 30° и 60° и делят 90° на три части по 30°."
+   "en": "Set the dividers to the radius and swing an arc from each end of the quadrant: a chord equal to the radius spans 60°, so the marks land at 60° and 30° and split the 90° into three 30° parts. The word \"bisect\" is used loosely here: the quadrant is divided into three, not two.",
+   "ru": "Циркуль ставят на радиус и делают засечки из обоих концов quadrant: хорда, равная радиусу, стягивает 60°, поэтому засечки ложатся на 60° и 30° и делят 90° на три части по 30°. Слово «bisect» здесь употреблено свободно: quadrant делят на три части, а не на две."
   },
   "opts": [
    {
@@ -3060,7 +3430,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    57
+   ]
+  ]
  },
  {
   "id": "T90-73",
@@ -3072,8 +3448,8 @@ const QUESTIONS = [
    "ru": "Как расшифровывается сокращение WISHA?"
   },
   "why": {
-   "en": "WISHA is the Washington Industrial Safety and Health Act, the state workplace-safety law enforced by L&I (DOSH) under Washington's OSHA-approved state plan. The other options change or reorder words of the real name.",
-   "ru": "WISHA — Washington Industrial Safety and Health Act, закон штата о безопасности труда; его применяет L&I (DOSH) как утверждённый OSHA state plan. Остальные варианты меняют или переставляют слова настоящего названия."
+   "en": "WISHA is the Washington Industrial Safety and Health Act of 1973 (RCW 49.17). L&I's DOSH enforces it as Washington's OSHA-approved state plan, and its rules are the WAC 296 chapters. The wrong options change one word (Account, Industry Safe) or swap Safety and Health.",
+   "ru": "WISHA — Washington Industrial Safety and Health Act 1973 года (RCW 49.17). Его применяет DOSH при L&I как state plan штата, утверждённый OSHA; правила по нему — главы WAC 296. Неверные варианты меняют одно слово (Account, Industry Safe) или переставляют Safety и Health."
   },
   "opts": [
    {
@@ -3096,7 +3472,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    223
+   ]
+  ]
  },
  {
   "id": "T90-74",
@@ -3108,8 +3490,8 @@ const QUESTIONS = [
    "ru": "Переведите 74 дюйма в футы с десятичными долями фута."
   },
   "why": {
-   "en": "74 ÷ 12 = 6.1667 → 6.167'. Traps: 5.667' and 5.666' are 68\" (rounded and cut off), and 6.116' is simply a wrong value.",
-   "ru": "74 ÷ 12 = 6.1667 → 6.167'. Ловушки: 5.667' и 5.666' — это 68\" (с округлением и с обрезкой), а 6.116' — просто неверное значение."
+   "en": "Feet and decimals of a foot = inches ÷ 12: 74 ÷ 12 = 6.1667 → 6.167'. Traps: 5.667' and 5.666' are 68\" (68 ÷ 12 = 5.6667, rounded and cut off), and 6.116' has the digits mixed up.",
+   "ru": "Футы с десятичными долями = дюймы ÷ 12: 74 ÷ 12 = 6.1667 → 6.167'. Ловушки: 5.667' и 5.666' — это 68\" (68 ÷ 12 = 5.6667, с округлением и с обрезкой), а в 6.116' перепутаны цифры."
   },
   "opts": [
    {
@@ -3132,7 +3514,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    113
+   ]
+  ]
  },
  {
   "id": "T90-75",
@@ -3144,8 +3532,8 @@ const QUESTIONS = [
    "ru": "Какова площадь треугольника на рисунке ниже?"
   },
   "why": {
-   "en": "Area = base × height ÷ 2 = 4 × 8 ÷ 2 = 16 sq. in.; the 8\" height is measured square to the 4\" base even though it falls outside the triangle. Traps: 32 forgets the ÷ 2, and cu. in. is a volume unit.",
-   "ru": "Площадь = основание × высота ÷ 2 = 4 × 8 ÷ 2 = 16 sq. in.; высота 8\" меряется под прямым углом к основанию 4\", хотя падает вне треугольника. Ловушки: 32 — забыли ÷ 2, а cu. in. — единица объёма."
+   "en": "Area of a triangle = base × height ÷ 2 = 4 × 8 ÷ 2 = 16 sq. in. The 8\" height is measured square to the 4\" base, even when the top point sits past the end of the base, as here. Traps: 32 forgets the ÷ 2, and cu. in. is a volume unit.",
+   "ru": "Площадь треугольника = основание × высота ÷ 2 = 4 × 8 ÷ 2 = 16 sq. in. Высоту 8\" меряют под прямым углом к основанию 4\", даже если вершина выходит за край основания, как здесь. Ловушки: 32 — забыли ÷ 2, а cu. in. — единица объёма."
   },
   "opts": [
    {
@@ -3169,7 +3557,13 @@ const QUESTIONS = [
    2
   ],
   "type": "single",
-  "fig": "t90-q75.svg"
+  "fig": "t90-q75.svg",
+  "on": [
+   [
+    "F20",
+    114
+   ]
+  ]
  },
  {
   "id": "T90-76",
@@ -3181,8 +3575,8 @@ const QUESTIONS = [
    "ru": "Найдите объём коробки в кубических дюймах."
   },
   "why": {
-   "en": "Volume = 11 × 5 × 8 = 440 cu. in. Traps: sq. in. is an area unit, and 1.904 gallons (440 ÷ 231 = 1.9048, cut off rather than rounded) is not the unit asked for.",
-   "ru": "Объём = 11 × 5 × 8 = 440 cu. in. Ловушки: sq. in. — единица площади, а 1.904 gallons (440 ÷ 231 = 1.9048, обрезано, а не округлено) — не та единица, которую спрашивают."
+   "en": "Volume of a box = length × width × height = 11 × 5 × 8 = 440 cu. in. Traps: 440 sq. in. has the right number but an area unit, and 1.904 gallons is the volume in gallons (440 ÷ 231 = 1.9048), while the question asks for cubic inches.",
+   "ru": "Объём коробки = длина × ширина × высота = 11 × 5 × 8 = 440 cu. in. Ловушки: в 440 sq. in. число верное, но единица площади, а 1.904 gallons — объём в галлонах (440 ÷ 231 = 1.9048), а спрашивают кубические дюймы."
   },
   "opts": [
    {
@@ -3206,7 +3600,13 @@ const QUESTIONS = [
    1
   ],
   "type": "single",
-  "fig": "t90-q76.svg"
+  "fig": "t90-q76.svg",
+  "on": [
+   [
+    "F20",
+    115
+   ]
+  ]
  },
  {
   "id": "T90-77",
@@ -3218,8 +3618,8 @@ const QUESTIONS = [
    "ru": "Сколько кубических дюймов в 3 галлонах?"
   },
   "why": {
-   "en": "One US gallon = 231 cu. in., so 3 × 231 = 693 cu. in. Traps: 462 is 2 gallons and 231 is 1 gallon.",
-   "ru": "Один US gallon = 231 cu. in., поэтому 3 × 231 = 693 cu. in. Ловушки: 462 — это 2 галлона, 231 — один."
+   "en": "One US gallon = 231 cu. in., so 3 gallons = 3 × 231 = 693 cu. in. Traps: 462 is 2 gallons, 231 is 1 gallon, and sq. in. is an area unit.",
+   "ru": "Один US gallon = 231 cu. in., поэтому 3 галлона = 3 × 231 = 693 cu. in. Ловушки: 462 — это 2 галлона, 231 — один, а sq. in. — единица площади."
   },
   "opts": [
    {
@@ -3242,7 +3642,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    116
+   ]
+  ]
  },
  {
   "id": "T90-78",
@@ -3254,8 +3660,8 @@ const QUESTIONS = [
    "ru": "В каком положении оставить рукоять beverly shear после работы?"
   },
   "why": {
-   "en": "Leave the handle down: the blades are closed and the heavy handle cannot drop onto someone's hand or head.",
-   "ru": "Рукоять оставляют внизу: ножи сомкнуты, и тяжёлая рукоять не упадёт кому-нибудь на руку или голову."
+   "en": "Leave the handle down: the blades are closed, the cutting edge is not exposed, and the heavy handle cannot drop onto someone's hand or head.",
+   "ru": "Рукоять оставляют внизу: ножи сомкнуты, режущая кромка закрыта, и тяжёлая рукоять не упадёт кому-нибудь на руку или голову."
   },
   "opts": [
    {
@@ -3270,7 +3676,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    17
+   ]
+  ]
  },
  {
   "id": "T90-79",
@@ -3282,8 +3694,8 @@ const QUESTIONS = [
    "ru": "Площадь половины круга называется quadrant."
   },
   "why": {
-   "en": "Half a circle is a semicircle; a quadrant is one quarter of a circle (90°).",
-   "ru": "Половина круга — semicircle; quadrant — четверть круга (90°)."
+   "en": "Half a circle is a semicircle (180°); a quadrant is one quarter of a circle (90°). So the statement is false.",
+   "ru": "Половина круга — semicircle (180°), а quadrant — четверть круга (90°). Поэтому утверждение неверно."
   },
   "opts": [
    {
@@ -3298,7 +3710,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    117
+   ]
+  ]
  },
  {
   "id": "T90-80",
@@ -3310,8 +3728,8 @@ const QUESTIONS = [
    "ru": "Можно резать mild steel 12 gauge на power shear 816, если длина 4' или меньше."
   },
   "why": {
-   "en": "816 means 8 ft long and 16 gauge maximum. 12 gauge is thicker than 16 gauge (higher number = thinner), and a shorter cut does not raise the thickness limit.",
-   "ru": "816 — это длина 8 футов и максимум 16 gauge. 12 gauge толще, чем 16 (чем больше номер, тем тоньше), а короткий рез предел по толщине не поднимает."
+   "en": "No, whichever way 816 is read. As a brake-style number (length, then gauge) it is 8 ft and 16 ga maximum: 12 ga (0.1046\") is 0.1046 ÷ 0.0598 = 1.75 times as thick as 16 ga (0.0598\"), too heavy at any length. As a shear number (gauge, then length in inches, like Wysong 1652 = 16 ga × 52\") it is 8 ga with a 16\" blade: 12 ga is thin enough, but a 4' (48\") cut is three times the 16\" blade. Over capacity either way; on the job read the capacity plate.",
+   "ru": "Нет — как ни читай 816. Как у brake (сначала длина, потом gauge): 8 футов и максимум 16 ga; 12 ga (0.1046\") толще 16 ga (0.0598\") в 0.1046 ÷ 0.0598 = 1.75 раза — слишком толсто при любой длине. Как у shear (сначала gauge, потом длина в дюймах, как Wysong 1652 = 16 ga × 52\"): 8 ga и нож 16\"; 12 ga по толщине проходит, но рез 4' (48\") втрое длиннее ножа 16\". В обоих случаях больше capacity; на работе смотри табличку станка."
   },
   "opts": [
    {
@@ -3326,7 +3744,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    18
+   ]
+  ]
  },
  {
   "id": "T90-81",
@@ -3338,8 +3762,8 @@ const QUESTIONS = [
    "ru": "Рекомендуется или обязательно надевать safety glasses при работе с Sawzall?"
   },
   "why": {
-   "en": "A Sawzall (reciprocating saw) throws chips, metal slivers and broken blade pieces, so eye protection is required, as with any power cutting tool.",
-   "ru": "Sawzall (reciprocating saw) выбрасывает стружку, осколки металла и куски полотна, поэтому защита глаз обязательна, как с любым режущим электроинструментом."
+   "en": "Yes. A Sawzall (reciprocating saw) throws chips, metal slivers and pieces of broken blade, and OSHA 1926.102(a)(1) and WAC 296-155-215 require eye protection whenever flying particles are a hazard.",
+   "ru": "Да. Sawzall (reciprocating saw) выбрасывает стружку, осколки металла и куски сломанного полотна, а OSHA 1926.102(a)(1) и WAC 296-155-215 требуют защиту глаз везде, где есть летящие частицы."
   },
   "opts": [
    {
@@ -3354,7 +3778,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    224
+   ]
+  ]
  },
  {
   "id": "T90-82",
@@ -3366,8 +3796,8 @@ const QUESTIONS = [
    "ru": "Чтобы проверить, прямой ли угол, можно использовать треугольник 12-16-20."
   },
   "why": {
-   "en": "12-16-20 is 3-4-5 times 4: 12² + 16² = 144 + 256 = 400 = 20², so the corner between the 12 and 16 sides is exactly 90°.",
-   "ru": "12-16-20 — это 3-4-5, умноженный на 4: 12² + 16² = 144 + 256 = 400 = 20², поэтому угол между сторонами 12 и 16 ровно 90°."
+   "en": "12-16-20 is the 3-4-5 triangle times 4: 12² + 16² = 144 + 256 = 400 = 20². So if the diagonal between the 12 and 16 marks measures exactly 20, the corner between them is 90°.",
+   "ru": "12-16-20 — это 3-4-5, умноженный на 4: 12² + 16² = 144 + 256 = 400 = 20². Если диагональ между отметками 12 и 16 ровно 20, угол между ними 90°."
   },
   "opts": [
    {
@@ -3382,7 +3812,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    118
+   ]
+  ]
  },
  {
   "id": "T90-83",
@@ -3394,8 +3830,8 @@ const QUESTIONS = [
    "ru": "RFI — это письменный запрос компании, которой нужно выполнить работу или услуги, к другой компании о смете или ценовом предложении на эту работу."
   },
   "why": {
-   "en": "An RFI is a Request for Information: a written question to the designer or GC to clear up a gap or conflict in the drawings or specs. A request for a price is an RFP or RFQ.",
-   "ru": "RFI — Request for Information: письменный вопрос проектировщику или GC, чтобы прояснить пробел или противоречие в чертежах или specs. Запрос цены — это RFP или RFQ."
+   "en": "False. An RFI (Request for Information) is a written question to the architect, engineer or general contractor to clear up a gap or conflict in the drawings or specs; the written answer becomes part of the job record. A request to another company for a price is an RFP (Request for Proposal) or RFQ (Request for Quotation).",
+   "ru": "Неверно. RFI (Request for Information) — письменный вопрос архитектору, инженеру или GC, чтобы прояснить пробел или противоречие в чертежах или specs; письменный ответ остаётся в документах проекта. Запрос цены у другой компании — это RFP (Request for Proposal) или RFQ (Request for Quotation)."
   },
   "opts": [
    {
@@ -3410,7 +3846,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    256
+   ]
+  ]
  },
  {
   "id": "T90-84",
@@ -3422,8 +3864,8 @@ const QUESTIONS = [
    "ru": "Грамотная раскладка материала и оборудования (staging) особенно важна на проектах с плотным графиком и жёсткими сроками, например при остановках завода (plant shutdowns) и т. п."
   },
   "why": {
-   "en": "On a shutdown the work window is short and fixed, so material and equipment must already be staged where they will be used; time lost hunting for parts cannot be made up.",
-   "ru": "На shutdown окно работ короткое и жёсткое, поэтому материал и оборудование должны заранее лежать там, где понадобятся; время, потерянное на поиски, не вернуть."
+   "en": "True. Staging means having material and equipment set out where and when they will be used. On a plant shutdown the work window is short and fixed, so everything must be staged before it opens; time lost hunting for parts cannot be made up.",
+   "ru": "Верно. Staging — материал и оборудование заранее разложены там, где и когда они понадобятся. На shutdown окно работ короткое и жёсткое, поэтому всё раскладывают до его начала; время, потерянное на поиски, не вернуть."
   },
   "opts": [
    {
@@ -3438,7 +3880,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    257
+   ]
+  ]
  },
  {
   "id": "T90-85",
@@ -3450,8 +3898,8 @@ const QUESTIONS = [
    "ru": "Rigger'ам не нужно определять вес груза перед подъёмом: если груз слишком тяжёлый, rigging его просто не поднимет. Верно или неверно?"
   },
   "why": {
-   "en": "Overloaded rigging does not simply refuse to lift: a sling, hook or the crane can fail mid-lift and drop the load. The weight is found first so that rigging rated above it (SWL) can be chosen.",
-   "ru": "Перегруженный rigging не «откажется» поднимать: sling, hook или кран может не выдержать прямо в подъёме и уронить груз. Вес узнают заранее, чтобы подобрать rigging с SWL выше этого веса."
+   "en": "False. Overloaded rigging does not refuse to lift: a sling, shackle, hook or the hoist can fail in the middle of the lift and drop the load. Find the load weight first, then choose rigging whose rated capacity (SWL) is above that weight.",
+   "ru": "Неверно. Перегруженный rigging не «откажется» поднимать: sling, shackle, hook или таль могут не выдержать прямо в подъёме и уронить груз. Сначала узнают вес груза, потом подбирают rigging с rated capacity (SWL) больше этого веса."
   },
   "opts": [
    {
@@ -3466,7 +3914,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    225
+   ]
+  ]
  },
  {
   "id": "T90-86",
@@ -3478,8 +3932,8 @@ const QUESTIONS = [
    "ru": "Переведите 21' - 9\" в метры. (Округлить до 3 знаков после точки. Подсказка: 1 метр = 3.2808 фута.)"
   },
   "why": {
-   "en": "21'-9\" = 21.75' (9 ÷ 12 = 0.75); 21.75 ÷ 3.2808 = 6.6295 → 6.629 m. Traps: 6.675 m reads 21'-9\" as 21.9' (21.9 ÷ 3.2808 = 6.6752), and 71.358 m multiplies instead of dividing (21.75 × 3.28084 = 71.358).",
-   "ru": "21'-9\" = 21.75' (9 ÷ 12 = 0.75); 21.75 ÷ 3.2808 = 6.6295 → 6.629 m. Ловушки: 6.675 m — 21'-9\" принято за 21.9' (21.9 ÷ 3.2808 = 6.6752), а 71.358 m — умножили, а не разделили (21.75 × 3.28084 = 71.358)."
+   "en": "First change ft-in to decimal feet: 9\" ÷ 12 = 0.75, so 21'-9\" = 21.75'. Then feet ÷ 3.2808 = meters: 21.75 ÷ 3.2808 = 6.6295 → 6.629 m. Traps: 6.675 m reads 21'-9\" as 21.9' (21.9 ÷ 3.2808 = 6.6752), and 71.358 m multiplies instead of dividing (21.75 × 3.2808 = 71.36).",
+   "ru": "Сначала ft-in в десятичные футы: 9\" ÷ 12 = 0.75, значит 21'-9\" = 21.75'. Затем футы ÷ 3.2808 = метры: 21.75 ÷ 3.2808 = 6.6295 → 6.629 m. Ловушки: 6.675 m — 21'-9\" принято за 21.9' (21.9 ÷ 3.2808 = 6.6752), а 71.358 m — умножили вместо деления (21.75 × 3.2808 = 71.36)."
   },
   "opts": [
    {
@@ -3502,7 +3956,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    119
+   ]
+  ]
  },
  {
   "id": "T90-87",
@@ -3514,8 +3974,8 @@ const QUESTIONS = [
    "ru": "Низ балки (beam) — на 14'-4\" от пола, потолок (ceiling elevation) — на 9'-6\" от пола. Вы вешаете duct высотой 20\", его низ на 9\" выше потолка. Какое расстояние между верхом duct и низом балки?"
   },
   "why": {
-   "en": "Beam bottom = 14'-4\" = 172\"; duct top = 9'-6\" + 9\" + 20\" = 114 + 9 + 20 = 143\"; clearance = 172 − 143 = 29\". Trap: 38\" leaves out the 9\" gap above the ceiling.",
-   "ru": "Низ балки = 14'-4\" = 172\"; верх duct = 9'-6\" + 9\" + 20\" = 114 + 9 + 20 = 143\"; зазор = 172 − 143 = 29\". Ловушка: 38\" — забыли зазор 9\" над потолком."
+   "en": "Work in inches from the floor. Beam bottom = 14'-4\" = 172\". Duct top = ceiling 9'-6\" (114\") + 9\" gap + 20\" duct = 143\". Space = 172 − 143 = 29\". Trap: 38\" leaves out the 9\" gap above the ceiling (172 − 114 − 20).",
+   "ru": "Считаем в дюймах от пола. Низ балки = 14'-4\" = 172\". Верх duct = потолок 9'-6\" (114\") + зазор 9\" + duct 20\" = 143\". Расстояние = 172 − 143 = 29\". Ловушка: 38\" — забыли зазор 9\" над потолком (172 − 114 − 20)."
   },
   "opts": [
    {
@@ -3538,7 +3998,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    120
+   ]
+  ]
  },
  {
   "id": "T90-88",
@@ -3550,8 +4016,8 @@ const QUESTIONS = [
    "ru": "Рассчитайте длину transition при угле 15 градусов."
   },
   "why": {
-   "en": "The bottom is flat, so the top climbs from the 24\" side to the 34\" side: rise = 34 − 24 = 10\". Length = rise ÷ tan 15° = 10 ÷ 0.267949 = 37.3205\", × 16 = 597.1 → 597/16 = 37-5/16\". Trap: 44-13/16\" is the answer to the same drawing with a 36\" end (12 ÷ tan 15° = 44.7846\").",
-   "ru": "Низ плоский, поэтому верх поднимается от стороны 24\" до стороны 34\": rise = 34 − 24 = 10\". Длина = rise ÷ tan 15° = 10 ÷ 0.267949 = 37.3205\", × 16 = 597.1 → 597/16 = 37-5/16\". Ловушка: 44-13/16\" — ответ той же задачи с концом 36\" (12 ÷ tan 15° = 44.7846\")."
+   "en": "The first number of a duct size is the side shown in the view, so the ends are 24\" and 34\" high. The bottom is flat (square mark), so only the top climbs: rise = 34 − 24 = 10\". Length = rise ÷ tan 15° = 10 ÷ 0.267949 = 37.3205\"; × 16 = 597.13 → 597/16 = 37-5/16\". Trap: 44-13/16\" is the answer to the same drawing with a 36\" end (12 ÷ tan 15° = 44.7846\"), and 44-3/4\" is that value cut down.",
+   "ru": "Первая цифра размера duct — сторона, показанная на виде, поэтому концы высотой 24\" и 34\". Низ плоский (значок прямого угла), поднимается только верх: rise = 34 − 24 = 10\". Длина = rise ÷ tan 15° = 10 ÷ 0.267949 = 37.3205\"; × 16 = 597.13 → 597/16 = 37-5/16\". Ловушка: 44-13/16\" — ответ того же чертежа с концом 36\" (12 ÷ tan 15° = 44.7846\"), а 44-3/4\" — то же значение, обрезанное вниз."
   },
   "opts": [
    {
@@ -3575,7 +4041,13 @@ const QUESTIONS = [
    1
   ],
   "type": "single",
-  "fig": "t90-q88.svg"
+  "fig": "t90-q88.svg",
+  "on": [
+   [
+    "F20",
+    58
+   ]
+  ]
  },
  {
   "id": "T90-89",
@@ -3587,8 +4059,8 @@ const QUESTIONS = [
    "ru": "Рассчитайте высоту цилиндра, вмещающего 13 галлонов, с точностью до 1/16."
   },
   "why": {
-   "en": "Volume = 13 × 231 = 3003 cu. in.; the 14\" Ø base has area π × 7² = 153.938 sq. in.; height = 3003 ÷ 153.938 = 19.5078\" → 19.51\". The options are decimals; to the nearest 16th the same height is 19-1/2\" (19.5078 × 16 = 312.1 → 312/16).",
-   "ru": "Объём = 13 × 231 = 3003 cu. in.; площадь дна при 14\" Ø = π × 7² = 153.938 sq. in.; высота = 3003 ÷ 153.938 = 19.5078\" → 19.51\". Варианты даны десятичными; с точностью до 1/16 та же высота — 19-1/2\" (19.5078 × 16 = 312.1 → 312/16)."
+   "en": "Volume = 13 × 231 = 3003 cu. in. The 14\" Ø base has area π × 7² = 153.938 sq. in. Height = volume ÷ base area = 3003 ÷ 153.938 = 19.5078\" → 19.51\". The options are decimals; to the nearest 16th the same height is 19-1/2\" (19.5078 × 16 = 312.1 → 312/16).",
+   "ru": "Объём = 13 × 231 = 3003 cu. in. Площадь дна при 14\" Ø = π × 7² = 153.938 sq. in. Высота = объём ÷ площадь дна = 3003 ÷ 153.938 = 19.5078\" → 19.51\". Варианты даны десятичными; с точностью до 1/16 та же высота — 19-1/2\" (19.5078 × 16 = 312.1 → 312/16)."
   },
   "opts": [
    {
@@ -3612,7 +4084,13 @@ const QUESTIONS = [
    2
   ],
   "type": "single",
-  "fig": "t90-q89.svg"
+  "fig": "t90-q89.svg",
+  "on": [
+   [
+    "F20",
+    121
+   ]
+  ]
  },
  {
   "id": "T90-90",
@@ -3621,11 +4099,11 @@ const QUESTIONS = [
   "topic": "math",
   "q": {
    "en": "Solve outside wall angle \"A\". round number to nearest whole degree",
-   "ru": "Найдите угол \"A\" по наружной стенке (outside wall). округлите до целого градуса"
+   "ru": "Найдите угол \"A\" по наружной стенке (outside wall). Округлите до целого градуса"
   },
   "why": {
-   "en": "Along the outside wall the run is 14'-5¼\" − 10'-6\" = 47.25\" and the rise is 4'-6¼\" = 54.25\"; A = atan(54.25 ÷ 47.25) = 48.945° → 49°. Traps: 41° is the other acute angle (90 − 48.945), and 48° cuts off the decimals instead of rounding.",
-   "ru": "По наружной стенке вынос 14'-5¼\" − 10'-6\" = 47.25\", подъём 4'-6¼\" = 54.25\"; A = atan(54.25 ÷ 47.25) = 48.945° → 49°. Ловушки: 41° — второй острый угол (90 − 48.945), 48° — обрезка вместо округления."
+   "en": "Along the outside wall, run = 14'-5 1/4\" − 10'-6\" = 173.25 − 126 = 47.25\" and rise = 4'-6 1/4\" = 54.25\". A = atan(rise ÷ run) = atan(54.25 ÷ 47.25) = 48.945° → 49°. Traps: 41° is the other acute angle (90 − 48.945), and 48° cuts off the decimals instead of rounding.",
+   "ru": "По наружной стенке вынос = 14'-5 1/4\" − 10'-6\" = 173.25 − 126 = 47.25\", подъём = 4'-6 1/4\" = 54.25\". A = atan(подъём ÷ вынос) = atan(54.25 ÷ 47.25) = 48.945° → 49°. Ловушки: 41° — второй острый угол (90 − 48.945), а 48° — обрезка вместо округления."
   },
   "opts": [
    {
@@ -3649,7 +4127,13 @@ const QUESTIONS = [
    1
   ],
   "type": "single",
-  "fig": "t90-q90.svg"
+  "fig": "t90-q90.svg",
+  "on": [
+   [
+    "F20",
+    122
+   ]
+  ]
  },
  {
   "id": "TRI-1",
@@ -3661,8 +4145,8 @@ const QUESTIONS = [
    "ru": "1/4 + 5/8 + 11/16 ="
   },
   "why": {
-   "en": "Bring everything to 16ths: 4/16 + 10/16 + 11/16 = 25/16 = 1-9/16 (1.5625). 1.53 is not the decimal of 25/16, and 17/16 = 1-1/16 is 8/16 short.",
-   "ru": "Приводим к 16-м: 4/16 + 10/16 + 11/16 = 25/16 = 1-9/16 (1.5625). 1.53 — не десятичная запись 25/16, а 17/16 = 1-1/16 меньше на 8/16."
+   "en": "Bring everything to 16ths: 1/4 = 4/16 and 5/8 = 10/16, so 4/16 + 10/16 + 11/16 = 25/16 = 1-9/16 (1.5625). Traps: 1.53 is not equal to 25/16, and 17/16 = 1-1/16 is 8/16 short.",
+   "ru": "Приводим к 16-м: 1/4 = 4/16, 5/8 = 10/16, итого 4/16 + 10/16 + 11/16 = 25/16 = 1-9/16 (1.5625). Ловушки: 1.53 не равно 25/16, а 17/16 = 1-1/16 меньше на 8/16."
   },
   "opts": [
    {
@@ -3685,7 +4169,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    123
+   ]
+  ]
  },
  {
   "id": "TRI-2",
@@ -3697,8 +4187,8 @@ const QUESTIONS = [
    "ru": "25.345454545"
   },
   "why": {
-   "en": "Rounding to 2 decimals looks at the third decimal: 25.34|5454… — it is 5, so the second decimal goes up: 25.35. 25.34 is cut off, and 25.345 and 25.346 have 3 decimals.",
-   "ru": "Для 2 знаков смотрят на третий: 25.34|5454… — там 5, значит второй знак увеличиваем: 25.35. 25.34 — обрезка, а 25.345 и 25.346 — это 3 знака."
+   "en": "To round to 2 decimals, look at the 3rd decimal: 25.34|5454… — it is 5, so the 2nd decimal goes up: 25.35. Traps: 25.34 cuts off instead of rounding, and 25.345 and 25.346 have 3 decimals.",
+   "ru": "Для 2 знаков после точки смотрят на третий: 25.34|5454… — там 5, поэтому второй знак увеличиваем: 25.35. Ловушки: 25.34 — обрезка вместо округления, а 25.345 и 25.346 — это 3 знака."
   },
   "hint": {
    "en": "Round to 2 Decimals",
@@ -3725,7 +4215,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    124
+   ]
+  ]
  },
  {
   "id": "TRI-3",
@@ -3737,8 +4233,8 @@ const QUESTIONS = [
    "ru": "7/32 ="
   },
   "why": {
-   "en": "7 ÷ 32 = 0.21875; for 3 places the fourth digit is 7, so round up: .219. .218 is cut off, and 4.570 / 4.571 divide the wrong way (32 ÷ 7 = 4.5714).",
-   "ru": "7 ÷ 32 = 0.21875; для 3 знаков четвёртая цифра 7, округляем вверх: .219. .218 — обрезка, а 4.570 и 4.571 — деление наоборот (32 ÷ 7 = 4.5714)."
+   "en": "7 ÷ 32 = 0.21875. For 3 places look at the 4th digit (7), so round up: .219. Traps: .218 cuts off instead of rounding, and 4.570 / 4.571 divide the wrong way (32 ÷ 7 = 4.5714).",
+   "ru": "7 ÷ 32 = 0.21875. Для 3 знаков смотрят на четвёртую цифру (7), поэтому округляем вверх: .219. Ловушки: .218 — обрезка вместо округления, а 4.570 и 4.571 — деление наоборот (32 ÷ 7 = 4.5714)."
   },
   "hint": {
    "en": "Convert to a 3 place decimal",
@@ -3765,7 +4261,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    125
+   ]
+  ]
  },
  {
   "id": "TRI-4",
@@ -3777,8 +4279,8 @@ const QUESTIONS = [
    "ru": "Переведите 64\" в футы и дюймы."
   },
   "why": {
-   "en": "64 ÷ 12 = 5 feet with 4\" left over (5 × 12 = 60): 5'-4\". 5.3333' is the same length in decimal feet, not in feet and inches.",
-   "ru": "64 ÷ 12 = 5 футов и остаток 4\" (5 × 12 = 60): 5'-4\". 5.3333' — та же длина, но в десятичных футах, а спрашивают футы и дюймы."
+   "en": "64 ÷ 12 = 5 whole feet (5 × 12 = 60) with 64 − 60 = 4\" left over: 5'-4\". Traps: 5.3333' is the same length in decimal feet, but the question asks for feet and inches; 6'-4\" and 6.3333' have one foot too many.",
+   "ru": "64 ÷ 12 = 5 целых футов (5 × 12 = 60), остаток 64 − 60 = 4\": 5'-4\". Ловушки: 5.3333' — та же длина в десятичных футах, а спрашивают футы и дюймы; в 6'-4\" и 6.3333' лишний фут."
   },
   "opts": [
    {
@@ -3801,7 +4303,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    126
+   ]
+  ]
  },
  {
   "id": "TRI-5",
@@ -3813,8 +4321,8 @@ const QUESTIONS = [
    "ru": "Найдите итог: 20' 4\" + 8\" - 5' 4\""
   },
   "why": {
-   "en": "Work in inches: 20'-4\" = 244\", 5'-4\" = 64\"; 244 + 8 − 64 = 188\" = 15 × 12 + 8 = 15' 8\". 26' 4\" adds the 5' 4\" instead of subtracting it.",
-   "ru": "Считаем в дюймах: 20'-4\" = 244\", 5'-4\" = 64\"; 244 + 8 − 64 = 188\" = 15 × 12 + 8 = 15' 8\". 26' 4\" — 5' 4\" прибавили, а не вычли."
+   "en": "Convert to inches: 20' 4\" = 244\", 5' 4\" = 64\". 244 + 8 − 64 = 188\" = 15 × 12 + 8 = 15' 8\". Traps: 26' 4\" adds the 5' 4\" instead of subtracting it, and 26.3333' is the same mistake in decimal feet.",
+   "ru": "Переводим в дюймы: 20' 4\" = 244\", 5' 4\" = 64\". 244 + 8 − 64 = 188\" = 15 × 12 + 8 = 15' 8\". Ловушки: 26' 4\" — 5' 4\" прибавили, а не вычли, а 26.3333' — та же ошибка в десятичных футах."
   },
   "opts": [
    {
@@ -3837,7 +4345,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    127
+   ]
+  ]
  },
  {
   "id": "TRI-6",
@@ -3849,8 +4363,8 @@ const QUESTIONS = [
    "ru": "7 стальных joists стоят через 7' 8\" по центрам. Какое расстояние по центрам между двумя крайними joists?"
   },
   "why": {
-   "en": "7 joists have 6 spaces between them: 6 × 92\" (7'-8\") = 552\" = 46' 0\". 53' 8\" multiplies by 7 and counts one space too many.",
-   "ru": "Между 7 joists — 6 промежутков: 6 × 92\" (7'-8\") = 552\" = 46' 0\". 53' 8\" — умножили на 7, лишний промежуток."
+   "en": "7 joists in a row have 6 spaces between them. 7'-8\" = 92\", so 6 × 92 = 552\" = 46' 0\". Trap: 53' 8\" multiplies by 7 and counts one space too many (7 × 92 = 644\").",
+   "ru": "У 7 joists в ряд — 6 промежутков. 7'-8\" = 92\", поэтому 6 × 92 = 552\" = 46' 0\". Ловушка: 53' 8\" — умножили на 7, лишний промежуток (7 × 92 = 644\")."
   },
   "opts": [
    {
@@ -3865,7 +4379,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    128
+   ]
+  ]
  },
  {
   "id": "TRI-7",
@@ -3877,8 +4397,8 @@ const QUESTIONS = [
    "ru": "Сколько кубических дюймов в 3 кубических футах?"
   },
   "why": {
-   "en": "1 cubic foot = 12 × 12 × 12 = 1728 cubic inches; 3 × 1728 = 5184. Traps: 1728 is only one cubic foot, and 432 = 3 × 144 uses square inches.",
-   "ru": "1 кубический фут = 12 × 12 × 12 = 1728 кубических дюймов; 3 × 1728 = 5184. Ловушки: 1728 — только один кубический фут, а 432 = 3 × 144 — это квадратные дюймы."
+   "en": "1 cubic foot = 12 × 12 × 12 = 1728 cubic inches; 3 × 1728 = 5184 cubic inches. Traps: 1728 is only one cubic foot, 144 is one square foot in square inches, and 432 = 3 × 144 uses square inches.",
+   "ru": "1 кубический фут = 12 × 12 × 12 = 1728 кубических дюймов; 3 × 1728 = 5184 кубических дюйма. Ловушки: 1728 — только один кубический фут, 144 — квадратный фут в квадратных дюймах, а 432 = 3 × 144 — это квадратные дюймы."
   },
   "opts": [
    {
@@ -3901,7 +4421,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    129
+   ]
+  ]
  },
  {
   "id": "TRI-8",
@@ -3913,8 +4439,8 @@ const QUESTIONS = [
    "ru": "Какова площадь в квадратных футах круга радиусом 35\"?"
   },
   "why": {
-   "en": "A = π × 35² = 3848.451 in²; ÷ 144 = 26.72535 ft². Pick 26.725 ft², the official key (3 decimals like the other options); 26.72535 ft² is the same value to 5 decimals, so it is not wrong in itself. Traps: 3848.451 in² is the right area in the wrong unit, and 109.956 is π × 35 with the radius not squared.",
-   "ru": "A = π × 35² = 3848.451 in²; ÷ 144 = 26.72535 ft². Ставить 26.725 ft² — это официальный ключ (3 знака, как у остальных вариантов); 26.72535 ft² — то же число до 5 знаков, само по себе не ошибка. Ловушки: 3848.451 in² — площадь верная, но не в тех единицах, а 109.956 — это π × 35, радиус не возведён в квадрат."
+   "en": "Area = π × R² = π × 35² = 3848.451 in²; in square feet ÷ 144 = 26.725354 ft². For points pick 26.725 ft² (3 decimals, like the other options). Technically 26.72535 ft² is also correct, because it is the same value to 5 decimals. Traps: 3848.451 in² is the right area but in square inches, not square feet, and 109.956 is π × 35 (radius not squared).",
+   "ru": "Площадь = π × R² = π × 35² = 3848.451 in²; в квадратных футах ÷ 144 = 26.725354 ft². Для балла — 26.725 ft² (3 знака, как в остальных вариантах). Технически 26.72535 ft² тоже верно: это то же число до 5 знаков. Ловушки: 3848.451 in² — площадь верная, но в квадратных дюймах, а не футах, а 109.956 — это π × 35, радиус не возведён в квадрат."
   },
   "opts": [
    {
@@ -3937,7 +4463,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    130
+   ]
+  ]
  },
  {
   "id": "TRI-9",
@@ -3949,8 +4481,8 @@ const QUESTIONS = [
    "ru": "Найдите площадь flat oval:"
   },
   "why": {
-   "en": "The width is 2 × R4\" = 8\", and the two half-circle ends make one full circle: π × 4² = 50.2655 in²; the middle rectangle is 10\" × 8\" = 80 in²; total 130.2655 → 130.27 in². Traps: 150.27 takes the rectangle as 10\" × 10\", and 92.57 uses π × 4 (radius not squared).",
-   "ru": "Ширина = 2 × R4\" = 8\", два полукруга вместе дают один круг: π × 4² = 50.2655 in²; прямоугольник посередине 10\" × 8\" = 80 in²; итого 130.2655 → 130.27 in². Ловушки: 150.27 — прямоугольник посчитан как 10\" × 10\", 92.57 — π × 4, радиус не возведён в квадрат."
+   "en": "A flat oval = one full circle (the two half-circle ends) + the rectangle between the two centers. Circle: π × 4² = 50.2655 in²; rectangle: 10\" long × 8\" wide (2 × R4\") = 80 in²; total 130.2655 → 130.27 in². Traps: 150.27 takes the rectangle as 10\" × 10\", 92.57 uses π × 4 (radius not squared), and 112.57 makes both mistakes.",
+   "ru": "Flat oval = один целый круг (два полукруга по краям) + прямоугольник между центрами. Круг: π × 4² = 50.2655 in²; прямоугольник: длина 10\" × ширина 8\" (2 × R4\") = 80 in²; итого 130.2655 → 130.27 in². Ловушки: 150.27 — прямоугольник посчитан как 10\" × 10\", 92.57 — π × 4 (радиус не возведён в квадрат), а 112.57 — обе ошибки сразу."
   },
   "hint": {
    "en": "Round to 2 decimal places",
@@ -3978,7 +4510,13 @@ const QUESTIONS = [
    1
   ],
   "type": "single",
-  "fig": "tri-q09.svg"
+  "fig": "tri-q09.svg",
+  "on": [
+   [
+    "F20",
+    131
+   ]
+  ]
  },
  {
   "id": "TRI-10",
@@ -3990,8 +4528,8 @@ const QUESTIONS = [
    "ru": "Найдите объём коробки:"
   },
   "why": {
-   "en": "V = 11 × 5 × 8 = 440 in³. Traps: 440 in² is the same number in an area unit, and 55 = 11 × 5 is only the base area.",
-   "ru": "V = 11 × 5 × 8 = 440 in³. Ловушки: 440 in² — то же число в единицах площади, а 55 = 11 × 5 — только площадь основания."
+   "en": "Volume = length × width × height = 11 × 5 × 8 = 440 in³. Traps: 440 in² is the right number in an area unit, and 55 = 11 × 5 is only the area of the bottom.",
+   "ru": "Объём = длина × ширина × высота = 11 × 5 × 8 = 440 in³. Ловушки: 440 in² — верное число, но в единицах площади, а 55 = 11 × 5 — только площадь дна."
   },
   "opts": [
    {
@@ -4027,8 +4565,8 @@ const QUESTIONS = [
    "ru": "Найдите неизвестный угол “A”."
   },
   "why": {
-   "en": "15\" is the hypotenuse and the 9\" side is opposite A: sin A = 9 ÷ 15 = 0.6 → A = 36.87°. Traps: 53.13° is the other acute angle, 30.96° is atan(9 ÷ 15) as if 15\" were a leg, and 12 is the length of the third side.",
-   "ru": "15\" — гипотенуза, катет 9\" лежит напротив угла A: sin A = 9 ÷ 15 = 0.6 → A = 36.87°. Ловушки: 53.13° — второй острый угол, 30.96° — atan(9 ÷ 15), будто 15\" это катет, а 12 — длина третьей стороны."
+   "en": "15\" is the hypotenuse (it faces the right angle) and 9\" is the side opposite A, so use sine: sin A = 9 ÷ 15 = 0.6, A = asin 0.6 = 36.87°. Traps: 53.13° is the other acute angle (90 − 36.87), 30.96° is atan(9 ÷ 15) as if 15\" were a leg, and 12 is the length of the third side, not an angle.",
+   "ru": "15\" — гипотенуза (лежит напротив прямого угла), 9\" — катет напротив угла A, значит, sin: sin A = 9 ÷ 15 = 0.6, A = asin 0.6 = 36.87°. Ловушки: 53.13° — второй острый угол (90 − 36.87), 30.96° — atan(9 ÷ 15), будто 15\" это катет, а 12 — длина третьей стороны, а не угол."
   },
   "opts": [
    {
@@ -4052,7 +4590,13 @@ const QUESTIONS = [
    3
   ],
   "type": "single",
-  "fig": "tri-q11.svg"
+  "fig": "tri-q11.svg",
+  "on": [
+   [
+    "F20",
+    132
+   ]
+  ]
  },
  {
   "id": "TRI-12",
@@ -4064,8 +4608,8 @@ const QUESTIONS = [
    "ru": "Найдите размер “a”."
   },
   "why": {
-   "en": "19' is the hypotenuse and a is the side adjacent to the 73° angle: a = 19 × cos 73° = 5.5551'; 0.5551' × 12 = 6.661\", × 16 = 106.6 → 107/16 = 6-11/16\" → 5' 6-11/16\". Traps: 18.17' and 18' 2-1/16\" use sin instead of cos, and 5.5' rounds 5.5551' too far.",
-   "ru": "19' — гипотенуза, a — катет, прилежащий к углу 73°: a = 19 × cos 73° = 5.5551'; 0.5551' × 12 = 6.661\", × 16 = 106.6 → 107/16 = 6-11/16\" → 5' 6-11/16\". Ловушки: 18.17' и 18' 2-1/16\" — sin вместо cos, а 5.5' — слишком грубое округление 5.5551'."
+   "en": "19' is the hypotenuse and a is the side next to the 73° angle, so use cosine: a = 19 × cos 73° = 5.5551'. Convert the decimal: 0.5551 × 12 = 6.661\"; 0.661 × 16 = 10.58 → 11/16, so a = 5' 6-11/16\". Traps: 18.17' and 18' 2-1/16\" come from sin 73° (the side opposite the angle), and 5.5' is 5.5551' rounded too far (5.5' = 5'-6\").",
+   "ru": "19' — гипотенуза, a — катет у угла 73°, значит, cos: a = 19 × cos 73° = 5.5551'. Переводим десятичную часть: 0.5551 × 12 = 6.661\"; 0.661 × 16 = 10.58 → 11/16, итого a = 5' 6-11/16\". Ловушки: 18.17' и 18' 2-1/16\" — это sin 73° (катет напротив угла), а 5.5' — слишком грубо округлённое 5.5551' (5.5' = 5'-6\")."
   },
   "opts": [
    {
@@ -4089,7 +4633,13 @@ const QUESTIONS = [
    2
   ],
   "type": "single",
-  "fig": "tri-q12.svg"
+  "fig": "tri-q12.svg",
+  "on": [
+   [
+    "F20",
+    133
+   ]
+  ]
  },
  {
   "id": "TRI-15",
@@ -4101,8 +4651,8 @@ const QUESTIONS = [
    "ru": "Найдите 3-1/2% от $900.00"
   },
   "why": {
-   "en": "3-1/2% = 0.035; 900 × 0.035 = $31.50. Trap: $868.50 is $900 minus 3-1/2%, not 3-1/2% of it.",
-   "ru": "3-1/2% = 0.035; 900 × 0.035 = $31.50. Ловушка: $868.50 — это $900 минус 3-1/2%, а не 3-1/2% от суммы."
+   "en": "Percent to decimal: 3-1/2% = 3.5 ÷ 100 = 0.035; 900 × 0.035 = $31.50. Trap: $868.50 is $900 minus 3-1/2% (900 − 31.50), not 3-1/2% of it.",
+   "ru": "Процент в десятичную дробь: 3-1/2% = 3.5 ÷ 100 = 0.035; 900 × 0.035 = $31.50. Ловушка: $868.50 — это $900 минус 3-1/2% (900 − 31.50), а не 3-1/2% от суммы."
   },
   "opts": [
    {
@@ -4125,7 +4675,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    134
+   ]
+  ]
  },
  {
   "id": "TRI-16",
@@ -4137,8 +4693,8 @@ const QUESTIONS = [
    "ru": "Площадь сечения duct должна быть 256 квадратных дюймов. Какие размеры будут у квадратного duct?"
   },
   "why": {
-   "en": "A square duct has equal sides, so side = √256 = 16\": 16\" x 16\". 32\" x 8\" also gives 256 sq. in. but is not square, and 14\" x 14\" = 196 sq. in.",
-   "ru": "У квадратного duct стороны равны: сторона = √256 = 16\" → 16\" x 16\". 32\" x 8\" тоже даёт 256 sq. in., но это не квадрат, а 14\" x 14\" = 196 sq. in."
+   "en": "A square duct has four equal sides, so side = √256 = 16\" → 16\" x 16\" (16 × 16 = 256 sq. in.). Traps: 32\" x 8\" also gives 256 sq. in. but is not square; 14\" x 14\" = 196 sq. in. and 14\" x 8\" = 112 sq. in.",
+   "ru": "У квадратного duct все четыре стороны равны: сторона = √256 = 16\" → 16\" x 16\" (16 × 16 = 256 sq. in.). Ловушки: 32\" x 8\" тоже даёт 256 sq. in., но это не квадрат; 14\" x 14\" = 196 sq. in., 14\" x 8\" = 112 sq. in."
   },
   "opts": [
    {
@@ -4161,7 +4717,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    135
+   ]
+  ]
  },
  {
   "id": "TRI-17",
@@ -4173,8 +4735,8 @@ const QUESTIONS = [
    "ru": "Рассчитайте недостающие размеры \"L\" и \"D\" для offset системы duct."
   },
   "why": {
-   "en": "Rise = 12'-1\" − 9'-5\" = 32\". R1'-4\" (16\") is the throat radius and the 28\" side lies in the plane of the turn, so CL R = 16 + 14 = 30\"; the two 37° elbows rise 2 × 30 × (1 − cos 37°) = 12.0819\", so the straight piece L = (32 − 12.0819) ÷ sin 37° = 33.0968\" → 33.10\". D = 2 × 30 × sin 37° + L × cos 37° = 36.1089 + 26.4323 = 62.5412\" → 62.54\". Trap: the second option swaps L and D (and cuts 33.0968 to 33.09).",
-   "ru": "Подъём = 12'-1\" − 9'-5\" = 32\". R1'-4\" (16\") — throat radius, а в плоскости поворота лежит сторона 28\", поэтому CL R = 16 + 14 = 30\"; два elbow по 37° поднимают на 2 × 30 × (1 − cos 37°) = 12.0819\", значит прямой кусок L = (32 − 12.0819) ÷ sin 37° = 33.0968\" → 33.10\". D = 2 × 30 × sin 37° + L × cos 37° = 36.1089 + 26.4323 = 62.5412\" → 62.54\". Ловушка: во втором варианте L и D переставлены (а 33.0968 обрезано до 33.09)."
+   "en": "Rise = 12'-1\" − 9'-5\" = 145 − 113 = 32\". R1'-4\" (16\") is the throat radius and the 28\" side lies in the plane of the turn, so CL R = 16 + 14 = 30\"; the two 37° elbows rise 2 × 30 × (1 − cos 37°) = 12.0819\", so the straight piece L = (32 − 12.0819) ÷ sin 37° = 33.0968\" → 33.10\". D = 2 × 30 × sin 37° + L × cos 37° = 36.1089 + 26.4323 = 62.5412\" → 62.54\". Trap: the second option swaps L and D (and cuts 33.0968 to 33.09); read on the drawing which letter is the straight piece, because it changes from problem to problem.",
+   "ru": "Подъём = 12'-1\" − 9'-5\" = 145 − 113 = 32\". R1'-4\" (16\") — throat radius, а в плоскости поворота лежит сторона 28\", поэтому CL R = 16 + 14 = 30\"; два elbow по 37° поднимают на 2 × 30 × (1 − cos 37°) = 12.0819\", значит прямой кусок L = (32 − 12.0819) ÷ sin 37° = 33.0968\" → 33.10\". D = 2 × 30 × sin 37° + L × cos 37° = 36.1089 + 26.4323 = 62.5412\" → 62.54\". Ловушка: во втором варианте L и D переставлены (и 33.0968 обрезано до 33.09); какая буква — прямой кусок, смотреть по чертежу, от задачи к задаче это меняется."
   },
   "opts": [
    {
@@ -4198,7 +4760,13 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "fig": "tri-q17.svg"
+  "fig": "tri-q17.svg",
+  "on": [
+   [
+    "F20",
+    59
+   ]
+  ]
  },
  {
   "id": "TRI-18",
@@ -4219,7 +4787,13 @@ const QUESTIONS = [
    "tol": 0.005,
    "prefix": "$",
    "text": "22.21"
-  }
+  },
+  "on": [
+   [
+    "F20",
+    136
+   ]
+  ]
  },
  {
   "id": "FRI-2",
@@ -4439,8 +5013,8 @@ const QUESTIONS = [
    "ru": "Назовите три вида, которые показывают в orthographic projection."
   },
   "why": {
-   "en": "An orthographic projection shows the object in three flat views: plan (top), front elevation and side (end) elevation. Each view looks straight at one face, so true sizes can be measured on it. Perspective is a pictorial view with lines running to vanishing points, not an orthographic view.",
-   "ru": "Orthographic projection показывает предмет тремя плоскими видами: plan (сверху), front elevation (спереди) и side или end elevation (сбоку, с торца). Каждый вид смотрит прямо на одну грань, поэтому размеры на нём истинные. Perspective — наглядная картинка, линии в ней сходятся к точкам схода, к orthographic она не относится."
+   "en": "An orthographic projection shows the object in three flat views: plan (top), front elevation and side (end) elevation, each looked at straight on, so true sizes can be measured on it. A perspective view is a pictorial drawing with lines running to vanishing points, so it is not one of the three.",
+   "ru": "Orthographic projection показывает предмет тремя плоскими видами: plan (сверху), front elevation (спереди) и side или end elevation (сбоку, с торца); на каждый вид смотрят прямо, поэтому размеры на нём истинные. Perspective — наглядная картинка, линии в ней сходятся к точкам схода, в эти три вида она не входит."
   },
   "opts": [
    {
@@ -4467,6 +5041,10 @@ const QUESTIONS = [
   ],
   "type": "multi",
   "on": [
+   [
+    "F20",
+    74
+   ],
    [
     "Y2W5Y",
     12
@@ -4900,8 +5478,8 @@ const QUESTIONS = [
    "ru": "Какой сплав твёрдый и прочный, не покрывается пятнами и стоек к коррозии?"
   },
   "why": {
-   "en": "Stainless steel is steel alloyed with chromium; the chromium forms a thin protective film, so the metal does not stain or rust and stays hard and strong. Copper and zinc are pure metals, not alloys, and both tarnish; aluminum resists corrosion but is soft and dulls. Note: not confirmed by a graded key.",
-   "ru": "Stainless steel — сталь, легированная хромом; хром даёт тонкую защитную плёнку, поэтому металл не покрывается пятнами и не ржавеет, оставаясь твёрдым и прочным. Медь и цинк — чистые металлы, а не сплавы, и оба тускнеют; алюминий коррозии не боится, но мягкий и тускнеет. Внимание: проверенного ключа нет."
+   "en": "Stainless steel is steel alloyed with chromium; the chromium forms a thin protective film, so the metal does not stain or rust and stays hard and strong. Copper and zinc are pure metals, not alloys, and both tarnish; aluminum resists corrosion but is soft.",
+   "ru": "Stainless steel — сталь, легированная хромом; хром даёт тонкую защитную плёнку, поэтому металл не покрывается пятнами и не ржавеет, оставаясь твёрдым и прочным. Медь и цинк — чистые металлы, а не сплавы, и оба тускнеют; алюминий коррозии не боится, но мягкий."
   },
   "opts": [
    {
@@ -4926,6 +5504,10 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
+   [
+    "F20",
+    24
+   ],
    [
     "Y2W5Y",
     16
@@ -5014,8 +5596,8 @@ const QUESTIONS = [
    "ru": "Листовой металл, который надрезают и растягивают:"
   },
   "why": {
-   "en": "Expanded metal is made by slitting a solid sheet and stretching it, which opens the slits into diamond-shaped holes without losing any metal. Perforated sheet has punched holes, and diamond plate and tread plate are solid sheets with a raised anti-slip pattern.",
-   "ru": "Expanded metal делают так: цельный лист надрезают и растягивают, и надрезы раскрываются в ромбовидные ячейки, металл при этом не теряется. У perforated отверстия пробиты, а diamond plate и tread plate — цельные листы с выпуклым рифлением против скольжения."
+   "en": "Expanded metal is made by slitting a solid sheet and stretching it, which opens the slits into diamond-shaped openings without losing any metal. Perforated sheet is punched (nothing is stretched), and diamond plate and tread plate are solid sheets with a raised anti-slip pattern.",
+   "ru": "Expanded metal делают так: цельный лист надрезают и растягивают, надрезы раскрываются в ромбовидные ячейки, и металл при этом не теряется. Perforated лист пробивают (punched), ничего не растягивая, а diamond plate и tread plate — цельные листы с выпуклым рифлением против скольжения."
   },
   "opts": [
    {
@@ -5041,6 +5623,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    25
+   ],
+   [
     "Y2W5Y",
     17
    ]
@@ -5056,8 +5642,8 @@ const QUESTIONS = [
    "ru": "При необходимости OG offset можно сделать из двух одинаковых elbows."
   },
   "why": {
-   "en": "Yes. The course's OG (ogee) offset is two equal radius elbows turned in opposite directions, with or without a straight piece between them: the first elbow turns the duct off its line, the second turns it back parallel, shifted by the offset.",
-   "ru": "Да. OG (ogee) offset в курсе — это два одинаковых radius elbow, повёрнутых в разные стороны, с прямым куском между ними или без него: первый elbow уводит duct с оси, второй возвращает его параллельно, со смещением на offset."
+   "en": "Yes. An OG (ogee) offset can be made from two equal elbows turned in opposite directions, with or without a straight piece between them: the first turns the duct off its line, the second turns it back parallel, shifted by the offset.",
+   "ru": "Да. OG (ogee) offset можно собрать из двух одинаковых elbow, повёрнутых в разные стороны, с прямым куском между ними или без него: первый elbow уводит duct с оси, второй возвращает его параллельно, со смещением на offset."
   },
   "opts": [
    {
@@ -5075,6 +5661,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    75
+   ],
+   [
     "Y2W5Y",
     19
    ]
@@ -5090,8 +5680,8 @@ const QUESTIONS = [
    "ru": "Сколько видов нужно на shop ticket, чтобы изготовить transition?"
   },
   "why": {
-   "en": "One. Per course sheet 2I a single labeled plan view is complete: it shows the end sizes, the slope of Left and Right, the TOP/BOTTOM note (FOT, FOB or TOP UP/DOWN with an arrow) and the net length, and the fourth side follows from those.",
-   "ru": "Один. По листу курса 2I одного подписанного plan достаточно: на нём размеры концов, наклон Left и Right, пометка TOP/BOTTOM (FOT, FOB или TOP UP/DOWN со стрелкой) и net length, а четвёртая сторона выводится из них."
+   "en": "One. A correctly labeled plan view shows both end sizes, the slope of the left and right sides, the top/bottom note (FOT, FOB, CL, or TOP UP/DOWN with an arrow) and the drive-to-drive length; the fourth side follows from these. If you need a second view, the ticket was not drawn or labeled correctly.",
+   "ru": "Один. Правильно подписанный plan показывает размеры обоих концов, наклон левой и правой сторон, пометку TOP/BOTTOM (FOT, FOB, CL или TOP UP/DOWN со стрелкой) и длину drive to drive; четвёртая сторона выводится из них. Если нужен второй вид, тикет нарисован или подписан неправильно."
   },
   "opts": [
    {
@@ -5116,6 +5706,10 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
+   [
+    "F20",
+    76
+   ],
    [
     "Y2W5Y",
     20
@@ -5622,8 +6216,8 @@ const QUESTIONS = [
    "ru": "Рассчитайте offset duct по заданным размерам."
   },
   "why": {
-   "en": "Wall to column centerline is 6'-8 5/8\" (80.625\"), column to the near edge of the upper 16\"x12\" is 2'-2 3/4\" (26.75\"), wall to the centerline of the lower 16\"x12\" is 2'-1 1/4\" (25.25\"). Upper centerline from the wall = 80.625 − 26.75 − 8 (half of 16) = 45.875\"; offset = 45.875 − 25.25 = 20.625\" = 1'-8-5/8\". Trap: 2'-4-5/8\" (28.625\") treats the edge dimension as if it went to the centerline.",
-   "ru": "От стены до centerline колонны 6'-8 5/8\" (80.625\"), от колонны до ближнего края верхнего 16\"x12\" — 2'-2 3/4\" (26.75\"), от стены до centerline нижнего 16\"x12\" — 2'-1 1/4\" (25.25\"). Centerline верхнего от стены = 80.625 − 26.75 − 8 (половина от 16) = 45.875\"; offset = 45.875 − 25.25 = 20.625\" = 1'-8-5/8\". Ловушка: 2'-4-5/8\" (28.625\") — размер до края приняли за размер до centerline."
+   "en": "Put everything in inches and measure to the centerline of both ducts. Wall to column centerline = 6'-8 5/8\" = 80.625\"; column to the near edge of the upper 16\"x12\" = 2'-2 3/4\" = 26.75\"; wall to the centerline of the lower duct = 2'-1 1/4\" = 25.25\". Upper centerline from the wall = 80.625 − 26.75 − 8 (half of 16) = 45.875\"; offset = 45.875 − 25.25 = 20.625\" = 1'-8 5/8\". Trap: 2'-4 5/8\" (28.625\") treats the edge dimension as if it went to the centerline.",
+   "ru": "Всё в дюймы и до centerline обоих duct. От стены до centerline колонны 6'-8 5/8\" = 80.625\"; от колонны до ближнего края верхнего 16\"x12\" — 2'-2 3/4\" = 26.75\"; от стены до centerline нижнего duct — 2'-1 1/4\" = 25.25\". Centerline верхнего от стены = 80.625 − 26.75 − 8 (половина от 16) = 45.875\"; offset = 45.875 − 25.25 = 20.625\" = 1'-8 5/8\". Ловушка: 2'-4 5/8\" (28.625\") — размер до края приняли за размер до centerline."
   },
   "opts": [
    {
@@ -5649,6 +6243,10 @@ const QUESTIONS = [
   "type": "single",
   "fig": "mon-q42.svg",
   "on": [
+   [
+    "F20",
+    77
+   ],
    [
     "Y2W5Y",
     24
@@ -6028,8 +6626,8 @@ const QUESTIONS = [
    "ru": "Рассчитайте длину transition при угле 15 градусов?"
   },
   "why": {
-   "en": "The ends are drawn 24\" and 36\" high with a flat bottom, so the top climbs 36 − 24 = 12\". Length = rise ÷ tan 15° = 12 ÷ 0.267949 = 44.7846\", × 16 = 716.55 → 717/16 = 44-13/16\". Traps: 44-3/4\" cuts the sixteenths down instead of rounding, and 3-3/16\" multiplies by tan 15° (12 × 0.267949 = 3.2154) instead of dividing.",
-   "ru": "Концы нарисованы высотой 24\" и 36\", низ плоский, поэтому верх поднимается на 36 − 24 = 12\". Длина = rise ÷ tan 15° = 12 ÷ 0.267949 = 44.7846\", × 16 = 716.55 → 717/16 = 44-13/16\". Ловушки: 44-3/4\" — шестнадцатые обрезали, а не округлили, а 3-3/16\" — умножили на tan 15° (12 × 0.267949 = 3.2154) вместо деления."
+   "en": "The bottom is flat (square-corner mark), so the top climbs 36 − 24 = 12\" (the first number is the side seen in the view). Length = rise ÷ tan 15° = 12 ÷ 0.267949 = 44.7846\"; × 16 = 716.55 → 717/16 = 44-13/16\". Traps: 44-3/4\" cuts the sixteenths off instead of rounding, and 3-3/16\" multiplies by tan 15° (12 × 0.267949 = 3.2154) instead of dividing.",
+   "ru": "Низ плоский (значок прямого угла), поэтому верх поднимается на 36 − 24 = 12\" (первая цифра — сторона, видимая на виде). Длина = rise ÷ tan 15° = 12 ÷ 0.267949 = 44.7846\"; × 16 = 716.55 → 717/16 = 44-13/16\". Ловушки: 44-3/4\" — шестнадцатые отброшены, а не округлены; 3-3/16\" — умножили на tan 15° (12 × 0.267949 = 3.2154) вместо деления."
   },
   "opts": [
    {
@@ -6055,6 +6653,10 @@ const QUESTIONS = [
   "type": "single",
   "fig": "mon-q54.svg",
   "on": [
+   [
+    "F20",
+    78
+   ],
    [
     "Y2W5Y",
     28
@@ -6107,8 +6709,8 @@ const QUESTIONS = [
    "ru": "Найдите размеры \"L\" и \"D\" для задачи с offset."
   },
   "why": {
-   "en": "Rise = 12'-1\" − 9'-5\" = 32\" (both to the bottom of the same 28\"x20\" duct). R1'-4\" (16\") is the throat radius and the 28\" side lies in the plane of the turn, so CL R = 16 + 14 = 30\"; the two 37° elbows rise 2 × 30 × (1 − cos 37°) = 12.0819\". Straight piece L = (32 − 12.0819) ÷ sin 37° = 33.0968\" → 33-1/8\"; D = 2 × 30 × sin 37° + L × cos 37° = 36.1089 + 26.4323 = 62.5412\" → 62-9/16\".",
-   "ru": "Подъём = 12'-1\" − 9'-5\" = 32\" (оба размера — до низа одного и того же duct 28\"x20\"). R1'-4\" (16\") — throat radius, а в плоскости поворота лежит сторона 28\", поэтому CL R = 16 + 14 = 30\"; два elbow по 37° поднимают на 2 × 30 × (1 − cos 37°) = 12.0819\". Прямой кусок L = (32 − 12.0819) ÷ sin 37° = 33.0968\" → 33-1/8\"; D = 2 × 30 × sin 37° + L × cos 37° = 36.1089 + 26.4323 = 62.5412\" → 62-9/16\"."
+   "en": "Rise O = 12'-1\" − 9'-5\" = 145 − 113 = 32\" (both to the bottom of the same 28\"x20\" duct). R1'-4\" points to the throat, so CL R = 16 + 28/2 = 30\"; K = 30 × tan 18.5° (half of 37°) = 10.0379\", 2K = 20.0757\". L (straight piece) = O ÷ sin 37° − 2K = 53.1725 − 20.0757 = 33.0968\" → 33-1/8\"; D (overall) = O ÷ tan 37° + 2K = 62.5412\" → 62-9/16\". Using R1'-4\" as the CL radius gives 42-7/16\" and 53-3/16\", which match no option.",
+   "ru": "Подъём O = 12'-1\" − 9'-5\" = 145 − 113 = 32\" (оба размера — до низа одного и того же duct 28\"x20\"). R1'-4\" упирается в throat, поэтому CL R = 16 + 28/2 = 30\"; K = 30 × tan 18.5° (половина от 37°) = 10.0379\", 2K = 20.0757\". L (прямой кусок) = O ÷ sin 37° − 2K = 53.1725 − 20.0757 = 33.0968\" → 33-1/8\"; D (общая длина) = O ÷ tan 37° + 2K = 62.5412\" → 62-9/16\". Если взять R1'-4\" за CL радиус, выйдет 42-7/16\" и 53-3/16\" — таких вариантов нет."
   },
   "opts": [
    {
@@ -6144,6 +6746,10 @@ const QUESTIONS = [
   "fig": "mon-q56.svg",
   "on": [
    [
+    "F20",
+    79
+   ],
+   [
     "Y2W5Y",
     29
    ]
@@ -6159,8 +6765,8 @@ const QUESTIONS = [
    "ru": "Найдите размеры \"L\" и \"D\" для задачи с offset."
   },
   "why": {
-   "en": "Rise = 15'-2\" − 8'-9\" = 182 − 105 = 77\". R38\" is the throat radius of the 36\"Ø pipe, so CL R = 38 + 18 = 56\"; the two 44° elbows rise 2 × 56 × (1 − cos 44°) = 31.4339\". L = (77 − 31.4339) ÷ sin 44° = 65.5949\" → 65-5/8\"; D = 2 × 56 × sin 44° + L × cos 44° = 77.8017 + 47.1850 = 124.9868\" → 125\".",
-   "ru": "Подъём = 15'-2\" − 8'-9\" = 182 − 105 = 77\". R38\" — throat radius трубы 36\"Ø, поэтому CL R = 38 + 18 = 56\"; два elbow по 44° поднимают на 2 × 56 × (1 − cos 44°) = 31.4339\". L = (77 − 31.4339) ÷ sin 44° = 65.5949\" → 65-5/8\"; D = 2 × 56 × sin 44° + L × cos 44° = 77.8017 + 47.1850 = 124.9868\" → 125\"."
+   "en": "Rise O = 15'-2\" − 8'-9\" = 182 − 105 = 77\". R38\" points to the throat of the 36\"Ø pipe, so CL R = 38 + 18 = 56\"; K = 56 × tan 22° (half of 44°) = 22.625\", 2K = 45.251\". L (straight piece) = O ÷ sin 44° − 2K = 110.846 − 45.251 = 65.595\" → 65-5/8\"; D (overall) = O ÷ tan 44° + 2K = 79.736 + 45.251 = 124.987\" → 125\". Using R38\" as the CL radius gives 80-1/8\" and 110-7/16\", which match no option.",
+   "ru": "Подъём O = 15'-2\" − 8'-9\" = 182 − 105 = 77\". R38\" упирается в throat трубы 36\"Ø, поэтому CL R = 38 + 18 = 56\"; K = 56 × tan 22° (половина от 44°) = 22.625\", 2K = 45.251\". L (прямой кусок) = O ÷ sin 44° − 2K = 110.846 − 45.251 = 65.595\" → 65-5/8\"; D (общая длина) = O ÷ tan 44° + 2K = 79.736 + 45.251 = 124.987\" → 125\". Если взять R38\" за CL радиус, выйдет 80-1/8\" и 110-7/16\" — таких вариантов нет."
   },
   "opts": [
    {
@@ -6195,6 +6801,10 @@ const QUESTIONS = [
   "type": "multi",
   "fig": "mon-q57.svg",
   "on": [
+   [
+    "F20",
+    80
+   ],
    [
     "Y2W5Y",
     30
@@ -6477,6 +7087,10 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
+   [
+    "F20",
+    188
+   ],
    [
     "Y2W5Y",
     33
@@ -8253,8 +8867,8 @@ const QUESTIONS = [
    "ru": "Используй law of cosines. У треугольника стороны A = 5'-11 1/2\", B = 3'-8\" и C = 3'-0 1/2\". Чему равен угол A (напротив стороны A)?"
   },
   "why": {
-   "en": "Law of cosines: cos A = (B² + C² − A²) ÷ (2·B·C) = (44² + 36.5² − 71.5²) ÷ (2 × 44 × 36.5) → A = 125.0364° (formula sheet p.12: 125.0364°). On the calculator: enter the sides as A, B, C (Conv 4, 5, 6), then Conv 9 (Law Cos) — angle A shows first. The angle is opposite its side, so the longest side gives the biggest angle. 54.96° = 180 − 125.04 is the trap. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-   "ru": "Law of cosines: cos A = (B² + C² − A²) ÷ (2·B·C) = (44² + 36.5² − 71.5²) ÷ (2 × 44 × 36.5) → A = 125.0364° (formula sheet, стр. 12: 125.0364°). На калькуляторе: стороны как A, B, C (Conv 4, 5, 6), потом Conv 9 (Law Cos) — первым покажет угол A. Угол лежит напротив своей стороны: напротив самой длинной — самый большой. 54.96° = 180 − 125.04 — ловушка. (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+   "en": "Law of cosines, with each angle opposite its own side: cos A = (B² + C² − A²) ÷ (2·B·C). In inches A = 71.5, B = 44, C = 36.5 → cos A = (1936 + 1332.25 − 5112.25) ÷ 3212 = −0.5741, A = 125.04°. On the HVAC Pro: A Conv 4, B Conv 5, C Conv 6, then Conv 9 (Law Cos) — angle A shows first. The longest side always faces the biggest angle; 54.96° = 180 − 125.04 is the trap (a negative cosine means an obtuse angle).",
+   "ru": "Law of cosines, каждый угол лежит напротив своей стороны: cos A = (B² + C² − A²) ÷ (2·B·C). В дюймах A = 71.5, B = 44, C = 36.5 → cos A = (1936 + 1332.25 − 5112.25) ÷ 3212 = −0.5741, A = 125.04°. На HVAC Pro: A Conv 4, B Conv 5, C Conv 6, потом Conv 9 (Law Cos) — первым покажет угол A. Напротив самой длинной стороны всегда самый большой угол; 54.96° = 180 − 125.04 — ловушка (отрицательный cos означает тупой угол)."
   },
   "opts": [
    {
@@ -8278,7 +8892,13 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "fig": "cls-q01.svg"
+  "fig": "cls-q01.svg",
+  "on": [
+   [
+    "F20",
+    141
+   ]
+  ]
  },
  {
   "id": "CLS-2",
@@ -8290,8 +8910,8 @@ const QUESTIONS = [
    "ru": "Тот же треугольник (A = 5'-11 1/2\", B = 3'-8\", C = 3'-0 1/2\"). Чему равен угол C (напротив стороны C)?"
   },
   "why": {
-   "en": "cos C = (A² + B² − C²) ÷ (2·A·B) = (71.5² + 44² − 36.5²) ÷ (2 × 71.5 × 44) → C = 24.7073° (sheet: 24.70727°); press 9 twice after Conv 9. Check: A + B + C = 125.04 + 30.26 + 24.71 = 180°. 30.26° is angle B; 65.29° = 90 − 24.71 is the trap from right-triangle habits — this triangle has no 90° corner. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-   "ru": "cos C = (A² + B² − C²) ÷ (2·A·B) = (71.5² + 44² − 36.5²) ÷ (2 × 71.5 × 44) → C = 24.7073° (на листе 24.70727°); после Conv 9 нажми 9 ещё два раза. Проверка: A + B + C = 125.04 + 30.26 + 24.71 = 180°. 30.26° — это угол B; 65.29° = 90 − 24.71 — ловушка по привычке к прямоугольному треугольнику, а тут прямого угла нет. (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+   "en": "cos C = (A² + B² − C²) ÷ (2·A·B) = (5112.25 + 1936 − 1332.25) ÷ (2 × 71.5 × 44) = 5716 ÷ 6292 = 0.9085 → C = 24.71°. On the calculator, after Conv 9 shows angle A, press 9 for angle B and 9 again for angle C. Check: 125.04 + 30.26 + 24.71 = 180°. Traps: 30.26° is angle B; 65.29° = 90 − 24.71 is a right-triangle habit, but this triangle has no 90° corner.",
+   "ru": "cos C = (A² + B² − C²) ÷ (2·A·B) = (5112.25 + 1936 − 1332.25) ÷ (2 × 71.5 × 44) = 5716 ÷ 6292 = 0.9085 → C = 24.71°. На калькуляторе после Conv 9 (угол A) нажми 9 — угол B, ещё раз 9 — угол C. Проверка: 125.04 + 30.26 + 24.71 = 180°. Ловушки: 30.26° — это угол B; 65.29° = 90 − 24.71 — привычка к прямоугольному треугольнику, а здесь прямого угла нет."
   },
   "opts": [
    {
@@ -8315,7 +8935,13 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "fig": "cls-q01.svg"
+  "fig": "cls-q01.svg",
+  "on": [
+   [
+    "F20",
+    142
+   ]
+  ]
  },
  {
   "id": "CLS-3",
@@ -8327,8 +8953,8 @@ const QUESTIONS = [
    "ru": "Используй law of cosines. Duct offset соединяет 18\"x20\" и 24\"x20\". От угла 18\"x20\" сторона A = 7'-5 5/8\" идёт к дальнему концу 24\" стороны C, сторона B = 6'-5 7/8\" — к ближнему. Чему равен OFFSET?"
   },
   "why": {
-   "en": "Step 1, law of cosines with A = 89.625\", B = 77.875\", C = 24\": angle A (between B and the 24\" side) = 111.87°. Step 2: the 24\" side is square to the run, so B leans 68.13° (= 180 − 111.87) from it — the value the instructor entered as the pitch. Step 3, right triangle on B: OFFSET = B × cos 68.13° = 29.00\" ≈ 29\"; OFFSET LENGTH = B × sin 68.13° = 72.27\" ≈ 72-1/4\". (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-   "ru": "Шаг 1, law of cosines с A = 89.625\", B = 77.875\", C = 24\": угол A (между B и 24\" стороной) = 111.87°. Шаг 2: 24\" сторона перпендикулярна направлению трассы, поэтому B отклонена от неё на 68.13° (= 180 − 111.87) — это число инструктор вводил как pitch. Шаг 3, прямоугольный треугольник на B: OFFSET = B × cos 68.13° = 29.00\" ≈ 29\"; OFFSET LENGTH = B × sin 68.13° = 72.27\" ≈ 72-1/4\". (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+   "en": "Step 1, law of cosines on A = 89.625\", B = 77.875\", C = 24\": cos(angle A) = (B² + C² − A²) ÷ (2·B·C) = (6064.52 + 576 − 8032.64) ÷ 3738 = −0.3724, angle A = 111.87° (between B and the 24\" end). Step 2: the 24\" end is square to the duct run, so B leans 180 − 111.87 = 68.13° from it. Step 3, right triangle on B: OFFSET = 77.875 × cos 68.13° = 29.00\" → 29\" (OFFSET LENGTH = 77.875 × sin 68.13° = 72.27\"). Traps: 53\" = 29 + 24 is the rise to the far end of the 24\" side, and 72-1/4\" is the offset length.",
+   "ru": "Шаг 1, law of cosines для A = 89.625\", B = 77.875\", C = 24\": cos(угла A) = (B² + C² − A²) ÷ (2·B·C) = (6064.52 + 576 − 8032.64) ÷ 3738 = −0.3724, угол A = 111.87° (между B и 24\" торцом). Шаг 2: 24\" торец перпендикулярен трассе duct, поэтому B отклонена от него на 180 − 111.87 = 68.13°. Шаг 3, прямоугольный треугольник на B: OFFSET = 77.875 × cos 68.13° = 29.00\" → 29\" (OFFSET LENGTH = 77.875 × sin 68.13° = 72.27\"). Ловушки: 53\" = 29 + 24 — подъём до дальнего конца 24\" стороны, а 72-1/4\" — это offset length."
   },
   "opts": [
    {
@@ -8352,7 +8978,13 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "fig": "cls-q03.svg"
+  "fig": "cls-q03.svg",
+  "on": [
+   [
+    "F20",
+    143
+   ]
+  ]
  },
  {
   "id": "CLS-4",
@@ -8364,8 +8996,8 @@ const QUESTIONS = [
    "ru": "Тот же duct offset (A = 7'-5 5/8\", B = 6'-5 7/8\", C = 24\"). Чему равна OFFSET LENGTH?"
   },
   "why": {
-   "en": "Same steps: angle A = 111.87° from the law of cosines, B leans 68.13° from the 24\" side, OFFSET LENGTH = 77.875 × sin 68.13° = 72.27\" → 72-1/4\" (OFFSET = 29.00\" ≈ 29\"). Check with A: √(72.27² + (29 + 24)²) = 89.62\" = 7'-5 5/8\". (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-   "ru": "Те же шаги: угол A = 111.87° по law of cosines, B отклонена от 24\" стороны на 68.13°, OFFSET LENGTH = 77.875 × sin 68.13° = 72.27\" → 72-1/4\" (OFFSET = 29.00\" ≈ 29\"). Проверка через A: √(72.27² + (29 + 24)²) = 89.62\" = 7'-5 5/8\". (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+   "en": "Same steps: the law of cosines gives angle A = 111.87°, so B leans 180 − 111.87 = 68.13° from the 24\" end; OFFSET LENGTH = 77.875 × sin 68.13° = 72.27\" → 72-1/4\" (OFFSET = 77.875 × cos 68.13° = 29\"). Check with side A: √(72.27² + (29 + 24)²) = 89.62\" = 7'-5 5/8\". Traps: 77-7/8\" and 89-5/8\" are the slanted sides B and A themselves, and 29\" is the offset.",
+   "ru": "Те же шаги: law of cosines даёт угол A = 111.87°, значит, B отклонена от 24\" торца на 180 − 111.87 = 68.13°; OFFSET LENGTH = 77.875 × sin 68.13° = 72.27\" → 72-1/4\" (OFFSET = 77.875 × cos 68.13° = 29\"). Проверка через сторону A: √(72.27² + (29 + 24)²) = 89.62\" = 7'-5 5/8\". Ловушки: 77-7/8\" и 89-5/8\" — это сами наклонные стороны B и A, а 29\" — это offset."
   },
   "opts": [
    {
@@ -8389,7 +9021,13 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "fig": "cls-q03.svg"
+  "fig": "cls-q03.svg",
+  "on": [
+   [
+    "F20",
+    144
+   ]
+  ]
  },
  {
   "id": "CLS-5",
@@ -8398,11 +9036,11 @@ const QUESTIONS = [
   "topic": "safety",
   "q": {
    "en": "Working in Washington State, at what height is fall protection required (general rule)?",
-   "ru": "Работая в штате Washington: с какой высоты обязательна защита от падения (общее правило)?"
+   "ru": "При работе в штате Washington с какой высоты обязательна защита от падения (fall protection) — общее правило?"
   },
   "why": {
-   "en": "In Washington the stricter state rule applies: fall protection from 4 ft (WAC 296-880-20005); federal OSHA says 6 ft (1926.501(b)(1)). The instructor: answer 4 (the most restrictive) — he credits 6 only if you name OSHA. Scaffolds have their own rule: 10 ft in both. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-   "ru": "В Washington действует более строгое правило штата: защита от падения с 4 ft (WAC 296-880-20005); федеральный OSHA — 6 ft (1926.501(b)(1)). Инструктор: отвечай 4 (самое строгое) — 6 засчитает, только если назовёшь OSHA. У scaffold своё правило: 10 ft и там, и там. (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+   "en": "In Washington the stricter state rule applies: fall protection is required at 4 ft or more (WAC 296-880-20005), while federal OSHA for construction says 6 ft (1926.501(b)(1)). On the test answer 4 ft; 6 ft counts only if you write that it is the federal OSHA number. Scaffolds have their own threshold: 10 ft in both (WAC 296-880-30030, OSHA 1926.451(g)(1)).",
+   "ru": "В Washington действует более строгое правило штата: защита от падения обязательна с 4 ft (WAC 296-880-20005), а федеральный OSHA для стройки требует её с 6 ft (1926.501(b)(1)). На тесте отвечай 4 ft; 6 ft засчитают, только если написать, что это федеральная норма OSHA. У scaffold свой порог — 10 ft и там, и там (WAC 296-880-30030, OSHA 1926.451(g)(1))."
   },
   "opts": [
    {
@@ -8425,7 +9063,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    232
+   ]
+  ]
  },
  {
   "id": "CLS-6",
@@ -8437,8 +9081,8 @@ const QUESTIONS = [
    "ru": "Какую силу, приложенную наружу или вниз, должен выдерживать верхний поручень guardrail system (и временный тоже)?"
   },
   "why": {
-   "en": "200 lb at the top rail, applied outward or downward (OSHA 1926.502(b)(3); the instructor stressed that temporary guardrails must hold it too). Mid rails must hold 150 lb. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-   "ru": "200 lb на верхний поручень, наружу или вниз (OSHA 1926.502(b)(3); инструктор подчеркнул: временный guardrail тоже). Средний поручень — 150 lb. (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+   "en": "The top rail must hold at least 200 lb applied within 2 in of the top edge, outward or downward, and temporary guardrails are no exception (OSHA 1926.502(b)(3); Washington's WAC 296-880-40005 uses the same 200 lb). Under that load the top edge must not sag below 39 in; the top rail sits 39–45 in (42 in ± 3 in) above the walking surface. Mid rails must hold 150 lb (OSHA 1926.502(b)(5)).",
+   "ru": "Верхний поручень должен выдержать не меньше 200 lb, приложенных в пределах 2 in от верхней кромки наружу или вниз, и временный guardrail — тоже (OSHA 1926.502(b)(3); в Washington WAC 296-880-40005 — те же 200 lb). Под этой нагрузкой кромка не должна опуститься ниже 39 in; сам поручень стоит на высоте 39–45 in (42 in ± 3 in) над полом. Средний поручень — 150 lb (OSHA 1926.502(b)(5))."
   },
   "opts": [
    {
@@ -8461,7 +9105,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    233
+   ]
+  ]
  },
  {
   "id": "CLS-7",
@@ -8473,8 +9123,8 @@ const QUESTIONS = [
    "ru": "Листовой lead (свинец) заказывают по:"
   },
   "why": {
-   "en": "Sheet lead is sold by weight: pounds per square foot (e.g. 4 lb lead). Copper is ounces per square foot (16 oz, 20 oz); steel is gauged by thickness. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-   "ru": "Листовой свинец продают по весу: фунты на квадратный фут (например, 4 lb lead). Медь — унции на квадратный фут (16 oz, 20 oz); сталь — по gauge (толщине). (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+   "en": "Sheet lead is sold by weight per area, in pounds per square foot: 4 lb lead weighs 4 lb per square foot and is about 1/16\" thick. Sheet copper is specified in ounces per square foot (16 oz copper), steel sheet by gauge, and mils (thousandths of an inch) are used for plastic film and coatings.",
+   "ru": "Листовой свинец продают по весу на площадь — в фунтах на квадратный фут: 4 lb lead весит 4 фунта на квадратный фут, толщина около 1/16\". Медь задают в унциях на квадратный фут (16 oz copper), стальной лист — по gauge, а mils (тысячные дюйма) — для плёнки и покрытий."
   },
   "opts": [
    {
@@ -8497,7 +9147,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    26
+   ]
+  ]
  },
  {
   "id": "CLS-8",
@@ -8509,8 +9165,8 @@ const QUESTIONS = [
    "ru": "Всегда используй ____ инструмент для работы."
   },
   "why": {
-   "en": "The right tool for the job — not the nearest one. The instructor: \"not necessarily the nearest… use the right tool.\" (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-   "ru": "Right — подходящий для работы инструмент, а не ближайший. Инструктор: «not necessarily the nearest… use the right tool». (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+   "en": "Right: the tool made for that task, size and material. Grabbing the nearest one (snips on a gauge they are not rated for, a screwdriver used as a pry bar) ruins the tool and the work and is a common cause of hand injuries. The trap is 'nearest'.",
+   "ru": "Right — инструмент, сделанный именно для этой работы, размера и материала. Схватить ближайший (snips на gauge толще допустимого, отвёртку вместо монтировки) — значит испортить инструмент и деталь; это частая причина травм рук. Ловушка — nearest."
   },
   "opts": [
    {
@@ -8533,7 +9189,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    260
+   ]
+  ]
  },
  {
   "id": "CLS-9",
@@ -8545,8 +9207,8 @@ const QUESTIONS = [
    "ru": "На сколько лестница должна выступать над краем крыши (верхней площадкой)?"
   },
   "why": {
-   "en": "3 ft above the landing (OSHA 1926.1053(b)(1)); set the ladder at about 75°, i.e. 1 ft out for every 4 ft up. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-   "ru": "На 3 ft над площадкой (OSHA 1926.1053(b)(1)); ставят под углом около 75°, то есть 1 ft от стены на каждые 4 ft высоты. (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+   "en": "The side rails must extend at least 3 ft above the upper landing, so you have something to hold while stepping on and off (OSHA 1926.1053(b)(1); Washington's WAC 296-876-40030 is the same). Set the foot out about 1/4 of the working length (WAC 296-876-40020): cos A = 1/4, A = 75.52°, the \"75°\" rule (1 ft out for every 4 ft up gives 75.96°).",
+   "ru": "Боковины лестницы должны выступать над верхней площадкой минимум на 3 ft, чтобы было за что держаться, когда сходишь на площадку и встаёшь обратно (OSHA 1926.1053(b)(1); в Washington то же, WAC 296-876-40030). Низ отставляют от опоры примерно на 1/4 рабочей длины (WAC 296-876-40020): cos A = 1/4, A = 75.52°, это и есть правило «75°» (1 ft от стены на каждые 4 ft высоты даёт 75.96°)."
   },
   "opts": [
    {
@@ -8569,7 +9231,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    234
+   ]
+  ]
  },
  {
   "id": "CLS-10",
@@ -8581,8 +9249,8 @@ const QUESTIONS = [
    "ru": "8 + 4 × 3 − 6 ÷ 2 ="
   },
   "why": {
-   "en": "Order of operations: multiply and divide first, left to right: 4 × 3 = 12, 6 ÷ 2 = 3; then add and subtract: 8 + 12 − 3 = 17. 33 comes from working left to right ((8 + 4) × 3 − 6 = 30, ÷ 2 …) — the trap the instructor warned about. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-   "ru": "Порядок действий: сначала умножение и деление слева направо: 4 × 3 = 12, 6 ÷ 2 = 3; потом сложение и вычитание: 8 + 12 − 3 = 17. 33 получается, если считать подряд слева направо — ловушка, о которой предупреждал инструктор. (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+   "en": "Order of operations: multiply and divide first, left to right (4 × 3 = 12, 6 ÷ 2 = 3), then add and subtract: 8 + 12 − 3 = 17. Traps: 15 comes from working straight left to right ((8 + 4) × 3 − 6 = 30, 30 ÷ 2 = 15); 33 comes from adding before multiplying ((8 + 4) × 3 − 3).",
+   "ru": "Порядок действий: сначала умножение и деление слева направо (4 × 3 = 12, 6 ÷ 2 = 3), потом сложение и вычитание: 8 + 12 − 3 = 17. Ловушки: 15 — если считать подряд слева направо ((8 + 4) × 3 − 6 = 30, 30 ÷ 2 = 15); 33 — если сложить раньше умножения ((8 + 4) × 3 − 3)."
   },
   "opts": [
    {
@@ -8605,7 +9273,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    145
+   ]
+  ]
  },
  {
   "id": "CLS-11",
@@ -8617,8 +9291,8 @@ const QUESTIONS = [
    "ru": "Траншея шириной 36\", глубиной 2' и длиной 27'. Сколько кубических ярдов грунта из неё вынут?"
   },
   "why": {
-   "en": "Bring everything to one unit first: 36\" = 3'. Volume = 3 × 2 × 27 = 162 cu. ft; 1 cu. yd. = 3 × 3 × 3 = 27 cu. ft, so 162 ÷ 27 = 6 cu. yd. 162 is cubic feet (the unit trap); 18 divides by 9 (square yards). (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-   "ru": "Сначала всё в одни единицы: 36\" = 3'. Объём = 3 × 2 × 27 = 162 cu. ft; 1 cu. yd. = 3 × 3 × 3 = 27 cu. ft, значит, 162 ÷ 27 = 6 cu. yd. 162 — это кубические футы (ловушка с единицами); 18 — деление на 9 (квадратные ярды). (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+   "en": "Bring all sizes to one unit first: 36\" = 3'. Volume = 3 × 2 × 27 = 162 cu. ft. One cubic yard = 3 × 3 × 3 = 27 cu. ft, so 162 ÷ 27 = 6 cu. yd. Traps: 162 is cubic feet, 18 = 162 ÷ 9 (the square-yard factor), 4.5 = 162 ÷ 36 (inches in a yard).",
+   "ru": "Сначала все размеры в одни единицы: 36\" = 3'. Объём = 3 × 2 × 27 = 162 cu. ft. Один кубический ярд = 3 × 3 × 3 = 27 cu. ft, значит, 162 ÷ 27 = 6 cu. yd. Ловушки: 162 — это кубические футы, 18 = 162 ÷ 9 (как для квадратных ярдов), 4.5 = 162 ÷ 36 (дюймы в ярде)."
   },
   "opts": [
    {
@@ -8641,7 +9315,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    146
+   ]
+  ]
  },
  {
   "id": "CLS-12",
@@ -8653,8 +9333,8 @@ const QUESTIONS = [
    "ru": "Transition нарисован drive to drive (connection length) 20\", S&D на обоих концах. Чему равны working (layout) length и shear length?"
   },
   "why": {
-   "en": "The S&D allowance is 1\" bent in half, so the line is ½\" in from each drive: working = 20 − ½ − ½ = 19\". Do the triangulation on 19\", then add the full 1\" allowance on each end: shear = 19 + 1 + 1 = 21\". The instructor: most wrong answers are \"one inch off\" — people forget that extra half inch. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-   "ru": "Припуск S&D — 1\", загнутый пополам, поэтому линия на ½\" внутри от каждого drive: working = 20 − ½ − ½ = 19\". Triangulation считают на 19\", потом добавляют полный припуск 1\" на каждый конец: shear = 19 + 1 + 1 = 21\". Инструктор: чаще всего ошибаются «на дюйм» — забывают ту самую половину. (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)"
+   "en": "On a transition the drawn length is the net (drive-to-drive) length. Net = layout + 1 (½\" per end) and shear (gross) = layout + 2 (1\" per end), because the 1\" S&D allowance is bent in half to make the drive. Working (layout) = 20 − ½ − ½ = 19\"; do the triangulation on 19\", then shear = 19 + 1 + 1 = 21\". Trap: 20\" working / 22\" shear takes the drawn 20\" as the working length — the classic one-inch error.",
+   "ru": "На transition длина на чертеже — net (drive to drive). Net = layout + 1 (по ½\" на конец), а shear (gross) = layout + 2 (по 1\" на конец): припуск S&D 1\" загибается пополам под drive. Working (layout) = 20 − ½ − ½ = 19\"; triangulation считают на 19\", потом shear = 19 + 1 + 1 = 21\". Ловушка: 20\" working / 22\" shear — нарисованные 20\" приняты за working length, классическая ошибка «на дюйм»."
   },
   "opts": [
    {
@@ -8677,7 +9357,688 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    85
+   ]
+  ]
+ },
+ {
+  "id": "F20-1",
+  "src": "F20",
+  "n": 1,
+  "topic": "shop",
+  "q": {
+   "en": "Which reading of these two machine numbers is correct: a Roper Whitney 816 hand brake and a Wysong 1652 power shear?",
+   "ru": "Как правильно прочитать номера двух станков: hand brake Roper Whitney 816 и power shear Wysong 1652?"
+  },
+  "why": {
+   "en": "Roper Whitney rates its 816 brake at \"16 gauge up to 8 feet long\" (bending length 97\"), so the brake number is length in feet, then gauge. The Wysong 1652 shear cuts 16 ga mild steel with a 52\" blade, so this shear number is gauge first, then length in inches: the mirror order. Quick check: 52 cannot be a sheet-metal gauge.",
+   "ru": "Roper Whitney пишет про свой brake 816: «16 gauge up to 8 feet long» (длина гиба 97\"), то есть у brake сначала длина в футах, потом gauge. Shear Wysong 1652 режет mild steel до 16 ga ножом 52\" — у этого shear сначала gauge, потом длина в дюймах, зеркально. Быстрая проверка: 52 не может быть gauge листового металла."
+  },
+  "opts": [
+   {
+    "en": "816 brake: 8 ft long, 16 ga max | 1652 shear: 16 ga max, 52\" long",
+    "ru": "brake 816: длина 8 ft, максимум 16 ga | shear 1652: максимум 16 ga, длина 52\""
+   },
+   {
+    "en": "816 brake: 8 ga max, 16 ft long | 1652 shear: 16 ft long, 52 ga max",
+    "ru": "brake 816: максимум 8 ga, длина 16 ft | shear 1652: длина 16 ft, максимум 52 ga"
+   },
+   {
+    "en": "816 brake: 8 ft long, 16 ga max | 1652 shear: 16 ft long, 52 ga max",
+    "ru": "brake 816: длина 8 ft, максимум 16 ga | shear 1652: длина 16 ft, максимум 52 ga"
+   },
+   {
+    "en": "816 brake: 8 ga max, 16\" long | 1652 shear: 16 ga max, 52\" long",
+    "ru": "brake 816: максимум 8 ga, длина 16\" | shear 1652: максимум 16 ga, длина 52\""
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    27
+   ]
+  ]
+ },
+ {
+  "id": "F20-2",
+  "src": "F20",
+  "n": 2,
+  "topic": "shop",
+  "q": {
+   "en": "A Roper Whitney U-616-6 box and pan brake. What do the numbers 6-16-6 stand for?",
+   "ru": "Box and pan brake Roper Whitney U-616-6. Что означают числа 6-16-6?"
+  },
+  "why": {
+   "en": "Roper Whitney lists the U-616-6 as 6 feet of 16 gauge bending capacity (bending length 72\") with a 6-inch maximum depth of box. Brake numbers start with the length in feet, then the gauge; the last number on a box and pan brake is the deepest box it can form. Its fingers are 3, 4 and 5 inches wide.",
+   "ru": "Roper Whitney указывает для U-616-6: 6 футов гиба 16 gauge (длина гиба 72\") и максимальная глубина коробки 6 дюймов. У brake номер начинается с длины в футах, потом gauge; последнее число у box and pan brake — самая глубокая коробка, которую он согнёт. Fingers у него шириной 3, 4 и 5 дюймов."
+  },
+  "opts": [
+   {
+    "en": "6 ft bending length, 16 ga mild steel, 6\" max box depth",
+    "ru": "Длина гиба 6 ft, 16 ga mild steel, глубина коробки до 6\""
+   },
+   {
+    "en": "6 ga mild steel, 16 ft bending length, 6\" finger width",
+    "ru": "6 ga mild steel, длина гиба 16 ft, ширина finger 6\""
+   },
+   {
+    "en": "6 ft bending length, 16 fingers, 6 ga mild steel",
+    "ru": "Длина гиба 6 ft, 16 fingers, 6 ga mild steel"
+   },
+   {
+    "en": "6\" bending length, 16 ga mild steel, 6 ft box depth",
+    "ru": "Длина гиба 6\", 16 ga mild steel, глубина коробки 6 ft"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    28
+   ]
+  ]
+ },
+ {
+  "id": "F20-3",
+  "src": "F20",
+  "n": 3,
+  "topic": "shop",
+  "q": {
+   "en": "A bar folder is mainly used to:",
+   "ru": "Bar folder в основном используют, чтобы:"
+  },
+  "why": {
+   "en": "A bar folder folds the edge of a light-gauge sheet: set the depth gauge for the width of the fold and the stop for 45° or 90° (or fold all the way over for a hem), and every piece comes out the same without marking. Blanks are cut on a shear, rounds are rolled on slip rolls, and heavy plate is bent on a press brake.",
+   "ru": "Bar folder загибает кромку тонкого листа: выставить gauge на ширину отгиба и упор на 45° или 90° (или загнуть до конца под hem) — и каждая деталь выходит одинаковой без разметки. Заготовки режут на shear, rounds катают на slip rolls, а толстую плиту гнут на press brake."
+  },
+  "opts": [
+   {
+    "en": "Make many identical bends, hems and locks along a sheet edge",
+    "ru": "Делать много одинаковых гибов, hems и замков по кромке листа"
+   },
+   {
+    "en": "Cut many identical blanks from a full sheet",
+    "ru": "Нарезать много одинаковых заготовок из целого листа"
+   },
+   {
+    "en": "Roll many identical rounds of one diameter",
+    "ru": "Прокатывать много одинаковых rounds одного диаметра"
+   },
+   {
+    "en": "Bend heavy plate into identical angles",
+    "ru": "Гнуть толстую плиту в одинаковые уголки"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    29
+   ]
+  ]
+ },
+ {
+  "id": "F20-4",
+  "src": "F20",
+  "n": 4,
+  "topic": "shop",
+  "q": {
+   "en": "Sheet copper is specified by:",
+   "ru": "Листовую copper (медь) заказывают по:"
+  },
+  "why": {
+   "en": "Sheet copper is sold by weight in ounces per square foot: 16 oz copper weighs 16 oz (1 lb) per square foot and is about 0.0216\" thick; 20 oz is about 0.027\". Pounds per square foot is how sheet lead is specified (4 lb lead), and steel sheet goes by gauge.",
+   "ru": "Листовую медь продают по весу — в унциях на квадратный фут: 16 oz copper весит 16 унций (1 фунт) на квадратный фут, толщина около 0.0216\"; 20 oz — около 0.027\". В фунтах на квадратный фут задают листовой свинец (4 lb lead), а стальной лист — по gauge."
+  },
+  "opts": [
+   {
+    "en": "Ounces per square foot",
+    "ru": "Унциям на квадратный фут"
+   },
+   {
+    "en": "Pounds per square foot",
+    "ru": "Фунтам на квадратный фут"
+   },
+   {
+    "en": "Gauge number",
+    "ru": "Номеру gauge"
+   },
+   {
+    "en": "Thickness in mils",
+    "ru": "Толщине в mils"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    30
+   ]
+  ]
+ },
+ {
+  "id": "F20-5",
+  "src": "F20",
+  "n": 5,
+  "topic": "shop",
+  "q": {
+   "en": "Sheet metal that is approximately 1/8\" thick is about ____ gauge.",
+   "ru": "Лист толщиной примерно 1/8\" — это около ____ gauge."
+  },
+  "why": {
+   "en": "Rule of thumb: 16 ga ≈ 1/16\", and the thickness doubles about every 6 gauge numbers, so 1/8\" (twice 1/16\") ≈ 16 − 6 = 10 gauge. Gauge table check (1/8\" = 0.125\"): 10 ga = 0.1345\" (0.0095 off), 12 ga = 0.1046\" (0.0204 off), 8 ga = 0.1644\" (0.0394 off). If 11 is offered too: for points pick 10; technically 11 ga (0.1196\", 0.0054 off) is the closest gauge to 1/8\". Trap 16: a higher gauge number is thinner, not thicker.",
+   "ru": "Правило: 16 ga ≈ 1/16\", а толщина удваивается примерно через каждые 6 номеров gauge, поэтому 1/8\" (вдвое больше 1/16\") ≈ 16 − 6 = 10 gauge. Проверка по таблице gauge (1/8\" = 0.125\"): 10 ga = 0.1345\" (разница 0.0095), 12 ga = 0.1046\" (0.0204), 8 ga = 0.1644\" (0.0394). Если в вариантах есть и 11: для балла — 10; технически ближе всех к 1/8\" 11 ga (0.1196\", разница 0.0054). Ловушка 16: больше номер — тоньше лист, а не толще."
+  },
+  "opts": [
+   {
+    "en": "16",
+    "ru": "16"
+   },
+   {
+    "en": "12",
+    "ru": "12"
+   },
+   {
+    "en": "10",
+    "ru": "10"
+   },
+   {
+    "en": "8",
+    "ru": "8"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    31
+   ]
+  ]
+ },
+ {
+  "id": "F20-6",
+  "src": "F20",
+  "n": 6,
+  "topic": "shop",
+  "q": {
+   "en": "A hand (leaf) brake has a capacity of 816. What does that mean?",
+   "ru": "У ручного (leaf) brake capacity 816. Что это значит?"
+  },
+  "why": {
+   "en": "On a brake the length comes first, then the gauge: 816 = 8 ft long × 16 gauge max. That is how the makers name them: the Tin Knocker TK-816 is an 8 ft leaf brake rated 16 ga, and the Tennsmith HBU48-16 bends 48\" of 16 ga. Capacity is always given for mild steel; stainless is harder, so a 16 ga hand brake takes stainless only to about 20 ga. On foot shears the order is flipped: a 1652 foot shear cuts 16 ga, 52\" long.",
+   "ru": "У brake сначала длина, потом gauge: 816 = длина 8 ft × максимум 16 gauge. Так их и называют производители: Tin Knocker TK-816 — leaf brake на 8 ft, 16 ga; Tennsmith HBU48-16 гнёт 48\" листа 16 ga. Capacity всегда указана для mild steel; stainless твёрже, и ручной brake на 16 ga берёт stainless только примерно до 20 ga. У foot shear порядок обратный: foot shear 1652 режет 16 ga длиной 52\"."
+  },
+  "opts": [
+   {
+    "en": "It bends up to 8 gauge mild steel, 16 feet long",
+    "ru": "Гнёт mild steel до 8 gauge длиной 16 футов"
+   },
+   {
+    "en": "It bends up to 16 gauge mild steel, 8 feet long",
+    "ru": "Гнёт mild steel до 16 gauge длиной 8 футов"
+   },
+   {
+    "en": "It bends up to 16 gauge stainless steel, 8 feet long",
+    "ru": "Гнёт stainless steel до 16 gauge длиной 8 футов"
+   },
+   {
+    "en": "It bends up to 8 gauge mild steel, 16 inches long",
+    "ru": "Гнёт mild steel до 8 gauge длиной 16 дюймов"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    32
+   ]
+  ]
+ },
+ {
+  "id": "F20-7",
+  "src": "F20",
+  "n": 7,
+  "topic": "shop",
+  "q": {
+   "en": "A foot squaring shear is rated 1652. What does that mean?",
+   "ru": "Foot squaring shear имеет маркировку 1652. Что это значит?"
+  },
+  "why": {
+   "en": "On a foot shear the numbers run the other way from a brake: gauge first, then length. 1652 = 16 ga mild steel max, 52\" cut: the Tin Knocker TN-1652 is rated 16 ga mild steel with a 52\" shearing length, and the JET FS-1652J is 52\" × 16 ga. There is no 52 gauge sheet, so 52 can only be the length. Capacity is rated in mild steel, not stainless. On the test, read every shear number gauge first; on the job, read the capacity plate, because makers do not name big power shears the same way.",
+   "ru": "У foot shear числа идут наоборот, чем у brake: сначала gauge, потом длина. 1652 = максимум 16 ga mild steel, рез 52\": Tin Knocker TN-1652 — 16 ga mild steel, длина реза 52\"; JET FS-1652J — 52\" × 16 ga. Листа 52 gauge не бывает, значит, 52 — это длина. Capacity дают для mild steel, не для stainless. На тесте номер shear всегда читай с gauge; на работе смотри табличку станка — большие power shear производители называют по-разному."
+  },
+  "opts": [
+   {
+    "en": "It cuts up to 16 gauge mild steel, 52\" long",
+    "ru": "Режет mild steel до 16 gauge длиной 52\""
+   },
+   {
+    "en": "It cuts 16 ft long sheets up to 52 gauge",
+    "ru": "Режет листы длиной 16 футов до 52 gauge"
+   },
+   {
+    "en": "It cuts up to 16 gauge stainless steel, 52\" long",
+    "ru": "Режет stainless steel до 16 gauge длиной 52\""
+   },
+   {
+    "en": "It cuts sheets up to 52\" wide in any gauge",
+    "ru": "Режет листы шириной до 52\" любого gauge"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    33
+   ]
+  ]
+ },
+ {
+  "id": "F20-8",
+  "src": "F20",
+  "n": 8,
+  "topic": "layout",
+  "q": {
+   "en": "Which scale ruler divides the inch into decimal parts (10, 20, 30, 40, 50 or 60 parts per inch)?",
+   "ru": "Какая масштабная линейка делит дюйм на десятичные части (10, 20, 30, 40, 50 или 60 частей на дюйм)?"
+  },
+  "why": {
+   "en": "The engineer scale reads in decimals: each inch is split into 10, 20, 30, 40, 50 or 60 parts (1\" = 10', 1\" = 20' …), used on site and civil plans. The architect scale reads in feet and fractions of an inch (1/8\" = 1'-0\", 1/4\" = 1'-0\", 3\" = 1'-0\"), the scale of building and duct drawings — it does not use decimals.",
+   "ru": "Engineer scale — десятичная: каждый дюйм разбит на 10, 20, 30, 40, 50 или 60 частей (1\" = 10', 1\" = 20' …), её берут для генпланов и civil-чертежей. Architect scale читается в футах и дробях дюйма (1/8\" = 1'-0\", 1/4\" = 1'-0\", 3\" = 1'-0\"), это масштаб строительных чертежей и чертежей duct — десятичных долей у неё нет."
+  },
+  "opts": [
+   {
+    "en": "Architect scale",
+    "ru": "Architect scale"
+   },
+   {
+    "en": "Both architect and engineer scales",
+    "ru": "Обе: architect и engineer scale"
+   },
+   {
+    "en": "Neither",
+    "ru": "Ни одна"
+   },
+   {
+    "en": "Engineer scale",
+    "ru": "Engineer scale"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    86
+   ]
+  ]
+ },
+ {
+  "id": "F20-9",
+  "src": "F20",
+  "n": 9,
+  "topic": "shop",
+  "q": {
+   "en": "Perforated metal is sheet metal that has been:",
+   "ru": "Perforated metal — это листовой металл, который:"
+  },
+  "why": {
+   "en": "Perforated sheet is punched: the holes are knocked out of a solid sheet, nothing is stretched and the sheet keeps its size. Slit and stretched is expanded metal — diamond openings, no metal removed. A raised rolled pattern is diamond (tread) plate; woven wire is wire mesh.",
+   "ru": "Perforated — пробитый: отверстия выбиты из сплошного листа, ничего не растягивается, размер листа прежний. Надрезан и растянут — это expanded metal: ромбовидные ячейки, металл не убирается. Выпуклый прокатанный рисунок — diamond (tread) plate; плетёнка из проволоки — wire mesh."
+  },
+  "opts": [
+   {
+    "en": "Slit and stretched",
+    "ru": "Надрезали и растянули"
+   },
+   {
+    "en": "Rolled with a raised pattern",
+    "ru": "Прокатали с выпуклым рисунком"
+   },
+   {
+    "en": "Punched with a pattern of holes",
+    "ru": "Пробили рядами отверстий"
+   },
+   {
+    "en": "Woven from wire",
+    "ru": "Сплели из проволоки"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    34
+   ]
+  ]
+ },
+ {
+  "id": "F20-10",
+  "src": "F20",
+  "n": 10,
+  "topic": "math",
+  "q": {
+   "en": "When you solve a right triangle on the calculator (X = run, Y = rise), which side is the Y value?",
+   "ru": "Когда решаешь прямоугольный треугольник на калькуляторе (X = run, Y = rise), какая сторона — это Y?"
+  },
+  "why": {
+   "en": "Y is always the side opposite the angle you are working from; X is the side that runs to and from that angle (adjacent); the hypotenuse is the diagonal (r). Example: hypotenuse 13.67\", angle 52.4°: X = 13.67 × cos 52.4° = 8.34\", Y = 13.67 × sin 52.4° = 10.83\". Work from the other acute angle (90 − 52.4 = 37.6°) and the same sides swap names, so Y is not 'always vertical'. Swapping X and Y is the usual trap: it gives 10.83\" where the answer is 8.34\".",
+   "ru": "Y — всегда сторона напротив угла, от которого считаешь; X — сторона, которая идёт от этого угла (прилежащая); гипотенуза — диагональ (r). Пример: гипотенуза 13.67\", угол 52.4°: X = 13.67 × cos 52.4° = 8.34\", Y = 13.67 × sin 52.4° = 10.83\". Если считать от другого острого угла (90 − 52.4 = 37.6°), те же стороны меняются названиями, поэтому Y — не «всегда вертикальная». Обычная ловушка — перепутать X и Y: выйдет 10.83\" там, где ответ 8.34\"."
+  },
+  "opts": [
+   {
+    "en": "The side that runs to and from the angle you are working from",
+    "ru": "Сторона, которая идёт от угла, с которым работаешь (прилежащая)"
+   },
+   {
+    "en": "The side opposite the angle you are working from",
+    "ru": "Сторона напротив угла, с которым работаешь"
+   },
+   {
+    "en": "The hypotenuse, across from the 90° corner",
+    "ru": "Гипотенуза, напротив прямого угла"
+   },
+   {
+    "en": "Always the vertical side, whatever angle you work from",
+    "ru": "Всегда вертикальная сторона, с каким углом ни работай"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    147
+   ]
+  ]
+ },
+ {
+  "id": "F20-11",
+  "src": "F20",
+  "n": 11,
+  "topic": "layout",
+  "q": {
+   "en": "Before you can solve the pipe length and overall length of an offset made with two equal elbows, which three values do you need?",
+   "ru": "Чтобы найти pipe length и overall length для offset из двух одинаковых elbow, какие три величины нужны заранее?"
+  },
+  "why": {
+   "en": "The formulas need centerline radius (CL R), elbow degree (θ) and offset (O): K = CL R × tan(θ ÷ 2), pipe length = O ÷ sin θ − 2K, overall length = O ÷ tan θ + 2K. The drawing usually gives the throat radius, so CL R = throat R + ½ the cheek side. Example: 18\"x20\", throat R 18\", 30° elbows, offset 47\": CL R = 18 + 9 = 27; 2K = 14.47; pipe = 94 − 14.47 = 79.53\"; overall = 81.41 + 14.47 = 95.88\".",
+   "ru": "Формулам нужны centerline radius (CL R), угол elbow (θ) и offset (O): K = CL R × tan(θ ÷ 2), pipe length = O ÷ sin θ − 2K, overall length = O ÷ tan θ + 2K. На чертеже обычно дан throat radius, поэтому CL R = throat R + половина стороны cheek. Пример: 18\"x20\", throat R 18\", elbows 30°, offset 47\": CL R = 18 + 9 = 27; 2K = 14.47; pipe = 94 − 14.47 = 79.53\"; overall = 81.41 + 14.47 = 95.88\"."
+  },
+  "opts": [
+   {
+    "en": "Throat radius, heel radius and duct gauge",
+    "ru": "Throat radius, heel radius и gauge duct"
+   },
+   {
+    "en": "Duct width, duct depth and overall length",
+    "ru": "Ширина duct, глубина duct и overall length"
+   },
+   {
+    "en": "Centerline radius, elbow degree and the offset",
+    "ru": "Centerline radius, угол elbow и offset"
+   },
+   {
+    "en": "Pipe length, overall length and elbow degree",
+    "ru": "Pipe length, overall length и угол elbow"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    87
+   ]
+  ]
+ },
+ {
+  "id": "F20-12",
+  "src": "F20",
+  "n": 12,
+  "topic": "layout",
+  "q": {
+   "en": "In the first part of the two-elbow offset formula, K = centerline radius × tan of an angle. Which angle do you use?",
+   "ru": "В первой части формулы offset из двух elbow K = centerline radius × tan угла. Какой угол туда ставят?"
+  },
+  "why": {
+   "en": "K = CL R × tan(θ ÷ 2): K runs from the end of the elbow to the point where the two center lines cross, and that point splits the elbow's turn in half. The full angle goes only into the second part (O ÷ sin θ and O ÷ tan θ). Example: CL R 27\", 30° elbows, offset 47\": K = 27 × tan 15° = 7.2346, 2K = 14.4693, pipe = 47 ÷ sin 30° − 14.4693 = 94 − 14.4693 = 79.53\". With the full 30° by mistake: 2K = 2 × 27 × tan 30° = 31.18 and pipe = 62.82\" — almost 17\" short. On the HVAC Pro: CL R → x, θ ÷ 2 → θ, then y = K.",
+   "ru": "K = CL R × tan(θ ÷ 2): K идёт от торца elbow до точки, где пересекаются center lines двух duct, а эта точка делит поворот elbow пополам. Полный угол идёт только во вторую часть (O ÷ sin θ и O ÷ tan θ). Пример: CL R 27\", elbows 30°, offset 47\": K = 27 × tan 15° = 7.2346, 2K = 14.4693, pipe = 47 ÷ sin 30° − 14.4693 = 94 − 14.4693 = 79.53\". С полным углом 30° по ошибке: 2K = 2 × 27 × tan 30° = 31.18, pipe = 62.82\" — короче почти на 17\". На HVAC Pro: CL R → x, θ ÷ 2 → θ, потом y = K."
+  },
+  "opts": [
+   {
+    "en": "The full elbow degree",
+    "ru": "Полный угол elbow"
+   },
+   {
+    "en": "Twice the elbow degree",
+    "ru": "Двойной угол elbow"
+   },
+   {
+    "en": "90° minus the elbow degree",
+    "ru": "90° минус угол elbow"
+   },
+   {
+    "en": "Half the elbow degree",
+    "ru": "Половину угла elbow"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    88
+   ]
+  ]
+ },
+ {
+  "id": "F20-13",
+  "src": "F20",
+  "n": 13,
+  "topic": "layout",
+  "q": {
+   "en": "Which set of length names is correct for a duct section with S&D connections?",
+   "ru": "Какие названия длин верны для секции duct с соединениями S&D?"
+  },
+  "why": {
+   "en": "Layout = working length (bend line to bend line); Net = connection length, drive to drive (what the shop ticket shows); Gross = shear length (edge to edge of the blank). S&D adds 1\" per end beyond the bend line, half of it beyond the drive line: Net = Layout + 1\", Gross = Layout + 2\". Example: sheared 27\" → net 26\" → layout 25\"; drawn drive to drive 20\" → layout 19\" → shear 21\".",
+   "ru": "Layout = working length (от линии изгиба до линии изгиба); Net = connection length, drive to drive (её показывает shop ticket); Gross = shear length (от края до края заготовки). S&D даёт 1\" на каждый конец за линией изгиба, половина из него — за drive line: Net = Layout + 1\", Gross = Layout + 2\". Пример: sheared 27\" → net 26\" → layout 25\"; на чертеже drive to drive 20\" → layout 19\" → shear 21\"."
+  },
+  "opts": [
+   {
+    "en": "Layout = shear length, Net = working length, Gross = connection length",
+    "ru": "Layout = shear length, Net = working length, Gross = connection length"
+   },
+   {
+    "en": "Layout = working length, Net = shear length, Gross = connection length",
+    "ru": "Layout = working length, Net = shear length, Gross = connection length"
+   },
+   {
+    "en": "Layout = working length, Net = connection length, Gross = shear length",
+    "ru": "Layout = working length, Net = connection length, Gross = shear length"
+   },
+   {
+    "en": "Layout = connection length, Net = shear length, Gross = working length",
+    "ru": "Layout = connection length, Net = shear length, Gross = working length"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    89
+   ]
+  ]
+ },
+ {
+  "id": "F20-14",
+  "src": "F20",
+  "n": 14,
+  "topic": "math",
+  "q": {
+   "en": "Use the law of cosines. The triangle's sides are not labeled. What is its largest angle?",
+   "ru": "Используй law of cosines. Стороны треугольника не подписаны буквами. Чему равен его самый большой угол?"
+  },
+  "why": {
+   "en": "Label it yourself: the longest side, 4'-0\" = 48\", is A, so the largest angle is A, opposite it; B = 36\", C = 24\". cos A = (B² + C² − A²) ÷ (2·B·C) = (1296 + 576 − 2304) ÷ 1728 = −0.25 → A = 104.48°. On the calculator: 48 Conv 4, 36 Conv 5, 24 Conv 6, then Conv 9 (Law Cos) — angle A shows first. 75.52° = 180 − 104.48 (the minus sign of −0.25 dropped); 46.57° and 28.96° are the other two angles (all three add to 180°).",
+   "ru": "Подпиши сам: самая длинная сторона 4'-0\" = 48\" — это A, значит, самый большой угол — A, напротив неё; B = 36\", C = 24\". cos A = (B² + C² − A²) ÷ (2·B·C) = (1296 + 576 − 2304) ÷ 1728 = −0.25 → A = 104.48°. На калькуляторе: 48 Conv 4, 36 Conv 5, 24 Conv 6, потом Conv 9 (Law Cos) — первым покажет угол A. 75.52° = 180 − 104.48 (потерян минус у −0.25); 46.57° и 28.96° — два других угла (все три в сумме 180°)."
+  },
+  "opts": [
+   {
+    "en": "75.52°",
+    "ru": "75.52°"
+   },
+   {
+    "en": "28.96°",
+    "ru": "28.96°"
+   },
+   {
+    "en": "104.48°",
+    "ru": "104.48°"
+   },
+   {
+    "en": "46.57°",
+    "ru": "46.57°"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single",
+  "fig": "f20-q81.svg",
+  "on": [
+   [
+    "F20",
+    148
+   ]
+  ]
+ },
+ {
+  "id": "F20-15",
+  "src": "F20",
+  "n": 15,
+  "topic": "math",
+  "q": {
+   "en": "The shape is symmetrical about the center line. What is its perimeter in feet and inches?",
+   "ru": "Фигура симметрична относительно center line. Чему равен её периметр в футах и дюймах?"
+  },
+  "why": {
+   "en": "Symmetrical means a size shown on one side is the same on the other. Bottom = 2 × 5 = 10\" (the 5\" is measured from the center line); top = 18\"; each side = 9 + 5 + 6 = 20\", both sides = 40\". Perimeter = 10 + 18 + 40 = 68\" = 5'-8\". Traps: 5'-3\" counts the 5\" bottom once; 3'-7\" adds only the printed numbers (43\"); 5'-6\" uses the 4\" step across instead of the 5\" slant.",
+   "ru": "Симметрия: размер, показанный с одной стороны, такой же и с другой. Низ = 2 × 5 = 10\" (5\" отмерено от center line); верх = 18\"; каждая сторона = 9 + 5 + 6 = 20\", обе стороны = 40\". Периметр = 10 + 18 + 40 = 68\" = 5'-8\". Ловушки: 5'-3\" — низ 5\" взят один раз; 3'-7\" — сложены только напечатанные числа (43\"); 5'-6\" — вместо наклона 5\" взят шаг 4\" по горизонтали."
+  },
+  "opts": [
+   {
+    "en": "5'-3\"",
+    "ru": "5'-3\""
+   },
+   {
+    "en": "3'-7\"",
+    "ru": "3'-7\""
+   },
+   {
+    "en": "5'-6\"",
+    "ru": "5'-6\""
+   },
+   {
+    "en": "5'-8\"",
+    "ru": "5'-8\""
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single",
+  "fig": "f20-q82.svg",
+  "on": [
+   [
+    "F20",
+    149
+   ]
+  ]
+ },
+ {
+  "id": "F20-16",
+  "src": "F20",
+  "n": 16,
+  "topic": "math",
+  "q": {
+   "en": "The pattern is symmetrical from the center line. Calculate its perimeter, rounded to 2 decimal places.",
+   "ru": "Выкройка симметрична относительно center line. Найди её периметр, округли до 2 знаков после запятой."
+  },
+  "why": {
+   "en": "Work one half and double it. 150° corner: the slant leans 30° off vertical and moves 4-1/4\" across, so slant = 4.25 ÷ sin 30° = 8.5\" and its rise = 4.25 ÷ tan 30° = 7.3612\"; the short bottom side = 10.375 − 7.3612 = 3.0138\". 135° corner: the 7-1/4\" slant runs at 45°, across 7.25 × cos 45° = 5.1265\". Bottom = 2 × 3 = 6\"; top = 2 × (3 + 4.25 + 5.1265) = 24.7530\"; each side = 3.0138 + 8.5 + 5 + 7.25 = 23.7638\". Perimeter = 6 + 24.7530 + 2 × 23.7638 = 78.28\". Traps: 75.28 (3\" bottom taken once), 72.25 (short bottom side missed), 82.53 (7-1/4\" used as the across distance in the top).",
+   "ru": "Считай половину и удваивай. Угол 150°: наклон отходит от вертикали на 30° и уходит на 4-1/4\" в сторону, значит, наклон = 4.25 ÷ sin 30° = 8.5\", его высота = 4.25 ÷ tan 30° = 7.3612\"; короткая нижняя сторона = 10.375 − 7.3612 = 3.0138\". Угол 135°: наклон 7-1/4\" идёт под 45°, в сторону 7.25 × cos 45° = 5.1265\". Низ = 2 × 3 = 6\"; верх = 2 × (3 + 4.25 + 5.1265) = 24.7530\"; каждая сторона = 3.0138 + 8.5 + 5 + 7.25 = 23.7638\". Периметр = 6 + 24.7530 + 2 × 23.7638 = 78.28\". Ловушки: 75.28 (низ 3\" взят один раз), 72.25 (пропущена короткая нижняя сторона), 82.53 (в верх взяли 7-1/4\" вместо 5.1265\")."
+  },
+  "opts": [
+   {
+    "en": "75.28\"",
+    "ru": "75.28\""
+   },
+   {
+    "en": "78.28\"",
+    "ru": "78.28\""
+   },
+   {
+    "en": "82.53\"",
+    "ru": "82.53\""
+   },
+   {
+    "en": "72.25\"",
+    "ru": "72.25\""
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "fig": "f20-q83.svg",
+  "on": [
+   [
+    "F20",
+    150
+   ]
+  ]
  },
  {
   "id": "FIN5-1",
@@ -13458,8 +14819,8 @@ const QUESTIONS = [
    "ru": "Сколько кубических дюймов в 2 галлонах?"
   },
   "why": {
-   "en": "One US gallon = 231 cu. in., so 2 × 231 = 462 cu. in. Traps: 231 cu. in. is one gallon, 231 sq. in. is an area unit, and 38.5 is 231 ÷ 6, which has nothing to do with gallons.",
-   "ru": "Один US gallon = 231 cu. in., поэтому 2 × 231 = 462 cu. in. Ловушки: 231 cu. in. — это один галлон, 231 sq. in. — единица площади, а 38.5 — это 231 ÷ 6, к галлонам отношения не имеет."
+   "en": "One US gallon = 231 cu. in., so 2 gallons = 2 × 231 = 462 cu. in. Traps: 231 cu. in. is only one gallon, and 231 sq. in. is an area unit.",
+   "ru": "Один US gallon = 231 cu. in., значит, 2 галлона = 2 × 231 = 462 cu. in. Ловушки: 231 cu. in. — только один галлон, а 231 sq. in. — единица площади."
   },
   "opts": [
    {
@@ -13482,7 +14843,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    140
+   ]
+  ]
  },
  {
   "id": "Y1W5F-59",
@@ -13495,7 +14862,7 @@ const QUESTIONS = [
   },
   "why": {
    "en": "Picture the object inside a glass box: each view is projected straight onto the side of the box facing it, and then the box is opened flat, so the plan, front and side views lie on one sheet, each in its fixed place.",
-   "ru": "Представь предмет внутри стеклянной коробки: каждый вид проецируется прямо на ту стенку коробки, что напротив, а потом коробку раскрывают на плоскость. Так plan, front и side views оказываются на одном листе, каждый на своём месте."
+   "ru": "Представьте предмет внутри стеклянной коробки: каждый вид проецируется прямо на ту стенку коробки, что напротив, а потом коробку раскрывают на плоскость. Так plan, front и side views оказываются на одном листе, каждый на своём месте."
   },
   "opts": [
    {
@@ -13510,7 +14877,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    66
+   ]
+  ]
  },
  {
   "id": "Y1W5F-60",
@@ -13546,7 +14919,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    67
+   ]
+  ]
  },
  {
   "id": "Y1W5F-61",
@@ -13577,6 +14956,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    68
+   ],
+   [
     "Y2W5Y",
     2
    ]
@@ -13592,8 +14975,8 @@ const QUESTIONS = [
    "ru": "Orthographic projection можно построить под углом 35 градусов."
   },
   "why": {
-   "en": "In orthographic projection the projection lines are perpendicular (90°) to the plane of each view, and every view is seen straight on. Lines receding at an angle belong to pictorial drawings: 30° in isometric, often 45° in oblique.",
-   "ru": "В orthographic projection линии проекции перпендикулярны (90°) плоскости каждого вида, и каждый вид показан так, будто смотришь прямо. Линии, уходящие под углом, — это наглядные рисунки: 30° в isometric, часто 45° в oblique."
+   "en": "In orthographic projection the projection lines are perpendicular (90°) to the plane of each view, and every view is seen straight on, so no angle like 35° is used. Lines receding at an angle belong to pictorial drawings: 30° in isometric, often 45° in oblique.",
+   "ru": "В orthographic projection линии проекции перпендикулярны (90°) плоскости каждого вида, и каждый вид показан так, будто смотришь прямо, поэтому никаких углов вроде 35° там нет. Линии, уходящие под углом, — это наглядные рисунки: 30° в isometric, часто 45° в oblique."
   },
   "opts": [
    {
@@ -13608,7 +14991,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    69
+   ]
+  ]
  },
  {
   "id": "Y1W5F-63",
@@ -13636,7 +15025,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    70
+   ]
+  ]
  },
  {
   "id": "Y1W5F-64",
@@ -13664,7 +15059,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    71
+   ]
+  ]
  },
  {
   "id": "Y1W5F-65",
@@ -13694,6 +15095,10 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
+   [
+    "F20",
+    72
+   ],
    [
     "Y2W5Y",
     1
@@ -13726,7 +15131,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    73
+   ]
+  ]
  },
  {
   "id": "Y1W5M-3",
@@ -13738,8 +15149,8 @@ const QUESTIONS = [
    "ru": "Примерно 2/3 всех sheet metal workers заняты в этой области профессии."
   },
   "why": {
-   "en": "HVAC (heating, ventilating and air-conditioning) ductwork is the largest area of the sheet metal trade; industrial, architectural and service work employ fewer workers.",
-   "ru": "HVAC (отопление, вентиляция и кондиционирование) — самая большая область профессии sheet metal; в industrial, architectural и service занято меньше людей."
+   "en": "HVAC: making and installing duct and air-distribution systems is by far the largest part of the sheet metal trade, about two-thirds of the workers. Industrial, architectural and service work each employ far fewer.",
+   "ru": "HVAC: изготовление и монтаж duct и систем воздухораспределения — самая большая часть профессии sheet metal, около двух третей работников. В industrial, architectural и service занято намного меньше."
   },
   "opts": [
    {
@@ -13762,7 +15173,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    258
+   ]
+  ]
  },
  {
   "id": "Y1W5M-4",
@@ -13774,8 +15191,8 @@ const QUESTIONS = [
    "ru": "Все snips можно разделить на straight blade и combination blade."
   },
   "why": {
-   "en": "Snips are grouped by blade shape: straight blades for straight cuts and gentle outside curves, combination blades for both straight lines and curves. Note: not confirmed by a graded key or a course sheet; the graded sheet only did not mark \"Yes\" as wrong.",
-   "ru": "Snips делят по форме лезвий: straight blade — для прямых резов и плавных наружных кривых, combination blade — и для прямых, и для кривых. Внимание: проверенного ключа и листа курса нет; на проверенном листе «Yes» просто не отмечено как ошибка."
+   "en": "Yes: snips are classed by blade pattern. Straight blades cut straight lines and wide curves; combination blades have narrower jaws and cut both straight lines and curves (tinner snips are sold as \"straight pattern\" and \"combination pattern\").",
+   "ru": "Да: snips делят по форме лезвий. Straight blade режет прямые линии и плавные кривые; у combination blade губки уже, они режут и прямые, и кривые (tinner snips так и продают: «straight pattern» и «combination pattern»)."
   },
   "opts": [
    {
@@ -13790,7 +15207,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    19
+   ]
+  ]
  },
  {
   "id": "Y1W5M-7",
@@ -13802,8 +15225,8 @@ const QUESTIONS = [
    "ru": "Easy edger загибает кромку шириной _______ дюйма."
   },
   "why": {
-   "en": "The easy edger turns a 3/16\" edge, and 3 ÷ 16 = .1875\". The other values are other fractions: .8125 = 13/16, .25 = 1/4, .375 = 3/8.",
-   "ru": "Easy edger загибает кромку 3/16\", а 3 ÷ 16 = .1875\". Остальные значения — другие дроби: .8125 = 13/16, .25 = 1/4, .375 = 3/8."
+   "en": "The easy edger turns the small right-angle flange on curved edges, such as elbow cheeks, that goes into a Pittsburgh pocket; on a radius that flange is 3/16\", and 3 ÷ 16 = .1875\". On straight edges the male Pittsburgh flange is 1/4\" (.25), which is the trap; .8125 = 13/16 and .375 = 3/8.",
+   "ru": "Easy edger отгибает маленький фланец под прямым углом на кривых кромках, например на cheeks у elbow, — он заходит в карман Pittsburgh; на радиусе этот фланец 3/16\", а 3 ÷ 16 = .1875\". На прямых кромках male Pittsburgh — 1/4\" (.25), это и есть ловушка; .8125 = 13/16, .375 = 3/8."
   },
   "opts": [
    {
@@ -13826,7 +15249,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    20
+   ]
+  ]
  },
  {
   "id": "Y1W5M-8",
@@ -13854,7 +15283,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    21
+   ]
+  ]
  },
  {
   "id": "Y1W5M-9",
@@ -13866,8 +15301,8 @@ const QUESTIONS = [
    "ru": "Регулируемый gauge на bar folder позволяет согнуть несколько деталей на один размер, не размечая каждую."
   },
   "why": {
-   "en": "The depth gauge sets how wide a fold the bar folder makes; once it is set, every piece pushed against it is folded to the same width, so no layout line is needed on each piece.",
-   "ru": "Gauge задаёт ширину отгиба на bar folder; после настройки каждая деталь, вставленная до упора, сгибается на ту же ширину, поэтому размечать каждую не нужно."
+   "en": "Yes: the depth gauge sets how wide the fold is; once it is set, every piece pushed against it gets the same fold, so no piece needs a layout line. That is what a bar folder is for: many identical bends — set the gauge, set the 45° or 90° stop, or fold all the way over for a hem.",
+   "ru": "Да: gauge задаёт ширину отгиба; после настройки каждая деталь, вставленная до упора, сгибается одинаково, и размечать её не нужно. Для этого bar folder и нужен — много одинаковых гибов: выставить gauge, упор на 45° или 90° или загнуть до конца под hem."
   },
   "opts": [
    {
@@ -13882,7 +15317,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    22
+   ]
+  ]
  },
  {
   "id": "Y1W5M-14",
@@ -13891,11 +15332,11 @@ const QUESTIONS = [
   "topic": "safety",
   "q": {
    "en": "An experience modifier determines the dollar amount that a contractor pays, based on the shop safety record.",
-   "ru": "Experience modifier определяет, сколько долларов платит подрядчик, в зависимости от истории безопасности (safety record) мастерской."
+   "ru": "Experience modifier определяет, сколько долларов платит подрядчик, в зависимости от истории безопасности (safety record) его компании (shop)."
   },
   "why": {
-   "en": "The experience modification rate (EMR) adjusts a contractor's workers' compensation insurance premium by its injury claim history: a worse record than average pushes the rate above 1.0 and raises the cost, a better record lowers it.",
-   "ru": "Experience modification rate (EMR) пересчитывает взнос подрядчика за страховку workers' compensation по его истории травм: хуже среднего — коэффициент выше 1.0 и платить больше, лучше — меньше."
+   "en": "Yes. The experience modifier (EMR) compares a contractor's injury claims with the average for its line of work and adjusts its workers' comp premium by that factor: a worse record gives a factor above 1.0 and a higher premium, a better record gives a factor below 1.0 and a lower one. In Washington, L&I sets this experience factor for the state fund (WAC 296-17-855).",
+   "ru": "Да. Experience modifier (EMR) сравнивает травмы подрядчика со средними по его виду работ и этим коэффициентом поправляет взнос за workers' comp: история хуже средней — коэффициент выше 1.0 и платить больше, лучше — ниже 1.0 и платить меньше. В Washington этот experience factor для государственного фонда считает L&I (WAC 296-17-855)."
   },
   "opts": [
    {
@@ -13910,7 +15351,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    226
+   ]
+  ]
  },
  {
   "id": "Y1W5M-19",
@@ -13922,8 +15369,8 @@ const QUESTIONS = [
    "ru": "Язык тела, тон голоса и выражение лица — это способы общаться косвенно."
   },
   "why": {
-   "en": "They are nonverbal signals: they carry a message without words, along with what is said or even against it.",
-   "ru": "Это невербальные сигналы: они передают смысл без слов, вместе со сказанным или даже вопреки ему."
+   "en": "Yes. Words are direct communication; body language, tone of voice and facial expressions are nonverbal, indirect signals. They carry a message without words and can even contradict what is said, so watch for them when you give or take instructions.",
+   "ru": "Да. Слова — прямое общение; язык тела, тон голоса и выражение лица — невербальные, косвенные сигналы. Они передают смысл без слов и даже могут противоречить сказанному, поэтому на них стоит смотреть, когда даёшь или получаешь указания."
   },
   "opts": [
    {
@@ -13938,7 +15385,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    259
+   ]
+  ]
  },
  {
   "id": "Y1W5M-23",
@@ -13950,8 +15403,8 @@ const QUESTIONS = [
    "ru": "Три основных типа elbows: (a) Square Throat/Square Heel, (b) Radius Throat/Square Heel, (c) Radius Throat/Radius Heel"
   },
   "why": {
-   "en": "The list is wrong in (b). The three basic rectangular elbows are square throat/square heel, square throat/radius heel (the usual square throat elbow) and radius throat/radius heel; a radius throat with a square heel is not one of them.",
-   "ru": "Ошибка в пункте (b). Три основных типа прямоугольных elbows: square throat/square heel, square throat/radius heel (обычный square throat elbow) и radius throat/radius heel. Radius throat с square heel в их число не входит."
+   "en": "No: item (b) is wrong. The three basic rectangular elbows are square throat/square heel, square throat/radius heel and radius throat/radius heel; (b) has it reversed and should read square throat/radius heel.",
+   "ru": "Нет: ошибка в пункте (b). Три основных типа прямоугольных elbows: square throat/square heel, square throat/radius heel и radius throat/radius heel; в (b) всё наоборот — должно быть square throat/radius heel."
   },
   "opts": [
    {
@@ -13966,7 +15419,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    60
+   ]
+  ]
  },
  {
   "id": "Y1W5M-29",
@@ -13994,7 +15453,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    23
+   ]
+  ]
  },
  {
   "id": "Y1W5M-42",
@@ -14006,8 +15471,8 @@ const QUESTIONS = [
    "ru": "Какой распространённый seam используют, чтобы присоединить round duct к плоской поверхности?"
   },
   "why": {
-   "en": "Dovetail: tabs cut around the end of the round collar go through the hole in the flat sheet and are bent alternately in and out to lock it. Pittsburgh, S lock and clinch lock join sheet edges and duct sections, not a round collar to a flat surface.",
-   "ru": "Dovetail: зубцы, нарезанные по краю round collar, вставляют в отверстие плоского листа и отгибают поочерёдно внутрь и наружу. Pittsburgh, S lock и clinch lock соединяют кромки листов и секции duct, а не round collar с плоскостью."
+   "en": "Dovetail: the end of the round collar is slit into tabs, every other tab is bent out to stop against the flat sheet, the collar goes through the hole, and the remaining tabs are bent over on the other side to lock it. Pittsburgh, S lock and clinch lock join sheet edges and duct sections, not a round collar to a flat surface.",
+   "ru": "Dovetail: конец round collar надрезают на зубцы, каждый второй зубец отгибают наружу — он упирается в плоский лист, collar вставляют в отверстие, а остальные зубцы загибают с другой стороны листа и запирают соединение. Pittsburgh, S lock и clinch lock соединяют кромки листов и секции duct, а не round collar с плоскостью."
   },
   "opts": [
    {
@@ -14030,7 +15495,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    61
+   ]
+  ]
  },
  {
   "id": "Y1W5M-45",
@@ -14042,8 +15513,8 @@ const QUESTIONS = [
    "ru": "Что такое Circumference?"
   },
   "why": {
-   "en": "Circumference is the perimeter of a circle, the distance around it: C = π × D. The distance across through the center is the diameter, and the area is the space inside.",
-   "ru": "Circumference — периметр круга, расстояние вокруг него: C = π × D. Расстояние поперёк через центр — это диаметр, а площадь — то, что внутри."
+   "en": "Circumference is the perimeter of a circle, the distance around it: C = π × D = 2 × π × R. The distance across through the center is the diameter, and the area is the surface inside.",
+   "ru": "Circumference — периметр круга, расстояние вокруг него: C = π × D = 2 × π × R. Расстояние поперёк через центр — это диаметр, а площадь — поверхность внутри."
   },
   "opts": [
    {
@@ -14094,7 +15565,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    62
+   ]
+  ]
  },
  {
   "id": "Y1W5M-47",
@@ -14106,8 +15583,8 @@ const QUESTIONS = [
    "ru": "На architect scale rules деления — в десятичных долях дюйма."
   },
   "why": {
-   "en": "An architect scale is divided in feet and fractions of an inch (1/8\" = 1'-0\", 1/4\" = 1'-0\" and so on). Decimal divisions are on the engineer's scale.",
-   "ru": "Architect scale размечен в футах и дробях дюйма (1/8\" = 1'-0\", 1/4\" = 1'-0\" и т. д.). Десятичные деления — на engineer's scale."
+   "en": "An architect scale is divided in feet and fractions of an inch (1/8\" = 1'-0\", 1/4\" = 1'-0\", 1\" = 1'-0\" and so on). Decimal divisions (10, 20, 30… parts to the inch) are on the engineer's scale.",
+   "ru": "Architect scale размечен в футах и дробях дюйма (1/8\" = 1'-0\", 1/4\" = 1'-0\", 1\" = 1'-0\" и т. д.). Десятичные деления (10, 20, 30… частей на дюйм) — на engineer's scale."
   },
   "opts": [
    {
@@ -14134,8 +15611,8 @@ const QUESTIONS = [
    "ru": "Если масштаб на чертеже указан как 1/4 scale, значит, чертёж выполнен в масштабе:"
   },
   "why": {
-   "en": "\"1/4 scale\" is a ratio, 1:4: the drawing is a quarter of full size, and a quarter of 12\" is 12 ÷ 4 = 3\", so 3\" = 1'-0\" (full scale is 12\" = 1'-0\", half scale 6\" = 1'-0\"). 1/4\" = 1'-0\" is a different scale, 1:48 (12 ÷ 1/4 = 48).",
-   "ru": "\"1/4 scale\" — это отношение 1:4: чертёж в четверть натуральной величины, а четверть от 12\" — это 12 ÷ 4 = 3\", то есть 3\" = 1'-0\" (full scale — 12\" = 1'-0\", half scale — 6\" = 1'-0\"). 1/4\" = 1'-0\" — другой масштаб, 1:48 (12 ÷ 1/4 = 48)."
+   "en": "\"1/4 scale\" is a ratio, 1:4: the drawing is a quarter of full size, and a quarter of 12\" is 12 ÷ 4 = 3\", so 3\" = 1'-0\" (full scale is 12\" = 1'-0\", half scale 6\" = 1'-0\"). Trap: 1/4\" = 1'-0\" is quarter-inch scale, a different scale, 1:48 (12 ÷ 1/4 = 48).",
+   "ru": "\"1/4 scale\" — это отношение 1:4: чертёж в четверть натуральной величины, а четверть от 12\" — это 12 ÷ 4 = 3\", то есть 3\" = 1'-0\" (full scale — 12\" = 1'-0\", half scale — 6\" = 1'-0\"). Ловушка: 1/4\" = 1'-0\" — это quarter-inch scale, другой масштаб, 1:48 (12 ÷ 1/4 = 48)."
   },
   "opts": [
    {
@@ -14158,7 +15635,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    63
+   ]
+  ]
  },
  {
   "id": "Y1W5M-49",
@@ -14170,8 +15653,8 @@ const QUESTIONS = [
    "ru": "На чертеже cutting plane line показывает, где сделан воображаемый разрез. Стрелка на ней указывает направление взгляда в _______________ view."
   },
   "why": {
-   "en": "The arrows on a cutting plane line show the line of sight for the section view: you look at the cut surface in the direction the arrows point. The section view is labeled with the same letters as the line (SECTION A-A).",
-   "ru": "Стрелки на cutting plane line показывают направление взгляда для section view: на поверхность разреза смотрят туда, куда указывают стрелки. Section view подписывают теми же буквами, что и линию (SECTION A-A)."
+   "en": "A section view shows the object as if it were cut along the cutting plane line; the arrows on that line show the direction you look at the cut surface. The view is labeled with the same letters as the line, e.g. SECTION A-A.",
+   "ru": "Section view показывает предмет так, будто его разрезали по cutting plane line; стрелки на этой линии показывают, с какой стороны смотрят на разрез. Вид подписывают теми же буквами, что и линию, например SECTION A-A."
   },
   "opts": [
    {
@@ -14194,7 +15677,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    64
+   ]
+  ]
  },
  {
   "id": "Y1W5M-50",
@@ -14206,8 +15695,8 @@ const QUESTIONS = [
    "ru": "Radius dimension line"
   },
   "why": {
-   "en": "A radius is dimensioned with a straight line from the center of the arc to the arc, with one arrowhead on the arc and the value marked R (for example 8'R). Short and long dashes are a centerline, and an arc is used to dimension an angle.",
-   "ru": "Радиус образмеривают прямой линией от центра дуги до дуги, со стрелкой на дуге и значением с буквой R (например, 8'R). Короткие и длинные штрихи — это centerline, а дугой образмеривают угол."
+   "en": "A radius is dimensioned with a straight line from the center of the arc to the arc, with one arrowhead on the arc and the value marked R (e.g. R8\"). Short and long dashes are a centerline, and an arc-shaped dimension line is used for angles, not radii.",
+   "ru": "Радиус образмеривают прямой линией от центра дуги до дуги, со стрелкой на дуге и значением с буквой R (например, R8\"). Короткие и длинные штрихи — это centerline, а дугой образмеривают угол, а не радиус."
   },
   "opts": [
    {
@@ -14230,7 +15719,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    65
+   ]
+  ]
  },
  {
   "id": "Y1W5M-51",
@@ -14266,7 +15761,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    137
+   ]
+  ]
  },
  {
   "id": "Y1W5M-52",
@@ -14278,8 +15779,8 @@ const QUESTIONS = [
    "ru": "Confined space определяется так: ограниченный выход (egress), человек может войти туда целиком, и место не предназначено для постоянного пребывания."
   },
   "why": {
-   "en": "This is the OSHA definition (29 CFR 1910.146): a space large enough for a worker to bodily enter and work in, with limited or restricted means of entry or exit (tanks, vessels, silos, bins, hoppers, vaults, pits), and not designed for continuous employee occupancy.",
-   "ru": "Это определение OSHA (29 CFR 1910.146): пространство, куда работник может войти целиком и работать, с ограниченным входом или выходом (баки, ёмкости, силосы, бункеры, колодцы, ямы) и не предназначенное для постоянного пребывания людей."
+   "en": "Yes. That is the standard three-part definition (OSHA 1910.146 and 1926.1202; in Washington WAC 296-809-099): big enough to bodily enter and work in, limited or restricted entry or exit, and not designed for continuous occupancy. Examples: tanks, vaults, pits, crawl spaces, large ductwork and plenums.",
+   "ru": "Да. Это стандартное определение из трёх условий (OSHA 1910.146 и 1926.1202; в Washington WAC 296-809-099): человек может войти туда целиком и работать, вход или выход ограничен, место не предназначено для постоянного пребывания. Примеры: баки, колодцы, ямы, подполья, большие duct и plenum."
   },
   "opts": [
    {
@@ -14294,7 +15795,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    227
+   ]
+  ]
  },
  {
   "id": "Y1W5M-53",
@@ -14306,8 +15813,8 @@ const QUESTIONS = [
    "ru": "Некоторые confined spaces могут относиться к non-permit required."
   },
   "why": {
-   "en": "OSHA 29 CFR 1910.146 separates permit-required confined spaces (hazardous atmosphere, engulfment, an entrapping shape or another serious hazard) from non-permit confined spaces, which meet the definition but contain no hazard that can cause death or serious physical harm.",
-   "ru": "OSHA 29 CFR 1910.146 отделяет permit-required confined spaces (опасная атмосфера, риск засыпания, форма, в которой можно застрять, или другая серьёзная опасность) от non-permit confined spaces: они подходят под определение, но опасности смерти или тяжёлой травмы в них нет."
+   "en": "Yes. A confined space is permit-required only when it has a serious hazard: a hazardous atmosphere, engulfment, an inward-sloping shape that can trap, or another serious hazard; a space that meets the definition without such hazards is a non-permit confined space (OSHA 1910.146; WAC 296-809-600). Washington's permit list is broader, since any physical hazard such as moving parts or electrical shock makes it a permit space, but non-permit spaces exist there too.",
+   "ru": "Да. Confined space требует permit, только если в нём есть серьёзная опасность: опасная атмосфера, материал, который может засыпать или затянуть человека (engulfment), сужающаяся форма, где можно застрять, или другая серьёзная опасность. Место, которое подходит под определение, но таких опасностей не имеет, — non-permit confined space (OSHA 1910.146; WAC 296-809-600). В Washington список шире: любая физическая опасность, например движущиеся части или удар током, делает место permit space, но non-permit spaces есть и там."
   },
   "opts": [
    {
@@ -14322,7 +15829,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    228
+   ]
+  ]
  },
  {
   "id": "Y1W5M-54",
@@ -14334,8 +15847,8 @@ const QUESTIONS = [
    "ru": "Работы в confined space регулярно входят в число основных причин гибели на производстве."
   },
   "why": {
-   "en": "Confined spaces kill workers every year, mostly through hazardous atmospheres (too little oxygen, toxic or flammable gases), and many victims are co-workers who go in to rescue without training or equipment. That is why OSHA requires a permit, air testing, an attendant and a rescue plan for permit spaces.",
-   "ru": "Confined spaces каждый год убивают рабочих, чаще всего из-за опасной атмосферы (мало кислорода, ядовитые или горючие газы), и многие погибшие — коллеги, которые полезли спасать без подготовки и снаряжения. Поэтому для permit spaces OSHA требует permit, замер воздуха, наблюдающего снаружи и план спасения."
+   "en": "Yes. Confined spaces kill workers every year, mostly through hazardous atmospheres (too little oxygen, toxic or flammable gas), and many of the dead are co-workers who went in to rescue without training or equipment. That is why permit spaces require a permit, air testing, an attendant outside and a rescue plan (OSHA 1910.146, WAC 296-809).",
+   "ru": "Да. Confined spaces каждый год убивают рабочих, чаще всего из-за опасной атмосферы (мало кислорода, ядовитый или горючий газ), и многие погибшие — коллеги, которые полезли спасать без подготовки и снаряжения. Поэтому для permit spaces нужны permit, замер воздуха, наблюдающий снаружи и план спасения (OSHA 1910.146, WAC 296-809)."
   },
   "opts": [
    {
@@ -14350,7 +15863,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    229
+   ]
+  ]
  },
  {
   "id": "Y1W5M-57",
@@ -14362,8 +15881,8 @@ const QUESTIONS = [
    "ru": "7/16"
   },
   "why": {
-   "en": "7 ÷ 16 = .4375 exactly, and this version prints no rounding instruction. 14/32 has the same value but is still a fraction, .438 is the value rounded to 3 places (correct only when the question says \"Round to 3 decimals\", as another version of this test does), and .3875 is simply wrong.",
-   "ru": "7 ÷ 16 = .4375 ровно, а указания округлять здесь нет. 14/32 равно 7/16, но это всё ещё дробь; .438 — значение, округлённое до 3 знаков (верно, только если в вопросе написано \"Round to 3 decimals\", как в другой версии этого теста); .3875 — просто неверно."
+   "en": "7 ÷ 16 = 0.4375 exactly, and nothing here asks to round, so the answer is .4375. Traps: 14/32 has the same value but is still a fraction; .438 is the same number rounded to 3 places (pick it only when the question says to round to 3 decimals); .3875 is simply wrong.",
+   "ru": "7 ÷ 16 = 0.4375 ровно, а округлять здесь не просят, поэтому ответ .4375. Ловушки: 14/32 равно 7/16, но это всё ещё дробь; .438 — то же число, округлённое до 3 знаков (выбирать, только если в вопросе сказано округлить до 3 знаков); .3875 — просто неверно."
   },
   "opts": [
    {
@@ -14386,7 +15905,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    138
+   ]
+  ]
  },
  {
   "id": "Y1W5M-64",
@@ -14398,8 +15923,8 @@ const QUESTIONS = [
    "ru": "Если сторона 11\" x 5\" останется той же, какой высоты должна быть коробка, чтобы вместить 7 галлонов?"
   },
   "why": {
-   "en": "7 gal × 231 = 1617 cu. in. Height = volume ÷ base area = 1617 ÷ (11 × 5 = 55) = 29.4\" → 29.40\". Traps: 1617.00 cu. in. is the volume, not the height; 29-3/8\" (= 29.375\") is a fraction, not two decimals; 231 cu. in. is one gallon.",
-   "ru": "7 gal × 231 = 1617 cu. in. Высота = объём ÷ площадь основания = 1617 ÷ (11 × 5 = 55) = 29.4\" → 29.40\". Ловушки: 1617.00 cu. in. — объём, а не высота; 29-3/8\" (= 29.375\") — дробь, а не два знака после запятой; 231 cu. in. — один галлон."
+   "en": "Volume needed: 7 gal × 231 cu. in. = 1617 cu. in. Height = volume ÷ base area = 1617 ÷ (11 × 5 = 55) = 29.40\". Traps: 1617.00 cu. in. is the volume, not the height; 29-3/8\" (= 29.375\") is a fraction, not the two-decimal answer; 231 cu. in. is one gallon.",
+   "ru": "Нужный объём: 7 gal × 231 cu. in. = 1617 cu. in. Высота = объём ÷ площадь основания = 1617 ÷ (11 × 5 = 55) = 29.40\". Ловушки: 1617.00 cu. in. — объём, а не высота; 29-3/8\" (= 29.375\") — дробь, а не ответ с двумя знаками; 231 cu. in. — один галлон."
   },
   "hint": {
    "en": "Round to two decimal places",
@@ -14427,7 +15952,13 @@ const QUESTIONS = [
    3
   ],
   "type": "single",
-  "fig": "y1w5m-q64.svg"
+  "fig": "y1w5m-q64.svg",
+  "on": [
+   [
+    "F20",
+    139
+   ]
+  ]
  },
  {
   "id": "Y2W3F-1",
@@ -14547,8 +16078,8 @@ const QUESTIONS = [
    "ru": "Fire dampers обычно имеют рейтинг:"
   },
   "why": {
-   "en": "Fire dampers are made with 1-1/2-hour and 3-hour ratings: a barrier rated less than 3 hours (a 2-hour wall too) gets a 1-1/2-hour damper, a barrier rated 3 hours or more gets a 3-hour damper.",
-   "ru": "Fire dampers выпускают с рейтингом 1 1/2 и 3 часа: в преграду с рейтингом меньше 3 часов (в том числе в 2-часовую стену) ставят damper на 1 1/2 часа, в преграду на 3 часа и больше — damper на 3 часа."
+   "en": "Fire dampers are made with 1-1/2-hour and 3-hour ratings (UL 555): a wall or floor rated less than 3 hours, a 2-hour wall included, gets a 1-1/2-hour damper; a barrier rated 3 hours or more gets a 3-hour damper. Trap: '1 or 2 hours' are common wall ratings, not damper ratings.",
+   "ru": "Fire dampers выпускают с рейтингом 1 1/2 и 3 часа (UL 555): в стену или перекрытие с рейтингом меньше 3 часов, в том числе в 2-часовую стену, ставят damper на 1 1/2 часа; в преграду на 3 часа и больше — damper на 3 часа. Ловушка: «1 или 2 часа» — это обычные рейтинги стен, а не dampers."
   },
   "opts": [
    {
@@ -14573,6 +16104,10 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
+   [
+    "F20",
+    230
+   ],
    [
     "Y2W5Y",
     50
@@ -14653,8 +16188,8 @@ const QUESTIONS = [
    "ru": "______ должно быть выбито на седле (saddle) грузового крюка."
   },
   "why": {
-   "en": "Before every lift the rigger has to know what the hook can carry, so its safe working load (SWL) is stamped on it. The name, date or country of origin do not tell whether the hook can take the load.",
-   "ru": "Перед каждым подъёмом rigger должен знать, что выдержит крюк, поэтому на нём выбивают SWL (safe working load). Производитель, дата или страна не говорят, выдержит ли крюк груз."
+   "en": "Before every lift the rigger must know what the hook can carry, so its safe working load (SWL, now usually written WLL) is stamped on it. The maker's name, the date or the country does not tell whether the hook can take the load.",
+   "ru": "Перед каждым подъёмом rigger должен знать, что выдержит крюк, поэтому на нём выбивают safe working load (SWL, сейчас чаще пишут WLL). Производитель, дата или страна не говорят, выдержит ли крюк груз."
   },
   "opts": [
    {
@@ -14679,6 +16214,10 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
+   [
+    "F20",
+    231
+   ],
    [
     "Y2W5Y",
     53
@@ -15127,8 +16666,8 @@ const QUESTIONS = [
    "ru": "Найдите недостающий размер Top Up (разницу отметок верха двух duct), как показано на transition."
   },
   "why": {
-   "en": "BOD is the bottom of duct; add each duct's depth (the second number) to get its top. Left: 9'-3 3/4\" = 111.75\" + 12\" = 123.75\". Right: 10'-1\" = 121\" + 8\" = 129\". Top Up = 129 − 123.75 = 5.25\". The trap 9-1/4\" is the difference of the bottoms (121 − 111.75 = 9.25), not of the tops.",
-   "ru": "BOD — отметка низа duct; чтобы получить верх, прибавляем глубину duct (второе число). Слева: 9'-3 3/4\" = 111.75\" + 12\" = 123.75\". Справа: 10'-1\" = 121\" + 8\" = 129\". Top Up = 129 − 123.75 = 5.25\". Ловушка 9-1/4\" — разница низов (121 − 111.75 = 9.25), а не верхов."
+   "en": "BOD is the bottom of duct; add each duct's depth (the second number) to get its top. Left: 9'-3 3/4\" = 111.75\" + 12\" = 123.75\". Right: 10'-1\" = 121\" + 8\" = 129\". Top Up = 129 − 123.75 = 5.25\". Trap: 9-1/4\" is the difference of the bottoms (121 − 111.75 = 9.25), not of the tops.",
+   "ru": "BOD — отметка низа duct; чтобы получить верх, прибавляем глубину duct (вторую цифру). Слева: 9'-3 3/4\" = 111.75\" + 12\" = 123.75\". Справа: 10'-1\" = 121\" + 8\" = 129\". Top Up = 129 − 123.75 = 5.25\". Ловушка: 9-1/4\" — разница низов (121 − 111.75 = 9.25), а не верхов."
   },
   "opts": [
    {
@@ -15154,6 +16693,10 @@ const QUESTIONS = [
   "type": "single",
   "fig": "y2w3f-q23.svg",
   "on": [
+   [
+    "F20",
+    81
+   ],
    [
     "Y2W5Y",
     58
@@ -15355,8 +16898,8 @@ const QUESTIONS = [
    "ru": "Выберите 2 лучших ответа для размеров \"L\" и \"D\", округлённых до 3 знаков."
   },
   "why": {
-   "en": "The 24\" radius is to the throat; the centerline radius adds half of the 26\" side shown: CLR = 24 + 13 = 37\". Rise H = 11'-2\" − 8'-4\" = 34\". Straight piece D = (H − 2·CLR·(1 − cos 30°)) ÷ sin 30° = 48.172\". Overall L = 2·CLR·sin 30° + D·cos 30° = 78.718\". Using 24\" as the centerline radius gives the trap pair 55.138\" / 71.751\".",
-   "ru": "24\" — радиус по throat; к centerline radius прибавляют половину видимой стороны 26\": CLR = 24 + 13 = 37\". Подъём H = 11'-2\" − 8'-4\" = 34\". Прямой участок D = (H − 2·CLR·(1 − cos 30°)) ÷ sin 30° = 48.172\". Общая длина L = 2·CLR·sin 30° + D·cos 30° = 78.718\". Если взять 24\" за centerline radius, выйдет пара-ловушка 55.138\" / 71.751\"."
+   "en": "24\" Rad. is to the throat; the CL radius adds half of the 26\" side shown: CL R = 24 + 13 = 37\". Rise O = 11'-2\" − 8'-4\" = 134 − 100 = 34\"; K = 37 × tan 15° (half of 30°) = 9.914\", 2K = 19.828\". D (straight piece) = O ÷ sin 30° − 2K = 68 − 19.828 = 48.172\"; L (overall) = O ÷ tan 30° + 2K = 58.890 + 19.828 = 78.718\". Trap: 24\" used as the CL radius gives the pair 55.138\" / 71.751\".",
+   "ru": "24\" Rad. — радиус до throat; к CL радиусу прибавляют половину видимой стороны 26\": CL R = 24 + 13 = 37\". Подъём O = 11'-2\" − 8'-4\" = 134 − 100 = 34\"; K = 37 × tan 15° (половина от 30°) = 9.914\", 2K = 19.828\". D (прямой кусок) = O ÷ sin 30° − 2K = 68 − 19.828 = 48.172\"; L (общая длина) = O ÷ tan 30° + 2K = 58.890 + 19.828 = 78.718\". Ловушка: если взять 24\" за CL радиус, выйдет пара 55.138\" / 71.751\"."
   },
   "opts": [
    {
@@ -15392,6 +16935,10 @@ const QUESTIONS = [
   "fig": "y2w3f-q30.svg",
   "on": [
    [
+    "F20",
+    82
+   ],
+   [
     "Y2W5Y",
     60
    ]
@@ -15407,8 +16954,8 @@ const QUESTIONS = [
    "ru": "Выберите 2 лучших ответа для размеров \"L\" и \"D\", округлённых до 3 знаков."
   },
   "why": {
-   "en": "CLR = 24\" throat + half of the 30\" diameter = 39\". H = 13'-4\" − 10'-6\" = 34\". D = (34 − 2·39·(1 − cos 50°)) ÷ sin 50° = 8.01185 → 8.012\". L = 2·39·sin 50° + D·cos 50° = 64.901\". 8.01185\" is the same D but not rounded to 3 decimals as asked.",
-   "ru": "CLR = 24\" по throat + половина диаметра 30\" = 39\". H = 13'-4\" − 10'-6\" = 34\". D = (34 − 2·39·(1 − cos 50°)) ÷ sin 50° = 8.01185 → 8.012\". L = 2·39·sin 50° + D·cos 50° = 64.901\". 8.01185\" — тот же D, но не округлённый до 3 знаков, как требует вопрос."
+   "en": "CL R = 24\" throat + half of the 30\" diameter = 39\". Rise O = 13'-4\" − 10'-6\" = 160 − 126 = 34\"; K = 39 × tan 25° (half of 50°) = 18.186\", 2K = 36.372\". D (straight piece) = O ÷ sin 50° − 2K = 44.384 − 36.372 = 8.012\"; L (overall) = O ÷ tan 50° + 2K = 28.529 + 36.372 = 64.901\". Trap: 8.01185\" is the same D, but not rounded to 3 decimals as the question asks.",
+   "ru": "CL R = 24\" до throat + половина диаметра 30\" = 39\". Подъём O = 13'-4\" − 10'-6\" = 160 − 126 = 34\"; K = 39 × tan 25° (половина от 50°) = 18.186\", 2K = 36.372\". D (прямой кусок) = O ÷ sin 50° − 2K = 44.384 − 36.372 = 8.012\"; L (общая длина) = O ÷ tan 50° + 2K = 28.529 + 36.372 = 64.901\". Ловушка: 8.01185\" — тот же D, но не округлённый до 3 знаков, как требует вопрос."
   },
   "opts": [
    {
@@ -15456,6 +17003,10 @@ const QUESTIONS = [
   "fig": "y2w3f-q31.svg",
   "on": [
    [
+    "F20",
+    83
+   ],
+   [
     "Y2W5Y",
     61
    ]
@@ -15471,8 +17022,8 @@ const QUESTIONS = [
    "ru": "Выберите 4 лучших ответа для shear list стенок transition на рисунке. Male Pittsburgh (1/4\") на top и bottom, female Pittsburgh (1\") на боковых стенках."
   },
   "why": {
-   "en": "15\" is the net (drive-to-drive) length, so the layout length is 15 − 1 = 14\". FOT: the top is flat and the bottom moves 12 − 6 = 6\"; the left side is square (∟) and the right side moves 16 − 8 = 8\". Widths: top and bottom 16 + 2 × 1/4 = 16.5\", sides 12 + 2 × 1 = 14\". Lengths (+2\" for the two ends): Top = 14 + 2 = 16\"; Bottom = √(14² + 6²) + 2 = 17.2315 → 17-1/4\" (17.25); Left = 14 + 2 = 16\"; Right = √(14² + 8²) + 2 = 18.1245 → 18-1/8\" (18.125). So c, e, h and l.",
-   "ru": "15\" — длина net (drive to drive), значит layout = 15 − 1 = 14\". FOT: top плоский, bottom уходит на 12 − 6 = 6\"; левая стенка прямая (∟), правая уходит на 16 − 8 = 8\". Ширина: top и bottom 16 + 2 × 1/4 = 16.5\", боковые 12 + 2 × 1 = 14\". Длина (+2\" на два конца): Top = 14 + 2 = 16\"; Bottom = √(14² + 6²) + 2 = 17.2315 → 17-1/4\" (17.25); Left = 14 + 2 = 16\"; Right = √(14² + 8²) + 2 = 18.1245 → 18-1/8\" (18.125). Значит, c, e, h и l."
+   "en": "15\" is drive to drive, so layout = 15 − 1 = 14\". In the plan the left side is square (corner mark) and the right side moves 16 − 8 = 8\"; FOT means the top is flat and the bottom moves 12 − 6 = 6\". Widths: top and bottom 16 + 2 × 1/4 = 16.5\", sides 12 + 2 × 1 = 14\". Lengths (+2\" for the two ends): Top = 14 + 2 = 16\"; Bottom = √(14² + 6²) + 2 = 15.2315 + 2 = 17.2315 → 17-1/4\"; Left = 14 + 2 = 16\"; Right = √(14² + 8²) + 2 = 16.1245 + 2 = 18.1245 → 18-1/8\". So Top 16\" x 16.5\", Bottom 17-1/4\" x 16-1/2\", Left 14\" x 16\", Right 18-1/8 x 14\"; the options mix the order of width and length, so recognize each piece by its numbers.",
+   "ru": "15\" — длина drive to drive, значит layout = 15 − 1 = 14\". В plan левая сторона прямая (значок угла), правая уходит на 16 − 8 = 8\"; FOT — top плоский, bottom уходит на 12 − 6 = 6\". Ширина: top и bottom 16 + 2 × 1/4 = 16.5\", боковые 12 + 2 × 1 = 14\". Длина (+2\" на два конца): Top = 14 + 2 = 16\"; Bottom = √(14² + 6²) + 2 = 15.2315 + 2 = 17.2315 → 17-1/4\"; Left = 14 + 2 = 16\"; Right = √(14² + 8²) + 2 = 16.1245 + 2 = 18.1245 → 18-1/8\". Итого: Top 16\" x 16.5\", Bottom 17-1/4\" x 16-1/2\", Left 14\" x 16\", Right 18-1/8 x 14\"; порядок ширины и длины в вариантах разный, поэтому деталь узнавайте по числам."
   },
   "opts": [
    {
@@ -15533,6 +17084,10 @@ const QUESTIONS = [
   "type": "multi",
   "fig": "y2w3f-q32.svg",
   "on": [
+   [
+    "F20",
+    84
+   ],
    [
     "Y2W5Y",
     62
@@ -18008,8 +19563,8 @@ const QUESTIONS = [
    "ru": "Fire dampers, на табличке которых указаны максимальная скорость воздуха через открытый damper, максимальный перепад давления на закрытом damper, расход и рейтинг давления, предназначены для:"
   },
   "why": {
-   "en": "A dynamic fire damper has to close against moving air, so it is tested and labeled for the airflow velocity and pressure it can still close against (UL 555). A static damper is labeled only for systems that shut down in a fire.",
-   "ru": "Dynamic fire damper должен закрыться против идущего потока, поэтому его испытывают и маркируют по скорости и давлению, при которых он ещё закрывается (UL 555). Static damper маркируют только для систем, которые при пожаре отключаются."
+   "en": "A dynamic fire damper must close against moving air, so it is tested and labeled (UL 555) with the maximum airflow velocity through it when open and the maximum pressure it can close against. A static fire damper is used only where the fans shut down in a fire, so its label carries no airflow or pressure rating.",
+   "ru": "Dynamic fire damper должен закрыться против идущего потока, поэтому его испытывают и маркируют (UL 555) с максимальной скоростью воздуха через открытый damper и максимальным давлением, против которого он ещё закрывается. Static fire damper ставят только там, где при пожаре вентиляторы отключаются, поэтому на его табличке нет рейтинга по потоку и давлению."
   },
   "opts": [
    {
@@ -18032,7 +19587,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    262
+   ]
+  ]
  },
  {
   "id": "Y2W5M-7",
@@ -18044,8 +19605,8 @@ const QUESTIONS = [
    "ru": "Результаты acceptance testing записывают, чтобы получить:"
   },
   "why": {
-   "en": "The acceptance test record is the baseline: every later periodic test of the dampers is compared with it to see whether anything has changed.",
-   "ru": "Запись acceptance testing — это исходная точка: с ней сравнивают все последующие периодические проверки dampers, чтобы увидеть, что изменилось."
+   "en": "The acceptance test, done after installation, proves each damper works and records its condition. That record is the baseline: every later periodic test (NFPA 80 for fire dampers, NFPA 105 for smoke dampers) is compared with it to see what has changed. Warranty, owner contacts and handover of maintenance are not what it is for.",
+   "ru": "Acceptance testing делают после монтажа: он доказывает, что каждый damper работает, и фиксирует его состояние. Эта запись — исходная точка: с ней сравнивают все следующие периодические проверки (NFPA 80 для fire dampers, NFPA 105 для smoke dampers), чтобы увидеть, что изменилось. Гарантия, связь с владельцем и передача обслуживания тут ни при чём."
   },
   "opts": [
    {
@@ -18068,7 +19629,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    263
+   ]
+  ]
  },
  {
   "id": "Y2W5M-11",
@@ -18080,8 +19647,8 @@ const QUESTIONS = [
    "ru": "Правильно завязанный bowline knot ____."
   },
   "why": {
-   "en": "A bowline makes a fixed loop that does not slip or jam under load and still unties easily, which is why riggers call it a universal knot and use it for hoisting and hitching. All three statements are true.",
-   "ru": "Bowline даёт неподвижную петлю, которая под нагрузкой не проскальзывает и не заклинивает и при этом легко развязывается. Поэтому его называют универсальным узлом и используют для подъёма и привязки. Верны все три утверждения."
+   "en": "A bowline forms a fixed loop that does not slip or jam under load and still unties easily after a heavy pull. That is why riggers call it a universal knot and use it both for hoisting and for hitching (tying off to a post or ring). All three statements are true.",
+   "ru": "Bowline даёт неподвижную петлю, которая под нагрузкой не проскальзывает и не заклинивает и после сильной тяги легко развязывается. Поэтому riggers называют его универсальным узлом и используют и для подъёма, и для привязки (hitching) к столбу или кольцу. Верны все три утверждения."
   },
   "opts": [
    {
@@ -18107,6 +19674,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    206
+   ],
+   [
     "Y2W5Y",
     52
    ]
@@ -18122,8 +19693,8 @@ const QUESTIONS = [
    "ru": "Когда крупный предмет поднимают и ставят на место, в какой части этой работы industrial sheet metalworker должен разбираться досконально?"
   },
   "why": {
-   "en": "The sheet metal worker's part of a lift is rigging: choosing the slings and hardware and attaching the load safely and correctly. Cranes and helicopters are run by licensed operators and pilots, and permits are the employer's job.",
-   "ru": "Часть подъёма, за которую отвечает sheet metal worker, — rigging: подобрать slings и такелаж и правильно и безопасно застропить груз. Краном и вертолётом управляют операторы и пилоты с лицензией, разрешения оформляет работодатель."
+   "en": "Rigging is the sheet metal worker's part of a lift: choosing the slings and hardware and attaching and balancing the load safely and correctly. Cranes and helicopters are run by certified operators and pilots, and lift permits are arranged by the employer, so \"All answers are correct\" is wrong.",
+   "ru": "Rigging — часть подъёма, за которую отвечает sheet metal worker: подобрать slings и такелаж, правильно и безопасно застропить и уравновесить груз. Краном и вертолётом управляют сертифицированные операторы и пилоты, разрешения на подъём оформляет работодатель, поэтому «Все ответы верны» — неверно."
   },
   "opts": [
    {
@@ -18150,7 +19721,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    207
+   ]
+  ]
  },
  {
   "id": "Y2W5M-13",
@@ -18162,8 +19739,8 @@ const QUESTIONS = [
    "ru": "Какое такелажное оборудование позволяет укоротить или удлинить sling?"
   },
   "why": {
-   "en": "A turnbuckle has two threaded ends in one body; turning the body draws them together or apart, so it adjusts the length of a sling or guy line. A thimble protects a wire-rope eye, a swivel lets the load turn, and a Johnson bar is a lever for moving heavy loads along the floor.",
-   "ru": "У turnbuckle два резьбовых конца в одном корпусе: при вращении корпуса они сходятся или расходятся, так регулируют длину sling или растяжки. Thimble защищает петлю троса, swivel даёт грузу поворачиваться, а Johnson bar — рычаг для перемещения тяжёлых грузов по полу."
+   "en": "A turnbuckle is one body with a right-hand and a left-hand threaded end; turning the body draws the ends together or apart, so it shortens or lengthens the rigging. Washington's rigging rule lists turnbuckles under adjustable hardware (WAC 296-155-33910). A thimble only protects a wire-rope eye, a swivel lets the load turn, and a Johnson bar is a lever for moving heavy loads along the floor.",
+   "ru": "Turnbuckle — один корпус с двумя резьбовыми концами, правой и левой резьбы; при вращении корпуса концы сходятся или расходятся, так такелаж укорачивают или удлиняют. В правилах штата Washington turnbuckle отнесён к регулируемому такелажу (adjustable hardware, WAC 296-155-33910). Thimble только защищает петлю троса, swivel даёт грузу поворачиваться, а Johnson bar — рычаг для перемещения тяжёлых грузов по полу."
   },
   "opts": [
    {
@@ -18186,7 +19763,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    208
+   ]
+  ]
  },
  {
   "id": "Y2W5M-15",
@@ -18198,8 +19781,8 @@ const QUESTIONS = [
    "ru": "Кто всё время командует при подъёме груза вертолётом?"
   },
   "why": {
-   "en": "The pilot commands the aircraft and its external load for the whole lift: OSHA 1926.551 makes the helicopter operator responsible for how loads are connected and lets him refuse any lift he thinks is unsafe. The ground crew and the signal person work under the pilot's direction.",
-   "ru": "Пилот командует вертолётом и подвешенным грузом на протяжении всего подъёма: по OSHA 1926.551 он отвечает за то, как груз прицеплен, и может отказаться от любого подъёма, который считает опасным. Наземная бригада и сигнальщик работают по его указаниям."
+   "en": "The pilot commands the helicopter and its external load for the whole lift: OSHA 1926.551(h) makes the helicopter operator responsible for the size, weight and connection of the load, and if he believes the lift cannot be made safely, it is not made. The signal person and ground crew work under the pilot's direction; the supervisor and the inspector do not control the load.",
+   "ru": "Пилот командует вертолётом и подвешенным грузом на протяжении всего подъёма: по OSHA 1926.551(h) он отвечает за размер, вес и способ крепления груза, и если он считает, что подъём нельзя выполнить безопасно, подъём не делают. Сигнальщик и наземная бригада работают по его указаниям; руководитель проекта и инспектор грузом не управляют."
   },
   "opts": [
    {
@@ -18226,7 +19809,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    209
+   ]
+  ]
  },
  {
   "id": "Y2W5M-18",
@@ -18238,8 +19827,8 @@ const QUESTIONS = [
    "ru": "Какая опасность — главная причина большинства смертельных случаев при работе рядом с кранами?"
   },
   "why": {
-   "en": "Contact of the boom, load line or load with an overhead power line is the leading cause of crane deaths — about a quarter of them in the CPWR study of 1992–2006 (157 of 632). That is why OSHA 1926.1408 sets minimum clearances from power lines.",
-   "ru": "Касание стрелой, тросом или грузом воздушной линии электропередачи — главная причина гибели при работе с кранами: около четверти случаев в исследовании CPWR за 1992–2006 (157 из 632). Поэтому OSHA 1926.1408 задаёт минимальные расстояния до линий."
+   "en": "Contact of the boom, load line or load with an overhead power line kills more workers around cranes than any other hazard: in the CPWR study of crane deaths in construction 1992–2006 it caused 157 of 632 (24.8%), ahead of struck by load (132, 20.9%). That is why OSHA 1926.1408 and, in Washington, WAC 296-155-53408 set minimum clearances from power lines.",
+   "ru": "Касание стрелой, тросом или грузом воздушной линии электропередачи убивает рядом с кранами больше людей, чем любая другая опасность: в исследовании CPWR о гибели на стройке при работе с кранами за 1992–2006 — 157 из 632 (24.8%), больше, чем удар грузом (132, 20.9%). Поэтому OSHA 1926.1408 и в штате Washington WAC 296-155-53408 задают минимальные расстояния до линий."
   },
   "opts": [
    {
@@ -18262,7 +19851,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    210
+   ]
+  ]
  },
  {
   "id": "Y2W5M-20",
@@ -18274,8 +19869,8 @@ const QUESTIONS = [
    "ru": "Выберите сигнал крановщику, показанный на рисунке."
   },
   "why": {
-   "en": "For points pick b, raise load slowly: the instructor circled it in red (\"notice the pointer finger\") and the same answer stood on the Year End exam. By the standard (OSHA 1926 Subpart CC, Appendix A) hoist is the forearm vertical with the forefinger pointing up, making small circles; an arm held out with the forefinger horizontal is swing. The second hand held still at the signaling hand means \"slowly\".",
-   "ru": "Для балла ставь b, raise load slowly: инструктор обвёл его красным («notice the pointer finger»), и тот же ответ засчитан на итоговом экзамене года. По стандарту (OSHA 1926 Subpart CC, Appendix A) hoist — предплечье вертикально, указательный палец вверх, рука описывает маленькие круги; вытянутая рука с горизонтальным указательным пальцем — это swing. Вторая рука, неподвижно поднесённая к сигнальной, означает «медленно»."
+   "en": "Look at the lower hand: forearm up, index finger pointing up — that is HOIST, raise the load. The other hand is held still just above it, and a still hand above the signaling hand means SLOWLY; the standard chart (OSHA 1926 Subpart CC Appendix A, ASME B30.5) shows it with hoist slowly as the example. Trap: raise boom is the thumb pointing up, and the arm pointing sideways would be swing only if it were the moving signal; here it is the still hand.",
+   "ru": "Смотри на нижнюю руку: предплечье вверх, указательный палец вверх — это HOIST, поднять груз. Другая рука неподвижно держится прямо над ней, а неподвижная рука над сигнальной означает SLOWLY; в стандартной таблице (OSHA 1926 Subpart CC Appendix A, ASME B30.5) этот сигнал показан как раз на примере hoist slowly. Ловушка: raise boom — большой палец вверх, а рука, указывающая в сторону, была бы swing, только если бы она подавала сигнал; здесь она неподвижна."
   },
   "opts": [
    {
@@ -18302,6 +19897,10 @@ const QUESTIONS = [
   "fig": "y2w5m-q20.svg",
   "on": [
    [
+    "F20",
+    211
+   ],
+   [
     "Y2W5Y",
     55
    ]
@@ -18317,8 +19916,8 @@ const QUESTIONS = [
    "ru": "Выберите сигнал крановщику, показанный на рисунке."
   },
   "why": {
-   "en": "Both arms straight out to the sides, palms down, moving back and forth is the emergency stop signal (ASME B30.5). Extend boom is shown with both fists in front of the body, thumbs pointing outward.",
-   "ru": "Обе руки вытянуты в стороны ладонями вниз и двигаются вперёд-назад — это сигнал аварийной остановки (ASME B30.5). Выдвинуть стрелу показывают двумя кулаками перед собой, большие пальцы наружу."
+   "en": "Both arms straight out to the sides, palms down, swung back and forth is EMERGENCY STOP (OSHA 1926 Subpart CC Appendix A, ASME B30.5); the operator must obey a stop signal no matter who gives it. Extend boom is both fists at waist level with thumbs pointing out; swing is one arm out with the index finger pointing the way.",
+   "ru": "Обе руки вытянуты в стороны ладонями вниз и качаются вперёд-назад — это EMERGENCY STOP, аварийная остановка (OSHA 1926 Subpart CC Appendix A, ASME B30.5); сигнал стоп оператор выполняет, кто бы его ни подал. Extend boom — два кулака на уровне пояса, большие пальцы наружу; swing — одна рука в сторону, указательный палец показывает направление."
   },
   "opts": [
    {
@@ -18345,6 +19944,10 @@ const QUESTIONS = [
   "fig": "y2w5m-q21.svg",
   "on": [
    [
+    "F20",
+    212
+   ],
+   [
     "Y2W5Y",
     56
    ]
@@ -18360,8 +19963,8 @@ const QUESTIONS = [
    "ru": "Хранение duct рядом с местом монтажа — это какая часть подготовки duct?"
   },
   "why": {
-   "en": "Staging means placing material near where it will be installed so it is ready when the crew needs it; on a tight schedule good staging saves the most time (Test-90 No.84).",
-   "ru": "Staging — это когда материал раскладывают рядом с местом монтажа, чтобы он был под рукой, когда понадобится бригаде; при сжатом графике это экономит больше всего времени (тест-90 №84)."
+   "en": "Staging is storing duct and fittings near where they will be hung, in the order they will go up, so the crew does not walk back for every piece. Sectioning is joining pieces into longer runs before hoisting; planning is deciding the order and method of the work before any of this.",
+   "ru": "Staging — хранение duct и fittings рядом с местом монтажа, в том порядке, в каком их будут поднимать, чтобы бригада не ходила за каждой деталью. Sectioning — сборка деталей в длинные участки перед подъёмом; planning — решение о порядке и способе работы ещё до всего этого."
   },
   "opts": [
    {
@@ -18384,7 +19987,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    254
+   ]
+  ]
  },
  {
   "id": "Y2W5M-30",
@@ -18396,8 +20005,8 @@ const QUESTIONS = [
    "ru": "Закончив пайку (soldering) на объекте, при промывке шва всегда используют ____."
   },
   "why": {
-   "en": "Acid flux left on a soldered joint keeps corroding the metal, so the joint is washed with a neutralizer (for example a baking-soda solution) and then rinsed. Plain water does not neutralize the acid, and rosin is a flux, not a wash.",
-   "ru": "Кислотный flux, оставшийся на шве, продолжает разъедать металл, поэтому шов промывают нейтрализатором (например раствором пищевой соды), а потом водой. Простая вода кислоту не нейтрализует, а канифоль — это flux, а не промывка."
+   "en": "Acid flux left on a soldered joint keeps corroding the metal, so the joint is washed with a neutralizer (for example a baking-soda solution) and then rinsed. Plain water does not neutralize the acid, rosin is a flux, not a wash, and strong acid would make the corrosion worse.",
+   "ru": "Кислотный flux, оставшийся на шве, продолжает разъедать металл, поэтому шов промывают нейтрализатором (например, раствором пищевой соды), а потом водой. Простая вода кислоту не нейтрализует, канифоль — это flux, а не промывка, а сильная кислота только усилит коррозию."
   },
   "opts": [
    {
@@ -18420,7 +20029,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    161
+   ]
+  ]
  },
  {
   "id": "Y2W5Y-21",
@@ -18432,7 +20047,7 @@ const QUESTIONS = [
    "ru": "Площадь круга — 23.68 квадратных фута. Сколько это в квадратных дюймах?"
   },
   "why": {
-   "en": "1 sq. ft = 12 × 12 = 144 sq. in., so 23.68 × 144 = 3,409.92 sq. in. exactly. Traps: 1.97 and 1.973 come from dividing by 12 (23.68 ÷ 12 = 1.9733) instead of multiplying by 144; 3,409.90 is off in the last digit.",
+   "en": "1 sq. ft = 12 × 12 = 144 sq. in., so 23.68 × 144 = 3,409.92 sq. in. exactly. Traps: 1.97 and 1.973 come from dividing by 12 (23.68 ÷ 12 = 1.9733) instead of multiplying by 144; 3,409.90 is wrong in the last digit.",
    "ru": "1 sq. ft = 12 × 12 = 144 sq. in., поэтому 23.68 × 144 = 3,409.92 sq. in. ровно. Ловушки: 1.97 и 1.973 — разделили на 12 (23.68 ÷ 12 = 1.9733) вместо умножения на 144; у 3,409.90 неверна последняя цифра."
   },
   "opts": [
@@ -18459,6 +20074,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    90
+   ],
+   [
     "Y2W5Y",
     21
    ]
@@ -18474,8 +20093,8 @@ const QUESTIONS = [
    "ru": "Найдите площадь flat oval:"
   },
   "why": {
-   "en": "The width is 2 × R4\" = 8\", and the two half-circle ends make one full circle: π × 4² = 50.2655 in²; the middle rectangle is 10\" × 8\" = 80 in²; total 130.2655 → 130.27 in². Traps: 150.27 takes the rectangle as 10\" × 10\", and 92.57 uses π × 4 (radius not squared).",
-   "ru": "Ширина = 2 × R4\" = 8\", два полукруга вместе дают один круг: π × 4² = 50.2655 in²; прямоугольник посередине 10\" × 8\" = 80 in²; итого 130.2655 → 130.27 in². Ловушки: 150.27 — прямоугольник посчитан как 10\" × 10\", 92.57 — π × 4, радиус не возведён в квадрат."
+   "en": "The flat oval is 2 × R4\" = 8\" wide, and the two half-circle ends make one full circle: π × 4² = 50.2655 in²; the middle rectangle is 10\" × 8\" = 80 in²; total 130.2655 → 130.27 in². Traps: 150.27 takes the rectangle as 10\" × 10\", 92.57 uses π × 4 (radius not squared), and 112.57 makes both mistakes.",
+   "ru": "Ширина flat oval = 2 × R4\" = 8\", два полукруга вместе дают один круг: π × 4² = 50.2655 in²; прямоугольник посередине 10\" × 8\" = 80 in²; итого 130.2655 → 130.27 in². Ловушки: 150.27 — прямоугольник посчитан как 10\" × 10\", 92.57 — π × 4 (радиус не возведён в квадрат), 112.57 — обе ошибки сразу."
   },
   "opts": [
    {
@@ -18517,8 +20136,8 @@ const QUESTIONS = [
    "ru": "Вы делаете кусок duct под соединения Slip and Drive и отрезали его на 31\" по общей длине; его working length будет"
   },
   "why": {
-   "en": "S&D takes 1\" of metal on each end beyond the bend line, so working length = 31 − 1 − 1 = 29\". Trap: 30\" takes only 1/2\" per end (that is the drive-to-drive length, 31 − 1).",
-   "ru": "S&D забирает 1\" металла на каждом конце за линией изгиба, поэтому working length = 31 − 1 − 1 = 29\". Ловушка: 30\" — только по 1/2\" на конец (это длина drive to drive, 31 − 1)."
+   "en": "S&D takes 1\" of metal on each end beyond the bend line, so working (layout) length = shear − 2 = 31 − 2 = 29\". Trap: 30\" takes only 1/2\" per end; that is the drive-to-drive (connection) length, 31 − 1.",
+   "ru": "S&D забирает 1\" металла на каждом конце за линией изгиба, поэтому working (layout) length = shear − 2 = 31 − 2 = 29\". Ловушка: 30\" — это только по 1/2\" с конца, то есть длина drive to drive (connection), 31 − 1."
   },
   "opts": [
    {
@@ -18543,6 +20162,10 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
+   [
+    "F20",
+    38
+   ],
    [
     "Y2W5Y",
     26
@@ -18586,6 +20209,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    153
+   ],
+   [
     "Y2W5Y",
     36
    ]
@@ -18601,8 +20228,8 @@ const QUESTIONS = [
    "ru": "Заполните пропуск: access doors нужны, чтобы был доступ ко всем fire dampers для ____."
   },
   "why": {
-   "en": "Every fire damper needs an access door so it can be inspected and tested — resetting the link and checking that it closes. The door is required for this inspection and testing, not for installation or removal.",
-   "ru": "К каждому fire damper нужна access door, чтобы его осматривать и проверять: перезаряжать link и убеждаться, что он закрывается. Дверца нужна именно для осмотра и проверки, а не для монтажа или демонтажа."
+   "en": "Every fire damper gets an access door so it can be reached for testing and inspection: after installation and then periodically the fusible link is removed, the damper must close fully, and then it is reset. The door is required for this testing, not for installation or removal.",
+   "ru": "К каждому fire damper ставят access door, чтобы до него можно было добраться для проверки и осмотра: после монтажа и потом периодически снимают fusible link, damper должен полностью закрыться, затем его перезаряжают. Дверца нужна именно для проверки, а не для монтажа или демонтажа."
   },
   "opts": [
    {
@@ -18628,6 +20255,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    261
+   ],
+   [
     "Y2W5Y",
     51
    ]
@@ -18643,8 +20274,8 @@ const QUESTIONS = [
    "ru": "С помощью двух данных elbows рассчитайте, сколько нужно срезать с одного из duct, чтобы offset встал на место, и длину trim joint."
   },
   "why": {
-   "en": "The R1'-6\" arrow points to the throat, so CL R = 18 + 18/2 = 27\" (18 is the side seen on the view). Offset O = 12'-1\" − 8'-2\" = 145 − 98 = 47\". K = 27 × tan 15° = 7.2346\", 2K = 14.4693\". Pipe length (the trim joint) = O ÷ sin 30° − 2K = 94 − 14.4693 = 79.5307\" → 79-1/2\" (6'-7 1/2\"). The offset needs O ÷ tan 30° + 2K = 81.4064 + 14.4693 = 95.8756\" of run, but only 6'-5 7/8\" = 77.875\" is there, so trim 95.8756 − 77.875 = 18.0006\" → 18\" (1'-6\") off the lower duct (the dashed line). Trap: R1'-6\" taken as the CL radius gives 84.35\" and 13.18\". Type both numbers, e.g. 79-1/2 and 18.",
-   "ru": "Стрелка R1'-6\" упирается в throat, поэтому CL R = 18 + 18/2 = 27\" (18 — сторона, видимая на виде). Offset O = 12'-1\" − 8'-2\" = 145 − 98 = 47\". K = 27 × tan 15° = 7.2346\", 2K = 14.4693\". Pipe length (trim joint) = O ÷ sin 30° − 2K = 94 − 14.4693 = 79.5307\" → 79-1/2\" (6'-7 1/2\"). Offset требует по горизонтали O ÷ tan 30° + 2K = 81.4064 + 14.4693 = 95.8756\", а между концами только 6'-5 7/8\" = 77.875\", поэтому срезать 95.8756 − 77.875 = 18.0006\" → 18\" (1'-6\") с нижнего duct (там пунктир). Ловушка: R1'-6\" как CL радиус даёт 84.35\" и 13.18\". Впишите оба числа, например 79-1/2 и 18."
+   "en": "Read the radius carefully: R1'-6\" = 18\", and the arrow points to the throat, so CL R = 18 + 18/2 = 27\" (18 is the side seen in the view). Offset O = 12'-1\" − 8'-2\" = 145 − 98 = 47\"; K = 27 × tan 15° (half the elbow angle) = 7.2346\", 2K = 14.4693\". Trim joint (pipe length) = O ÷ sin 30° − 2K = 94 − 14.4693 = 79.5307\" → 79-1/2\" (6'-7 1/2\"). The offset needs an overall run of O ÷ tan 30° + 2K = 95.8756\", but only 6'-5 7/8\" = 77.875\" is there, so trim 95.8756 − 77.875 = 18.0006\" → 18\" (1'-6\") off the lower duct (the dashed line). Traps: R1'-6\" used as the CL radius gives 84.35\" and 13.18\", read as 6\" it gives 85.96\" and 11.57\". Type both numbers, e.g. 79-1/2 and 18.",
+   "ru": "Радиус читать внимательно: R1'-6\" = 18\", и стрелка упирается в throat, поэтому CL R = 18 + 18/2 = 27\" (18 — сторона, видимая на виде). Offset O = 12'-1\" − 8'-2\" = 145 − 98 = 47\"; K = 27 × tan 15° (половина угла elbow) = 7.2346\", 2K = 14.4693\". Trim joint (pipe length) = O ÷ sin 30° − 2K = 94 − 14.4693 = 79.5307\" → 79-1/2\" (6'-7 1/2\"). Offset требует по горизонтали O ÷ tan 30° + 2K = 95.8756\", а между концами только 6'-5 7/8\" = 77.875\", поэтому срезать 95.8756 − 77.875 = 18.0006\" → 18\" (1'-6\") с нижнего duct (там пунктир). Ловушки: R1'-6\" как CL радиус даёт 84.35\" и 13.18\", а прочитанный как 6\" — 85.96\" и 11.57\". Впишите оба числа, например 79-1/2 и 18."
   },
   "hint": {
    "en": "Pipe length= ____ Trim length ____",
@@ -18668,8 +20299,6 @@ const QUESTIONS = [
      "79-1/2",
      "79 1/2",
      "79½",
-     "79-9/16",
-     "79 9/16",
      "6'-7 1/2",
      "6' 7 1/2",
      "6'7 1/2",
@@ -18703,6 +20332,10 @@ const QUESTIONS = [
   "fig": "y2w5y-q63.svg",
   "on": [
    [
+    "F20",
+    39
+   ],
+   [
     "Y2W5Y",
     63
    ]
@@ -18718,8 +20351,8 @@ const QUESTIONS = [
    "ru": "Рассчитайте shear size (размер заготовки) для pattern. Он симметричен относительно center line. Округлите до ближайшей 1/16."
   },
   "why": {
-   "en": "The top flare is 7-1/4\" long at 135° to the vertical side (45° to horizontal), so it adds 7.25 × sin 45° = 5.1265\" both across and up. Width = 2 × (3 + 4.25 + 5.1265) = 24.7530\" → 24-3/4\"; height = 10.375 + 5 + 5.1265 = 20.5015\" → 20-1/2\". Only 24-3/4\" x 20-1/2\" has both sizes right (width x height).",
-   "ru": "Верхний скос длиной 7-1/4\" стоит под 135° к вертикальной стенке (45° к горизонтали), поэтому добавляет 7.25 × sin 45° = 5.1265\" и в ширину, и в высоту. Ширина = 2 × (3 + 4.25 + 5.1265) = 24.7530\" → 24-3/4\"; высота = 10.375 + 5 + 5.1265 = 20.5015\" → 20-1/2\". Оба размера верны только в варианте 24-3/4\" x 20-1/2\" (ширина x высота)."
+   "en": "The pattern is symmetrical, so work one half and double the width. The 7-1/4\" flare is at 135° to the vertical side, i.e. at 45°, so it adds 7.25 × sin 45° = 5.1265\" both out and up. Width = 2 × (3 + 4.25 + 5.1265) = 24.7530\" → 24-3/4\"; height = 10.375 + 5 + 5.1265 = 20.5015\" → 20-1/2\". Only 24-3/4\" x 20-1/2\" has both sizes right; every other option has at least one wrong size.",
+   "ru": "Pattern симметричен, поэтому считаем одну половину и ширину удваиваем. Скос 7-1/4\" стоит под 135° к вертикальной стенке, то есть под 45°, и добавляет 7.25 × sin 45° = 5.1265\" и в сторону, и вверх. Ширина = 2 × (3 + 4.25 + 5.1265) = 24.7530\" → 24-3/4\"; высота = 10.375 + 5 + 5.1265 = 20.5015\" → 20-1/2\". Оба размера верны только в 24-3/4\" x 20-1/2\"; в каждом другом варианте хотя бы один размер неверен."
   },
   "opts": [
    {
@@ -18761,8 +20394,8 @@ const QUESTIONS = [
    "ru": "Металл, который содержит железо."
   },
   "why": {
-   "en": "'Ferrous' comes from the Latin ferrum, iron: any metal that contains iron is a ferrous metal (Test-90 No.17). Stainless steel and Type 304 contain iron too, but they are kinds of ferrous metal, not the name of the group; terne is steel coated with a lead-tin alloy.",
-   "ru": "«Ferrous» — от латинского ferrum, железо: любой металл с железом — ferrous metal (тест-90 №17). Stainless steel и Type 304 тоже содержат железо, но это виды ferrous metal, а не название группы; terne — сталь с покрытием из сплава свинца и олова."
+   "en": "\"Ferrous\" comes from the Latin ferrum, iron: any metal that contains iron is a ferrous metal. Stainless steel and Type 304 contain iron too, but they are kinds of ferrous metal, not the name of the group; terne is steel coated with a lead-tin alloy.",
+   "ru": "«Ferrous» — от латинского ferrum, железо: любой металл, в котором есть железо, — ferrous metal. Stainless steel и Type 304 тоже содержат железо, но это виды ferrous metal, а не название группы; terne — сталь с покрытием из сплава свинца и олова."
   },
   "opts": [
    {
@@ -18787,6 +20420,10 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
+   [
+    "F20",
+    1
+   ],
    [
     "Y2W5Y",
     3
@@ -18830,6 +20467,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    2
+   ],
+   [
     "Y2W5Y",
     4
    ]
@@ -18845,8 +20486,8 @@ const QUESTIONS = [
    "ru": "Оксид меди."
   },
   "why": {
-   "en": "Patina is the brown-to-green oxide layer copper forms with age outdoors (SMY2W2 Monday No.27: copper changes color with age). Terne is a coating; mill finish and anodized are aluminum finishes.",
-   "ru": "Patina — коричнево-зелёный оксидный слой, который медь со временем образует на воздухе (SMY2W2 Monday №27: медь меняет цвет с возрастом). Terne — покрытие, mill finish и anodized — отделка алюминия."
+   "en": "Patina is the brown-to-green layer copper forms outdoors with age: bright copper first darkens to brown (copper oxide), then turns green. Terne is a lead-tin coating; mill finish and anodized are aluminum finishes.",
+   "ru": "Patina — коричнево-зелёный слой, который медь со временем образует на воздухе: блестящая медь сначала темнеет до коричневого (оксид меди), потом зеленеет. Terne — покрытие из свинца и олова, mill finish и anodized — отделка алюминия."
   },
   "opts": [
    {
@@ -18872,6 +20513,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    3
+   ],
+   [
     "Y2W5Y",
     5
    ]
@@ -18888,7 +20533,7 @@ const QUESTIONS = [
   },
   "why": {
    "en": "High-carbon steel can be hardened and holds an edge, so it is used for tools, springs and cutting blades. Low-carbon (mild) steel is soft and easy to form; temper is a heat treatment, not a steel.",
-   "ru": "High-carbon steel можно закалить, она держит кромку — из неё делают инструмент, пружины, ножи. Low-carbon (mild) steel мягкая и легко гнётся; temper — это термообработка, а не сталь."
+   "ru": "High-carbon steel можно закалить, и она долго держит заточку — из неё делают инструмент, пружины, ножи. Low-carbon (mild) steel мягкая и легко гнётся; temper — это термообработка, а не сталь."
   },
   "opts": [
    {
@@ -18914,6 +20559,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    4
+   ],
+   [
     "Y2W5Y",
     6
    ]
@@ -18929,8 +20578,8 @@ const QUESTIONS = [
    "ru": "Распространённая отделка алюминия."
   },
   "why": {
-   "en": "Mill finish is aluminum as it comes off the rolling mill, the usual finish of aluminum sheet. #4 and #2B are stainless-steel finishes; anodizing is a process that adds an oxide layer (next question).",
-   "ru": "Mill finish — алюминий в том виде, в каком он выходит с прокатного стана; так обычно поставляют лист. #4 и #2B — отделка нержавейки, anodizing — процесс, который наращивает оксидный слой (следующий вопрос)."
+   "en": "Mill finish is aluminum as it comes off the rolling mill, the usual finish of aluminum sheet. Anodizing is also done on aluminum, but it is an added process, not the everyday finish; #4 and #2B are stainless-steel finishes.",
+   "ru": "Mill finish — алюминий в том виде, в каком он выходит с прокатного стана; так обычно поставляют лист. Anodizing тоже делают на алюминии, но это дополнительный процесс, а не обычная отделка; #4 и #2B — отделка нержавейки."
   },
   "opts": [
    {
@@ -18956,6 +20605,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    5
+   ],
+   [
     "Y2W5Y",
     7
    ]
@@ -18971,8 +20624,8 @@ const QUESTIONS = [
    "ru": "Процесс, который наращивает естественный защитный оксидный слой."
   },
   "why": {
-   "en": "Anodizing is an electrolytic process that thickens aluminum's natural oxide film into a hard, corrosion-resistant layer that can also be dyed.",
-   "ru": "Anodizing — электролитический процесс, который утолщает естественную оксидную плёнку алюминия до твёрдого коррозионностойкого слоя; его можно и окрасить."
+   "en": "Anodizing is an electrolytic process that thickens aluminum's natural oxide film into a hard, corrosion-resistant layer that can also be dyed. Terne is a coating, and nitric and hydrochloric acid are chemicals, not the name of a process.",
+   "ru": "Anodizing — электролитический процесс, который утолщает естественную оксидную плёнку алюминия до твёрдого коррозионностойкого слоя; его можно и окрасить. Terne — покрытие, а nitric и hydrochloric acid — химикаты, а не название процесса."
   },
   "opts": [
    {
@@ -18997,6 +20650,10 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
+   [
+    "F20",
+    6
+   ],
    [
     "Y2W5Y",
     8
@@ -19040,6 +20697,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    7
+   ],
+   [
     "Y2W5Y",
     9
    ]
@@ -19055,8 +20716,8 @@ const QUESTIONS = [
    "ru": "Зеркальная отделка нержавеющей стали."
   },
   "why": {
-   "en": "#8 is polished to a mirror (SMY2W2 Monday No.74: a #8 finish is very shiny). #4 is brushed, #2B is dull.",
-   "ru": "#8 отполирована до зеркала (SMY2W2 Monday №74: #8 — very shiny). #4 — шлифованная, #2B — матовая."
+   "en": "#8 is polished to a mirror. #4 is brushed (satin), #2B is a dull mill finish, and mill finish is the term for aluminum as rolled.",
+   "ru": "#8 отполирована до зеркала. #4 — шлифованная (сатиновая), #2B — матовая заводская, а mill finish — так называют алюминий после проката."
   },
   "opts": [
    {
@@ -19082,6 +20743,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    8
+   ],
+   [
     "Y2W5Y",
     10
    ]
@@ -19097,8 +20762,8 @@ const QUESTIONS = [
    "ru": "Марка нержавеющей стали, содержащая 2-3% молибдена."
   },
   "why": {
-   "en": "Type 316 is chromium-nickel stainless with 2–3% molybdenum added for better resistance to salt and chemicals. 304 has no molybdenum, and 430 is a chromium-only (ferritic) grade.",
-   "ru": "Type 316 — хромоникелевая нержавейка с добавкой 2–3% молибдена для стойкости к соли и химии. В 304 молибдена нет, 430 — только хромистая (ferritic) марка."
+   "en": "Type 316 is chromium-nickel stainless with 2–3% molybdenum added for better resistance to salt and chemicals. 301 and 304 have no molybdenum, and 430 is a chromium-only (ferritic) grade.",
+   "ru": "Type 316 — хромоникелевая нержавейка с добавкой 2–3% молибдена для стойкости к соли и химии. В 301 и 304 молибдена нет, 430 — только хромистая (ferritic) марка."
   },
   "opts": [
    {
@@ -19124,6 +20789,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    9
+   ],
+   [
     "Y2W5Y",
     11
    ]
@@ -19139,8 +20808,8 @@ const QUESTIONS = [
    "ru": "При монтаже duct сторону со slip cleats обычно указывают ставить сверху и снизу."
   },
   "why": {
-   "en": "Slip (S) cleats go on the top and bottom and the drives on the sides. The reverse question — drives on top and bottom — is answered No (SMY2W2 Monday No.12).",
-   "ru": "Slip (S) cleats ставят сверху и снизу, а drives — по бокам. Обратный вопрос — drives сверху и снизу — в тестах отвечают No (SMY2W2 Monday №12)."
+   "en": "Yes. The usual S&D arrangement puts the S (slip) cleats on the top and bottom and the drive cleats on the two sides. When the drawing does not show it, the slips go on the long sides of the opening and the drives on the short sides. The reverse statement (drives on top and bottom) is answered No.",
+   "ru": "Да. Обычная схема S&D: S (slip) cleats сверху и снизу, drive cleats — на двух боковых сторонах. Если на чертеже это не показано, slips ставят на длинные стороны проёма, а drives — на короткие. На обратное утверждение (drives сверху и снизу) отвечают «Нет»."
   },
   "opts": [
    {
@@ -19158,6 +20827,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    35
+   ],
+   [
     "Y2W5Y",
     14
    ]
@@ -19173,8 +20846,8 @@ const QUESTIONS = [
    "ru": "Какое практическое правило помогает решить, какой длины делать OG offset?"
   },
   "why": {
-   "en": "The course rule of thumb: make an OG offset as long as the offset plus the cheek width (SMY2W2 Monday No.17). The '×' versions multiply inches by inches and give an area, not a length.",
-   "ru": "Правило курса: длина OG offset = offset + ширина cheek (SMY2W2 Monday №17). Варианты с «×» перемножают дюймы и дают площадь, а не длину."
+   "en": "Rule of thumb: make an OG offset about as long as the offset plus the cheek width. 'Offset + length' uses the very length you are trying to find, and the '×' options multiply inches by inches, which gives an area, not a length.",
+   "ru": "Практическое правило: длина OG offset ≈ offset + ширина cheek. «Offset + length» использует ту самую длину, которую ищем, а варианты с «×» перемножают дюймы на дюймы и дают площадь, а не длину."
   },
   "opts": [
    {
@@ -19200,6 +20873,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    36
+   ],
+   [
     "Y2W5Y",
     15
    ]
@@ -19215,8 +20892,8 @@ const QUESTIONS = [
    "ru": "Если просверлить отверстие в 9 3/4\" от конца стального прутка длиной 29\", на каком расстоянии оно будет от другого конца?"
   },
   "why": {
-   "en": "29 − 9.75 = 19.25\" = 19-1/4\". Type it as 19-1/4 or 19.25.",
-   "ru": "29 − 9.75 = 19.25\" = 19-1/4\". Вводите 19-1/4 или 19.25."
+   "en": "The two parts of the bar add up to its length: 29 − 9-3/4 = 29 − 9.75 = 19.25\" = 19-1/4\". Type it as 19-1/4 or 19.25.",
+   "ru": "Две части прутка вместе дают его длину: 29 − 9-3/4 = 29 − 9.75 = 19.25\" = 19-1/4\". Вводите 19-1/4 или 19.25."
   },
   "type": "input",
   "answer": {
@@ -19226,6 +20903,10 @@ const QUESTIONS = [
    "text": "19-1/4\""
   },
   "on": [
+   [
+    "F20",
+    91
+   ],
    [
     "Y2W5Y",
     23
@@ -19242,8 +20923,8 @@ const QUESTIONS = [
    "ru": "Вы делаете trim joint и нарезали 2 детали 18\" x 17-1/4\". Размер duct 10\" x 6\" с Pittsburgh's; длина duct drive-to-drive будет"
   },
   "why": {
-   "en": "17-1/4\" is the girth of one L-half: 10 + 6 + 1\" female + 1/4\" male Pittsburgh = 17.25\". 18\" is the length, and drive to drive = 18 − 1 = 17\" (course rule: Net = Gross − 1, as 17\" → 16\" in SMY2W2 Monday No.46).",
-   "ru": "17-1/4\" — развёртка одной L-половины: 10 + 6 + 1\" female + 1/4\" male Pittsburgh = 17.25\". 18\" — длина, а drive to drive = 18 − 1 = 17\" (правило курса: Net = Gross − 1, как 17\" → 16\" в SMY2W2 Monday №46)."
+   "en": "17-1/4\" is the girth of one L-shaped half: 10 + 6 + 1\" female + 1/4\" male Pittsburgh = 17.25\". So 18\" is the length, and drive to drive = shear − 1 = 18 − 1 = 17\" (1/2\" off each end). Trap: 16\" (18 − 2) is the working (layout) length.",
+   "ru": "17-1/4\" — развёртка одной L-половины: 10 + 6 + 1\" female + 1/4\" male Pittsburgh = 17.25\". Значит, 18\" — это длина, и drive to drive = shear − 1 = 18 − 1 = 17\" (по 1/2\" с каждого конца). Ловушка: 16\" (18 − 2) — это working (layout) length."
   },
   "opts": [
    {
@@ -19269,6 +20950,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    37
+   ],
+   [
     "Y2W5Y",
     25
    ]
@@ -19284,8 +20969,8 @@ const QUESTIONS = [
    "ru": "Когда на баллон с защитным газом надевают колпак?"
   },
   "why": {
-   "en": "The cap protects the valve, so it must be on whenever the regulator is off and the cylinder is moved (OSHA 1926.350(a)(6)), full or empty. It has to come off before a regulator can be attached.",
-   "ru": "Колпак защищает вентиль, поэтому он должен стоять всегда, когда регулятор снят и баллон перемещают (OSHA 1926.350(a)(6)), полный он или пустой. Перед установкой регулятора колпак как раз снимают."
+   "en": "The valve protection cap goes on whenever the cylinder is moved: OSHA 1926.350(a)(6) says remove the regulator and put the cap on before the cylinder is moved, full or empty. The cap has to come off before a regulator can be attached, so 'before attaching a regulator' is backwards.",
+   "ru": "Колпак на вентиль надевают всякий раз, когда баллон перемещают: по OSHA 1926.350(a)(6) перед перемещением снимают регулятор и надевают колпак, полный баллон или пустой. Перед установкой регулятора колпак, наоборот, снимают."
   },
   "opts": [
    {
@@ -19311,6 +20996,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    189
+   ],
+   [
     "Y2W5Y",
     31
    ]
@@ -19326,8 +21015,8 @@ const QUESTIONS = [
    "ru": "Использование защитных газов в замкнутом пространстве — потенциальная опасность?"
   },
   "why": {
-   "en": "Argon, CO2 and helium are not poisonous but they push out the oxygen; in a confined space a leak can cause suffocation (SMY2W2 Monday No.15).",
-   "ru": "Аргон, CO2 и гелий не ядовиты, но вытесняют кислород; в замкнутом пространстве утечка может привести к удушью (SMY2W2 Monday №15)."
+   "en": "Yes. Argon and helium are not poisonous and carbon dioxide is harmful only in high concentrations, but all three push out the oxygen: a leak in a tank, pit or other confined space can cause suffocation, and there is no smell to warn you. Ventilate, check the oxygen level and follow confined-space entry rules.",
+   "ru": "Да. Аргон и гелий не ядовиты, CO2 вреден только в высокой концентрации, но все три вытесняют кислород: утечка в ёмкости, приямке или другом замкнутом пространстве может вызвать удушье, а запаха, который бы предупредил, нет. Проветривают, проверяют уровень кислорода и соблюдают правила работы в confined space."
   },
   "opts": [
    {
@@ -19345,6 +21034,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    190
+   ],
+   [
     "Y2W5Y",
     32
    ]
@@ -19360,8 +21053,8 @@ const QUESTIONS = [
    "ru": "Чем темнее светофильтр, тем больше номер. Самый распространённый фильтр для сварки GMAW:"
   },
   "why": {
-   "en": "#10 is the usual shade for GMAW (and SMAW) at common currents (Test-90 No.2). #2 and #5 are far too light for an electric arc — they are shades for torch soldering, brazing and gas cutting. For points pick #10 (course key); the construction table (OSHA 1926.102 Table E-1, the same in WAC 296-155-215) lists shade 12 for gas-shielded arc welding on steel and 11 on nonferrous metals.",
-   "ru": "#10 — обычный светофильтр для GMAW (и SMAW) при ходовых токах (тест-90 №2). #2 и #5 слишком светлые для дуги — это фильтры для пайки горелкой, brazing и газовой резки. Для балла — #10 (ключ курса); по строительной таблице (OSHA 1926.102 Table E-1, то же в WAC 296-155-215) для gas-shielded arc по стали — 12, по цветным металлам — 11."
+   "en": "#10 is the usual shade for GMAW (and SMAW) at common currents; the higher the number, the darker the lens. #2 and #5 are far too light for an arc (they are soldering, brazing and gas-cutting shades), and #15 is darker than any shade in the OSHA tables, which stop at 14. The OSHA general-industry table (1910.133) sets shade 10 as the minimum for GMAW from 60 to 500 A. The construction tables, OSHA 1926.102 Table E-1 and Washington's WAC 296-155-215 Table C-2 (same numbers), are a guide: they list 12 for gas-shielded arc welding on steel and 11 on nonferrous metals, and a darker shade is always allowed.",
+   "ru": "#10 — обычный светофильтр для GMAW (и SMAW) при ходовых токах; чем больше номер, тем темнее стекло. #2 и #5 для дуги слишком светлые (это фильтры для пайки, brazing и газовой резки), а #15 темнее любого номера в таблицах OSHA — они кончаются на 14. В таблице OSHA для промышленности (1910.133) минимум для GMAW при токе от 60 до 500 A — как раз 10. Строительные таблицы — OSHA 1926.102 Table E-1 и в Washington WAC 296-155-215 Table C-2 (цифры те же) — даны как ориентир: для gas-shielded arc по стали в них 12, по цветным металлам 11, а более тёмный фильтр можно всегда."
   },
   "opts": [
    {
@@ -19387,6 +21080,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    151
+   ],
+   [
     "Y2W5Y",
     34
    ]
@@ -19402,8 +21099,8 @@ const QUESTIONS = [
    "ru": "В процессе GMAW защитные газы используют, чтобы:"
   },
   "why": {
-   "en": "Shielding gas keeps oxygen and nitrogen away from the molten pool, which prevents porosity and other defects, and the gas mix (CO2, helium) also changes the arc heat and penetration. All of the above (SMY2W2 Monday No.64).",
-   "ru": "Защитный газ не пускает кислород и азот к сварочной ванне — это убирает поры и другие дефекты, а состав газа (CO2, гелий) ещё и меняет нагрев дуги и проплавление. Верно всё перечисленное (SMY2W2 Monday №64)."
+   "en": "Shielding gas keeps the oxygen and nitrogen in the air away from the molten pool, which prevents porosity and other weld defects, and the gas mix (argon, CO2, helium) also changes how hot the arc runs and how deep it penetrates. So all three are true.",
+   "ru": "Защитный газ не пускает кислород и азот воздуха к сварочной ванне — это убирает поры (porosity) и другие дефекты, а состав газа (argon, CO2, helium) ещё и меняет нагрев дуги и проплавление. Значит, верны все три пункта."
   },
   "opts": [
    {
@@ -19433,6 +21130,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    152
+   ],
+   [
     "Y2W5Y",
     35
    ]
@@ -19448,8 +21149,8 @@ const QUESTIONS = [
    "ru": "Скорость подачи проволоки на сварочном аппарате GMAW определяет:"
   },
   "why": {
-   "en": "In GMAW the wire feed speed sets the current (amperage): more wire per second needs more current to melt it. Voltage is set on the machine and controls the arc length (Test-90 No.21, No.35).",
-   "ru": "В GMAW скорость подачи проволоки задаёт ток (amperage): чем больше проволоки в секунду, тем больший ток нужен, чтобы её расплавить. Напряжение задают на аппарате, оно управляет длиной дуги (тест-90 №21, №35)."
+   "en": "In GMAW the wire feed speed sets the amperage: the more wire per second, the more current the machine must deliver to melt it. Voltage has its own control and sets the arc length; slope is a separate machine adjustment.",
+   "ru": "В GMAW скорость подачи проволоки задаёт ток (amperage): чем больше проволоки в секунду, тем больший ток нужен, чтобы её расплавить. Voltage задают своим регулятором, он управляет длиной дуги; slope — отдельная настройка аппарата."
   },
   "opts": [
    {
@@ -19475,6 +21176,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    154
+   ],
+   [
     "Y2W5Y",
     38
    ]
@@ -19490,8 +21195,8 @@ const QUESTIONS = [
    "ru": "Почти без исключений GMAW применяют с:"
   },
   "why": {
-   "en": "GMAW runs almost always on DC electrode positive (reverse polarity), which gives a stable arc and good penetration (Test-90 No.38).",
-   "ru": "GMAW почти всегда работает на постоянном токе с электродом на плюсе (DCEP, reverse polarity) — так дуга стабильна и проплавление хорошее (тест-90 №38)."
+   "en": "GMAW runs almost always on DC electrode positive (DCEP, reverse polarity): stable arc, smooth metal transfer, good penetration. DCEH and DCHF are not standard terms (DCEH stands where DCEN, straight polarity, would be, and solid MIG wire is not run on DCEN), and AC is not used for standard GMAW.",
+   "ru": "GMAW почти всегда работает на постоянном токе с electrode на плюсе (DCEP, reverse polarity): стабильная дуга, ровный перенос металла, хороший провар. DCEH и DCHF — не стандартные обозначения (DCEH стоит на месте DCEN, straight polarity, а сплошную MIG-проволоку на DCEN не варят), AC в обычном GMAW не используют."
   },
   "opts": [
    {
@@ -19517,6 +21222,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    155
+   ],
+   [
     "Y2W5Y",
     39
    ]
@@ -19532,8 +21241,8 @@ const QUESTIONS = [
    "ru": "В обозначении AWS ER70S-3 (одна из присадочных проволок для GMAW) буква \"S\" означает:"
   },
   "why": {
-   "en": "In ER70S-3: E = electrode, R = rod, 70 = 70,000 psi tensile strength, S = solid wire, 3 = the wire's chemistry (deoxidizers).",
-   "ru": "В ER70S-3: E — electrode, R — rod, 70 — прочность на разрыв 70 000 psi, S — solid (сплошная проволока), 3 — химический состав (раскислители)."
+   "en": "In the AWS A5.18 designation ER70S-3: E = electrode, R = rod (the wire can be used either way), 70 = 70,000 psi minimum tensile strength, S = solid wire, 3 = the wire chemistry (amount of deoxidizers). Some, Strong and Stromberg are not part of any AWS designation.",
+   "ru": "В обозначении AWS A5.18 ER70S-3: E — electrode, R — rod (проволоку можно использовать и так, и так), 70 — минимальный tensile strength 70,000 psi, S — solid (сплошная проволока), 3 — химический состав проволоки (количество раскислителей). Some, Strong и Stromberg ни в одно обозначение AWS не входят."
   },
   "opts": [
    {
@@ -19559,6 +21268,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    156
+   ],
+   [
     "Y2W5Y",
     40
    ]
@@ -19574,8 +21287,8 @@ const QUESTIONS = [
    "ru": "Для GTAW обратная полярность (reverse polarity) даёт"
   },
   "why": {
-   "en": "The course key marks a (Deep penetration) — that is true for GMAW and SMAW on reverse polarity (Test-90 No.42). Technically, for GTAW reverse polarity (DCEP) gives shallow penetration: about two-thirds of the arc heat goes into the tungsten, not the work, and it is DCEN that penetrates deep. The printed 'GTAW' is probably a misprint of GMAW; for points on this test, pick a. Both a and c count here.",
-   "ru": "В ключе курса — a (Deep penetration); это верно для GMAW и SMAW на обратной полярности (тест-90 №42). Технически для GTAW reverse polarity (DCEP) даёт мелкое проплавление: около двух третей тепла дуги уходит в вольфрам, а не в деталь, глубоко проплавляет как раз DCEN. «GTAW» в вопросе, скорее всего, опечатка вместо GMAW; для балла на этом тесте ставь a. Здесь засчитываются оба: a и c."
+   "en": "For points pick a: \"reverse polarity gives deep penetration\" is the rule for GMAW and SMAW. Technically c is also correct for GTAW (TIG), because on DCEP about 70% of the arc heat goes into the tungsten electrode and only about 30% into the work, so the weld is wide and shallow; in GTAW it is DCEN that gives deep penetration.",
+   "ru": "Для балла — a: «reverse polarity даёт глубокий провар» — правило для GMAW и SMAW. Технически для GTAW (TIG) c тоже верен, потому что на DCEP около 70% тепла дуги уходит в вольфрамовый electrode и только около 30% — в деталь, поэтому шов широкий и мелкий; глубокий провар в GTAW даёт как раз DCEN."
   },
   "opts": [
    {
@@ -19600,6 +21313,10 @@ const QUESTIONS = [
   ],
   "on": [
    [
+    "F20",
+    157
+   ],
+   [
     "Y2W5Y",
     41
    ]
@@ -19615,8 +21332,8 @@ const QUESTIONS = [
    "ru": "Какова функция контактного наконечника (contact tip)?"
   },
   "why": {
-   "en": "The contact tip passes the welding current into the wire as it feeds through. The gas comes out of the nozzle around the tip, and the drive rolls feed the wire (Test-90 No.43).",
-   "ru": "Через contact tip сварочный ток передаётся на проволоку, пока она проходит сквозь него. Газ выходит из сопла вокруг наконечника, а подают проволоку ролики (тест-90 №43)."
+   "en": "The contact tip passes the welding current into the wire as it slides through. The shielding gas comes out of the nozzle around the tip, and the drive rolls feed the wire; straightening is not the tip's job.",
+   "ru": "Через contact tip сварочный ток передаётся на проволоку, пока она скользит сквозь него. Shielding gas выходит из nozzle вокруг tip, а подают проволоку drive rolls; выпрямлять её — не работа tip."
   },
   "opts": [
    {
@@ -19642,6 +21359,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    158
+   ],
+   [
     "Y2W5Y",
     42
    ]
@@ -19657,8 +21378,8 @@ const QUESTIONS = [
    "ru": "Потеря защитного газа и скачки напряжения — это некоторые из проблем при использовании GMAW на объекте?"
   },
   "why": {
-   "en": "Outdoors the wind blows the shielding gas away, and long leads or shared power make the voltage swing — that is why GMAW is harder to use in the field.",
-   "ru": "На улице ветер сдувает защитный газ, а длинные кабели и общее питание дают скачки напряжения — поэтому GMAW на объекте применять сложнее."
+   "en": "Yes. Outdoors the wind blows the shielding gas away from the arc and the weld gets porosity, and long leads or shared field power make the voltage swing, which changes the arc length. That is why stick (SMAW) is more common for field welding.",
+   "ru": "Да. На улице ветер сдувает защитный газ от дуги, и в шве появляются поры (porosity), а длинные кабели и общее питание на объекте дают скачки напряжения, от которых меняется длина дуги. Поэтому на объекте чаще варят stick (SMAW)."
   },
   "opts": [
    {
@@ -19680,6 +21401,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    159
+   ],
+   [
     "Y2W5Y",
     43
    ]
@@ -19695,8 +21420,8 @@ const QUESTIONS = [
    "ru": "Как в процессе GMAW устанавливают длину дуги?"
   },
   "why": {
-   "en": "GMAW uses a constant-voltage machine, and the arc length is set with the voltage control; the wire feed speed sets the amperage (Test-90 No.35).",
-   "ru": "Для GMAW используют аппарат постоянного напряжения, длину дуги задают регулятором напряжения; скорость подачи проволоки задаёт ток (тест-90 №35)."
+   "en": "GMAW machines are constant voltage, and the arc length is set with the voltage control: more voltage, longer arc. Wire feed speed sets the amperage, and the flow meter only sets how much gas flows.",
+   "ru": "Аппарат GMAW — constant voltage, длину дуги задают регулятором voltage: больше напряжение — длиннее дуга. Скорость подачи проволоки задаёт ток, а расходомер — только расход газа."
   },
   "opts": [
    {
@@ -19722,6 +21447,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    160
+   ],
+   [
     "Y2W5Y",
     44
    ]
@@ -19737,8 +21466,8 @@ const QUESTIONS = [
    "ru": "Какие меры предосторожности нужны, когда приоткрывают вентиль баллона (cracking)?"
   },
   "why": {
-   "en": "Cracking means opening the valve for a moment to blow out dirt; stand to one side, never in front of the outlet, so the blast does not hit you. Never tip or shake a cylinder (Test-90 No.36).",
-   "ru": "Cracking — на секунду приоткрыть вентиль, чтобы выдуть грязь; стоять нужно сбоку, не напротив выхода, чтобы струя не попала в вас. Баллон не наклоняют и не трясут (тест-90 №36)."
+   "en": "Cracking means opening the cylinder valve slightly for a moment to blow dirt out before the regulator goes on; OSHA 1926.350(d)(1) says the person cracking it stands to one side of the outlet, not in front of it. The cylinder stays upright and secured — it is never tipped or shaken, so 'All of the above' is wrong.",
+   "ru": "Cracking — на мгновение чуть приоткрыть вентиль баллона, чтобы выдуть грязь перед установкой регулятора; по OSHA 1926.350(d)(1) тот, кто это делает, стоит сбоку от выхода, не напротив него. Баллон стоит вертикально и закреплён — его не наклоняют и не трясут, поэтому «всё перечисленное» неверно."
   },
   "opts": [
    {
@@ -19764,6 +21493,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    191
+   ],
+   [
     "Y2W5Y",
     45
    ]
@@ -19779,8 +21512,8 @@ const QUESTIONS = [
    "ru": "Когда можно удлинить sling, завязав узел или связав slings вместе?"
   },
   "why": {
-   "en": "Never: a knot sharply cuts the strength of any sling, and OSHA sling rules (1910.184) forbid knots and makeshift devices to change sling length.",
-   "ru": "Никогда: узел резко снижает прочность любого sling, а правила OSHA для slings (1910.184) запрещают менять длину узлами и самодельными приспособлениями."
+   "en": "Never. A knot sharply cuts a sling's strength and cannot be inspected, so OSHA (1926.251, 1910.184) forbids shortening slings with knots, bolts or other makeshift devices, whatever the sling material. Washington's WAC 296-155-33800 and 296-155-33805 also forbid knotting or twisting and allow length changes only by methods the manufacturer or a qualified person approves.",
+   "ru": "Никогда. Узел резко снижает прочность sling, и его нельзя нормально осмотреть, поэтому OSHA (1926.251, 1910.184) запрещает укорачивать slings узлами, болтами и самодельными приспособлениями, из какого бы материала ни был sling. В штате Washington WAC 296-155-33800 и 296-155-33805 тоже запрещают узлы и скручивание, а длину меняют только способом, который одобрил производитель или qualified person."
   },
   "opts": [
    {
@@ -19802,6 +21535,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    192
+   ],
+   [
     "Y2W5Y",
     54
    ]
@@ -19817,8 +21554,8 @@ const QUESTIONS = [
    "ru": "Полезный способ найти высоту предмета, которую нельзя измерить напрямую, — ____."
   },
   "why": {
-   "en": "Measure two sides you can reach — for example the distance along the floor and the slope line to the top — and the height, the third side of the right triangle, follows from a² + b² = c². The other options are estimates, and a plumb line needs you to reach the top.",
-   "ru": "Измеряют две доступные стороны — например расстояние по полу и наклонную линию до верха, — а высоту, третью сторону прямоугольного треугольника, находят по a² + b² = c². Остальные варианты — прикидка, а для отвеса нужно добраться до верха."
+   "en": "If two sides of a right triangle can be measured from the ground, the third side, the height, follows from a² + b² = c²: height = √(c² − a²). For example, measure the distance along the ground from the base of the object, and the slanted line from that point to the top with a laser distance meter. A plumb line has to be hung from the top, which is exactly the measurement you cannot make, and comparing with a nearby object or a scale drawing is only an estimate.",
+   "ru": "Если две стороны прямоугольного треугольника можно измерить с земли, третья сторона — высота — находится по a² + b² = c²: высота = √(c² − a²). Например, расстояние по земле от основания предмета и наклонная линия от этой точки до верха, измеренная лазерным дальномером. Отвес надо опускать сверху, а туда как раз не добраться; сравнение с соседним предметом и масштабный чертёж — только прикидка."
   },
   "opts": [
    {
@@ -19844,6 +21581,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    92
+   ],
+   [
     "Y2W5Y",
     57
    ]
@@ -19859,8 +21600,8 @@ const QUESTIONS = [
    "ru": "Вы изготовили 250 деталей, показанных на рисунке, из 14 ga. и теперь нужно посчитать вес для отправки. 14ga. весит 3.2 lbs. на квадратный фут. Вычислите вес 250 деталей с точностью до фунта."
   },
   "why": {
-   "en": "Blank 11\" × 9.5\" (3\" + 8\" wide) = 104.5 in²; minus the 3\" × 3\" corner triangle 4.5 in², the R2\" hole π·2² = 12.566 in² and two 1\" squares 2 in² → 85.434 in². 250 pieces: 21358.4 in² ÷ 144 = 148.322 ft² × 3.2 = 474.6 → 475 lbs. 464 lbs is the answer for the other plate (4\" corner, round holes, SMY2W3 Friday No.29).",
-   "ru": "Заготовка 11\" × 9.5\" (3\" + 8\") = 104.5 in²; минус угловой треугольник 3\" × 3\" 4.5 in², отверстие R2\" π·2² = 12.566 in² и два квадрата 1\" — 2 in² → 85.434 in². 250 штук: 21358.4 in² ÷ 144 = 148.322 ft² × 3.2 = 474.6 → 475 lbs. 464 lbs — ответ для другой детали (угол 4\", круглые отверстия, SMY2W3 Friday №29)."
+   "en": "Blank 11\" × 9.5\" (3\" + 8\" wide) = 104.5 in². Take off the cut-outs: the corner triangle ½ × 3 × 3 = 4.5 in² (135° means a 45° corner cut), the R2\" hole π × 2² = 12.566 in² and two 1\" squares = 2 in² → 85.434 in² per piece. 250 pieces: 21358.4 in² ÷ 144 = 148.322 ft² × 3.2 lb = 474.6 → 475 lbs. Convert to square feet (÷ 144) before multiplying by the weight per square foot.",
+   "ru": "Заготовка 11\" × 9.5\" (3\" + 8\" в ширину) = 104.5 in². Минус вырезы: угловой треугольник ½ × 3 × 3 = 4.5 in² (135° — это срез угла под 45°), отверстие R2\" π × 2² = 12.566 in² и два квадрата 1\" = 2 in² → 85.434 in² на деталь. 250 штук: 21358.4 in² ÷ 144 = 148.322 ft² × 3.2 lb = 474.6 → 475 lbs. Сначала перевести в квадратные футы (÷ 144), потом умножать на вес квадратного фута."
   },
   "opts": [
    {
@@ -19887,6 +21628,10 @@ const QUESTIONS = [
   "fig": "y2w5y-q59.svg",
   "on": [
    [
+    "F20",
+    93
+   ],
+   [
     "Y2W5Y",
     59
    ]
@@ -19902,8 +21647,8 @@ const QUESTIONS = [
    "ru": "Как оператор Chain Fall проверяет, что тормоз тали исправен?"
   },
   "why": {
-   "en": "Lift the load a few inches and let the brake take it: if the load holds without creeping, the brake works (ASME B30.16). A visual check cannot prove the brake holds, and a 3-minute hold at maximum load is not the procedure.",
-   "ru": "Поднимают груз на несколько дюймов и дают тормозу его принять: если груз держится и не ползёт вниз, тормоз исправен (ASME B30.16). Осмотр не доказывает, что тормоз держит, а 3 минуты под максимальным грузом — не процедура проверки."
+   "en": "Raise the load a few inches and let the brake take it: if the load hangs without drifting down, the brake works — this is the standard check in hoist operating instructions before the lift continues. A visual check cannot prove the brake holds, and a 3-minute hold at maximum load is not the procedure.",
+   "ru": "Поднимают груз на несколько дюймов и дают тормозу его принять: если груз висит и не ползёт вниз, тормоз исправен — это стандартная проверка из инструкций к талям перед тем, как продолжать подъём. Осмотр не доказывает, что тормоз держит, а 3 минуты под максимальным грузом — не процедура проверки."
   },
   "opts": [
    {
@@ -19925,6 +21670,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    193
+   ],
+   [
     "Y2W5Y",
     64
    ]
@@ -19940,8 +21689,8 @@ const QUESTIONS = [
    "ru": "Когда горизонтальный угол sling уменьшается, ____."
   },
   "why": {
-   "en": "Tension in each leg = its share of the load ÷ sin(horizontal angle): the factor is 1.155 at 60°, 1.414 at 45° and 2.000 at 30° — the flatter the sling, the higher the tension.",
-   "ru": "Натяжение каждой ветви = её доля груза ÷ sin(горизонтального угла): множитель 1.155 при 60°, 1.414 при 45° и 2.000 при 30° — чем положе sling, тем больше натяжение."
+   "en": "Tension in each leg = its share of the load ÷ sin(horizontal angle). The factor 1 ÷ sin is 1.155 at 60°, 1.414 at 45° and 2.000 at 30°: a 1,000 lb load on two legs puts 577 lb in each leg at 60°, but 1,000 lb in each leg at 30°. The flatter the sling, the higher the tension, and the usable capacity drops, it does not rise.",
+   "ru": "Натяжение каждой ветви = её доля груза ÷ sin(горизонтального угла). Множитель 1 ÷ sin равен 1.155 при 60°, 1.414 при 45° и 2.000 при 30°: груз 1,000 lb на двух ветвях даёт по 577 lb в ветви при 60°, но по 1,000 lb при 30°. Чем положе sling, тем больше натяжение, а допустимая нагрузка падает, а не растёт."
   },
   "opts": [
    {
@@ -19963,6 +21712,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    194
+   ],
+   [
     "Y2W5Y",
     65
    ]
@@ -19978,8 +21731,8 @@ const QUESTIONS = [
    "ru": "Какой горизонтальный угол sling не рекомендуется?"
   },
   "why": {
-   "en": "Below 30° the tension multiplier is more than 2 (1 ÷ sin 30°) and rises fast as the angle drops, so sling angles under 30° are not recommended. Angles over 60° and a vertical 90° leg are the efficient ones. In Washington the stricter WAC sling rules apply on the job (e.g. WAC 296-155-33805, 296-155-55805): horizontal sling angles under 30° are prohibited, not just not recommended, unless the sling manufacturer or a qualified person approves.",
-   "ru": "Ниже 30° множитель натяжения больше 2 (1 ÷ sin 30°) и быстро растёт дальше, поэтому углы sling меньше 30° не рекомендуются. Углы больше 60° и вертикальная ветвь 90° — самые выгодные. В штате Washington на работе действуют более строгие правила WAC для slings (например, WAC 296-155-33805, 296-155-55805): горизонтальный угол sling меньше 30° запрещён, а не просто не рекомендуется, если его не разрешил производитель sling или qualified person."
+   "en": "Below 30° the tension factor (1 ÷ sin of the angle) is over 2 and climbs fast — 2.924 at 20°, 3.864 at 15° — so OSHA's sling guidance calls angles under 30° not recommended; angles over 60° and a vertical 90° leg are the efficient ones. In Washington the rule is stricter: WAC 296-155-33800 and 296-155-33805 prohibit horizontal sling angles under 30° unless the sling manufacturer or a qualified person recommends it.",
+   "ru": "Ниже 30° множитель натяжения (1 ÷ sin угла) больше 2 и быстро растёт — 2.924 при 20°, 3.864 при 15°, — поэтому в руководстве OSHA по slings углы меньше 30° не рекомендуются; выгодны углы больше 60° и вертикальная ветвь 90°. В штате Washington правило строже: WAC 296-155-33800 и 296-155-33805 запрещают горизонтальный угол sling меньше 30°, если это не рекомендовал производитель sling или qualified person."
   },
   "opts": [
    {
@@ -20001,6 +21754,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    195
+   ],
+   [
     "Y2W5Y",
     66
    ]
@@ -20016,8 +21773,8 @@ const QUESTIONS = [
    "ru": "Что даёт двойной обхват (double wrapping) в choker или basket hitch?"
   },
   "why": {
-   "en": "A double wrap goes a full 360° around the load, so more of the sling touches it and grips it — useful for loose bundles and round loads. It does not raise the sling's rated capacity.",
-   "ru": "При двойном обхвате sling проходит вокруг груза на все 360°, касается его большей площадью и лучше держит — это нужно для пучков и круглых грузов. Грузоподъёмность sling от этого не растёт."
+   "en": "A double wrap takes the sling a full 360° around the load, so more of the sling touches and grips it — used for loose bundles, pipe and round loads that could slide out. It does not raise the sling's rated capacity.",
+   "ru": "При двойном обхвате sling проходит вокруг груза на все 360°, касается его большей площадью и лучше держит — так берут пучки, трубы и круглые грузы, которые могут выскользнуть. Грузоподъёмность sling от этого не растёт."
   },
   "opts": [
    {
@@ -20039,6 +21796,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    196
+   ],
+   [
     "Y2W5Y",
     67
    ]
@@ -20054,8 +21815,8 @@ const QUESTIONS = [
    "ru": "Если длина цепного sling увеличилась на ____ сверх длины на бирке, его выводят из эксплуатации."
   },
   "why": {
-   "en": "Stretch means the links have yielded. OSHA's sling rules for shipyards and longshoring (1915.112, 1918.62) remove a chain sling from service when stretch has increased a measured length by more than 5%.",
-   "ru": "Растяжение значит, что звенья потекли. По правилам OSHA для slings на верфях и в порту (1915.112, 1918.62) цепной sling выводят из эксплуатации, когда растяжение увеличило измеренную длину больше чем на 5%."
+   "en": "Stretch means the links have yielded from overload. OSHA's sling rules (1915.112, 1918.62) remove a chain sling from service when stretch has increased a measured length by more than 5%. On a Washington construction job, WAC 296-155-33800 removes a chain sling with stretched links or components and gives no percentage allowance.",
+   "ru": "Растяжение значит, что звенья потекли от перегрузки. По правилам OSHA для slings (1915.112, 1918.62) цепной sling выводят из эксплуатации, когда растяжение увеличило измеренный участок больше чем на 5%. На стройке в штате Washington WAC 296-155-33800 выводит из эксплуатации цепной sling с растянутыми звеньями или деталями, без всякого допуска в процентах."
   },
   "opts": [
    {
@@ -20077,6 +21838,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    197
+   ],
+   [
     "Y2W5Y",
     68
    ]
@@ -20092,8 +21857,8 @@ const QUESTIONS = [
    "ru": "Какой максимальный угол между двумя slings, подвешенными в скобе (bow) shackle, допустим без снижения грузоподъёмности shackle?"
   },
   "why": {
-   "en": "Crosby, the shackle maker: two sling legs in the bow of a shackle may be loaded to the full working load limit as long as the included angle between them is 120° or less; over that the shackle must be derated.",
-   "ru": "По данным производителя Crosby, две ветви sling в скобе shackle можно нагружать на полную рабочую нагрузку, пока угол между ними не больше 120°; при большем угле грузоподъёмность shackle снижают."
+   "en": "\"Shackle bowl\" in the question means the shackle bow. Crosby, the shackle maker: a bolt-type or screw-pin shackle with two sling legs in the bow, loaded evenly, may be used at its full working load limit up to a 120° included angle, and 120° must never be exceeded. Round-pin shackles must not be used to gather sling legs.",
+   "ru": "«Shackle bowl» в вопросе — опечатка, имеется в виду bow (скоба) shackle. По данным производителя Crosby, shackle с болтом (bolt type) или винтовым пальцем (screw pin), в скобе которого две ветви sling нагружены поровну, работает на полную рабочую нагрузку (WLL) при угле между ветвями до 120°, а больше 120° нельзя никогда. Shackle с гладким пальцем (round pin) для сбора ветвей sling не применяют."
   },
   "opts": [
    {
@@ -20115,6 +21880,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    198
+   ],
+   [
     "Y2W5Y",
     69
    ]
@@ -20130,8 +21899,8 @@ const QUESTIONS = [
    "ru": "Крюки для подъёма платформ с людьми должны быть такого типа, который:"
   },
   "why": {
-   "en": "OSHA 1926.1431: hooks used to hoist a personnel platform must be the kind that can be closed and locked, eliminating the throat opening. A plain safety latch or mousing is not enough.",
-   "ru": "OSHA 1926.1431: крюки для подъёма платформы с людьми должны закрываться и запираться так, чтобы зев был полностью закрыт. Обычной защёлки или обмотки проволокой недостаточно."
+   "en": "OSHA 1926.1431(g), and the same rule in Washington (WAC 296-155-54900): hooks used to hoist a personnel platform must be a type that can be closed and locked, eliminating the throat opening; the alternative is an alloy anchor shackle with bolt, nut and retaining pin. A plain spring latch can be pushed open, so 'latched' is not enough.",
+   "ru": "OSHA 1926.1431(g) и то же правило в штате Washington (WAC 296-155-54900): крюки для подъёма платформы с людьми должны закрываться и запираться так, чтобы зев был полностью закрыт; другой вариант — alloy anchor shackle с болтом, гайкой и шплинтом. Обычную пружинную защёлку можно отжать, поэтому «с защёлкой» недостаточно."
   },
   "opts": [
    {
@@ -20153,6 +21922,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    199
+   ],
+   [
     "Y2W5Y",
     70
    ]
@@ -20168,8 +21941,8 @@ const QUESTIONS = [
    "ru": "Eyebolts вкручивают в резьбовое отверстие минимум на ____."
   },
   "why": {
-   "en": "A shoulder eyebolt in a tapped hole needs thread engagement of at least 1.5 times its thread diameter (in steel), so the threads carry the load without stripping. In Washington this is a rule, not only good practice: WAC 296-155-33910 (and 296-155-56110 for crane lifts) requires effective thread of at least 1.5 × the bolt diameter for an eyebolt in a tapped blind hole in steel; OSHA's rigging rule 1926.251 has no such requirement.",
-   "ru": "Eyebolt с буртиком в резьбовом отверстии должен входить в резьбу минимум на 1.5 её диаметра (в стали), чтобы резьба держала груз и не сорвалась. В штате Washington это требование правил, а не только хорошая практика: WAC 296-155-33910 (и 296-155-56110 для работ с краном) требует, чтобы eyebolt в глухом резьбовом отверстии в стали входил в резьбу не меньше чем на 1.5 диаметра болта; в федеральном правиле OSHA 1926.251 такого требования нет."
+   "en": "A shoulder eyebolt in a tapped blind hole in steel needs thread engagement of at least 1.5 × the bolt diameter so the threads carry the load without stripping: a 1/2\" eyebolt needs at least 3/4\" of thread in the hole. In Washington this is the law: WAC 296-155-33910 (and 296-155-56110 for crane rigging); the federal rigging rule 1926.251 has no eyebolt requirement, and ASME B30.26 gives the same 1.5 ×.",
+   "ru": "Eyebolt с буртиком в глухом резьбовом отверстии в стали должен входить в резьбу минимум на 1.5 диаметра болта, чтобы резьба держала груз и не сорвалась: eyebolt 1/2\" — не меньше 3/4\" резьбы в отверстии. В штате Washington это требование закона: WAC 296-155-33910 (и 296-155-56110 для такелажа кранов); в федеральном правиле OSHA по такелажу 1926.251 такого требования нет, а ASME B30.26 даёт те же 1.5."
   },
   "opts": [
    {
@@ -20191,6 +21964,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    200
+   ],
+   [
     "Y2W5Y",
     71
    ]
@@ -20206,8 +21983,8 @@ const QUESTIONS = [
    "ru": "Какое расстояние нужно соблюдать до линий электропередачи под напряжением, если их точное напряжение неизвестно, но оно <350KV?"
   },
   "why": {
-   "en": "OSHA 1926.1408: when you do not know the voltage, keep every part of the crane and load at least 20 feet from the line; that covers lines up to 350 kV, and over 350 kV the distance becomes 50 feet (1926.1409). 10 feet applies only when the line is known to be 50 kV or less (Table A).",
-   "ru": "OSHA 1926.1408: если напряжение неизвестно, все части крана и груз держат не ближе 20 футов от линии; это для линий до 350 kV, а выше 350 kV расстояние — 50 футов (1926.1409). 10 футов — только если точно известно, что линия 50 kV или меньше (Table A)."
+   "en": "OSHA 1926.1408, Option 2: when the line's voltage is not known, keep every part of the crane, load line and load at least 20 ft from a line up to 350 kV; over 350 kV it becomes 50 ft (1926.1409). 10 ft applies only when the line is confirmed to be 50 kV or less (Table A). Washington's WAC 296-155-53408 uses the same 20 ft and 50 ft.",
+   "ru": "OSHA 1926.1408, Option 2: если напряжение линии неизвестно, все части крана, трос и груз держат не ближе 20 футов от линии до 350 kV; выше 350 kV — 50 футов (1926.1409). 10 футов — только если подтверждено, что линия 50 kV или меньше (Table A). В штате Washington WAC 296-155-53408 даёт те же 20 и 50 футов."
   },
   "opts": [
    {
@@ -20229,6 +22006,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    201
+   ],
+   [
     "Y2W5Y",
     72
    ]
@@ -20244,8 +22025,8 @@ const QUESTIONS = [
    "ru": "Где, как правило, опаснее всего стоять, когда груз впервые отрывают от земли?"
   },
   "why": {
-   "en": "When the load first leaves the ground it can swing or slide toward the people facing it, especially if the hook is not exactly over its center of gravity; standing directly in front of the load puts you in that path. Stand clear and control the load with tag lines. Note: the only basis is the instructor's mark on a graded sheet; no standard or course sheet confirms it.",
-   "ru": "Когда груз отрывается от земли, он может качнуться или поехать на тех, кто стоит перед ним, особенно если крюк не точно над центром тяжести; стоя прямо перед грузом, вы оказываетесь на этом пути. Отходят в сторону и управляют грузом оттяжками (tag lines). Внимание: основа — только пометка инструктора на проверенном листе; стандарта или листа курса, который это подтверждает, нет."
+   "en": "At lift-off the load can lurch and swing: the boom flexes under the new weight and the hook moves out, and if the hook is not exactly over the center of gravity the load swings toward the point under the hook. Whoever stands directly in front of the load is in that path. Stay out of the path, never between the load and a fixed object, and steer the load with tag lines.",
+   "ru": "В момент отрыва груз может дёрнуться и качнуться: стрела прогибается под новым весом и крюк уходит наружу, а если крюк не точно над центром тяжести, груз качается к точке под крюком. Кто стоит прямо перед грузом, оказывается на этом пути. Не стойте на пути груза и никогда — между грузом и неподвижным предметом; управляйте грузом оттяжками (tag lines)."
   },
   "opts": [
    {
@@ -20267,6 +22048,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    202
+   ],
+   [
     "Y2W5Y",
     73
    ]
@@ -20282,8 +22067,8 @@ const QUESTIONS = [
    "ru": "Какую начальную опасность создаёт прогиб стрелы (boom deflection)?"
   },
   "why": {
-   "en": "As the load is picked up, the boom bends and its tip moves out, so the hanging load shifts and swings; the first hazard is someone being pinched between the load and nearby objects. Counterweight pinch points come from swinging the crane, not from boom deflection. Note: the only basis is the instructor's mark on a graded sheet; no standard or course sheet confirms it.",
-   "ru": "Когда груз поднимают, стрела прогибается и её конец уходит вперёд, поэтому висящий груз смещается и качается; первая опасность — зажать человека между грузом и соседними предметами. Защемление противовесом бывает при повороте крана, а не от прогиба стрелы. Внимание: основа — только пометка инструктора на проверенном листе; стандарта или листа курса, который это подтверждает, нет."
+   "en": "When the load comes off the ground the boom bends under it (deflection), the radius grows and the hook moves out, so the load shifts and swings; the first hazard is a person pinched between the load and a nearby object. The longer radius also cuts capacity, but the immediate hazard is the moving load; counterweight pinch points come from rotating the crane, not from boom deflection.",
+   "ru": "Когда груз отрывается от земли, стрела прогибается под ним (deflection), вылет растёт и крюк уходит наружу, поэтому груз смещается и качается; первая опасность — зажать человека между грузом и соседним предметом. Больший вылет уменьшает и грузоподъёмность, но немедленная опасность — движущийся груз; защемление противовесом бывает при повороте крана, а не от прогиба стрелы."
   },
   "opts": [
    {
@@ -20305,6 +22090,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    203
+   ],
+   [
     "Y2W5Y",
     74
    ]
@@ -20320,8 +22109,8 @@ const QUESTIONS = [
    "ru": "Опасность раздавливания между противовесом и твёрдым предметом возникает, когда:"
   },
   "why": {
-   "en": "When the crane rotates, the counterweight swings around behind it and can crush anyone between it and a wall, truck or other object, which is why OSHA 1926.1424 requires the swing radius to be barricaded.",
-   "ru": "Когда кран поворачивается, противовес описывает дугу позади него и может раздавить человека между собой и стеной, машиной или другим предметом; поэтому OSHA 1926.1424 требует ограждать зону поворота."
+   "en": "When the crane rotates, the counterweight at the back of the upper works sweeps around and can crush anyone between it and a wall, truck or other object. OSHA 1926.1424, and in Washington WAC 296-155-53400(41), require training and control lines or barriers marking this swing-radius hazard area.",
+   "ru": "Когда кран поворачивается, противовес позади поворотной части описывает дугу и может раздавить человека между собой и стеной, машиной или другим предметом. OSHA 1926.1424, а в штате Washington WAC 296-155-53400(41), требуют обучать людей и ограждать эту зону поворота лентами или барьерами."
   },
   "opts": [
    {
@@ -20343,6 +22132,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    204
+   ],
+   [
     "Y2W5Y",
     75
    ]
@@ -20358,8 +22151,8 @@ const QUESTIONS = [
    "ru": "Оттяжки (tag lines) нужны, чтобы предотвратить:"
   },
   "why": {
-   "en": "Tag lines let a worker steer the load from a safe distance so it does not spin or swing into people or structures.",
-   "ru": "Tag lines позволяют рабочему управлять грузом с безопасного расстояния, чтобы груз не крутился и не врезался в людей или конструкции."
+   "en": "A tag line lets a worker steer the load from a safe distance so it does not spin or swing into people or structures. Washington's crane rule WAC 296-155-53400(62) requires tag or restraint lines whenever rotation or swinging of the load is hazardous; near power lines they must be nonconductive.",
+   "ru": "Tag line позволяет рабочему управлять грузом с безопасного расстояния, чтобы груз не крутился и не врезался в людей или конструкции. В штате Washington правило для кранов WAC 296-155-53400(62) требует tag lines или restraint lines всегда, когда вращение или раскачивание груза опасно; рядом с линиями электропередачи они должны быть непроводящими."
   },
   "opts": [
    {
@@ -20381,6 +22174,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    205
+   ],
+   [
     "Y2W5Y",
     76
    ]
@@ -20396,8 +22193,8 @@ const QUESTIONS = [
    "ru": "Architectural sheet metal использует силу тяжести, чтобы сбрасывать и отводить воду."
   },
   "why": {
-   "en": "Roofing, flashing and gutters are laid out so gravity carries water down and off: upper pieces lap over lower ones, and every surface slopes toward a drain.",
-   "ru": "Кровлю, flashing и gutters раскладывают так, чтобы сила тяжести уводила воду вниз и прочь: верхние детали заходят внахлёст на нижние, и все поверхности имеют уклон к водостоку."
+   "en": "Yes. Roofing, flashing, gutters and downspouts are designed so gravity carries water down and off: upper pieces lap over lower ones, and every surface slopes toward a gutter or drain.",
+   "ru": "Да. Кровлю, flashing, gutters и downspouts делают так, чтобы сила тяжести уводила воду вниз и прочь: верхние детали заходят внахлёст на нижние, а все поверхности имеют уклон к gutter или водостоку."
   },
   "opts": [
    {
@@ -20414,6 +22211,10 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
+   [
+    "F20",
+    235
+   ],
    [
     "Y2W5Y",
     77
@@ -20430,8 +22231,8 @@ const QUESTIONS = [
    "ru": "Чем меньше уклон, тем быстрее кровля сбрасывает воду."
   },
   "why": {
-   "en": "The opposite: the steeper the roof, the faster water runs off. Low-slope roofs drain slowly, so they need tighter, sealed seams.",
-   "ru": "Наоборот: чем круче кровля, тем быстрее стекает вода. Пологие кровли отводят воду медленно, поэтому им нужны более плотные, герметичные швы."
+   "en": "No, the opposite. The steeper the slope, the faster water runs off; on a low slope water moves slowly and can stand, so low-slope roofs need tighter, sealed seams.",
+   "ru": "Нет, наоборот. Чем круче уклон, тем быстрее стекает вода; на пологой кровле вода движется медленно и может стоять, поэтому там нужны более плотные, герметичные швы."
   },
   "opts": [
    {
@@ -20448,6 +22249,10 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
+   [
+    "F20",
+    236
+   ],
    [
     "Y2W5Y",
     78
@@ -20464,8 +22269,8 @@ const QUESTIONS = [
    "ru": "Швы всегда нужно делать внахлёст против направления потока воды."
   },
   "why": {
-   "en": "Seams are lapped with the flow: the upper piece overlaps the lower one (shingle style), so water runs over the lap instead of into it.",
-   "ru": "Нахлёст делают по направлению потока: верхняя деталь накрывает нижнюю (как черепица), чтобы вода перетекала через нахлёст, а не затекала в него."
+   "en": "No. Seams are lapped with the flow: the upper (upstream) piece goes over the lower one, shingle style, so water runs across the lap. Lapped against the flow, the exposed edge faces the water and it runs straight into the seam.",
+   "ru": "Нет. Нахлёст делают по направлению потока: верхняя деталь ложится на нижнюю, как черепица, и вода перетекает через нахлёст. Если сделать против потока, открытая кромка смотрит навстречу воде, и вода затекает прямо в шов."
   },
   "opts": [
    {
@@ -20482,6 +22287,10 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
+   [
+    "F20",
+    237
+   ],
    [
     "Y2W5Y",
     79
@@ -20498,8 +22307,8 @@ const QUESTIONS = [
    "ru": "Вода всегда течёт вниз."
   },
   "why": {
-   "en": "Water usually runs downhill, but capillary action, wind and pressure differences can move it sideways and even uphill into laps and seams — that is why the answer is No.",
-   "ru": "Обычно вода течёт вниз, но капиллярный эффект, ветер и разница давлений могут гнать её вбок и даже вверх в нахлёсты и швы — поэтому ответ No."
+   "en": "No. Gravity pulls water down, but capillary action, wind, adhesion and pressure differences can move it sideways and even uphill into laps and seams. That is why architectural work needs laps, hems and drip edges, not just slope.",
+   "ru": "Нет. Сила тяжести тянет воду вниз, но капиллярный эффект, ветер, адгезия и разница давлений могут гнать её вбок и даже вверх в нахлёсты и швы. Поэтому в architectural работе кроме уклона нужны нахлёсты, подгибы (hem) и drip edge."
   },
   "opts": [
    {
@@ -20516,6 +22325,10 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
+   [
+    "F20",
+    238
+   ],
    [
     "Y2W5Y",
     80
@@ -20532,8 +22345,8 @@ const QUESTIONS = [
    "ru": "Чтобы сбрасывать воду, архитектурные изделия нужно монтировать снизу вверх, как черепицу."
   },
   "why": {
-   "en": "Starting at the bottom lets every higher piece lap over the one below it, like shingles, so water always runs over the joints.",
-   "ru": "Если начинать снизу, каждая следующая деталь ложится внахлёст на нижнюю, как черепица, и вода всегда стекает поверх стыков."
+   "en": "Yes. Starting at the bottom lets every higher piece lap over the one below it, like shingles, so water always runs over the joints, never into them.",
+   "ru": "Да. Если начинать снизу, каждая следующая деталь ложится внахлёст на нижнюю, как черепица, и вода всегда стекает поверх стыков, а не в них."
   },
   "opts": [
    {
@@ -20550,6 +22363,10 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
+   [
+    "F20",
+    239
+   ],
    [
     "Y2W5Y",
     81
@@ -20566,8 +22383,8 @@ const QUESTIONS = [
    "ru": "Капиллярный эффект может заставить воду двигаться вверх против силы тяжести."
   },
   "why": {
-   "en": "Capillary action pulls water into narrow gaps such as laps and seams and can lift it above the water level; laps need a capillary break or sealant to stop it.",
-   "ru": "Капиллярный эффект втягивает воду в узкие щели — нахлёсты, швы — и может поднять её выше уровня воды; чтобы это остановить, в нахлёсте делают capillary break или ставят герметик."
+   "en": "Yes. Capillary action pulls water into narrow gaps such as laps and seams and can lift it above the level of the water outside. A lap needs a capillary break (an open hem or a gap too wide for water to bridge) or sealant.",
+   "ru": "Да. Капиллярный эффект втягивает воду в узкие щели — нахлёсты, швы — и может поднять её выше уровня воды снаружи. Поэтому в нахлёсте делают capillary break (открытый подгиб или зазор, который вода не перекроет) или ставят герметик."
   },
   "opts": [
    {
@@ -20584,6 +22401,10 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
+   [
+    "F20",
+    240
+   ],
    [
     "Y2W5Y",
     82
@@ -20600,8 +22421,8 @@ const QUESTIONS = [
    "ru": "Ветер может загнать воду в швы против силы тяжести"
   },
   "why": {
-   "en": "Wind pressure can push water up a slope and into laps and seams, so exposed seams need longer laps or sealing.",
-   "ru": "Давление ветра может загнать воду вверх по уклону в нахлёсты и швы, поэтому открытым швам нужен больший нахлёст или герметизация."
+   "en": "Yes. Wind pressure can push water up a slope and into laps and seams; that is why exposed seams get longer laps, cleats or sealant.",
+   "ru": "Да. Давление ветра может загнать воду вверх по уклону в нахлёсты и швы; поэтому на открытых местах делают больший нахлёст, ставят cleats или герметик."
   },
   "opts": [
    {
@@ -20618,6 +22439,10 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
+   [
+    "F20",
+    241
+   ],
    [
     "Y2W5Y",
     83
@@ -20634,8 +22459,8 @@ const QUESTIONS = [
    "ru": "Counterflashing устанавливают внутри стены, и он отводит воду, попавшую за стену, наружу здания."
   },
   "why": {
-   "en": "That describes through-wall flashing, which sits inside the wall and carries water out. Counterflashing is on the outside: it covers the top edge of the base flashing so water cannot run behind it.",
-   "ru": "Так описан through-wall flashing — он стоит внутри стены и выводит воду наружу. Counterflashing — снаружи: он накрывает верхний край base flashing, чтобы вода не затекала за него."
+   "en": "No. That describes through-wall flashing, which is built into the wall and carries water that gets behind the face out to the exterior. Counterflashing (cap flashing) is on the outside: it covers the top edge of the base flashing so water cannot run behind it.",
+   "ru": "Нет. Так описан through-wall flashing: его закладывают внутрь стены, и он выводит наружу воду, попавшую за облицовку. Counterflashing (cap flashing) стоит снаружи: он накрывает верхний край base flashing, чтобы вода не затекала за него."
   },
   "opts": [
    {
@@ -20652,6 +22477,10 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
+   [
+    "F20",
+    242
+   ],
    [
     "Y2W5Y",
     84
@@ -20668,8 +22497,8 @@ const QUESTIONS = [
    "ru": "Разница давлений по двум сторонам поверхности заставит влагу двигаться со стороны низкого давления на сторону высокого."
   },
   "why": {
-   "en": "Moisture is pushed from the side of higher pressure to the side of lower pressure; the statement has it backwards.",
-   "ru": "Влагу выдавливает со стороны высокого давления на сторону низкого; в утверждении наоборот."
+   "en": "No, it is backwards. Moisture is pushed from the higher-pressure side to the lower-pressure side, the way wind pressing on a wall drives rain toward the lower-pressure inside.",
+   "ru": "Нет, в утверждении наоборот. Влагу выдавливает со стороны высокого давления на сторону низкого; так ветер, давящий на стену, гонит дождь внутрь, где давление ниже."
   },
   "opts": [
    {
@@ -20686,6 +22515,10 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
+   [
+    "F20",
+    243
+   ],
    [
     "Y2W5Y",
     85
@@ -20702,8 +22535,8 @@ const QUESTIONS = [
    "ru": "Давление водяного пара не зависит от температуры."
   },
   "why": {
-   "en": "Vapor pressure rises with temperature — warm air holds much more water vapor — and that is what drives vapor from warm areas to cold ones.",
-   "ru": "Давление пара растёт с температурой — тёплый воздух держит намного больше водяного пара, — и именно это гонит пар из тёплой зоны в холодную."
+   "en": "No. Vapor pressure rises with temperature: saturated air at 70°F has about 4 times the vapor pressure of saturated air at 32°F. That difference is what drives vapor from warm areas toward cold ones.",
+   "ru": "Нет. Давление пара растёт с температурой: у насыщенного воздуха при 70°F оно примерно в 4 раза выше, чем при 32°F. Именно эта разница гонит пар из тёплой зоны в холодную."
   },
   "opts": [
    {
@@ -20721,6 +22554,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    244
+   ],
+   [
     "Y2W5Y",
     86
    ]
@@ -20736,8 +22573,8 @@ const QUESTIONS = [
    "ru": "У пароизоляции (vapor retarder) perm меньше 1.0, то есть она пропускает очень мало влаги."
   },
   "why": {
-   "en": "The perm rating measures how much water vapor passes through a material; a material under 1.0 perm counts as a vapor retarder (building codes: Class II is 0.1–1.0 perm, Class I is 0.1 perm or less).",
-   "ru": "Perm показывает, сколько водяного пара проходит через материал; материал меньше 1.0 perm считается vapor retarder (по нормам: Class II — 0.1–1.0 perm, Class I — 0.1 perm и меньше)."
+   "en": "Yes. Perm measures how much water vapor diffuses through a material (1 perm = 1 grain of vapor per hour, per sq ft, per inch of mercury of pressure difference), and the classic definition of a vapor retarder is 1.0 perm or less. Codes split this into Class I, 0.1 perm or less (polyethylene, foil), and Class II, above 0.1 up to 1.0 (kraft facing on batts). Codes also name a weaker Class III (above 1.0 up to 10 perm, such as latex paint), but the test uses the classic definition.",
+   "ru": "Да. Perm показывает, сколько водяного пара проходит через материал диффузией (1 perm = 1 grain пара в час на 1 sq ft при разнице давлений в 1 дюйм ртутного столба), и классическое определение vapor retarder — 1.0 perm и меньше. Нормы делят их на Class I — 0.1 perm и меньше (полиэтилен, фольга) и Class II — от 0.1 до 1.0 (крафт-бумага на утеплителе). Есть ещё более слабый Class III (от 1.0 до 10 perm, например латексная краска), но тест исходит из классического определения."
   },
   "opts": [
    {
@@ -20754,6 +22591,10 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
+   [
+    "F20",
+    245
+   ],
    [
     "Y2W5Y",
     87
@@ -20770,8 +22611,8 @@ const QUESTIONS = [
    "ru": "Уменьшить число стыков и швов на кровле — один из способов сократить протечки."
   },
   "why": {
-   "en": "Every joint or seam is a possible leak path, so fewer joints mean fewer places for water to get in.",
-   "ru": "Каждый стык или шов — возможный путь для воды, поэтому чем меньше стыков, тем меньше мест для протечки."
+   "en": "Yes. Every joint or seam is a possible leak path, so fewer joints (longer panels, fewer penetrations) mean fewer places for water to get in.",
+   "ru": "Да. Каждый стык или шов — возможный путь для воды, поэтому чем меньше стыков (длиннее панели, меньше проходок), тем меньше мест для протечки."
   },
   "opts": [
    {
@@ -20788,6 +22629,10 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
+   [
+    "F20",
+    246
+   ],
    [
     "Y2W5Y",
     88
@@ -20804,8 +22649,8 @@ const QUESTIONS = [
    "ru": "Большинство протечек кровли вызвано неправильно установленным или отсутствующим flashing."
   },
   "why": {
-   "en": "Most leaks start at transitions and penetrations — walls, curbs, valleys, pipes — where flashing is missing or installed wrong, not in the open field of the roof.",
-   "ru": "Большинство протечек начинается на примыканиях и проходках — стены, бортики, ендовы, трубы, — где flashing нет или он поставлен неправильно, а не на ровной части кровли."
+   "en": "Yes. Most leaks start where the roof meets something else — walls, curbs, chimneys, valleys, pipe penetrations — and those spots are sealed by flashing. Where flashing is missing or installed wrong, that is where water gets in, not in the open field of the roof.",
+   "ru": "Да. Большинство протечек начинается там, где кровля примыкает к чему-то ещё — стены, curbs, дымоходы, valleys, проходки труб, — а эти места закрывает flashing. Если flashing нет или он поставлен неправильно, вода заходит именно там, а не на ровной части кровли."
   },
   "opts": [
    {
@@ -20823,6 +22668,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    247
+   ],
+   [
     "Y2W5Y",
     89
    ]
@@ -20838,8 +22687,8 @@ const QUESTIONS = [
    "ru": "Какие из этих проблем вызывает вода?"
   },
   "why": {
-   "en": "Water corrodes metal, breaks materials down chemically, and makes wood and other materials swell, warp and shrink — all of these.",
-   "ru": "Вода вызывает коррозию металла, химически разрушает материалы, а дерево и другие материалы от неё разбухают, коробятся и дают усадку — верно всё."
+   "en": "All of the above. Water corrodes metal, breaks materials down chemically (mortar, sealants, finishes), and makes wood and other porous materials swell, warp and shrink.",
+   "ru": "Всё перечисленное. Вода вызывает коррозию металла, химически разрушает материалы (раствор, герметики, покрытия), а дерево и другие пористые материалы от неё разбухают, коробятся и дают усадку."
   },
   "opts": [
    {
@@ -20869,6 +22718,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    248
+   ],
+   [
     "Y2W5Y",
     90
    ]
@@ -20884,8 +22737,8 @@ const QUESTIONS = [
    "ru": "Какие условия необходимы, чтобы вода попала в здание?"
   },
   "why": {
-   "en": "A leak needs all three at once: water, an opening, and a force to move the water through it (gravity, capillary action, wind, pressure). Take away any one and there is no leak.",
-   "ru": "Для протечки нужны все три сразу: вода, отверстие и сила, которая протолкнёт воду (сила тяжести, капиллярный эффект, ветер, давление). Убери любое — протечки не будет."
+   "en": "All of the above. A leak needs all three at once: water, an opening, and a force to move the water through it (gravity, capillary action, adhesion, wind, pressure difference). Take away any one and there is no leak — that is the idea behind every flashing detail.",
+   "ru": "Всё перечисленное. Для протечки нужны все три сразу: вода, отверстие и сила, которая протолкнёт воду (сила тяжести, капиллярный эффект, адгезия, ветер, разница давлений). Убери любое одно — протечки не будет; на этом построена любая деталь flashing."
   },
   "opts": [
    {
@@ -20915,6 +22768,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    249
+   ],
+   [
     "Y2W5Y",
     91
    ]
@@ -20930,8 +22787,8 @@ const QUESTIONS = [
    "ru": "Какое из этих изделий отводит воду с кровли?"
   },
   "why": {
-   "en": "Valley flashing lines the valley where two roof slopes meet and carries the water off the roof. Roofing felt is an underlayment, and a capillary break only stops water wicking into a joint.",
-   "ru": "Valley flashing выстилает ендову — место, где сходятся два ската, — и уводит воду с кровли. Roofing felt — подкладочный слой, а capillary break только не даёт воде затягиваться в шов."
+   "en": "Valley flashing lines the valley where two roof slopes meet and channels the water down and off the roof. Roofing felt is an underlayment under the roofing, and a capillary break only stops water wicking into a joint, so 'all of the above' is wrong.",
+   "ru": "Valley flashing выстилает ендову — место, где сходятся два ската, — и уводит по ней воду вниз, с кровли. Roofing felt — подкладочный слой под кровлей, а capillary break только не даёт воде затягиваться в шов, поэтому «всё перечисленное» неверно."
   },
   "opts": [
    {
@@ -20961,6 +22818,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    40
+   ],
+   [
     "Y2W5Y",
     92
    ]
@@ -20976,8 +22837,8 @@ const QUESTIONS = [
    "ru": "Какая сила вызывает горизонтальное течение воды вдоль металлической кромки?"
   },
   "why": {
-   "en": "Adhesion makes water cling to the underside of a metal edge and run along it sideways, back toward the wall; a drip edge or hem breaks that path.",
-   "ru": "Из-за адгезии вода прилипает к нижней стороне металлической кромки и бежит вдоль неё вбок, обратно к стене; drip edge или подгиб (hem) прерывают этот путь."
+   "en": "Adhesion: water clings to the underside of a metal edge and runs along it sideways, back toward the wall. A drip edge or hem breaks that path so the water drops free. The trap is capillary action, which draws water into a narrow gap between two surfaces, not along a single edge.",
+   "ru": "Адгезия: вода прилипает к нижней стороне металлической кромки и бежит вдоль неё вбок, обратно к стене. Drip edge или подгиб (hem) прерывают этот путь, и вода срывается вниз. Ловушка — капиллярный эффект: он втягивает воду в узкую щель между двумя поверхностями, а не ведёт вдоль одной кромки."
   },
   "opts": [
    {
@@ -21007,6 +22868,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    250
+   ],
+   [
     "Y2W5Y",
     93
    ]
@@ -21022,8 +22887,8 @@ const QUESTIONS = [
    "ru": "Какая сила втягивает влагу между двумя близко расположенными поверхностями против силы тяжести?"
   },
   "why": {
-   "en": "Capillary action draws water into a narrow gap between two closely spaced surfaces, even upward against gravity.",
-   "ru": "Капиллярный эффект втягивает воду в узкую щель между двумя близкими поверхностями, даже вверх против силы тяжести."
+   "en": "Capillary action draws water into a narrow gap between two closely spaced surfaces, even upward against gravity; the narrower the gap, the higher it climbs. The trap is adhesion, which moves water along a single surface or edge.",
+   "ru": "Капиллярный эффект втягивает воду в узкую щель между двумя близкими поверхностями, даже вверх против силы тяжести; чем уже щель, тем выше поднимается вода. Ловушка — адгезия: она ведёт воду вдоль одной поверхности или кромки."
   },
   "opts": [
    {
@@ -21053,6 +22918,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    251
+   ],
+   [
     "Y2W5Y",
     94
    ]
@@ -21068,8 +22937,8 @@ const QUESTIONS = [
    "ru": "В холодном климате водяной пар обычно движется"
   },
   "why": {
-   "en": "Vapor moves from warm, moist air toward cold, dry air; in winter that means from the heated, humid inside to the cold outside, which is why the vapor retarder goes on the warm (inside) side.",
-   "ru": "Пар идёт из тёплого влажного воздуха к холодному сухому; зимой это значит из отапливаемого влажного помещения наружу, поэтому vapor retarder ставят с тёплой (внутренней) стороны."
+   "en": "Vapor moves from warm, humid air toward cold, dry air (from higher vapor pressure to lower). In a cold climate the heated, humid inside is the warm side, so vapor moves outward, and the vapor retarder goes on the warm (inside) face of the insulation.",
+   "ru": "Пар идёт из тёплого влажного воздуха к холодному сухому (от высокого давления пара к низкому). В холодном климате тёплая и влажная сторона — отапливаемое помещение, поэтому пар движется наружу, а vapor retarder ставят с тёплой (внутренней) стороны утеплителя."
   },
   "opts": [
    {
@@ -21095,6 +22964,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    252
+   ],
+   [
     "Y2W5Y",
     95
    ]
@@ -21110,8 +22983,8 @@ const QUESTIONS = [
    "ru": "Для чего нужен drip edge?"
   },
   "why": {
-   "en": "A drip edge is bent out and down at the edge of a roof, coping or sill so water drips off clear of the wall instead of running back along the underside (adhesion) and down the wall. Instructor's wording: 'Allows water to drip free of a wall.'",
-   "ru": "Drip edge отогнут наружу и вниз на краю кровли, парапета или отлива, чтобы вода капала мимо стены, а не затекала по нижней стороне (адгезия) и не бежала по стене. Формулировка инструктора: «Allows water to drip free of a wall»."
+   "en": "Answer: it lets water drip free of the wall. A drip edge is bent out and down at the edge of a roof, coping or sill, so water falls clear instead of creeping along the underside of the edge and running down the wall.",
+   "ru": "Ответ: чтобы вода капала мимо стены (allows water to drip free of a wall). Drip edge отогнут наружу и вниз на краю кровли, coping или отлива, поэтому вода падает в сторону, а не ползёт по нижней стороне кромки и не стекает по стене."
   },
   "type": "input",
   "answer": {
@@ -21127,7 +23000,9 @@ const QUESTIONS = [
     "away from the building",
     "off the building",
     "from the building",
-    "от здания"
+    "от здания",
+    "shed",
+    "стека"
    ],
    "all": [],
    "reject": [],
@@ -21135,6 +23010,10 @@ const QUESTIONS = [
    "prefix": ""
   },
   "on": [
+   [
+    "F20",
+    41
+   ],
    [
     "Y2W5Y",
     96
@@ -21151,8 +23030,8 @@ const QUESTIONS = [
    "ru": "Подкладочные слои — roofing felt и ice and water shield — это первая или вторая линия защиты?"
   },
   "why": {
-   "en": "The roofing or metal on top is the first line of defense; the underlayment beneath it is the second line, catching water that gets past.",
-   "ru": "Кровельное покрытие или металл сверху — первая линия защиты; подкладочный слой под ним — вторая, он ловит воду, которая прошла через первую."
+   "en": "Second. The roofing or metal on top is the first line of defense and sheds most of the water; the underlayment beneath it (roofing felt, ice and water shield) is the second line, catching water that gets past, such as wind-driven rain or ice-dam backup.",
+   "ru": "Вторая. Кровельное покрытие или металл сверху — первая линия защиты, оно сбрасывает основную воду; подкладочный слой под ним (roofing felt, ice and water shield) — вторая линия, он ловит воду, прошедшую через первую: дождь под ветром или подпор от ледяного затора (ice dam)."
   },
   "opts": [
    {
@@ -21170,6 +23049,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    253
+   ],
+   [
     "Y2W5Y",
     97
    ]
@@ -21185,8 +23068,8 @@ const QUESTIONS = [
    "ru": "Передний край gutter должен быть выше или ниже заднего?"
   },
   "why": {
-   "en": "The front edge is set lower, so if the gutter overflows the water spills out the front, away from the building, not behind the gutter into the fascia and wall.",
-   "ru": "Передний край делают ниже, чтобы при переполнении вода переливалась вперёд, от здания, а не за gutter на fascia и стену."
+   "en": "Lower. The front edge is set lower than the back (common rule: at least 1\" lower), so when the gutter overflows the water spills out the front, away from the building, not behind the gutter into the fascia and wall.",
+   "ru": "Ниже. Передний край ставят ниже заднего (обычное правило — минимум на 1\"), чтобы при переполнении вода переливалась вперёд, от здания, а не за gutter на fascia и стену."
   },
   "opts": [
    {
@@ -21203,6 +23086,10 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
+   [
+    "F20",
+    42
+   ],
    [
     "Y2W5Y",
     98
@@ -21238,6 +23125,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    10
+   ],
+   [
     "Y2W5Y",
     99
    ]
@@ -21253,8 +23144,8 @@ const QUESTIONS = [
    "ru": "Шов шириной 1 дюйм, заполненный герметиком, рассчитанным на 25% подвижности, должен сжиматься до ____ и расширяться до ____ без разрушения."
   },
   "why": {
-   "en": "25% of 1\" = 0.25\". Compressed: 1 − 0.25 = 0.75\" = 3/4\"; expanded: 1 + 0.25 = 1.25\" = 1-1/4\".",
-   "ru": "25% от 1\" = 0.25\". Сжатие: 1 − 0.25 = 0.75\" = 3/4\"; расширение: 1 + 0.25 = 1.25\" = 1-1/4\"."
+   "en": "25% of 1\" = 0.25\". Compressed: 1 − 0.25 = 0.75\" = 3/4\"; expanded: 1 + 0.25 = 1.25\" = 1-1/4\". Traps: 1/4\" is the movement itself, not the joint width after compression; 1/2\" and 1-1/2\" would be 50% movement.",
+   "ru": "25% от 1\" = 0.25\". Сжатие: 1 − 0.25 = 0.75\" = 3/4\"; расширение: 1 + 0.25 = 1.25\" = 1-1/4\". Ловушки: 1/4\" — это сама подвижность, а не ширина шва после сжатия; 1/2\" и 1-1/2\" соответствуют 50%."
   },
   "opts": [
    {
@@ -21289,6 +23180,10 @@ const QUESTIONS = [
   "type": "multi",
   "on": [
    [
+    "F20",
+    94
+   ],
+   [
     "Y2W5Y",
     100
    ]
@@ -21304,8 +23199,8 @@ const QUESTIONS = [
    "ru": "Какой элемент направляет воду из scupper в downspout?"
   },
   "why": {
-   "en": "A conductor head (leader head) is the box on the wall that catches water from the scupper and feeds it into the downspout. The conductor pipe is the downspout itself; a splash block sits at its bottom.",
-   "ru": "Conductor head (leader head) — коробка на стене, которая принимает воду из scupper и направляет её в downspout. Conductor pipe — это сама водосточная труба, splash block лежит под её низом."
+   "en": "A conductor head (leader head) is the box on the wall that catches water from the scupper and feeds it into the downspout. The conductor pipe is the downspout itself, a splash block lies on the ground under its outlet, and valley flashing is on the roof.",
+   "ru": "Conductor head (leader head) — коробка на стене, которая принимает воду из scupper и направляет её в downspout. Conductor pipe — это сама водосточная труба, splash block лежит на земле под её выходом, а valley flashing — на кровле."
   },
   "opts": [
    {
@@ -21331,6 +23226,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    43
+   ],
+   [
     "Y2W5Y",
     101
    ]
@@ -21346,8 +23245,8 @@ const QUESTIONS = [
    "ru": "Под каким углом нужно резать miter, чтобы повторить угол coping на рисунке?"
   },
   "why": {
-   "en": "Both pieces are cut on the bisector of the 105° corner. Measured from a square cut, the miter is (180° − 105°) ÷ 2 = 37.5°. 75° is the whole turn, not half of it.",
-   "ru": "Обе детали режут по биссектрисе угла 105°. От прямого реза miter = (180° − 105°) ÷ 2 = 37.5°. 75° — весь поворот, а не его половина."
+   "en": "A miter splits the turn in half between the two pieces. The coping turns 180° − 105° = 75° from straight, so each piece is cut at 75 ÷ 2 = 37.5° from a square cut (the same as 90° − 105° ÷ 2 = 37.5°). Traps: 75° is the whole turn, 15° = 105 − 90, and 7.5° is half of 15.",
+   "ru": "Miter делит поворот пополам между двумя деталями. Coping поворачивает на 180° − 105° = 75° от прямой, поэтому каждую деталь режут на 75 ÷ 2 = 37.5° от прямого реза (то же самое: 90° − 105° ÷ 2 = 37.5°). Ловушки: 75° — весь поворот, 15° = 105 − 90, 7.5° — половина от 15."
   },
   "opts": [
    {
@@ -21374,6 +23273,10 @@ const QUESTIONS = [
   "fig": "y2w5y-q102.svg",
   "on": [
    [
+    "F20",
+    95
+   ],
+   [
     "Y2W5Y",
     102
    ]
@@ -21389,8 +23292,8 @@ const QUESTIONS = [
    "ru": "Expansion joint используют"
   },
   "why": {
-   "en": "An expansion joint lets two parts of a building, or a long run of metal such as a gutter or coping, move separately as they expand and contract with temperature.",
-   "ru": "Expansion joint позволяет двум частям здания или длинному металлическому элементу — gutter, coping — двигаться независимо, когда они расширяются и сжимаются от температуры."
+   "en": "An expansion joint is a break built into a building or into a long run of metal (gutter, coping, flashing) so the two parts can expand and contract with temperature separately, without buckling or tearing. It is not used to lengthen short flashing or as a backing plate for a seam.",
+   "ru": "Expansion joint — разрыв в здании или в длинном металлическом элементе (gutter, coping, flashing), чтобы две части могли независимо расширяться и сжиматься от температуры, не коробясь и не разрываясь. Удлинять короткий flashing или подкладывать под шов его не используют."
   },
   "opts": [
    {
@@ -21416,6 +23319,10 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
+    "F20",
+    44
+   ],
+   [
     "Y2W5Y",
     103
    ]
@@ -21431,8 +23338,8 @@ const QUESTIONS = [
    "ru": "Выберите букву, которой обозначен bend cleat среди hook strips на рисунке."
   },
   "why": {
-   "en": "On this sheet the bend cleat is profile D: a flange bent over at the top for fastening, a straight leg, and the bottom edge kicked out to hook the panel. Note: the only basis is the instructor's mark on a graded sheet; no standard or course sheet confirms it.",
-   "ru": "На этом листе bend cleat — профиль D: сверху отогнутая полка для крепления, прямая стенка и отогнутый наружу нижний край, за который цепляется панель. Внимание: основа — только пометка инструктора на проверенном листе; стандарта или листа курса, который это подтверждает, нет."
+   "en": "D: a hook strip with a flange bent over at the top (it is fastened through that flange) and the bottom edge kicked out the other way to catch the hemmed edge of the panel. H looks almost the same, but its top flange is bent to the same side as the kicked-out edge; A has the top flange but no kicked-out edge, so the panel has nothing to hook onto, and E ends in a hook turned back up.",
+   "ru": "D: hook strip с полкой, отогнутой сверху (через неё крепят), и нижним краем, отогнутым наружу в другую сторону, — за него цепляется подогнутая кромка (hem) панели. H почти такая же, но полка у неё отогнута в ту же сторону, что и нижний край; у A полка сверху есть, но нижний край не отогнут — панели не за что зацепиться, а у E внизу крючок, загнутый вверх."
   },
   "opts": [
    {
@@ -21475,6 +23382,10 @@ const QUESTIONS = [
   "fig": "y2w5y-q104.svg",
   "on": [
    [
+    "F20",
+    45
+   ],
+   [
     "Y2W5Y",
     104
    ]
@@ -21490,8 +23401,8 @@ const QUESTIONS = [
    "ru": "Выберите букву, которой обозначен continuous cleat среди hook strips на рисунке."
   },
   "why": {
-   "en": "On this sheet the continuous cleat is profile F: a straight strip fastened along its length with only the bottom edge kicked out to hook the panel. Note: the only basis is the instructor's mark on a graded sheet; no standard or course sheet confirms it.",
-   "ru": "На этом листе continuous cleat — профиль F: прямая полоса, которую крепят по всей длине, и только нижний край отогнут наружу, чтобы зацепить панель. Внимание: основа — только пометка инструктора на проверенном листе; стандарта или листа курса, который это подтверждает, нет."
+   "en": "F: a plain flat strip fastened along its whole length, with only the bottom edge kicked out to catch the hemmed edge of the panel; there is no bend at the top. H has a flange bent over at the top, so it is not a plain strip.",
+   "ru": "F: простая ровная полоса, которую крепят по всей длине; наружу отогнут только нижний край, за него цепляется hem панели, а сверху гиба нет. У H сверху отогнута полка, значит, это уже не простая полоса."
   },
   "opts": [
    {
@@ -21534,6 +23445,10 @@ const QUESTIONS = [
   "fig": "y2w5y-q105.svg",
   "on": [
    [
+    "F20",
+    46
+   ],
+   [
     "Y2W5Y",
     105
    ]
@@ -21549,8 +23464,8 @@ const QUESTIONS = [
    "ru": "Выберите букву, которой обозначен J-hook cleat среди hook strips на рисунке."
   },
   "why": {
-   "en": "On this sheet the J-hook cleat is profile B: a straight leg with a short hook bent at the top and the bottom edge kicked out. Note: the only basis is the instructor's mark on a graded sheet; no standard or course sheet confirms it.",
-   "ru": "На этом листе J-hook cleat — профиль B: прямая стенка с коротким загибом сверху и отогнутым нижним краем. Внимание: основа — только пометка инструктора на проверенном листе; стандарта или листа курса, который это подтверждает, нет."
+   "en": "B: a straight strip with a short return bent at the top and the bottom edge kicked out, so it hooks at both ends. F has no bend at the top, and G ends in a hook turned back up instead of a kicked-out edge.",
+   "ru": "B: прямая полоса с коротким загибом сверху и отогнутым наружу нижним краем — зацепы на обоих концах. У F сверху гиба нет, а у G внизу не отогнутый край, а крючок, загнутый вверх."
   },
   "opts": [
    {
@@ -21593,6 +23508,10 @@ const QUESTIONS = [
   "fig": "y2w5y-q106.svg",
   "on": [
    [
+    "F20",
+    47
+   ],
+   [
     "Y2W5Y",
     106
    ]
@@ -21608,8 +23527,8 @@ const QUESTIONS = [
    "ru": "Вычислите угол miter для coping стены на рисунке, с округлением до 2 знаков."
   },
   "why": {
-   "en": "Outside 3'-2\" = 38\", inside 2' 11-7/16\" = 35.4375\", so the miter runs 38 − 35.4375 = 2.5625\" across the 6\" width: A = atan(2.5625 ÷ 6) = 23.13°. 66.87° is the other angle, measured from the edge.",
-   "ru": "Снаружи 3'-2\" = 38\", внутри 2' 11-7/16\" = 35.4375\", значит miter проходит 2.5625\" на ширине 6\": A = atan(2.5625 ÷ 6) = 23.13°. 66.87° — другой угол, от кромки."
+   "en": "Outside edge 3'-2\" = 38\", inside edge 2'-11 7/16\" = 35.4375\", so across the 6\" width the miter line runs 38 − 35.4375 = 2.5625\". A is measured from the square line: tan A = 2.5625 ÷ 6, A = 23.13°. Trap: 66.87° = 90 − 23.13 is the same line measured from the long edge.",
+   "ru": "Снаружи 3'-2\" = 38\", внутри 2'-11 7/16\" = 35.4375\", значит, на ширине 6\" линия miter уходит на 38 − 35.4375 = 2.5625\". Угол A отсчитывается от прямой поперечной линии: tan A = 2.5625 ÷ 6, A = 23.13°. Ловушка: 66.87° = 90 − 23.13 — та же линия, но угол от длинной кромки."
   },
   "opts": [
    {
@@ -21636,6 +23555,10 @@ const QUESTIONS = [
   "fig": "y2w5y-q107.svg",
   "on": [
    [
+    "F20",
+    96
+   ],
+   [
     "Y2W5Y",
     107
    ]
@@ -21651,8 +23574,8 @@ const QUESTIONS = [
    "ru": "Вычислите угол гиба на brake для valley flashing."
   },
   "why": {
-   "en": "The valley joins the 5/12 main roof and the 8/12 wing, whose slopes fall at right angles to each other in plan. The brake angle is the angle between the two roof planes' normals: cos A = 1 ÷ (√(1 + (5/12)²) · √(1 + (8/12)²)) = 0.7680, A = 39.82°. Adding the two pitch angles (22.62° + 33.69°) works only at a ridge.",
-   "ru": "Ендова соединяет основной скат 5/12 и скат пристройки 8/12, которые в плане падают под прямым углом друг к другу. Угол гиба — угол между нормалями двух скатов: cos A = 1 ÷ (√(1 + (5/12)²) · √(1 + (8/12)²)) = 0.7680, A = 39.82°. Сумма углов уклонов (22.62° + 33.69°) годится только для конька."
+   "en": "At a valley (and a hip) the two roof planes meet at 90° in plan, so brake angle = arccos(cos α × cos β), where α and β are the pitch angles. 5/12: α = atan(5 ÷ 12) = 22.62°, cos = 0.9231; 8/12: β = atan(8 ÷ 12) = 33.69°, cos = 0.8321; 0.9231 × 0.8321 = 0.7680 → arccos = 39.82°. Trap: adding the two pitch angles (22.62 + 33.69 = 56.31°) is the ridge method and does not work at a valley.",
+   "ru": "У valley (и у hip) скаты сходятся в plan под 90°, поэтому brake angle = arccos(cos α × cos β), где α и β — углы уклонов. 5/12: α = atan(5 ÷ 12) = 22.62°, cos = 0.9231; 8/12: β = atan(8 ÷ 12) = 33.69°, cos = 0.8321; 0.9231 × 0.8321 = 0.7680 → arccos = 39.82°. Ловушка: сложить углы уклонов (22.62 + 33.69 = 56.31°) — это способ для ridge, для valley он не работает."
   },
   "opts": [
    {
@@ -21679,6 +23602,10 @@ const QUESTIONS = [
   "fig": "y2w5y-q108.svg",
   "on": [
    [
+    "F20",
+    97
+   ],
+   [
     "Y2W5Y",
     108
    ]
@@ -21694,8 +23621,8 @@ const QUESTIONS = [
    "ru": "Вычислите угол гиба на brake для hip flashing."
   },
   "why": {
-   "en": "The hip joins a 5/12 side and the 12/12 end, whose slopes fall at right angles to each other in plan: cos A = 1 ÷ (√(1 + (5/12)²) · √(1 + 1²)) = 0.6527, A = 49.25°.",
-   "ru": "Hip соединяет боковой скат 5/12 и торцевой 12/12, которые в плане падают под прямым углом друг к другу: cos A = 1 ÷ (√(1 + (5/12)²) · √(1 + 1²)) = 0.6527, A = 49.25°."
+   "en": "A hip uses the same rule as a valley, because the two planes meet at 90° in plan: brake angle = arccos(cos α × cos β). 5/12: cos 22.62° = 0.9231; 12/12: cos 45° = 0.7071; 0.9231 × 0.7071 = 0.6527 → 49.25°. Trap: 39.82° is the valley between 5/12 and 8/12, not this hip.",
+   "ru": "Hip считают так же, как valley, потому что скаты сходятся в plan под 90°: brake angle = arccos(cos α × cos β). 5/12: cos 22.62° = 0.9231; 12/12: cos 45° = 0.7071; 0.9231 × 0.7071 = 0.6527 → 49.25°. Ловушка: 39.82° — это valley между 5/12 и 8/12, а не этот hip."
   },
   "opts": [
    {
@@ -21722,6 +23649,10 @@ const QUESTIONS = [
   "fig": "y2w5y-q109.svg",
   "on": [
    [
+    "F20",
+    98
+   ],
+   [
     "Y2W5Y",
     109
    ]
@@ -21737,8 +23668,8 @@ const QUESTIONS = [
    "ru": "Вычислите угол гиба на brake для ridge flashing."
   },
   "why": {
-   "en": "At the ridge both 9/12 slopes fall away square to the ridge line, so the bend is the sum of the two pitch angles: 2 × atan(9/12) = 2 × 36.87° = 73.74° (by normals: cos A = (1 − 0.75²) ÷ (1 + 0.75²) = 0.28). 50.21° is the valley/hip formula wrongly used at a ridge.",
-   "ru": "У конька оба ската 9/12 падают перпендикулярно коньку, поэтому гиб равен сумме двух углов уклона: 2 × atan(9/12) = 2 × 36.87° = 73.74° (по нормалям: cos A = (1 − 0.75²) ÷ (1 + 0.75²) = 0.28). 50.21° — формула ендовы/hip, ошибочно применённая к коньку."
+   "en": "At a ridge both 9/12 slopes fall away square to the ridge line, so the bend from flat is the two pitch angles added: atan(9 ÷ 12) = 36.87°, 2 × 36.87 = 73.74°. The two flanges then meet at 180 − 73.74 = 106.26°. Trap: 50.21° is the hip/valley formula, arccos(cos 36.87° × cos 36.87°) = arccos 0.64, wrongly used at a ridge.",
+   "ru": "У ridge оба ската 9/12 падают перпендикулярно линии ridge, поэтому гиб от плоского листа = сумма двух углов уклона: atan(9 ÷ 12) = 36.87°, 2 × 36.87 = 73.74°. Полки после гиба сходятся под 180 − 73.74 = 106.26°. Ловушка: 50.21° — формула hip/valley, arccos(cos 36.87° × cos 36.87°) = arccos 0.64, ошибочно применённая к ridge."
   },
   "opts": [
    {
@@ -21765,6 +23696,10 @@ const QUESTIONS = [
   "fig": "y2w5y-q110.svg",
   "on": [
    [
+    "F20",
+    99
+   ],
+   [
     "Y2W5Y",
     110
    ]
@@ -21780,8 +23715,8 @@ const QUESTIONS = [
    "ru": "Вычислите общую площадь в квадратных футах, чтобы обшить снаружи здание сайдингом, с точностью до 2 знаков."
   },
   "why": {
-   "en": "The course counts walls, gables and roof: walls 2·60·19 + 2·99·19 = 6042 ft²; gables 2 · ½ · 60 · 7.5 = 450 ft² (rise 30 × 3/12 = 7.5'); roof 2 · 99 · 30.9233 = 6122.81 ft² (rafter 30 · √(1 + 0.25²)). Total = 12614.81 ft². Walls and gables alone (siding without the roof) would be 6492.00 ft².",
-   "ru": "Курс считает стены, фронтоны и кровлю: стены 2·60·19 + 2·99·19 = 6042 ft²; фронтоны 2 · ½ · 60 · 7.5 = 450 ft² (подъём 30 × 3/12 = 7.5'); кровля 2 · 99 · 30.9233 = 6122.81 ft² (стропило 30 · √(1 + 0.25²)). Итого 12614.81 ft². Только стены и фронтоны (сайдинг без кровли) дали бы 6492.00 ft²."
+   "en": "The exterior is every outside surface: 4 walls, 2 gable triangles and 2 roof planes. Walls: 2 × 60 × 19 + 2 × 99 × 19 = 6042 ft². Gables: half of 60' is 30', rise = 30 × 3/12 = 7.5', 2 × ½ × 60 × 7.5 = 450 ft². Roof: rafter = √(30² + 7.5²) = 30.9233', 2 × 99 × 30.9233 = 6122.81 ft²; total 6042 + 450 + 6122.81 = 12614.81 ft². Traps: counting the gables as rectangles (900 ft²) gives 13064.81, and leaving out the roof gives 6492.00.",
+   "ru": "Снаружи здания — все наружные поверхности: 4 стены, 2 треугольных фронтона и 2 ската кровли. Стены: 2 × 60 × 19 + 2 × 99 × 19 = 6042 ft². Фронтоны: половина 60' — 30', подъём = 30 × 3/12 = 7.5', 2 × ½ × 60 × 7.5 = 450 ft². Кровля: стропило = √(30² + 7.5²) = 30.9233', 2 × 99 × 30.9233 = 6122.81 ft²; итого 6042 + 450 + 6122.81 = 12614.81 ft². Ловушки: фронтоны как прямоугольники (900 ft²) дают 13064.81, а без кровли выходит 6492.00."
   },
   "type": "input",
   "answer": {
@@ -21792,6 +23727,10 @@ const QUESTIONS = [
   },
   "fig": "y2w5y-q111.svg",
   "on": [
+   [
+    "F20",
+    100
+   ],
    [
     "Y2W5Y",
     111

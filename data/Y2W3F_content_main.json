@@ -59,8 +59,8 @@
    "1 1/2 или 3 часа",
    "2 или 4 часа"
   ],
-  "why_en": "Fire dampers are made with 1-1/2-hour and 3-hour ratings: a barrier rated less than 3 hours (a 2-hour wall too) gets a 1-1/2-hour damper, a barrier rated 3 hours or more gets a 3-hour damper.",
-  "why_ru": "Fire dampers выпускают с рейтингом 1 1/2 и 3 часа: в преграду с рейтингом меньше 3 часов (в том числе в 2-часовую стену) ставят damper на 1 1/2 часа, в преграду на 3 часа и больше — damper на 3 часа.",
+  "why_en": "Fire dampers are made with 1-1/2-hour and 3-hour ratings (UL 555): a wall or floor rated less than 3 hours, a 2-hour wall included, gets a 1-1/2-hour damper; a barrier rated 3 hours or more gets a 3-hour damper. Trap: '1 or 2 hours' are common wall ratings, not damper ratings.",
+  "why_ru": "Fire dampers выпускают с рейтингом 1 1/2 и 3 часа (UL 555): в стену или перекрытие с рейтингом меньше 3 часов, в том числе в 2-часовую стену, ставят damper на 1 1/2 часа; в преграду на 3 часа и больше — damper на 3 часа. Ловушка: «1 или 2 часа» — это обычные рейтинги стен, а не dampers.",
   "flag": null
  },
  {
@@ -105,8 +105,8 @@
    "Дата изготовления",
    "Страна происхождения"
   ],
-  "why_en": "Before every lift the rigger has to know what the hook can carry, so its safe working load (SWL) is stamped on it. The name, date or country of origin do not tell whether the hook can take the load.",
-  "why_ru": "Перед каждым подъёмом rigger должен знать, что выдержит крюк, поэтому на нём выбивают SWL (safe working load). Производитель, дата или страна не говорят, выдержит ли крюк груз.",
+  "why_en": "Before every lift the rigger must know what the hook can carry, so its safe working load (SWL, now usually written WLL) is stamped on it. The maker's name, the date or the country does not tell whether the hook can take the load.",
+  "why_ru": "Перед каждым подъёмом rigger должен знать, что выдержит крюк, поэтому на нём выбивают safe working load (SWL, сейчас чаще пишут WLL). Производитель, дата или страна не говорят, выдержит ли крюк груз.",
   "flag": null
  },
  {
@@ -313,8 +313,8 @@
    "9-1/4\"",
    "5.25\""
   ],
-  "why_en": "BOD is the bottom of duct; add each duct's depth (the second number) to get its top. Left: 9'-3 3/4\" = 111.75\" + 12\" = 123.75\". Right: 10'-1\" = 121\" + 8\" = 129\". Top Up = 129 − 123.75 = 5.25\". The trap 9-1/4\" is the difference of the bottoms (121 − 111.75 = 9.25), not of the tops.",
-  "why_ru": "BOD — отметка низа duct; чтобы получить верх, прибавляем глубину duct (второе число). Слева: 9'-3 3/4\" = 111.75\" + 12\" = 123.75\". Справа: 10'-1\" = 121\" + 8\" = 129\". Top Up = 129 − 123.75 = 5.25\". Ловушка 9-1/4\" — разница низов (121 − 111.75 = 9.25), а не верхов.",
+  "why_en": "BOD is the bottom of duct; add each duct's depth (the second number) to get its top. Left: 9'-3 3/4\" = 111.75\" + 12\" = 123.75\". Right: 10'-1\" = 121\" + 8\" = 129\". Top Up = 129 − 123.75 = 5.25\". Trap: 9-1/4\" is the difference of the bottoms (121 − 111.75 = 9.25), not of the tops.",
+  "why_ru": "BOD — отметка низа duct; чтобы получить верх, прибавляем глубину duct (вторую цифру). Слева: 9'-3 3/4\" = 111.75\" + 12\" = 123.75\". Справа: 10'-1\" = 121\" + 8\" = 129\". Top Up = 129 − 123.75 = 5.25\". Ловушка: 9-1/4\" — разница низов (121 − 111.75 = 9.25), а не верхов.",
   "flag": null
  },
  {
@@ -411,8 +411,8 @@
    "48.172\"",
    "71.751\""
   ],
-  "why_en": "The 24\" radius is to the throat; the centerline radius adds half of the 26\" side shown: CLR = 24 + 13 = 37\". Rise H = 11'-2\" − 8'-4\" = 34\". Straight piece D = (H − 2·CLR·(1 − cos 30°)) ÷ sin 30° = 48.172\". Overall L = 2·CLR·sin 30° + D·cos 30° = 78.718\". Using 24\" as the centerline radius gives the trap pair 55.138\" / 71.751\".",
-  "why_ru": "24\" — радиус по throat; к centerline radius прибавляют половину видимой стороны 26\": CLR = 24 + 13 = 37\". Подъём H = 11'-2\" − 8'-4\" = 34\". Прямой участок D = (H − 2·CLR·(1 − cos 30°)) ÷ sin 30° = 48.172\". Общая длина L = 2·CLR·sin 30° + D·cos 30° = 78.718\". Если взять 24\" за centerline radius, выйдет пара-ловушка 55.138\" / 71.751\".",
+  "why_en": "24\" Rad. is to the throat; the CL radius adds half of the 26\" side shown: CL R = 24 + 13 = 37\". Rise O = 11'-2\" − 8'-4\" = 134 − 100 = 34\"; K = 37 × tan 15° (half of 30°) = 9.914\", 2K = 19.828\". D (straight piece) = O ÷ sin 30° − 2K = 68 − 19.828 = 48.172\"; L (overall) = O ÷ tan 30° + 2K = 58.890 + 19.828 = 78.718\". Trap: 24\" used as the CL radius gives the pair 55.138\" / 71.751\".",
+  "why_ru": "24\" Rad. — радиус до throat; к CL радиусу прибавляют половину видимой стороны 26\": CL R = 24 + 13 = 37\". Подъём O = 11'-2\" − 8'-4\" = 134 − 100 = 34\"; K = 37 × tan 15° (половина от 30°) = 9.914\", 2K = 19.828\". D (прямой кусок) = O ÷ sin 30° − 2K = 68 − 19.828 = 48.172\"; L (общая длина) = O ÷ tan 30° + 2K = 58.890 + 19.828 = 78.718\". Ловушка: если взять 24\" за CL радиус, выйдет пара 55.138\" / 71.751\".",
   "flag": "The other student chose 55.138 and 71.751 (radius not converted to centerline) and lost 2 points."
  },
  {
@@ -432,8 +432,8 @@
    "64.901\"",
    "41.391\""
   ],
-  "why_en": "CLR = 24\" throat + half of the 30\" diameter = 39\". H = 13'-4\" − 10'-6\" = 34\". D = (34 − 2·39·(1 − cos 50°)) ÷ sin 50° = 8.01185 → 8.012\". L = 2·39·sin 50° + D·cos 50° = 64.901\". 8.01185\" is the same D but not rounded to 3 decimals as asked.",
-  "why_ru": "CLR = 24\" по throat + половина диаметра 30\" = 39\". H = 13'-4\" − 10'-6\" = 34\". D = (34 − 2·39·(1 − cos 50°)) ÷ sin 50° = 8.01185 → 8.012\". L = 2·39·sin 50° + D·cos 50° = 64.901\". 8.01185\" — тот же D, но не округлённый до 3 знаков, как требует вопрос.",
+  "why_en": "CL R = 24\" throat + half of the 30\" diameter = 39\". Rise O = 13'-4\" − 10'-6\" = 160 − 126 = 34\"; K = 39 × tan 25° (half of 50°) = 18.186\", 2K = 36.372\". D (straight piece) = O ÷ sin 50° − 2K = 44.384 − 36.372 = 8.012\"; L (overall) = O ÷ tan 50° + 2K = 28.529 + 36.372 = 64.901\". Trap: 8.01185\" is the same D, but not rounded to 3 decimals as the question asks.",
+  "why_ru": "CL R = 24\" до throat + половина диаметра 30\" = 39\". Подъём O = 13'-4\" − 10'-6\" = 160 − 126 = 34\"; K = 39 × tan 25° (половина от 50°) = 18.186\", 2K = 36.372\". D (прямой кусок) = O ÷ sin 50° − 2K = 44.384 − 36.372 = 8.012\"; L (общая длина) = O ÷ tan 50° + 2K = 28.529 + 36.372 = 64.901\". Ловушка: 8.01185\" — тот же D, но не округлённый до 3 знаков, как требует вопрос.",
   "flag": "The other student lost 1 point here (an extra pick)."
  },
  {
@@ -456,8 +456,8 @@
    "Bottom = 17-1/8\" x 16",
    "Bottom = 17-1/4\" x 16-1/2\""
   ],
-  "why_en": "15\" is the net (drive-to-drive) length, so the layout length is 15 − 1 = 14\". FOT: the top is flat and the bottom moves 12 − 6 = 6\"; the left side is square (∟) and the right side moves 16 − 8 = 8\". Widths: top and bottom 16 + 2 × 1/4 = 16.5\", sides 12 + 2 × 1 = 14\". Lengths (+2\" for the two ends): Top = 14 + 2 = 16\"; Bottom = √(14² + 6²) + 2 = 17.2315 → 17-1/4\" (17.25); Left = 14 + 2 = 16\"; Right = √(14² + 8²) + 2 = 18.1245 → 18-1/8\" (18.125). So c, e, h and l.",
-  "why_ru": "15\" — длина net (drive to drive), значит layout = 15 − 1 = 14\". FOT: top плоский, bottom уходит на 12 − 6 = 6\"; левая стенка прямая (∟), правая уходит на 16 − 8 = 8\". Ширина: top и bottom 16 + 2 × 1/4 = 16.5\", боковые 12 + 2 × 1 = 14\". Длина (+2\" на два конца): Top = 14 + 2 = 16\"; Bottom = √(14² + 6²) + 2 = 17.2315 → 17-1/4\" (17.25); Left = 14 + 2 = 16\"; Right = √(14² + 8²) + 2 = 18.1245 → 18-1/8\" (18.125). Значит, c, e, h и l.",
+  "why_en": "15\" is drive to drive, so layout = 15 − 1 = 14\". In the plan the left side is square (corner mark) and the right side moves 16 − 8 = 8\"; FOT means the top is flat and the bottom moves 12 − 6 = 6\". Widths: top and bottom 16 + 2 × 1/4 = 16.5\", sides 12 + 2 × 1 = 14\". Lengths (+2\" for the two ends): Top = 14 + 2 = 16\"; Bottom = √(14² + 6²) + 2 = 15.2315 + 2 = 17.2315 → 17-1/4\"; Left = 14 + 2 = 16\"; Right = √(14² + 8²) + 2 = 16.1245 + 2 = 18.1245 → 18-1/8\". So Top 16\" x 16.5\", Bottom 17-1/4\" x 16-1/2\", Left 14\" x 16\", Right 18-1/8 x 14\"; the options mix the order of width and length, so recognize each piece by its numbers.",
+  "why_ru": "15\" — длина drive to drive, значит layout = 15 − 1 = 14\". В plan левая сторона прямая (значок угла), правая уходит на 16 − 8 = 8\"; FOT — top плоский, bottom уходит на 12 − 6 = 6\". Ширина: top и bottom 16 + 2 × 1/4 = 16.5\", боковые 12 + 2 × 1 = 14\". Длина (+2\" на два конца): Top = 14 + 2 = 16\"; Bottom = √(14² + 6²) + 2 = 15.2315 + 2 = 17.2315 → 17-1/4\"; Left = 14 + 2 = 16\"; Right = √(14² + 8²) + 2 = 16.1245 + 2 = 18.1245 → 18-1/8\". Итого: Top 16\" x 16.5\", Bottom 17-1/4\" x 16-1/2\", Left 14\" x 16\", Right 18-1/8 x 14\"; порядок ширины и длины в вариантах разный, поэтому деталь узнавайте по числам.",
   "flag": "Options e and k are printed without the last inch mark ('18-1/8 x 14\"', '17-1/8\" x 16'). The other student chose j instead of l and lost 1 point."
  },
  {

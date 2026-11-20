@@ -9,8 +9,8 @@
    "30.26°",
    "24.71°"
   ],
-  "why_en": "Law of cosines: cos A = (B² + C² − A²) ÷ (2·B·C) = (44² + 36.5² − 71.5²) ÷ (2 × 44 × 36.5) → A = 125.0364° (formula sheet p.12: 125.0364°). On the calculator: enter the sides as A, B, C (Conv 4, 5, 6), then Conv 9 (Law Cos) — angle A shows first. The angle is opposite its side, so the longest side gives the biggest angle. 54.96° = 180 − 125.04 is the trap. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-  "why_ru": "Law of cosines: cos A = (B² + C² − A²) ÷ (2·B·C) = (44² + 36.5² − 71.5²) ÷ (2 × 44 × 36.5) → A = 125.0364° (formula sheet, стр. 12: 125.0364°). На калькуляторе: стороны как A, B, C (Conv 4, 5, 6), потом Conv 9 (Law Cos) — первым покажет угол A. Угол лежит напротив своей стороны: напротив самой длинной — самый большой. 54.96° = 180 − 125.04 — ловушка. (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)",
+  "why_en": "Law of cosines, with each angle opposite its own side: cos A = (B² + C² − A²) ÷ (2·B·C). In inches A = 71.5, B = 44, C = 36.5 → cos A = (1936 + 1332.25 − 5112.25) ÷ 3212 = −0.5741, A = 125.04°. On the HVAC Pro: A Conv 4, B Conv 5, C Conv 6, then Conv 9 (Law Cos) — angle A shows first. The longest side always faces the biggest angle; 54.96° = 180 − 125.04 is the trap (a negative cosine means an obtuse angle).",
+  "why_ru": "Law of cosines, каждый угол лежит напротив своей стороны: cos A = (B² + C² − A²) ÷ (2·B·C). В дюймах A = 71.5, B = 44, C = 36.5 → cos A = (1936 + 1332.25 − 5112.25) ÷ 3212 = −0.5741, A = 125.04°. На HVAC Pro: A Conv 4, B Conv 5, C Conv 6, потом Conv 9 (Law Cos) — первым покажет угол A. Напротив самой длинной стороны всегда самый большой угол; 54.96° = 180 − 125.04 — ловушка (отрицательный cos означает тупой угол).",
   "src": "CLS",
   "flag": null
  },
@@ -24,8 +24,8 @@
    "65.29°",
    "125.04°"
   ],
-  "why_en": "cos C = (A² + B² − C²) ÷ (2·A·B) = (71.5² + 44² − 36.5²) ÷ (2 × 71.5 × 44) → C = 24.7073° (sheet: 24.70727°); press 9 twice after Conv 9. Check: A + B + C = 125.04 + 30.26 + 24.71 = 180°. 30.26° is angle B; 65.29° = 90 − 24.71 is the trap from right-triangle habits — this triangle has no 90° corner. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-  "why_ru": "cos C = (A² + B² − C²) ÷ (2·A·B) = (71.5² + 44² − 36.5²) ÷ (2 × 71.5 × 44) → C = 24.7073° (на листе 24.70727°); после Conv 9 нажми 9 ещё два раза. Проверка: A + B + C = 125.04 + 30.26 + 24.71 = 180°. 30.26° — это угол B; 65.29° = 90 − 24.71 — ловушка по привычке к прямоугольному треугольнику, а тут прямого угла нет. (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)",
+  "why_en": "cos C = (A² + B² − C²) ÷ (2·A·B) = (5112.25 + 1936 − 1332.25) ÷ (2 × 71.5 × 44) = 5716 ÷ 6292 = 0.9085 → C = 24.71°. On the calculator, after Conv 9 shows angle A, press 9 for angle B and 9 again for angle C. Check: 125.04 + 30.26 + 24.71 = 180°. Traps: 30.26° is angle B; 65.29° = 90 − 24.71 is a right-triangle habit, but this triangle has no 90° corner.",
+  "why_ru": "cos C = (A² + B² − C²) ÷ (2·A·B) = (5112.25 + 1936 − 1332.25) ÷ (2 × 71.5 × 44) = 5716 ÷ 6292 = 0.9085 → C = 24.71°. На калькуляторе после Conv 9 (угол A) нажми 9 — угол B, ещё раз 9 — угол C. Проверка: 125.04 + 30.26 + 24.71 = 180°. Ловушки: 30.26° — это угол B; 65.29° = 90 − 24.71 — привычка к прямоугольному треугольнику, а здесь прямого угла нет.",
   "src": "CLS",
   "flag": null
  },
@@ -39,8 +39,8 @@
    "24\"",
    "53\""
   ],
-  "why_en": "Step 1, law of cosines with A = 89.625\", B = 77.875\", C = 24\": angle A (between B and the 24\" side) = 111.87°. Step 2: the 24\" side is square to the run, so B leans 68.13° (= 180 − 111.87) from it — the value the instructor entered as the pitch. Step 3, right triangle on B: OFFSET = B × cos 68.13° = 29.00\" ≈ 29\"; OFFSET LENGTH = B × sin 68.13° = 72.27\" ≈ 72-1/4\". (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-  "why_ru": "Шаг 1, law of cosines с A = 89.625\", B = 77.875\", C = 24\": угол A (между B и 24\" стороной) = 111.87°. Шаг 2: 24\" сторона перпендикулярна направлению трассы, поэтому B отклонена от неё на 68.13° (= 180 − 111.87) — это число инструктор вводил как pitch. Шаг 3, прямоугольный треугольник на B: OFFSET = B × cos 68.13° = 29.00\" ≈ 29\"; OFFSET LENGTH = B × sin 68.13° = 72.27\" ≈ 72-1/4\". (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)",
+  "why_en": "Step 1, law of cosines on A = 89.625\", B = 77.875\", C = 24\": cos(angle A) = (B² + C² − A²) ÷ (2·B·C) = (6064.52 + 576 − 8032.64) ÷ 3738 = −0.3724, angle A = 111.87° (between B and the 24\" end). Step 2: the 24\" end is square to the duct run, so B leans 180 − 111.87 = 68.13° from it. Step 3, right triangle on B: OFFSET = 77.875 × cos 68.13° = 29.00\" → 29\" (OFFSET LENGTH = 77.875 × sin 68.13° = 72.27\"). Traps: 53\" = 29 + 24 is the rise to the far end of the 24\" side, and 72-1/4\" is the offset length.",
+  "why_ru": "Шаг 1, law of cosines для A = 89.625\", B = 77.875\", C = 24\": cos(угла A) = (B² + C² − A²) ÷ (2·B·C) = (6064.52 + 576 − 8032.64) ÷ 3738 = −0.3724, угол A = 111.87° (между B и 24\" торцом). Шаг 2: 24\" торец перпендикулярен трассе duct, поэтому B отклонена от него на 180 − 111.87 = 68.13°. Шаг 3, прямоугольный треугольник на B: OFFSET = 77.875 × cos 68.13° = 29.00\" → 29\" (OFFSET LENGTH = 77.875 × sin 68.13° = 72.27\"). Ловушки: 53\" = 29 + 24 — подъём до дальнего конца 24\" стороны, а 72-1/4\" — это offset length.",
   "src": "CLS",
   "flag": null
  },
@@ -54,23 +54,23 @@
    "77-7/8\"",
    "89-5/8\""
   ],
-  "why_en": "Same steps: angle A = 111.87° from the law of cosines, B leans 68.13° from the 24\" side, OFFSET LENGTH = 77.875 × sin 68.13° = 72.27\" → 72-1/4\" (OFFSET = 29.00\" ≈ 29\"). Check with A: √(72.27² + (29 + 24)²) = 89.62\" = 7'-5 5/8\". (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-  "why_ru": "Те же шаги: угол A = 111.87° по law of cosines, B отклонена от 24\" стороны на 68.13°, OFFSET LENGTH = 77.875 × sin 68.13° = 72.27\" → 72-1/4\" (OFFSET = 29.00\" ≈ 29\"). Проверка через A: √(72.27² + (29 + 24)²) = 89.62\" = 7'-5 5/8\". (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)",
+  "why_en": "Same steps: the law of cosines gives angle A = 111.87°, so B leans 180 − 111.87 = 68.13° from the 24\" end; OFFSET LENGTH = 77.875 × sin 68.13° = 72.27\" → 72-1/4\" (OFFSET = 77.875 × cos 68.13° = 29\"). Check with side A: √(72.27² + (29 + 24)²) = 89.62\" = 7'-5 5/8\". Traps: 77-7/8\" and 89-5/8\" are the slanted sides B and A themselves, and 29\" is the offset.",
+  "why_ru": "Те же шаги: law of cosines даёт угол A = 111.87°, значит, B отклонена от 24\" торца на 180 − 111.87 = 68.13°; OFFSET LENGTH = 77.875 × sin 68.13° = 72.27\" → 72-1/4\" (OFFSET = 77.875 × cos 68.13° = 29\"). Проверка через сторону A: √(72.27² + (29 + 24)²) = 89.62\" = 7'-5 5/8\". Ловушки: 77-7/8\" и 89-5/8\" — это сами наклонные стороны B и A, а 29\" — это offset.",
   "src": "CLS",
   "flag": null
  },
  {
   "n": 5,
   "topic": "safety",
-  "ru_q": "Работая в штате Washington: с какой высоты обязательна защита от падения (общее правило)?",
+  "ru_q": "При работе в штате Washington с какой высоты обязательна защита от падения (fall protection) — общее правило?",
   "ru_opts": [
    "4 фута",
    "6 футов",
    "10 футов",
    "15 футов"
   ],
-  "why_en": "In Washington the stricter state rule applies: fall protection from 4 ft (WAC 296-880-20005); federal OSHA says 6 ft (1926.501(b)(1)). The instructor: answer 4 (the most restrictive) — he credits 6 only if you name OSHA. Scaffolds have their own rule: 10 ft in both. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-  "why_ru": "В Washington действует более строгое правило штата: защита от падения с 4 ft (WAC 296-880-20005); федеральный OSHA — 6 ft (1926.501(b)(1)). Инструктор: отвечай 4 (самое строгое) — 6 засчитает, только если назовёшь OSHA. У scaffold своё правило: 10 ft и там, и там. (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)",
+  "why_en": "In Washington the stricter state rule applies: fall protection is required at 4 ft or more (WAC 296-880-20005), while federal OSHA for construction says 6 ft (1926.501(b)(1)). On the test answer 4 ft; 6 ft counts only if you write that it is the federal OSHA number. Scaffolds have their own threshold: 10 ft in both (WAC 296-880-30030, OSHA 1926.451(g)(1)).",
+  "why_ru": "В Washington действует более строгое правило штата: защита от падения обязательна с 4 ft (WAC 296-880-20005), а федеральный OSHA для стройки требует её с 6 ft (1926.501(b)(1)). На тесте отвечай 4 ft; 6 ft засчитают, только если написать, что это федеральная норма OSHA. У scaffold свой порог — 10 ft и там, и там (WAC 296-880-30030, OSHA 1926.451(g)(1)).",
   "src": "CLS",
   "flag": null
  },
@@ -84,8 +84,8 @@
    "100 фунтов",
    "50 фунтов"
   ],
-  "why_en": "200 lb at the top rail, applied outward or downward (OSHA 1926.502(b)(3); the instructor stressed that temporary guardrails must hold it too). Mid rails must hold 150 lb. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-  "why_ru": "200 lb на верхний поручень, наружу или вниз (OSHA 1926.502(b)(3); инструктор подчеркнул: временный guardrail тоже). Средний поручень — 150 lb. (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)",
+  "why_en": "The top rail must hold at least 200 lb applied within 2 in of the top edge, outward or downward, and temporary guardrails are no exception (OSHA 1926.502(b)(3); Washington's WAC 296-880-40005 uses the same 200 lb). Under that load the top edge must not sag below 39 in; the top rail sits 39–45 in (42 in ± 3 in) above the walking surface. Mid rails must hold 150 lb (OSHA 1926.502(b)(5)).",
+  "why_ru": "Верхний поручень должен выдержать не меньше 200 lb, приложенных в пределах 2 in от верхней кромки наружу или вниз, и временный guardrail — тоже (OSHA 1926.502(b)(3); в Washington WAC 296-880-40005 — те же 200 lb). Под этой нагрузкой кромка не должна опуститься ниже 39 in; сам поручень стоит на высоте 39–45 in (42 in ± 3 in) над полом. Средний поручень — 150 lb (OSHA 1926.502(b)(5)).",
   "src": "CLS",
   "flag": null
  },
@@ -99,8 +99,8 @@
    "Номеру gauge",
    "Толщине в mils"
   ],
-  "why_en": "Sheet lead is sold by weight: pounds per square foot (e.g. 4 lb lead). Copper is ounces per square foot (16 oz, 20 oz); steel is gauged by thickness. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-  "why_ru": "Листовой свинец продают по весу: фунты на квадратный фут (например, 4 lb lead). Медь — унции на квадратный фут (16 oz, 20 oz); сталь — по gauge (толщине). (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)",
+  "why_en": "Sheet lead is sold by weight per area, in pounds per square foot: 4 lb lead weighs 4 lb per square foot and is about 1/16\" thick. Sheet copper is specified in ounces per square foot (16 oz copper), steel sheet by gauge, and mils (thousandths of an inch) are used for plastic film and coatings.",
+  "why_ru": "Листовой свинец продают по весу на площадь — в фунтах на квадратный фут: 4 lb lead весит 4 фунта на квадратный фут, толщина около 1/16\". Медь задают в унциях на квадратный фут (16 oz copper), стальной лист — по gauge, а mils (тысячные дюйма) — для плёнки и покрытий.",
   "src": "CLS",
   "flag": null
  },
@@ -114,8 +114,8 @@
    "newest",
    "cheapest"
   ],
-  "why_en": "The right tool for the job — not the nearest one. The instructor: \"not necessarily the nearest… use the right tool.\" (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-  "why_ru": "Right — подходящий для работы инструмент, а не ближайший. Инструктор: «not necessarily the nearest… use the right tool». (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)",
+  "why_en": "Right: the tool made for that task, size and material. Grabbing the nearest one (snips on a gauge they are not rated for, a screwdriver used as a pry bar) ruins the tool and the work and is a common cause of hand injuries. The trap is 'nearest'.",
+  "why_ru": "Right — инструмент, сделанный именно для этой работы, размера и материала. Схватить ближайший (snips на gauge толще допустимого, отвёртку вместо монтировки) — значит испортить инструмент и деталь; это частая причина травм рук. Ловушка — nearest.",
   "src": "CLS",
   "flag": null
  },
@@ -129,8 +129,8 @@
    "4 фута",
    "1 фут"
   ],
-  "why_en": "3 ft above the landing (OSHA 1926.1053(b)(1)); set the ladder at about 75°, i.e. 1 ft out for every 4 ft up. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-  "why_ru": "На 3 ft над площадкой (OSHA 1926.1053(b)(1)); ставят под углом около 75°, то есть 1 ft от стены на каждые 4 ft высоты. (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)",
+  "why_en": "The side rails must extend at least 3 ft above the upper landing, so you have something to hold while stepping on and off (OSHA 1926.1053(b)(1); Washington's WAC 296-876-40030 is the same). Set the foot out about 1/4 of the working length (WAC 296-876-40020): cos A = 1/4, A = 75.52°, the \"75°\" rule (1 ft out for every 4 ft up gives 75.96°).",
+  "why_ru": "Боковины лестницы должны выступать над верхней площадкой минимум на 3 ft, чтобы было за что держаться, когда сходишь на площадку и встаёшь обратно (OSHA 1926.1053(b)(1); в Washington то же, WAC 296-876-40030). Низ отставляют от опоры примерно на 1/4 рабочей длины (WAC 296-876-40020): cos A = 1/4, A = 75.52°, это и есть правило «75°» (1 ft от стены на каждые 4 ft высоты даёт 75.96°).",
   "src": "CLS",
   "flag": null
  },
@@ -144,8 +144,8 @@
    "15",
    "18"
   ],
-  "why_en": "Order of operations: multiply and divide first, left to right: 4 × 3 = 12, 6 ÷ 2 = 3; then add and subtract: 8 + 12 − 3 = 17. 33 comes from working left to right ((8 + 4) × 3 − 6 = 30, ÷ 2 …) — the trap the instructor warned about. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-  "why_ru": "Порядок действий: сначала умножение и деление слева направо: 4 × 3 = 12, 6 ÷ 2 = 3; потом сложение и вычитание: 8 + 12 − 3 = 17. 33 получается, если считать подряд слева направо — ловушка, о которой предупреждал инструктор. (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)",
+  "why_en": "Order of operations: multiply and divide first, left to right (4 × 3 = 12, 6 ÷ 2 = 3), then add and subtract: 8 + 12 − 3 = 17. Traps: 15 comes from working straight left to right ((8 + 4) × 3 − 6 = 30, 30 ÷ 2 = 15); 33 comes from adding before multiplying ((8 + 4) × 3 − 3).",
+  "why_ru": "Порядок действий: сначала умножение и деление слева направо (4 × 3 = 12, 6 ÷ 2 = 3), потом сложение и вычитание: 8 + 12 − 3 = 17. Ловушки: 15 — если считать подряд слева направо ((8 + 4) × 3 − 6 = 30, 30 ÷ 2 = 15); 33 — если сложить раньше умножения ((8 + 4) × 3 − 3).",
   "src": "CLS",
   "flag": null
  },
@@ -159,8 +159,8 @@
    "18 cu. yd.",
    "4.5 cu. yd."
   ],
-  "why_en": "Bring everything to one unit first: 36\" = 3'. Volume = 3 × 2 × 27 = 162 cu. ft; 1 cu. yd. = 3 × 3 × 3 = 27 cu. ft, so 162 ÷ 27 = 6 cu. yd. 162 is cubic feet (the unit trap); 18 divides by 9 (square yards). (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-  "why_ru": "Сначала всё в одни единицы: 36\" = 3'. Объём = 3 × 2 × 27 = 162 cu. ft; 1 cu. yd. = 3 × 3 × 3 = 27 cu. ft, значит, 162 ÷ 27 = 6 cu. yd. 162 — это кубические футы (ловушка с единицами); 18 — деление на 9 (квадратные ярды). (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)",
+  "why_en": "Bring all sizes to one unit first: 36\" = 3'. Volume = 3 × 2 × 27 = 162 cu. ft. One cubic yard = 3 × 3 × 3 = 27 cu. ft, so 162 ÷ 27 = 6 cu. yd. Traps: 162 is cubic feet, 18 = 162 ÷ 9 (the square-yard factor), 4.5 = 162 ÷ 36 (inches in a yard).",
+  "why_ru": "Сначала все размеры в одни единицы: 36\" = 3'. Объём = 3 × 2 × 27 = 162 cu. ft. Один кубический ярд = 3 × 3 × 3 = 27 cu. ft, значит, 162 ÷ 27 = 6 cu. yd. Ловушки: 162 — это кубические футы, 18 = 162 ÷ 9 (как для квадратных ярдов), 4.5 = 162 ÷ 36 (дюймы в ярде).",
   "src": "CLS",
   "flag": null
  },
@@ -174,8 +174,8 @@
    "19\" working, 20\" shear",
    "21\" working, 22\" shear"
   ],
-  "why_en": "The S&D allowance is 1\" bent in half, so the line is ½\" in from each drive: working = 20 − ½ − ½ = 19\". Do the triangulation on 19\", then add the full 1\" allowance on each end: shear = 19 + 1 + 1 = 21\". The instructor: most wrong answers are \"one inch off\" — people forget that extra half inch. (Practice question written from the instructor's review class on 11/19 — not word for word from a test.)",
-  "why_ru": "Припуск S&D — 1\", загнутый пополам, поэтому линия на ½\" внутри от каждого drive: working = 20 − ½ − ½ = 19\". Triangulation считают на 19\", потом добавляют полный припуск 1\" на каждый конец: shear = 19 + 1 + 1 = 21\". Инструктор: чаще всего ошибаются «на дюйм» — забывают ту самую половину. (Учебный вопрос по разбору инструктора 19.11 — не дословно из теста.)",
+  "why_en": "On a transition the drawn length is the net (drive-to-drive) length. Net = layout + 1 (½\" per end) and shear (gross) = layout + 2 (1\" per end), because the 1\" S&D allowance is bent in half to make the drive. Working (layout) = 20 − ½ − ½ = 19\"; do the triangulation on 19\", then shear = 19 + 1 + 1 = 21\". Trap: 20\" working / 22\" shear takes the drawn 20\" as the working length — the classic one-inch error.",
+  "why_ru": "На transition длина на чертеже — net (drive to drive). Net = layout + 1 (по ½\" на конец), а shear (gross) = layout + 2 (по 1\" на конец): припуск S&D 1\" загибается пополам под drive. Working (layout) = 20 − ½ − ½ = 19\"; triangulation считают на 19\", потом shear = 19 + 1 + 1 = 21\". Ловушка: 20\" working / 22\" shear — нарисованные 20\" приняты за working length, классическая ошибка «на дюйм».",
   "src": "CLS",
   "flag": null
  }

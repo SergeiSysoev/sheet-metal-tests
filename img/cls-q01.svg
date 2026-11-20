@@ -15,13 +15,13 @@
 <polygon points="334.55,300 321.55,303.5 321.55,296.5" fill="#111" stroke="none"/>
 <polygon points="54.55,300 67.55,296.5 67.55,303.5" fill="#111" stroke="none"/>
 <text x="194.55" y="306.04" font-size="17" text-anchor="middle" fill="#111">3'-8"  B</text>
-<line x1="471.17" y1="75.75" x2="503.4" y2="98.35" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
-<line x1="337.82" y1="265.93" x2="370.05" y2="288.53" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
-<line x1="497.67" y1="94.33" x2="439.1" y2="177.86" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
-<line x1="422.89" y1="200.98" x2="364.32" y2="284.51" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
-<polygon points="497.67,94.33 493.07,106.98 487.34,102.97" fill="#111" stroke="none"/>
-<polygon points="364.32,284.51 368.92,271.86 374.65,275.88" fill="#111" stroke="none"/>
-<text x="430.99" y="195.46" font-size="17" text-anchor="middle" fill="#111">3'-0 1/2"  C</text>
+<line x1="471.17" y1="75.75" x2="521.26" y2="110.88" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="337.82" y1="265.93" x2="387.92" y2="301.06" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="515.53" y1="106.86" x2="456.96" y2="190.39" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<line x1="440.75" y1="213.51" x2="382.18" y2="297.04" fill="none" stroke="#111" stroke-width="1.15" stroke-linecap="butt"/>
+<polygon points="515.53,106.86 510.93,119.51 505.2,115.49" fill="#111" stroke="none"/>
+<polygon points="382.18,297.04 386.78,284.38 392.51,288.4" fill="#111" stroke="none"/>
+<text x="448.86" y="207.98" font-size="17" text-anchor="middle" fill="#111">3'-0 1/2"  C</text>
 <text x="307.27" y="250.74" font-size="20" text-anchor="middle" font-weight="bold" fill="#111">A</text>
 <text x="420.62" y="126.01" font-size="20" text-anchor="middle" font-weight="bold" fill="#111">B</text>
 <text x="118.18" y="259.83" font-size="20" text-anchor="middle" font-weight="bold" fill="#111">C</text>

@@ -1060,7 +1060,9 @@
    "away from the building",
    "off the building",
    "from the building",
-   "от здания"
+   "от здания",
+   "shed",
+   "стека"
   ],
   "answer_text": "Allows water to drip free of a wall (sheds water away from the wall)"
  },

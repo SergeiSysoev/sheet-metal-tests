@@ -32,7 +32,7 @@ def tri_example():
     f.dim(PL, PT, q1, q2, "5'-11 1/2\"  A")
     q1, q2 = off(PR, PL, 40)
     f.dim(PR, PL, q1, q2, "3'-8\"  B")
-    q1, q2 = off(PT, PR, 40)
+    q1, q2 = off(PT, PR, 64)                  # far enough out that the label clears side C
     f.dim(PT, PR, q1, q2, "3'-0 1/2\"  C")
     f.text((PR[0] - 30, PR[1] - 22), "A", size=20, bold=True)
     f.text((PT[0] - 52, PT[1] + 50), "B", size=20, bold=True)
@@ -74,7 +74,7 @@ def offset_example():
     q1, q2 = off(b0, b1, 50)
     f.dim(b0, b1, q1, q2, "6'-5 7/8\"  B")
     # unknowns
-    f.dim(P(xl + 40, 0), P(xl + 40, 29), P(xl + 50, 0), P(xl + 50, 29))
+    f.dim(P(xl, 0), P(xl + 40, 29), P(xl + 50, 0), P(xl + 50, 29))   # lower extension continues the base line
     f.text(P(xl + 53, 14.5), "OFFSET", size=17, anchor="start")
     f.dim(P(0, 0), P(xl, 0), P(0, -16), P(xl, -16), "OFFSET LENGTH")
     return f

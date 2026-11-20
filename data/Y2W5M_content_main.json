@@ -11,8 +11,8 @@
    "Систем с потоком воздуха",
    "Систем закрытых коридоров"
   ],
-  "why_en": "A dynamic fire damper has to close against moving air, so it is tested and labeled for the airflow velocity and pressure it can still close against (UL 555). A static damper is labeled only for systems that shut down in a fire.",
-  "why_ru": "Dynamic fire damper должен закрыться против идущего потока, поэтому его испытывают и маркируют по скорости и давлению, при которых он ещё закрывается (UL 555). Static damper маркируют только для систем, которые при пожаре отключаются.",
+  "why_en": "A dynamic fire damper must close against moving air, so it is tested and labeled (UL 555) with the maximum airflow velocity through it when open and the maximum pressure it can close against. A static fire damper is used only where the fans shut down in a fire, so its label carries no airflow or pressure rating.",
+  "why_ru": "Dynamic fire damper должен закрыться против идущего потока, поэтому его испытывают и маркируют (UL 555) с максимальной скоростью воздуха через открытый damper и максимальным давлением, против которого он ещё закрывается. Static fire damper ставят только там, где при пожаре вентиляторы отключаются, поэтому на его табличке нет рейтинга по потоку и давлению.",
   "flag": null
  },
  {
@@ -27,8 +27,8 @@
    "Срок, от которого считается гарантия",
    "Момент, когда ответственность за обслуживание переходит к пользователю здания"
   ],
-  "why_en": "The acceptance test record is the baseline: every later periodic test of the dampers is compared with it to see whether anything has changed.",
-  "why_ru": "Запись acceptance testing — это исходная точка: с ней сравнивают все последующие периодические проверки dampers, чтобы увидеть, что изменилось.",
+  "why_en": "The acceptance test, done after installation, proves each damper works and records its condition. That record is the baseline: every later periodic test (NFPA 80 for fire dampers, NFPA 105 for smoke dampers) is compared with it to see what has changed. Warranty, owner contacts and handover of maintenance are not what it is for.",
+  "why_ru": "Acceptance testing делают после монтажа: он доказывает, что каждый damper работает, и фиксирует его состояние. Эта запись — исходная точка: с ней сравнивают все следующие периодические проверки (NFPA 80 для fire dampers, NFPA 105 для smoke dampers), чтобы увидеть, что изменилось. Гарантия, связь с владельцем и передача обслуживания тут ни при чём.",
   "flag": null
  },
  {
@@ -43,8 +43,8 @@
    "Годится для подъёма или привязки (hitching)",
    "Все перечисленные ответы верны"
   ],
-  "why_en": "A bowline makes a fixed loop that does not slip or jam under load and still unties easily, which is why riggers call it a universal knot and use it for hoisting and hitching. All three statements are true.",
-  "why_ru": "Bowline даёт неподвижную петлю, которая под нагрузкой не проскальзывает и не заклинивает и при этом легко развязывается. Поэтому его называют универсальным узлом и используют для подъёма и привязки. Верны все три утверждения.",
+  "why_en": "A bowline forms a fixed loop that does not slip or jam under load and still unties easily after a heavy pull. That is why riggers call it a universal knot and use it both for hoisting and for hitching (tying off to a post or ring). All three statements are true.",
+  "why_ru": "Bowline даёт неподвижную петлю, которая под нагрузкой не проскальзывает и не заклинивает и после сильной тяги легко развязывается. Поэтому riggers называют его универсальным узлом и используют и для подъёма, и для привязки (hitching) к столбу или кольцу. Верны все три утверждения.",
   "flag": null
  },
  {
@@ -60,8 +60,8 @@
    "Получение нужных разрешений",
    "Все ответы верны"
   ],
-  "why_en": "The sheet metal worker's part of a lift is rigging: choosing the slings and hardware and attaching the load safely and correctly. Cranes and helicopters are run by licensed operators and pilots, and permits are the employer's job.",
-  "why_ru": "Часть подъёма, за которую отвечает sheet metal worker, — rigging: подобрать slings и такелаж и правильно и безопасно застропить груз. Краном и вертолётом управляют операторы и пилоты с лицензией, разрешения оформляет работодатель.",
+  "why_en": "Rigging is the sheet metal worker's part of a lift: choosing the slings and hardware and attaching and balancing the load safely and correctly. Cranes and helicopters are run by certified operators and pilots, and lift permits are arranged by the employer, so \"All answers are correct\" is wrong.",
+  "why_ru": "Rigging — часть подъёма, за которую отвечает sheet metal worker: подобрать slings и такелаж, правильно и безопасно застропить и уравновесить груз. Краном и вертолётом управляют сертифицированные операторы и пилоты, разрешения на подъём оформляет работодатель, поэтому «Все ответы верны» — неверно.",
   "flag": null
  },
  {
@@ -76,8 +76,8 @@
    "Hook and swivel",
    "Johnson bar"
   ],
-  "why_en": "A turnbuckle has two threaded ends in one body; turning the body draws them together or apart, so it adjusts the length of a sling or guy line. A thimble protects a wire-rope eye, a swivel lets the load turn, and a Johnson bar is a lever for moving heavy loads along the floor.",
-  "why_ru": "У turnbuckle два резьбовых конца в одном корпусе: при вращении корпуса они сходятся или расходятся, так регулируют длину sling или растяжки. Thimble защищает петлю троса, swivel даёт грузу поворачиваться, а Johnson bar — рычаг для перемещения тяжёлых грузов по полу.",
+  "why_en": "A turnbuckle is one body with a right-hand and a left-hand threaded end; turning the body draws the ends together or apart, so it shortens or lengthens the rigging. Washington's rigging rule lists turnbuckles under adjustable hardware (WAC 296-155-33910). A thimble only protects a wire-rope eye, a swivel lets the load turn, and a Johnson bar is a lever for moving heavy loads along the floor.",
+  "why_ru": "Turnbuckle — один корпус с двумя резьбовыми концами, правой и левой резьбы; при вращении корпуса концы сходятся или расходятся, так такелаж укорачивают или удлиняют. В правилах штата Washington turnbuckle отнесён к регулируемому такелажу (adjustable hardware, WAC 296-155-33910). Thimble только защищает петлю троса, swivel даёт грузу поворачиваться, а Johnson bar — рычаг для перемещения тяжёлых грузов по полу.",
   "flag": null
  },
  {
@@ -93,8 +93,8 @@
    "Сигнальщик (signal person)",
    "Ни один ответ не верен"
   ],
-  "why_en": "The pilot commands the aircraft and its external load for the whole lift: OSHA 1926.551 makes the helicopter operator responsible for how loads are connected and lets him refuse any lift he thinks is unsafe. The ground crew and the signal person work under the pilot's direction.",
-  "why_ru": "Пилот командует вертолётом и подвешенным грузом на протяжении всего подъёма: по OSHA 1926.551 он отвечает за то, как груз прицеплен, и может отказаться от любого подъёма, который считает опасным. Наземная бригада и сигнальщик работают по его указаниям.",
+  "why_en": "The pilot commands the helicopter and its external load for the whole lift: OSHA 1926.551(h) makes the helicopter operator responsible for the size, weight and connection of the load, and if he believes the lift cannot be made safely, it is not made. The signal person and ground crew work under the pilot's direction; the supervisor and the inspector do not control the load.",
+  "why_ru": "Пилот командует вертолётом и подвешенным грузом на протяжении всего подъёма: по OSHA 1926.551(h) он отвечает за размер, вес и способ крепления груза, и если он считает, что подъём нельзя выполнить безопасно, подъём не делают. Сигнальщик и наземная бригада работают по его указаниям; руководитель проекта и инспектор грузом не управляют.",
   "flag": null
  },
  {
@@ -109,8 +109,8 @@
    "удар грузом",
    "ошибка оператора"
   ],
-  "why_en": "Contact of the boom, load line or load with an overhead power line is the leading cause of crane deaths — about a quarter of them in the CPWR study of 1992–2006 (157 of 632). That is why OSHA 1926.1408 sets minimum clearances from power lines.",
-  "why_ru": "Касание стрелой, тросом или грузом воздушной линии электропередачи — главная причина гибели при работе с кранами: около четверти случаев в исследовании CPWR за 1992–2006 (157 из 632). Поэтому OSHA 1926.1408 задаёт минимальные расстояния до линий.",
+  "why_en": "Contact of the boom, load line or load with an overhead power line kills more workers around cranes than any other hazard: in the CPWR study of crane deaths in construction 1992–2006 it caused 157 of 632 (24.8%), ahead of struck by load (132, 20.9%). That is why OSHA 1926.1408 and, in Washington, WAC 296-155-53408 set minimum clearances from power lines.",
+  "why_ru": "Касание стрелой, тросом или грузом воздушной линии электропередачи убивает рядом с кранами больше людей, чем любая другая опасность: в исследовании CPWR о гибели на стройке при работе с кранами за 1992–2006 — 157 из 632 (24.8%), больше, чем удар грузом (132, 20.9%). Поэтому OSHA 1926.1408 и в штате Washington WAC 296-155-53408 задают минимальные расстояния до линий.",
   "flag": null
  },
  {
@@ -125,8 +125,8 @@
    "Медленно стравить трос",
    "Груз вверх"
   ],
-  "why_en": "For points pick b, raise load slowly: the instructor circled it in red (\"notice the pointer finger\") and the same answer stood on the Year End exam. By the standard (OSHA 1926 Subpart CC, Appendix A) hoist is the forearm vertical with the forefinger pointing up, making small circles; an arm held out with the forefinger horizontal is swing. The second hand held still at the signaling hand means \"slowly\".",
-  "why_ru": "Для балла ставь b, raise load slowly: инструктор обвёл его красным («notice the pointer finger»), и тот же ответ засчитан на итоговом экзамене года. По стандарту (OSHA 1926 Subpart CC, Appendix A) hoist — предплечье вертикально, указательный палец вверх, рука описывает маленькие круги; вытянутая рука с горизонтальным указательным пальцем — это swing. Вторая рука, неподвижно поднесённая к сигнальной, означает «медленно».",
+  "why_en": "Look at the lower hand: forearm up, index finger pointing up — that is HOIST, raise the load. The other hand is held still just above it, and a still hand above the signaling hand means SLOWLY; the standard chart (OSHA 1926 Subpart CC Appendix A, ASME B30.5) shows it with hoist slowly as the example. Trap: raise boom is the thumb pointing up, and the arm pointing sideways would be swing only if it were the moving signal; here it is the still hand.",
+  "why_ru": "Смотри на нижнюю руку: предплечье вверх, указательный палец вверх — это HOIST, поднять груз. Другая рука неподвижно держится прямо над ней, а неподвижная рука над сигнальной означает SLOWLY; в стандартной таблице (OSHA 1926 Subpart CC Appendix A, ASME B30.5) этот сигнал показан как раз на примере hoist slowly. Ловушка: raise boom — большой палец вверх, а рука, указывающая в сторону, была бы swing, только если бы она подавала сигнал; здесь она неподвижна.",
   "flag": null
  },
  {
@@ -141,8 +141,8 @@
    "аварийная остановка",
    "закрепить груз"
   ],
-  "why_en": "Both arms straight out to the sides, palms down, moving back and forth is the emergency stop signal (ASME B30.5). Extend boom is shown with both fists in front of the body, thumbs pointing outward.",
-  "why_ru": "Обе руки вытянуты в стороны ладонями вниз и двигаются вперёд-назад — это сигнал аварийной остановки (ASME B30.5). Выдвинуть стрелу показывают двумя кулаками перед собой, большие пальцы наружу.",
+  "why_en": "Both arms straight out to the sides, palms down, swung back and forth is EMERGENCY STOP (OSHA 1926 Subpart CC Appendix A, ASME B30.5); the operator must obey a stop signal no matter who gives it. Extend boom is both fists at waist level with thumbs pointing out; swing is one arm out with the index finger pointing the way.",
+  "why_ru": "Обе руки вытянуты в стороны ладонями вниз и качаются вперёд-назад — это EMERGENCY STOP, аварийная остановка (OSHA 1926 Subpart CC Appendix A, ASME B30.5); сигнал стоп оператор выполняет, кто бы его ни подал. Extend boom — два кулака на уровне пояса, большие пальцы наружу; swing — одна рука в сторону, указательный палец показывает направление.",
   "flag": null
  },
  {
@@ -157,8 +157,8 @@
    "planning",
    "staging"
   ],
-  "why_en": "Staging means placing material near where it will be installed so it is ready when the crew needs it; on a tight schedule good staging saves the most time (Test-90 No.84).",
-  "why_ru": "Staging — это когда материал раскладывают рядом с местом монтажа, чтобы он был под рукой, когда понадобится бригаде; при сжатом графике это экономит больше всего времени (тест-90 №84).",
+  "why_en": "Staging is storing duct and fittings near where they will be hung, in the order they will go up, so the crew does not walk back for every piece. Sectioning is joining pieces into longer runs before hoisting; planning is deciding the order and method of the work before any of this.",
+  "why_ru": "Staging — хранение duct и fittings рядом с местом монтажа, в том порядке, в каком их будут поднимать, чтобы бригада не ходила за каждой деталью. Sectioning — сборка деталей в длинные участки перед подъёмом; planning — решение о порядке и способе работы ещё до всего этого.",
   "flag": null
  },
  {
@@ -173,8 +173,8 @@
    "Нейтрализатор",
    "Сильную кислоту"
   ],
-  "why_en": "Acid flux left on a soldered joint keeps corroding the metal, so the joint is washed with a neutralizer (for example a baking-soda solution) and then rinsed. Plain water does not neutralize the acid, and rosin is a flux, not a wash.",
-  "why_ru": "Кислотный flux, оставшийся на шве, продолжает разъедать металл, поэтому шов промывают нейтрализатором (например раствором пищевой соды), а потом водой. Простая вода кислоту не нейтрализует, а канифоль — это flux, а не промывка.",
+  "why_en": "Acid flux left on a soldered joint keeps corroding the metal, so the joint is washed with a neutralizer (for example a baking-soda solution) and then rinsed. Plain water does not neutralize the acid, rosin is a flux, not a wash, and strong acid would make the corrosion worse.",
+  "why_ru": "Кислотный flux, оставшийся на шве, продолжает разъедать металл, поэтому шов промывают нейтрализатором (например, раствором пищевой соды), а потом водой. Простая вода кислоту не нейтрализует, канифоль — это flux, а не промывка, а сильная кислота только усилит коррозию.",
   "flag": null
  }
 ]

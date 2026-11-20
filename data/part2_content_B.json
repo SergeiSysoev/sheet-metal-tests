@@ -25,8 +25,8 @@
    "1' 8-5/8\"",
    "20-1/2\""
   ],
-  "why_en": "Wall to column centerline is 6'-8 5/8\" (80.625\"), column to the near edge of the upper 16\"x12\" is 2'-2 3/4\" (26.75\"), wall to the centerline of the lower 16\"x12\" is 2'-1 1/4\" (25.25\"). Upper centerline from the wall = 80.625 − 26.75 − 8 (half of 16) = 45.875\"; offset = 45.875 − 25.25 = 20.625\" = 1'-8-5/8\". Trap: 2'-4-5/8\" (28.625\") treats the edge dimension as if it went to the centerline.",
-  "why_ru": "От стены до centerline колонны 6'-8 5/8\" (80.625\"), от колонны до ближнего края верхнего 16\"x12\" — 2'-2 3/4\" (26.75\"), от стены до centerline нижнего 16\"x12\" — 2'-1 1/4\" (25.25\"). Centerline верхнего от стены = 80.625 − 26.75 − 8 (половина от 16) = 45.875\"; offset = 45.875 − 25.25 = 20.625\" = 1'-8-5/8\". Ловушка: 2'-4-5/8\" (28.625\") — размер до края приняли за размер до centerline.",
+  "why_en": "Put everything in inches and measure to the centerline of both ducts. Wall to column centerline = 6'-8 5/8\" = 80.625\"; column to the near edge of the upper 16\"x12\" = 2'-2 3/4\" = 26.75\"; wall to the centerline of the lower duct = 2'-1 1/4\" = 25.25\". Upper centerline from the wall = 80.625 − 26.75 − 8 (half of 16) = 45.875\"; offset = 45.875 − 25.25 = 20.625\" = 1'-8 5/8\". Trap: 2'-4 5/8\" (28.625\") treats the edge dimension as if it went to the centerline.",
+  "why_ru": "Всё в дюймы и до centerline обоих duct. От стены до centerline колонны 6'-8 5/8\" = 80.625\"; от колонны до ближнего края верхнего 16\"x12\" — 2'-2 3/4\" = 26.75\"; от стены до centerline нижнего duct — 2'-1 1/4\" = 25.25\". Centerline верхнего от стены = 80.625 − 26.75 − 8 (половина от 16) = 45.875\"; offset = 45.875 − 25.25 = 20.625\" = 1'-8 5/8\". Ловушка: 2'-4 5/8\" (28.625\") — размер до края приняли за размер до centerline.",
   "flag": "Drawing is 254×200 px and the dimension text is barely legible: read as 6'-8 5/8\", 2'-2 3/4\", 2'-1 1/4\"; the pixel scale (16\" duct ≈ 2.7 px/in) agrees with all three to within 1/2\"."
  },
  {
@@ -190,8 +190,8 @@
    "44 - 3/4\"",
    "45- 11/16"
   ],
-  "why_en": "The ends are drawn 24\" and 36\" high with a flat bottom, so the top climbs 36 − 24 = 12\". Length = rise ÷ tan 15° = 12 ÷ 0.267949 = 44.7846\", × 16 = 716.55 → 717/16 = 44-13/16\". Traps: 44-3/4\" cuts the sixteenths down instead of rounding, and 3-3/16\" multiplies by tan 15° (12 × 0.267949 = 3.2154) instead of dividing.",
-  "why_ru": "Концы нарисованы высотой 24\" и 36\", низ плоский, поэтому верх поднимается на 36 − 24 = 12\". Длина = rise ÷ tan 15° = 12 ÷ 0.267949 = 44.7846\", × 16 = 716.55 → 717/16 = 44-13/16\". Ловушки: 44-3/4\" — шестнадцатые обрезали, а не округлили, а 3-3/16\" — умножили на tan 15° (12 × 0.267949 = 3.2154) вместо деления.",
+  "why_en": "The bottom is flat (square-corner mark), so the top climbs 36 − 24 = 12\" (the first number is the side seen in the view). Length = rise ÷ tan 15° = 12 ÷ 0.267949 = 44.7846\"; × 16 = 716.55 → 717/16 = 44-13/16\". Traps: 44-3/4\" cuts the sixteenths off instead of rounding, and 3-3/16\" multiplies by tan 15° (12 × 0.267949 = 3.2154) instead of dividing.",
+  "why_ru": "Низ плоский (значок прямого угла), поэтому верх поднимается на 36 − 24 = 12\" (первая цифра — сторона, видимая на виде). Длина = rise ÷ tan 15° = 12 ÷ 0.267949 = 44.7846\"; × 16 = 716.55 → 717/16 = 44-13/16\". Ловушки: 44-3/4\" — шестнадцатые отброшены, а не округлены; 3-3/16\" — умножили на tan 15° (12 × 0.267949 = 3.2154) вместо деления.",
   "flag": "Option \"45- 11/16\" has no inch mark in the original. Kept as printed."
  },
  {
@@ -222,8 +222,8 @@
    "D= 60-7/8\"",
    "D= 62-9/16\""
   ],
-  "why_en": "Rise = 12'-1\" − 9'-5\" = 32\" (both to the bottom of the same 28\"x20\" duct). R1'-4\" (16\") is the throat radius and the 28\" side lies in the plane of the turn, so CL R = 16 + 14 = 30\"; the two 37° elbows rise 2 × 30 × (1 − cos 37°) = 12.0819\". Straight piece L = (32 − 12.0819) ÷ sin 37° = 33.0968\" → 33-1/8\"; D = 2 × 30 × sin 37° + L × cos 37° = 36.1089 + 26.4323 = 62.5412\" → 62-9/16\".",
-  "why_ru": "Подъём = 12'-1\" − 9'-5\" = 32\" (оба размера — до низа одного и того же duct 28\"x20\"). R1'-4\" (16\") — throat radius, а в плоскости поворота лежит сторона 28\", поэтому CL R = 16 + 14 = 30\"; два elbow по 37° поднимают на 2 × 30 × (1 − cos 37°) = 12.0819\". Прямой кусок L = (32 − 12.0819) ÷ sin 37° = 33.0968\" → 33-1/8\"; D = 2 × 30 × sin 37° + L × cos 37° = 36.1089 + 26.4323 = 62.5412\" → 62-9/16\".",
+  "why_en": "Rise O = 12'-1\" − 9'-5\" = 145 − 113 = 32\" (both to the bottom of the same 28\"x20\" duct). R1'-4\" points to the throat, so CL R = 16 + 28/2 = 30\"; K = 30 × tan 18.5° (half of 37°) = 10.0379\", 2K = 20.0757\". L (straight piece) = O ÷ sin 37° − 2K = 53.1725 − 20.0757 = 33.0968\" → 33-1/8\"; D (overall) = O ÷ tan 37° + 2K = 62.5412\" → 62-9/16\". Using R1'-4\" as the CL radius gives 42-7/16\" and 53-3/16\", which match no option.",
+  "why_ru": "Подъём O = 12'-1\" − 9'-5\" = 145 − 113 = 32\" (оба размера — до низа одного и того же duct 28\"x20\"). R1'-4\" упирается в throat, поэтому CL R = 16 + 28/2 = 30\"; K = 30 × tan 18.5° (половина от 37°) = 10.0379\", 2K = 20.0757\". L (прямой кусок) = O ÷ sin 37° − 2K = 53.1725 − 20.0757 = 33.0968\" → 33-1/8\"; D (общая длина) = O ÷ tan 37° + 2K = 62.5412\" → 62-9/16\". Если взять R1'-4\" за CL радиус, выйдет 42-7/16\" и 53-3/16\" — таких вариантов нет.",
   "flag": "No pick is marked in the PDF; answer by calculation (same data as TRI №17). Drawing is not to scale: the duct looks about 20\" deep, but only the 28\" side in the plane of the turn matches an option (with 20\": L 35.77\", D 59.86\")."
  },
  {
@@ -239,8 +239,8 @@
    "D= 125\"",
    "D= 119-1/2\""
   ],
-  "why_en": "Rise = 15'-2\" − 8'-9\" = 182 − 105 = 77\". R38\" is the throat radius of the 36\"Ø pipe, so CL R = 38 + 18 = 56\"; the two 44° elbows rise 2 × 56 × (1 − cos 44°) = 31.4339\". L = (77 − 31.4339) ÷ sin 44° = 65.5949\" → 65-5/8\"; D = 2 × 56 × sin 44° + L × cos 44° = 77.8017 + 47.1850 = 124.9868\" → 125\".",
-  "why_ru": "Подъём = 15'-2\" − 8'-9\" = 182 − 105 = 77\". R38\" — throat radius трубы 36\"Ø, поэтому CL R = 38 + 18 = 56\"; два elbow по 44° поднимают на 2 × 56 × (1 − cos 44°) = 31.4339\". L = (77 − 31.4339) ÷ sin 44° = 65.5949\" → 65-5/8\"; D = 2 × 56 × sin 44° + L × cos 44° = 77.8017 + 47.1850 = 124.9868\" → 125\".",
+  "why_en": "Rise O = 15'-2\" − 8'-9\" = 182 − 105 = 77\". R38\" points to the throat of the 36\"Ø pipe, so CL R = 38 + 18 = 56\"; K = 56 × tan 22° (half of 44°) = 22.625\", 2K = 45.251\". L (straight piece) = O ÷ sin 44° − 2K = 110.846 − 45.251 = 65.595\" → 65-5/8\"; D (overall) = O ÷ tan 44° + 2K = 79.736 + 45.251 = 124.987\" → 125\". Using R38\" as the CL radius gives 80-1/8\" and 110-7/16\", which match no option.",
+  "why_ru": "Подъём O = 15'-2\" − 8'-9\" = 182 − 105 = 77\". R38\" упирается в throat трубы 36\"Ø, поэтому CL R = 38 + 18 = 56\"; K = 56 × tan 22° (половина от 44°) = 22.625\", 2K = 45.251\". L (прямой кусок) = O ÷ sin 44° − 2K = 110.846 − 45.251 = 65.595\" → 65-5/8\"; D (общая длина) = O ÷ tan 44° + 2K = 79.736 + 45.251 = 124.987\" → 125\". Если взять R38\" за CL радиус, выйдет 80-1/8\" и 110-7/16\" — таких вариантов нет.",
   "flag": "No pick is marked in the PDF; answer by calculation. Drawing is 233×200 px and the left elevation is blurry: read as 8'-9\", the reading that reproduces both options (L 65-5/8\", D 125\")."
  },
  {
