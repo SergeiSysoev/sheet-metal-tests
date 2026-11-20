@@ -1,34 +1,29 @@
 [
  {
   "src": "Y1W5H",
-  "n": 10,
+  "n": 1,
   "topic": "safety",
-  "ru_q": "Общее правило: защита от падения обязательна, если работник может упасть с высоты _______ и больше (по OSHA).",
+  "ru_q": "Как расшифровывается сокращение OSHA?",
   "ru_hint": null,
-  "ru_opts": [
-   "5 feet",
-   "6 feet",
-   "10 feet",
-   "12 feet"
-  ],
-  "why_en": "6 feet: OSHA's general rule for construction (1926.501(b)(1)), and the question asks for the OSHA number. In Washington the stricter state rule applies on the job: fall protection from 4 ft (WAC 296-880-20005). 10 ft is the scaffold threshold (1926.451(g)(1)).",
-  "why_ru": "6 feet: общее правило OSHA для стройки (1926.501(b)(1)), а вопрос спрашивает именно норму OSHA. В штате Washington на работе действует более строгое правило штата: защита от падения с 4 ft (WAC 296-880-20005). 10 ft — порог для scaffold (1926.451(g)(1)).",
-  "flag": null
+  "ru_opts": null,
+  "why_en": "OSHA = Occupational Safety and Health Administration: the federal agency in the U.S. Department of Labor, created by the Occupational Safety and Health Act of 1970, that writes and enforces workplace safety rules. Its construction rules are 29 CFR 1926 (fall protection — Subpart M, scaffolds — Subpart L, ladders — Subpart X); general industry rules are 29 CFR 1910. Do not mix it up with the OSH Act (the law itself), NIOSH (the research institute that recommends limits but does not enforce them) or ANSI (writes consensus standards such as Z87.1 for safety glasses). Washington runs its own OSHA-approved state plan: Labor & Industries (L&I, Division of Occupational Safety and Health) enforces the WISHA rules written in the WAC — chapter 296-155 for construction, 296-880 fall protection, 296-876 ladders, 296-874 scaffolds — and they must be at least as strict as OSHA's.\n\nHow to use this: safety acronyms are asked word for word, so learn them as a set — OSHA (the Administration, the agency), OSH Act (the law), NIOSH (National Institute for Occupational Safety and Health, research), WISHA (Washington Industrial Safety and Health Act), SDS (Safety Data Sheet), PPE (personal protective equipment), PFAS (personal fall arrest system). Whenever a question quotes an OSHA number, remember that on a Washington job the WAC applies and may be stricter.",
+  "why_ru": "OSHA = Occupational Safety and Health Administration — федеральное ведомство Министерства труда США, созданное законом Occupational Safety and Health Act 1970 года; оно пишет правила безопасности на работе и следит за их выполнением. Правила для стройки — 29 CFR 1926 (fall protection — Subpart M, scaffolds — Subpart L, ladders — Subpart X), для остальных отраслей (general industry) — 29 CFR 1910. Не путать с OSH Act (сам закон), с NIOSH (исследовательский институт: рекомендует нормы, но не проверяет) и с ANSI (пишет consensus standards, например Z87.1 для защитных очков). В Washington своя программа штата, одобренная OSHA: L&I (Labor & Industries, отдел DOSH) проверяет выполнение правил WISHA, записанных в WAC, — глава 296-155 для стройки, 296-880 fall protection, 296-876 ladders, 296-874 scaffolds; они должны быть не мягче правил OSHA.\n\nКак применять: расшифровки спрашивают дословно, учи их набором — OSHA (Administration, ведомство), OSH Act (закон), NIOSH (National Institute for Occupational Safety and Health, исследования), WISHA (Washington Industrial Safety and Health Act), SDS (Safety Data Sheet), PPE (personal protective equipment), PFAS (personal fall arrest system). Если в вопросе цифра OSHA, помни: на работе в Washington действует WAC, и он бывает строже.",
+  "flag": "Typed answer (full name). Separate from Y2W3F-40 'What does OSHA stand for?' — the wording differs."
  },
  {
   "src": "Y1W5H",
-  "n": 16,
+  "n": 2,
   "topic": "safety",
-  "ru_q": "Guardrails должны выдерживать ____ lbs. силы в любом направлении вниз или наружу вдоль верхней кромки.",
+  "ru_q": "Top rails временной системы guardrail должны находиться на высоте __________ (до верха поручня).",
   "ru_hint": null,
   "ru_opts": [
-   "100",
-   "150",
-   "200",
-   "250"
+   "38-40\"",
+   "38-46\"",
+   "39-45\"",
+   "36-46\""
   ],
-  "why_en": "200 lb applied within 2 in of the top edge, outward or downward (OSHA 1926.502(b)(3)); temporary guardrails too. Washington's WAC 296-880-40005 is the same 200 lb. 150 lb is the requirement for mid rails.",
-  "why_ru": "200 lb в пределах 2 in от верхней кромки, наружу или вниз (OSHA 1926.502(b)(3)), и для временных guardrails тоже. В Washington WAC 296-880-40005 — те же 200 lb. 150 lb — требование к среднему поручню.",
+  "why_en": "39-45\": OSHA 1926.502(b)(1) puts the top edge of a guardrail at 42 in, plus or minus 3 in, above the walking/working level: 42 − 3 = 39 and 42 + 3 = 45. Washington's WAC 296-880-40005 gives the same 39 to 45 inches. The other ranges are 42 ± 3 done wrong: 38-40\" never even reaches 42; 38-46\" is 42 ± 4, an inch too wide at both ends; 36-46\" starts at 36 in — a rail that low meets a standing worker below the hips, and he can tip over it. The same section puts the midrail halfway between the top rail and the walking surface (about 21 in) and requires the top rail to hold 200 lb and the midrail 150 lb.\n\nHow to use this: remember the guardrail as one picture — top rail 42\" ± 3\" (39–45\") holding 200 lb, midrail halfway holding 150 lb, toeboard at least 3 1/2\" high with no more than a 1/4\" gap at the floor. For a range question, find the center value and the tolerance (42 ± 3) and pick the range whose both ends match.",
+  "why_ru": "39-45\": по OSHA 1926.502(b)(1) верхняя кромка guardrail стоит на высоте 42 in плюс-минус 3 in над рабочей поверхностью: 42 − 3 = 39 и 42 + 3 = 45. В Washington WAC 296-880-40005 даёт те же 39–45 дюймов. Остальные диапазоны — неправильно посчитанные 42 ± 3: 38-40\" вообще не доходит до 42; 38-46\" — это 42 ± 4, на дюйм шире с обеих сторон; 36-46\" начинается с 36 in — такой низкий поручень приходится стоящему человеку ниже бёдер, и через него можно перевалиться. В том же разделе: midrail — посередине между top rail и полом (около 21 in); top rail должен держать 200 lb, midrail — 150 lb.\n\nКак применять: запомни guardrail одной картинкой — top rail 42\" ± 3\" (39–45\"), держит 200 lb; midrail посередине, держит 150 lb; toeboard не ниже 3 1/2\", зазор у пола не больше 1/4\". В вопросе с диапазоном найди середину и допуск (42 ± 3) и выбирай диапазон, у которого совпадают оба конца.",
   "flag": null
  },
  {
@@ -43,8 +38,283 @@
    "80°",
    "70°"
   ],
-  "why_en": "Set the foot out 1/4 of the working length (the 4-to-1 rule, OSHA 1926.1053(b)(5)(i); WAC 296-876-40020 in Washington): cos A = 1/4, A = 75.52° ≈ 75°. Flatter and the foot can slide out; steeper and the ladder can tip back.",
-  "why_ru": "Низ лестницы отставляют на 1/4 рабочей длины (правило 4 к 1, OSHA 1926.1053(b)(5)(i); в Washington WAC 296-876-40020): cos A = 1/4, A = 75.52° ≈ 75°. Положе — низ может уехать, круче — лестница может опрокинуться назад.",
+  "why_en": "75°. OSHA 1926.1053(b)(5)(i) (in Washington WAC 296-876-40020, the same rule) sets a leaning ladder so the foot is out about 1/4 of the working length, the distance along the ladder from the foot to the top support: the 4-to-1 rule, 1 ft out for every 4 ft of ladder. Angle with the ground: cos A = 1/4, A = arccos 0.25 = 75.52°, rounded to 75° (14.48° from the wall); if you count 4 ft of height instead of ladder length, arctan 4 = 75.96°, still about 75°. \"65°\" puts the foot out about 1.69 ft per 4 ft of ladder (cos 65° = 0.423): too flat, the foot can kick out and the rails flex more. \"70°\" puts it out about 1.37 ft per 4 ft (cos 70° = 0.342): still too flat. \"80°\" puts it out only about 0.69 ft per 4 ft (cos 80° = 0.174): too steep, the ladder can tip backward when you lean back or reach. Field check: stand with your toes against the rails and arms straight out; your palms should land on the rung in front of you.\n\nHow to use this: leaning-ladder angle → 75° (4-to-1, cos A = 1/4). For ladder-length problems: working length L, foot out L/4, height from L² = H² + (L/4)², plus 3 ft above a landing. Stepladders stand on their own and are not leaned, so this rule does not apply to them.",
+  "why_ru": "75°. OSHA 1926.1053(b)(5)(i) (в Washington то же правило — WAC 296-876-40020): приставную лестницу ставят так, чтобы низ отстоял примерно на 1/4 рабочей длины (расстояние вдоль лестницы от низа до верхней опоры) — правило 4 к 1: 1 ft в сторону на каждые 4 ft лестницы. Угол к земле: cos A = 1/4, A = arccos 0.25 = 75.52°, округлённо 75° (14.48° от стены); если считать 4 ft высоты вместо длины лестницы, arctan 4 = 75.96° — всё равно около 75°. «65°» — низ отстоит примерно на 1.69 ft на каждые 4 ft лестницы (cos 65° = 0.423): слишком полого, низ может уехать, тетивы сильнее прогибаются. «70°» — примерно 1.37 ft на 4 ft (cos 70° = 0.342): тоже слишком полого. «80°» — всего около 0.69 ft на 4 ft (cos 80° = 0.174): слишком круто, лестница может опрокинуться назад, когда отклоняешься или тянешься. Проверка на месте: встань носками к тетивам и вытяни руки вперёд — ладони должны лечь на ступеньку перед тобой.\n\nКак применять: угол приставной лестницы → 75° (4 к 1, cos A = 1/4). В задачах на длину: рабочая длина L, низ на L/4, высота из L² = H² + (L/4)², плюс 3 ft над площадкой. Стремянка стоит сама и ни к чему не прислоняется, к ней это правило не относится.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 4,
+  "topic": "safety",
+  "ru_q": "Toe boards на системе guardrail должны быть высотой не меньше ________.",
+  "ru_hint": null,
+  "ru_opts": [
+   "1 1/2\"",
+   "3\"",
+   "3 1/2\"",
+   "4\""
+  ],
+  "why_en": "3 1/2\": OSHA 1926.502(j)(3) — a toeboard must be at least 3½ in high from its top edge to the walking/working surface, with no more than a 1/4 in gap at the bottom and no openings over 1 in; Washington's WAC 296-880-40005 has the same numbers. A toeboard keeps tools, fittings, screws and scrap from being kicked or rolling off the edge onto people below. The number comes from lumber: a 1x4 board is 4 in only by name (nominal) and actually measures 3 1/2 in — so 4\" is the trap, the board's name, not the rule. 3\" is below the minimum, and 1 1/2\" is the thickness of a 2x4 — a board laid flat, which is no toeboard at all. Where material is piled higher than the toeboard, the rule adds paneling or screening up to the midrail or top rail.\n\nHow to use this: toeboard = 3 1/2\" high, at most 1/4\" gap at the floor, openings at most 1\"; it protects people below from falling objects. Nominal vs actual lumber sizes (1x4 = 3/4\" × 3 1/2\", 2x4 = 1 1/2\" × 3 1/2\") explain several 'odd' numbers in safety rules and on the jobsite.",
+  "why_ru": "3 1/2\": OSHA 1926.502(j)(3) — toeboard высотой не меньше 3½ in от верхней кромки до рабочей поверхности, зазор снизу не больше 1/4 in, отверстия не больше 1 in; в Washington WAC 296-880-40005 — те же числа. Toeboard не даёт инструменту, fittings, саморезам и обрезкам скатиться или слететь из-под ноги с края на людей внизу. Число пришло от пиломатериала: доска 1x4 «четырёхдюймовая» только по названию (nominal), а на деле 3 1/2 in — поэтому 4\" и есть ловушка: это название доски, а не норма. 3\" — меньше минимума, а 1 1/2\" — толщина 2x4, то есть доска, положенная плашмя, — это вообще не toeboard. Если материал сложен выше toeboard, правило требует ещё щит или сетку до midrail или top rail.\n\nКак применять: toeboard — 3 1/2\" высотой, зазор у пола не больше 1/4\", отверстия не больше 1\"; он защищает людей внизу от падающих предметов. Разница между названием и настоящим размером доски (1x4 = 3/4\" × 3 1/2\", 2x4 = 1 1/2\" × 3 1/2\") объясняет многие «странные» числа в правилах и на объекте.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 5,
+  "topic": "safety",
+  "ru_q": "Средства защиты глаз, головы и ног (PPE) должны соответствовать:",
+  "ru_hint": null,
+  "ru_opts": [
+   "Национальным консенсусным стандартам",
+   "Рекомендациям работников",
+   "Требованиям OSHA к испытаниям",
+   "Одобрению OSHA"
+  ],
+  "why_en": "National consensus standards: OSHA does not design, test or approve safety gear; its rules point to standards written by consensus bodies (ANSI/ISEA, ASTM), and the manufacturer tests the product and marks it. Eye and face: ANSI/ISEA Z87.1 (look for 'Z87' on frame and lens, 'Z87+' for high impact), OSHA 1926.102(b)(1). Head: ANSI Z89.1 (Type I top impact, Type II top and side; Class G 2,200 V, Class E 20,000 V, Class C no electrical protection), 1926.100(b). Foot: 1926.96 names ANSI Z41.1; safety-toe boots sold today are marked to ASTM F2413. 'OSHA approvals' and 'OSHA testing requirements' are traps: OSHA has no approval stamp or test lab for PPE, so 'OSHA approved' on a product is a red flag (NIOSH does approve respirators — a separate system). 'Recommendations of employees' matter for fit and comfort when choosing PPE, but they do not decide whether it complies.\n\nHow to use this: separate the roles — OSHA (and L&I in Washington) makes the legal rule and enforces it; consensus bodies (ANSI/ISEA, ASTM, NFPA) write the performance standard; the manufacturer tests and marks the product; NIOSH certifies respirators; UL lists fire dampers and electrical equipment. In 'who approves / what must it comply with' questions, 'OSHA approved' is almost always the wrong option.",
+  "why_ru": "«Национальным консенсусным стандартам»: OSHA сама не разрабатывает, не испытывает и не одобряет средства защиты; её правила ссылаются на стандарты, которые пишут консенсусные организации (ANSI/ISEA, ASTM), а производитель испытывает изделие и ставит маркировку. Глаза и лицо — ANSI/ISEA Z87.1 (на оправе и стекле маркировка «Z87», «Z87+» — для сильного удара), OSHA 1926.102(b)(1). Голова — ANSI Z89.1 (Type I — удар сверху, Type II — сверху и сбоку; Class G — 2 200 V, Class E — 20 000 V, Class C — без защиты от тока), 1926.100(b). Ноги — 1926.96 ссылается на ANSI Z41.1; сегодняшние ботинки с защитным носком маркируют по ASTM F2413. «Одобрение OSHA» и «Требования OSHA к испытаниям» — ловушки: у OSHA нет ни штампа одобрения, ни лаборатории для PPE, и надпись «OSHA approved» на изделии — тревожный знак (респираторы одобряет NIOSH — это отдельная система). «Рекомендации работников» важны, чтобы подобрать PPE по размеру и удобству, но соответствие нормам они не определяют.\n\nКак применять: различай роли — OSHA (в Washington — L&I) пишет обязательное правило и проверяет его выполнение; консенсусные организации (ANSI/ISEA, ASTM, NFPA) пишут стандарт характеристик; производитель испытывает и маркирует изделие; NIOSH сертифицирует респираторы; UL сертифицирует (lists) fire dampers и электрооборудование. В вопросах «кто одобряет / чему должно соответствовать» вариант «одобрено OSHA» почти всегда неверный.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 6,
+  "topic": "safety",
+  "ru_q": "Эффективная вытяжная вентиляция (exhaust ventilation):",
+  "ru_hint": null,
+  "ru_opts": [
+   "Отводит загрязнённый воздух от зоны дыхания работников",
+   "Подаёт работникам чистый воздух от безмасляного компрессора",
+   "Гонит чистый воздух в сторону от работников",
+   "Гоняет отфильтрованный воздух по рабочей зоне по кругу"
+  ],
+  "why_en": "Draws contaminated air away from workers' breathing zones: exhaust ventilation — best of all local exhaust — captures the contaminant at its source (a hood or fume-extractor nozzle at the weld, a cut-off saw, a solvent tank) and pulls it through duct to a fan and outside, so it never passes through the air in front of the worker's face. Place the hood so the flow pulls the plume away from the face, never across it. 'Uncontaminated air from an oil-less air compressor' is breathing air for a supplied-air respirator (OSHA 1910.134(i): Grade D air, carbon monoxide limits for compressors) — that is a respirator, the last line of defense, not ventilation. 'Pushes uncontaminated air away from workers' is backwards: clean supply air is brought to the worker; it is the contaminated air that must move away. 'Re-circulates filtered air throughout the work area' only dilutes and spreads whatever the filter misses over the whole room — it is not exhaust. On galvanized steel the zinc oxide fume causes metal fume fever, which is why welding galvanized needs local exhaust.\n\nHow to use this: rank controls by the hierarchy — elimination or substitution, then engineering controls (local exhaust is the best ventilation: capture at the source, pull away from the face), then administrative controls, then PPE (respirators last). In a ventilation question pick the option that removes the contaminant at the source and away from the breathing zone. Sheet metal workers build these systems — hoods, exhaust duct, kitchen hoods, fume collectors — so the same rule tells you where a hood should go.",
+  "why_ru": "«Отводит загрязнённый воздух от зоны дыхания работников»: вытяжная вентиляция, а лучше всего местная вытяжка (local exhaust), захватывает загрязнение у самого источника (зонт или сопло дымоуловителя у шва, у отрезной пилы, у ванны с растворителем) и по duct тянет его к вентилятору и наружу, так что оно не проходит через воздух перед лицом работника. Зонт ставят так, чтобы поток уводил дым от лица, а не тянул его поперёк лица. «Чистый воздух от безмасляного компрессора» — это воздух для дыхания в шланговом респираторе (OSHA 1910.134(i): воздух Grade D, контроль угарного газа у компрессора), то есть респиратор — последняя линия защиты, а не вентиляция. «Гонит чистый воздух в сторону от работников» — наоборот: чистый приточный воздух подают к работнику, уходить от него должен грязный. «Гоняет отфильтрованный воздух по кругу» только разбавляет и разносит по всему помещению то, что фильтр пропустил, — это не вытяжка. На galvanized дым оксида цинка вызывает metal fume fever, поэтому сварка galvanized требует местной вытяжки.\n\nКак применять: меры защиты идут по порядку — убрать или заменить опасность, потом инженерные меры (местная вытяжка — лучшая вентиляция: захват у источника, увод от лица), потом организационные, потом PPE (респиратор — последним). В вопросе про вентиляцию выбирай вариант, где загрязнение убирают у источника и уводят от зоны дыхания. Эти системы — зонты, вытяжные duct, кухонные hoods, дымоуловители — делают sheet metal workers, так что то же правило подсказывает, где ставить зонт.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 7,
+  "topic": "safety",
+  "ru_q": "Определение confined space у OSHA для general industry включает пространство, которое:",
+  "ru_hint": null,
+  "ru_opts": [
+   "Глубже 3.5 feet",
+   "Имеет один вход/один выход",
+   "Не предназначено для постоянного пребывания работников",
+   "Содержит меньше 20% кислорода"
+  ],
+  "why_en": "Is not designed for continuous employee occupancy: OSHA 1910.146(b) calls a space confined only when all three are true — (1) it is large enough and so configured that an employee can bodily enter and do work; (2) it has limited or restricted means for entry or exit; (3) it is not designed for continuous employee occupancy. The answer is condition 3 word for word. 'Has one way in/one way out' distorts condition 2: the rule says limited or restricted entry or exit, so a duct run with several access doors or an AHU with two doors still qualifies. 'Is more than 3.5 feet deep' is in no confined-space definition (depth numbers belong to trenches: a ladder or other way out from 4 ft deep, a protective system from 5 ft). 'Contains less than 20% oxygen' is a hazard reading, not part of the definition: normal air is 20.9% oxygen, oxygen-deficient is below 19.5%, enriched is above 23.5%; a hazardous atmosphere is what turns a confined space into a permit-required one. Washington uses the same three conditions (WAC 296-809-099); construction work has its own OSHA standard with the same definition, 1926 Subpart AA.\n\nHow to use this: confined space = can enter + limited way in or out + not made for people to stay in. Permit-required = a confined space plus a serious hazard (atmosphere, engulfment, a shape that can trap, or any other serious hazard such as a fan that can start). Oxygen: 20.9% normal, under 19.5% deficient, over 23.5% enriched. Run any space through the three conditions first, then look for hazards.",
+  "why_ru": "«Не предназначено для постоянного пребывания работников»: по OSHA 1910.146(b) пространство считается confined, только если верны все три условия — (1) оно достаточно большое и такой формы, что человек может войти целиком и работать; (2) вход или выход ограничен или затруднён; (3) оно не предназначено для постоянного пребывания людей. Ответ — третье условие дословно. «Один вход/один выход» искажает второе условие: в правиле сказано «ограниченный или затруднённый вход или выход», поэтому линия duct с несколькими лючками или AHU с двумя дверцами — всё равно confined space. «Глубже 3.5 feet» нет ни в одном определении confined space (числа глубины — это траншеи: лестница или другой выход с глубины 4 ft, крепление стенок с 5 ft). «Меньше 20% кислорода» — показание прибора об опасности, а не часть определения: в нормальном воздухе 20.9% кислорода, недостаток — ниже 19.5%, избыток — выше 23.5%; именно опасная атмосфера делает confined space пространством permit-required. В Washington те же три условия (WAC 296-809-099); для стройки у OSHA отдельный стандарт с тем же определением — 1926 Subpart AA.\n\nКак применять: confined space = можно войти + вход или выход ограничен + не сделано для постоянной работы людей. Permit-required = confined space плюс серьёзная опасность (атмосфера, засыпание сыпучим, форма, в которой можно застрять, или любая другая серьёзная опасность — например, вентилятор, который может включиться). Кислород: 20.9% норма, ниже 19.5% — недостаток, выше 23.5% — избыток. Любое место сначала проверяй по трём условиям, потом ищи опасности.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 8,
+  "topic": "safety",
+  "ru_q": "Какие опасности чаще всего связаны с конвейерами?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Point of operation и разлетающиеся детали",
+   "Спотыкания и падения",
+   "Nip points и вращающиеся части",
+   "Электричество и падающие предметы"
+  ],
+  "why_en": "Nip points and rotating parts: conveyors hurt people mostly by catching them — at nip points, where a belt or chain runs onto a pulley, sprocket or roller (an in-running nip pulls in a glove, sleeve or hand), and on rotating parts such as shafts, couplings, pulleys and screw conveyors that wrap clothing and hair. That is why conveyors need guards over nip points, a stop at the operator's station (OSHA 1926.555) and lockout before anyone clears a jam or does maintenance. 'Point of operation and flying parts' are the signature hazards of presses, shears, saws and grinders: the point of operation is where the machine actually cuts, bends or forms the material (1910.212(a)(3)) — in our shop, the blade of the shear or the dies of the brake. 'Trips and falls' happen anywhere on a jobsite and are not specific to conveyors. 'Electrical and falling objects' are real around conveyors (motors, a load dropping off a raised belt) but are not the most common ones.\n\nHow to use this: match each machine to its signature hazard — belts, chains, rolls and conveyors: nip points and rotating parts (caught-in); shears, brakes, presses, saws: point of operation and flying parts; grinders: flying particles and a bursting wheel; ladders and scaffolds: falls. The same in-running nip is on our slip rolls and on the rolls of the Pittsburgh machine — keep fingers and gloves away from where the rolls meet.",
+  "why_ru": "«Nip points и вращающиеся части»: конвейер травмирует в основном затягиванием — в nip points, где лента или цепь набегает на шкив, звёздочку или ролик (набегающий зазор затягивает перчатку, рукав, кисть), и на вращающихся частях — валах, муфтах, шкивах, шнеках, на которые наматывается одежда и волосы. Поэтому на конвейере nip points закрывают ограждениями, ставят кнопку остановки у места оператора (OSHA 1926.555) и делают lockout, прежде чем убирать затор или обслуживать. «Point of operation и разлетающиеся детали» — главные опасности прессов, shears, пил и шлифмашин: point of operation — место, где станок режет, гнёт или формует металл (1910.212(a)(3)); в нашем цехе это нож shear и пуансон с матрицей у brake. «Спотыкания и падения» бывают везде на объекте, конвейерам они не свойственны особо. «Электричество и падающие предметы» у конвейеров тоже встречаются (моторы, груз, упавший с поднятой ленты), но это не самые частые опасности.\n\nКак применять: у каждого станка своя главная опасность — ленты, цепи, валки, конвейеры: nip points и вращающиеся части (затягивание); shears, brakes, прессы, пилы: point of operation и разлетающиеся детали; шлифмашины: летящие частицы и разрыв круга; лестницы и scaffolds: падения. Тот же набегающий зазор есть у наших slip rolls и у валков Pittsburgh machine — пальцы и перчатки держи подальше от места, где сходятся валки.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 9,
+  "topic": "safety",
+  "ru_q": "Краны можно переделывать и повышать их номинальную грузоподъёмность (rerate) при условии, что:",
+  "ru_hint": null,
+  "ru_opts": [
+   "Competent person тщательно осматривает кран после переделки",
+   "Новая грузоподъёмность не больше чем на 10% выше прежней",
+   "Переделки и несущие конструкции тщательно проверены на новую номинальную нагрузку квалифицированным инженером или производителем крана",
+   "Все переделки выполняет сертифицированный сварщик"
+  ],
+  "why_en": "Such modifications and the supporting structure are checked thoroughly for the new rated load by a qualified engineer or the equipment manufacturer: this is OSHA 1910.179(b)(3) word for word. After that the crane is load-tested (test load not more than 125% of the rated load unless the manufacturer says otherwise, 1910.179(k)(2)) and the new rated load is marked on it. Construction cranes follow the same idea: modifications that affect capacity need the manufacturer's approval, or a registered professional engineer's if the manufacturer is not available (1926.1434). A competent person does the shift and periodic inspections and spots hazards, but a rating is a design calculation — looking at the crane afterward cannot prove that the girders, runway and building structure can carry more. 'The new rating does not exceed 10% greater' is invented: no percentage makes a rerate safe without engineering. A certified welder may well do the welding, but good welds say nothing about whether the structure can take the new load.\n\nHow to use this: know the two OSHA titles — a competent person can recognize hazards and has the authority to correct them on the spot (inspections, scaffolds, trenches, fall protection); a qualified person or engineer has the degree or proven expertise to calculate and design (anchorages, rerating, horizontal lifelines, scaffold design). When a question is about capacity, rating or design, the answer is the engineer or the manufacturer.",
+  "why_ru": "«Переделки и несущие конструкции тщательно проверены на новую номинальную нагрузку квалифицированным инженером или производителем крана» — это дословно OSHA 1910.179(b)(3). После этого кран испытывают пробным грузом (не больше 125% номинальной нагрузки, если производитель не указал иное, 1910.179(k)(2)) и наносят на него новую грузоподъёмность. Для строительных кранов та же идея: переделки, влияющие на грузоподъёмность, согласуют с производителем, а если его нет — с дипломированным инженером (registered professional engineer), 1926.1434. Competent person проводит ежесменные и плановые осмотры и замечает опасности, но грузоподъёмность — инженерный расчёт: осмотр после переделки не докажет, что балки, подкрановые пути и здание выдержат больше. «Не больше чем на 10% выше» — выдумка: никакой процент не делает повышение грузоподъёмности безопасным без расчёта. Сварку вполне может делать сертифицированный сварщик, но хороший шов ничего не говорит о том, выдержит ли конструкция новую нагрузку.\n\nКак применять: у OSHA два разных звания — competent person умеет распознать опасность и имеет право сразу её устранить (осмотры, scaffolds, траншеи, fall protection); qualified person или инженер — человек с дипломом или доказанной квалификацией, который считает и проектирует (anchorages, повышение грузоподъёмности, horizontal lifelines, проект scaffold). Если вопрос о грузоподъёмности, номинале или расчёте, ответ — инженер или производитель.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 10,
+  "topic": "safety",
+  "ru_q": "Общее правило: защита от падения обязательна, если работник может упасть с высоты _______ и больше (по OSHA).",
+  "ru_hint": null,
+  "ru_opts": [
+   "5 feet",
+   "6 feet",
+   "10 feet",
+   "12 feet"
+  ],
+  "why_en": "6 feet. OSHA 1926.501(b)(1), construction: a worker on a walking/working surface with an unprotected side or edge 6 ft or more above a lower level must be protected by a guardrail, safety net or personal fall arrest system. The question says \"OSHA specific\", so the federal construction number is the answer. On a Washington job the stricter state rule applies: fall protection from 4 ft (WAC 296-880-20005), the same height OSHA uses for general industry (1910.28(b)(1)). \"5 feet\" is OSHA's trigger for shipyards. \"10 feet\" is the scaffold trigger (1926.451(g)(1)). \"12 feet\" is not an OSHA trigger height. Over dangerous equipment (running machinery, open tanks, electrical equipment) protection is required at any height (1926.501(b)(8)).\n\nHow to use this: remember the ladder of heights: 4 ft OSHA general industry and Washington (WAC), 5 ft shipyards, 6 ft OSHA construction, 8 ft longshoring, 10 ft scaffolds, 15 ft steel erection, any height over dangerous equipment. If the question says OSHA, give the federal number; if it asks what you do on a Washington job, give the WAC number.",
+  "why_ru": "6 feet. OSHA 1926.501(b)(1), стройка: если работник стоит на поверхности с незащищённым краем на высоте 6 ft и больше над нижним уровнем, нужна защита — guardrail, страховочная сетка или personal fall arrest system. В вопросе сказано «по OSHA», поэтому ответ — федеральная норма для стройки. На объекте в Washington действует более строгое правило штата: защита от падения с 4 ft (WAC 296-880-20005) — та же высота, что у OSHA для general industry (1910.28(b)(1)). «5 feet» — порог OSHA для судоверфей. «10 feet» — порог для scaffold (1926.451(g)(1)). «12 feet» — не порог в правилах OSHA. Над опасным оборудованием (работающие машины, открытые ёмкости, электрооборудование) защита нужна на любой высоте (1926.501(b)(8)).\n\nКак применять: запомни лесенку высот — 4 ft OSHA general industry и Washington (WAC), 5 ft судоверфи, 6 ft стройка по OSHA, 8 ft погрузка в портах (longshoring), 10 ft scaffold, 15 ft монтаж стальных конструкций, над опасным оборудованием — любая высота. Если вопрос про OSHA — называй федеральную цифру; если про то, что делать на объекте в Washington, — цифру WAC.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 11,
+  "topic": "safety",
+  "ru_q": "____________________ могут быть высотой не больше четырёх своих самых коротких размеров основания.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Ladders",
+   "Aerial Lifts",
+   "Positioning Device Systems",
+   "Supported Scaffolds"
+  ],
+  "why_en": "Supported Scaffolds: scaffolds that stand on legs, frames or outriggers (frame scaffolds, tube-and-clamp, rolling towers) with a height-to-base-width ratio over 4 to 1 must be restrained from tipping by guying, tying or bracing (OSHA 1926.451(c)(1); Washington's WAC 296-874-40004 is the same, and the least base dimension includes outriggers if used). So the statement is the short form: 4 times the narrowest base is as tall as a free-standing scaffold may go; taller, it must be tied in. Example: a rolling tower 5 ft wide at its narrow side stands free to 5 × 4 = 20 ft. Ladders also have a 4-to-1 number, but it is the setup angle (foot out 1/4 of the working length), not height to base. Aerial lifts (scissor and boom lifts) follow the manufacturer's limits and the ANSI/SAIA A92 standards (1926.453), not a 4:1 ratio. Positioning device systems are a harness rig that lets you lean back and work with both hands free, rigged so you cannot free fall more than 2 ft (1926.502(e)(1)) — no height-to-base rule. Moving a rolling scaffold with someone on it is stricter: height no more than 2 times the least base (1926.452(w)(6)(ii); WAC 296-874-40012).\n\nHow to use this: there are two different 4-to-1 rules — do not swap them: scaffold height ÷ narrowest base ≤ 4 (or tie it in); ladder foot out = working length ÷ 4 (about 75°). A rolling scaffold with a rider: 2 to 1. For any scaffold question, divide the height by the narrowest base width (outriggers included) and compare with 4.",
+  "why_ru": "Supported Scaffolds: леса, стоящие на стойках, рамах или аутригерах (рамные, трубчато-хомутовые, передвижные вышки), при отношении высоты к ширине основания больше 4 к 1 должны быть закреплены от опрокидывания растяжками, креплением к зданию или распорками (OSHA 1926.451(c)(1); в Washington то же — WAC 296-874-40004, наименьший размер основания считается вместе с аутригерами, если они есть). То есть утверждение — короткая форма правила: четыре самых узких основания — предел для свободностоящих лесов; выше — крепить к зданию. Пример: передвижная вышка с узкой стороной 5 ft стоит без крепления до 5 × 4 = 20 ft. У ladders тоже есть число 4 к 1, но это угол установки (низ отставлен на 1/4 рабочей длины), а не высота к основанию. Aerial lifts (ножничные и коленчатые подъёмники) работают по ограничениям производителя и стандартам ANSI/SAIA A92 (1926.453), а не по отношению 4:1. Positioning device systems — обвязка из harness, которая позволяет откинуться и работать обеими руками; её настраивают так, чтобы свободное падение было не больше 2 ft (1926.502(e)(1)), правила «высота к основанию» у неё нет. Передвигать вышку с человеком наверху — строже: высота не больше двух наименьших оснований (1926.452(w)(6)(ii); WAC 296-874-40012).\n\nКак применять: есть два разных правила 4 к 1, не путай: высота scaffold ÷ самое узкое основание ≤ 4 (иначе крепить); вынос низа лестницы = рабочая длина ÷ 4 (около 75°). Передвижная вышка с человеком — 2 к 1. В любом вопросе про scaffold дели высоту на самую узкую сторону основания (с аутригерами) и сравнивай с 4.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 12,
+  "topic": "safety",
+  "ru_q": "Lifelines бывают вертикальными и горизонтальными.",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "True. OSHA's definition (1926.500(b)) names both: a vertical lifeline hangs from an anchorage at one end; a horizontal lifeline is stretched between anchorages at both ends; either connects the worker's lanyard or rope grab to the anchorage as part of a personal fall arrest system. Washington's definition says the same (WAC 296-880-095). The rules differ by type: a vertical lifeline serves only one worker (1926.502(d)(10)(i)) and needs at least 5,000 lb breaking strength ((d)(9)); a horizontal lifeline must be designed, installed and used under the supervision of a qualified person with a safety factor of at least two ((d)(8)), because the sag of a horizontal line multiplies the pull on its end anchors. The statement would be False only if it said a lifeline can be just one of the two kinds.\n\nHow to use this: for personal fall arrest questions think ABCD — Anchorage (5,000 lb per worker or engineered with a safety factor of 2), Body harness (body belts banned for fall arrest since 1998), Connectors (lanyard, rope grab, self-retracting lifeline), Deceleration and rescue. Free fall at most 6 ft, stop within 3.5 ft, never hit the lower level (1926.502(d)(16)). True/False items with 'can' usually check whether you know all the allowed variants.",
+  "why_ru": "True. В определении OSHA (1926.500(b)) названы оба вида: vertical lifeline висит от anchorage, закреплённого с одного конца; horizontal lifeline натянут между anchorages с обоих концов; и тот и другой соединяет lanyard или rope grab работника с anchorage в составе personal fall arrest system. В Washington определение такое же (WAC 296-880-095). Правила у видов разные: на vertical lifeline — только один работник (1926.502(d)(10)(i)), прочность на разрыв не меньше 5 000 lb ((d)(9)); horizontal lifeline проектируют, ставят и используют под надзором qualified person с запасом прочности не меньше двух ((d)(8)), потому что провис горизонтального троса многократно увеличивает тягу на концевые anchors. Утверждение было бы False, только если бы говорилось, что lifeline бывает лишь одного из двух видов.\n\nКак применять: в вопросах про personal fall arrest вспоминай ABCD — Anchorage (5 000 lb на работника или расчёт с запасом 2), Body harness (поясные body belts для остановки падения запрещены с 1998 года), Connectors (lanyard, rope grab, self-retracting lifeline), Deceleration и rescue (торможение и спасение). Свободное падение не больше 6 ft, торможение не длиннее 3.5 ft, до нижнего уровня не долетать (1926.502(d)(16)). True/False со словом «can» обычно проверяет, знаешь ли ты все разрешённые варианты.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 13,
+  "topic": "safety",
+  "ru_q": "__________________ выполняет подрядчик до начала работ.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Phase Hazard Analysis",
+   "Job Safety Analysis",
+   "Project Hazard Analysis"
+  ],
+  "why_en": "Project Hazard Analysis: hazard analysis is done on three levels, from the biggest to the smallest. The Project Hazard Analysis is the contractor's review of the whole job before any work begins — site conditions, the work of each trade, the schedule, fall hazards, cranes and permits, the emergency plan — and it feeds the site-specific safety plan. A Phase Hazard Analysis is repeated before each major phase of the work starts (for example, before the duct rough-in phase or before roof work), ideally with all contractors working in that phase. A Job Safety Analysis (JSA, also called Job Hazard Analysis, JHA, or a pre-task plan) breaks one task into steps and lists the hazard and the control for each step; the foreman and crew fill it out right before that task, often every day. The key words in the question are 'contractor' and 'before work begins', which point to the whole-project level.\n\nHow to use this: match the scope words — whole project, before work begins → Project Hazard Analysis; start of each phase → Phase Hazard Analysis; one task, its steps, the crew, daily → Job Safety Analysis (JHA, pre-task plan). Big to small: project → phase → task.",
+  "why_ru": "Project Hazard Analysis: анализ опасностей делают на трёх уровнях, от крупного к мелкому. Project Hazard Analysis — разбор всего объекта подрядчиком до начала любых работ: условия площадки, работы каждой профессии, график, опасность падения, краны и разрешения, план на случай аварии; из него вырастает план безопасности объекта. Phase Hazard Analysis повторяют перед началом каждого крупного этапа (например, перед этапом монтажа duct, rough-in, или перед работами на кровле), лучше вместе со всеми подрядчиками этого этапа. Job Safety Analysis (JSA, он же Job Hazard Analysis, JHA, или pre-task plan) раскладывает одну задачу на шаги и для каждого шага записывает опасность и меру защиты; его заполняют бригадир и бригада прямо перед этой задачей, часто каждый день. Ключевые слова вопроса — «подрядчик» и «до начала работ»: это уровень всего объекта.\n\nКак применять: смотри на масштаб — весь объект, до начала работ → Project Hazard Analysis; начало каждого этапа → Phase Hazard Analysis; одна задача, её шаги, бригада, каждый день → Job Safety Analysis (JHA, pre-task plan). От крупного к мелкому: объект → этап → задача.",
+  "flag": "No OSHA rule defines the three analysis levels; the explanation uses the common project → phase → task hierarchy of safety planning."
+ },
+ {
+  "src": "Y1W5H",
+  "n": 14,
+  "topic": "safety",
+  "ru_q": "Падения — главная причина гибели на работе в строительстве.",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "True. In construction, falls kill more workers than any other event: in 2023, 421 of 1,075 construction deaths — about 39% — were falls, slips and trips (BLS Census of Fatal Occupational Injuries). That is why the construction fall protection standard (1926.501) is OSHA's most-cited standard year after year, and why OSHA's Focus Four construction hazards list falls first, then struck-by, caught-in/between and electrocution. Watch the scope: across all industries the top cause of work deaths is transportation incidents (vehicle crashes), so the statement would be False if it said 'in all industries'.\n\nHow to use this: construction — falls first, then struck-by, caught-in/between, electrocution (the Focus Four). All industries — transportation first. Read the scope words in the question (construction / all workers / our trade) before answering.",
+  "why_ru": "True. На стройке падения убивают больше людей, чем любая другая причина: в 2023 году 421 из 1 075 погибших в строительстве — около 39% — это падения, поскальзывания и спотыкания (BLS, Census of Fatal Occupational Injuries). Поэтому строительный стандарт fall protection (1926.501) из года в год — самое частое нарушение в проверках OSHA, а в Focus Four (четыре главные опасности стройки по OSHA) падения стоят первыми, дальше — удар предметом (struck-by), затягивание или зажатие (caught-in/between) и удар током. Следи за масштабом: по всем отраслям вместе первая причина гибели на работе — транспорт (аварии машин), так что утверждение было бы False, если бы речь шла обо всех отраслях.\n\nКак применять: стройка — падения первыми, потом struck-by, caught-in/between, электричество (Focus Four). Все отрасли — первым транспорт. Сначала прочитай, о ком вопрос (стройка, все работники, наша профессия), потом отвечай.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 15,
+  "topic": "safety",
+  "ru_q": "Выберите пару терминов, которая лучше всего описывает два вида fall protection:",
+  "ru_hint": null,
+  "ru_opts": [
+   "Active & Passive Fall Arrest",
+   "Fall Prevention & Passive Protection",
+   "Fall Prevention & Fall Arrest",
+   "Fall Protection & Fall Arrest"
+  ],
+  "why_en": "Fall Prevention & Fall Arrest: fall protection splits into two types by what the system does. Fall prevention stops the fall from happening at all: guardrails, hole covers, and travel restraint (a harness on a lanyard short enough that you cannot reach the edge). Fall arrest stops a fall that has already started: a personal fall arrest system (harness, lanyard or self-retracting lifeline, anchorage) or a safety net. 'Fall Protection & Fall Arrest' is wrong because fall protection is the umbrella name for both types — fall arrest is part of it. 'Active & Passive' sorts the same systems another way, by whether the worker has to do anything: passive systems (guardrails, nets, covers) work by themselves, active ones need the worker to wear and hook up equipment (harness, lanyard); 'Active & Passive Fall Arrest' leaves prevention out entirely. 'Fall Prevention & Passive Protection' mixes the two ways of sorting — a guardrail is both prevention and passive.\n\nHow to use this: ask 'does it stop me before I fall or after I start falling?' Before = prevention or restraint (guardrail, cover, restraint lanyard); after = arrest (personal fall arrest system, net). Washington's WAC 296-880 uses the same split in its terms (fall restraint and fall arrest). Prevention comes first when you choose: a guardrail protects everyone without anyone having to do anything.",
+  "why_ru": "Fall Prevention & Fall Arrest: fall protection делится на два вида по тому, что делает система. Fall prevention не даёт упасть вообще: guardrails, крышки на отверстиях, travel restraint (harness на таком коротком lanyard, что до края не дойти). Fall arrest останавливает уже начавшееся падение: personal fall arrest system (harness, lanyard или self-retracting lifeline, anchorage) или safety net. «Fall Protection & Fall Arrest» неверно: fall protection — общее название обоих видов, fall arrest входит в него. «Active & Passive» делит те же системы по другому признаку — нужно ли что-то делать самому работнику: пассивные (guardrails, сетки, крышки) работают сами, активные требуют надеть и пристегнуть снаряжение (harness, lanyard); «Active & Passive Fall Arrest» вообще оставляет за бортом prevention. «Fall Prevention & Passive Protection» смешивает два признака — guardrail одновременно и prevention, и passive.\n\nКак применять: спроси себя — «это остановит меня до падения или после того, как я начал падать?» До — prevention или restraint (guardrail, крышка, удерживающий lanyard); после — arrest (personal fall arrest system, сетка). В Washington WAC 296-880 делит так же (fall restraint и fall arrest). При выборе prevention идёт первым: guardrail защищает всех, и никому ничего не надо делать.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 16,
+  "topic": "safety",
+  "ru_q": "Guardrails должны выдерживать ____ lbs. силы в любом направлении вниз или наружу вдоль верхней кромки.",
+  "ru_hint": null,
+  "ru_opts": [
+   "100",
+   "150",
+   "200",
+   "250"
+  ],
+  "why_en": "200. OSHA 1926.502(b)(3): a guardrail system must withstand at least 200 lb applied within 2 in of the top edge, in any outward or downward direction, at any point along the top; under that load the top edge must not sag below 39 in (1926.502(b)(4)). Washington's WAC 296-880-40005 uses the same 200 lb test, with the top rail 39–45 in high (OSHA: 42 in ± 3 in, the same range). \"150\" is the trap: it is a real guardrail number, but for midrails, screens and mesh (1926.502(b)(5)), not for the top edge. \"100\" and \"250\" are not values in the guardrail rule. Temporary guardrails made of 2×4s or wire rope must pass the same 200 lb test; a rail that only looks like a guardrail does not count. Related numbers: toeboard 50 lb (1926.502(j)(2)), personal fall arrest anchorage 5,000 lb per person (1926.502(d)(15)).\n\nHow to use this: guardrail = top rail 42 in ± 3 in and 200 lb, midrail halfway and 150 lb, toeboard 50 lb; harness anchor 5,000 lb. Read which part the question names, top edge or midrail, before choosing between 200 and 150.",
+  "why_ru": "200. OSHA 1926.502(b)(3): guardrail должен выдерживать не меньше 200 lb, приложенных в пределах 2 in от верхней кромки, наружу или вниз, в любой точке по длине; под этой нагрузкой верх не должен опуститься ниже 39 in (1926.502(b)(4)). В Washington WAC 296-880-40005 — та же проверка 200 lb, высота верхнего поручня 39–45 in (у OSHA 42 in ± 3 in — тот же диапазон). «150» — ловушка: это настоящая цифра для guardrail, но для среднего поручня (midrail), сеток и экранов (1926.502(b)(5)), а не для верхней кромки. «100» и «250» в правиле о guardrail не встречаются. Временный guardrail из досок 2×4 или троса должен выдерживать те же 200 lb — поручень, который только выглядит как guardrail, не считается. Связанные цифры: toeboard — 50 lb (1926.502(j)(2)), анкер для personal fall arrest — 5,000 lb на человека (1926.502(d)(15)).\n\nКак применять: guardrail — верхний поручень 42 in ± 3 in и 200 lb, midrail посередине и 150 lb, toeboard 50 lb; анкер для страховочной привязи 5,000 lb. Сначала прочитай, про какую часть спрашивают — верхнюю кромку или midrail, — и только потом выбирай между 200 и 150.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 17,
+  "topic": "safety",
+  "ru_q": "Крышки (hole covers) обязательны для отверстий диаметром больше 1 фута.",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "False. OSHA defines a hole as a gap or void 2 inches or more in its least dimension in a floor, roof or other walking/working surface (1926.500(b)); Washington's definition is the same 2 inches (WAC 296-880-095). Every hole must be protected so nobody trips or steps into it and nothing falls through onto people below, and where the drop is more than 6 ft (4 ft in Washington) so nobody falls through (1926.501(b)(4)). So covers are needed far below 1 foot — a 4-inch duct penetration in a deck is already a hole. A cover must hold at least twice the weight of the workers, equipment and materials that may be on it, be secured so wind or traffic cannot move it, and be marked 'HOLE' or 'COVER' (1926.502(i)). The 1-foot figure comes from the old general-industry wording, where an opening of 12 in or more was called a 'floor opening'. The statement would be True if it said 'holes 2 inches or more in their least dimension'.\n\nHow to use this: hole = 2 in or more (least dimension) in a floor or roof; opening = 30 in high and 18 in wide or more in a wall. Every hole gets a cover that is strong (2 × the load), secured and marked HOLE or COVER. When a True/False gives a size, compare it with 2 inches. On our jobs: cut the hole for a duct riser or roof curb — cover it right away.",
+  "why_ru": "False. По OSHA hole — это проём или пустота размером 2 дюйма и больше по наименьшей стороне в полу, кровле или другой рабочей поверхности (1926.500(b)); в Washington определение такое же — 2 дюйма (WAC 296-880-095). Каждое отверстие закрывают, чтобы никто не споткнулся и не наступил в него и чтобы ничего не упало сквозь него на людей внизу, а если перепад больше 6 ft (в Washington — 4 ft), то и чтобы никто не провалился (1926.501(b)(4)). Значит, крышка нужна задолго до 1 фута — 4-дюймовый проход под duct в перекрытии уже hole. Крышка должна выдерживать не меньше двойного веса людей, оборудования и материала, которые могут на ней оказаться, быть закреплена, чтобы её не сдвинуло ветром или ногами, и иметь надпись «HOLE» или «COVER» (1926.502(i)). Цифра 1 фут — из старой формулировки для general industry, где проём от 12 in называли «floor opening». Утверждение было бы True, если бы там было «отверстия от 2 дюймов по наименьшей стороне».\n\nКак применять: hole — от 2 in по наименьшей стороне в полу или кровле; opening — от 30 in высотой и 18 in шириной в стене. На любой hole — крышка: прочная (2 × нагрузка), закреплённая, с надписью HOLE или COVER. Если в True/False назван размер, сравни его с 2 дюймами. На наших объектах: прорезал отверстие под стояк duct или под roof curb — сразу закрой.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 18,
+  "topic": "safety",
+  "ru_q": "Guardrails можно использовать как anchorage для personal fall arrest systems.",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "False. OSHA 1926.502(d)(23): personal fall arrest systems shall not be attached to guardrail systems. A guardrail is built to hold 200 lb pushed on its top rail; an anchorage must support 5,000 lb per worker attached, or be designed with a safety factor of at least two under a qualified person (1926.502(d)(15)), because the force of stopping a fall is far more than a push on a rail. The rail, its posts and their clamps can tear out and go down with the worker. The same paragraph forbids tying off to hoists, and for the same reason never tie off to ductwork, duct hangers, conduit or sprinkler pipe. Proper tie-off points: an engineered anchor (beam clamp, roof anchor, embedded anchor), a structural member approved by a qualified person, or the anchor point in an aerial lift basket. The statement would be True only for a structure that a qualified person has designed and rated as an anchorage — then it is an anchorage, not just a guardrail.\n\nHow to use this: an anchorage must hold 5,000 lb per person or be engineered for the job; anything built for less — guardrail, ladder, duct, conduit, pipe, hanger rod — is never an anchorage. For any 'can X be used as an anchorage' question, ask: was it designed for 5,000 lb?",
+  "why_ru": "False. OSHA 1926.502(d)(23): personal fall arrest systems нельзя пристёгивать к guardrail. Guardrail рассчитан держать 200 lb нажима на top rail, а anchorage должен выдерживать 5 000 lb на каждого пристёгнутого или быть рассчитан с запасом прочности не меньше двух под руководством qualified person (1926.502(d)(15)): рывок при остановке падения намного больше, чем нажим на поручень. Поручень со стойками и струбцинами может вырвать, и он улетит вниз вместе с человеком. Тот же пункт запрещает пристёгиваться к hoists, и по той же причине никогда не пристёгивайся к duct, подвескам duct, conduit или спринклерным трубам. Правильные точки: специальный anchor (beam clamp, кровельный anchor, закладной), несущий элемент, одобренный qualified person, или точка крепления в корзине подъёмника. Утверждение было бы True только для конструкции, которую qualified person рассчитал и обозначил как anchorage, — тогда это уже anchorage, а не просто guardrail.\n\nКак применять: anchorage держит 5 000 lb на человека или рассчитан инженером; всё, что сделано на меньшую нагрузку, — guardrail, лестница, duct, conduit, трубы, шпильки подвесов — anchorage не бывает. На любой вопрос «можно ли пристегнуться к X» спроси: рассчитано ли это на 5 000 lb?",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 19,
+  "topic": "safety",
+  "ru_q": "Два типичных confined spaces, с которыми встречаются sheet metal workers, — внутри duct и внутри air handling units.",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "True. Inside a duct (large supply or exhaust mains, risers, plenums, kitchen exhaust duct) and inside an air handling unit you can bodily enter and work, the way in and out is limited (an access door or the open end of a duct), and the space is not built for people to stay in — all three conditions of OSHA's definition (1910.146(b); construction 1926.1202). Sheet metal workers go in to install dampers, turning vanes, coils, filters, sealant and insulation, and to clean or inspect. Whether the space is also permit-required depends on what is inside: a fan or dampers that can start or move (lock out and tag the AHU before entry), sealant or solvent vapors, welding fume or shielding gas that pushes out oxygen, heat, or a vertical duct you could fall into. It would be False only if ducts and AHUs were open rooms meant for people — a mechanical room is not a confined space, the unit inside it is.\n\nHow to use this: run any place you crawl into — duct, plenum, AHU, tank, vault, crawl space — through the three conditions (can enter, limited way in or out, not made for people to stay). If all three hold it is a confined space; then look for hazards (atmosphere, moving parts, engulfment, a trapping shape) to decide whether it is permit-required.",
+  "why_ru": "True. Внутрь duct (большие магистрали притока и вытяжки, стояки, plenums, кухонная вытяжка) и внутрь air handling unit можно войти целиком и работать, вход и выход ограничены (лючок или открытый конец duct), и это место не сделано для постоянного пребывания людей — все три условия определения OSHA (1910.146(b); для стройки 1926.1202). Sheet metal workers залезают туда ставить dampers, turning vanes, coils, фильтры, герметик и изоляцию, чистить и осматривать. Будет ли это ещё и permit-required, зависит от того, что внутри: вентилятор или dampers, которые могут включиться или сдвинуться (перед входом — lockout и tagout AHU), пары герметика или растворителя, сварочный дым или защитный газ, вытесняющий кислород, жара, вертикальный duct, в который можно упасть. Утверждение было бы False, только если бы duct и AHU были открытыми помещениями для людей: венткамера — не confined space, а установка в ней — да.\n\nКак применять: любое место, куда залезаешь, — duct, plenum, AHU, бак, колодец, подполье — прогоняй через три условия (можно войти, вход или выход ограничен, не сделано для постоянного пребывания). Если все три верны — это confined space; дальше ищи опасности (атмосфера, движущиеся части, засыпание, форма, в которой можно застрять), чтобы решить, нужен ли permit.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 20,
+  "topic": "safety",
+  "ru_q": "Перед входом в permit-required confined space нужно оформить письменный entry permit.",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "True. Before anyone enters a permit-required confined space, the employer documents the preparations on a written entry permit (1910.146(e)(1); construction 1926.1205(a); in Washington WAC 296-809-500). The permit lists the space and the purpose of entry, the date and how long it is valid, the authorized entrants, the attendant who stays outside, the entry supervisor, the hazards and how they are isolated (lockout, blanking, ventilation), the acceptable conditions (oxygen 19.5–23.5%, flammables under 10% of the lower flammable limit, toxics under their limits), the test results, the rescue service, communication and equipment. The entry supervisor signs it before entry, it is posted at the entrance, and it is canceled when the job is done. It would be False only for a confined space with no serious hazards (a non-permit space) or one whose hazards have been eliminated and documented so it is reclassified.\n\nHow to use this: permit space = confined space + serious hazard → written permit, attendant outside, air testing in order (oxygen first, then flammables, then toxics), rescue plan ready. 'Written', 'before entry' and 'signed by the entry supervisor' are the words that make such statements True.",
+  "why_ru": "True. Прежде чем кто-то войдёт в permit-required confined space, работодатель оформляет подготовку письменным entry permit (1910.146(e)(1); для стройки 1926.1205(a); в Washington WAC 296-809-500). В permit записывают: пространство и цель входа, дату и срок действия, допущенных к входу, наблюдающего снаружи (attendant), руководителя входа (entry supervisor), опасности и как они отключены (lockout, заглушки, вентиляция), допустимые условия (кислород 19.5–23.5%, горючие газы ниже 10% нижнего предела воспламенения, токсичные — ниже своих норм), результаты замеров, спасательную службу, связь и оборудование. Entry supervisor подписывает его до входа, permit вывешивают у входа и закрывают после окончания работы. Утверждение было бы False только для confined space без серьёзных опасностей (non-permit space) или для такого, где опасности устранены и это задокументировано, так что его перевели в другой класс.\n\nКак применять: permit space = confined space + серьёзная опасность → письменный permit, наблюдающий снаружи, замеры воздуха по порядку (сначала кислород, потом горючие, потом токсичные), готовый план спасения. Слова «письменный», «до входа», «подписан entry supervisor» и делают такие утверждения True.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 21,
+  "topic": "safety",
+  "ru_q": "На лестницах (stairs) нужны ___________, чтобы работники держались при подъёме и спуске.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Midrails",
+   "Handrails",
+   "Toe boards",
+   "Landings"
+  ],
+  "why_en": "Handrails: a rail you grip while going up or down. OSHA 1926.1052(c)(1): a stairway with 4 or more risers, or rising more than 30 in, whichever is less, needs at least one handrail and a stairrail system along each unprotected side; Washington's WAC 296-155-477 has the same 4-riser / 30-inch trigger. Handrail height is 30 to 37 in above the tread (1926.1052(c)(6)). Midrails are the middle rail of a guardrail or stairrail system, halfway between the top rail and the walking surface or steps — they stop a body sliding under; they are not meant to be held. Toe boards are the 3 1/2-inch boards at a platform edge that keep tools and material from falling on people below. Landings are the flat platforms of a stairway (temporary stairs need one at every 12 ft of rise or less, 1926.1052(a)(1)) — a place to stand, not something to hold.\n\nHow to use this: name each rail by its job — handrail: to hold while using stairs; top rail: to stop a fall (42 ± 3 in); midrail: to stop sliding under (halfway); toeboard: to stop falling objects (3 1/2 in); stairrail: the guardrail along the open side of stairs. When a question says 'to hold', the answer is the handrail.",
+  "why_ru": "Handrails: поручень, за который держатся при подъёме и спуске. OSHA 1926.1052(c)(1): на лестнице с 4 и более подступенками или высотой больше 30 in (смотря что меньше) нужен хотя бы один handrail и ограждение (stairrail system) с каждой открытой стороны; в Washington в WAC 296-155-477 тот же порог — 4 подступенка или 30 дюймов. Высота handrail — от 30 до 37 in над ступенью (1926.1052(c)(6)). Midrails — средняя перекладина ограждения guardrail или stairrail, посередине между top rail и полом или ступенями: она не даёт телу проскользнуть вниз, держаться за неё не предполагается. Toe boards — бортики 3 1/2 дюйма по краю площадки, чтобы инструмент и материал не падали на людей внизу. Landings — ровные площадки лестницы (на временной лестнице — через каждые 12 ft подъёма или чаще, 1926.1052(a)(1)): на них стоят, а не держатся.\n\nКак применять: называй каждый поручень по его задаче — handrail: держаться на лестнице; top rail: остановить падение (42 ± 3 in); midrail: не дать проскользнуть под низом (посередине); toeboard: не дать упасть предметам (3 1/2 in); stairrail: ограждение открытой стороны лестницы. Если в вопросе «чтобы держаться» — ответ handrail.",
   "flag": null
  },
  {
@@ -57,8 +327,8 @@
    "True",
    "False"
   ],
-  "why_en": "True: the 4-to-1 rule (foot out 1 ft for every 4 ft of working length) gives cos A = 1/4, A = 75.52° ≈ 75° (OSHA 1926.1053(b)(5)(i); WAC 296-876-40020).",
-  "why_ru": "True: правило 4 к 1 (на каждые 4 ft рабочей длины низ отставляют на 1 ft) даёт cos A = 1/4, A = 75.52° ≈ 75° (OSHA 1926.1053(b)(5)(i); WAC 296-876-40020).",
+  "why_en": "True. OSHA 1926.1053(b)(5)(i) and Washington's WAC 296-876-40020 set a leaning ladder with the foot out about 1/4 of its working length (the 4-to-1 rule); cos A = 1/4 → A = 75.52°, about 75° to the ground. \"False\" would be right only for ladders the rule does not cover: a stepladder stands on its own, fully opened with the spreaders locked, not leaned against anything; and a wooden job-made ladder with spliced side rails is set steeper, foot out 1/8 of the working length, arccos(1/8) = 82.82° (1926.1053(b)(5)(ii); WAC 296-876-40020(2)). Flatter and the foot can slide out; steeper and the ladder can tip backward. Field check: toes against the rails, arms straight out, palms on a rung.\n\nHow to use this: \"75°\", \"4 to 1\" and \"one quarter of the working length\" are the same rule written three ways; any other angle offered for a leaning ladder (60°, 65°, 70°, 80°) is wrong. Angle and setup convert with cos A = foot-out ÷ working length.",
+  "why_ru": "True. OSHA 1926.1053(b)(5)(i) и WAC 296-876-40020 в Washington: низ приставной лестницы отставляют примерно на 1/4 её рабочей длины (правило 4 к 1); cos A = 1/4 → A = 75.52°, около 75° к земле. False было бы верно только для лестниц, на которые правило не распространяется: стремянка стоит сама — полностью раскрыта, распорки зафиксированы, ни к чему не прислонена; а самодельная деревянная лестница со сращёнными тетивами (job-made, spliced side rails) ставится круче — низ на 1/8 рабочей длины, arccos(1/8) = 82.82° (1926.1053(b)(5)(ii); WAC 296-876-40020(2)). Положе — низ может уехать; круче — лестница может опрокинуться назад. Проверка на месте: носки к тетивам, руки вытянуты вперёд, ладони на ступеньке.\n\nКак применять: «75°», «4 к 1» и «одна четверть рабочей длины» — одно и то же правило, записанное тремя способами; любой другой угол для приставной лестницы (60°, 65°, 70°, 80°) неверный. Угол и установка связаны формулой cos A = отступ низа ÷ рабочая длина.",
   "flag": null
  },
  {
@@ -72,8 +342,330 @@
    "5 feet",
    "2 feet"
   ],
-  "why_en": "3 feet above the upper landing, so there is something to hold while stepping on and off (OSHA 1926.1053(b)(1); the same in Washington, WAC 296-876-40030).",
-  "why_ru": "На 3 ft над верхней площадкой, чтобы было за что держаться, когда сходишь на площадку и встаёшь обратно (OSHA 1926.1053(b)(1); в Washington то же, WAC 296-876-40030).",
+  "why_en": "3 feet. OSHA 1926.1053(b)(1) (in Washington WAC 296-876-40030, the same): when a portable ladder is used to reach an upper landing, its side rails must extend at least 3 ft above the landing, so you have something to hold while stepping off and back on. If the ladder is too short for that, its top must be secured to a rigid support and a grab rail provided. 3 ft is about three rungs, since rungs are 10–14 in apart (1926.1053(a)(3)(i)). \"2 feet\" is not enough to hold on to while you step around the top of the ladder. \"5 feet\" is not the rule; more than 3 ft is allowed, but the rule also says the extension must never be so long that the ladder's flex under load could slide it off its support.\n\nHow to use this: ladder length = working length to the landing + 3 ft. Example, landing at 12 ft: L = 12 ÷ √(1 − 1/16) = 12.39 ft, foot out L/4 = 3.10 ft, ladder at least 12.39 + 3 = 15.39 ft of usable length. An extension ladder's usable length is shorter than the size on its label, because the sections overlap.",
+  "why_ru": "3 feet. OSHA 1926.1053(b)(1) (в Washington то же — WAC 296-876-40030): если по приставной лестнице поднимаются на верхнюю площадку, её тетивы должны выступать над площадкой минимум на 3 ft, чтобы было за что держаться, когда сходишь на площадку и встаёшь обратно. Если лестница для этого коротка, её верх крепят к жёсткой опоре и ставят поручень (grab rail). 3 ft — это примерно три ступеньки, потому что ступеньки стоят через 10–14 in (1926.1053(a)(3)(i)). «2 feet» — мало: не за что держаться, когда обходишь верх лестницы. «5 feet» — не норма; больше 3 ft можно, но правило добавляет, что выступ не должен быть таким длинным, чтобы прогиб лестницы под весом мог сбросить её с опоры.\n\nКак применять: длина лестницы = рабочая длина до площадки + 3 ft. Пример, площадка на 12 ft: L = 12 ÷ √(1 − 1/16) = 12.39 ft, низ на L/4 = 3.10 ft, лестница не короче 12.39 + 3 = 15.39 ft полезной длины. У выдвижной лестницы полезная длина меньше той, что на этикетке, потому что секции заходят друг на друга.",
   "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 24,
+  "topic": "safety",
+  "ru_q": "При очень сильном шуме может понадобиться носить беруши и наушники одновременно.",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "True. When noise is very high, one protector is not enough, and plugs and muffs are worn together (dual protection). The ratings do not add up: Washington's WAC 296-817-20015 credits dual protection with 2 dB less than the higher NRR of the two, against 7 dB less than the NRR for a single protector. Example: plugs NRR 33 with muffs NRR 25 → about 33 − 2 = 31 dB of protection (the plugs alone 33 − 7 = 26), not 58. NIOSH recommends dual protection for exposures above 100 dBA (8-hour average). Washington is stricter than OSHA here: hearing protection must be worn from 85 dBA (8-hour average) up (WAC 296-817-20015), while OSHA's construction rule requires it above the 90 dBA limit (1926.52, 1926.101). Loud sheet metal work: grinding, hammering duct, plasma and air-arc cutting, chop saws, powder-actuated tools. The statement would be False only if one protector were always enough.\n\nHow to use this: hearing numbers — Washington: protection required at 85 dBA (8 h); OSHA construction: at 90 dBA; dual protection = the higher rating plus a little, never the sum. Field rule: if you must raise your voice to be heard at arm's length, the noise is around 85 dBA or more — put protection on.",
+  "why_ru": "True. При очень сильном шуме одного средства мало, и носят беруши вместе с наушниками (двойная защита). Номиналы не складываются: в Washington WAC 296-817-20015 засчитывает двойной защите на 2 dB меньше большего NRR из двух, а одному средству — на 7 dB меньше его NRR. Пример: беруши NRR 33 и наушники NRR 25 → около 33 − 2 = 31 dB защиты (одни беруши 33 − 7 = 26), а не 58. NIOSH рекомендует двойную защиту при шуме выше 100 dBA (в среднем за 8 часов). Washington здесь строже OSHA: защиту слуха обязаны носить начиная с 85 dBA за 8 часов (WAC 296-817-20015), а строительное правило OSHA требует её при превышении предела 90 dBA (1926.52, 1926.101). Громкие работы в sheet metal: шлифовка, обстукивание duct молотком, плазменная и воздушно-дуговая резка, отрезные пилы, монтажные пистолеты. Утверждение было бы False, только если бы одного средства всегда хватало.\n\nКак применять: числа по шуму — Washington: защита обязательна с 85 dBA (8 ч); OSHA для стройки: с 90 dBA; двойная защита = больший номинал плюс немного, никогда не сумма. Правило на объекте: если, чтобы тебя услышали на расстоянии вытянутой руки, приходится повышать голос, — шум около 85 dBA и выше, надевай защиту.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 25,
+  "topic": "safety",
+  "ru_q": "Как расшифровывается SDS?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Safety Digital Sign",
+   "Safety Data Solution",
+   "Safety Data Sheet",
+   "Safety Digital Sheet"
+  ],
+  "why_en": "Safety Data Sheet: the manufacturer's document for every hazardous product — sealant, primer, cutting oil, flux, solvent, welding rod — which must be kept at the jobsite and be available to every worker on every shift (Hazard Communication, OSHA 1910.1200(g), applied to construction by 1926.59; in Washington WAC 296-901). It replaced the old MSDS (Material Safety Data Sheet) when OSHA adopted the GHS format in 2012: 16 sections in a fixed order, and the ones to read first are 2 (hazards), 4 (first aid), 7 (handling and storage) and 8 (exposure controls and PPE). The other options are made-up mixes of the same words: 'Safety Digital Sign', 'Safety Data Solution' and 'Safety Digital Sheet' do not exist in hazard communication.\n\nHow to use this: hazard communication = labels + SDS + training. Before using any chemical product, read the label pictograms, then SDS sections 2, 8 and 4. Acronym questions are word for word: SDS (Safety Data Sheet), MSDS (Material Safety Data Sheet, the old name), GHS (Globally Harmonized System), PPE (Personal Protective Equipment).",
+  "why_ru": "Safety Data Sheet: документ производителя на каждый опасный продукт — герметик, грунт, смазку для резки, flux, растворитель, электроды; он должен лежать на объекте и быть доступен каждому работнику в каждую смену (Hazard Communication, OSHA 1910.1200(g), для стройки через 1926.59; в Washington — WAC 296-901). Он заменил старый MSDS (Material Safety Data Sheet), когда в 2012 году OSHA перешла на формат GHS: 16 разделов в постоянном порядке, читать первыми — 2 (опасности), 4 (первая помощь), 7 (обращение и хранение) и 8 (контроль воздействия и PPE). Остальные варианты — придуманные сочетания тех же слов: «Safety Digital Sign», «Safety Data Solution» и «Safety Digital Sheet» в hazard communication не существуют.\n\nКак применять: hazard communication = этикетки + SDS + обучение. Перед работой с любым химическим продуктом посмотри пиктограммы на этикетке, потом разделы SDS 2, 8 и 4. Расшифровки спрашивают дословно: SDS (Safety Data Sheet), MSDS (Material Safety Data Sheet, старое название), GHS (Globally Harmonized System), PPE (Personal Protective Equipment).",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 26,
+  "topic": "safety",
+  "ru_q": "Оператору крана нельзя оставлять органы управления без присмотра, пока груз висит, кроме случая, когда:",
+  "ru_hint": null,
+  "ru_opts": [
+   "оператор остаётся рядом с органами управления и не занят другими делами",
+   "груз должен висеть дольше, чем при обычном подъёме",
+   "competent person решает, что это безопасно, и принимает необходимые меры безопасности",
+   "установлены ограждения или сигнальные ленты, чтобы работники не заходили в зону падения груза",
+   "всё перечисленное"
+  ],
+  "why_en": "all of the above: OSHA 1926.1417(e)(1) — the operator must not leave the controls while the load is suspended, except where ALL of the following are met: the operator stays adjacent to the equipment and is not doing any other duties; the load has to stay suspended longer than normal lifting operations; a competent person determines it is safe and restrains the boom hoist, telescoping, load, swing and outrigger functions; barricades or caution lines and notices keep all employees out of the fall zone. Washington's crane rule says the same, WAC 296-155-53400(51). Each single option is one required condition and not enough by itself — for example, the competent person's decision alone still leaves people free to walk under an unattended load. The rule behind it: never stand or work under a suspended load; the fall zone is the area where a dropped load or part of it could land.\n\nHow to use this: when the options are the conditions of one OSHA exception and 'all of the above' is offered, check whether the rule says 'all of the following are met' — then each condition alone is wrong. Exceptions to safety rules usually require every condition together.",
+  "why_ru": "«всё перечисленное»: OSHA 1926.1417(e)(1) — оператор не должен отходить от органов управления, пока груз висит, кроме случая, когда выполнены ВСЕ условия сразу: оператор остаётся рядом с краном и не занят другими делами; груз должен висеть дольше, чем при обычном подъёме; competent person решает, что это безопасно, и фиксирует подъём стрелы, телескоп, грузовую лебёдку, поворот и аутригеры; ограждения или сигнальные ленты и таблички не пускают никого из работников в зону падения груза. В Washington правило для кранов то же — WAC 296-155-53400(51). Каждый отдельный вариант — лишь одно из обязательных условий, одного недостаточно: например, одно решение competent person всё равно оставляет людям возможность пройти под висящим без оператора грузом. Правило за этим: никогда не стой и не работай под висящим грузом; зона падения — место, куда может упасть груз или его часть.\n\nКак применять: если варианты — это условия одного исключения из правила OSHA и есть «всё перечисленное», проверь, сказано ли в правиле «выполнены все условия», — тогда каждое условие по отдельности неверно. Исключения из правил безопасности обычно требуют всех условий вместе.",
+  "flag": "Original typos kept in the question and option: 'wile' (while), 'the operator remain' (remains)."
+ },
+ {
+  "src": "Y1W5H",
+  "n": 27,
+  "topic": "transitions",
+  "ru_q": "Для прямоугольного centered transition из четырёх частей нужен только один side pattern.",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "False. A four-piece rectangular transition has four walls: two sides plus a top and a bottom. Centered (℄ both ways) means each opposite pair moves in by the same amount, so the two sides are identical — one pattern, cut once face up and once flipped — and the top and bottom are identical — a second pattern. That is two patterns, not one, because the sides and the top/bottom have different widths at each end and different slopes. Example: 24\"x12\" to 16\"x8\" centered — the top and bottom go from 24 to 16 wide (each edge moves in 4\") while the sides go from 12 to 8 (each edge moves in 2\"), so their shapes cannot match. One pattern would do for all four walls only when both ends are square and the fitting is centered both ways (e.g., 16\"x16\" to 10\"x10\"). Centered one way only → 3 patterns; off-center both ways → 4.\n\nHow to use this: count patterns by identical walls — two opposite walls share a pattern only when they move by the same amount. Centered both ways → 2 patterns (sides, top/bottom); centered one way → 3; not centered → 4; square-to-square centered both ways → 1. The same symmetry sets how much of the plan you lay out for a square to round: centered both ways → 1/4 of the plan, one way → 1/2, neither → the full plan.",
+  "why_ru": "False. У прямоугольного transition из четырёх частей четыре стенки: две боковины плюс TOP и BOTTOM. Centered (℄ в обе стороны) значит, что каждая противоположная пара смещается поровну, поэтому две боковины одинаковые — один pattern, одну деталь вырезают лицом вверх, другую перевёрнутой, — и TOP с BOTTOM тоже одинаковые — второй pattern. Итого два pattern, а не один: у боковин и у TOP/BOTTOM разные ширины на концах и разные наклоны. Пример: 24\"x12\" → 16\"x8\" centered — TOP и BOTTOM сужаются с 24 до 16 (каждая кромка уходит на 4\"), а боковины — с 12 до 8 (каждая кромка на 2\"), формы совпасть не могут. Один pattern на все четыре стенки подойдёт, только если оба конца квадратные и fitting centered в обе стороны (например, 16\"x16\" → 10\"x10\"). Centered только в одну сторону → 3 pattern; смещён в обе стороны → 4.\n\nКак применять: считай pattern по одинаковым стенкам — две противоположные стенки делят один pattern, только если смещаются поровну. Centered в обе стороны → 2 pattern (боковины, TOP/BOTTOM); в одну сторону → 3; не centered → 4; квадрат в квадрат, centered в обе стороны → 1. Та же симметрия решает, какую часть plan строить у square to round: centered в обе стороны → 1/4 plan, в одну → 1/2, ни в одну → весь plan.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 28,
+  "topic": "transitions",
+  "ru_q": "Как общее правило, старайтесь, чтобы длина transition была не меньше 5:1 к offset.",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "False. The working limit for a transition is the slope of its walls, not a 5:1 length. Job specifications commonly cap each side of a transition at 15° from the line of the duct, and the course uses the same 15° when it asks for the length of a transition: length = offset ÷ tan 15° = 3.73 × offset, about 4 to 1. A 5:1 length is an 11.31° slope — longer than needed, costing metal and ceiling space for no real gain. Example: a wall that moves 6\" needs 6 ÷ tan 15° = 22.39\" of length; 5:1 would demand 30\". Steeper than 15° (shorter than about 3.7 to 1) raises pressure loss and turbulence, worst where the duct gets bigger and the air breaks away from the walls.\n\nHow to use this: for any 'how long must the transition be' question, take the largest offset of any one wall and divide by tan of the allowed angle (15° → × 3.732). Turn a ratio into an angle to compare: 3 to 1 = 18.43°, 4 to 1 = 14.04°, 5 to 1 = 11.31°.",
+  "why_ru": "False. Рабочее ограничение для transition — наклон стенок, а не длина 5:1. В проектных спецификациях обычно ограничивают наклон каждой стенки 15° от оси duct, и курс берёт те же 15°, когда спрашивает длину transition: длина = offset ÷ tan 15° = 3.73 × offset, примерно 4 к 1. Длина 5:1 — это наклон 11.31°: длиннее, чем нужно, лишний металл и место под потолком без реальной пользы. Пример: стенка уходит на 6\" — нужна длина 6 ÷ tan 15° = 22.39\"; по 5:1 вышло бы 30\". Круче 15° (короче примерно 3.7 к 1) растут потери давления и завихрения, хуже всего там, где duct расширяется и поток отрывается от стенок.\n\nКак применять: в любом вопросе «какой длины должен быть transition» возьми наибольший offset одной стенки и подели на tan допустимого угла (15° → × 3.732). Чтобы сравнить отношение с углом, переведи его: 3 к 1 = 18.43°, 4 к 1 = 14.04°, 5 к 1 = 11.31°.",
+  "flag": "No transition-to-offset ratio found in the course sheets; the explanation proves False with the 15° slope limit (the course's transition-length questions use 15°; job specs commonly cap transition sides at 15°)."
+ },
+ {
+  "src": "Y1W5H",
+  "n": 29,
+  "topic": "drawing",
+  "ru_q": "Orthographic drawing похож на раскрытую и разложенную плоско коробку.",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "True. Picture the object inside a glass box: each view is projected straight (at 90°) onto the side of the box facing it, then the box is unfolded flat onto the sheet. That is why the views have fixed places — the plan (top) view directly above the front view, the right side view directly to the right of the front (third-angle projection, the U.S. standard) — and why they share dimensions: width lines up between plan and front, height between front and side, depth between plan and side. A pictorial drawing (isometric, oblique, perspective) is the opposite idea: the whole object in one picture, like a photo. The same unfolding idea is how sheet metal patterns work — a fitting's surfaces laid out flat as a stretch-out.\n\nHow to use this: orthographic = several flat views, each seen straight on (90°), arranged as the unfolded glass box — top above front, right side to the right of front — with width, height and depth carried from view to view. If a statement says one view shows all three dimensions, or uses an angle like 30°, 35° or 45°, it describes a pictorial drawing, not an orthographic one.",
+  "why_ru": "True. Представь предмет внутри стеклянной коробки: каждый вид проецируют прямо (под 90°) на ту стенку коробки, что напротив, а потом коробку раскрывают и раскладывают плоско на листе. Поэтому у видов постоянные места — plan (вид сверху) прямо над видом спереди, вид справа прямо справа от вида спереди (third-angle projection, стандарт США), — и поэтому у них общие размеры: ширина совпадает у plan и вида спереди, высота — у видов спереди и сбоку, глубина — у plan и вида сбоку. Pictorial drawing (isometric, oblique, perspective) — обратная идея: весь предмет одной картинкой, как на фото. На той же идее «разложить плоско» построены выкройки в sheet metal — поверхности fitting раскладывают в stretch-out.\n\nКак применять: orthographic — несколько плоских видов, каждый виден прямо (90°), расставлены как раскрытая стеклянная коробка — верх над видом спереди, правый вид справа от него, — и ширина, высота, глубина переносятся из вида в вид. Если в утверждении один вид показывает все три размера или назван угол вроде 30°, 35° или 45°, речь о pictorial, а не об orthographic.",
+  "flag": "Same text and options as Y1W5F-59: the build keeps the Y1W5F-59 copy and drops this one; to show this fuller explanation on screen, copy it into Y1W5F_content_main.json."
+ },
+ {
+  "src": "Y1W5H",
+  "n": 30,
+  "topic": "drawing",
+  "ru_q": "Orthographic projection можно построить по pictorial view.",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "True. A pictorial view (isometric, oblique or perspective) shows the width, depth and height of the object in one picture, so you can take them off it and draw the top, front and side views. It is a standard drafting exercise and an everyday job task: a detail given as an isometric sketch becomes the plan and elevation on a shop ticket. It works the other way too — a pictorial can be built from the orthographic views. One caution: in a perspective drawing lengths shrink with distance, so take sizes from the printed dimensions, not by measuring the picture; in an isometric drawing only lines parallel to the three axes are true length.\n\nHow to use this: pictorial ↔ orthographic works both ways because both carry the same three dimensions. To go from a pictorial to views, choose the front, then take width and height for the front view, width and depth for the plan, depth and height for the side view.",
+  "why_ru": "True. Pictorial view (isometric, oblique или perspective) показывает ширину, глубину и высоту предмета на одной картинке, поэтому с неё можно снять размеры и построить виды сверху, спереди и сбоку. Это стандартное упражнение по черчению и обычная задача на работе: узел, данный изометрическим эскизом, превращается в plan и elevation на shop ticket. В обратную сторону тоже работает — pictorial строят по orthographic видам. Осторожно: в перспективе длины уменьшаются с расстоянием, поэтому размеры бери из проставленных на чертеже, а не меряй картинку; в isometric в натуральную величину только линии, параллельные трём осям.\n\nКак применять: pictorial ↔ orthographic работает в обе стороны, потому что оба несут одни и те же три размера. Чтобы из pictorial сделать виды, выбери, где перед, и бери ширину и высоту для вида спереди, ширину и глубину для plan, глубину и высоту для вида сбоку.",
+  "flag": "Same text and options as Y1W5F-65: the build keeps the Y1W5F-65 copy and drops this one; to show this fuller explanation on screen, copy it into Y1W5F_content_main.json."
+ },
+ {
+  "src": "Y1W5H",
+  "n": 31,
+  "topic": "drawing",
+  "ru_q": "На строительных планах и технических чертежах предмет обычно показывают в трёх видах (top, front, side).",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "True. The top (plan), front and side views together give all three dimensions — width and depth in the plan, width and height in the front, depth and height in the side — so three views are the usual set on building plans and shop drawings. On building and duct drawings they are called the plan, the elevation and the side elevation or section. A simple object may need only two (a round duct: an elevation plus the circle), a complicated one more (a section, an auxiliary view of a slanted face) — that is why the statement says 'commonly'. It would be False if it named a pictorial view (isometric, perspective) as one of the three.\n\nHow to use this: the three standard views are plan/top, front elevation and side (end) elevation. Each view shows two of the three dimensions, and any two views together give all three — so a dimension missing in one view is found in the neighboring view.",
+  "why_ru": "True. Виды сверху (plan), спереди и сбоку вместе дают все три размера — ширину и глубину на plan, ширину и высоту спереди, глубину и высоту сбоку, — поэтому три вида — обычный набор на строительных планах и shop drawings. На строительных чертежах и чертежах duct их называют plan, elevation и side elevation или section. Простому предмету хватает двух (круглому duct — elevation и круг), сложному нужно больше (разрез, дополнительный вид наклонной грани) — поэтому в утверждении «обычно». Оно было бы False, если бы одним из трёх был назван pictorial (isometric, perspective).\n\nКак применять: три стандартных вида — plan/top, front elevation и side (end) elevation. Каждый вид показывает два размера из трёх, а любые два вида вместе — все три; поэтому размер, которого нет на одном виде, ищи на соседнем.",
+  "flag": "Same text and options as Y1W5F-61: the build keeps the Y1W5F-61 copy and drops this one; to show this fuller explanation on screen, copy it into Y1W5F_content_main.json."
+ },
+ {
+  "src": "Y1W5H",
+  "n": 32,
+  "topic": "drawing",
+  "ru_q": "Orthographic projection можно построить под углом 35 градусов.",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "False. In orthographic projection the projection lines are perpendicular (90°) to the plane of each view and every view is seen straight on, so there is no receding angle at all. Receding angles belong to pictorial drawings: isometric draws its depth lines at 30° from horizontal (the three axes 120° apart), oblique usually at 45° (sometimes 30° or 60°), and perspective uses vanishing points. The '35' trap comes from isometric projection, where the line of sight tilts down 35.26° to the object — but that produces a pictorial, not an orthographic view. The statement would be True only for a pictorial drawing.\n\nHow to use this: angles in drawing questions — 90° projection lines: orthographic; 30° receding lines: isometric; 45°: oblique; vanishing points: perspective. If a statement attaches any angle other than 90° to orthographic, it is False.",
+  "why_ru": "False. В orthographic projection линии проекции перпендикулярны (90°) плоскости каждого вида, и каждый вид виден прямо, так что никакого угла ухода в глубину нет. Углы ухода — у pictorial: в isometric линии глубины идут под 30° к горизонтали (три оси через 120°), в oblique обычно под 45° (иногда 30° или 60°), в perspective — точки схода. Ловушка «35» — из изометрической проекции, где взгляд наклонён к предмету на 35.26°, но это даёт pictorial, а не orthographic вид. Утверждение было бы True только для pictorial.\n\nКак применять: углы в вопросах про чертёж — линии проекции 90°: orthographic; линии глубины 30°: isometric; 45°: oblique; точки схода: perspective. Если к orthographic приписан любой угол, кроме 90°, это False.",
+  "flag": "Same text and options as Y1W5F-62: the build keeps the Y1W5F-62 copy and drops this one; to show this fuller explanation on screen, copy it into Y1W5F_content_main.json."
+ },
+ {
+  "src": "Y1W5H",
+  "n": 33,
+  "topic": "drawing",
+  "ru_q": "Какие три вида обычно показывают на orthographic drawing? 1. 2. 3.",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "Plan (top, overhead) view, front elevation and side (end) elevation. On the sheet they sit like the unfolded glass box: the plan above the front elevation, the side elevation to the right of the front (U.S. third-angle projection). The plan shows width and depth, the front elevation width and height, the side elevation depth and height, so the three together define the object completely. 'Top view, front view, right side view' are the same three under their drafting names; on building and duct drawings they are called the plan and the elevations. A perspective or isometric view is not one of the orthographic three.\n\nHow to use this: name the three views in either vocabulary — top = plan, front = front elevation, side or end = side elevation — and remember where each sits and which two dimensions it shows. Any question about 'the three views' (listing them, their positions, what each shows) is answered from this one picture.",
+  "why_ru": "Plan (вид сверху, overhead), front elevation (вид спереди) и side (end) elevation (вид сбоку). На листе они стоят как раскрытая стеклянная коробка: plan над видом спереди, вид сбоку справа от вида спереди (third-angle projection, как принято в США). Plan показывает ширину и глубину, вид спереди — ширину и высоту, вид сбоку — глубину и высоту, так что три вида вместе полностью задают предмет. «Top view, front view, right side view» — те же три вида под чертёжными названиями; на строительных чертежах и чертежах duct их называют plan и elevations. Perspective и isometric в эти три orthographic вида не входят.\n\nКак применять: называй три вида в любой терминологии — top = plan, front = front elevation, side или end = side elevation — и помни, где каждый стоит и какие два размера показывает. Любой вопрос про «три вида» (перечислить, где стоят, что показывают) решается этой одной картинкой.",
+  "flag": "Open answer as typed text: all three key words required (plan/top/overhead + front + side/end)."
+ },
+ {
+  "src": "Y1W5H",
+  "n": 34,
+  "topic": "drawing",
+  "ru_q": "Нужно ли показывать скрытые линии (hidden lines) на orthographic drawing, и если да, то как их обозначают?",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "Yes — edges and surfaces hidden behind the visible surface in a view are shown as hidden lines: a thin broken line made of short, evenly spaced dashes. Without them a view can hide a hole, a flange or an inner liner and be misread. The other line types to know: object (visible) line — thick and continuous; center line — thin long-short-long dash (often with the ℄ sign) marking centers and axes; dimension and extension lines — thin and continuous, with arrowheads on the dimension line; phantom line — a long dash and two short dashes, for alternate positions or neighboring parts; cutting-plane line — thick, with arrows, showing where a section is taken. In duct drawings, for example, the seam of a round elbow gore on the far side is drawn dashed, on the near side solid.\n\nHow to use this: the pattern and weight of a line tell you what it is — thick solid = visible edge; short dashes = hidden edge; long-short dash = center; long-short-short = phantom. Where lines overlap, the visible line wins over the hidden line, and the hidden line over the center line. If a question asks whether something hidden is shown, the answer is yes, with dashes.",
+  "why_ru": "Да — рёбра и поверхности, скрытые за видимой поверхностью, показывают скрытыми линиями (hidden lines): тонкой прерывистой линией из коротких штрихов с равными промежутками. Без них вид может спрятать отверстие, отбортовку или внутренний лайнер, и чертёж прочтут неправильно. Остальные типы линий: видимый контур (object line) — толстая сплошная; осевая (center line) — тонкая штрихпунктирная длинный-короткий-длинный (часто со знаком ℄), отмечает центры и оси; размерные и выносные — тонкие сплошные, на размерной — стрелки; phantom line — длинный штрих и два коротких, для другого положения детали или соседних деталей; линия разреза (cutting-plane) — толстая со стрелками, показывает, где взят разрез. На чертежах duct, например, шов gore у круглого elbow на дальней стороне рисуют пунктиром, на ближней — сплошной.\n\nКак применять: рисунок и толщина линии говорят, что это — толстая сплошная = видимое ребро; короткие штрихи = скрытое; длинный-короткий = ось; длинный-короткий-короткий = phantom. Если линии совпадают, видимая важнее скрытой, скрытая важнее осевой. На вопрос, показывают ли скрытое, ответ — да, пунктиром.",
+  "flag": "Open answer as typed text: both key words required (yes + dash/broken)."
+ },
+ {
+  "src": "Y1W5H",
+  "n": 35,
+  "topic": "trade",
+  "ru_q": "Работу HVAC-техников можно разделить на три направления: обслуживание и ремонт (maintenance and repair), руководство (supervisory) и:",
+  "ru_hint": null,
+  "ru_opts": [
+   "регулировка",
+   "документация",
+   "монтаж",
+   "сертификация"
+  ],
+  "why_en": "installation: the three areas of HVAC work are installation (putting in new equipment, duct and piping), maintenance and repair (keeping existing systems running) and supervisory (running crews and jobs). Sheet metal workers are mostly on the installation side — duct, fittings, dampers, hangers, setting equipment — and later in TAB and service. Adjustment is a step inside start-up, service and balancing work, not an area of its own. Documentation (logs, start-up reports, refrigerant records) is part of every area. Certification is a credential that allows certain work — EPA Section 608 to handle refrigerant, TABB or NEBB for balancing, fire and smoke damper inspection — something you hold, not a kind of work.\n\nHow to use this: when a question asks for 'areas' or 'types of work', pick the option that is a job you could be hired to do (install, service, supervise), not an activity inside a job (adjust, document) and not a credential (certification).",
+  "why_ru": "«монтаж» (installation): три направления работы в HVAC — монтаж (установка нового оборудования, duct и трубопроводов), обслуживание и ремонт (поддерживать работающие системы) и руководство (бригады и объекты). Sheet metal workers в основном на монтаже — duct, fittings, dampers, подвесы, установка оборудования, — а дальше в TAB и сервисе. Регулировка — шаг внутри пуска, обслуживания и балансировки, а не отдельное направление. Документация (журналы, акты пуска, учёт хладагента) есть в каждом направлении. Сертификация — документ, который даёт право на определённую работу: EPA Section 608 для работы с хладагентом, TABB или NEBB для балансировки, осмотр fire и smoke dampers; это то, что у тебя есть, а не вид работы.\n\nКак применять: если спрашивают про «направления» или «виды работы», выбирай вариант, который можно назвать работой, на которую нанимают (монтаж, сервис, руководство), а не действие внутри работы (регулировка, документация) и не документ (сертификация).",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 36,
+  "topic": "trade",
+  "ru_q": "Направление sheet metal, в котором работает больше всего членов SMWIA, — _______________.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Архитектурные работы",
+   "Промышленные работы",
+   "Работы по HVAC",
+   "Коммерческие работы"
+  ],
+  "why_en": "HVAC Work: most members of the sheet metal workers' union make and install air systems — duct, fittings, dampers, air distribution — plus the related service and TAB work. SMWIA (Sheet Metal Workers' International Association) is the union's old name; after it merged with the rail workers' union (UTU) it became SMART (International Association of Sheet Metal, Air, Rail and Transportation Workers), and Local 66 is a SMART local — so the answer is the same whichever name the question uses. Architectural sheet metal (roofing, flashing, gutters, wall panels, copings) and industrial work (heavy-gauge process exhaust, dust collection, stainless and plate work) are real fields but employ fewer members. 'Commercial' is a type of building (offices, stores, schools), not a kind of sheet metal work — HVAC work is done in commercial buildings.\n\nHow to use this: for trade-intro questions, the core of our trade is HVAC duct systems; the other fields are architectural, industrial, residential, service and TAB. Know the names: SMWIA → SMART (the union), SMACNA (the contractors' association), ITI (International Training Institute, the national training fund), JATC (the local Joint Apprenticeship Training Committee).",
+  "why_ru": "«Работы по HVAC»: большинство членов профсоюза sheet metal workers делают и монтируют системы воздуха — duct, fittings, dampers, воздухораспределение, — плюс связанные с этим сервис и TAB. SMWIA (Sheet Metal Workers' International Association) — старое название профсоюза; после слияния с профсоюзом железнодорожников (UTU) он стал SMART (International Association of Sheet Metal, Air, Rail and Transportation Workers), а Local 66 — отделение SMART; так что ответ один и тот же, каким бы названием ни пользовался вопрос. Архитектурные работы (кровля, flashing, водостоки, стеновые панели, парапеты) и промышленные (толстый металл для технологической вытяжки, пылеудаление, stainless и листовой прокат) — реальные направления, но людей в них меньше. «Коммерческие» — это тип здания (офисы, магазины, школы), а не вид работы по металлу: HVAC как раз и делают в коммерческих зданиях.\n\nКак применять: в вопросах о профессии ядро нашей работы — системы duct для HVAC; остальные направления — архитектурное, промышленное, жилое, сервис и TAB. Знай названия: SMWIA → SMART (профсоюз), SMACNA (ассоциация подрядчиков), ITI (International Training Institute, национальный учебный фонд), JATC (местный Joint Apprenticeship Training Committee).",
+  "flag": "Separate from Y1W3-21 (same question with 'SMART' instead of 'the SMWIA')."
+ },
+ {
+  "src": "Y1W5H",
+  "n": 37,
+  "topic": "trade",
+  "ru_q": "Какой техник отвечает за то, чтобы система HVAC достигала проектных целей по энергоэффективности и комфорту людей?",
+  "ru_hint": null,
+  "ru_opts": [
+   "TAB",
+   "Service",
+   "IAQ",
+   "Industrial"
+  ],
+  "why_en": "TAB = Testing, Adjusting and Balancing. After installation the TAB technician measures the airflow at every outlet, fan and coil (and the water flow in hydronic systems), adjusts dampers, fan speeds and valves until the system delivers what the engineer designed, and writes the report — that is how a building reaches its design comfort and energy efficiency. Certification: TABB (the SMART/SMACNA program), NEBB, AABC. A Service technician maintains and repairs existing equipment (finds faults, replaces parts). An IAQ (indoor air quality) technician deals with contaminants, ventilation rates, mold and filtration. An Industrial technician works on industrial ventilation, process exhaust and dust collection. Each touches efficiency or comfort, but checking the whole system against its design objectives is the TAB job.\n\nHow to use this: match the key phrase in the question to the specialty — 'design objectives', 'balance', 'airflow per design', 'TAB report' → TAB; 'breakdown, repair' → Service; 'contaminants, fresh air, mold' → IAQ; 'process exhaust, dust' → Industrial.",
+  "why_ru": "TAB = Testing, Adjusting and Balancing (испытание, регулировка и балансировка). После монтажа TAB-техник измеряет расход воздуха на каждой решётке, вентиляторе и coil (и расход воды в водяных системах), регулирует dampers, скорость вентиляторов и клапаны, пока система не даст то, что заложил инженер, и пишет отчёт — так здание и выходит на проектный комфорт и энергоэффективность. Сертификаты: TABB (программа SMART/SMACNA), NEBB, AABC. Service-техник обслуживает и ремонтирует существующее оборудование (ищет неисправности, меняет детали). IAQ-техник (indoor air quality, качество воздуха в помещении) занимается загрязнениями, нормами притока, плесенью и фильтрацией. Industrial-техник работает с промышленной вентиляцией, технологической вытяжкой и пылеудалением. Каждый так или иначе касается эффективности или комфорта, но проверить всю систему на соответствие проекту — задача TAB.\n\nКак применять: сопоставляй ключевую фразу вопроса со специальностью — «проектные цели», «балансировка», «расход по проекту», «отчёт TAB» → TAB; «поломка, ремонт» → Service; «загрязнения, свежий воздух, плесень» → IAQ; «технологическая вытяжка, пыль» → Industrial.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 38,
+  "topic": "math",
+  "ru_q": "Периметр квадрата",
+  "ru_hint": "1) Сторона #1 = ____ 2) Периметр = ____ 3) Сторона #1 = ____",
+  "ru_opts": null,
+  "why_en": "A square has four equal sides, so Perimeter = 4 × Side and, going back, Side = Perimeter ÷ 4. 1) Side = 328 ÷ 4 = 82. 2) Perimeter = 4 × 59 = 236. 3) Side = 68 ÷ 4 = 17. The usual mistakes: dividing by 2 (164, 34) gives half the perimeter — only two sides; 2 × 59 = 118 is also only two sides; 59² = 3481 is the area, not the perimeter.\n\nHow to use this: perimeter is the total length around a shape — on a duct it is the girth, the stretch-out of the metal that wraps it: a 20\" × 20\" square duct needs 4 × 20 = 80\" around before seam allowances. To go backward, divide the perimeter by the number of equal sides.",
+  "why_ru": "У квадрата четыре равные стороны, поэтому Периметр = 4 × Сторона, а обратно — Сторона = Периметр ÷ 4. 1) Сторона = 328 ÷ 4 = 82. 2) Периметр = 4 × 59 = 236. 3) Сторона = 68 ÷ 4 = 17. Типичные ошибки: деление на 2 (164, 34) даёт половину периметра — только две стороны; 2 × 59 = 118 — тоже только две стороны; 59² = 3481 — это площадь, а не периметр.\n\nКак применять: периметр — полная длина вокруг фигуры; у duct это обхват, stretch-out металла, который его огибает: квадратному duct 20\" × 20\" нужно 4 × 20 = 80\" по кругу без припусков на швы. Чтобы идти обратно, дели периметр на число равных сторон.",
+  "flag": "Math worksheet printed before the 37 '(required)' questions; numbered after them so Y1W5H-3/10/16/22/23 (used in exam_F20) keep their numbers. Typed answer: every number in one box, order free."
+ },
+ {
+  "src": "Y1W5H",
+  "n": 39,
+  "topic": "math",
+  "ru_q": "Периметр прямоугольника",
+  "ru_hint": "4) Сторона #2 = ____ 5) Периметр = ____ 6) Сторона #1 = ____",
+  "ru_opts": null,
+  "why_en": "Perimeter = 2 × (Side #1 + Side #2); a missing side = Perimeter ÷ 2 − the known side. 4) Side #2 = 82 ÷ 2 − 11 = 41 − 11 = 30. 5) Perimeter = 2 × (53 + 80) = 2 × 133 = 266. 6) Side #1 = 196 ÷ 2 − 39 = 98 − 39 = 59. The usual mistakes: 82 − 11 = 71 forgets that each side appears twice; 53 + 80 = 133 is only half the perimeter; stopping at 196 ÷ 2 = 98 forgets to subtract the known side.\n\nHow to use this: the girth of a rectangular duct is 2 × (W + D): a 24\" × 12\" duct is 2 × 36 = 72\" around — the stretch-out of a full wrap before seam allowances. Half of it, W + D, is what one L-shaped half of a two-piece duct needs.",
+  "why_ru": "Периметр = 2 × (Сторона #1 + Сторона #2); неизвестная сторона = Периметр ÷ 2 − известная сторона. 4) Сторона #2 = 82 ÷ 2 − 11 = 41 − 11 = 30. 5) Периметр = 2 × (53 + 80) = 2 × 133 = 266. 6) Сторона #1 = 196 ÷ 2 − 39 = 98 − 39 = 59. Типичные ошибки: 82 − 11 = 71 — забыли, что каждая сторона входит дважды; 53 + 80 = 133 — только половина периметра; остановились на 196 ÷ 2 = 98 и не вычли известную сторону.\n\nКак применять: обхват прямоугольного duct = 2 × (W + D): duct 24\" × 12\" — это 2 × 36 = 72\" по кругу, stretch-out полной обёртки без припусков на швы. Половина, W + D, — это то, что нужно одной L-образной половине duct из двух частей.",
+  "flag": "Math worksheet printed before the 37 '(required)' questions; numbered after them so Y1W5H-3/10/16/22/23 (used in exam_F20) keep their numbers. Typed answer: every number in one box, order free."
+ },
+ {
+  "src": "Y1W5H",
+  "n": 40,
+  "topic": "math",
+  "ru_q": "Длина окружности (circumference)",
+  "ru_hint": "7) Диаметр = ____ Длина окружности = ____ 8) Радиус = ____ Диаметр = ____ 9) Диаметр = ____ Длина окружности = ____ 10) Радиус = ____ Длина окружности = ____",
+  "ru_opts": null,
+  "why_en": "Diameter = 2 × Radius, Radius = Diameter ÷ 2, Circumference = π × Diameter, and back: Diameter = Circumference ÷ π. 7) D = 2 × 147 = 294; C = π × 294 = 923.628. 8) D = 69.1150384 ÷ π = 22; R = 22 ÷ 2 = 11. 9) D = 2 × 157 = 314; C = π × 314 = 986.460. 10) R = 134 ÷ 2 = 67; C = π × 134 = 420.973. Use the π key: π = 3.1416 gives 923.630, 986.462 and 420.974, and 3.14 gives 923.160 — almost half an inch short. The usual mistakes: π × R gives half the circumference (π × 147 = 461.814); 2πR worked with the diameter (2π × 294 = 1847.256) gives twice it; forgetting to halve the diameter when the radius is asked.\n\nHow to use this: circumference is the stretch-out of round duct and fittings: a 14\" Ø pipe needs π × 14 = 43.982\" of metal around plus the seam allowance. From a measured circumference (a tape around an existing pipe) get the size with D = C ÷ π. Keep π exact and round only the final answer.",
+  "why_ru": "Диаметр = 2 × Радиус, Радиус = Диаметр ÷ 2, Длина окружности = π × Диаметр, и обратно: Диаметр = Длина окружности ÷ π. 7) D = 2 × 147 = 294; C = π × 294 = 923.628. 8) D = 69.1150384 ÷ π = 22; R = 22 ÷ 2 = 11. 9) D = 2 × 157 = 314; C = π × 314 = 986.460. 10) R = 134 ÷ 2 = 67; C = π × 134 = 420.973. Пользуйся клавишей π: с π = 3.1416 выходит 923.630, 986.462 и 420.974, а с 3.14 — 923.160, почти на полдюйма меньше. Типичные ошибки: π × R даёт половину длины окружности (π × 147 = 461.814); 2πR, но с диаметром вместо радиуса (2π × 294 = 1847.256), — вдвое больше; забыли поделить диаметр пополам, когда спрашивают радиус.\n\nКак применять: длина окружности — это stretch-out круглого duct и fittings: трубе 14\" Ø нужно π × 14 = 43.982\" металла по кругу плюс припуск на шов. По измеренной окружности (рулетка вокруг существующей трубы) размер находят так: D = C ÷ π. π бери точное, округляй только окончательный ответ.",
+  "flag": "Math worksheet printed before the 37 '(required)' questions; numbered after them so Y1W5H-3/10/16/22/23 (used in exam_F20) keep their numbers. Typed answer: every number in one box, order free. Official key 9) C = 986.460 (exact π); the submitted 986.522 was also scored 1.0."
+ },
+ {
+  "src": "Y1W5H",
+  "n": 41,
+  "topic": "math",
+  "ru_q": "Площадь квадрата",
+  "ru_hint": "1) Сторона #1 = ____ 2) Площадь = ____ 3) Сторона #1 = ____",
+  "ru_opts": null,
+  "why_en": "Area = Side × Side = Side², and back: Side = √Area. 1) Side = √5776 = 76. 2) Area = 64² = 4096. 3) Side = √7921 = 89. The usual mistakes: 5776 ÷ 4 = 1444 and 7921 ÷ 4 = 1980.25 treat the area like a perimeter; 64 × 2 = 128 or 64 × 4 = 256 multiply by the wrong number. Check yourself: 76 × 76 must give back 5776.\n\nHow to use this: the cross-section of a square duct is side² in square inches, ÷ 144 for square feet; the square root works backward — a square duct of 576 sq in is 24\" × 24\". Always check a root by squaring it back.",
+  "why_ru": "Площадь = Сторона × Сторона = Сторона², обратно: Сторона = √Площадь. 1) Сторона = √5776 = 76. 2) Площадь = 64² = 4096. 3) Сторона = √7921 = 89. Типичные ошибки: 5776 ÷ 4 = 1444 и 7921 ÷ 4 = 1980.25 — площадь посчитали как периметр; 64 × 2 = 128 или 64 × 4 = 256 — умножили не на то. Проверка: 76 × 76 должно вернуть 5776.\n\nКак применять: сечение квадратного duct = сторона² в квадратных дюймах, ÷ 144 — в квадратных футах; корень работает обратно — квадратный duct площадью 576 sq in имеет размер 24\" × 24\". Корень всегда проверяй возведением в квадрат.",
+  "flag": "Math worksheet printed before the 37 '(required)' questions; numbered after them so Y1W5H-3/10/16/22/23 (used in exam_F20) keep their numbers. Typed answer: every number in one box, order free."
+ },
+ {
+  "src": "Y1W5H",
+  "n": 42,
+  "topic": "math",
+  "ru_q": "Площадь прямоугольника",
+  "ru_hint": "4) Площадь = ____ 5) Сторона #1 = ____ 6) Сторона #2 = ____",
+  "ru_opts": null,
+  "why_en": "Area = Side #1 × Side #2; a missing side = Area ÷ the known side. 4) Area = 34 × 14 = 476. 5) Side #1 = 1350 ÷ 18 = 75. 6) Side #2 = 396 ÷ 9 = 44. The usual mistakes: 34 + 14 = 48 or 2 × (34 + 14) = 96 is perimeter thinking; 1350 − 18 = 1332 subtracts instead of dividing. Check yourself: 75 × 18 must give back 1350.\n\nHow to use this: duct cross-section = W × D in square inches, ÷ 144 for square feet (20\" × 10\" = 200 sq in = 1.389 sq ft); velocity = CFM ÷ area in sq ft. To size a missing duct side for a required area: side = area ÷ the other side.",
+  "why_ru": "Площадь = Сторона #1 × Сторона #2; неизвестная сторона = Площадь ÷ известная сторона. 4) Площадь = 34 × 14 = 476. 5) Сторона #1 = 1350 ÷ 18 = 75. 6) Сторона #2 = 396 ÷ 9 = 44. Типичные ошибки: 34 + 14 = 48 или 2 × (34 + 14) = 96 — это счёт периметра; 1350 − 18 = 1332 — вычли вместо деления. Проверка: 75 × 18 должно вернуть 1350.\n\nКак применять: сечение duct = W × D в квадратных дюймах, ÷ 144 — в квадратных футах (20\" × 10\" = 200 sq in = 1.389 sq ft); скорость = CFM ÷ площадь в sq ft. Чтобы подобрать недостающую сторону duct под нужную площадь: сторона = площадь ÷ другая сторона.",
+  "flag": "Math worksheet printed before the 37 '(required)' questions; numbered after them so Y1W5H-3/10/16/22/23 (used in exam_F20) keep their numbers. Typed answer: every number in one box, order free."
+ },
+ {
+  "src": "Y1W5H",
+  "n": 43,
+  "topic": "math",
+  "ru_q": "Площадь круга",
+  "ru_hint": "7) Радиус = ____ Площадь = ____ 8) Радиус = ____ Площадь = ____ 9) Радиус = ____ Диаметр = ____ 10) Радиус = ____ Диаметр = ____",
+  "ru_opts": null,
+  "why_en": "Area = π × R² (the same as 0.7854 × D²); Radius = Diameter ÷ 2; back from the area: R = √(Area ÷ π), D = 2 × R. 7) R = 42 ÷ 2 = 21; A = π × 21² = π × 441 = 1385.442. 8) R = 186 ÷ 2 = 93; A = π × 93² = π × 8649 = 27171.635. 9) R = √(3848.451001 ÷ π) = √1225 = 35; D = 70. 10) R = √(14957.12262 ÷ π) = √4761 = 69; D = 138. The usual mistakes: squaring the diameter (π × 42² = 5541.769 — four times too big); π × R without squaring (π × 21 = 65.973); 2πR (131.947) is the circumference; stopping at Area ÷ π (1225) and forgetting the square root.\n\nHow to use this: round duct area A = π × R² = 0.7854 × D² in square inches, ÷ 144 for square feet — used for CFM and velocity. Doubling the diameter makes the area four times larger: a 12\" duct has 113.097 sq in, a 6\" duct 28.274 sq in.",
+  "why_ru": "Площадь = π × R² (то же, что 0.7854 × D²); Радиус = Диаметр ÷ 2; обратно от площади: R = √(Площадь ÷ π), D = 2 × R. 7) R = 42 ÷ 2 = 21; A = π × 21² = π × 441 = 1385.442. 8) R = 186 ÷ 2 = 93; A = π × 93² = π × 8649 = 27171.635. 9) R = √(3848.451001 ÷ π) = √1225 = 35; D = 70. 10) R = √(14957.12262 ÷ π) = √4761 = 69; D = 138. Типичные ошибки: возвели в квадрат диаметр (π × 42² = 5541.769 — в четыре раза больше); π × R без квадрата (π × 21 = 65.973); 2πR (131.947) — это длина окружности; остановились на Площадь ÷ π (1225) и забыли извлечь корень.\n\nКак применять: площадь круглого duct A = π × R² = 0.7854 × D² в квадратных дюймах, ÷ 144 — в квадратных футах; нужна для CFM и скорости. Удвоение диаметра увеличивает площадь в четыре раза: у duct 12\" — 113.097 sq in, у 6\" — 28.274 sq in.",
+  "flag": "Math worksheet printed before the 37 '(required)' questions; numbered after them so Y1W5H-3/10/16/22/23 (used in exam_F20) keep their numbers. Typed answer: every number in one box, order free. Official key 8) A = 27171.635 (exact π); the submitted 27172.435 was also scored 1.0."
+ },
+ {
+  "src": "Y1W5H",
+  "n": 44,
+  "topic": "math",
+  "ru_q": "Вопрос #1: Cube (куб). Найти: Area 1 End = (площадь одного торца), Volume = (объём), Perimeter = (периметр).",
+  "ru_hint": "Все размеры в дюймах! Все ответы в дюймах с 3 знаками после запятой.",
+  "ru_opts": null,
+  "why_en": "Every number here comes from the end face. Area 1 End = 49 × 49 = 2401.000; Volume = end area × length = 2401 × 49 = 117649.000 (that is 49³); Perimeter = the perimeter of the end = 4 × 49 = 196.000 (answers in inches to 3 decimal places). The usual mistakes: 6 × 2401 = 14406 is the whole surface area of the cube, not the area of one end; 12 × 49 = 588 is the length of all 12 edges, not the perimeter of the end; 49 × 3 = 147 adds the sizes instead of multiplying them.\n\nHow to use this: for any straight prism — a duct section, a box, a plenum — the same three numbers come from the END shape: Area 1 End = cross-section area, Perimeter = girth (the stretch-out of the metal around it), Volume = end area × length. Identify the end shape first, then use its formula.",
+  "why_ru": "Все числа здесь — от торца. Area 1 End = 49 × 49 = 2401.000; Volume = площадь торца × длина = 2401 × 49 = 117649.000 (это 49³); Perimeter = периметр торца = 4 × 49 = 196.000 (ответы в дюймах, 3 знака после запятой). Типичные ошибки: 6 × 2401 = 14406 — площадь всей поверхности куба, а не одного торца; 12 × 49 = 588 — длина всех 12 рёбер, а не периметр торца; 49 × 3 = 147 — размеры сложили вместо умножения.\n\nКак применять: у любой прямой призмы — участка duct, короба, plenum — эти три числа берутся от ТОРЦА: Area 1 End = площадь сечения, Perimeter = обхват (stretch-out металла вокруг), Volume = площадь торца × длина. Сначала определи форму торца, потом бери её формулу.",
+  "flag": "Math worksheet printed before the 37 '(required)' questions; numbered after them so Y1W5H-3/10/16/22/23 (used in exam_F20) keep their numbers. Typed answer: every number in one box, order free. Hint = the note printed once on the solids sheet (next to Question #5), applied to all five solids."
+ },
+ {
+  "src": "Y1W5H",
+  "n": 45,
+  "topic": "math",
+  "ru_q": "Вопрос #2: Rectangle (прямоугольный брус). Найти: Area 1 End = (площадь одного торца), Volume = (объём), Perimeter = (периметр).",
+  "ru_hint": "Все размеры в дюймах! Все ответы в дюймах с 3 знаками после запятой.",
+  "ru_opts": null,
+  "why_en": "The end is the Height × Width face, 40 × 16; the Length 41 runs along the box. Area 1 End = 40 × 16 = 640.000; Volume = 640 × 41 = 26240.000; Perimeter of the end = 2 × (40 + 16) = 112.000. The usual mistakes: putting the length into the end area (40 × 41 = 1640 or 16 × 41 = 656); 40 + 16 = 56 is only half the perimeter; 2 × (40 + 16 + 41) = 194 mixes the length into the perimeter.\n\nHow to use this: this is exactly a 40\" × 16\" duct 41\" long — end area = the duct's cross-section (640 sq in = 4.444 sq ft), perimeter = 112\" of metal around before seams, volume in cubic inches ÷ 1728 = cubic feet (26240 ÷ 1728 = 15.185 cu ft). Pick the end first (the two sizes across the flow), then the length (along the flow).",
+  "why_ru": "Торец — грань Height × Width, 40 × 16; длина 41 идёт вдоль бруса. Area 1 End = 40 × 16 = 640.000; Volume = 640 × 41 = 26240.000; Perimeter торца = 2 × (40 + 16) = 112.000. Типичные ошибки: в площадь торца попала длина (40 × 41 = 1640 или 16 × 41 = 656); 40 + 16 = 56 — только половина периметра; 2 × (40 + 16 + 41) = 194 — в периметр подмешали длину.\n\nКак применять: это ровно duct 40\" × 16\" длиной 41\" — площадь торца = сечение duct (640 sq in = 4.444 sq ft), периметр = 112\" металла по кругу без швов, объём в кубических дюймах ÷ 1728 = кубические футы (26240 ÷ 1728 = 15.185 cu ft). Сначала выбери торец (два размера поперёк потока), потом длину (вдоль потока).",
+  "flag": "Math worksheet printed before the 37 '(required)' questions; numbered after them so Y1W5H-3/10/16/22/23 (used in exam_F20) keep their numbers. Typed answer: every number in one box, order free. Hint = the note printed once on the solids sheet (next to Question #5), applied to all five solids."
+ },
+ {
+  "src": "Y1W5H",
+  "n": 46,
+  "topic": "math",
+  "ru_q": "Вопрос #3: Triangle (треугольная призма). Найти: Area 1 End = (площадь одного торца), Volume = (объём).",
+  "ru_hint": "Все размеры в дюймах! Все ответы в дюймах с 3 знаками после запятой.",
+  "ru_opts": null,
+  "why_en": "The end is a triangle with base (Width) 14 and Vertical Height 20; the Length 8 runs back. Area 1 End = ½ × 14 × 20 = 140.000; Volume = 140 × 8 = 1120.000. The usual mistakes: forgetting the ½ (14 × 20 = 280 and 280 × 8 = 2240 — exactly double); using a slanted side instead of the vertical height; taking the Length 8 as a size of the triangle (½ × 14 × 8 = 56).\n\nHow to use this: a triangle's area always uses the height measured square (90°) to the base — ½ × base × vertical height; a slanted side is not the height. The volume of any prism is the end area × the length, whatever the end shape.",
+  "why_ru": "Торец — треугольник с основанием (Width) 14 и вертикальной высотой (Vertical Height) 20; длина 8 уходит вглубь. Area 1 End = ½ × 14 × 20 = 140.000; Volume = 140 × 8 = 1120.000. Типичные ошибки: забыли ½ (14 × 20 = 280 и 280 × 8 = 2240 — ровно вдвое больше); взяли наклонную сторону вместо вертикальной высоты; приняли длину 8 за размер треугольника (½ × 14 × 8 = 56).\n\nКак применять: в площади треугольника высота всегда меряется под прямым углом (90°) к основанию — ½ × основание × вертикальная высота; наклонная сторона — не высота. Объём любой призмы = площадь торца × длина, какой бы ни была форма торца.",
+  "flag": "Math worksheet printed before the 37 '(required)' questions; numbered after them so Y1W5H-3/10/16/22/23 (used in exam_F20) keep their numbers. Typed answer: every number in one box, order free. Hint = the note printed once on the solids sheet (next to Question #5), applied to all five solids."
+ },
+ {
+  "src": "Y1W5H",
+  "n": 47,
+  "topic": "math",
+  "ru_q": "Вопрос #4: Circle (цилиндр). Найти: Area 1 End = (площадь одного торца), Volume = (объём), Perimeter = (периметр).",
+  "ru_hint": "Все размеры в дюймах! Все ответы в дюймах с 3 знаками после запятой.",
+  "ru_opts": null,
+  "why_en": "The end is a circle with Diameter 50, so R = 25; the Length is 44. Area 1 End = π × 25² = 1963.495; Volume = π × 25² × 44 = 86393.798; Perimeter = the circumference of the end = π × 50 = 157.080. Multiply with the unrounded area: 1963.495 × 44 = 86393.780 is off by 0.018 in the third decimal. The usual mistakes: using the diameter as the radius (π × 50² = 7853.982); π × R = 78.540 is only half the circumference; π = 3.14 gives 1962.500 for the area.\n\nHow to use this: this is a 50\" Ø round duct 44\" long — cross-section 1963.495 sq in (13.635 sq ft), stretch-out 157.080\" plus the seam allowance, volume 86393.798 cu in = 49.996 cu ft (÷ 1728). Keep π and every intermediate result unrounded; round only the final answer to the places asked.",
+  "why_ru": "Торец — круг диаметром 50, значит R = 25; длина 44. Area 1 End = π × 25² = 1963.495; Volume = π × 25² × 44 = 86393.798; Perimeter = длина окружности торца = π × 50 = 157.080. Умножай неокруглённую площадь: 1963.495 × 44 = 86393.780 — расхождение 0.018 в третьем знаке. Типичные ошибки: диаметр вместо радиуса (π × 50² = 7853.982); π × R = 78.540 — только половина окружности; с π = 3.14 площадь выходит 1962.500.\n\nКак применять: это круглый duct 50\" Ø длиной 44\" — сечение 1963.495 sq in (13.635 sq ft), stretch-out 157.080\" плюс припуск на шов, объём 86393.798 cu in = 49.996 cu ft (÷ 1728). π и все промежуточные результаты не округляй; округляй только окончательный ответ до нужного числа знаков.",
+  "flag": "Math worksheet printed before the 37 '(required)' questions; numbered after them so Y1W5H-3/10/16/22/23 (used in exam_F20) keep their numbers. Typed answer: every number in one box, order free. Hint = the note printed once on the solids sheet (next to Question #5), applied to all five solids. Official key volume 86393.798 (exact π); the submitted 86393.802 was also scored 1.0."
+ },
+ {
+  "src": "Y1W5H",
+  "n": 48,
+  "topic": "math",
+  "ru_q": "Вопрос #5: Trapezoid (призма с торцом-трапецией). Найти: Area 1 End = (площадь одного торца), Volume = (объём).",
+  "ru_hint": "Все размеры в дюймах! Все ответы в дюймах с 3 знаками после запятой.",
+  "ru_opts": null,
+  "why_en": "The end is a trapezoid: parallel sides 33 (top) and 17 (bottom), Vertical Height 14 between them; the Length 28 runs back. Area 1 End = (33 + 17) ÷ 2 × 14 = 25 × 14 = 350.000; Volume = 350 × 28 = 9800.000. The usual mistakes: forgetting the ÷ 2 ((33 + 17) × 14 = 700 and 19600); using only one base (33 × 14 = 462 or 17 × 14 = 238); taking a slanted side instead of the vertical height.\n\nHow to use this: trapezoid area = the average of the two parallel sides × the height between them, measured square to them. A hopper or a drain pan has this end, and a centered transition wall laid out flat is often this shape, so the same averaging gives the area of a transition wall pattern for material estimates. Volume of any prism = end area × length.",
+  "why_ru": "Торец — трапеция: параллельные стороны 33 (верх) и 17 (низ), вертикальная высота между ними 14; длина 28 уходит вглубь. Area 1 End = (33 + 17) ÷ 2 × 14 = 25 × 14 = 350.000; Volume = 350 × 28 = 9800.000. Типичные ошибки: забыли ÷ 2 ((33 + 17) × 14 = 700 и 19600); взяли одно основание (33 × 14 = 462 или 17 × 14 = 238); взяли наклонную сторону вместо вертикальной высоты.\n\nКак применять: площадь трапеции = среднее двух параллельных сторон × высота между ними, измеренная под прямым углом. Такой торец у бункера или поддона, и такую же форму часто имеет развёрнутая стенка centered transition, поэтому то же усреднение даёт площадь pattern стенки transition для расчёта материала. Объём любой призмы = площадь торца × длина.",
+  "flag": "Math worksheet printed before the 37 '(required)' questions; numbered after them so Y1W5H-3/10/16/22/23 (used in exam_F20) keep their numbers. Typed answer: every number in one box, order free. Hint = the note printed once on the solids sheet (next to Question #5), applied to all five solids."
  }
 ]

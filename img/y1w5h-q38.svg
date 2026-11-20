@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 298" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="620" height="298" fill="#fff"/>
+<text x="18" y="37.1" font-size="20" text-anchor="start" font-weight="bold" fill="#111">Perimeter of a Square</text>
+<text x="525" y="86.39" font-size="18" text-anchor="middle" font-weight="bold" fill="#111">Perimeter</text>
+<text x="96" y="134.39" font-size="18" text-anchor="end" font-weight="bold" fill="#111">1)</text>
+<text x="230" y="134.39" font-size="18" text-anchor="end" font-weight="bold" fill="#111">Side #1=</text>
+<polygon points="236,107 386,107 386,149 236,149" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<polygon points="450,107 600,107 600,149 450,149" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<text x="458" y="135.81" font-size="22" text-anchor="start" font-weight="bold" fill="#111">328</text>
+<text x="96" y="198.39" font-size="18" text-anchor="end" font-weight="bold" fill="#111">2)</text>
+<text x="230" y="198.39" font-size="18" text-anchor="end" font-weight="bold" fill="#111">Side #1=</text>
+<polygon points="236,171 386,171 386,213 236,213" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<text x="244" y="199.81" font-size="22" text-anchor="start" font-weight="bold" fill="#111">59</text>
+<polygon points="450,171 600,171 600,213 450,213" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<text x="96" y="262.39" font-size="18" text-anchor="end" font-weight="bold" fill="#111">3)</text>
+<text x="230" y="262.39" font-size="18" text-anchor="end" font-weight="bold" fill="#111">Side #1=</text>
+<polygon points="236,235 386,235 386,277 236,277" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<polygon points="450,235 600,235 600,277 450,277" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<text x="458" y="263.81" font-size="22" text-anchor="start" font-weight="bold" fill="#111">68</text>
+</svg>

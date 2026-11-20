@@ -1,0 +1,639 @@
+[
+ {
+  "src": "Y2W1H",
+  "n": 1,
+  "q": "To avoid unnecessary exposure to fumes:",
+  "hint": null,
+  "opts": [
+   "Wait 10 seconds for fumes to clear before inspecting your weld.",
+   "Avoid welding outdoors.",
+   "Weld with a dust mask, like the kind painters use.",
+   "Avoid welding in humid conditions."
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 2,
+  "q": "In an emergency it's important to know where the _____________ to the power source is.",
+  "hint": null,
+  "opts": [
+   "Cable",
+   "Fused line disconnect (switch box)",
+   "Ground clamp",
+   "Fuse puller"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 3,
+  "q": "What conditions may cause your ground clamp to heat up?",
+  "hint": null,
+  "opts": [
+   "Using the wrong electrode",
+   "Using an underrated clamp or holder for the power source used",
+   "Using an older machine with a newer clamp or holder",
+   "Using a loose connection or frayed lead"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 4,
+  "q": "What is the first thing you must do before repairing a welding cable?",
+  "hint": null,
+  "opts": [
+   "Use a cable cutter to cut out the bad section.",
+   "Turn off the power at the disconnect.",
+   "Lower the voltage setting.",
+   "Remove cable insulation."
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 5,
+  "q": "Information on routine maintenance items can be found where?",
+  "hint": null,
+  "opts": [
+   "Owner's operation manual",
+   "SDS",
+   "Power source nameplate",
+   "None of the above."
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 6,
+  "q": "The actual task to be completed for a piece of equipment is identified on a/an ____________________.",
+  "hint": null,
+  "opts": [
+   "SDS",
+   "Power source nameplate",
+   "Maintenance program",
+   "Procedure checklist"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 7,
+  "q": "The filter shade most common for GMAW is ____________.",
+  "hint": null,
+  "opts": [
+   "#2",
+   "#9",
+   "#10",
+   "#8"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 8,
+  "q": "What is a potential hazard when using shielding gases in confined spaces?",
+  "hint": null,
+  "opts": [
+   "Tripping over gas lines",
+   "Displace atmosphere, resulting in death or injury.",
+   "Slower movements",
+   "Wasting shielding gas."
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 9,
+  "q": "Which of the following procedures should welders use to minimize exposure to EMF?",
+  "hint": null,
+  "opts": [
+   "Route the electrode and work cables together whenever possible.",
+   "Never coil the electrode around your body.",
+   "Do not place your body between the electrode and work cables.",
+   "All of the above"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 10,
+  "q": "To avoid electric shock, what should you do?",
+  "hint": null,
+  "opts": [
+   "Touch hot parts with bare skin or wet clothing.",
+   "Weld while standing in water.",
+   "Ground the work or metal to be welded to a good electrical ground.",
+   "Use a loose connection or a frayed cord."
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer Correct Answer line for 10 is cut off at the bottom of msg_3244; the selected option scored 1.00 of 1.00, so it is the key."
+ },
+ {
+  "src": "Y2W1H",
+  "n": 11,
+  "q": "When should a shielding gas cylinder be capped?",
+  "hint": null,
+  "opts": [
+   "Before attaching a regulator.",
+   "When moving it.",
+   "Only when the cylinder is full.",
+   "Only when the cylinder is empty."
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 12,
+  "q": "For drive rolls to to perform properly, which of the following must be done?",
+  "hint": null,
+  "opts": [
+   "Clean grooves once a year.",
+   "Check grooves for excess wear.",
+   "Over-tighten when installing.",
+   "All of the above."
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 13,
+  "q": "Gas Metal Arc Welding is also known as:",
+  "hint": null,
+  "opts": [
+   "Stick welding",
+   "Soldering",
+   "Flux core welding",
+   "Mig welding"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 14,
+  "q": "Which wire works well with most mild and low alloy steel?",
+  "hint": null,
+  "opts": [
+   "ER70S-2",
+   "ER70S-6",
+   "ER70S-3",
+   "ER70S-1"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 15,
+  "q": "What would be a good shielding gas to use with an ER70S-6 wire?",
+  "hint": null,
+  "opts": [
+   "Argon",
+   "Oxygen",
+   "Carbon Dioxide",
+   "Helium"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 16,
+  "q": "Which of the following are inert gases?",
+  "hint": null,
+  "opts": [
+   "Argon",
+   "Oxygen",
+   "Carbon Dioxide",
+   "Helium"
+  ],
+  "answer": [
+   0,
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 17,
+  "q": "It is okay to to coil the electrode lead around your body to have better access to the work.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 18,
+  "q": "While welding with GMAW, it is not a good practice to stand on wet surfaces.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer (Ref: P2300 Welding Training Program 1-4, Student Manual, Welding 1, Module 3: GMAW)"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 19,
+  "q": "Because the primary power is constant, you do not need to know where the disconnect is located.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 20,
+  "q": "Is turning off power at the disconnect adequate protection when performing routine maintenance on welding equipment?",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 21,
+  "q": "The weld lead from a wire feeder attaches to the Positive (+) terminal on the power source.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 22,
+  "q": "GMAW uses a constant current (CC) power source?",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 23,
+  "q": "Name four items of PPE.",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer; open question, TotalTrack gave 0 points to every open answer (not hand-graded), model answer = official Correct Answer",
+  "accept": [],
+  "all": [
+   [
+    "helmet",
+    "hood",
+    "shield",
+    "goggle",
+    "glasses",
+    "lens",
+    "face",
+    "cap",
+    "шлем",
+    "маск",
+    "щиток",
+    "очки",
+    "очков",
+    "кепк",
+    "шапк"
+   ],
+   [
+    "glove",
+    "gauntlet",
+    "перчат",
+    "краг",
+    "рукавиц"
+   ],
+   [
+    "boot",
+    "shoe",
+    "cloth",
+    "fiber",
+    "fibre",
+    "cotton",
+    "wool",
+    "apron",
+    "jacket",
+    "sleeve",
+    "leathers",
+    "flame",
+    "fire resist",
+    "fire-resist",
+    "treated",
+    "fr",
+    "ear",
+    "plug",
+    "pants",
+    "shirt",
+    "coverall",
+    "ботин",
+    "сапог",
+    "обув",
+    "одежд",
+    "куртк",
+    "фартук",
+    "передник",
+    "беруш",
+    "бируш",
+    "наушник",
+    "брюк",
+    "штан",
+    "комбинезон",
+    "огнестойк",
+    "шерст",
+    "хлоп"
+   ]
+  ],
+  "answer_text": "Any four: High-top boots, Clothing made of natural fiber/treated/leather, Welding gloves, Earplugs, Welding goggles/shield, Safety glasses, Leather apron, Welding cap"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 24,
+  "q": "Before using GMAW equipment, you need to check the surrounding area for the following.",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer; open question, TotalTrack gave 0 points to every open answer (not hand-graded), model answer = official Correct Answer",
+  "accept": [],
+  "all": [
+   [
+    "flammab",
+    "combustib",
+    "aerosol",
+    "solvent",
+    "glue",
+    "rag",
+    "rags",
+    "cardboard",
+    "paper",
+    "fuel",
+    "горюч",
+    "воспламен",
+    "аэрозол",
+    "баллончик",
+    "растворител",
+    "клей",
+    "клеи",
+    "тряпк",
+    "ветош",
+    "картон",
+    "бумаг"
+   ],
+   [
+    "extinguish",
+    "огнетуш"
+   ]
+  ],
+  "answer_text": "Aerosol cans, Solvents, Glues, Rags, Cardboard, Paper, Anything Flammable, Fire extinguishers in two separate locations"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 25,
+  "q": "List four items that must be included on a maintenance schedule:",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer; open question, TotalTrack gave 0 points to every open answer (not hand-graded), model answer = official Correct Answer",
+  "accept": [],
+  "all": [
+   [
+    "manufactur",
+    "brand",
+    "model",
+    "serial",
+    "equipment number",
+    "equipment no",
+    "equipment #",
+    "equipment id",
+    "identif",
+    "asset",
+    "производител",
+    "марк",
+    "модел",
+    "серийн",
+    "инвентарн",
+    "идентифик",
+    "номер оборуд"
+   ],
+   [
+    "date",
+    "when",
+    "last checked",
+    "next service",
+    "items to be checked",
+    "check",
+    "inspect",
+    "дата",
+    "дату",
+    "даты",
+    "следующ",
+    "последн",
+    "провер",
+    "осмотр"
+   ]
+  ],
+  "answer_text": "Manufacturer, Model Number, Serial Number, Equipment number, Items to be checked, Date last checked, Date of next service"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 26,
+  "q": "What are two ways you can check for leaks between the cylinder valve and the wire feeder solenoid valve?",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer; open question, TotalTrack gave 0 points to every open answer (not hand-graded), model answer = official Correct Answer",
+  "accept": [],
+  "all": [
+   [
+    "soap",
+    "bubble",
+    "leak detect",
+    "snoop",
+    "мыльн",
+    "мыло",
+    "мыла",
+    "пузыр"
+   ],
+   [
+    "gauge",
+    "gage",
+    "needle",
+    "pressur",
+    "drop",
+    "манометр",
+    "стрелк",
+    "давлен",
+    "пада"
+   ]
+  ],
+  "answer_text": "Apply a soapy water solution to the connections; pressurize the entire system, close the cylinder valve and watch to see if the gauge needle drops"
+ },
+ {
+  "src": "Y2W1H",
+  "n": 27,
+  "q": "E - R - 70 - S - -3 -",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": null,
+  "evidence": "TotalTrack SMY2W1 Welding Intro & Fundamentals_Everett, assignment \"Homework Welding Week\" (photos msg_3244, msg_3246, msg_3245), official Correct Answer; open question, TotalTrack gave 0 points to every open answer (not hand-graded), model answer = official Correct Answer",
+  "accept": [],
+  "all": [
+   [
+    "electrode",
+    "электрод"
+   ],
+   [
+    "rod",
+    "пруток",
+    "прут",
+    "стержень"
+   ],
+   [
+    "tensile",
+    "strength",
+    "ksi",
+    "psi",
+    "70000",
+    "70,000",
+    "70 000",
+    "прочн"
+   ],
+   [
+    "solid",
+    "сплошн",
+    "цельн"
+   ],
+   [
+    "chemi",
+    "compos",
+    "хими",
+    "состав"
+   ]
+  ],
+  "answer_text": "E = Electrode, R = Rod, 70 = Minimum tensile strength x 1000 (70,000 psi), S = Solid, 3 = Chemical composition"
+ }
+]

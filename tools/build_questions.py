@@ -54,6 +54,9 @@ SOURCES = {
     'Y1W5H': {'name': {'en': 'SMY1W5 Orthographics & Ogee Offsets — homework', 'ru': 'SMY1W5 Orthographics & Ogee Offsets — домашнее задание'},
               'sub': {'en': '1st year, week 5: homework', 'ru': '1-й год, неделя 5: домашнее задание'},
               'short': {'en': 'SMY1W5 homework', 'ru': 'SMY1W5 домашнее'}},
+    'Y2W1H': {'name': {'en': 'SMY2W1 Welding Intro & Fundamentals — homework', 'ru': 'SMY2W1 Welding Intro & Fundamentals — домашнее задание'},
+              'sub': {'en': '2nd year, week 1: homework', 'ru': '2-й год, неделя 1: домашнее задание'},
+              'short': {'en': 'SMY2W1 homework', 'ru': 'SMY2W1 домашнее'}},
     'TRI': {'name': {'en': 'SMY2W2 Triangulation quiz', 'ru': 'SMY2W2 Triangulation'},
             'sub': {'en': '2nd year, week 2: homework quiz', 'ru': '2-й год, неделя 2: домашний квиз'},
             'short': {'en': 'Triangulation', 'ru': 'Triangulation'}},
@@ -74,7 +77,7 @@ GROUP_OF = {'welding': 'welding', 'weldsym': 'welding', 'math': 'math', 'trig': 
             'materials': 'shop', 'tools': 'shop', 'safety': 'safety', 'trade': 'trade', 'dampers': 'dampers'}
 # Fire & smoke dampers are their own topic (owner, 2026-11-19): the whole FSD course, plus damper questions in any test.
 DAMPER_RE = re.compile(r'\bdampers?\b|fusible link|UL ?555|smoke detector', re.I)
-SRC_ORDER = ['F20', 'CLS', 'T90', 'FRI', 'MON', 'TRI', 'Y2W3M', 'Y2W3F', 'Y2W4M', 'Y2W4F', 'Y2W5M', 'Y2W5Y', 'Y1W3', 'Y1W5M', 'Y1W5F', 'Y1W5H',
+SRC_ORDER = ['F20', 'CLS', 'T90', 'FRI', 'MON', 'TRI', 'Y2W3M', 'Y2W3F', 'Y2W4M', 'Y2W4F', 'Y2W5M', 'Y2W5Y', 'Y1W3', 'Y1W5M', 'Y1W5F', 'Y1W5H', 'Y2W1H',
              'APR', 'BRZ', 'FSD', 'FIN5']
 SOURCES = {k: SOURCES[k] for k in SRC_ORDER + [k for k in SOURCES if k not in SRC_ORDER]}
 # Tests after the first one repeat many questions; the bank keeps each question once, under the first test it

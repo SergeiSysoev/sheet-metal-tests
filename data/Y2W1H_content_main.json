@@ -1,0 +1,397 @@
+[
+ {
+  "src": "Y2W1H",
+  "n": 1,
+  "topic": "safety",
+  "ru_q": "Чтобы избежать лишнего воздействия сварочного дыма (fumes):",
+  "ru_hint": null,
+  "ru_opts": [
+   "Подождите 10 секунд, пока дым рассеется, прежде чем осматривать шов.",
+   "Не варите на открытом воздухе.",
+   "Варите в пылевой маске, как у маляров.",
+   "Не варите во влажных условиях."
+  ],
+  "why_en": "Right: wait about 10 seconds for the fumes to clear before you inspect the weld. The weld metal is still hot and keeps giving off fume for a few seconds after the arc stops; if you flip the hood up and lean in right away, your face is in the fume plume. The rule behind it: keep your head out of the plume, use local exhaust at the arc, and wear a respirator when ventilation is not enough (the exposure limits are in Section 8 of the SDS for the wire).\n\n\"Avoid welding outdoors\" is backwards: outdoors the fume is carried away better — the outdoor problem for GMAW is wind blowing away the shielding gas, not fumes. \"Weld with a dust mask, like the kind painters use\": a painter's nuisance-dust mask is not a NIOSH-approved respirator, does not seal to the face and does not stop fine metal fume; when ventilation is not enough you need an approved respirator chosen for welding fume and fit-tested. \"Avoid welding in humid conditions\": humidity does not create fumes; dampness is an electric-shock concern (water conducts), not a fume one.\n\nHow to use this: fume questions come back to one idea — distance and moving air between your breathing zone and the plume: head out of the plume, ventilation and local exhaust, wait before inspecting, a real respirator when needed. Options about weather, humidity or a dust mask are distractors; water and humidity belong to electric-shock questions.",
+  "why_ru": "Верно: подождать около 10 секунд, пока дым рассеется, и только потом осматривать шов. Металл шва ещё горячий и несколько секунд после того, как дуга погасла, продолжает дымить; если сразу поднять маску и наклониться к шву, лицо окажется прямо в столбе дыма (fume plume). Правило за этим: голова вне fume plume, local exhaust у дуги, respirator, если вентиляции не хватает (пределы воздействия — в Section 8 SDS на проволоку).\n\n«Не варите на открытом воздухе» — наоборот: на улице дым уносит лучше; проблема GMAW на улице — ветер сдувает защитный газ, а не дым. «Варите в пылевой маске, как у маляров»: малярная пылевая маска — не одобренный NIOSH respirator, она не прилегает к лицу и мелкий металлический дым не задерживает; если вентиляции не хватает, нужен одобренный respirator, подобранный под сварочный дым и проверенный на прилегание (fit test). «Не варите во влажных условиях»: влажность дыма не создаёт; сырость — вопрос электрошока (вода проводит ток), а не дыма.\n\nКак применять: вопросы про fumes сводятся к одному — между зоной дыхания и столбом дыма должны быть расстояние и движение воздуха: голова вне fume plume, вентиляция и вытяжка, подождать перед осмотром шва, при необходимости — настоящий respirator. Варианты про погоду, влажность или пылевую маску — отвлекающие; вода и влажность относятся к вопросам про электрошок.",
+  "flag": null
+ },
+ {
+  "src": "Y2W1H",
+  "n": 2,
+  "topic": "safety",
+  "ru_q": "В аварийной ситуации важно знать, где находится _____________ сварочного источника питания.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Кабель",
+   "Fused line disconnect (switch box) — рубильник с предохранителями",
+   "Ground clamp (зажим массы)",
+   "Fuse puller (съёмник предохранителей)"
+  ],
+  "why_en": "Right: the fused line disconnect (switch box). A welding machine gets its high-voltage primary power from the building through a fused disconnect switch next to it; OSHA 1910.254(c)(3)(i) requires \"a disconnecting switch or controller ... at or near each welding machine\". In an emergency — someone being shocked, a lead burning, a machine smoking — pulling that handle to OFF kills everything downstream: machine, leads, wire feeder, gun or holder. The fuses inside protect the circuit from an over-current surge, and when the machine is not in use the switch is kept OFF.\n\nCable: the welding leads are the secondary (output) side; they carry welding current but do not shut anything off. Ground clamp: the work clamp that closes the welding circuit on the work; taking it off stops the arc but leaves the machine energized, and it is not a safety ground either. Fuse puller: an insulated tool for pulling cartridge fuses out of a de-energized panel — a service tool, not an emergency shut-off.\n\nHow to use this: in any emergency or \"first thing before…\" question about electrical equipment, the answer is the point where power is cut at its source — the disconnect (switch box or breaker), not the cable, the clamp or a tool. Find it before you strike an arc.",
+  "why_ru": "Верно: fused line disconnect (switch box) — рубильник с предохранителями. Сварочная машина получает высоковольтное питание (primary) от сети здания через рубильник с предохранителями рядом с ней; OSHA 1910.254(c)(3)(i) требует рубильник или пускатель «at or near each welding machine». В аварии — человека бьёт током, горит кабель, дымит машина — рукоятку в OFF, и обесточено всё дальше по цепи: машина, кабели, wire feeder, горелка или holder. Предохранители внутри защищают цепь от броска тока (over-current surge), а когда машина не работает, рубильник держат в OFF.\n\nКабель: сварочные кабели — вторичная (выходная) сторона; по ним идёт сварочный ток, но ничего ими не отключишь. Ground clamp: зажим, который замыкает сварочную цепь на изделии; если его снять, дуги не будет, но машина останется под напряжением, и защитным заземлением он тоже не является. Fuse puller: изолированный инструмент, чтобы вынимать патронные предохранители из обесточенного щита, — инструмент для обслуживания, а не аварийное отключение.\n\nКак применять: в любом вопросе про аварию или «что первым делом перед…» на электрическом оборудовании ответ — место, где питание отключается у источника: disconnect (рубильник или автомат), а не кабель, зажим или инструмент. Найти его нужно до того, как зажжёшь дугу.",
+  "flag": null
+ },
+ {
+  "src": "Y2W1H",
+  "n": 3,
+  "topic": "welding",
+  "ru_q": "Из-за чего может нагреваться ground clamp?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Неподходящий electrode",
+   "Clamp или holder с номиналом ниже, чем у источника питания",
+   "Старая машина с новым clamp или holder",
+   "Ослабленное соединение или перетёртый кабель (lead)"
+  ],
+  "why_en": "For points pick \"Using a loose connection or frayed lead\". A loose connection touches on only a few points, and a lead with broken (frayed) strands has less copper left to carry the full welding current, so the resistance goes up; the power lost in a resistance is I²R, and at 150–300 A even a small resistance turns into heat right at the clamp. A hot clamp is the signal to shut down, clean and tighten the connections, and replace the damaged lead. Technically \"Using an underrated clamp or holder for the power source used\" is also correct, because a clamp rated for less current than the machine delivers (for example a 200 A clamp on a 300 A machine) has too little metal and contact area for that current and overheats as well — that is exactly why the clamp and the holder must be rated at least as high as the machine.\n\n\"Using the wrong electrode\" changes the arc and the weld quality, not the clamp. \"Using an older machine with a newer clamp or holder\" is no problem at all: the age of the machine does not matter, only the current rating and tight, clean connections.\n\nHow to use this: any \"why does it get hot\" question about the welding circuit (clamp, holder, cable, terminal) comes back to resistance — a loose, dirty or corroded connection, broken strands, or a part too small for the current. The fix is the same: clean and tighten, replace damaged leads, use parts rated for the machine's current.",
+  "why_ru": "Для балла — «Ослабленное соединение или перетёртый кабель (lead)». Ослабленное соединение касается лишь в нескольких точках, а у перетёртого кабеля часть жил порвана и меди для полного сварочного тока остаётся меньше, поэтому сопротивление растёт; мощность, которая теряется на сопротивлении, — I²R, и при 150–300 A даже маленькое сопротивление превращается в тепло прямо на зажиме. Горячий clamp — сигнал выключить машину, зачистить и затянуть соединения, заменить повреждённый кабель. Технически «Clamp или holder с номиналом ниже, чем у источника питания» тоже верен, потому что зажим, рассчитанный на меньший ток, чем даёт машина (например, clamp на 200 A на машине 300 A), имеет слишком мало металла и площади контакта для этого тока и тоже перегревается — именно поэтому номинал clamp и holder должен быть не ниже номинала машины.\n\n«Неподходящий electrode» меняет дугу и качество шва, а не нагрев зажима. «Старая машина с новым clamp или holder» — вообще не проблема: возраст машины не важен, важны номинал по току и тугие чистые соединения.\n\nКак применять: любой вопрос «почему греется» про сварочную цепь (clamp, holder, кабель, клемма) сводится к сопротивлению — ослабленное, грязное или окисленное соединение, порванные жилы или деталь, слабая для этого тока. Лечение одно: зачистить и затянуть, заменить повреждённые кабели, ставить детали с номиналом под ток машины.",
+  "flag": "Disputed: official key = loose connection or frayed lead; \"underrated clamp or holder\" is also physically correct (undersized clamp overheats; holder/clamp rating must be >= machine rating, SMAW book p.20). also=[1] added; explanation uses the \"For points pick X. Technically Y is also correct\" format. | also removed 19.11: TotalTrack official key is the scoring answer; the explanation keeps \"for points pick X; technically Y\"."
+ },
+ {
+  "src": "Y2W1H",
+  "n": 4,
+  "topic": "safety",
+  "ru_q": "Что первым делом нужно сделать перед ремонтом сварочного кабеля?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Вырезать повреждённый участок кабелерезом.",
+   "Отключить питание на disconnect.",
+   "Уменьшить настройку напряжения.",
+   "Снять изоляцию с кабеля."
+  ],
+  "why_en": "Right: turn off the power at the disconnect. Every repair on welding equipment starts by removing the energy source: the leads are live whenever the machine is on, and cutting into an energized cable can shock you and short the machine. On the job the disconnect is then locked and tagged (lockout/tagout, OSHA 1910.147; in Washington chapter 296-803 WAC), so nobody switches it back on while you work.\n\n\"Use a cable cutter to cut out the bad section\" is a later step of the repair, done only on a dead cable — and OSHA 1910.254(d)(8) says a cable with a splice within 10 feet of the holder must not be used, while 1910.254(d)(9)(iii) says cables with damaged insulation or exposed bare conductors must be replaced. \"Lower the voltage setting\" protects nothing: the machine is still on and voltage is still on the leads. \"Remove cable insulation\" is also a later repair step, and on a live cable it exposes bare conductor.\n\nHow to use this: \"What is the first thing before repairing / servicing / adjusting…\" on any electrical tool or machine → de-energize at the disconnect, then lock and tag it. Cutting, stripping, splicing and replacing all come after the power is off.",
+  "why_ru": "Верно: отключить питание на disconnect. Любой ремонт сварочного оборудования начинается с отключения источника энергии: кабели под напряжением, пока машина включена, а резать кабель под напряжением — это удар током и короткое замыкание машины. На объекте после отключения рубильник запирают на замок и вешают бирку (lockout/tagout, OSHA 1910.147; в Washington — глава 296-803 WAC), чтобы никто не включил его, пока ты работаешь.\n\n«Вырезать повреждённый участок кабелерезом» — более поздний шаг ремонта, только на обесточенном кабеле; при этом по OSHA 1910.254(d)(8) кабель со сросткой ближе 10 ft от holder использовать нельзя, а по 1910.254(d)(9)(iii) кабель с повреждённой изоляцией или голой жилой заменяют. «Уменьшить настройку напряжения» ни от чего не защищает: машина включена, на кабелях всё равно есть напряжение. «Снять изоляцию с кабеля» — тоже более поздний шаг, а на кабеле под напряжением это открытая голая жила.\n\nКак применять: «что первым делом перед ремонтом / обслуживанием / регулировкой…» любого электроинструмента или машины → обесточить на disconnect, затем замок и бирка. Резать, зачищать, сращивать, менять — всё после отключения.",
+  "flag": null
+ },
+ {
+  "src": "Y2W1H",
+  "n": 5,
+  "topic": "welding",
+  "ru_q": "Где можно найти информацию о плановом (routine) обслуживании?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Owner's operation manual (руководство по эксплуатации от производителя)",
+   "SDS",
+   "Nameplate (табличка) источника питания",
+   "Ничего из перечисленного."
+  ],
+  "why_en": "Right: the owner's operation manual. The manufacturer's manual for the power source or wire feeder lists the routine maintenance: what to inspect (cables, gun, liner, contact tip, drive rolls), what to clean (blowing dust out of the machine), how often (daily, monthly, every few months) and the safety steps for doing it.\n\nSDS (Safety Data Sheet) is written for a hazardous product — the wire, the gas, anti-spatter — and its 16 sections cover hazards, first aid, PPE and exposure limits (Section 8), not equipment maintenance. The power source nameplate gives the ratings: input voltage and current, rated output, duty cycle, process (CC/CV) — what the machine is, not how to maintain it. \"None of the above\" is wrong because the manual does contain this information.\n\nHow to use this: match the question to the document — how to operate and maintain a machine → owner's manual; hazards, PPE and exposure limits of a product → SDS (limits in Section 8); ratings and duty cycle → nameplate; which machine and when it is serviced → maintenance schedule; the actual task to do → procedure checklist.",
+  "why_ru": "Верно: owner's operation manual — руководство производителя. В руководстве к источнику питания или wire feeder перечислено плановое обслуживание: что осматривать (кабели, горелку, liner, contact tip, drive rolls), что чистить (продувать пыль из машины), как часто (ежедневно, ежемесячно, раз в несколько месяцев) и меры безопасности при этом.\n\nSDS (Safety Data Sheet) пишут на опасный продукт — проволоку, газ, anti-spatter; его 16 разделов — это опасности, первая помощь, PPE и пределы воздействия (Section 8), а не обслуживание оборудования. Nameplate источника питания даёт номиналы: входное напряжение и ток, выходной номинал, duty cycle, процесс (CC/CV) — что это за машина, а не как её обслуживать. «Ничего из перечисленного» неверно, потому что в руководстве эта информация есть.\n\nКак применять: сопоставляй вопрос с документом — как работать с машиной и обслуживать её → owner's manual; опасности, PPE и пределы для продукта → SDS (пределы в Section 8); номиналы и duty cycle → nameplate; какая машина и когда обслуживается → maintenance schedule; конкретная задача → procedure checklist.",
+  "flag": null
+ },
+ {
+  "src": "Y2W1H",
+  "n": 6,
+  "topic": "welding",
+  "ru_q": "Конкретная задача, которую нужно выполнить для единицы оборудования, указывается в ____________________.",
+  "ru_hint": null,
+  "ru_opts": [
+   "SDS",
+   "Nameplate (табличка) источника питания",
+   "Maintenance program (программа обслуживания)",
+   "Procedure checklist (чек-лист процедуры)"
+  ],
+  "why_en": "Right: procedure checklist. Maintenance paperwork has layers: the maintenance program is the overall plan for keeping equipment in service; the maintenance schedule identifies each machine (manufacturer, model, serial and equipment number) and says what is checked and when it was last and will next be done; the procedure checklist spells out the actual tasks for that piece of equipment, step by step, so each one is done and checked off.\n\nSDS describes the hazards of a chemical product (wire, gas, solvent), not maintenance tasks. The power source nameplate lists electrical ratings and duty cycle. Maintenance program is the whole system — the umbrella that holds the schedules and checklists — not the document that names the task to perform.\n\nHow to use this: for \"where is X found\" questions pick the most specific document — the whole plan → maintenance program; which machine and when → maintenance schedule; exactly what to do → procedure checklist; how the maker says to service it → owner's manual; product hazards → SDS; ratings → nameplate.",
+  "why_ru": "Верно: procedure checklist (чек-лист процедуры). Документы обслуживания идут уровнями: maintenance program — общий план, как держать оборудование в работе; maintenance schedule — опознаёт каждую машину (производитель, модель, серийный и инвентарный номер) и говорит, что проверяют и когда проверяли в последний раз и будут в следующий; procedure checklist — по шагам расписывает конкретные задачи для этой единицы оборудования, чтобы каждую выполнить и отметить.\n\nSDS описывает опасности химического продукта (проволоки, газа, растворителя), а не задачи обслуживания. Nameplate источника питания — электрические номиналы и duty cycle. Maintenance program — вся система, «зонтик», под которым лежат графики и чек-листы, а не документ с конкретной задачей.\n\nКак применять: в вопросах «где указано X» выбирай самый конкретный документ — весь план → maintenance program; какая машина и когда → maintenance schedule; что именно делать → procedure checklist; как обслуживать по указанию производителя → owner's manual; опасности продукта → SDS; номиналы → nameplate.",
+  "flag": null
+ },
+ {
+  "src": "Y2W1H",
+  "n": 7,
+  "topic": "safety",
+  "ru_q": "Самый распространённый номер затемнения (filter shade) для GMAW — ____________.",
+  "ru_hint": null,
+  "ru_opts": [
+   "#2",
+   "#9",
+   "#10",
+   "#8"
+  ],
+  "why_en": "Right: #10. A shade #10 filter lens is the most common for GMAW, just as for stick welding, and it is the minimum OSHA 1910.133(a)(5) gives for GMAW and FCAW from 60 to 500 A. The higher the number, the darker the lens: #9 is lighter than #10, #12 darker.\n\n#2 is the shade for torch soldering (its minimum in the same OSHA table) — far too light for any arc. #8 is the minimum for stick welding with 3/32\"–5/32\" electrodes at 60–160 A and for GTAW up to 150 A — too light for typical GMAW. #9 is one step lighter than #10: the minimum for medium plasma cutting and the light end of an auto-darkening helmet's 9–13 range, for low-amperage work only. On construction sites the tables are stricter: OSHA 1926.102 Table E-1 and, in Washington, WAC 296-155-215 Table C-2 list shade 12 for gas-shielded arc welding on steel (11 on non-ferrous metals). The question asks for the most common shade, so the answer stays #10.\n\nHow to use this: \"most common\" shade for both SMAW and GMAW = #10; bigger number = darker; low numbers (2–6) are for soldering, brazing, gas welding and cutting. When a question asks for a minimum, look it up by process and amperage — and on a construction site in Washington use the construction table (12 for GMAW on steel).",
+  "why_ru": "Верно: #10. Светофильтр shade #10 — самый распространённый для GMAW, как и для stick, и это минимум, который OSHA 1910.133(a)(5) даёт для GMAW и FCAW от 60 до 500 A. Чем больше номер, тем темнее стекло: #9 светлее #10, #12 темнее.\n\n#2 — затемнение для пайки горелкой (torch soldering, её минимум в той же таблице OSHA), для любой дуги слишком светлое. #8 — минимум для stick с electrode 3/32\"–5/32\" на 60–160 A и для GTAW до 150 A — для обычного GMAW светло. #9 — на ступень светлее #10: минимум для среднего plasma cutting и светлый край диапазона 9–13 у auto-darkening шлема, только для малых токов. На стройке таблицы строже: OSHA 1926.102 Table E-1 и в Washington WAC 296-155-215 Table C-2 дают shade 12 для дуговой сварки в защитном газе по стали (11 по цветным металлам). Вопрос про самое распространённое затемнение, поэтому ответ — #10.\n\nКак применять: «most common» shade и для SMAW, и для GMAW — #10; больше номер — темнее; маленькие номера (2–6) — для пайки, brazing, газовой сварки и резки. Если спрашивают минимум — ищи по процессу и току, а на стройке в Washington — по строительной таблице (12 для GMAW по стали).",
+  "flag": null
+ },
+ {
+  "src": "Y2W1H",
+  "n": 8,
+  "topic": "safety",
+  "ru_q": "Какая потенциальная опасность при использовании защитных газов в замкнутых пространствах (confined spaces)?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Споткнуться о газовые шланги",
+   "Вытеснение воздуха, что ведёт к смерти или травме.",
+   "Замедленные движения",
+   "Перерасход защитного газа."
+  ],
+  "why_en": "Right: the gas displaces the atmosphere, resulting in death or injury. Argon, CO2 and helium are not poisons at normal levels, but every cubic foot that leaks pushes out a cubic foot of breathable air. Argon is about 1.38 times and CO2 about 1.52 times as heavy as air, so they sink and pool in tanks, pits, trenches, vaults and the bottom of large duct and plenums, and there is no smell or color to warn you. Air with less than 19.5% oxygen is oxygen-deficient (OSHA 1910.146; in Washington WAC 296-809-099); in a nearly pure inert gas a person can pass out within seconds, with no warning. Protection: ventilation, an oxygen monitor, and confined-space entry rules.\n\n\"Tripping over gas lines\" is a housekeeping hazard anywhere, not the specific danger of gas in a confined space. \"Slower movements\" is not the hazard itself — clumsiness can be an early symptom of low oxygen, but the hazard is the displaced atmosphere. \"Wasting shielding gas\" is a cost, not a safety hazard.\n\nHow to use this: any \"harmless\" or inert gas (argon, helium, nitrogen, CO2) in a closed or low space means asphyxiation by pushing out oxygen. Gases heavier than air (argon, CO2, propane) collect low; helium rises. Normal air is 20.9% oxygen; below 19.5% it is oxygen-deficient.",
+  "why_ru": "Верно: газ вытесняет воздух, что ведёт к смерти или травме. Аргон, CO2 и гелий в обычных количествах не яды, но каждый кубический фут утёкшего газа вытесняет кубический фут воздуха, которым дышат. Аргон примерно в 1.38 раза, а CO2 примерно в 1.52 раза тяжелее воздуха, поэтому они опускаются и скапливаются в ёмкостях, приямках, траншеях, колодцах, внизу больших duct и plenum, и ни запаха, ни цвета, чтобы предупредить, нет. Воздух, где кислорода меньше 19.5%, — oxygen-deficient (OSHA 1910.146; в Washington WAC 296-809-099); в почти чистом инертном газе человек может потерять сознание за секунды, без всякого предупреждения. Защита: вентиляция, газоанализатор на кислород, правила входа в confined space.\n\n«Споткнуться о газовые шланги» — опасность беспорядка на любом рабочем месте, а не особая опасность газа в замкнутом пространстве. «Замедленные движения» — не сама опасность: неловкость может быть ранним признаком нехватки кислорода, но опасность — вытесненный воздух. «Перерасход защитного газа» — это расходы, а не угроза безопасности.\n\nКак применять: любой «безвредный» или инертный газ (аргон, гелий, азот, CO2) в закрытом или низком месте — это удушье из-за вытеснения кислорода. Газы тяжелее воздуха (аргон, CO2, пропан) скапливаются внизу; гелий поднимается. В обычном воздухе 20.9% кислорода; ниже 19.5% — oxygen-deficient.",
+  "flag": null
+ },
+ {
+  "src": "Y2W1H",
+  "n": 9,
+  "topic": "safety",
+  "ru_q": "Какие из этих приёмов сварщику нужно применять, чтобы уменьшить воздействие EMF?",
+  "ru_hint": null,
+  "ru_opts": [
+   "По возможности прокладывать electrode cable и work cable вместе.",
+   "Никогда не обматывать electrode вокруг тела.",
+   "Не становиться между electrode cable и work cable.",
+   "Всё перечисленное"
+  ],
+  "why_en": "Right: all of the above. Welding current flowing through the leads creates electromagnetic fields (EMF) around them; the field is strongest right next to the cables and inside a loop. The three listed practices are the standard EMF rules printed in welding machine manuals. Route the electrode and work cables together (taped or tied side by side): the current goes out through one and back through the other, so their fields largely cancel. Never coil the electrode lead around your body: a coil wraps the field around you; OSHA 1910.254(d)(8) also says the welder should not coil or loop the electrode cable around parts of the body. Do not place your body between the electrode and work cables: keep both on the same side of you, otherwise you stand in the field between them. Each of the three is correct on its own, so the full answer is all of them.\n\nThe same rules go on: connect the work clamp as close to the weld as possible, and do not work next to the power source. A welder with a pacemaker or an insulin pump must ask the doctor before welding — EMF and high frequency can affect them.\n\nHow to use this: EMF questions follow one idea — keep the two leads together and keep your body away from and outside the welding circuit. When every listed option is a true safety rule, \"All of the above\" is the answer.",
+  "why_ru": "Верно: всё перечисленное. Сварочный ток в кабелях создаёт вокруг них электромагнитное поле (EMF); сильнее всего оно вплотную к кабелям и внутри петли. Три названных приёма — стандартные правила по EMF из руководств к сварочным машинам. Прокладывать electrode cable и work cable вместе (скотчем или стяжками рядом): ток идёт по одному и возвращается по другому, и их поля в основном гасят друг друга. Никогда не обматывать кабель electrode вокруг тела: витки замыкают поле вокруг тебя; OSHA 1910.254(d)(8) тоже говорит, что сварщик не должен обматывать electrode cable вокруг частей тела. Не становиться между electrode cable и work cable: оба кабеля держать с одной стороны, иначе стоишь в поле между ними. Каждый из трёх приёмов верен сам по себе, поэтому полный ответ — все.\n\nДальше те же правила: work clamp ставить как можно ближе к шву и не работать вплотную к источнику питания. Сварщику с pacemaker или insulin pump до сварки нужно спросить врача — EMF и high frequency могут на них влиять.\n\nКак применять: вопросы про EMF держатся на одной идее — два кабеля вместе, а тело в стороне и вне сварочной цепи. Если каждый вариант — верное правило безопасности, ответ «All of the above».",
+  "flag": null
+ },
+ {
+  "src": "Y2W1H",
+  "n": 10,
+  "topic": "safety",
+  "ru_q": "Что нужно делать, чтобы избежать удара электрическим током?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Касаться частей под напряжением голой кожей или в мокрой одежде.",
+   "Варить, стоя в воде.",
+   "Подключать изделие (свариваемый металл) к надёжному электрическому заземлению.",
+   "Работать с ослабленным соединением или перетёртым шнуром."
+  ],
+  "why_en": "Right: ground the work or metal to be welded to a good electrical ground. This is one of the electric-shock rules printed in the safety section of welding machine manuals: when the workpiece is connected to earth ground, a fault cannot leave it sitting at a dangerous voltage. Know the difference: the work clamp completes the welding circuit and is not the safety ground. The machine itself is grounded through its primary (input) power connection, and the work or the welding table gets its own good ground.\n\nThe other three are exactly what the shock rules forbid. \"Touch hot parts with bare skin or wet clothing\": \"hot\" means electrically live; dry skin and dry gloves are your insulation, wet skin or clothing conducts. \"Weld while standing in water\" puts your body into the path to ground. \"Use a loose connection or a frayed cord\": frayed insulation exposes a live conductor, and loose connections overheat. In damp places stand on a dry insulating mat or boards, keep gloves and clothing dry, and replace damaged cables.\n\nHow to use this: in \"avoid electric shock\" questions the right answer is the one that insulates you (dry gloves, clothing, mats) or grounds the equipment and work; anything with water, wet clothing, bare skin, loose connections or frayed cables is wrong.",
+  "why_ru": "Верно: подключать изделие (свариваемый металл) к надёжному электрическому заземлению. Это одно из правил против электрошока из раздела безопасности руководств к сварочным машинам: если изделие соединено с землёй, при неисправности на нём не останется опасного напряжения. Важно различать: work clamp замыкает сварочную цепь и защитным заземлением не является. Сама машина заземляется через подключение питания (primary), а изделие или сварочный стол получают своё надёжное заземление.\n\nОстальные три — ровно то, что правила запрещают. «Касаться частей под напряжением голой кожей или в мокрой одежде»: «hot parts» — части под напряжением; сухая кожа и сухие перчатки — твоя изоляция, мокрая кожа или одежда проводит ток. «Варить, стоя в воде» — тело становится путём тока в землю. «Ослабленное соединение или перетёртый шнур»: из-под перетёртой изоляции видна жила под напряжением, а ослабленное соединение греется. В сырых местах стоять на сухом изолирующем коврике или досках, перчатки и одежда сухие, повреждённые кабели менять.\n\nКак применять: в вопросах «как избежать удара током» верный ответ тот, что изолирует тебя (сухие перчатки, одежда, коврик) или заземляет оборудование и изделие; всё, где есть вода, мокрая одежда, голая кожа, ослабленные соединения или перетёртые кабели, — неверно.",
+  "flag": null
+ },
+ {
+  "src": "Y2W1H",
+  "n": 11,
+  "topic": "safety",
+  "ru_q": "Когда на баллон с защитным газом надевают колпак?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Перед установкой регулятора.",
+   "Когда его перемещают.",
+   "Только когда баллон полный.",
+   "Только когда баллон пустой."
+  ],
+  "why_en": "Right: when moving it. The valve protection cap guards the cylinder valve, the weak point of a high-pressure cylinder: if a full cylinder falls and the valve snaps off, the escaping gas can turn the cylinder into a projectile. OSHA 1926.350(a)(6): unless the cylinder is firmly secured on a special carrier made for it, regulators must be removed and valve protection caps put in place before cylinders are moved; 1926.350(a)(1): valve protection caps shall be in place and secured. Washington's WAC 296-155-400 says the same. The cap also stays on in storage and whenever no regulator is attached.\n\n\"Before attaching a regulator\" is backwards: the cap has to come off before the regulator can go on. \"Only when the cylinder is full\" and \"Only when the cylinder is empty\" are wrong because of the word \"only\": the cap is required for moving whether the cylinder is full or empty, and an \"empty\" cylinder still holds some pressure.\n\nHow to use this: cylinder questions — cap on for moving and storage (full or empty), regulator off before moving, cylinders upright and chained, valve closed when the job is done or the cylinder is moved, stand to the side when you open the valve. An option with \"only\" is usually the trap.",
+  "why_ru": "Верно: когда его перемещают. Колпак защищает вентиль — слабое место баллона высокого давления: если полный баллон упадёт и вентиль отломится, вырывающийся газ может превратить баллон в снаряд. OSHA 1926.350(a)(6): если баллон не закреплён на специальной тележке для этого, перед перемещением регулятор снимают и надевают колпак; 1926.350(a)(1): колпаки должны быть на месте и закреплены. В Washington WAC 296-155-400 требует то же самое. Колпак стоит и при хранении, и всегда, когда регулятор не установлен.\n\n«Перед установкой регулятора» — наоборот: чтобы поставить регулятор, колпак снимают. «Только когда баллон полный» и «Только когда баллон пустой» неверны из-за слова «только»: при перемещении колпак нужен и на полном, и на пустом баллоне, а в «пустом» баллоне всё равно остаётся давление.\n\nКак применять: вопросы про баллоны — колпак при перемещении и хранении (полный или пустой), регулятор снять перед перемещением, баллоны стоят вертикально и закреплены цепью, вентиль закрыт, когда работа закончена или баллон перемещают, открывая вентиль, стоять сбоку. Вариант со словом «только» — обычно ловушка.",
+  "flag": null
+ },
+ {
+  "src": "Y2W1H",
+  "n": 12,
+  "topic": "welding",
+  "ru_q": "Что из перечисленного обязательно нужно делать, чтобы drive rolls работали правильно?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Чистить канавки раз в год.",
+   "Проверять канавки на чрезмерный износ.",
+   "Перетягивать при установке.",
+   "Всё перечисленное."
+  ],
+  "why_en": "Right: check grooves for excess wear. The drive rolls in the wire feeder grip the wire in their grooves and push it through the gun liner to the contact tip. A worn groove loses its grip, the wire slips, and the feed becomes erratic — the arc stutters and the wire can burn back to the tip. So the grooves are checked regularly and the rolls replaced when worn. The groove must also match the wire: the right size for the wire diameter, a V-groove for solid steel wire, a U-groove for soft aluminum wire, a knurled groove for flux-cored wire.\n\n\"Clean grooves once a year\": cleaning is right, but once a year is far too seldom — shavings from the wire build up in the grooves and the liner, so they are cleaned whenever the wire is changed or dirt shows. \"Over-tighten when installing\": tension should be just enough to feed the wire without slipping; too much flattens and shaves the wire, clogs the liner, causes birdnesting and wears the rolls and the motor. \"All of the above\" is wrong because two of the options are wrong.\n\nHow to use this: for wire-feed questions think of the whole feed path — spool brake, drive rolls (right groove and size, correct tension, not worn), liner, contact tip. \"Over-tighten\" and a fixed long interval like \"once a year\" are distractors; \"All of the above\" is right only when every option is right.",
+  "why_ru": "Верно: проверять канавки на чрезмерный износ. Drive rolls в wire feeder зажимают проволоку в канавках и проталкивают её через liner горелки к contact tip. Изношенная канавка не держит проволоку, та проскальзывает, подача становится рваной — дуга «спотыкается», проволока может прогореть до tip. Поэтому канавки регулярно проверяют, а изношенные ролики меняют. Канавка должна подходить к проволоке: по диаметру, V-канавка для сплошной стальной проволоки, U-канавка для мягкой алюминиевой, насечка (knurled) для flux-cored.\n\n«Чистить канавки раз в год»: чистить нужно, но раз в год — слишком редко; стружка с проволоки копится в канавках и в liner, поэтому их чистят при каждой смене проволоки или когда видна грязь. «Перетягивать при установке»: прижим ставят ровно такой, чтобы проволока подавалась без проскальзывания; перетяг сплющивает и строгает проволоку, забивает liner, даёт birdnesting (спутывание проволоки) и изнашивает ролики и мотор. «Всё перечисленное» неверно, потому что два варианта неверны.\n\nКак применять: в вопросах про подачу проволоки думай обо всём пути — тормоз катушки, drive rolls (нужная канавка и размер, правильный прижим, не изношены), liner, contact tip. «Перетянуть» и длинный фиксированный срок вроде «раз в год» — отвлекающие варианты; «All of the above» верен, только если верен каждый вариант.",
+  "flag": "Typo in the original question kept verbatim: \"to to perform\"."
+ },
+ {
+  "src": "Y2W1H",
+  "n": 13,
+  "topic": "welding",
+  "ru_q": "Gas Metal Arc Welding также называют:",
+  "ru_hint": null,
+  "ru_opts": [
+   "Stick welding",
+   "Soldering",
+   "Flux core welding",
+   "Mig welding"
+  ],
+  "why_en": "Right: MIG welding. GMAW (gas metal arc welding) is called MIG — metal inert gas: a solid wire electrode is fed continuously through the gun, and shielding gas from a cylinder protects the weld. When the gas is active (CO2 or argon-CO2 mixes) the exact name is MAG, metal active gas, but in the shop it is all called MIG.\n\nStick welding is SMAW (shielded metal arc welding): a flux-coated rod on a constant-current machine, no gas cylinder. Flux core welding is FCAW (flux cored arc welding): it runs on the same kind of wire-feed CV machine, but the wire is tubular with flux inside, and it is a separate process — self-shielded (no gas) or gas-shielded. Soldering is not arc welding at all: a filler metal that melts below 840°F (450°C) joins parts without melting the base metal; above 840°F it is brazing.\n\nHow to use this: learn process names in pairs — SMAW = stick, GMAW = MIG/MAG, FCAW = flux core, GTAW = TIG. The words in the name tell the shielding: \"shielded metal\" = flux on the rod, \"gas metal\" = gas plus a metal wire, \"flux cored\" = flux inside the wire, \"gas tungsten\" = gas plus a tungsten electrode that does not melt.",
+  "why_ru": "Верно: Mig welding. GMAW (gas metal arc welding) называют MIG — metal inert gas: сплошная проволока-electrode непрерывно подаётся через горелку, а шов защищает газ из баллона. Если газ активный (CO2 или смеси аргон-CO2), точное название — MAG, metal active gas, но в цеху всё это зовут MIG.\n\nStick welding — это SMAW (shielded metal arc welding): electrode с покрытием из flux на машине constant current, без баллона с газом. Flux core welding — это FCAW (flux cored arc welding): работает на такой же машине CV с подачей проволоки, но проволока трубчатая с flux внутри, и это отдельный процесс — самозащитный (без газа) или с газом. Soldering — вообще не дуговая сварка: припой, который плавится ниже 840°F (450°C), соединяет детали без расплавления основного металла; выше 840°F это уже brazing.\n\nКак применять: учи названия процессов парами — SMAW = stick, GMAW = MIG/MAG, FCAW = flux core, GTAW = TIG. Слова в названии говорят о защите: «shielded metal» — flux на electrode, «gas metal» — газ плюс металлическая проволока, «flux cored» — flux внутри проволоки, «gas tungsten» — газ плюс вольфрамовый electrode, который не плавится.",
+  "flag": null
+ },
+ {
+  "src": "Y2W1H",
+  "n": 14,
+  "topic": "welding",
+  "ru_q": "Какая проволока хорошо подходит для большинства mild (низкоуглеродистых) и низколегированных сталей?",
+  "ru_hint": null,
+  "ru_opts": [
+   "ER70S-2",
+   "ER70S-6",
+   "ER70S-3",
+   "ER70S-1"
+  ],
+  "why_en": "Right: ER70S-3. It is the general-purpose solid wire for clean mild steel and low-alloy steel: moderate silicon and manganese, runs on CO2, argon-CO2 or argon-oxygen mixes, and is sold both as MIG wire and as TIG rod. In AWS A5.18 the name reads ER (electrode or rod) – 70 (70,000 psi minimum tensile strength) – S (solid) – 3 (the chemical composition).\n\nThe other options are the same 70,000 psi mild-steel family; only the last digit, the chemistry, changes. ER70S-6 has the most silicon and manganese — extra deoxidizers to weld through mill scale and light rust and to run on 100% CO2; it is the wire you will see most often on shop spools, but the classic description \"works well with most mild and low alloy steel\" belongs to ER70S-3. ER70S-2 is triple-deoxidized (aluminum, titanium and zirconium added) for rusty or dirty steel and is widely used as TIG rod for root passes. ER70S-1 is not among the wires you normally meet (the common ones are -2, -3 and -6); here it is the distractor.\n\nHow to use this: every ER70S wire is 70,000 psi solid mild-steel wire, and only the last digit (chemistry) changes. Remember: -3 = general purpose on clean steel, -6 = most deoxidizers (scaly or dirty steel, CO2), -2 = triple deoxidized (rusty steel, TIG roots). The last digit is never a welding position.",
+  "why_ru": "Верно: ER70S-3. Это проволока общего назначения для чистой mild steel и низколегированной стали: умеренно кремния и марганца, работает на CO2, смесях аргон-CO2 или аргон-кислород, продаётся и как проволока MIG, и как пруток TIG. В обозначении AWS A5.18: ER (electrode или rod) – 70 (минимальный tensile strength 70,000 psi) – S (solid, сплошная) – 3 (химический состав).\n\nОстальные варианты — то же семейство mild steel на 70,000 psi; меняется только последняя цифра, химия. У ER70S-6 больше всего кремния и марганца — лишние раскислители, чтобы варить по окалине (mill scale) и лёгкой ржавчине и работать на 100% CO2; в цеху её катушки встретишь чаще всего, но классическое описание «works well with most mild and low alloy steel» относится к ER70S-3. ER70S-2 — трижды раскислённая (добавлены алюминий, титан и цирконий) для ржавой или грязной стали и широко идёт как пруток TIG для корневых проходов. ER70S-1 среди обычных проволок не встречается (ходовые — -2, -3 и -6); здесь это отвлекающий вариант.\n\nКак применять: любая проволока ER70S — сплошная проволока для mild steel на 70,000 psi, меняется только последняя цифра (химия). Запомни: -3 — общего назначения по чистой стали, -6 — больше всего раскислителей (окалина, грязь, CO2), -2 — трижды раскислённая (ржавчина, корень TIG). Последняя цифра — никогда не положение сварки.",
+  "flag": "Not a formal dispute: ER70S-6 also welds most mild steel and is the most sold wire today, but the question uses the textbook descriptor of ER70S-3; explanation says so. ER70S-1: no current source describes it, so the explanation only says it is not among the common wires."
+ },
+ {
+  "src": "Y2W1H",
+  "n": 15,
+  "topic": "welding",
+  "ru_q": "Какой защитный газ хорошо подходит для проволоки ER70S-6?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Аргон",
+   "Кислород",
+   "Углекислый газ",
+   "Гелий"
+  ],
+  "why_en": "Right: carbon dioxide. ER70S-6 has the most silicon and manganese of the common ER70S wires; these deoxidizers tie up the oxygen that CO2 releases when it breaks down in the arc, so the wire runs well on 100% CO2 — the cheapest gas, with deep penetration but more spatter. In the shop the same wire often runs on 75% argon / 25% CO2 (C25) for a smoother arc and less spatter; among these single gases the answer is CO2.\n\nArgon alone is the gas for aluminum MIG and for TIG; on steel with GMAW pure argon gives an unstable arc and a narrow, poorly wetted bead, so steel needs CO2 or a little oxygen added. Oxygen is never used as a shielding gas by itself — it would burn the weld; only 1–5% is added to argon for spray transfer. Helium is an inert gas that makes a hotter arc; it is used, usually mixed with argon, on thick aluminum, copper and stainless, and it is expensive — not a gas for mild-steel wire.\n\nHow to use this: match the gas to the metal — mild steel → CO2 or argon-CO2 (C25); aluminum → pure argon (helium added for thick parts); TIG → argon. Inert gases (argon, helium) shield without reacting; active gases (CO2, O2) take part in the arc, and the wire needs deoxidizers to handle them.",
+  "why_ru": "Верно: углекислый газ (CO2). У ER70S-6 больше всего кремния и марганца среди обычных проволок ER70S; эти раскислители связывают кислород, который выделяется, когда CO2 разлагается в дуге, поэтому проволока хорошо работает на 100% CO2 — самом дешёвом газе, с глубоким проплавлением, но с большим разбрызгиванием. В цеху ту же проволоку часто ведут на 75% аргона / 25% CO2 (C25) — дуга мягче, брызг меньше; среди этих отдельных газов ответ — CO2.\n\nЧистый аргон — газ для MIG по алюминию и для TIG; на стали в GMAW чистый аргон даёт неустойчивую дугу и узкий, плохо растекающийся валик, поэтому для стали к нему добавляют CO2 или немного кислорода. Кислород сам по себе защитным газом не бывает — он сжёг бы шов; его добавляют к аргону только 1–5% для spray transfer. Гелий — инертный газ, который даёт более горячую дугу; его используют, обычно в смеси с аргоном, на толстом алюминии, меди и нержавейке, и он дорогой — не газ для проволоки по mild steel.\n\nКак применять: газ подбирают по металлу — mild steel → CO2 или аргон-CO2 (C25); алюминий → чистый аргон (на толстом добавляют гелий); TIG → аргон. Инертные газы (аргон, гелий) защищают, не вступая в реакцию; активные (CO2, O2) участвуют в дуге, и проволоке нужны раскислители, чтобы с ними справиться.",
+  "flag": null
+ },
+ {
+  "src": "Y2W1H",
+  "n": 16,
+  "topic": "welding",
+  "ru_q": "Какие из этих газов инертные?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Аргон",
+   "Кислород",
+   "Углекислый газ",
+   "Гелий"
+  ],
+  "why_en": "Right: argon and helium. Both are noble (inert) gases: their outer electron shells are full, so they do not react with the molten weld pool even at arc temperature. That is why they shield GMAW on aluminum and GTAW (TIG): argon for most work, helium (often mixed with argon) for a hotter arc on thick aluminum and copper. Argon is about 1.38 times as heavy as air and blankets the weld well; helium is only about 0.14 times as heavy as air, rises away and needs a higher flow.\n\nOxygen is not inert: it supports combustion and oxidizes hot metal; in welding only a few percent (1–5%) is added to argon to stabilize the arc on steel. Carbon dioxide is an active gas: in the arc it breaks down into carbon monoxide and oxygen, which is why welding with CO2 or argon-CO2 mixes is strictly MAG (metal active gas) and why the wire needs deoxidizers.\n\nHow to use this: inert = argon and helium (noble gases, the right-hand column of the periodic table); the other shielding gases, CO2 and O2, are active. The I in \"MIG\" stands for inert, but on steel the gas is usually active. Questions about which gas does not react, or which is used for aluminum or TIG, point to argon (and helium).",
+  "why_ru": "Верно: аргон и гелий. Оба — благородные (инертные) газы: внешняя электронная оболочка у них заполнена, поэтому даже при температуре дуги они не реагируют со сварочной ванной. Поэтому ими защищают GMAW по алюминию и GTAW (TIG): аргоном — большинство работ, гелием (часто в смеси с аргоном) — когда нужна более горячая дуга на толстом алюминии и меди. Аргон примерно в 1.38 раза тяжелее воздуха и хорошо укрывает шов; гелий — всего около 0.14 от веса воздуха, улетает вверх, и расход нужен больше.\n\nКислород не инертный: он поддерживает горение и окисляет горячий металл; в сварке его добавляют к аргону лишь несколько процентов (1–5%), чтобы стабилизировать дугу на стали. Углекислый газ — активный: в дуге он разлагается на угарный газ и кислород, поэтому сварка в CO2 или смесях аргон-CO2 строго называется MAG (metal active gas), и проволоке нужны раскислители.\n\nКак применять: инертные — аргон и гелий (благородные газы, правый столбец таблицы Менделеева); остальные защитные газы, CO2 и O2, — активные. Буква I в «MIG» значит inert, но на стали газ обычно активный. Вопросы о том, какой газ не реагирует или какой идёт для алюминия и TIG, — это аргон (и гелий).",
+  "flag": null
+ },
+ {
+  "src": "Y2W1H",
+  "n": 17,
+  "topic": "safety",
+  "ru_q": "Можно обмотать electrode lead вокруг тела, чтобы было удобнее дотянуться до места сварки.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "No. OSHA 1910.254(d)(8): \"The welder should not coil or loop welding electrode cable around parts of his body.\" Two reasons. EMF: a coil concentrates the electromagnetic field of the welding current right against your body. Shock and snag: if the insulation is damaged you have a live conductor wrapped around you, and if the cable is pulled or caught, it drags you with it. For better access, move the wire feeder or machine closer or use a longer lead of the right size; keep the electrode and work leads together, beside you.\n\nNothing makes the opposite true: no job allows coiling the lead on your body. A related rule for the cable itself: a coiled welding cable must be spread out before use, because a coil overheats and damages the insulation (1910.254(d)(2)).\n\nHow to use this: cable-and-body questions have one rule — leads together, beside you, never wrapped around you and never with your body between them. \"For convenience\" or \"for better access\" never justifies breaking a safety rule; that wording is a sign the answer is No.",
+  "why_ru": "Нет. OSHA 1910.254(d)(8): сварщик не должен обматывать или закидывать петлёй electrode cable вокруг частей тела. Причины две. EMF: витки собирают электромагнитное поле сварочного тока прямо на теле. Удар током и рывок: если изоляция повреждена, на тебе намотана жила под напряжением, а если кабель дёрнут или он за что-то зацепится, он потащит тебя за собой. Чтобы было удобнее, подвинь wire feeder или машину ближе либо возьми более длинный кабель нужного сечения; electrode lead и work lead держи вместе, рядом с собой.\n\nОбратного случая нет: ни на какой работе обматывать кабель на себя нельзя. Смежное правило для самого кабеля: смотанный в бухту сварочный кабель перед работой раскладывают, иначе бухта перегревается и портит изоляцию (1910.254(d)(2)).\n\nКак применять: в вопросах «кабель и тело» одно правило — кабели вместе, рядом с тобой, никогда не обмотаны вокруг тебя и никогда не по обе стороны от тебя. «Для удобства» или «чтобы лучше достать» никогда не оправдывает нарушение правила безопасности; такая формулировка — признак, что ответ «Нет».",
+  "flag": "Typo in the original question kept verbatim: \"okay to to coil\"."
+ },
+ {
+  "src": "Y2W1H",
+  "n": 18,
+  "topic": "safety",
+  "ru_q": "При сварке GMAW стоять на мокрой поверхности — плохая практика.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "Yes — the statement is true: you should not stand on wet surfaces while welding. Water conducts electricity and makes your body part of the circuit: with wet boots on a wet floor, touching the wire, the gun or any live part gives the current an easy path through you to ground. GMAW output voltage is lower than the primary, but it is still enough to shock a wet person. In damp places stand on a dry rubber mat or dry boards, wear dry gloves and boots, and use a DC machine or one with reduced-voltage control rather than an AC welder.\n\nThe answer would be No only if the sentence claimed the opposite (that standing on wet surfaces is fine). Read the negative carefully: \"it is not a good practice\" + Yes = you agree it is bad.\n\nHow to use this: water + electricity = shock, in every welding process; any option or statement that puts you in water, on a wet surface or in wet clothing is unsafe. In Yes/No items with \"not\", first decide whether the sentence as written is true, then answer Yes if it is.",
+  "why_ru": "Да — утверждение верное: стоять на мокрой поверхности во время сварки нельзя. Вода проводит ток и делает тело частью цепи: в мокрой обуви на мокром полу любое касание проволоки, горелки или части под напряжением даёт току лёгкий путь через тебя в землю. Выходное напряжение GMAW ниже, чем primary, но мокрого человека оно ударит. В сырых местах стоять на сухом резиновом коврике или сухих досках, перчатки и обувь сухие, и брать машину DC или с понижением напряжения (reduced-voltage control), а не AC welder.\n\nОтвет «Нет» был бы верным, только если бы утверждение говорило обратное (что стоять на мокром — нормально). Читай отрицание внимательно: «it is not a good practice» + «Да» = ты согласен, что это плохо.\n\nКак применять: вода + электричество = удар током в любом процессе сварки; любой вариант или утверждение, где ты в воде, на мокрой поверхности или в мокрой одежде, — опасно. В вопросах «Да/Нет» с «not» сначала реши, верно ли утверждение как написано, и отвечай «Да», если верно.",
+  "flag": null
+ },
+ {
+  "src": "Y2W1H",
+  "n": 19,
+  "topic": "safety",
+  "ru_q": "Раз primary power (питание машины) постоянное, знать, где находится disconnect, не нужно.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "No. You must always know where the disconnect is. Constant primary power is exactly the danger: the machine is fed continuously with high-voltage input power, and the only fast way to cut it in an emergency (a person being shocked, a fire, a burning lead, a smoking machine) is the disconnect switch at or near the machine — OSHA 1910.254(c)(3)(i) requires one at or near each welding machine. Find it before you start welding; it is also where the machine is locked out for maintenance.\n\nNothing makes the opposite true: constant, steady or intermittent, the reason to know the disconnect is to stop the power when something goes wrong.\n\nHow to use this: any statement that you do not need to know where a shut-off, extinguisher, exit or eyewash is because something is \"constant\", \"safe\" or \"automatic\" is false. Emergency controls are located before work starts.",
+  "why_ru": "Нет. Где находится disconnect, нужно знать всегда. Постоянное primary-питание — как раз и есть опасность: машина всё время под высоким входным напряжением, и единственный быстрый способ отключить его в аварии (человека бьёт током, пожар, горит кабель, дымит машина) — рубильник у машины; OSHA 1910.254(c)(3)(i) требует его «at or near each welding machine». Найди его до начала сварки; на нём же машину запирают (lockout) для обслуживания.\n\nОбратного случая нет: постоянное питание, ровное или с перерывами — disconnect знают, чтобы отключить питание, когда что-то пошло не так.\n\nКак применять: любое утверждение, что можно не знать, где отключение, огнетушитель, выход или eyewash, потому что что-то «постоянное», «безопасное» или «автоматическое», — ложное. Аварийные средства находят до начала работы.",
+  "flag": null
+ },
+ {
+  "src": "Y2W1H",
+  "n": 20,
+  "topic": "safety",
+  "ru_q": "Достаточная ли защита — выключить питание на disconnect, когда выполняешь плановое обслуживание сварочного оборудования?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "No. Switching the disconnect off is the first step, but by itself it is not adequate: someone else can switch it back on while your hands are inside the machine. Servicing needs lockout/tagout — turn it off at the disconnect, put your own lock and tag on it, then verify the machine is dead before you start (OSHA 1910.147; in Washington chapter 296-803 WAC). Inverter power sources also store energy in capacitors that stay charged after the power is off; the manual says how long to wait and how to check that they have discharged — stored energy is part of lockout (WAC 296-803-50025). For a cord-and-plug machine, unplugging it and keeping the plug under your own control does the same job.\n\nThe answer would be Yes only if the question asked whether turning off the power is required — it is required, just not enough by itself.\n\nHow to use this: \"is X adequate / enough protection\" for maintenance on powered equipment → No, unless X is full lockout/tagout: off + lock + tag + verify zero energy (including stored energy). Turning off alone, or lowering a setting, never counts.",
+  "why_ru": "Нет. Выключить disconnect — первый шаг, но одного его мало: кто-то другой может включить рубильник, пока у тебя руки внутри машины. Для обслуживания нужен lockout/tagout — выключить на disconnect, повесить свой замок и бирку, затем проверить, что машина обесточена, и только потом начинать (OSHA 1910.147; в Washington — глава 296-803 WAC). У инверторных источников энергия ещё и запасена в конденсаторах, которые остаются заряженными после отключения; в руководстве сказано, сколько ждать и как проверить, что они разрядились, — запасённая энергия входит в lockout (WAC 296-803-50025). Для машины с вилкой то же самое делает вынутая вилка, которая остаётся у тебя под контролем.\n\nОтвет «Да» был бы верным, только если бы спрашивали, нужно ли выключать питание, — нужно, но этого одного недостаточно.\n\nКак применять: «достаточна ли защита X» при обслуживании оборудования под питанием → «Нет», если X — не полный lockout/tagout: выключить + замок + бирка + проверить отсутствие энергии (включая запасённую). Просто выключить или убавить настройку — никогда не достаточно.",
+  "flag": null
+ },
+ {
+  "src": "Y2W1H",
+  "n": 21,
+  "topic": "welding",
+  "ru_q": "Сварочный кабель (weld lead) от wire feeder подключается к клемме Positive (+) источника питания.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "Yes. GMAW with solid wire runs on DCEP (direct current electrode positive, reverse polarity): the weld lead that carries current to the wire feeder — and through it to the gun, contact tip and wire — goes to the positive terminal, and the work lead with the work clamp goes to negative. DCEP gives a stable short-circuit or spray arc, good penetration and less spatter with solid wire.\n\nThe opposite is true for self-shielded flux-cored wire (FCAW-S, for example E71T-11 or E71T-GS): most of these run DCEN (direct current electrode negative, straight polarity), so the feeder lead goes to negative and the work lead to positive. Always check the polarity printed on the wire spool or in the maker's specification, and swap leads only with the machine off.\n\nHow to use this: polarity is named by the electrode — DCEP = electrode (gun or stick holder) on +, work on −, called reverse; DCEN = electrode on −, called straight. GMAW solid wire = DCEP almost always; self-shielded flux core = mostly DCEN; stick depends on the rod (E6010 = DCEP only).",
+  "why_ru": "Да. GMAW сплошной проволокой работает на DCEP (direct current electrode positive, reverse polarity): weld lead, который подаёт ток на wire feeder, а через него на горелку, contact tip и проволоку, идёт на плюс, а work lead с work clamp — на минус. DCEP со сплошной проволокой даёт устойчивую дугу (short circuit или spray), хороший провар и меньше брызг.\n\nОбратное верно для самозащитной flux-cored проволоки (FCAW-S, например E71T-11 или E71T-GS): большинство таких проволок идут на DCEN (direct current electrode negative, straight polarity), поэтому кабель от feeder — на минус, а work lead — на плюс. Полярность всегда сверяй с надписью на катушке или в паспорте проволоки, а кабели переставляй только на выключенной машине.\n\nКак применять: полярность называют по electrode — DCEP = electrode (горелка или holder) на «+», изделие на «−», это reverse; DCEN = electrode на «−», это straight. GMAW сплошной проволокой — почти всегда DCEP; самозащитная flux core — в основном DCEN; stick — по electrode (E6010 — только DCEP).",
+  "flag": null
+ },
+ {
+  "src": "Y2W1H",
+  "n": 22,
+  "topic": "welding",
+  "ru_q": "GMAW использует источник питания constant current (CC)?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "No. GMAW uses a constant voltage (CV) power source. On a CV machine you set the voltage, which sets the arc length, and the wire feed speed sets the amperage. The arc regulates itself: if your stick-out gets longer the current drops and the wire burns off more slowly, if it gets shorter the current jumps and burns the wire back, so the arc length stays steady while the wire feeds at a constant speed.\n\nConstant current (CC) is the machine for SMAW (stick) and GTAW (TIG): there the welder holds the arc length by hand, and the machine keeps the amperage nearly constant when the arc length changes. The statement would be true only for those processes. Multi-process machines are marked CC/CV, and you select the mode for the process.\n\nHow to use this: wire processes (GMAW, FCAW) = CV: volts → arc length, wire feed speed → amps. Hand-held electrode processes (SMAW, GTAW) = CC: you set the amps. Any statement pairing GMAW with constant current, or SMAW with constant voltage, is false.",
+  "why_ru": "Нет. GMAW использует источник constant voltage (CV). На машине CV выставляют напряжение — оно задаёт длину дуги, а скорость подачи проволоки (wire feed speed) задаёт ток. Дуга сама себя регулирует: если вылет проволоки (stick-out) становится длиннее, ток падает и проволока горит медленнее, если короче — ток растёт и сжигает проволоку, поэтому длина дуги остаётся ровной, пока проволока подаётся с постоянной скоростью.\n\nConstant current (CC) — машина для SMAW (stick) и GTAW (TIG): там длину дуги держит рука сварщика, а машина держит ток почти постоянным, когда длина дуги меняется. Утверждение было бы верным только для этих процессов. Многопроцессные машины помечены CC/CV, режим выбирают под процесс.\n\nКак применять: процессы с проволокой (GMAW, FCAW) = CV: вольты → длина дуги, wire feed speed → амперы. Процессы с electrode в руке (SMAW, GTAW) = CC: выставляешь амперы. Любое утверждение, где GMAW стоит с constant current или SMAW — с constant voltage, ложное.",
+  "flag": null
+ },
+ {
+  "src": "Y2W1H",
+  "n": 23,
+  "topic": "safety",
+  "ru_q": "Назовите четыре предмета PPE.",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "Model answer — any four of: high-top boots, clothing made of natural fiber / flame-treated fabric / leather, welding gloves, earplugs, welding goggles or shield (helmet), safety glasses, leather apron, welding cap. The typed answer is checked for coverage: something for the eyes/face/head, something for the hands, and something for the body, feet or ears.\n\nWhy each item: the helmet or shield with a filter lens (#10 most common) protects eyes and face from arc rays and spatter; safety glasses go under it, because the hood comes up to chip and grind; welding gloves (leather gauntlets) insulate against heat, spatter and shock; clothing of wool, flame-treated cotton or leather — not nylon or polyester, which melt and stick to the skin; a leather apron or jacket for heavy spatter and out-of-position work; high-top boots so sparks cannot fall inside (pant legs over the boots, no cuffs); earplugs against noise and against sparks entering the ear canal, especially overhead; a welding cap to keep sparks off the head and hair.\n\nHow to use this: build PPE lists head to toe — head (cap), eyes and face (helmet, safety glasses), ears (plugs), hands (gloves), body (flame-resistant or natural-fiber clothing, leather apron or jacket), feet (high-top boots). Synthetic fabrics, cuffs, open pockets and low shoes are always wrong for welding.",
+  "why_ru": "Образцовый ответ — любые четыре из: высокие ботинки (high-top boots), одежда из натуральной ткани / с огнестойкой пропиткой / из кожи, сварочные перчатки, беруши, сварочные очки или щиток (шлем), защитные очки (safety glasses), кожаный фартук, сварочная шапочка (welding cap). Введённый ответ проверяется на охват: что-то для глаз/лица/головы, что-то для рук и что-то для тела, ног или ушей.\n\nЗачем каждое: шлем или щиток со светофильтром (#10 — самый распространённый) защищает глаза и лицо от излучения дуги и брызг; safety glasses — под шлемом, потому что маску поднимают, чтобы отбить шлак и шлифовать; сварочные перчатки (кожаные краги) защищают от жара, брызг и тока; одежда из шерсти, хлопка с огнестойкой пропиткой или кожи — не nylon и не polyester, они плавятся и прилипают к коже; кожаный фартук или куртка — от сильных брызг и при сварке в неудобных положениях; высокие ботинки — чтобы искры не падали внутрь (штанины поверх ботинок, без отворотов); беруши — от шума и от искр в ушном канале, особенно над головой; welding cap — чтобы искры не падали на голову и волосы.\n\nКак применять: список PPE собирай сверху вниз — голова (шапочка), глаза и лицо (шлем, safety glasses), уши (беруши), руки (перчатки), тело (огнестойкая или натуральная одежда, кожаный фартук или куртка), ноги (высокие ботинки). Синтетика, отвороты на штанах, открытые карманы и низкая обувь для сварки всегда неверны.",
+  "flag": "Open list question on the original (4 pts); made a typed answer: must hit three groups — eyes/face/head, hands, body/feet/ears (English and Russian words). Any four of the eight listed items would score on paper."
+ },
+ {
+  "src": "Y2W1H",
+  "n": 24,
+  "topic": "safety",
+  "ru_q": "Перед работой с оборудованием GMAW нужно проверить окружающую зону на следующее.",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "Model answer: aerosol cans, solvents, glues, rags, cardboard, paper, anything flammable — and fire extinguishers in two separate locations. The check has two halves, and the typed answer needs both: remove what can burn, and make sure you can put out a fire.\n\nSpatter and sparks fly much farther than people expect and land in cracks, rags and cardboard, which can smolder and flare up after you leave. Aerosol cans can burst when heated; solvents and glues give off flammable vapor; rags, cardboard and paper catch from a single spark. OSHA 1910.252(a)(2)(vii) and, in Washington, WAC 296-24-69503: where practicable, relocate all combustibles at least 35 feet from the work; what cannot be moved is covered or guarded. Fire-extinguishing equipment must be ready for instant use, and where a fire watch is required it stays at least 1/2 hour after welding. Extinguishers in two separate locations mean that if a fire blocks one, you can still reach the other.\n\nHow to use this: hot-work checks always cover the same list — combustibles out (35 ft) or covered, extinguishers ready (two locations), ventilation, the disconnect and the condition of the leads, people nearby protected (screens), a fire watch afterward. In list questions name concrete items like these rather than general words.",
+  "why_ru": "Образцовый ответ: аэрозольные баллончики, растворители, клеи, тряпки, картон, бумага, всё горючее — и огнетушители в двух разных местах. У проверки две половины, и в ответе нужны обе: убрать то, что может гореть, и убедиться, что пожар есть чем потушить.\n\nБрызги и искры летят намного дальше, чем кажется, и падают в щели, тряпки и картон, которые могут тлеть и вспыхнуть, когда ты уже ушёл. Аэрозольные баллончики при нагреве взрываются; растворители и клеи дают горючие пары; тряпки, картон и бумага загораются от одной искры. OSHA 1910.252(a)(2)(vii) и в Washington WAC 296-24-69503: где возможно, всё горючее убрать не ближе 35 ft от места работы; что нельзя убрать — укрыть или оградить. Средства пожаротушения должны быть готовы к немедленному применению, а где нужен fire watch, он остаётся не меньше 1/2 часа после сварки. Огнетушители в двух разных местах — чтобы, если огонь отрежет один, можно было добраться до другого.\n\nКак применять: проверка перед огневыми работами всегда одна и та же — горючее убрано (35 ft) или укрыто, огнетушители готовы (в двух местах), вентиляция, disconnect и состояние кабелей, люди рядом защищены (шторы), fire watch после. В вопросах-списках называй конкретные предметы, как эти, а не общие слова.",
+  "flag": "Open list question on the original (4 pts); made a typed answer: must name something flammable/combustible AND fire extinguishers (English and Russian words)."
+ },
+ {
+  "src": "Y2W1H",
+  "n": 25,
+  "topic": "welding",
+  "ru_q": "Перечислите четыре пункта, которые обязательно должны быть в maintenance schedule (графике обслуживания):",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "Model answer: manufacturer, model number, serial number, equipment number, items to be checked, date last checked, date of next service. They fall into two groups, and the typed answer is checked for both: which machine it is (manufacturer, model, serial and equipment number, so the record belongs to one specific machine) and what and when (items to be checked, date last checked, date of next service).\n\nWhy: manufacturer and model tell you which manual, parts and service intervals apply; the serial number and the company's equipment number tell two identical machines in the shop apart; the items to check (cables, gun, liner, contact tip, drive rolls, filters, fan) come from the owner's manual; the two dates show whether the machine is due — one past its next-service date is pulled for service.\n\nHow to use this: keep the maintenance documents apart — maintenance schedule = which machine + what to check + when (last and next); procedure checklist = the actual task, step by step; owner's manual = the maker's instructions that both are based on; maintenance program = the whole system.",
+  "why_ru": "Образцовый ответ: производитель, номер модели, серийный номер, инвентарный номер оборудования, что проверять, дата последней проверки, дата следующего обслуживания. Пункты делятся на две группы, и введённый ответ проверяется на обе: что это за машина (производитель, модель, серийный и инвентарный номер — чтобы запись относилась к одной конкретной машине) и что и когда (что проверять, дата последней проверки, дата следующего обслуживания).\n\nЗачем: производитель и модель говорят, какое руководство, запчасти и интервалы обслуживания применять; серийный номер и инвентарный номер компании различают две одинаковые машины в цеху; что проверять (кабели, горелка, liner, contact tip, drive rolls, фильтры, вентилятор) берут из owner's manual; две даты показывают, пора ли обслуживать, — машину с просроченной датой следующего обслуживания снимают на сервис.\n\nКак применять: различай документы обслуживания — maintenance schedule = какая машина + что проверять + когда (последний раз и следующий); procedure checklist = конкретная задача по шагам; owner's manual = указания производителя, на которых построены оба; maintenance program = вся система целиком.",
+  "flag": "Open list question on the original (4 pts); made a typed answer: must name machine identification (manufacturer/model/serial/equipment number) AND a date or check item (English and Russian words)."
+ },
+ {
+  "src": "Y2W1H",
+  "n": 26,
+  "topic": "welding",
+  "ru_q": "Какими двумя способами можно проверить утечки между вентилем баллона и solenoid valve в wire feeder?",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "Model answer: 1) apply a soapy water solution to the connections — bubbles show a leak; 2) pressurize the entire system, close the cylinder valve and watch the gauge — if the needle drops, gas is escaping somewhere between the cylinder valve and the solenoid valve.\n\nHow it works: the solenoid valve in the wire feeder opens only while you pull the trigger, so with the trigger released the regulator, hose and fittings form a closed section. Pressurize it, close the cylinder valve, and nothing should get out: a steady needle means the section is tight, a falling needle means a leak. Then brush soapy water (or a commercial leak detector) on the regulator inlet, the hose ends and every fitting to find exactly where. Never look for a gas leak with a flame.\n\nHow to use this: leak checks on any pressurized gas line use the same two methods — a pressure-hold test (isolate, pressurize, watch for a drop) tells you whether there is a leak, and soap bubbles tell you where. A gauge that drops with every valve closed always means a leak in that closed section.",
+  "why_ru": "Образцовый ответ: 1) нанести мыльный раствор на соединения — пузыри покажут утечку; 2) создать давление во всей системе, закрыть вентиль баллона и следить за манометром — если стрелка падает, газ уходит где-то между вентилем баллона и solenoid valve.\n\nКак это работает: solenoid valve в wire feeder открывается, только пока нажат курок, поэтому при отпущенном курке регулятор, шланг и фитинги — закрытый участок. Подаёшь давление, закрываешь вентиль баллона, и выйти газу некуда: стрелка стоит — участок герметичен, стрелка падает — есть утечка. Потом мыльным раствором (или готовым leak detector) проходишь вход регулятора, концы шланга и каждый фитинг, чтобы найти, где именно. Утечку газа никогда не ищут огнём.\n\nКак применять: утечки на любой газовой линии под давлением проверяют теми же двумя способами — опрессовка (отсечь, дать давление, смотреть, не падает ли) говорит, есть ли утечка, а мыльные пузыри — где она. Если при всех закрытых вентилях манометр падает, утечка в этом закрытом участке.",
+  "flag": "Open question on the original (2 pts); made a typed answer: must mention soap/bubbles AND the gauge/pressure drop (English and Russian words)."
+ },
+ {
+  "src": "Y2W1H",
+  "n": 27,
+  "topic": "welding",
+  "ru_q": "E - R - 70 - S - -3 - — расшифруйте каждую часть обозначения.",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "Model answer: E = electrode, R = rod, 70 = minimum tensile strength × 1000 psi (70 × 1000 = 70,000 psi), S = solid, 3 = chemical composition. This is the AWS A5.18 name of a mild-steel GMAW/GTAW filler metal, written ER70S-3.\n\nE and R together mean the same wire can be used two ways: as an electrode that carries the current and melts in the arc (MIG), or as a rod fed by hand into the puddle (TIG). 70 is the minimum tensile strength of the weld metal in thousands of psi (ksi). S means solid wire — as opposed to C for composite (metal-cored) wire and the T (tubular) in flux-cored names like E71T-1. The last digit is the chemistry group (how much carbon, manganese, silicon and other deoxidizers): -2, -3 and -6 are different wires of the same strength. The usual trap is reading the last digit as a welding position; position appears only in stick and flux-cored names (E7018: the 1 = all positions), never in ER70S.\n\nHow to use this: decode any AWS filler name left to right — the letters for the form (E electrode, R rod), the first two digits for strength in ksi (60 → 60,000 psi, 70 → 70,000 psi), then S, C or T for the wire type, and the last digit for chemistry (in stick rods like E7018 the third digit is position and the last one the coating and current). E7018, ER70S-6 and E71T-1 all read the same way.",
+  "why_ru": "Образцовый ответ: E = electrode, R = rod, 70 = минимальный tensile strength × 1000 psi (70 × 1000 = 70,000 psi), S = solid (сплошная), 3 = химический состав. Это обозначение AWS A5.18 присадочного металла для mild steel под GMAW/GTAW, пишется ER70S-3.\n\nE и R вместе значат, что одну и ту же проволоку можно использовать двумя способами: как electrode, который проводит ток и плавится в дуге (MIG), или как пруток, который подают рукой в ванну (TIG). 70 — минимальный tensile strength металла шва в тысячах psi (ksi). S — сплошная проволока, в отличие от C — composite (порошковая metal-cored) и T (tubular) в обозначениях flux-cored вроде E71T-1. Последняя цифра — группа химического состава (сколько углерода, марганца, кремния и других раскислителей): -2, -3 и -6 — разные проволоки одинаковой прочности. Обычная ловушка — принять последнюю цифру за положение сварки; положение есть только в обозначениях stick и flux-cored (E7018: 1 = все положения), в ER70S его нет.\n\nКак применять: любое обозначение присадки AWS читай слева направо — буквы о форме (E electrode, R rod), первые две цифры — прочность в ksi (60 → 60,000 psi, 70 → 70,000 psi), потом S, C или T — тип проволоки, последняя цифра — химия (у stick electrode вроде E7018 третья цифра — положение, последняя — покрытие и род тока). E7018, ER70S-6 и E71T-1 читаются одинаково.",
+  "flag": "Printed exactly as \"E - R - 70 - S - -3 -\" (double dash before 3, no question words); Russian adds \"decode each part\". Open question (5 pts); made a typed answer: all five parts must be named (English and Russian words)."
+ }
+]

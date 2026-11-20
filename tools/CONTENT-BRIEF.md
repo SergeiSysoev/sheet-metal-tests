@@ -54,9 +54,12 @@ ogee, trim joints, rise/run of duct systems), `fittings` (seams, connections, S&
 - **Do not give the answer away in Russian.** When a question tests knowing an English term or definition
   ("An angle less than 90° is a(n) ____ angle", "Symptoms that show up suddenly are ____ effects"), leave those
   term options in English with no Russian gloss, and keep the term in English in the question too.
-- **Explanations** (`why_en`, `why_ru`, same content): 1–4 short sentences. First the reason the correct answer is
-  correct; for calculations the formula and numbers; then, if useful, why the tempting wrong option is wrong
-  (trap: in² vs in³, ft-in vs decimal ft, the other acute angle, truncation instead of rounding…).
-  No filler, no "Great question", no references to "the key says" except for disputed items.
+- **Explanations** (`why_en`, `why_ru`, same content) must be exhaustive (owner, 2026-11-19): first why the correct answer is correct
+  (fact, standard with section, or the full calculation); then EVERY other option — what it actually is and where it is used in the
+  trade, and why it is not the answer here; for calculations, how each wrong option is produced (the trap). Yes/No: the full rule,
+  the reason, and what would make the opposite true. Usually 4–9 sentences, no filler. Name options by their text, never by letter
+  (the app shuffles options). No provenance notes ("sheet", "key says", other test numbers).
+  End with one short paragraph "How to use this:" / «Как применять:» — the general rule or method and how it answers other
+  questions of the same kind (owner, 2026-11-19).
 - For multi-answer items explain each correct choice. For `kind: "input"` items write the solution steps.
 - Keep the English question untouched even if it has typos; if there is a typo, mention it in `flag`, not in the text.

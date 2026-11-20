@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 362" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="900" height="362" fill="#fff"/>
+<text x="18" y="38.52" font-size="24" text-anchor="start" font-weight="bold" fill="#111">Circumference of a Circle</text>
+<text x="776" y="87.81" font-size="22" text-anchor="middle" font-weight="bold" fill="#111">Circumference</text>
+<text x="96" y="135.81" font-size="22" text-anchor="end" font-weight="bold" fill="#111">7)</text>
+<text x="206" y="135.81" font-size="22" text-anchor="end" font-weight="bold" fill="#111">Radius=</text>
+<polygon points="212,107 342,107 342,149 212,149" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<text x="220" y="137.23" font-size="26" text-anchor="start" font-weight="bold" fill="#111">147</text>
+<text x="496" y="135.81" font-size="22" text-anchor="end" font-weight="bold" fill="#111">Diameter=</text>
+<polygon points="502,107 632,107 632,149 502,149" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<polygon points="662,107 890,107 890,149 662,149" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<text x="96" y="199.81" font-size="22" text-anchor="end" font-weight="bold" fill="#111">8)</text>
+<text x="206" y="199.81" font-size="22" text-anchor="end" font-weight="bold" fill="#111">Radius=</text>
+<polygon points="212,171 342,171 342,213 212,213" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<text x="496" y="199.81" font-size="22" text-anchor="end" font-weight="bold" fill="#111">Diameter=</text>
+<polygon points="502,171 632,171 632,213 502,213" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<polygon points="662,171 890,171 890,213 662,213" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<text x="670" y="201.23" font-size="26" text-anchor="start" font-weight="bold" fill="#111">69.1150384</text>
+<text x="96" y="263.81" font-size="22" text-anchor="end" font-weight="bold" fill="#111">9)</text>
+<text x="206" y="263.81" font-size="22" text-anchor="end" font-weight="bold" fill="#111">Radius=</text>
+<polygon points="212,235 342,235 342,277 212,277" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<text x="220" y="265.23" font-size="26" text-anchor="start" font-weight="bold" fill="#111">157</text>
+<text x="496" y="263.81" font-size="22" text-anchor="end" font-weight="bold" fill="#111">Diameter=</text>
+<polygon points="502,235 632,235 632,277 502,277" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<polygon points="662,235 890,235 890,277 662,277" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<text x="96" y="327.81" font-size="22" text-anchor="end" font-weight="bold" fill="#111">10)</text>
+<text x="206" y="327.81" font-size="22" text-anchor="end" font-weight="bold" fill="#111">Radius=</text>
+<polygon points="212,299 342,299 342,341 212,341" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<text x="496" y="327.81" font-size="22" text-anchor="end" font-weight="bold" fill="#111">Diameter=</text>
+<polygon points="502,299 632,299 632,341 502,341" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<text x="510" y="329.23" font-size="26" text-anchor="start" font-weight="bold" fill="#111">134</text>
+<polygon points="662,299 890,299 890,341 662,341" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+</svg>

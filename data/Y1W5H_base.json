@@ -1,39 +1,39 @@
 [
  {
   "src": "Y1W5H",
-  "n": 10,
-  "q": "The general rule is that fall protection is required whenever a worker could fall _______ or more (OSHA specific).",
+  "n": 1,
+  "q": "What does the acronym OSHA stand for?",
   "hint": null,
-  "opts": [
-   "5 feet",
-   "6 feet",
-   "10 feet",
-   "12 feet"
-  ],
-  "answer": [
-   1
-  ],
-  "kind": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
   "fig": null,
-  "evidence": "TotalTrack SMY1W5 Orthographics & Ogee Offsets_Everett homework (msg_2560), official Correct Answer"
+  "evidence": "TotalTrack official Correct Answer",
+  "accept": [
+   "occupational safety and health administration",
+   "occupational safety & health administration",
+   "occupational safety and health admin"
+  ],
+  "all": [],
+  "answer_text": "Occupational Safety and Health Administration"
  },
  {
   "src": "Y1W5H",
-  "n": 16,
-  "q": "Guardrails must be able to withstand ____ lbs. of force in any downward or outward direction along its top edge.",
+  "n": 2,
+  "q": "Top rails of a temporary guard rail system must measure __________ to the top of the rail.",
   "hint": null,
   "opts": [
-   "100",
-   "150",
-   "200",
-   "250"
+   "38-40\"",
+   "38-46\"",
+   "39-45\"",
+   "36-46\""
   ],
   "answer": [
    2
   ],
   "kind": null,
   "fig": null,
-  "evidence": "TotalTrack SMY1W5 Orthographics & Ogee Offsets_Everett homework (msg_2560), official Correct Answer"
+  "evidence": "TotalTrack official Correct Answer"
  },
  {
   "src": "Y1W5H",
@@ -51,7 +51,318 @@
   ],
   "kind": null,
   "fig": null,
-  "evidence": "TotalTrack SMY1W5 Orthographics & Ogee Offsets_Everett homework (msg_2560), official Correct Answer"
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 4,
+  "q": "Toe boards on a guard rail system must be at least ________ in height.",
+  "hint": null,
+  "opts": [
+   "1 1/2\"",
+   "3\"",
+   "3 1/2\"",
+   "4\""
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 5,
+  "q": "Eye, head and foot PPE must comply with:",
+  "hint": null,
+  "opts": [
+   "National consensus standards",
+   "Recommendations of employees",
+   "OSHA testing requirements",
+   "OSHA approvals"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 6,
+  "q": "Effective exhaust ventilation:",
+  "hint": null,
+  "opts": [
+   "Draws contaminated air away from workers’ breathing zones",
+   "Provides workers with uncontaminated air from an oil-less air compressor",
+   "Pushes uncontaminated air away from workers",
+   "Re-circulates filtered air throughout the work area"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 7,
+  "q": "OSHA’s definition of a confined space in general industry includes a space that:",
+  "hint": null,
+  "opts": [
+   "Is more than 3.5 feet deep",
+   "Has one way in/one way out",
+   "Is not designed for continuous employee occupancy",
+   "Contains less than 20% oxygen"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 8,
+  "q": "Which of the following are the most common hazards associated with conveyors?",
+  "hint": null,
+  "opts": [
+   "Point of operation and flying parts",
+   "Trips and falls",
+   "Nip points and rotating parts",
+   "Electrical and falling objects hazards"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 9,
+  "q": "Cranes may be modified and rerated provided:",
+  "hint": null,
+  "opts": [
+   "A competent person inspects the crane thoroughly after modifications are made",
+   "The new rating does not exceed 10% greater than the original rating",
+   "Such modifications and the supporting structure are checked thoroughly for the new rated load by a qualified engineer or the equipment manufacturer",
+   "All modifications are done by a certified welder"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 10,
+  "q": "The general rule is that fall protection is required whenever a worker could fall _______ or more (OSHA specific).",
+  "hint": null,
+  "opts": [
+   "5 feet",
+   "6 feet",
+   "10 feet",
+   "12 feet"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 11,
+  "q": "____________________ may only be four times as tall as their shortest base dimension.",
+  "hint": null,
+  "opts": [
+   "Ladders",
+   "Aerial Lifts",
+   "Positioning Device Systems",
+   "Supported Scaffolds"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 12,
+  "q": "Lifelines can be vertical and horizontal.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 13,
+  "q": "A __________________ is performed by a contractor before work begins.",
+  "hint": null,
+  "opts": [
+   "Phase Hazard Analysis",
+   "Job Safety Analysis",
+   "Project Hazard Analysis"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 14,
+  "q": "Falls are the leading cause of on-the-job deaths in the construction industry.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 15,
+  "q": "Select the pair of terms that best describes the two types of fall protection:",
+  "hint": null,
+  "opts": [
+   "Active & Passive Fall Arrest",
+   "Fall Prevention & Passive Protection",
+   "Fall Prevention & Fall Arrest",
+   "Fall Protection & Fall Arrest"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 16,
+  "q": "Guardrails must be able to withstand ____ lbs. of force in any downward or outward direction along its top edge.",
+  "hint": null,
+  "opts": [
+   "100",
+   "150",
+   "200",
+   "250"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 17,
+  "q": "Hole covers are required for holes more than 1 foot in diameter.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 18,
+  "q": "Guardrails can be used as anchorage for personal fall arrest systems.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 19,
+  "q": "2 common confined spaces that sheet metal workers may encounter are inside of ducts and inside of air handling units.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 20,
+  "q": "Before entering a permit-required confined space, an entry permit must be written.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 21,
+  "q": "Stairs need ___________ for workers to hold when ascending or descending.",
+  "hint": null,
+  "opts": [
+   "Midrails",
+   "Handrails",
+   "Toe boards",
+   "Landings"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
  },
  {
   "src": "Y1W5H",
@@ -67,7 +378,7 @@
   ],
   "kind": null,
   "fig": null,
-  "evidence": "TotalTrack SMY1W5 Orthographics & Ogee Offsets_Everett homework (msg_2560), official Correct Answer"
+  "evidence": "TotalTrack official Correct Answer"
  },
  {
   "src": "Y1W5H",
@@ -84,6 +395,711 @@
   ],
   "kind": null,
   "fig": null,
-  "evidence": "TotalTrack SMY1W5 Orthographics & Ogee Offsets_Everett homework (msg_2560), official Correct Answer"
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 24,
+  "q": "In an extremely loud environment, you may need to wear both earplugs and earmuffs together.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 25,
+  "q": "What does SDS stand for?",
+  "hint": null,
+  "opts": [
+   "Safety Digital Sign",
+   "Safety Data Solution",
+   "Safety Data Sheet",
+   "Safety Digital Sheet"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 26,
+  "q": "A crane operator is not allowed to leave the crane's controls unattended wile a load is suspended unless:",
+  "hint": null,
+  "opts": [
+   "the operator remain adjacent to the controls and is not engaged in other duties",
+   "the load is to be suspended longer than normal lifting operations",
+   "a competent person determines it is safe to do and implements the necessary safety measures",
+   "barricades or caution lines are set up to prevent employees from entering the fall zone",
+   "all of the above"
+  ],
+  "answer": [
+   4
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 27,
+  "q": "Only one side pattern is needed for a four-piece centered rectangular transition.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 28,
+  "q": "As a general rule, try to maintain at least a 5:1 transition-to-offset length.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 29,
+  "q": "An orthographic drawing is like a box opened flat.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 30,
+  "q": "An orthographic projection can be made from a pictorial view.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 31,
+  "q": "Building plans and technical drawings commonly use three views (top, front, side) to show an object.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 32,
+  "q": "An orthographic projection can be made using a 35-degree angle.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 33,
+  "q": "What are the three views commonly shown in an orthographic drawing? 1. 2. 3.",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer",
+  "accept": [],
+  "all": [
+   [
+    "plan",
+    "top",
+    "overhead",
+    "сверху",
+    "план"
+   ],
+   [
+    "front",
+    "спереди",
+    "фронт"
+   ],
+   [
+    "side",
+    "end",
+    "сбоку",
+    "боков",
+    "торц"
+   ]
+  ],
+  "answer_text": "1. The plan (overhead) view. 2. The front elevation view. 3. The side elevation view."
+ },
+ {
+  "src": "Y1W5H",
+  "n": 34,
+  "q": "Should hidden lines be shown on an orthographic drawing and if so, how are they indicated?",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer",
+  "accept": [],
+  "all": [
+   [
+    "yes",
+    "да"
+   ],
+   [
+    "dash",
+    "broken",
+    "пунктир",
+    "штрих"
+   ]
+  ],
+  "answer_text": "Yes they should be shown and they are drawn as a broken line made up of a series of short evenly spaced dashes."
+ },
+ {
+  "src": "Y1W5H",
+  "n": 35,
+  "q": "The work done by HVAC technicians can be thought of as falling into three areas of concentration: maintenance and repair, supervisory, and:",
+  "hint": null,
+  "opts": [
+   "adjustment",
+   "documentation",
+   "installation",
+   "certification"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 36,
+  "q": "The area of Sheet Metal work which employs the greatest number of workers in the SMWIA is _______________.",
+  "hint": null,
+  "opts": [
+   "Architectural",
+   "Industrial",
+   "HVAC Work",
+   "Commercial"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 37,
+  "q": "What type of technician is responsible for ensuring that an HVAC system meets the design objectives of energy efficiency and occupant comfort?",
+  "hint": null,
+  "opts": [
+   "TAB",
+   "Service",
+   "IAQ",
+   "Industrial"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 38,
+  "q": "Perimeter of a Square",
+  "hint": "1) Side #1= ____ 2) Perimeter= ____ 3) Side #1= ____",
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": "q38",
+  "evidence": "TotalTrack official Correct Answer",
+  "accept": [],
+  "all": [
+   [
+    "82",
+    "82.0",
+    "82.00",
+    "82.000"
+   ],
+   [
+    "236",
+    "236.0",
+    "236.00",
+    "236.000"
+   ],
+   [
+    "17",
+    "17.0",
+    "17.00",
+    "17.000"
+   ]
+  ],
+  "answer_text": "1) Side = 82, 2) Perimeter = 236, 3) Side = 17"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 39,
+  "q": "Perimeter of a Rectangle",
+  "hint": "4) Side #2= ____ 5) Perimeter= ____ 6) Side #1= ____",
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": "q39",
+  "evidence": "TotalTrack official Correct Answer",
+  "accept": [],
+  "all": [
+   [
+    "30",
+    "30.0",
+    "30.00",
+    "30.000"
+   ],
+   [
+    "266",
+    "266.0",
+    "266.00",
+    "266.000"
+   ],
+   [
+    "59",
+    "59.0",
+    "59.00",
+    "59.000"
+   ]
+  ],
+  "answer_text": "4) Side #2 = 30, 5) Perimeter = 266, 6) Side #1 = 59"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 40,
+  "q": "Circumference of a Circle",
+  "hint": "7) Diameter= ____ Circumference= ____ 8) Radius= ____ Diameter= ____ 9) Diameter= ____ Circumference= ____ 10) Radius= ____ Circumference= ____",
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": "q40",
+  "evidence": "TotalTrack official Correct Answer",
+  "accept": [],
+  "all": [
+   [
+    "294",
+    "294.0",
+    "294.00",
+    "294.000"
+   ],
+   [
+    "923.63",
+    "923.628",
+    "923.6282"
+   ],
+   [
+    "11",
+    "11.0",
+    "11.00",
+    "11.000"
+   ],
+   [
+    "22",
+    "22.0",
+    "22.00",
+    "22.000"
+   ],
+   [
+    "314",
+    "314.0",
+    "314.00",
+    "314.000"
+   ],
+   [
+    "986.46",
+    "986.460",
+    "986.4601"
+   ],
+   [
+    "67",
+    "67.0",
+    "67.00",
+    "67.000"
+   ],
+   [
+    "420.97",
+    "420.973",
+    "420.9734"
+   ]
+  ],
+  "answer_text": "7) D = 294, C = 923.628; 8) R = 11, D = 22; 9) D = 314, C = 986.460; 10) R = 67, C = 420.973"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 41,
+  "q": "Area of a Square",
+  "hint": "1) Side #1= ____ 2) Area= ____ 3) Side #1= ____",
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": "q41",
+  "evidence": "TotalTrack official Correct Answer",
+  "accept": [],
+  "all": [
+   [
+    "76",
+    "76.0",
+    "76.00",
+    "76.000"
+   ],
+   [
+    "4096",
+    "4096.0",
+    "4096.00",
+    "4096.000",
+    "4,096",
+    "4,096.0",
+    "4,096.00",
+    "4,096.000"
+   ],
+   [
+    "89",
+    "89.0",
+    "89.00",
+    "89.000"
+   ]
+  ],
+  "answer_text": "1) Side = 76, 2) Area = 4096, 3) Side = 89"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 42,
+  "q": "Area of a Rectangle",
+  "hint": "4) Area= ____ 5) Side #1= ____ 6) Side #2= ____",
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": "q42",
+  "evidence": "TotalTrack official Correct Answer",
+  "accept": [],
+  "all": [
+   [
+    "476",
+    "476.0",
+    "476.00",
+    "476.000"
+   ],
+   [
+    "75",
+    "75.0",
+    "75.00",
+    "75.000"
+   ],
+   [
+    "44",
+    "44.0",
+    "44.00",
+    "44.000"
+   ]
+  ],
+  "answer_text": "4) Area = 476, 5) Side #1 = 75, 6) Side #2 = 44"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 43,
+  "q": "Area of a Circle",
+  "hint": "7) Radius= ____ Area= ____ 8) Radius= ____ Area= ____ 9) Radius= ____ Diameter= ____ 10) Radius= ____ Diameter= ____",
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": "q43",
+  "evidence": "TotalTrack official Correct Answer",
+  "accept": [],
+  "all": [
+   [
+    "21",
+    "21.0",
+    "21.00",
+    "21.000"
+   ],
+   [
+    "1385.44",
+    "1,385.44",
+    "1385.442",
+    "1,385.442",
+    "1385.4424",
+    "1,385.4424"
+   ],
+   [
+    "93",
+    "93.0",
+    "93.00",
+    "93.000"
+   ],
+   [
+    "27171.63",
+    "27,171.63",
+    "27171.635",
+    "27,171.635",
+    "27171.6349",
+    "27,171.6349"
+   ],
+   [
+    "35",
+    "35.0",
+    "35.00",
+    "35.000"
+   ],
+   [
+    "70",
+    "70.0",
+    "70.00",
+    "70.000"
+   ],
+   [
+    "69",
+    "69.0",
+    "69.00",
+    "69.000"
+   ],
+   [
+    "138",
+    "138.0",
+    "138.00",
+    "138.000"
+   ]
+  ],
+  "answer_text": "7) R = 21, A = 1385.442; 8) R = 93, A = 27171.635; 9) R = 35, D = 70; 10) R = 69, D = 138"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 44,
+  "q": "Question #1: Cube. Calculate: Area 1 End=, Volume=, Perimeter=",
+  "hint": "All questions are in inch's! All answers in inch's to 3 Decimal places",
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": "q44",
+  "evidence": "TotalTrack official Correct Answer",
+  "accept": [],
+  "all": [
+   [
+    "2401",
+    "2401.0",
+    "2401.00",
+    "2401.000",
+    "2,401",
+    "2,401.0",
+    "2,401.00",
+    "2,401.000"
+   ],
+   [
+    "117649",
+    "117649.0",
+    "117649.00",
+    "117649.000",
+    "117,649",
+    "117,649.0",
+    "117,649.00",
+    "117,649.000"
+   ],
+   [
+    "196",
+    "196.0",
+    "196.00",
+    "196.000"
+   ]
+  ],
+  "answer_text": "Area 1 End = 2401.000, Volume = 117649.000, Perimeter = 196.000"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 45,
+  "q": "Question #2: Rectangle. Calculate: Area 1 End=, Volume=, Perimeter=",
+  "hint": "All questions are in inch's! All answers in inch's to 3 Decimal places",
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": "q45",
+  "evidence": "TotalTrack official Correct Answer",
+  "accept": [],
+  "all": [
+   [
+    "640",
+    "640.0",
+    "640.00",
+    "640.000"
+   ],
+   [
+    "26240",
+    "26240.0",
+    "26240.00",
+    "26240.000",
+    "26,240",
+    "26,240.0",
+    "26,240.00",
+    "26,240.000"
+   ],
+   [
+    "112",
+    "112.0",
+    "112.00",
+    "112.000"
+   ]
+  ],
+  "answer_text": "Area 1 End = 640.000, Volume = 26240.000, Perimeter = 112.000"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 46,
+  "q": "Question #3: Triangle. Calculate: Area 1 End=, Volume=",
+  "hint": "All questions are in inch's! All answers in inch's to 3 Decimal places",
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": "q46",
+  "evidence": "TotalTrack official Correct Answer",
+  "accept": [],
+  "all": [
+   [
+    "140",
+    "140.0",
+    "140.00",
+    "140.000"
+   ],
+   [
+    "1120",
+    "1120.0",
+    "1120.00",
+    "1120.000",
+    "1,120",
+    "1,120.0",
+    "1,120.00",
+    "1,120.000"
+   ]
+  ],
+  "answer_text": "Area 1 End = 140.000, Volume = 1120.000"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 47,
+  "q": "Question #4: Circle. Calculate: Area 1 End=, Volume=, Perimeter=",
+  "hint": "All questions are in inch's! All answers in inch's to 3 Decimal places",
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": "q47",
+  "evidence": "TotalTrack official Correct Answer",
+  "accept": [],
+  "all": [
+   [
+    "1963.50",
+    "1963.5",
+    "1,963.50",
+    "1,963.5",
+    "1963.495",
+    "1,963.495",
+    "1963.4954",
+    "1,963.4954"
+   ],
+   [
+    "86393.80",
+    "86393.8",
+    "86,393.80",
+    "86,393.8",
+    "86393.798",
+    "86,393.798",
+    "86393.7980",
+    "86,393.7980"
+   ],
+   [
+    "157.08",
+    "157.080",
+    "157.0796"
+   ]
+  ],
+  "answer_text": "Area 1 End = 1963.495, Volume = 86393.798, Perimeter = 157.080"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 48,
+  "q": "Question #5: Trapezoid. Calculate: Area 1 End=, Volume=",
+  "hint": "All questions are in inch's! All answers in inch's to 3 Decimal places",
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": "q48",
+  "evidence": "TotalTrack official Correct Answer",
+  "accept": [],
+  "all": [
+   [
+    "350",
+    "350.0",
+    "350.00",
+    "350.000"
+   ],
+   [
+    "9800",
+    "9800.0",
+    "9800.00",
+    "9800.000",
+    "9,800",
+    "9,800.0",
+    "9,800.00",
+    "9,800.000"
+   ]
+  ],
+  "answer_text": "Area 1 End = 350.000, Volume = 9800.000"
  }
 ]

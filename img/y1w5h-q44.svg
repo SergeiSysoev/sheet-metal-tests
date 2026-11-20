@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 514" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="600" height="514" fill="#fff"/>
+<polygon points="90,95 255,95 255,260 90,260" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<polyline points="90,95 145,50 310,50 255,95" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<polyline points="310,50 310,215 255,260" fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="miter"/>
+<polygon points="375,92 525,92 525,132 375,132" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="miter"/>
+<text x="450" y="118.75" font-size="19" text-anchor="middle" font-weight="bold" fill="#111">Height  49</text>
+<polyline points="318,132 373,112" fill="none" stroke="#111" stroke-width="1.15" stroke-linejoin="miter"/>
+<polygon points="318,132 329.02,124.27 331.41,130.85" fill="#111" stroke="none"/>
+<polygon points="375,222 525,222 525,262 375,262" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="miter"/>
+<text x="450" y="248.75" font-size="19" text-anchor="middle" font-weight="bold" fill="#111">Width  49</text>
+<polyline points="287,240 373,242" fill="none" stroke="#111" stroke-width="1.15" stroke-linejoin="miter"/>
+<polygon points="287,240 300.08,236.8 299.92,243.8" fill="#111" stroke="none"/>
+<polygon points="15,272 165,272 165,310 15,310" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="miter"/>
+<text x="90" y="297.75" font-size="19" text-anchor="middle" font-weight="bold" fill="#111">Length  49</text>
+<polyline points="99,256 80,272" fill="none" stroke="#111" stroke-width="1.15" stroke-linejoin="miter"/>
+<polygon points="99,256 91.31,267.05 86.8,261.7" fill="#111" stroke="none"/>
+<polygon points="95,318 285,318 285,354 95,354" fill="none" stroke="#111" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="285,318 505,318 505,354 285,354" fill="none" stroke="#111" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="105" y="342.39" font-size="18" text-anchor="start" font-weight="bold" fill="#111">Question #1</text>
+<text x="395" y="342.75" font-size="19" text-anchor="middle" font-weight="bold" fill="#111">Cube</text>
+<line x1="372.2" y1="347" x2="417.8" y2="347" fill="none" stroke="#111" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="95,354 285,354 285,390 95,390" fill="none" stroke="#111" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="285,354 505,354 505,390 285,390" fill="none" stroke="#111" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="105" y="379.1" font-size="20" text-anchor="start" font-weight="bold" fill="#111">Calculate</text>
+<polygon points="95,390 285,390 285,426 95,426" fill="none" stroke="#111" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="285,390 505,390 505,426 285,426" fill="none" stroke="#111" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="277" y="414.39" font-size="18" text-anchor="end" font-weight="bold" fill="#111">Area 1 End=</text>
+<polygon points="95,426 285,426 285,462 95,462" fill="none" stroke="#111" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="285,426 505,426 505,462 285,462" fill="none" stroke="#111" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="277" y="450.39" font-size="18" text-anchor="end" font-weight="bold" fill="#111">Volume=</text>
+<polygon points="95,462 285,462 285,498 95,498" fill="none" stroke="#111" stroke-width="1.6" stroke-linejoin="miter"/>
+<polygon points="285,462 505,462 505,498 285,498" fill="none" stroke="#111" stroke-width="1.6" stroke-linejoin="miter"/>
+<text x="277" y="486.39" font-size="18" text-anchor="end" font-weight="bold" fill="#111">Perimeter=</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 298" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="800" height="298" fill="#fff"/>
+<text x="18" y="37.81" font-size="22" text-anchor="start" font-weight="bold" fill="#111">Area of a Rectangle</text>
+<text x="720" y="87.1" font-size="20" text-anchor="middle" font-weight="bold" fill="#111">Area</text>
+<text x="100" y="135.1" font-size="20" text-anchor="end" font-weight="bold" fill="#111">4)</text>
+<text x="236" y="135.1" font-size="20" text-anchor="end" font-weight="bold" fill="#111">Side #1=</text>
+<polygon points="242,107 362,107 362,149 242,149" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<text x="250" y="136.52" font-size="24" text-anchor="start" font-weight="bold" fill="#111">34</text>
+<text x="500" y="135.1" font-size="20" text-anchor="end" font-weight="bold" fill="#111">Side #2=</text>
+<polygon points="506,107 626,107 626,149 506,149" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<text x="514" y="136.52" font-size="24" text-anchor="start" font-weight="bold" fill="#111">14</text>
+<polygon points="660,107 780,107 780,149 660,149" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<text x="100" y="199.1" font-size="20" text-anchor="end" font-weight="bold" fill="#111">5)</text>
+<text x="236" y="199.1" font-size="20" text-anchor="end" font-weight="bold" fill="#111">Side #1=</text>
+<polygon points="242,171 362,171 362,213 242,213" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<text x="500" y="199.1" font-size="20" text-anchor="end" font-weight="bold" fill="#111">Side #2=</text>
+<polygon points="506,171 626,171 626,213 506,213" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<text x="514" y="200.52" font-size="24" text-anchor="start" font-weight="bold" fill="#111">18</text>
+<polygon points="660,171 780,171 780,213 660,213" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<text x="668" y="200.52" font-size="24" text-anchor="start" font-weight="bold" fill="#111">1350</text>
+<text x="100" y="263.1" font-size="20" text-anchor="end" font-weight="bold" fill="#111">6)</text>
+<text x="236" y="263.1" font-size="20" text-anchor="end" font-weight="bold" fill="#111">Side #1=</text>
+<polygon points="242,235 362,235 362,277 242,277" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<text x="250" y="264.52" font-size="24" text-anchor="start" font-weight="bold" fill="#111">9</text>
+<text x="500" y="263.1" font-size="20" text-anchor="end" font-weight="bold" fill="#111">Side #2=</text>
+<polygon points="506,235 626,235 626,277 506,277" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<polygon points="660,235 780,235 780,277 660,277" fill="none" stroke="#111" stroke-width="2.6" stroke-linejoin="miter"/>
+<text x="668" y="264.52" font-size="24" text-anchor="start" font-weight="bold" fill="#111">396</text>
+</svg>
