@@ -520,7 +520,9 @@ button{font-family:inherit}
     var q=st.pos<st.order.length?cur():null; if(!q) return;
     var k=e.key.toUpperCase(), i=LET.indexOf(k);
     if(!st.answered && q.opts && ((i>=0 && i<q.opts.length) || (/^[1-8]$/.test(e.key) && (i=+e.key-1)<q.opts.length))) tap(perm()[i]);
-    else if(e.key==="Enter"){ if(st.answered) next(); else submit(); }
+    // Enter on a button or link presses that button (native); elsewhere it checks, and the next Enter moves on.
+    // preventDefault: otherwise the same keystroke also presses "Next", which submit() has just focused
+    else if(e.key==="Enter"){ if(e.target.tagName==="BUTTON"||e.target.tagName==="A") return; e.preventDefault(); if(st.answered) next(); else submit(); }
   });
 
   st.theme=document.documentElement.getAttribute("data-theme")||"light";
