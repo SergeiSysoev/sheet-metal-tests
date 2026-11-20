@@ -196,7 +196,7 @@ button{font-family:inherit}
   <div class="sronly" id="live" aria-live="polite" role="status"></div>
 </main>
 
-<script src="questions.js?v=26"></script>
+<script src="questions.js?v=27"></script>
 <script>
 (function(){
   "use strict";
@@ -406,7 +406,7 @@ button{font-family:inherit}
     if(st.answered){
       ex.hidden=false; ex.className="explain "+(st.right?"ok":"err");
       var head=st.right?t("correct"):t("incorrect");
-      if(!st.right) head+=" — "+(q.type==="input" ? t("answer_is")+" "+(q.answer.prefix||"")+q.answer.text : t("answer_is")+" "+q.answer.map(function(i){ return LET[i]; }).join(" + "));
+      if(!st.right) head+=" — "+(q.type==="input" ? t("answer_is")+" "+(q.answer.prefix||"")+q.answer.text : t("answer_is")+" "+q.answer.map(function(i){ return perm().indexOf(i); }).sort().map(function(p){ return LET[p]+" "+L(q.opts[perm()[p]]); }).join(" + "));
       $("exp-status").textContent=(st.right?"✓ ":"✗ ")+head;
       $("exp-body").textContent=L(q.why);
     } else ex.hidden=true;
