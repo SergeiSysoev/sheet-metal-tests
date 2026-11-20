@@ -225,7 +225,7 @@ button{font-family:inherit}
   function makePerm(q){
     var n=q.opts.length, idx=[]; for(var i=0;i<n;i++) idx.push(i);
     var ens=q.opts.map(function(o){ return String(o.en).trim(); });
-    if(q.keep || (n===2 && ens.every(function(e){ return /^(yes|no|true|false)\.?$/i.test(e); }))) return idx;   // Yes/No, True/False: as printed
+    if(q.keep || (n<=3 && ens.every(function(e){ return /^(yes|no|true|false|n\/a)\b/i.test(e); }))) return idx;   // Yes/No(/N/A), True/False (also "False. <reason>"): as printed
     if(ens.every(function(e){ return /^[A-Z]$/.test(e); })) return idx;                                   // figure labels A, B, C…: as printed
     var pin=ens.map(function(e){ return pinnedOpt(e,ens); });
     var pinned=idx.filter(function(i){ return pin[i]; }), free=idx.filter(function(i){ return !pin[i]; });
@@ -514,7 +514,7 @@ button{font-family:inherit}
     else renderQuiz();
     saveRun();
   }
-  function setLang(l){ st.lang=l; store("lang",l); document.documentElement.lang=l; render(); }
+  function setLang(l){ st.lang=l; store("lang",l); document.documentElement.lang=l; render(); verdictBack(); }
   function goHome(){ try{ if(history.state && history.state.smt){ history.back(); return; } }catch(e){} showHome(); }
   function showHome(){ st.view="home"; render(); window.scrollTo({top:0}); }
   window.addEventListener("popstate",function(){ if(st.view!=="home") showHome(); });
@@ -533,7 +533,7 @@ button{font-family:inherit}
   $("reviewbtn").addEventListener("click",function(){ start("review",st.missed.slice()); });
   $("againbtn").addEventListener("click",function(){ if(st.mode.m==="review") start("mistakes"); else start(st.mode.m,st.mode.a); });
   document.addEventListener("keydown",function(e){
-    if(st.view!=="quiz" || e.target.tagName==="INPUT") return;
+    if(st.view!=="quiz" || e.target.tagName==="INPUT" || e.ctrlKey || e.metaKey || e.altKey || st.finished) return;   // Ctrl/Cmd+C is copy, not option C; the end screen grades nothing
     var q=st.pos<st.order.length?cur():null; if(!q) return;
     var k=e.key.toUpperCase(), i=LET.indexOf(k);
     if(!st.answered && q.opts && ((i>=0 && i<q.opts.length) || (/^[1-8]$/.test(e.key) && (i=+e.key-1)<q.opts.length))) tap(perm()[i]);
@@ -548,7 +548,10 @@ button{font-family:inherit}
   var saved=restoreRun();
   if(saved && saved.view==="quiz" && (Date.now()-(saved.at||0))<12*3600*1000){ st.view="quiz"; pushQuiz(); }
   render();
-  verdictBack(); window.addEventListener("load",verdictBack);   // again once fonts and the drawing have loaded
+  verdictBack();
+  // again once fonts and the drawing have loaded - only for the card restored at start-up and only if the reader has not scrolled since
+  var bootPos=st.pos, bootAns=st.answered, bootY=window.scrollY;
+  window.addEventListener("load",function(){ if(bootAns && st.answered && st.pos===bootPos && Math.abs(window.scrollY-bootY)<2) verdictBack(); });
 })();
 </script>
 </body>
