@@ -152,7 +152,6 @@ button{font-family:inherit}
   <section id="homeview">
     <h1 class="h-title" id="h-title"></h1>
     <p class="h-p" id="h-p1"></p>
-    <p class="h-note" id="h-note"></p>
     <div class="modes" id="modes-main"></div>
     <h2 class="h-sec" id="h-sec-topic"></h2>
     <div class="modes" id="modes-topic"></div>
@@ -197,7 +196,7 @@ button{font-family:inherit}
   <div class="sronly" id="live" aria-live="polite" role="status"></div>
 </main>
 
-<script src="questions.js?v=18"></script>
+<script src="questions.js?v=19"></script>
 <script>
 (function(){
   "use strict";
@@ -260,7 +259,7 @@ button{font-family:inherit}
   function renderHome(){
     $("h-title").textContent=t("home_title");
     $("h-p1").textContent=t("home_p1",{N:QUESTIONS.length});
-    $("h-note").textContent=t("home_note");
+    
     $("h-sec-topic").textContent=t("by_topic");
     $("h-sec-test").textContent=t("by_test");
     $("h-foot").innerHTML="";

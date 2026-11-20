@@ -22,20 +22,24 @@ TOPICS = {
     'dampers':     {'en': 'Fire & smoke dampers',          'ru': 'Fire & smoke dampers'},
 }
 SOURCES = {
+    'F20': {'name': {'en': 'Friday test 11/20 — practice', 'ru': 'Пятничный тест 20.11 — подготовка'},
+            'sub': {'en': "All questions of this week's tests in one test: Year End, Welding & Layout, Triangulation, SMY1W5, review class 11/19",
+                    'ru': 'Все вопросы тестов этой недели в одном тесте: Year End, Welding & Layout, Triangulation, SMY1W5, разбор 19.11'},
+            'short': {'en': 'Friday 11/20', 'ru': 'Пятница 20.11'}},
     'T90': {'name': {'en': 'Welding & Layout test', 'ru': 'Тест Welding & Layout'},
-            'sub': {'en': 'Monday written test, graded key', 'ru': 'Письменный тест понедельника, проверенный ключ'},
+            'sub': {'en': '2nd year: welding, layout, safety, math', 'ru': '2-й год: сварка, layout, безопасность, математика'},
             'short': {'en': 'Welding & Layout', 'ru': 'Welding & Layout'}},
     'FRI': {'name': {'en': 'SMY2W2 Friday Written — Math / Welding', 'ru': 'SMY2W2 Friday Written — математика / сварка'},
-            'sub': {'en': "Last year's Friday test: questions not already in Welding & Layout", 'ru': 'Пятничный тест прошлого года: только вопросы, которых нет в Welding & Layout'},
+            'sub': {'en': '2nd year, week 2', 'ru': '2-й год, неделя 2'},
             'short': {'en': 'Friday Written', 'ru': 'Friday Written'}},
     'MON': {'name': {'en': 'SMY2W2 Monday Written', 'ru': 'SMY2W2 Monday Written'},
-            'sub': {'en': "Last year's Monday test: questions not already in the tests above", 'ru': 'Тест понедельника прошлого года: вопросы, которых нет в тестах выше'},
+            'sub': {'en': '2nd year, week 2', 'ru': '2-й год, неделя 2'},
             'short': {'en': 'Monday Written', 'ru': 'Monday Written'}},
     'Y1W3': {'name': {'en': 'SMY1W3 Monday Review = Trade Intro Final', 'ru': 'SMY1W3 Monday Review = Trade Intro Final'}, 'sub': {'en': '1st year: trade intro, shop standards, math', 'ru': '1-й год: введение в профессию, shop standards, математика'}, 'short': {'en': 'SMY1W3 Monday', 'ru': 'SMY1W3 Monday'}},
-    'BRZ': {'name': {'en': 'SMY1W3 Friday — Brazing & Soldering', 'ru': 'SMY1W3 Friday — brazing и soldering'}, 'sub': {'en': 'TotalTrack, official key', 'ru': 'TotalTrack, официальный ключ'}, 'short': {'en': 'Brazing', 'ru': 'Brazing'}},
-    'FSD': {'name': {'en': 'Fire & Smoke Damper Technician (FSD units 1–6)', 'ru': 'Fire & Smoke Damper Technician (FSD, части 1–6)'}, 'sub': {'en': 'TotalTrack, official key', 'ru': 'TotalTrack, официальный ключ'}, 'short': {'en': 'FSD', 'ru': 'FSD'}},
-    'Y1W5F': {'name': {'en': 'SMY1W5 Friday Written — Ortho & Ogee', 'ru': 'SMY1W5 Friday Written — Ortho & Ogee'}, 'sub': {'en': '1st year Friday test', 'ru': 'Пятничный тест 1-го года'}, 'short': {'en': 'SMY1W5 Friday', 'ru': 'SMY1W5 Friday'}},
-    'Y1W5M': {'name': {'en': 'SMY1W5 Monday Written/Math — Ortho & Ogee Offsets', 'ru': 'SMY1W5 Monday Written/Math — Ortho & Ogee Offsets'}, 'sub': {'en': '1st year Monday test', 'ru': 'Тест понедельника 1-го года'}, 'short': {'en': 'SMY1W5 Monday', 'ru': 'SMY1W5 Monday'}},
+    'BRZ': {'name': {'en': 'SMY1W3 Friday — Brazing & Soldering', 'ru': 'SMY1W3 Friday — brazing и soldering'}, 'sub': {'en': '1st year, week 3', 'ru': '1-й год, неделя 3'}, 'short': {'en': 'Brazing', 'ru': 'Brazing'}},
+    'FSD': {'name': {'en': 'Fire & Smoke Damper Technician (FSD units 1–6)', 'ru': 'Fire & Smoke Damper Technician (FSD, части 1–6)'}, 'sub': {'en': 'Inspection and testing of dampers', 'ru': 'Осмотр и проверка dampers'}, 'short': {'en': 'FSD', 'ru': 'FSD'}},
+    'Y1W5F': {'name': {'en': 'SMY1W5 Friday Written — Ortho & Ogee', 'ru': 'SMY1W5 Friday Written — Ortho & Ogee'}, 'sub': {'en': '1st year, week 5', 'ru': '1-й год, неделя 5'}, 'short': {'en': 'SMY1W5 Friday', 'ru': 'SMY1W5 Friday'}},
+    'Y1W5M': {'name': {'en': 'SMY1W5 Monday Written/Math — Ortho & Ogee Offsets', 'ru': 'SMY1W5 Monday Written/Math — Ortho & Ogee Offsets'}, 'sub': {'en': '1st year, week 5', 'ru': '1-й год, неделя 5'}, 'short': {'en': 'SMY1W5 Monday', 'ru': 'SMY1W5 Monday'}},
     'Y2W3M': {'name': {'en': 'SMY2W3 Monday Written Review', 'ru': 'SMY2W3 Monday Written Review'}, 'sub': {'en': '2nd year, week 3', 'ru': '2-й год, неделя 3'}, 'short': {'en': 'SMY2W3 Monday', 'ru': 'SMY2W3 Monday'}},
     'Y2W3F': {'name': {'en': 'SMY2W3 Friday Written', 'ru': 'SMY2W3 Friday Written'}, 'sub': {'en': '2nd year, week 3', 'ru': '2-й год, неделя 3'}, 'short': {'en': 'SMY2W3 Friday', 'ru': 'SMY2W3 Friday'}},
     'Y2W4M': {'name': {'en': 'SMY2W4 Fitting Review — Monday Written', 'ru': 'SMY2W4 Fitting Review — Monday Written'}, 'sub': {'en': '2nd year, week 4', 'ru': '2-й год, неделя 4'}, 'short': {'en': 'SMY2W4 Monday', 'ru': 'SMY2W4 Monday'}},
@@ -43,12 +47,12 @@ SOURCES = {
     'Y2W5M': {'name': {'en': 'SMY2W5 Intro to Arch Metals — Monday Written Review', 'ru': 'SMY2W5 Intro to Arch Metals — Monday Written Review'}, 'sub': {'en': '2nd year, week 5', 'ru': '2-й год, неделя 5'}, 'short': {'en': 'SMY2W5 Monday', 'ru': 'SMY2W5 Monday'}},
     'Y2W5Y': {'name': {'en': 'SMY2W5 Year End Cumulative Written Exam', 'ru': 'SMY2W5 Year End Cumulative Written Exam'}, 'sub': {'en': '2nd year, end of year', 'ru': '2-й год, итоговый экзамен года'}, 'short': {'en': 'Year End', 'ru': 'Year End'}},
     'FIN5': {'name': {'en': '005 Final Written Test', 'ru': '005 Final Written Test'}, 'sub': {'en': 'Final written test', 'ru': 'Итоговый письменный тест'}, 'short': {'en': '005 Final', 'ru': '005 Final'}},
-    'APR': {'name': {'en': 'Written test, April 2026 (likely SMY1W4)', 'ru': 'Письменный тест, апрель 2026 (видимо, SMY1W4)'}, 'sub': {'en': 'Shop standards, tools, math', 'ru': 'Shop standards, инструменты, математика'}, 'short': {'en': 'April test', 'ru': 'April test'}},
+    'APR': {'name': {'en': 'Written test, April 2026', 'ru': 'Письменный тест, апрель 2026'}, 'sub': {'en': 'Shop standards, tools, math', 'ru': 'Shop standards, инструменты, математика'}, 'short': {'en': 'April test', 'ru': 'April test'}},
     'CLS': {'name': {'en': 'Review class 11/19 — what the instructor said will be on the test', 'ru': 'Разбор 19.11 — что инструктор назвал на тест'},
-            'sub': {'en': 'Our practice questions (not word for word from a test): law of cosines, WA fall protection, guardrails, lead, allowances', 'ru': 'Наши учебные вопросы (не дословно из теста): law of cosines, защита от падения в WA, guardrails, lead, припуски'},
+            'sub': {'en': 'Law of cosines, WA fall protection, guardrails, lead, allowances', 'ru': 'Law of cosines, защита от падения в WA, guardrails, lead, припуски'},
             'short': {'en': 'Review 11/19', 'ru': 'Разбор 19.11'}},
     'TRI': {'name': {'en': 'SMY2W2 Triangulation quiz', 'ru': 'SMY2W2 Triangulation'},
-            'sub': {'en': 'TotalTrack homework quiz, official key', 'ru': 'Домашний квиз TotalTrack, официальный ключ'},
+            'sub': {'en': '2nd year, week 2: homework quiz', 'ru': '2-й год, неделя 2: домашний квиз'},
             'short': {'en': 'Triangulation', 'ru': 'Triangulation'}},
 }
 # Fine topic ids (used in the data files) roll up into six big topics shown in the app (owner, 2026-11-19:
@@ -67,17 +71,17 @@ GROUP_OF = {'welding': 'welding', 'weldsym': 'welding', 'math': 'math', 'trig': 
             'materials': 'shop', 'tools': 'shop', 'safety': 'safety', 'trade': 'trade', 'dampers': 'dampers'}
 # Fire & smoke dampers are their own topic (owner, 2026-11-19): the whole FSD course, plus damper questions in any test.
 DAMPER_RE = re.compile(r'\bdampers?\b|fusible link|UL ?555|smoke detector', re.I)
-SRC_ORDER = ['CLS', 'T90', 'FRI', 'MON', 'TRI', 'Y2W3M', 'Y2W3F', 'Y2W4M', 'Y2W4F', 'Y2W5M', 'Y2W5Y', 'Y1W3', 'Y1W5M', 'Y1W5F',
+SRC_ORDER = ['F20', 'CLS', 'T90', 'FRI', 'MON', 'TRI', 'Y2W3M', 'Y2W3F', 'Y2W4M', 'Y2W4F', 'Y2W5M', 'Y2W5Y', 'Y1W3', 'Y1W5M', 'Y1W5F',
              'APR', 'BRZ', 'FSD', 'FIN5']
 SOURCES = {k: SOURCES[k] for k in SRC_ORDER + [k for k in SOURCES if k not in SRC_ORDER]}
 # Tests after the first one repeat many questions; the bank keeps each question once, under the first test it
 # appeared in. Say so on every later test card, so a small count is not mistaken for a missing test.
 for _k, _v in SOURCES.items():
-    if _k in ('T90', 'FRI', 'MON', 'CLS'):
+    if _k in ('F20', 'T90', 'FRI', 'MON', 'CLS'):
         continue
     if 'only new' not in _v['sub']['en']:
-        _v['sub'] = {'en': _v['sub']['en'] + ' · only questions not already in the tests above',
-                     'ru': _v['sub']['ru'] + ' · только вопросы, которых нет в тестах выше'}
+        _v['sub'] = {'en': _v['sub']['en'] + ' · new questions only',
+                     'ru': _v['sub']['ru'] + ' · только новые вопросы'}
 HINT_RU = {
     'Round to 2 Decimals': 'Округлить до 2 знаков после запятой',
     'Convert to a 3 place decimal': 'Перевести в десятичную дробь с 3 знаками',
@@ -87,10 +91,8 @@ UI = {
     'app_title': {'en': 'Sheet Metal Apprentice Test Trainer', 'ru': 'Тренажёр к тестам sheet metal apprentice'},
     'wordmark': {'en': 'SM Test Trainer', 'ru': 'Тренажёр SM'},
     'home_title': {'en': 'Sheet Metal Apprentice Test Trainer', 'ru': 'Тренажёр к тестам sheet metal apprentice'},
-    'home_p1': {'en': '{N} questions from the written tests of the sheet metal apprenticeship. Questions and answer options are word for word as on the tests; every answer comes with an explanation; drawings are redrawn.',
-                'ru': '{N} вопросов из письменных тестов sheet metal apprenticeship. Вопросы и варианты — слово в слово как на тестах, у каждого ответа есть пояснение, чертежи перерисованы. В русском режиме под переводом показан английский оригинал — так на тесте вопрос узнаётся сразу.'},
-    'home_note': {'en': 'Study material, not an official answer key. Answers follow the course key; where a key answer is debatable, the explanation says so. More tests are being added.',
-                  'ru': 'Это учебный материал, а не официальный ключ. Ответы — по ключу курса; где ответ ключа спорный, это сказано в пояснении. Новые тесты добавляются.'},
+    'home_p1': {'en': 'Practice for the written tests of the sheet metal apprenticeship: {N} questions with explanations.',
+                'ru': 'Подготовка к письменным тестам sheet metal apprenticeship: {N} вопросов с пояснениями.'},
     'mode_all': {'en': 'Start the test — all questions', 'ru': 'Начать тест — все вопросы'},
     'mode_all_sub': {'en': 'Random order. Answer as many as you like, then finish and see your result', 'ru': 'Вперемешку. Отвечай сколько хочешь, потом заверши тест и посмотри результат'},
     'finish_test': {'en': 'Finish test and show results', 'ru': 'Завершить тест и показать результат'},
@@ -224,8 +226,8 @@ def main():
                 problems.append(f'{ep.name}: №{e["n"]} -> {e["id"]} not in bank'); continue
             it.setdefault('on', []).append([code, e['n']])
         SOURCES[code]['full'] = len(ex['items'])
-        SOURCES[code]['sub'] = {'en': SOURCES[code]['sub']['en'].split(' · only')[0] + f" · full test, {len(ex['items'])} questions as printed",
-                                'ru': SOURCES[code]['sub']['ru'].split(' · только')[0] + f" · полный тест, {len(ex['items'])} вопросов как на бланке"}
+        SOURCES[code]['sub'] = {'en': SOURCES[code]['sub']['en'].split(' · new questions only')[0] + f" · full test, {len(ex['items'])} questions",
+                                'ru': SOURCES[code]['sub']['ru'].split(' · только новые')[0] + f" · полный тест, {len(ex['items'])} вопросов"}
     if held:
         print('HELD BACK until the drawing exists:', ', '.join(held))
     if problems:

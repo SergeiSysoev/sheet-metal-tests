@@ -30,14 +30,28 @@ const TOPICS = {
  }
 };
 const SOURCES = {
+ "F20": {
+  "name": {
+   "en": "Friday test 11/20 — practice",
+   "ru": "Пятничный тест 20.11 — подготовка"
+  },
+  "sub": {
+   "en": "All questions of this week's tests in one test: Year End, Welding & Layout, Triangulation, SMY1W5, review class 11/19",
+   "ru": "Все вопросы тестов этой недели в одном тесте: Year End, Welding & Layout, Triangulation, SMY1W5, разбор 19.11"
+  },
+  "short": {
+   "en": "Friday 11/20",
+   "ru": "Пятница 20.11"
+  }
+ },
  "CLS": {
   "name": {
    "en": "Review class 11/19 — what the instructor said will be on the test",
    "ru": "Разбор 19.11 — что инструктор назвал на тест"
   },
   "sub": {
-   "en": "Our practice questions (not word for word from a test): law of cosines, WA fall protection, guardrails, lead, allowances",
-   "ru": "Наши учебные вопросы (не дословно из теста): law of cosines, защита от падения в WA, guardrails, lead, припуски"
+   "en": "Law of cosines, WA fall protection, guardrails, lead, allowances",
+   "ru": "Law of cosines, защита от падения в WA, guardrails, lead, припуски"
   },
   "short": {
    "en": "Review 11/19",
@@ -50,8 +64,8 @@ const SOURCES = {
    "ru": "Тест Welding & Layout"
   },
   "sub": {
-   "en": "Monday written test, graded key",
-   "ru": "Письменный тест понедельника, проверенный ключ"
+   "en": "2nd year: welding, layout, safety, math",
+   "ru": "2-й год: сварка, layout, безопасность, математика"
   },
   "short": {
    "en": "Welding & Layout",
@@ -64,8 +78,8 @@ const SOURCES = {
    "ru": "SMY2W2 Friday Written — математика / сварка"
   },
   "sub": {
-   "en": "Last year's Friday test: questions not already in Welding & Layout",
-   "ru": "Пятничный тест прошлого года: только вопросы, которых нет в Welding & Layout"
+   "en": "2nd year, week 2",
+   "ru": "2-й год, неделя 2"
   },
   "short": {
    "en": "Friday Written",
@@ -78,8 +92,8 @@ const SOURCES = {
    "ru": "SMY2W2 Monday Written"
   },
   "sub": {
-   "en": "Last year's Monday test: questions not already in the tests above",
-   "ru": "Тест понедельника прошлого года: вопросы, которых нет в тестах выше"
+   "en": "2nd year, week 2",
+   "ru": "2-й год, неделя 2"
   },
   "short": {
    "en": "Monday Written",
@@ -92,8 +106,8 @@ const SOURCES = {
    "ru": "SMY2W2 Triangulation"
   },
   "sub": {
-   "en": "TotalTrack homework quiz, official key · only questions not already in the tests above",
-   "ru": "Домашний квиз TotalTrack, официальный ключ · только вопросы, которых нет в тестах выше"
+   "en": "2nd year, week 2: homework quiz · new questions only",
+   "ru": "2-й год, неделя 2: домашний квиз · только новые вопросы"
   },
   "short": {
    "en": "Triangulation",
@@ -106,8 +120,8 @@ const SOURCES = {
    "ru": "SMY2W3 Monday Written Review"
   },
   "sub": {
-   "en": "2nd year, week 3 · only questions not already in the tests above",
-   "ru": "2-й год, неделя 3 · только вопросы, которых нет в тестах выше"
+   "en": "2nd year, week 3 · new questions only",
+   "ru": "2-й год, неделя 3 · только новые вопросы"
   },
   "short": {
    "en": "SMY2W3 Monday",
@@ -120,8 +134,8 @@ const SOURCES = {
    "ru": "SMY2W3 Friday Written"
   },
   "sub": {
-   "en": "2nd year, week 3 · only questions not already in the tests above",
-   "ru": "2-й год, неделя 3 · только вопросы, которых нет в тестах выше"
+   "en": "2nd year, week 3 · new questions only",
+   "ru": "2-й год, неделя 3 · только новые вопросы"
   },
   "short": {
    "en": "SMY2W3 Friday",
@@ -134,8 +148,8 @@ const SOURCES = {
    "ru": "SMY2W4 Fitting Review — Monday Written"
   },
   "sub": {
-   "en": "2nd year, week 4 · only questions not already in the tests above",
-   "ru": "2-й год, неделя 4 · только вопросы, которых нет в тестах выше"
+   "en": "2nd year, week 4 · new questions only",
+   "ru": "2-й год, неделя 4 · только новые вопросы"
   },
   "short": {
    "en": "SMY2W4 Monday",
@@ -148,8 +162,8 @@ const SOURCES = {
    "ru": "SMY2W4 Friday Written/Math"
   },
   "sub": {
-   "en": "2nd year, week 4 · only questions not already in the tests above",
-   "ru": "2-й год, неделя 4 · только вопросы, которых нет в тестах выше"
+   "en": "2nd year, week 4 · new questions only",
+   "ru": "2-й год, неделя 4 · только новые вопросы"
   },
   "short": {
    "en": "SMY2W4 Friday",
@@ -162,8 +176,8 @@ const SOURCES = {
    "ru": "SMY2W5 Intro to Arch Metals — Monday Written Review"
   },
   "sub": {
-   "en": "2nd year, week 5 · only questions not already in the tests above",
-   "ru": "2-й год, неделя 5 · только вопросы, которых нет в тестах выше"
+   "en": "2nd year, week 5 · new questions only",
+   "ru": "2-й год, неделя 5 · только новые вопросы"
   },
   "short": {
    "en": "SMY2W5 Monday",
@@ -176,8 +190,8 @@ const SOURCES = {
    "ru": "SMY2W5 Year End Cumulative Written Exam"
   },
   "sub": {
-   "en": "2nd year, end of year · full test, 113 questions as printed",
-   "ru": "2-й год, итоговый экзамен года · полный тест, 113 вопросов как на бланке"
+   "en": "2nd year, end of year · full test, 113 questions",
+   "ru": "2-й год, итоговый экзамен года · полный тест, 113 вопросов"
   },
   "short": {
    "en": "Year End",
@@ -191,8 +205,8 @@ const SOURCES = {
    "ru": "SMY1W3 Monday Review = Trade Intro Final"
   },
   "sub": {
-   "en": "1st year: trade intro, shop standards, math · only questions not already in the tests above",
-   "ru": "1-й год: введение в профессию, shop standards, математика · только вопросы, которых нет в тестах выше"
+   "en": "1st year: trade intro, shop standards, math · new questions only",
+   "ru": "1-й год: введение в профессию, shop standards, математика · только новые вопросы"
   },
   "short": {
    "en": "SMY1W3 Monday",
@@ -205,8 +219,8 @@ const SOURCES = {
    "ru": "SMY1W5 Monday Written/Math — Ortho & Ogee Offsets"
   },
   "sub": {
-   "en": "1st year Monday test · only questions not already in the tests above",
-   "ru": "Тест понедельника 1-го года · только вопросы, которых нет в тестах выше"
+   "en": "1st year, week 5 · new questions only",
+   "ru": "1-й год, неделя 5 · только новые вопросы"
   },
   "short": {
    "en": "SMY1W5 Monday",
@@ -219,8 +233,8 @@ const SOURCES = {
    "ru": "SMY1W5 Friday Written — Ortho & Ogee"
   },
   "sub": {
-   "en": "1st year Friday test · only questions not already in the tests above",
-   "ru": "Пятничный тест 1-го года · только вопросы, которых нет в тестах выше"
+   "en": "1st year, week 5 · new questions only",
+   "ru": "1-й год, неделя 5 · только новые вопросы"
   },
   "short": {
    "en": "SMY1W5 Friday",
@@ -229,12 +243,12 @@ const SOURCES = {
  },
  "APR": {
   "name": {
-   "en": "Written test, April 2026 (likely SMY1W4)",
-   "ru": "Письменный тест, апрель 2026 (видимо, SMY1W4)"
+   "en": "Written test, April 2026",
+   "ru": "Письменный тест, апрель 2026"
   },
   "sub": {
-   "en": "Shop standards, tools, math · only questions not already in the tests above",
-   "ru": "Shop standards, инструменты, математика · только вопросы, которых нет в тестах выше"
+   "en": "Shop standards, tools, math · new questions only",
+   "ru": "Shop standards, инструменты, математика · только новые вопросы"
   },
   "short": {
    "en": "April test",
@@ -247,8 +261,8 @@ const SOURCES = {
    "ru": "SMY1W3 Friday — brazing и soldering"
   },
   "sub": {
-   "en": "TotalTrack, official key · only questions not already in the tests above",
-   "ru": "TotalTrack, официальный ключ · только вопросы, которых нет в тестах выше"
+   "en": "1st year, week 3 · new questions only",
+   "ru": "1-й год, неделя 3 · только новые вопросы"
   },
   "short": {
    "en": "Brazing",
@@ -261,8 +275,8 @@ const SOURCES = {
    "ru": "Fire & Smoke Damper Technician (FSD, части 1–6)"
   },
   "sub": {
-   "en": "TotalTrack, official key · only questions not already in the tests above",
-   "ru": "TotalTrack, официальный ключ · только вопросы, которых нет в тестах выше"
+   "en": "Inspection and testing of dampers · new questions only",
+   "ru": "Осмотр и проверка dampers · только новые вопросы"
   },
   "short": {
    "en": "FSD",
@@ -275,8 +289,8 @@ const SOURCES = {
    "ru": "005 Final Written Test"
   },
   "sub": {
-   "en": "Final written test · only questions not already in the tests above",
-   "ru": "Итоговый письменный тест · только вопросы, которых нет в тестах выше"
+   "en": "Final written test · new questions only",
+   "ru": "Итоговый письменный тест · только новые вопросы"
   },
   "short": {
    "en": "005 Final",
@@ -298,12 +312,8 @@ const UI = {
   "ru": "Тренажёр к тестам sheet metal apprentice"
  },
  "home_p1": {
-  "en": "{N} questions from the written tests of the sheet metal apprenticeship. Questions and answer options are word for word as on the tests; every answer comes with an explanation; drawings are redrawn.",
-  "ru": "{N} вопросов из письменных тестов sheet metal apprenticeship. Вопросы и варианты — слово в слово как на тестах, у каждого ответа есть пояснение, чертежи перерисованы. В русском режиме под переводом показан английский оригинал — так на тесте вопрос узнаётся сразу."
- },
- "home_note": {
-  "en": "Study material, not an official answer key. Answers follow the course key; where a key answer is debatable, the explanation says so. More tests are being added.",
-  "ru": "Это учебный материал, а не официальный ключ. Ответы — по ключу курса; где ответ ключа спорный, это сказано в пояснении. Новые тесты добавляются."
+  "en": "Practice for the written tests of the sheet metal apprenticeship: {N} questions with explanations.",
+  "ru": "Подготовка к письменным тестам sheet metal apprenticeship: {N} вопросов с пояснениями."
  },
  "mode_all": {
   "en": "Start the test — all questions",
