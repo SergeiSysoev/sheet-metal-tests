@@ -196,7 +196,7 @@ button{font-family:inherit}
   <div class="sronly" id="live" aria-live="polite" role="status"></div>
 </main>
 
-<script src="questions.js?v=22"></script>
+<script src="questions.js?v=23"></script>
 <script>
 (function(){
   "use strict";
@@ -211,6 +211,18 @@ button{font-family:inherit}
   function load(k,d){ try{ var v=JSON.parse(localStorage.getItem("smt_"+k)); return v==null?d:v; }catch(e){ return d; } }
   function shuffle(a){ var r=a.slice(); for(var i=r.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)); var x=r[i]; r[i]=r[j]; r[j]=x; } return r; }
   function cur(){ return QUESTIONS[st.order[st.pos]]; }
+  // display order of the options: shuffled once per test run; "All / None of the above", "Both…" stay last;
+  // Yes/No and True/False pairs, figure labels (A, B, C…) and questions that name options by letter keep the printed order
+  var PIN=/\b(all of the above|all the above|none of the above|both of the above|neither)\b/i;
+  function makePerm(q){
+    var n=q.opts.length, idx=[]; for(var i=0;i<n;i++) idx.push(i);
+    var ens=q.opts.map(function(o){ return String(o.en).trim(); });
+    if(q.keep || (n===2 && ens.every(function(e){ return /^(yes|no|true|false)\.?$/i.test(e); }))) return idx;   // Yes/No, True/False: as printed
+    if(ens.every(function(e){ return e.length<=2; })) return idx;
+    var pinned=idx.filter(function(i){ return PIN.test(ens[i]); }), free=idx.filter(function(i){ return !PIN.test(ens[i]); });
+    return shuffle(free).concat(pinned);
+  }
+  function perm(){ var k=st.order[st.pos]; st.perms=st.perms||{}; if(!st.perms[k]) st.perms[k]=makePerm(cur()); return st.perms[k]; }
   function isMulti(q){ return q.type==="multi"; }
 
   // ---- mistakes bank (persists; a question leaves it once answered right) ----
@@ -241,7 +253,7 @@ button{font-family:inherit}
     else if(mode==="mistakes") order=shuffle(mistakes().map(function(id){ return byId[id]; }));
     else if(mode==="review") order=arg;
     if(!order || !order.length) return;
-    st.mode={m:mode,a:arg}; st.order=order; st.pos=0; st.score=0; st.done=0; st.missed=[]; st.finished=false;
+    st.mode={m:mode,a:arg}; st.order=order; st.perms={}; st.pos=0; st.score=0; st.done=0; st.missed=[]; st.finished=false;
     resetQ(); st.view="quiz"; render(); window.scrollTo({top:0});
   }
   function resetQ(){ st.answered=false; st.picked=[]; st.typed=""; st.right=false; }
@@ -369,7 +381,7 @@ button{font-family:inherit}
     } else {
       var multi=isMulti(q);
       $("prompt").textContent=st.answered?"":(multi?t(q.answer.length>=5?"multi_prompt_many":"multi_prompt",{N:q.answer.length}):t("choose_prompt"));
-      q.opts.forEach(function(op,idx){
+      perm().forEach(function(idx,pos){ var op=q.opts[idx];
         var b=document.createElement("button"); b.type="button"; b.className="opt"+(multi?" multi":"");
         var bd=document.createElement("span"); bd.className="opt-badge";
         var tx=document.createElement("span"); tx.className="opt-text"; tx.textContent=L(op);
@@ -377,7 +389,7 @@ button{font-family:inherit}
         b.appendChild(bd); b.appendChild(tx);
         var chosen=st.picked.indexOf(idx)>=0, good=q.answer.indexOf(idx)>=0 || (q.also||[]).indexOf(idx)>=0;
         if(!st.answered){
-          bd.textContent=LET[idx]; if(chosen) b.classList.add("sel");
+          bd.textContent=LET[pos]; if(chosen) b.classList.add("sel");
           b.setAttribute("aria-pressed",chosen?"true":"false");
           b.addEventListener("click",function(){ tap(idx); });
         } else {
@@ -385,7 +397,7 @@ button{font-family:inherit}
           if(good && chosen){ b.classList.add("correct"); bd.textContent="✓"; }
           else if(good){ b.classList.add("correct","missed"); bd.textContent="✓"; }
           else if(chosen){ b.classList.add("incorrect"); bd.textContent="✗"; }
-          else bd.textContent=LET[idx];
+          else bd.textContent=LET[pos];
         }
         box.appendChild(b);
       });
@@ -450,7 +462,7 @@ button{font-family:inherit}
     if(st.view!=="quiz" || e.target.tagName==="INPUT") return;
     var q=st.pos<st.order.length?cur():null; if(!q) return;
     var k=e.key.toUpperCase(), i=LET.indexOf(k);
-    if(!st.answered && q.opts && ((i>=0 && i<q.opts.length) || (/^[1-8]$/.test(e.key) && (i=+e.key-1)<q.opts.length))) tap(i);
+    if(!st.answered && q.opts && ((i>=0 && i<q.opts.length) || (/^[1-8]$/.test(e.key) && (i=+e.key-1)<q.opts.length))) tap(perm()[i]);
     else if(e.key==="Enter"){ if(st.answered) next(); else submit(); }
   });
 

@@ -523,6 +523,7 @@ const QUESTIONS = [
    2
   ],
   "type": "single",
+  "keep": 1,
   "on": [
    [
     "F20",
@@ -652,6 +653,7 @@ const QUESTIONS = [
   "also": [
    1
   ],
+  "keep": 1,
   "on": [
    [
     "F20",
@@ -1460,6 +1462,7 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
+  "keep": 1,
   "on": [
    [
     "F20",
@@ -1676,6 +1679,7 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
+  "keep": 1,
   "on": [
    [
     "F20",
@@ -1967,7 +1971,8 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "keep": 1
  },
  {
   "id": "T90-37",
@@ -2125,6 +2130,7 @@ const QUESTIONS = [
   ],
   "type": "single",
   "fig": "t90-q40.svg",
+  "keep": 1,
   "on": [
    [
     "F20",
@@ -2369,6 +2375,7 @@ const QUESTIONS = [
    2
   ],
   "type": "single",
+  "keep": 1,
   "on": [
    [
     "F20",
@@ -2672,6 +2679,7 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
+  "keep": 1,
   "on": [
    [
     "F20",
@@ -4761,6 +4769,7 @@ const QUESTIONS = [
   ],
   "type": "single",
   "fig": "tri-q17.svg",
+  "keep": 1,
   "on": [
    [
     "F20",
@@ -4829,7 +4838,8 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "keep": 1
  },
  {
   "id": "FRI-21",
@@ -6744,6 +6754,7 @@ const QUESTIONS = [
   ],
   "type": "multi",
   "fig": "mon-q56.svg",
+  "keep": 1,
   "on": [
    [
     "F20",
@@ -6800,6 +6811,7 @@ const QUESTIONS = [
   ],
   "type": "multi",
   "fig": "mon-q57.svg",
+  "keep": 1,
   "on": [
    [
     "F20",
@@ -7131,7 +7143,8 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "keep": 1
  },
  {
   "id": "MON-67",
@@ -7464,7 +7477,8 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "keep": 1
  },
  {
   "id": "MON-76",
@@ -7501,7 +7515,8 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "fig": "mon-q76.svg"
+  "fig": "mon-q76.svg",
+  "keep": 1
  },
  {
   "id": "MON-77",
@@ -7743,7 +7758,8 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "keep": 1
  },
  {
   "id": "BRZ-4",
@@ -9064,6 +9080,7 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
+  "keep": 1,
   "on": [
    [
     "F20",
@@ -9106,6 +9123,7 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
+  "keep": 1,
   "on": [
    [
     "F20",
@@ -9232,6 +9250,7 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
+  "keep": 1,
   "on": [
    [
     "F20",
@@ -10362,7 +10381,8 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "keep": 1
  },
  {
   "id": "FIN5-10",
@@ -10434,7 +10454,8 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "keep": 1
  },
  {
   "id": "FIN5-12",
@@ -12110,7 +12131,8 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "keep": 1
  },
  {
   "id": "FSD-408",
@@ -12254,7 +12276,8 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "keep": 1
  },
  {
   "id": "FSD-412",
@@ -12606,7 +12629,8 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "keep": 1
  },
  {
   "id": "FSD-422",
@@ -13678,7 +13702,8 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "keep": 1
  },
  {
   "id": "Y1W3-7",
@@ -13989,7 +14014,8 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "keep": 1
  },
  {
   "id": "Y1W3-21",
@@ -14269,7 +14295,8 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "keep": 1
  },
  {
   "id": "Y1W3-34",
@@ -14305,7 +14332,8 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "keep": 1
  },
  {
   "id": "Y1W3-37",
@@ -14341,7 +14369,8 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "keep": 1
  },
  {
   "id": "Y1W3-40",
@@ -14545,7 +14574,8 @@ const QUESTIONS = [
   "also": [
    2
   ],
-  "fig": "y1w3-q51.svg"
+  "fig": "y1w3-q51.svg",
+  "keep": 1
  },
  {
   "id": "Y1W3-52",
@@ -16294,7 +16324,8 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "keep": 1
  },
  {
   "id": "Y2W3F-12",
@@ -16510,7 +16541,8 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "keep": 1
  },
  {
   "id": "Y2W3F-18",
@@ -16933,6 +16965,7 @@ const QUESTIONS = [
   ],
   "type": "multi",
   "fig": "y2w3f-q30.svg",
+  "keep": 1,
   "on": [
    [
     "F20",
@@ -17001,6 +17034,7 @@ const QUESTIONS = [
   ],
   "type": "multi",
   "fig": "y2w3f-q31.svg",
+  "keep": 1,
   "on": [
    [
     "F20",
@@ -17950,7 +17984,8 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "keep": 1
  },
  {
   "id": "Y2W4F-25",
@@ -17986,7 +18021,8 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "keep": 1
  },
  {
   "id": "Y2W4F-26",
@@ -18890,7 +18926,8 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "keep": 1
  },
  {
   "id": "Y2W4M-25",
@@ -18926,7 +18963,8 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "keep": 1
  },
  {
   "id": "Y2W4M-26",
@@ -19150,7 +19188,8 @@ const QUESTIONS = [
   "answer": [
    4
   ],
-  "type": "single"
+  "type": "single",
+  "keep": 1
  },
  {
   "id": "Y2W4M-36",
@@ -19478,7 +19517,8 @@ const QUESTIONS = [
    1
   ],
   "type": "single",
-  "fig": "y2w4m-q59.svg"
+  "fig": "y2w4m-q59.svg",
+  "keep": 1
  },
  {
   "id": "Y2W4M-60",
@@ -19810,6 +19850,7 @@ const QUESTIONS = [
    1
   ],
   "type": "single",
+  "keep": 1,
   "on": [
    [
     "F20",
@@ -20994,6 +21035,7 @@ const QUESTIONS = [
    1
   ],
   "type": "single",
+  "keep": 1,
   "on": [
    [
     "F20",
@@ -21311,6 +21353,7 @@ const QUESTIONS = [
   "also": [
    2
   ],
+  "keep": 1,
   "on": [
    [
     "F20",
@@ -21491,6 +21534,7 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
+  "keep": 1,
   "on": [
    [
     "F20",
@@ -21920,6 +21964,7 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
+  "keep": 1,
   "on": [
    [
     "F20",
@@ -22766,6 +22811,7 @@ const QUESTIONS = [
    3
   ],
   "type": "single",
+  "keep": 1,
   "on": [
    [
     "F20",

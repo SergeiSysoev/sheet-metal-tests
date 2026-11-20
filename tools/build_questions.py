@@ -202,6 +202,13 @@ def main():
                     problems.append(f'{qid}: figure {f} missing')
                 item['fig'] = f
             out.append(item)
+    # Options are shuffled in the app on every showing. Keep the printed order only where the text names options
+    # by letter ("pick b", "a and c") — a shuffle would make those letters point at the wrong option.
+    LETTER_REF = re.compile(r'(\bpick [a-h]\b|\bpicks? [a-h][,.)]|\boption [a-h]\b|\bletter [a-h]\b|\b[a-h]\) |\(([a-h])\)|\banswer [a-h]\b|\bkey [a-h]\b|\b[a-h] (and|&) [a-h]\b|\b[a-h], [a-h]\b|\bвариант [a-h]\b|\bбалла — [a-h]\b|^[a-h][ :,.]|[.;] [a-h] [—(\d]|\b[A-H] \()')
+    for it in out:
+        if it.get('opts') and len(it['opts']) > 2 and (LETTER_REF.search(it['why']['en']) or LETTER_REF.search(it['why']['ru'])
+                                                    or any(LETTER_REF.search(o['en']) for o in it['opts'])):
+            it['keep'] = 1
     # cross-test dedup (tests reuse questions with shuffled letters): keep the first occurrence
     norm = lambda t: re.sub(r'[^a-z0-9]+', ' ', t.lower()).strip()
     seen, kept, dups = {}, [], []
