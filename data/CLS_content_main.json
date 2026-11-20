@@ -60,122 +60,15 @@
   "flag": null
  },
  {
-  "n": 5,
-  "topic": "safety",
-  "ru_q": "При работе в штате Washington с какой высоты обязательна защита от падения (fall protection) — общее правило?",
-  "ru_opts": [
-   "4 фута",
-   "6 футов",
-   "10 футов",
-   "15 футов"
-  ],
-  "why_en": "In Washington the stricter state rule applies: fall protection is required at 4 ft or more (WAC 296-880-20005), while federal OSHA for construction says 6 ft (1926.501(b)(1)). On the test answer 4 ft; 6 ft counts only if you write that it is the federal OSHA number. Scaffolds have their own threshold: 10 ft in both (WAC 296-880-30030, OSHA 1926.451(g)(1)).",
-  "why_ru": "В Washington действует более строгое правило штата: защита от падения обязательна с 4 ft (WAC 296-880-20005), а федеральный OSHA для стройки требует её с 6 ft (1926.501(b)(1)). На тесте отвечай 4 ft; 6 ft засчитают, только если написать, что это федеральная норма OSHA. У scaffold свой порог — 10 ft и там, и там (WAC 296-880-30030, OSHA 1926.451(g)(1)).",
-  "src": "CLS",
-  "flag": null
- },
- {
-  "n": 6,
-  "topic": "safety",
-  "ru_q": "Какую силу, приложенную наружу или вниз, должен выдерживать верхний поручень guardrail system (и временный тоже)?",
-  "ru_opts": [
-   "200 фунтов",
-   "250 фунтов",
-   "100 фунтов",
-   "50 фунтов"
-  ],
-  "why_en": "The top rail must hold at least 200 lb applied within 2 in of the top edge, outward or downward, and temporary guardrails are no exception (OSHA 1926.502(b)(3); Washington's WAC 296-880-40005 uses the same 200 lb). Under that load the top edge must not sag below 39 in; the top rail sits 39–45 in (42 in ± 3 in) above the walking surface. Mid rails must hold 150 lb (OSHA 1926.502(b)(5)).",
-  "why_ru": "Верхний поручень должен выдержать не меньше 200 lb, приложенных в пределах 2 in от верхней кромки наружу или вниз, и временный guardrail — тоже (OSHA 1926.502(b)(3); в Washington WAC 296-880-40005 — те же 200 lb). Под этой нагрузкой кромка не должна опуститься ниже 39 in; сам поручень стоит на высоте 39–45 in (42 in ± 3 in) над полом. Средний поручень — 150 lb (OSHA 1926.502(b)(5)).",
-  "src": "CLS",
-  "flag": null
- },
- {
-  "n": 7,
-  "topic": "materials",
-  "ru_q": "Листовой lead (свинец) заказывают по:",
-  "ru_opts": [
-   "Фунтам на квадратный фут",
-   "Унциям на квадратный фут",
-   "Номеру gauge",
-   "Толщине в mils"
-  ],
-  "why_en": "Sheet lead is sold by weight per area, in pounds per square foot: 4 lb lead weighs 4 lb per square foot and is about 1/16\" thick. Sheet copper is specified in ounces per square foot (16 oz copper), steel sheet by gauge, and mils (thousandths of an inch) are used for plastic film and coatings.",
-  "why_ru": "Листовой свинец продают по весу на площадь — в фунтах на квадратный фут: 4 lb lead весит 4 фунта на квадратный фут, толщина около 1/16\". Медь задают в унциях на квадратный фут (16 oz copper), стальной лист — по gauge, а mils (тысячные дюйма) — для плёнки и покрытий.",
-  "src": "CLS",
-  "flag": null
- },
- {
   "n": 8,
   "topic": "trade",
-  "ru_q": "Всегда используй ____ инструмент для работы.",
+  "ru_q": "Каким инструментом всегда нужно пользоваться для работы?",
   "ru_opts": [
-   "right",
-   "nearest",
-   "newest",
-   "cheapest"
+   "Right",
+   "Nearest"
   ],
-  "why_en": "Right: the tool made for that task, size and material. Grabbing the nearest one (snips on a gauge they are not rated for, a screwdriver used as a pry bar) ruins the tool and the work and is a common cause of hand injuries. The trap is 'nearest'.",
-  "why_ru": "Right — инструмент, сделанный именно для этой работы, размера и материала. Схватить ближайший (snips на gauge толще допустимого, отвёртку вместо монтировки) — значит испортить инструмент и деталь; это частая причина травм рук. Ловушка — nearest.",
-  "src": "CLS",
-  "flag": null
- },
- {
-  "n": 9,
-  "topic": "safety",
-  "ru_q": "На сколько лестница должна выступать над краем крыши (верхней площадкой)?",
-  "ru_opts": [
-   "3 фута",
-   "2 фута",
-   "4 фута",
-   "1 фут"
-  ],
-  "why_en": "The side rails must extend at least 3 ft above the upper landing, so you have something to hold while stepping on and off (OSHA 1926.1053(b)(1); Washington's WAC 296-876-40030 is the same). Set the foot out about 1/4 of the working length (WAC 296-876-40020): cos A = 1/4, A = 75.52°, the \"75°\" rule (1 ft out for every 4 ft up gives 75.96°).",
-  "why_ru": "Боковины лестницы должны выступать над верхней площадкой минимум на 3 ft, чтобы было за что держаться, когда сходишь на площадку и встаёшь обратно (OSHA 1926.1053(b)(1); в Washington то же, WAC 296-876-40030). Низ отставляют от опоры примерно на 1/4 рабочей длины (WAC 296-876-40020): cos A = 1/4, A = 75.52°, это и есть правило «75°» (1 ft от стены на каждые 4 ft высоты даёт 75.96°).",
-  "src": "CLS",
-  "flag": null
- },
- {
-  "n": 10,
-  "topic": "math",
-  "ru_q": "8 + 4 × 3 − 6 ÷ 2 =",
-  "ru_opts": [
-   "17",
-   "33",
-   "15",
-   "18"
-  ],
-  "why_en": "Order of operations: multiply and divide first, left to right (4 × 3 = 12, 6 ÷ 2 = 3), then add and subtract: 8 + 12 − 3 = 17. Traps: 15 comes from working straight left to right ((8 + 4) × 3 − 6 = 30, 30 ÷ 2 = 15); 33 comes from adding before multiplying ((8 + 4) × 3 − 3).",
-  "why_ru": "Порядок действий: сначала умножение и деление слева направо (4 × 3 = 12, 6 ÷ 2 = 3), потом сложение и вычитание: 8 + 12 − 3 = 17. Ловушки: 15 — если считать подряд слева направо ((8 + 4) × 3 − 6 = 30, 30 ÷ 2 = 15); 33 — если сложить раньше умножения ((8 + 4) × 3 − 3).",
-  "src": "CLS",
-  "flag": null
- },
- {
-  "n": 11,
-  "topic": "math",
-  "ru_q": "Траншея шириной 36\", глубиной 2' и длиной 27'. Сколько кубических ярдов грунта из неё вынут?",
-  "ru_opts": [
-   "6 cu. yd.",
-   "162 cu. yd.",
-   "18 cu. yd.",
-   "4.5 cu. yd."
-  ],
-  "why_en": "Bring all sizes to one unit first: 36\" = 3'. Volume = 3 × 2 × 27 = 162 cu. ft. One cubic yard = 3 × 3 × 3 = 27 cu. ft, so 162 ÷ 27 = 6 cu. yd. Traps: 162 is cubic feet, 18 = 162 ÷ 9 (the square-yard factor), 4.5 = 162 ÷ 36 (inches in a yard).",
-  "why_ru": "Сначала все размеры в одни единицы: 36\" = 3'. Объём = 3 × 2 × 27 = 162 cu. ft. Один кубический ярд = 3 × 3 × 3 = 27 cu. ft, значит, 162 ÷ 27 = 6 cu. yd. Ловушки: 162 — это кубические футы, 18 = 162 ÷ 9 (как для квадратных ярдов), 4.5 = 162 ÷ 36 (дюймы в ярде).",
-  "src": "CLS",
-  "flag": null
- },
- {
-  "n": 12,
-  "topic": "transitions",
-  "ru_q": "Transition нарисован drive to drive (connection length) 20\", S&D на обоих концах. Чему равны working (layout) length и shear length?",
-  "ru_opts": [
-   "19\" working, 21\" shear",
-   "20\" working, 22\" shear",
-   "19\" working, 20\" shear",
-   "21\" working, 22\" shear"
-  ],
-  "why_en": "On a transition the drawn length is the net (drive-to-drive) length. Net = layout + 1 (½\" per end) and shear (gross) = layout + 2 (1\" per end), because the 1\" S&D allowance is bent in half to make the drive. Working (layout) = 20 − ½ − ½ = 19\"; do the triangulation on 19\", then shear = 19 + 1 + 1 = 21\". Trap: 20\" working / 22\" shear takes the drawn 20\" as the working length — the classic one-inch error.",
-  "why_ru": "На transition длина на чертеже — net (drive to drive). Net = layout + 1 (по ½\" на конец), а shear (gross) = layout + 2 (по 1\" на конец): припуск S&D 1\" загибается пополам под drive. Working (layout) = 20 − ½ − ½ = 19\"; triangulation считают на 19\", потом shear = 19 + 1 + 1 = 21\". Ловушка: 20\" working / 22\" shear — нарисованные 20\" приняты за working length, классическая ошибка «на дюйм».",
+  "why_en": "The right tool for the job, not the nearest one. A tool used for work it was not made for breaks, slips or spoils the piece, and that is how most hand-tool injuries happen.",
+  "why_ru": "Подходящим для этой работы (right), а не тем, что ближе (nearest). Инструмент не по назначению ломается, срывается или портит деталь — так и случается большинство травм от ручного инструмента.",
   "src": "CLS",
   "flag": null
  }

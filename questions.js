@@ -36,23 +36,23 @@ const SOURCES = {
    "ru": "Пятничный тест 20.11 — подготовка"
   },
   "sub": {
-   "en": "All questions of this week's tests in one test: Year End, Welding & Layout, Triangulation, SMY1W5, review class 11/19 · full test, 263 questions",
-   "ru": "Все вопросы тестов этой недели в одном тесте: Year End, Welding & Layout, Triangulation, SMY1W5, разбор 19.11 · полный тест, 263 вопроса"
+   "en": "This week's tests and the old-test questions the instructor went over on 11/19, in one test · full test, 257 questions",
+   "ru": "Тесты этой недели и вопросы старых тестов, которые инструктор разбирал 19.11, в одном тесте · полный тест, 257 вопросов"
   },
   "short": {
    "en": "Friday 11/20",
    "ru": "Пятница 20.11"
   },
-  "full": 263
+  "full": 257
  },
  "CLS": {
   "name": {
-   "en": "Review class 11/19 — what the instructor said will be on the test",
-   "ru": "Разбор 19.11 — что инструктор назвал на тест"
+   "en": "Review class 11/19: law of cosines and the new-test question",
+   "ru": "Разбор 19.11: law of cosines и вопрос с нового теста"
   },
   "sub": {
-   "en": "Law of cosines, WA fall protection, guardrails, lead, allowances",
-   "ru": "Law of cosines, защита от падения в WA, guardrails, lead, припуски"
+   "en": "Law of cosines on the formula sheet example (p. 12); the question the instructor read from the new test",
+   "ru": "Law of cosines по примеру formula sheet (стр. 12); вопрос, который инструктор зачитал с нового теста"
   },
   "short": {
    "en": "Review 11/19",
@@ -240,6 +240,20 @@ const SOURCES = {
   "short": {
    "en": "SMY1W5 Friday",
    "ru": "SMY1W5 Friday"
+  }
+ },
+ "Y1W5H": {
+  "name": {
+   "en": "SMY1W5 Orthographics & Ogee Offsets — homework",
+   "ru": "SMY1W5 Orthographics & Ogee Offsets — домашнее задание"
+  },
+  "sub": {
+   "en": "1st year, week 5: homework · new questions only",
+   "ru": "1-й год, неделя 5: домашнее задание · только новые вопросы"
+  },
+  "short": {
+   "en": "SMY1W5 homework",
+   "ru": "SMY1W5 домашнее"
   }
  },
  "APR": {
@@ -484,7 +498,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    162
+    152
    ]
   ]
  },
@@ -526,7 +540,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    213
+    203
    ]
   ]
  },
@@ -568,7 +582,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    163
+    153
    ]
   ]
  },
@@ -610,7 +624,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    164
+    154
    ]
   ]
  },
@@ -655,7 +669,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    165
+    155
    ]
   ]
  },
@@ -697,7 +711,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    214
+    204
    ]
   ]
  },
@@ -735,7 +749,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    166
+    156
    ]
   ]
  },
@@ -781,7 +795,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    255
+    248
    ]
   ]
  },
@@ -823,7 +837,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    167
+    157
    ]
   ]
  },
@@ -865,7 +879,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    168
+    158
    ]
   ]
  },
@@ -907,7 +921,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    169
+    159
    ]
   ]
  },
@@ -949,7 +963,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    170
+    160
    ]
   ]
  },
@@ -991,7 +1005,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    171
+    161
    ]
   ]
  },
@@ -1033,7 +1047,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    172
+    162
    ]
   ]
  },
@@ -1213,7 +1227,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    215
+    205
    ]
   ]
  },
@@ -1259,7 +1273,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    216
+    206
    ]
   ]
  },
@@ -1301,7 +1315,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    173
+    163
    ]
   ]
  },
@@ -1379,7 +1393,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    174
+    164
    ]
   ]
  },
@@ -1421,7 +1435,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    175
+    165
    ]
   ]
  },
@@ -1463,7 +1477,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    176
+    166
    ],
    [
     "Y2W5Y",
@@ -1510,7 +1524,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    177
+    167
    ]
   ]
  },
@@ -1552,7 +1566,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    178
+    168
    ]
   ]
  },
@@ -1595,7 +1609,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    179
+    169
    ]
   ]
  },
@@ -1679,7 +1693,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    217
+    207
    ]
   ]
  },
@@ -1721,7 +1735,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    180
+    170
    ],
    [
     "Y2W5Y",
@@ -1767,7 +1781,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    181
+    171
    ]
   ]
  },
@@ -1809,7 +1823,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    182
+    172
    ]
   ]
  },
@@ -1851,7 +1865,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    218
+    208
    ]
   ]
  },
@@ -1893,7 +1907,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    183
+    173
    ]
   ]
  },
@@ -2007,7 +2021,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    184
+    174
    ]
   ]
  },
@@ -2085,7 +2099,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    48
+    42
    ]
   ]
  },
@@ -2128,7 +2142,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    49
+    43
    ],
    [
     "Y2W5Y",
@@ -2174,7 +2188,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    185
+    175
    ],
    [
     "Y2W5Y",
@@ -2220,7 +2234,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    186
+    176
    ]
   ]
  },
@@ -2326,7 +2340,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    187
+    177
    ],
    [
     "Y2W5Y",
@@ -2372,7 +2386,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    219
+    209
    ]
   ]
  },
@@ -2450,7 +2464,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    101
+    93
    ]
   ]
  },
@@ -2492,7 +2506,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    102
+    94
    ]
   ]
  },
@@ -2544,7 +2558,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    50
+    44
    ]
   ]
  },
@@ -2587,7 +2601,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    51
+    45
    ],
    [
     "Y2W5Y",
@@ -2633,7 +2647,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    103
+    95
    ]
   ]
  },
@@ -2675,7 +2689,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    104
+    96
    ]
   ]
  },
@@ -2718,7 +2732,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    105
+    97
    ],
    [
     "Y2W5Y",
@@ -2765,7 +2779,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    106
+    98
    ]
   ]
  },
@@ -2808,7 +2822,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    107
+    99
    ],
    [
     "Y2W5Y",
@@ -2855,7 +2869,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    108
+    100
    ]
   ]
  },
@@ -2889,7 +2903,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    52
+    46
    ],
    [
     "Y2W5Y",
@@ -2935,7 +2949,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    109
+    101
    ]
   ]
  },
@@ -2969,7 +2983,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    110
+    102
    ]
   ]
  },
@@ -3003,7 +3017,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    53
+    47
    ]
   ]
  },
@@ -3037,7 +3051,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    54
+    48
    ]
   ]
  },
@@ -3079,7 +3093,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    111
+    103
    ]
   ]
  },
@@ -3113,7 +3127,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    220
+    210
    ]
   ]
  },
@@ -3155,7 +3169,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    221
+    211
    ]
   ]
  },
@@ -3197,7 +3211,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    222
+    212
    ]
   ]
  },
@@ -3274,7 +3288,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    55
+    49
    ]
   ]
  },
@@ -3350,7 +3364,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    112
+    104
    ]
   ]
  },
@@ -3392,7 +3406,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    56
+    50
    ]
   ]
  },
@@ -3434,7 +3448,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    57
+    51
    ]
   ]
  },
@@ -3476,7 +3490,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    223
+    213
    ]
   ]
  },
@@ -3518,7 +3532,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    113
+    105
    ]
   ]
  },
@@ -3561,7 +3575,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    114
+    106
    ]
   ]
  },
@@ -3604,7 +3618,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    115
+    107
    ]
   ]
  },
@@ -3646,7 +3660,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    116
+    108
    ]
   ]
  },
@@ -3714,7 +3728,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    117
+    109
    ]
   ]
  },
@@ -3782,7 +3796,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    224
+    214
    ]
   ]
  },
@@ -3816,7 +3830,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    118
+    110
    ]
   ]
  },
@@ -3850,7 +3864,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    256
+    249
    ]
   ]
  },
@@ -3884,7 +3898,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    257
+    250
    ]
   ]
  },
@@ -3918,7 +3932,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    225
+    215
    ]
   ]
  },
@@ -3960,7 +3974,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    119
+    111
    ]
   ]
  },
@@ -4002,7 +4016,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    120
+    112
    ]
   ]
  },
@@ -4045,7 +4059,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    58
+    52
    ]
   ]
  },
@@ -4088,7 +4102,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    121
+    113
    ]
   ]
  },
@@ -4131,7 +4145,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    122
+    114
    ]
   ]
  },
@@ -4173,7 +4187,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    123
+    115
    ]
   ]
  },
@@ -4219,7 +4233,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    124
+    116
    ]
   ]
  },
@@ -4265,7 +4279,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    125
+    117
    ]
   ]
  },
@@ -4307,7 +4321,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    126
+    118
    ]
   ]
  },
@@ -4349,7 +4363,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    127
+    119
    ]
   ]
  },
@@ -4383,7 +4397,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    128
+    120
    ]
   ]
  },
@@ -4425,7 +4439,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    129
+    121
    ]
   ]
  },
@@ -4467,7 +4481,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    130
+    122
    ]
   ]
  },
@@ -4514,7 +4528,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    131
+    123
    ]
   ]
  },
@@ -4594,7 +4608,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    132
+    124
    ]
   ]
  },
@@ -4637,7 +4651,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    133
+    125
    ]
   ]
  },
@@ -4679,7 +4693,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    134
+    126
    ]
   ]
  },
@@ -4721,7 +4735,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    135
+    127
    ]
   ]
  },
@@ -4764,7 +4778,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    59
+    53
    ]
   ]
  },
@@ -4791,7 +4805,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    136
+    128
    ]
   ]
  },
@@ -5043,7 +5057,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    74
+    68
    ],
    [
     "Y2W5Y",
@@ -5257,7 +5271,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    24
+   ]
+  ]
  },
  {
   "id": "MON-12",
@@ -5506,7 +5526,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    24
+    25
    ],
    [
     "Y2W5Y",
@@ -5548,7 +5568,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    26
+   ]
+  ]
  },
  {
   "id": "MON-20",
@@ -5624,7 +5650,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    25
+    27
    ],
    [
     "Y2W5Y",
@@ -5662,7 +5688,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    75
+    69
    ],
    [
     "Y2W5Y",
@@ -5708,7 +5734,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    76
+    70
    ],
    [
     "Y2W5Y",
@@ -6245,7 +6271,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    77
+    71
    ],
    [
     "Y2W5Y",
@@ -6325,7 +6351,13 @@ const QUESTIONS = [
    1
   ],
   "type": "single",
-  "fig": "mon-q44.svg"
+  "fig": "mon-q44.svg",
+  "on": [
+   [
+    "F20",
+    133
+   ]
+  ]
  },
  {
   "id": "MON-45",
@@ -6374,8 +6406,8 @@ const QUESTIONS = [
    "ru": "Вы делаете trim joint и отрезали 2 детали 17\" x 17-1/4\". Размер duct 10\" x 6\" с Pittsburgh; длина duct drive to drive будет"
   },
   "why": {
-   "en": "17-1/4\" is the girth of each L-shaped half: 10 + 6 + 1 (female Pittsburgh) + 1/4 (male) = 17.25\", so 17\" is the length along the duct. The drive folds 1/2\" in from each cut end, so drive to drive = 17 − 1/2 − 1/2 = 16\" (course sheet 2J: Net = Gross − 1). Trap: 15\" is the working length (17 − 2, 1\" per end to the bend line).",
-   "ru": "17-1/4\" — развёртка каждой Г-образной половины: 10 + 6 + 1 (female Pittsburgh) + 1/4 (male) = 17.25\", значит, 17\" — длина вдоль duct. Drive подгибается в 1/2\" от каждого отрезанного торца, поэтому drive to drive = 17 − 1/2 − 1/2 = 16\" (лист курса 2J: Net = Gross − 1). Ловушка: 15\" — это working length (17 − 2, по 1\" на конец до линии изгиба)."
+   "en": "17-1/4\" is the girth of each L-shaped half: 10 + 6 + 1 (female Pittsburgh) + 1/4 (male) = 17.25\", so 17\" is the length along the duct. The drive folds 1/2\" in from each cut end, so drive to drive = 17 − 1/2 − 1/2 = 16\". Trap: 15\" is the working length (17 − 2, 1\" per end to the bend line).",
+   "ru": "17-1/4\" — развёртка каждой Г-образной половины: 10 + 6 + 1 (female Pittsburgh) + 1/4 (male) = 17.25\", значит, 17\" — длина вдоль duct. Drive подгибается в 1/2\" от каждого отрезанного торца, поэтому drive to drive = 17 − 1/2 − 1/2 = 16\". Ловушка: 15\" — это working length (17 − 2, по 1\" на конец до линии изгиба)."
   },
   "opts": [
    {
@@ -6398,7 +6430,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    72
+   ]
+  ]
  },
  {
   "id": "MON-47",
@@ -6614,7 +6652,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    134
+   ]
+  ]
  },
  {
   "id": "MON-54",
@@ -6655,7 +6699,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    78
+    73
    ],
    [
     "Y2W5Y",
@@ -6747,7 +6791,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    79
+    74
    ],
    [
     "Y2W5Y",
@@ -6803,7 +6847,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    80
+    75
    ],
    [
     "Y2W5Y",
@@ -6881,7 +6925,13 @@ const QUESTIONS = [
    11
   ],
   "type": "multi",
-  "fig": "mon-q58.svg"
+  "fig": "mon-q58.svg",
+  "on": [
+   [
+    "F20",
+    76
+   ]
+  ]
  },
  {
   "id": "MON-60",
@@ -7089,7 +7139,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    188
+    178
    ],
    [
     "Y2W5Y",
@@ -7464,7 +7514,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    225
+   ]
+  ]
  },
  {
   "id": "MON-76",
@@ -8896,7 +8952,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    141
+    137
    ]
   ]
  },
@@ -8939,7 +8995,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    142
+    138
    ]
   ]
  },
@@ -8982,7 +9038,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    143
+    139
    ]
   ]
  },
@@ -9025,133 +9081,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    144
-   ]
-  ]
- },
- {
-  "id": "CLS-5",
-  "src": "CLS",
-  "n": 5,
-  "topic": "safety",
-  "q": {
-   "en": "Working in Washington State, at what height is fall protection required (general rule)?",
-   "ru": "При работе в штате Washington с какой высоты обязательна защита от падения (fall protection) — общее правило?"
-  },
-  "why": {
-   "en": "In Washington the stricter state rule applies: fall protection is required at 4 ft or more (WAC 296-880-20005), while federal OSHA for construction says 6 ft (1926.501(b)(1)). On the test answer 4 ft; 6 ft counts only if you write that it is the federal OSHA number. Scaffolds have their own threshold: 10 ft in both (WAC 296-880-30030, OSHA 1926.451(g)(1)).",
-   "ru": "В Washington действует более строгое правило штата: защита от падения обязательна с 4 ft (WAC 296-880-20005), а федеральный OSHA для стройки требует её с 6 ft (1926.501(b)(1)). На тесте отвечай 4 ft; 6 ft засчитают, только если написать, что это федеральная норма OSHA. У scaffold свой порог — 10 ft и там, и там (WAC 296-880-30030, OSHA 1926.451(g)(1))."
-  },
-  "opts": [
-   {
-    "en": "4 feet",
-    "ru": "4 фута"
-   },
-   {
-    "en": "6 feet",
-    "ru": "6 футов"
-   },
-   {
-    "en": "10 feet",
-    "ru": "10 футов"
-   },
-   {
-    "en": "15 feet",
-    "ru": "15 футов"
-   }
-  ],
-  "answer": [
-   0
-  ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    232
-   ]
-  ]
- },
- {
-  "id": "CLS-6",
-  "src": "CLS",
-  "n": 6,
-  "topic": "safety",
-  "q": {
-   "en": "How much force must the top rail of a guardrail system (temporary ones included) withstand, applied outward or downward?",
-   "ru": "Какую силу, приложенную наружу или вниз, должен выдерживать верхний поручень guardrail system (и временный тоже)?"
-  },
-  "why": {
-   "en": "The top rail must hold at least 200 lb applied within 2 in of the top edge, outward or downward, and temporary guardrails are no exception (OSHA 1926.502(b)(3); Washington's WAC 296-880-40005 uses the same 200 lb). Under that load the top edge must not sag below 39 in; the top rail sits 39–45 in (42 in ± 3 in) above the walking surface. Mid rails must hold 150 lb (OSHA 1926.502(b)(5)).",
-   "ru": "Верхний поручень должен выдержать не меньше 200 lb, приложенных в пределах 2 in от верхней кромки наружу или вниз, и временный guardrail — тоже (OSHA 1926.502(b)(3); в Washington WAC 296-880-40005 — те же 200 lb). Под этой нагрузкой кромка не должна опуститься ниже 39 in; сам поручень стоит на высоте 39–45 in (42 in ± 3 in) над полом. Средний поручень — 150 lb (OSHA 1926.502(b)(5))."
-  },
-  "opts": [
-   {
-    "en": "200 pounds",
-    "ru": "200 фунтов"
-   },
-   {
-    "en": "250 pounds",
-    "ru": "250 фунтов"
-   },
-   {
-    "en": "100 pounds",
-    "ru": "100 фунтов"
-   },
-   {
-    "en": "50 pounds",
-    "ru": "50 фунтов"
-   }
-  ],
-  "answer": [
-   0
-  ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    233
-   ]
-  ]
- },
- {
-  "id": "CLS-7",
-  "src": "CLS",
-  "n": 7,
-  "topic": "shop",
-  "q": {
-   "en": "Sheet lead is specified by:",
-   "ru": "Листовой lead (свинец) заказывают по:"
-  },
-  "why": {
-   "en": "Sheet lead is sold by weight per area, in pounds per square foot: 4 lb lead weighs 4 lb per square foot and is about 1/16\" thick. Sheet copper is specified in ounces per square foot (16 oz copper), steel sheet by gauge, and mils (thousandths of an inch) are used for plastic film and coatings.",
-   "ru": "Листовой свинец продают по весу на площадь — в фунтах на квадратный фут: 4 lb lead весит 4 фунта на квадратный фут, толщина около 1/16\". Медь задают в унциях на квадратный фут (16 oz copper), стальной лист — по gauge, а mils (тысячные дюйма) — для плёнки и покрытий."
-  },
-  "opts": [
-   {
-    "en": "Pounds per square foot",
-    "ru": "Фунтам на квадратный фут"
-   },
-   {
-    "en": "Ounces per square foot",
-    "ru": "Унциям на квадратный фут"
-   },
-   {
-    "en": "Gauge number",
-    "ru": "Номеру gauge"
-   },
-   {
-    "en": "Thickness in mils",
-    "ru": "Толщине в mils"
-   }
-  ],
-  "answer": [
-   0
-  ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    26
+    140
    ]
   ]
  },
@@ -9161,29 +9091,21 @@ const QUESTIONS = [
   "n": 8,
   "topic": "trade",
   "q": {
-   "en": "Always use the ____ tool for the job.",
-   "ru": "Всегда используй ____ инструмент для работы."
+   "en": "Always use what type of tool for the job?",
+   "ru": "Каким инструментом всегда нужно пользоваться для работы?"
   },
   "why": {
-   "en": "Right: the tool made for that task, size and material. Grabbing the nearest one (snips on a gauge they are not rated for, a screwdriver used as a pry bar) ruins the tool and the work and is a common cause of hand injuries. The trap is 'nearest'.",
-   "ru": "Right — инструмент, сделанный именно для этой работы, размера и материала. Схватить ближайший (snips на gauge толще допустимого, отвёртку вместо монтировки) — значит испортить инструмент и деталь; это частая причина травм рук. Ловушка — nearest."
+   "en": "The right tool for the job, not the nearest one. A tool used for work it was not made for breaks, slips or spoils the piece, and that is how most hand-tool injuries happen.",
+   "ru": "Подходящим для этой работы (right), а не тем, что ближе (nearest). Инструмент не по назначению ломается, срывается или портит деталь — так и случается большинство травм от ручного инструмента."
   },
   "opts": [
    {
-    "en": "right",
-    "ru": "right"
+    "en": "Right",
+    "ru": "Right"
    },
    {
-    "en": "nearest",
-    "ru": "nearest"
-   },
-   {
-    "en": "newest",
-    "ru": "newest"
-   },
-   {
-    "en": "cheapest",
-    "ru": "cheapest"
+    "en": "Nearest",
+    "ru": "Nearest"
    }
   ],
   "answer": [
@@ -9193,850 +9115,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    260
-   ]
-  ]
- },
- {
-  "id": "CLS-9",
-  "src": "CLS",
-  "n": 9,
-  "topic": "safety",
-  "q": {
-   "en": "How far should a ladder extend above the roof line (the upper landing)?",
-   "ru": "На сколько лестница должна выступать над краем крыши (верхней площадкой)?"
-  },
-  "why": {
-   "en": "The side rails must extend at least 3 ft above the upper landing, so you have something to hold while stepping on and off (OSHA 1926.1053(b)(1); Washington's WAC 296-876-40030 is the same). Set the foot out about 1/4 of the working length (WAC 296-876-40020): cos A = 1/4, A = 75.52°, the \"75°\" rule (1 ft out for every 4 ft up gives 75.96°).",
-   "ru": "Боковины лестницы должны выступать над верхней площадкой минимум на 3 ft, чтобы было за что держаться, когда сходишь на площадку и встаёшь обратно (OSHA 1926.1053(b)(1); в Washington то же, WAC 296-876-40030). Низ отставляют от опоры примерно на 1/4 рабочей длины (WAC 296-876-40020): cos A = 1/4, A = 75.52°, это и есть правило «75°» (1 ft от стены на каждые 4 ft высоты даёт 75.96°)."
-  },
-  "opts": [
-   {
-    "en": "3 feet",
-    "ru": "3 фута"
-   },
-   {
-    "en": "2 feet",
-    "ru": "2 фута"
-   },
-   {
-    "en": "4 feet",
-    "ru": "4 фута"
-   },
-   {
-    "en": "1 foot",
-    "ru": "1 фут"
-   }
-  ],
-  "answer": [
-   0
-  ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    234
-   ]
-  ]
- },
- {
-  "id": "CLS-10",
-  "src": "CLS",
-  "n": 10,
-  "topic": "math",
-  "q": {
-   "en": "8 + 4 × 3 − 6 ÷ 2 =",
-   "ru": "8 + 4 × 3 − 6 ÷ 2 ="
-  },
-  "why": {
-   "en": "Order of operations: multiply and divide first, left to right (4 × 3 = 12, 6 ÷ 2 = 3), then add and subtract: 8 + 12 − 3 = 17. Traps: 15 comes from working straight left to right ((8 + 4) × 3 − 6 = 30, 30 ÷ 2 = 15); 33 comes from adding before multiplying ((8 + 4) × 3 − 3).",
-   "ru": "Порядок действий: сначала умножение и деление слева направо (4 × 3 = 12, 6 ÷ 2 = 3), потом сложение и вычитание: 8 + 12 − 3 = 17. Ловушки: 15 — если считать подряд слева направо ((8 + 4) × 3 − 6 = 30, 30 ÷ 2 = 15); 33 — если сложить раньше умножения ((8 + 4) × 3 − 3)."
-  },
-  "opts": [
-   {
-    "en": "17",
-    "ru": "17"
-   },
-   {
-    "en": "33",
-    "ru": "33"
-   },
-   {
-    "en": "15",
-    "ru": "15"
-   },
-   {
-    "en": "18",
-    "ru": "18"
-   }
-  ],
-  "answer": [
-   0
-  ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    145
-   ]
-  ]
- },
- {
-  "id": "CLS-11",
-  "src": "CLS",
-  "n": 11,
-  "topic": "math",
-  "q": {
-   "en": "A trench is 36\" wide, 2' deep and 27' long. How many cubic yards of soil come out of it?",
-   "ru": "Траншея шириной 36\", глубиной 2' и длиной 27'. Сколько кубических ярдов грунта из неё вынут?"
-  },
-  "why": {
-   "en": "Bring all sizes to one unit first: 36\" = 3'. Volume = 3 × 2 × 27 = 162 cu. ft. One cubic yard = 3 × 3 × 3 = 27 cu. ft, so 162 ÷ 27 = 6 cu. yd. Traps: 162 is cubic feet, 18 = 162 ÷ 9 (the square-yard factor), 4.5 = 162 ÷ 36 (inches in a yard).",
-   "ru": "Сначала все размеры в одни единицы: 36\" = 3'. Объём = 3 × 2 × 27 = 162 cu. ft. Один кубический ярд = 3 × 3 × 3 = 27 cu. ft, значит, 162 ÷ 27 = 6 cu. yd. Ловушки: 162 — это кубические футы, 18 = 162 ÷ 9 (как для квадратных ярдов), 4.5 = 162 ÷ 36 (дюймы в ярде)."
-  },
-  "opts": [
-   {
-    "en": "6 cu. yd.",
-    "ru": "6 cu. yd."
-   },
-   {
-    "en": "162 cu. yd.",
-    "ru": "162 cu. yd."
-   },
-   {
-    "en": "18 cu. yd.",
-    "ru": "18 cu. yd."
-   },
-   {
-    "en": "4.5 cu. yd.",
-    "ru": "4.5 cu. yd."
-   }
-  ],
-  "answer": [
-   0
-  ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    146
-   ]
-  ]
- },
- {
-  "id": "CLS-12",
-  "src": "CLS",
-  "n": 12,
-  "topic": "layout",
-  "q": {
-   "en": "A transition is drawn drive to drive (connection length) 20\" with S&D on both ends. What is the working (layout) length, and what is the shear length?",
-   "ru": "Transition нарисован drive to drive (connection length) 20\", S&D на обоих концах. Чему равны working (layout) length и shear length?"
-  },
-  "why": {
-   "en": "On a transition the drawn length is the net (drive-to-drive) length. Net = layout + 1 (½\" per end) and shear (gross) = layout + 2 (1\" per end), because the 1\" S&D allowance is bent in half to make the drive. Working (layout) = 20 − ½ − ½ = 19\"; do the triangulation on 19\", then shear = 19 + 1 + 1 = 21\". Trap: 20\" working / 22\" shear takes the drawn 20\" as the working length — the classic one-inch error.",
-   "ru": "На transition длина на чертеже — net (drive to drive). Net = layout + 1 (по ½\" на конец), а shear (gross) = layout + 2 (по 1\" на конец): припуск S&D 1\" загибается пополам под drive. Working (layout) = 20 − ½ − ½ = 19\"; triangulation считают на 19\", потом shear = 19 + 1 + 1 = 21\". Ловушка: 20\" working / 22\" shear — нарисованные 20\" приняты за working length, классическая ошибка «на дюйм»."
-  },
-  "opts": [
-   {
-    "en": "19\" working, 21\" shear",
-    "ru": "19\" working, 21\" shear"
-   },
-   {
-    "en": "20\" working, 22\" shear",
-    "ru": "20\" working, 22\" shear"
-   },
-   {
-    "en": "19\" working, 20\" shear",
-    "ru": "19\" working, 20\" shear"
-   },
-   {
-    "en": "21\" working, 22\" shear",
-    "ru": "21\" working, 22\" shear"
-   }
-  ],
-  "answer": [
-   0
-  ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    85
-   ]
-  ]
- },
- {
-  "id": "F20-1",
-  "src": "F20",
-  "n": 1,
-  "topic": "shop",
-  "q": {
-   "en": "Which reading of these two machine numbers is correct: a Roper Whitney 816 hand brake and a Wysong 1652 power shear?",
-   "ru": "Как правильно прочитать номера двух станков: hand brake Roper Whitney 816 и power shear Wysong 1652?"
-  },
-  "why": {
-   "en": "Roper Whitney rates its 816 brake at \"16 gauge up to 8 feet long\" (bending length 97\"), so the brake number is length in feet, then gauge. The Wysong 1652 shear cuts 16 ga mild steel with a 52\" blade, so this shear number is gauge first, then length in inches: the mirror order. Quick check: 52 cannot be a sheet-metal gauge.",
-   "ru": "Roper Whitney пишет про свой brake 816: «16 gauge up to 8 feet long» (длина гиба 97\"), то есть у brake сначала длина в футах, потом gauge. Shear Wysong 1652 режет mild steel до 16 ga ножом 52\" — у этого shear сначала gauge, потом длина в дюймах, зеркально. Быстрая проверка: 52 не может быть gauge листового металла."
-  },
-  "opts": [
-   {
-    "en": "816 brake: 8 ft long, 16 ga max | 1652 shear: 16 ga max, 52\" long",
-    "ru": "brake 816: длина 8 ft, максимум 16 ga | shear 1652: максимум 16 ga, длина 52\""
-   },
-   {
-    "en": "816 brake: 8 ga max, 16 ft long | 1652 shear: 16 ft long, 52 ga max",
-    "ru": "brake 816: максимум 8 ga, длина 16 ft | shear 1652: длина 16 ft, максимум 52 ga"
-   },
-   {
-    "en": "816 brake: 8 ft long, 16 ga max | 1652 shear: 16 ft long, 52 ga max",
-    "ru": "brake 816: длина 8 ft, максимум 16 ga | shear 1652: длина 16 ft, максимум 52 ga"
-   },
-   {
-    "en": "816 brake: 8 ga max, 16\" long | 1652 shear: 16 ga max, 52\" long",
-    "ru": "brake 816: максимум 8 ga, длина 16\" | shear 1652: максимум 16 ga, длина 52\""
-   }
-  ],
-  "answer": [
-   0
-  ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    27
-   ]
-  ]
- },
- {
-  "id": "F20-2",
-  "src": "F20",
-  "n": 2,
-  "topic": "shop",
-  "q": {
-   "en": "A Roper Whitney U-616-6 box and pan brake. What do the numbers 6-16-6 stand for?",
-   "ru": "Box and pan brake Roper Whitney U-616-6. Что означают числа 6-16-6?"
-  },
-  "why": {
-   "en": "Roper Whitney lists the U-616-6 as 6 feet of 16 gauge bending capacity (bending length 72\") with a 6-inch maximum depth of box. Brake numbers start with the length in feet, then the gauge; the last number on a box and pan brake is the deepest box it can form. Its fingers are 3, 4 and 5 inches wide.",
-   "ru": "Roper Whitney указывает для U-616-6: 6 футов гиба 16 gauge (длина гиба 72\") и максимальная глубина коробки 6 дюймов. У brake номер начинается с длины в футах, потом gauge; последнее число у box and pan brake — самая глубокая коробка, которую он согнёт. Fingers у него шириной 3, 4 и 5 дюймов."
-  },
-  "opts": [
-   {
-    "en": "6 ft bending length, 16 ga mild steel, 6\" max box depth",
-    "ru": "Длина гиба 6 ft, 16 ga mild steel, глубина коробки до 6\""
-   },
-   {
-    "en": "6 ga mild steel, 16 ft bending length, 6\" finger width",
-    "ru": "6 ga mild steel, длина гиба 16 ft, ширина finger 6\""
-   },
-   {
-    "en": "6 ft bending length, 16 fingers, 6 ga mild steel",
-    "ru": "Длина гиба 6 ft, 16 fingers, 6 ga mild steel"
-   },
-   {
-    "en": "6\" bending length, 16 ga mild steel, 6 ft box depth",
-    "ru": "Длина гиба 6\", 16 ga mild steel, глубина коробки 6 ft"
-   }
-  ],
-  "answer": [
-   0
-  ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    28
-   ]
-  ]
- },
- {
-  "id": "F20-3",
-  "src": "F20",
-  "n": 3,
-  "topic": "shop",
-  "q": {
-   "en": "A bar folder is mainly used to:",
-   "ru": "Bar folder в основном используют, чтобы:"
-  },
-  "why": {
-   "en": "A bar folder folds the edge of a light-gauge sheet: set the depth gauge for the width of the fold and the stop for 45° or 90° (or fold all the way over for a hem), and every piece comes out the same without marking. Blanks are cut on a shear, rounds are rolled on slip rolls, and heavy plate is bent on a press brake.",
-   "ru": "Bar folder загибает кромку тонкого листа: выставить gauge на ширину отгиба и упор на 45° или 90° (или загнуть до конца под hem) — и каждая деталь выходит одинаковой без разметки. Заготовки режут на shear, rounds катают на slip rolls, а толстую плиту гнут на press brake."
-  },
-  "opts": [
-   {
-    "en": "Make many identical bends, hems and locks along a sheet edge",
-    "ru": "Делать много одинаковых гибов, hems и замков по кромке листа"
-   },
-   {
-    "en": "Cut many identical blanks from a full sheet",
-    "ru": "Нарезать много одинаковых заготовок из целого листа"
-   },
-   {
-    "en": "Roll many identical rounds of one diameter",
-    "ru": "Прокатывать много одинаковых rounds одного диаметра"
-   },
-   {
-    "en": "Bend heavy plate into identical angles",
-    "ru": "Гнуть толстую плиту в одинаковые уголки"
-   }
-  ],
-  "answer": [
-   0
-  ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    29
-   ]
-  ]
- },
- {
-  "id": "F20-4",
-  "src": "F20",
-  "n": 4,
-  "topic": "shop",
-  "q": {
-   "en": "Sheet copper is specified by:",
-   "ru": "Листовую copper (медь) заказывают по:"
-  },
-  "why": {
-   "en": "Sheet copper is sold by weight in ounces per square foot: 16 oz copper weighs 16 oz (1 lb) per square foot and is about 0.0216\" thick; 20 oz is about 0.027\". Pounds per square foot is how sheet lead is specified (4 lb lead), and steel sheet goes by gauge.",
-   "ru": "Листовую медь продают по весу — в унциях на квадратный фут: 16 oz copper весит 16 унций (1 фунт) на квадратный фут, толщина около 0.0216\"; 20 oz — около 0.027\". В фунтах на квадратный фут задают листовой свинец (4 lb lead), а стальной лист — по gauge."
-  },
-  "opts": [
-   {
-    "en": "Ounces per square foot",
-    "ru": "Унциям на квадратный фут"
-   },
-   {
-    "en": "Pounds per square foot",
-    "ru": "Фунтам на квадратный фут"
-   },
-   {
-    "en": "Gauge number",
-    "ru": "Номеру gauge"
-   },
-   {
-    "en": "Thickness in mils",
-    "ru": "Толщине в mils"
-   }
-  ],
-  "answer": [
-   0
-  ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    30
-   ]
-  ]
- },
- {
-  "id": "F20-5",
-  "src": "F20",
-  "n": 5,
-  "topic": "shop",
-  "q": {
-   "en": "Sheet metal that is approximately 1/8\" thick is about ____ gauge.",
-   "ru": "Лист толщиной примерно 1/8\" — это около ____ gauge."
-  },
-  "why": {
-   "en": "Rule of thumb: 16 ga ≈ 1/16\", and the thickness doubles about every 6 gauge numbers, so 1/8\" (twice 1/16\") ≈ 16 − 6 = 10 gauge. Gauge table check (1/8\" = 0.125\"): 10 ga = 0.1345\" (0.0095 off), 12 ga = 0.1046\" (0.0204 off), 8 ga = 0.1644\" (0.0394 off). If 11 is offered too: for points pick 10; technically 11 ga (0.1196\", 0.0054 off) is the closest gauge to 1/8\". Trap 16: a higher gauge number is thinner, not thicker.",
-   "ru": "Правило: 16 ga ≈ 1/16\", а толщина удваивается примерно через каждые 6 номеров gauge, поэтому 1/8\" (вдвое больше 1/16\") ≈ 16 − 6 = 10 gauge. Проверка по таблице gauge (1/8\" = 0.125\"): 10 ga = 0.1345\" (разница 0.0095), 12 ga = 0.1046\" (0.0204), 8 ga = 0.1644\" (0.0394). Если в вариантах есть и 11: для балла — 10; технически ближе всех к 1/8\" 11 ga (0.1196\", разница 0.0054). Ловушка 16: больше номер — тоньше лист, а не толще."
-  },
-  "opts": [
-   {
-    "en": "16",
-    "ru": "16"
-   },
-   {
-    "en": "12",
-    "ru": "12"
-   },
-   {
-    "en": "10",
-    "ru": "10"
-   },
-   {
-    "en": "8",
-    "ru": "8"
-   }
-  ],
-  "answer": [
-   2
-  ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    31
-   ]
-  ]
- },
- {
-  "id": "F20-6",
-  "src": "F20",
-  "n": 6,
-  "topic": "shop",
-  "q": {
-   "en": "A hand (leaf) brake has a capacity of 816. What does that mean?",
-   "ru": "У ручного (leaf) brake capacity 816. Что это значит?"
-  },
-  "why": {
-   "en": "On a brake the length comes first, then the gauge: 816 = 8 ft long × 16 gauge max. That is how the makers name them: the Tin Knocker TK-816 is an 8 ft leaf brake rated 16 ga, and the Tennsmith HBU48-16 bends 48\" of 16 ga. Capacity is always given for mild steel; stainless is harder, so a 16 ga hand brake takes stainless only to about 20 ga. On foot shears the order is flipped: a 1652 foot shear cuts 16 ga, 52\" long.",
-   "ru": "У brake сначала длина, потом gauge: 816 = длина 8 ft × максимум 16 gauge. Так их и называют производители: Tin Knocker TK-816 — leaf brake на 8 ft, 16 ga; Tennsmith HBU48-16 гнёт 48\" листа 16 ga. Capacity всегда указана для mild steel; stainless твёрже, и ручной brake на 16 ga берёт stainless только примерно до 20 ga. У foot shear порядок обратный: foot shear 1652 режет 16 ga длиной 52\"."
-  },
-  "opts": [
-   {
-    "en": "It bends up to 8 gauge mild steel, 16 feet long",
-    "ru": "Гнёт mild steel до 8 gauge длиной 16 футов"
-   },
-   {
-    "en": "It bends up to 16 gauge mild steel, 8 feet long",
-    "ru": "Гнёт mild steel до 16 gauge длиной 8 футов"
-   },
-   {
-    "en": "It bends up to 16 gauge stainless steel, 8 feet long",
-    "ru": "Гнёт stainless steel до 16 gauge длиной 8 футов"
-   },
-   {
-    "en": "It bends up to 8 gauge mild steel, 16 inches long",
-    "ru": "Гнёт mild steel до 8 gauge длиной 16 дюймов"
-   }
-  ],
-  "answer": [
-   1
-  ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    32
-   ]
-  ]
- },
- {
-  "id": "F20-7",
-  "src": "F20",
-  "n": 7,
-  "topic": "shop",
-  "q": {
-   "en": "A foot squaring shear is rated 1652. What does that mean?",
-   "ru": "Foot squaring shear имеет маркировку 1652. Что это значит?"
-  },
-  "why": {
-   "en": "On a foot shear the numbers run the other way from a brake: gauge first, then length. 1652 = 16 ga mild steel max, 52\" cut: the Tin Knocker TN-1652 is rated 16 ga mild steel with a 52\" shearing length, and the JET FS-1652J is 52\" × 16 ga. There is no 52 gauge sheet, so 52 can only be the length. Capacity is rated in mild steel, not stainless. On the test, read every shear number gauge first; on the job, read the capacity plate, because makers do not name big power shears the same way.",
-   "ru": "У foot shear числа идут наоборот, чем у brake: сначала gauge, потом длина. 1652 = максимум 16 ga mild steel, рез 52\": Tin Knocker TN-1652 — 16 ga mild steel, длина реза 52\"; JET FS-1652J — 52\" × 16 ga. Листа 52 gauge не бывает, значит, 52 — это длина. Capacity дают для mild steel, не для stainless. На тесте номер shear всегда читай с gauge; на работе смотри табличку станка — большие power shear производители называют по-разному."
-  },
-  "opts": [
-   {
-    "en": "It cuts up to 16 gauge mild steel, 52\" long",
-    "ru": "Режет mild steel до 16 gauge длиной 52\""
-   },
-   {
-    "en": "It cuts 16 ft long sheets up to 52 gauge",
-    "ru": "Режет листы длиной 16 футов до 52 gauge"
-   },
-   {
-    "en": "It cuts up to 16 gauge stainless steel, 52\" long",
-    "ru": "Режет stainless steel до 16 gauge длиной 52\""
-   },
-   {
-    "en": "It cuts sheets up to 52\" wide in any gauge",
-    "ru": "Режет листы шириной до 52\" любого gauge"
-   }
-  ],
-  "answer": [
-   0
-  ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    33
-   ]
-  ]
- },
- {
-  "id": "F20-8",
-  "src": "F20",
-  "n": 8,
-  "topic": "layout",
-  "q": {
-   "en": "Which scale ruler divides the inch into decimal parts (10, 20, 30, 40, 50 or 60 parts per inch)?",
-   "ru": "Какая масштабная линейка делит дюйм на десятичные части (10, 20, 30, 40, 50 или 60 частей на дюйм)?"
-  },
-  "why": {
-   "en": "The engineer scale reads in decimals: each inch is split into 10, 20, 30, 40, 50 or 60 parts (1\" = 10', 1\" = 20' …), used on site and civil plans. The architect scale reads in feet and fractions of an inch (1/8\" = 1'-0\", 1/4\" = 1'-0\", 3\" = 1'-0\"), the scale of building and duct drawings — it does not use decimals.",
-   "ru": "Engineer scale — десятичная: каждый дюйм разбит на 10, 20, 30, 40, 50 или 60 частей (1\" = 10', 1\" = 20' …), её берут для генпланов и civil-чертежей. Architect scale читается в футах и дробях дюйма (1/8\" = 1'-0\", 1/4\" = 1'-0\", 3\" = 1'-0\"), это масштаб строительных чертежей и чертежей duct — десятичных долей у неё нет."
-  },
-  "opts": [
-   {
-    "en": "Architect scale",
-    "ru": "Architect scale"
-   },
-   {
-    "en": "Both architect and engineer scales",
-    "ru": "Обе: architect и engineer scale"
-   },
-   {
-    "en": "Neither",
-    "ru": "Ни одна"
-   },
-   {
-    "en": "Engineer scale",
-    "ru": "Engineer scale"
-   }
-  ],
-  "answer": [
-   3
-  ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    86
-   ]
-  ]
- },
- {
-  "id": "F20-9",
-  "src": "F20",
-  "n": 9,
-  "topic": "shop",
-  "q": {
-   "en": "Perforated metal is sheet metal that has been:",
-   "ru": "Perforated metal — это листовой металл, который:"
-  },
-  "why": {
-   "en": "Perforated sheet is punched: the holes are knocked out of a solid sheet, nothing is stretched and the sheet keeps its size. Slit and stretched is expanded metal — diamond openings, no metal removed. A raised rolled pattern is diamond (tread) plate; woven wire is wire mesh.",
-   "ru": "Perforated — пробитый: отверстия выбиты из сплошного листа, ничего не растягивается, размер листа прежний. Надрезан и растянут — это expanded metal: ромбовидные ячейки, металл не убирается. Выпуклый прокатанный рисунок — diamond (tread) plate; плетёнка из проволоки — wire mesh."
-  },
-  "opts": [
-   {
-    "en": "Slit and stretched",
-    "ru": "Надрезали и растянули"
-   },
-   {
-    "en": "Rolled with a raised pattern",
-    "ru": "Прокатали с выпуклым рисунком"
-   },
-   {
-    "en": "Punched with a pattern of holes",
-    "ru": "Пробили рядами отверстий"
-   },
-   {
-    "en": "Woven from wire",
-    "ru": "Сплели из проволоки"
-   }
-  ],
-  "answer": [
-   2
-  ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    34
-   ]
-  ]
- },
- {
-  "id": "F20-10",
-  "src": "F20",
-  "n": 10,
-  "topic": "math",
-  "q": {
-   "en": "When you solve a right triangle on the calculator (X = run, Y = rise), which side is the Y value?",
-   "ru": "Когда решаешь прямоугольный треугольник на калькуляторе (X = run, Y = rise), какая сторона — это Y?"
-  },
-  "why": {
-   "en": "Y is always the side opposite the angle you are working from; X is the side that runs to and from that angle (adjacent); the hypotenuse is the diagonal (r). Example: hypotenuse 13.67\", angle 52.4°: X = 13.67 × cos 52.4° = 8.34\", Y = 13.67 × sin 52.4° = 10.83\". Work from the other acute angle (90 − 52.4 = 37.6°) and the same sides swap names, so Y is not 'always vertical'. Swapping X and Y is the usual trap: it gives 10.83\" where the answer is 8.34\".",
-   "ru": "Y — всегда сторона напротив угла, от которого считаешь; X — сторона, которая идёт от этого угла (прилежащая); гипотенуза — диагональ (r). Пример: гипотенуза 13.67\", угол 52.4°: X = 13.67 × cos 52.4° = 8.34\", Y = 13.67 × sin 52.4° = 10.83\". Если считать от другого острого угла (90 − 52.4 = 37.6°), те же стороны меняются названиями, поэтому Y — не «всегда вертикальная». Обычная ловушка — перепутать X и Y: выйдет 10.83\" там, где ответ 8.34\"."
-  },
-  "opts": [
-   {
-    "en": "The side that runs to and from the angle you are working from",
-    "ru": "Сторона, которая идёт от угла, с которым работаешь (прилежащая)"
-   },
-   {
-    "en": "The side opposite the angle you are working from",
-    "ru": "Сторона напротив угла, с которым работаешь"
-   },
-   {
-    "en": "The hypotenuse, across from the 90° corner",
-    "ru": "Гипотенуза, напротив прямого угла"
-   },
-   {
-    "en": "Always the vertical side, whatever angle you work from",
-    "ru": "Всегда вертикальная сторона, с каким углом ни работай"
-   }
-  ],
-  "answer": [
-   1
-  ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    147
-   ]
-  ]
- },
- {
-  "id": "F20-11",
-  "src": "F20",
-  "n": 11,
-  "topic": "layout",
-  "q": {
-   "en": "Before you can solve the pipe length and overall length of an offset made with two equal elbows, which three values do you need?",
-   "ru": "Чтобы найти pipe length и overall length для offset из двух одинаковых elbow, какие три величины нужны заранее?"
-  },
-  "why": {
-   "en": "The formulas need centerline radius (CL R), elbow degree (θ) and offset (O): K = CL R × tan(θ ÷ 2), pipe length = O ÷ sin θ − 2K, overall length = O ÷ tan θ + 2K. The drawing usually gives the throat radius, so CL R = throat R + ½ the cheek side. Example: 18\"x20\", throat R 18\", 30° elbows, offset 47\": CL R = 18 + 9 = 27; 2K = 14.47; pipe = 94 − 14.47 = 79.53\"; overall = 81.41 + 14.47 = 95.88\".",
-   "ru": "Формулам нужны centerline radius (CL R), угол elbow (θ) и offset (O): K = CL R × tan(θ ÷ 2), pipe length = O ÷ sin θ − 2K, overall length = O ÷ tan θ + 2K. На чертеже обычно дан throat radius, поэтому CL R = throat R + половина стороны cheek. Пример: 18\"x20\", throat R 18\", elbows 30°, offset 47\": CL R = 18 + 9 = 27; 2K = 14.47; pipe = 94 − 14.47 = 79.53\"; overall = 81.41 + 14.47 = 95.88\"."
-  },
-  "opts": [
-   {
-    "en": "Throat radius, heel radius and duct gauge",
-    "ru": "Throat radius, heel radius и gauge duct"
-   },
-   {
-    "en": "Duct width, duct depth and overall length",
-    "ru": "Ширина duct, глубина duct и overall length"
-   },
-   {
-    "en": "Centerline radius, elbow degree and the offset",
-    "ru": "Centerline radius, угол elbow и offset"
-   },
-   {
-    "en": "Pipe length, overall length and elbow degree",
-    "ru": "Pipe length, overall length и угол elbow"
-   }
-  ],
-  "answer": [
-   2
-  ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    87
-   ]
-  ]
- },
- {
-  "id": "F20-12",
-  "src": "F20",
-  "n": 12,
-  "topic": "layout",
-  "q": {
-   "en": "In the first part of the two-elbow offset formula, K = centerline radius × tan of an angle. Which angle do you use?",
-   "ru": "В первой части формулы offset из двух elbow K = centerline radius × tan угла. Какой угол туда ставят?"
-  },
-  "why": {
-   "en": "K = CL R × tan(θ ÷ 2): K runs from the end of the elbow to the point where the two center lines cross, and that point splits the elbow's turn in half. The full angle goes only into the second part (O ÷ sin θ and O ÷ tan θ). Example: CL R 27\", 30° elbows, offset 47\": K = 27 × tan 15° = 7.2346, 2K = 14.4693, pipe = 47 ÷ sin 30° − 14.4693 = 94 − 14.4693 = 79.53\". With the full 30° by mistake: 2K = 2 × 27 × tan 30° = 31.18 and pipe = 62.82\" — almost 17\" short. On the HVAC Pro: CL R → x, θ ÷ 2 → θ, then y = K.",
-   "ru": "K = CL R × tan(θ ÷ 2): K идёт от торца elbow до точки, где пересекаются center lines двух duct, а эта точка делит поворот elbow пополам. Полный угол идёт только во вторую часть (O ÷ sin θ и O ÷ tan θ). Пример: CL R 27\", elbows 30°, offset 47\": K = 27 × tan 15° = 7.2346, 2K = 14.4693, pipe = 47 ÷ sin 30° − 14.4693 = 94 − 14.4693 = 79.53\". С полным углом 30° по ошибке: 2K = 2 × 27 × tan 30° = 31.18, pipe = 62.82\" — короче почти на 17\". На HVAC Pro: CL R → x, θ ÷ 2 → θ, потом y = K."
-  },
-  "opts": [
-   {
-    "en": "The full elbow degree",
-    "ru": "Полный угол elbow"
-   },
-   {
-    "en": "Twice the elbow degree",
-    "ru": "Двойной угол elbow"
-   },
-   {
-    "en": "90° minus the elbow degree",
-    "ru": "90° минус угол elbow"
-   },
-   {
-    "en": "Half the elbow degree",
-    "ru": "Половину угла elbow"
-   }
-  ],
-  "answer": [
-   3
-  ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    88
-   ]
-  ]
- },
- {
-  "id": "F20-13",
-  "src": "F20",
-  "n": 13,
-  "topic": "layout",
-  "q": {
-   "en": "Which set of length names is correct for a duct section with S&D connections?",
-   "ru": "Какие названия длин верны для секции duct с соединениями S&D?"
-  },
-  "why": {
-   "en": "Layout = working length (bend line to bend line); Net = connection length, drive to drive (what the shop ticket shows); Gross = shear length (edge to edge of the blank). S&D adds 1\" per end beyond the bend line, half of it beyond the drive line: Net = Layout + 1\", Gross = Layout + 2\". Example: sheared 27\" → net 26\" → layout 25\"; drawn drive to drive 20\" → layout 19\" → shear 21\".",
-   "ru": "Layout = working length (от линии изгиба до линии изгиба); Net = connection length, drive to drive (её показывает shop ticket); Gross = shear length (от края до края заготовки). S&D даёт 1\" на каждый конец за линией изгиба, половина из него — за drive line: Net = Layout + 1\", Gross = Layout + 2\". Пример: sheared 27\" → net 26\" → layout 25\"; на чертеже drive to drive 20\" → layout 19\" → shear 21\"."
-  },
-  "opts": [
-   {
-    "en": "Layout = shear length, Net = working length, Gross = connection length",
-    "ru": "Layout = shear length, Net = working length, Gross = connection length"
-   },
-   {
-    "en": "Layout = working length, Net = shear length, Gross = connection length",
-    "ru": "Layout = working length, Net = shear length, Gross = connection length"
-   },
-   {
-    "en": "Layout = working length, Net = connection length, Gross = shear length",
-    "ru": "Layout = working length, Net = connection length, Gross = shear length"
-   },
-   {
-    "en": "Layout = connection length, Net = shear length, Gross = working length",
-    "ru": "Layout = connection length, Net = shear length, Gross = working length"
-   }
-  ],
-  "answer": [
-   2
-  ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    89
-   ]
-  ]
- },
- {
-  "id": "F20-14",
-  "src": "F20",
-  "n": 14,
-  "topic": "math",
-  "q": {
-   "en": "Use the law of cosines. The triangle's sides are not labeled. What is its largest angle?",
-   "ru": "Используй law of cosines. Стороны треугольника не подписаны буквами. Чему равен его самый большой угол?"
-  },
-  "why": {
-   "en": "Label it yourself: the longest side, 4'-0\" = 48\", is A, so the largest angle is A, opposite it; B = 36\", C = 24\". cos A = (B² + C² − A²) ÷ (2·B·C) = (1296 + 576 − 2304) ÷ 1728 = −0.25 → A = 104.48°. On the calculator: 48 Conv 4, 36 Conv 5, 24 Conv 6, then Conv 9 (Law Cos) — angle A shows first. 75.52° = 180 − 104.48 (the minus sign of −0.25 dropped); 46.57° and 28.96° are the other two angles (all three add to 180°).",
-   "ru": "Подпиши сам: самая длинная сторона 4'-0\" = 48\" — это A, значит, самый большой угол — A, напротив неё; B = 36\", C = 24\". cos A = (B² + C² − A²) ÷ (2·B·C) = (1296 + 576 − 2304) ÷ 1728 = −0.25 → A = 104.48°. На калькуляторе: 48 Conv 4, 36 Conv 5, 24 Conv 6, потом Conv 9 (Law Cos) — первым покажет угол A. 75.52° = 180 − 104.48 (потерян минус у −0.25); 46.57° и 28.96° — два других угла (все три в сумме 180°)."
-  },
-  "opts": [
-   {
-    "en": "75.52°",
-    "ru": "75.52°"
-   },
-   {
-    "en": "28.96°",
-    "ru": "28.96°"
-   },
-   {
-    "en": "104.48°",
-    "ru": "104.48°"
-   },
-   {
-    "en": "46.57°",
-    "ru": "46.57°"
-   }
-  ],
-  "answer": [
-   2
-  ],
-  "type": "single",
-  "fig": "f20-q81.svg",
-  "on": [
-   [
-    "F20",
-    148
-   ]
-  ]
- },
- {
-  "id": "F20-15",
-  "src": "F20",
-  "n": 15,
-  "topic": "math",
-  "q": {
-   "en": "The shape is symmetrical about the center line. What is its perimeter in feet and inches?",
-   "ru": "Фигура симметрична относительно center line. Чему равен её периметр в футах и дюймах?"
-  },
-  "why": {
-   "en": "Symmetrical means a size shown on one side is the same on the other. Bottom = 2 × 5 = 10\" (the 5\" is measured from the center line); top = 18\"; each side = 9 + 5 + 6 = 20\", both sides = 40\". Perimeter = 10 + 18 + 40 = 68\" = 5'-8\". Traps: 5'-3\" counts the 5\" bottom once; 3'-7\" adds only the printed numbers (43\"); 5'-6\" uses the 4\" step across instead of the 5\" slant.",
-   "ru": "Симметрия: размер, показанный с одной стороны, такой же и с другой. Низ = 2 × 5 = 10\" (5\" отмерено от center line); верх = 18\"; каждая сторона = 9 + 5 + 6 = 20\", обе стороны = 40\". Периметр = 10 + 18 + 40 = 68\" = 5'-8\". Ловушки: 5'-3\" — низ 5\" взят один раз; 3'-7\" — сложены только напечатанные числа (43\"); 5'-6\" — вместо наклона 5\" взят шаг 4\" по горизонтали."
-  },
-  "opts": [
-   {
-    "en": "5'-3\"",
-    "ru": "5'-3\""
-   },
-   {
-    "en": "3'-7\"",
-    "ru": "3'-7\""
-   },
-   {
-    "en": "5'-6\"",
-    "ru": "5'-6\""
-   },
-   {
-    "en": "5'-8\"",
-    "ru": "5'-8\""
-   }
-  ],
-  "answer": [
-   3
-  ],
-  "type": "single",
-  "fig": "f20-q82.svg",
-  "on": [
-   [
-    "F20",
-    149
-   ]
-  ]
- },
- {
-  "id": "F20-16",
-  "src": "F20",
-  "n": 16,
-  "topic": "math",
-  "q": {
-   "en": "The pattern is symmetrical from the center line. Calculate its perimeter, rounded to 2 decimal places.",
-   "ru": "Выкройка симметрична относительно center line. Найди её периметр, округли до 2 знаков после запятой."
-  },
-  "why": {
-   "en": "Work one half and double it. 150° corner: the slant leans 30° off vertical and moves 4-1/4\" across, so slant = 4.25 ÷ sin 30° = 8.5\" and its rise = 4.25 ÷ tan 30° = 7.3612\"; the short bottom side = 10.375 − 7.3612 = 3.0138\". 135° corner: the 7-1/4\" slant runs at 45°, across 7.25 × cos 45° = 5.1265\". Bottom = 2 × 3 = 6\"; top = 2 × (3 + 4.25 + 5.1265) = 24.7530\"; each side = 3.0138 + 8.5 + 5 + 7.25 = 23.7638\". Perimeter = 6 + 24.7530 + 2 × 23.7638 = 78.28\". Traps: 75.28 (3\" bottom taken once), 72.25 (short bottom side missed), 82.53 (7-1/4\" used as the across distance in the top).",
-   "ru": "Считай половину и удваивай. Угол 150°: наклон отходит от вертикали на 30° и уходит на 4-1/4\" в сторону, значит, наклон = 4.25 ÷ sin 30° = 8.5\", его высота = 4.25 ÷ tan 30° = 7.3612\"; короткая нижняя сторона = 10.375 − 7.3612 = 3.0138\". Угол 135°: наклон 7-1/4\" идёт под 45°, в сторону 7.25 × cos 45° = 5.1265\". Низ = 2 × 3 = 6\"; верх = 2 × (3 + 4.25 + 5.1265) = 24.7530\"; каждая сторона = 3.0138 + 8.5 + 5 + 7.25 = 23.7638\". Периметр = 6 + 24.7530 + 2 × 23.7638 = 78.28\". Ловушки: 75.28 (низ 3\" взят один раз), 72.25 (пропущена короткая нижняя сторона), 82.53 (в верх взяли 7-1/4\" вместо 5.1265\")."
-  },
-  "opts": [
-   {
-    "en": "75.28\"",
-    "ru": "75.28\""
-   },
-   {
-    "en": "78.28\"",
-    "ru": "78.28\""
-   },
-   {
-    "en": "82.53\"",
-    "ru": "82.53\""
-   },
-   {
-    "en": "72.25\"",
-    "ru": "72.25\""
-   }
-  ],
-  "answer": [
-   1
-  ],
-  "type": "single",
-  "fig": "f20-q83.svg",
-  "on": [
-   [
-    "F20",
-    150
+    253
    ]
   ]
  },
@@ -14622,7 +13701,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    81
+   ]
+  ]
  },
  {
   "id": "Y1W3-55",
@@ -14807,7 +13892,13 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "fig": "y1w3-q60.svg"
+  "fig": "y1w3-q60.svg",
+  "on": [
+   [
+    "F20",
+    136
+   ]
+  ]
  },
  {
   "id": "Y1W5F-39",
@@ -14847,7 +13938,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    140
+    132
    ]
   ]
  },
@@ -14881,7 +13972,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    66
+    60
    ]
   ]
  },
@@ -14923,7 +14014,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    67
+    61
    ]
   ]
  },
@@ -14957,7 +14048,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    68
+    62
    ],
    [
     "Y2W5Y",
@@ -14995,7 +14086,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    69
+    63
    ]
   ]
  },
@@ -15029,7 +14120,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    70
+    64
    ]
   ]
  },
@@ -15063,7 +14154,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    71
+    65
    ]
   ]
  },
@@ -15097,7 +14188,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    72
+    66
    ],
    [
     "Y2W5Y",
@@ -15135,7 +14226,205 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    73
+    67
+   ]
+  ]
+ },
+ {
+  "id": "Y1W5H-10",
+  "src": "Y1W5H",
+  "n": 10,
+  "topic": "safety",
+  "q": {
+   "en": "The general rule is that fall protection is required whenever a worker could fall _______ or more (OSHA specific).",
+   "ru": "Общее правило: защита от падения обязательна, если работник может упасть с высоты _______ и больше (по OSHA)."
+  },
+  "why": {
+   "en": "6 feet: OSHA's general rule for construction (1926.501(b)(1)), and the question asks for the OSHA number. In Washington the stricter state rule applies on the job: fall protection from 4 ft (WAC 296-880-20005). 10 ft is the scaffold threshold (1926.451(g)(1)).",
+   "ru": "6 feet: общее правило OSHA для стройки (1926.501(b)(1)), а вопрос спрашивает именно норму OSHA. В штате Washington на работе действует более строгое правило штата: защита от падения с 4 ft (WAC 296-880-20005). 10 ft — порог для scaffold (1926.451(g)(1))."
+  },
+  "opts": [
+   {
+    "en": "5 feet",
+    "ru": "5 feet"
+   },
+   {
+    "en": "6 feet",
+    "ru": "6 feet"
+   },
+   {
+    "en": "10 feet",
+    "ru": "10 feet"
+   },
+   {
+    "en": "12 feet",
+    "ru": "12 feet"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    221
+   ]
+  ]
+ },
+ {
+  "id": "Y1W5H-16",
+  "src": "Y1W5H",
+  "n": 16,
+  "topic": "safety",
+  "q": {
+   "en": "Guardrails must be able to withstand ____ lbs. of force in any downward or outward direction along its top edge.",
+   "ru": "Guardrails должны выдерживать ____ lbs. силы в любом направлении вниз или наружу вдоль верхней кромки."
+  },
+  "why": {
+   "en": "200 lb applied within 2 in of the top edge, outward or downward (OSHA 1926.502(b)(3)); temporary guardrails too. Washington's WAC 296-880-40005 is the same 200 lb. 150 lb is the requirement for mid rails.",
+   "ru": "200 lb в пределах 2 in от верхней кромки, наружу или вниз (OSHA 1926.502(b)(3)), и для временных guardrails тоже. В Washington WAC 296-880-40005 — те же 200 lb. 150 lb — требование к среднему поручню."
+  },
+  "opts": [
+   {
+    "en": "100",
+    "ru": "100"
+   },
+   {
+    "en": "150",
+    "ru": "150"
+   },
+   {
+    "en": "200",
+    "ru": "200"
+   },
+   {
+    "en": "250",
+    "ru": "250"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    222
+   ]
+  ]
+ },
+ {
+  "id": "Y1W5H-3",
+  "src": "Y1W5H",
+  "n": 3,
+  "topic": "safety",
+  "q": {
+   "en": "The correct ladder angle for working safely is __________.",
+   "ru": "Правильный угол лестницы для безопасной работы — __________."
+  },
+  "why": {
+   "en": "Set the foot out 1/4 of the working length (the 4-to-1 rule, OSHA 1926.1053(b)(5)(i); WAC 296-876-40020 in Washington): cos A = 1/4, A = 75.52° ≈ 75°. Flatter and the foot can slide out; steeper and the ladder can tip back.",
+   "ru": "Низ лестницы отставляют на 1/4 рабочей длины (правило 4 к 1, OSHA 1926.1053(b)(5)(i); в Washington WAC 296-876-40020): cos A = 1/4, A = 75.52° ≈ 75°. Положе — низ может уехать, круче — лестница может опрокинуться назад."
+  },
+  "opts": [
+   {
+    "en": "75°",
+    "ru": "75°"
+   },
+   {
+    "en": "65°",
+    "ru": "65°"
+   },
+   {
+    "en": "80°",
+    "ru": "80°"
+   },
+   {
+    "en": "70°",
+    "ru": "70°"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    220
+   ]
+  ]
+ },
+ {
+  "id": "Y1W5H-22",
+  "src": "Y1W5H",
+  "n": 22,
+  "topic": "safety",
+  "q": {
+   "en": "Ladders should be set up at a 75° angle.",
+   "ru": "Лестницу нужно ставить под углом 75°."
+  },
+  "why": {
+   "en": "True: the 4-to-1 rule (foot out 1 ft for every 4 ft of working length) gives cos A = 1/4, A = 75.52° ≈ 75° (OSHA 1926.1053(b)(5)(i); WAC 296-876-40020).",
+   "ru": "True: правило 4 к 1 (на каждые 4 ft рабочей длины низ отставляют на 1 ft) даёт cos A = 1/4, A = 75.52° ≈ 75° (OSHA 1926.1053(b)(5)(i); WAC 296-876-40020)."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "True"
+   },
+   {
+    "en": "False",
+    "ru": "False"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    223
+   ]
+  ]
+ },
+ {
+  "id": "Y1W5H-23",
+  "src": "Y1W5H",
+  "n": 23,
+  "topic": "safety",
+  "q": {
+   "en": "Ladders should extend at least ____ feet above the landing.",
+   "ru": "Лестница должна выступать над площадкой минимум на ____ feet."
+  },
+  "why": {
+   "en": "3 feet above the upper landing, so there is something to hold while stepping on and off (OSHA 1926.1053(b)(1); the same in Washington, WAC 296-876-40030).",
+   "ru": "На 3 ft над верхней площадкой, чтобы было за что держаться, когда сходишь на площадку и встаёшь обратно (OSHA 1926.1053(b)(1); в Washington то же, WAC 296-876-40030)."
+  },
+  "opts": [
+   {
+    "en": "3 feet",
+    "ru": "3 feet"
+   },
+   {
+    "en": "5 feet",
+    "ru": "5 feet"
+   },
+   {
+    "en": "2 feet",
+    "ru": "2 feet"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    224
    ]
   ]
  },
@@ -15177,7 +14466,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    258
+    251
    ]
   ]
  },
@@ -15355,7 +14644,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    226
+    216
    ]
   ]
  },
@@ -15389,7 +14678,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    259
+    252
    ]
   ]
  },
@@ -15423,7 +14712,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    60
+    54
    ]
   ]
  },
@@ -15499,7 +14788,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    61
+    55
    ]
   ]
  },
@@ -15569,7 +14858,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    62
+    56
    ]
   ]
  },
@@ -15639,7 +14928,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    63
+    57
    ]
   ]
  },
@@ -15681,7 +14970,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    64
+    58
    ]
   ]
  },
@@ -15723,7 +15012,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    65
+    59
    ]
   ]
  },
@@ -15765,7 +15054,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    137
+    129
    ]
   ]
  },
@@ -15799,7 +15088,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    227
+    217
    ]
   ]
  },
@@ -15833,7 +15122,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    228
+    218
    ]
   ]
  },
@@ -15867,7 +15156,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    229
+    219
    ]
   ]
  },
@@ -15909,7 +15198,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    138
+    130
    ]
   ]
  },
@@ -15956,7 +15245,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    139
+    131
    ]
   ]
  },
@@ -16106,7 +15395,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    230
+    257
    ],
    [
     "Y2W5Y",
@@ -16216,7 +15505,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    231
+    226
    ],
    [
     "Y2W5Y",
@@ -16366,7 +15655,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    135
+   ]
+  ]
  },
  {
   "id": "Y2W3F-14",
@@ -16695,7 +15990,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    81
+    77
    ],
    [
     "Y2W5Y",
@@ -16936,7 +16231,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    82
+    78
    ],
    [
     "Y2W5Y",
@@ -17004,7 +16299,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    83
+    79
    ],
    [
     "Y2W5Y",
@@ -17086,7 +16381,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    84
+    80
    ],
    [
     "Y2W5Y",
@@ -17248,7 +16543,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    227
+   ]
+  ]
  },
  {
   "id": "Y2W3F-52",
@@ -17619,7 +16920,13 @@ const QUESTIONS = [
    "reject": [],
    "text": "Mild",
    "prefix": ""
-  }
+  },
+  "on": [
+   [
+    "F20",
+    28
+   ]
+  ]
  },
  {
   "id": "Y2W3M-55",
@@ -19591,7 +18898,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    262
+    255
    ]
   ]
  },
@@ -19633,7 +18940,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    263
+    256
    ]
   ]
  },
@@ -19675,7 +18982,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    206
+    196
    ],
    [
     "Y2W5Y",
@@ -19725,7 +19032,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    207
+    197
    ]
   ]
  },
@@ -19767,7 +19074,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    208
+    198
    ]
   ]
  },
@@ -19813,7 +19120,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    209
+    199
    ]
   ]
  },
@@ -19855,7 +19162,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    210
+    200
    ]
   ]
  },
@@ -19898,7 +19205,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    211
+    201
    ],
    [
     "Y2W5Y",
@@ -19945,7 +19252,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    212
+    202
    ],
    [
     "Y2W5Y",
@@ -19991,7 +19298,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    254
+    247
    ]
   ]
  },
@@ -20033,7 +19340,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    161
+    151
    ]
   ]
  },
@@ -20075,7 +19382,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    90
+    82
    ],
    [
     "Y2W5Y",
@@ -20164,7 +19471,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    38
+    32
    ],
    [
     "Y2W5Y",
@@ -20210,7 +19517,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    153
+    143
    ],
    [
     "Y2W5Y",
@@ -20256,7 +19563,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    261
+    254
    ],
    [
     "Y2W5Y",
@@ -20333,7 +19640,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    39
+    33
    ],
    [
     "Y2W5Y",
@@ -20828,7 +20135,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    35
+    29
    ],
    [
     "Y2W5Y",
@@ -20874,7 +20181,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    36
+    30
    ],
    [
     "Y2W5Y",
@@ -20905,7 +20212,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    91
+    83
    ],
    [
     "Y2W5Y",
@@ -20951,7 +20258,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    37
+    31
    ],
    [
     "Y2W5Y",
@@ -20997,7 +20304,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    189
+    179
    ],
    [
     "Y2W5Y",
@@ -21035,7 +20342,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    190
+    180
    ],
    [
     "Y2W5Y",
@@ -21081,7 +20388,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    151
+    141
    ],
    [
     "Y2W5Y",
@@ -21131,7 +20438,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    152
+    142
    ],
    [
     "Y2W5Y",
@@ -21177,7 +20484,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    154
+    144
    ],
    [
     "Y2W5Y",
@@ -21223,7 +20530,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    155
+    145
    ],
    [
     "Y2W5Y",
@@ -21269,7 +20576,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    156
+    146
    ],
    [
     "Y2W5Y",
@@ -21314,7 +20621,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    157
+    147
    ],
    [
     "Y2W5Y",
@@ -21360,7 +20667,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    158
+    148
    ],
    [
     "Y2W5Y",
@@ -21402,7 +20709,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    159
+    149
    ],
    [
     "Y2W5Y",
@@ -21448,7 +20755,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    160
+    150
    ],
    [
     "Y2W5Y",
@@ -21494,7 +20801,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    191
+    181
    ],
    [
     "Y2W5Y",
@@ -21536,7 +20843,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    192
+    182
    ],
    [
     "Y2W5Y",
@@ -21582,7 +20889,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    92
+    84
    ],
    [
     "Y2W5Y",
@@ -21629,7 +20936,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    93
+    85
    ],
    [
     "Y2W5Y",
@@ -21671,7 +20978,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    193
+    183
    ],
    [
     "Y2W5Y",
@@ -21713,7 +21020,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    194
+    184
    ],
    [
     "Y2W5Y",
@@ -21755,7 +21062,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    195
+    185
    ],
    [
     "Y2W5Y",
@@ -21797,7 +21104,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    196
+    186
    ],
    [
     "Y2W5Y",
@@ -21839,7 +21146,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    197
+    187
    ],
    [
     "Y2W5Y",
@@ -21881,7 +21188,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    198
+    188
    ],
    [
     "Y2W5Y",
@@ -21923,7 +21230,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    199
+    189
    ],
    [
     "Y2W5Y",
@@ -21965,7 +21272,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    200
+    190
    ],
    [
     "Y2W5Y",
@@ -22007,7 +21314,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    201
+    191
    ],
    [
     "Y2W5Y",
@@ -22049,7 +21356,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    202
+    192
    ],
    [
     "Y2W5Y",
@@ -22091,7 +21398,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    203
+    193
    ],
    [
     "Y2W5Y",
@@ -22133,7 +21440,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    204
+    194
    ],
    [
     "Y2W5Y",
@@ -22175,7 +21482,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    205
+    195
    ],
    [
     "Y2W5Y",
@@ -22213,7 +21520,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    235
+    228
    ],
    [
     "Y2W5Y",
@@ -22251,7 +21558,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    236
+    229
    ],
    [
     "Y2W5Y",
@@ -22289,7 +21596,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    237
+    230
    ],
    [
     "Y2W5Y",
@@ -22327,7 +21634,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    238
+    231
    ],
    [
     "Y2W5Y",
@@ -22365,7 +21672,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    239
+    232
    ],
    [
     "Y2W5Y",
@@ -22403,7 +21710,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    240
+    233
    ],
    [
     "Y2W5Y",
@@ -22441,7 +21748,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    241
+    234
    ],
    [
     "Y2W5Y",
@@ -22479,7 +21786,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    242
+    235
    ],
    [
     "Y2W5Y",
@@ -22517,7 +21824,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    243
+    236
    ],
    [
     "Y2W5Y",
@@ -22555,7 +21862,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    244
+    237
    ],
    [
     "Y2W5Y",
@@ -22593,7 +21900,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    245
+    238
    ],
    [
     "Y2W5Y",
@@ -22631,7 +21938,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    246
+    239
    ],
    [
     "Y2W5Y",
@@ -22669,7 +21976,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    247
+    240
    ],
    [
     "Y2W5Y",
@@ -22719,7 +22026,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    248
+    241
    ],
    [
     "Y2W5Y",
@@ -22769,7 +22076,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    249
+    242
    ],
    [
     "Y2W5Y",
@@ -22819,7 +22126,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    40
+    34
    ],
    [
     "Y2W5Y",
@@ -22869,7 +22176,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    250
+    243
    ],
    [
     "Y2W5Y",
@@ -22919,7 +22226,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    251
+    244
    ],
    [
     "Y2W5Y",
@@ -22965,7 +22272,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    252
+    245
    ],
    [
     "Y2W5Y",
@@ -23012,7 +22319,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    41
+    35
    ],
    [
     "Y2W5Y",
@@ -23050,7 +22357,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    253
+    246
    ],
    [
     "Y2W5Y",
@@ -23088,7 +22395,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    42
+    36
    ],
    [
     "Y2W5Y",
@@ -23181,7 +22488,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    94
+    86
    ],
    [
     "Y2W5Y",
@@ -23227,7 +22534,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    43
+    37
    ],
    [
     "Y2W5Y",
@@ -23274,7 +22581,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    95
+    87
    ],
    [
     "Y2W5Y",
@@ -23320,7 +22627,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    44
+    38
    ],
    [
     "Y2W5Y",
@@ -23383,7 +22690,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    45
+    39
    ],
    [
     "Y2W5Y",
@@ -23446,7 +22753,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    46
+    40
    ],
    [
     "Y2W5Y",
@@ -23509,7 +22816,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    47
+    41
    ],
    [
     "Y2W5Y",
@@ -23556,7 +22863,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    96
+    88
    ],
    [
     "Y2W5Y",
@@ -23603,7 +22910,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    97
+    89
    ],
    [
     "Y2W5Y",
@@ -23650,7 +22957,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    98
+    90
    ],
    [
     "Y2W5Y",
@@ -23697,7 +23004,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    99
+    91
    ],
    [
     "Y2W5Y",
@@ -23729,7 +23036,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    100
+    92
    ],
    [
     "Y2W5Y",

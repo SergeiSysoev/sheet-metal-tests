@@ -1,0 +1,79 @@
+[
+ {
+  "src": "Y1W5H",
+  "n": 10,
+  "topic": "safety",
+  "ru_q": "Общее правило: защита от падения обязательна, если работник может упасть с высоты _______ и больше (по OSHA).",
+  "ru_hint": null,
+  "ru_opts": [
+   "5 feet",
+   "6 feet",
+   "10 feet",
+   "12 feet"
+  ],
+  "why_en": "6 feet: OSHA's general rule for construction (1926.501(b)(1)), and the question asks for the OSHA number. In Washington the stricter state rule applies on the job: fall protection from 4 ft (WAC 296-880-20005). 10 ft is the scaffold threshold (1926.451(g)(1)).",
+  "why_ru": "6 feet: общее правило OSHA для стройки (1926.501(b)(1)), а вопрос спрашивает именно норму OSHA. В штате Washington на работе действует более строгое правило штата: защита от падения с 4 ft (WAC 296-880-20005). 10 ft — порог для scaffold (1926.451(g)(1)).",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 16,
+  "topic": "safety",
+  "ru_q": "Guardrails должны выдерживать ____ lbs. силы в любом направлении вниз или наружу вдоль верхней кромки.",
+  "ru_hint": null,
+  "ru_opts": [
+   "100",
+   "150",
+   "200",
+   "250"
+  ],
+  "why_en": "200 lb applied within 2 in of the top edge, outward or downward (OSHA 1926.502(b)(3)); temporary guardrails too. Washington's WAC 296-880-40005 is the same 200 lb. 150 lb is the requirement for mid rails.",
+  "why_ru": "200 lb в пределах 2 in от верхней кромки, наружу или вниз (OSHA 1926.502(b)(3)), и для временных guardrails тоже. В Washington WAC 296-880-40005 — те же 200 lb. 150 lb — требование к среднему поручню.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 3,
+  "topic": "safety",
+  "ru_q": "Правильный угол лестницы для безопасной работы — __________.",
+  "ru_hint": null,
+  "ru_opts": [
+   "75°",
+   "65°",
+   "80°",
+   "70°"
+  ],
+  "why_en": "Set the foot out 1/4 of the working length (the 4-to-1 rule, OSHA 1926.1053(b)(5)(i); WAC 296-876-40020 in Washington): cos A = 1/4, A = 75.52° ≈ 75°. Flatter and the foot can slide out; steeper and the ladder can tip back.",
+  "why_ru": "Низ лестницы отставляют на 1/4 рабочей длины (правило 4 к 1, OSHA 1926.1053(b)(5)(i); в Washington WAC 296-876-40020): cos A = 1/4, A = 75.52° ≈ 75°. Положе — низ может уехать, круче — лестница может опрокинуться назад.",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 22,
+  "topic": "safety",
+  "ru_q": "Лестницу нужно ставить под углом 75°.",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "True: the 4-to-1 rule (foot out 1 ft for every 4 ft of working length) gives cos A = 1/4, A = 75.52° ≈ 75° (OSHA 1926.1053(b)(5)(i); WAC 296-876-40020).",
+  "why_ru": "True: правило 4 к 1 (на каждые 4 ft рабочей длины низ отставляют на 1 ft) даёт cos A = 1/4, A = 75.52° ≈ 75° (OSHA 1926.1053(b)(5)(i); WAC 296-876-40020).",
+  "flag": null
+ },
+ {
+  "src": "Y1W5H",
+  "n": 23,
+  "topic": "safety",
+  "ru_q": "Лестница должна выступать над площадкой минимум на ____ feet.",
+  "ru_hint": null,
+  "ru_opts": [
+   "3 feet",
+   "5 feet",
+   "2 feet"
+  ],
+  "why_en": "3 feet above the upper landing, so there is something to hold while stepping on and off (OSHA 1926.1053(b)(1); the same in Washington, WAC 296-876-40030).",
+  "why_ru": "На 3 ft над верхней площадкой, чтобы было за что держаться, когда сходишь на площадку и встаёшь обратно (OSHA 1926.1053(b)(1); в Washington то же, WAC 296-876-40030).",
+  "flag": null
+ }
+]

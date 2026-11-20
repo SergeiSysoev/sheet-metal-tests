@@ -1,0 +1,89 @@
+[
+ {
+  "src": "Y1W5H",
+  "n": 10,
+  "q": "The general rule is that fall protection is required whenever a worker could fall _______ or more (OSHA specific).",
+  "hint": null,
+  "opts": [
+   "5 feet",
+   "6 feet",
+   "10 feet",
+   "12 feet"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY1W5 Orthographics & Ogee Offsets_Everett homework (msg_2560), official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 16,
+  "q": "Guardrails must be able to withstand ____ lbs. of force in any downward or outward direction along its top edge.",
+  "hint": null,
+  "opts": [
+   "100",
+   "150",
+   "200",
+   "250"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY1W5 Orthographics & Ogee Offsets_Everett homework (msg_2560), official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 3,
+  "q": "The correct ladder angle for working safely is __________.",
+  "hint": null,
+  "opts": [
+   "75°",
+   "65°",
+   "80°",
+   "70°"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY1W5 Orthographics & Ogee Offsets_Everett homework (msg_2560), official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 22,
+  "q": "Ladders should be set up at a 75° angle.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY1W5 Orthographics & Ogee Offsets_Everett homework (msg_2560), official Correct Answer"
+ },
+ {
+  "src": "Y1W5H",
+  "n": 23,
+  "q": "Ladders should extend at least ____ feet above the landing.",
+  "hint": null,
+  "opts": [
+   "3 feet",
+   "5 feet",
+   "2 feet"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "TotalTrack SMY1W5 Orthographics & Ogee Offsets_Everett homework (msg_2560), official Correct Answer"
+ }
+]
