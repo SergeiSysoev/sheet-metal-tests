@@ -4805,8 +4805,8 @@ const QUESTIONS = [
    "ru": "Какой номер светофильтра (filter lens shade) чаще всего используют для GMAW?"
   },
   "why": {
-   "en": "Shade #10 is the usual lens for GMAW (MIG) at normal shop amperage — the same answer the course gives for SMAW. #2 is far too light for an arc. For points pick #10 (course key); the construction table (OSHA 1926.102 Table E-1, the same in WAC 296-155-215) lists shade 12 for gas-shielded arc welding on steel and 11 on nonferrous metals.",
-   "ru": "Для GMAW (MIG) на обычном токе в цеху ставят светофильтр #10 — тот же ответ, что курс даёт для SMAW. #2 слишком светлый для дуги. Для балла — #10 (ключ курса); по строительной таблице (OSHA 1926.102 Table E-1, то же в WAC 296-155-215) для gas-shielded arc по стали — 12, по цветным металлам — 11."
+   "en": "Shade #10 is the usual lens for GMAW (MIG) at normal shop amperage: OSHA's general-industry table (1910.133(a)(5)) sets #10 as the minimum for GMAW from 60 to 500 A. #2 is far too light for any arc, and #8 is enough only below about 60 A. On construction work the table is darker: OSHA 1926.102 Table E-1 and, in Washington, WAC 296-155-215 list shade 12 for gas-shielded arc welding on steel and 11 on nonferrous metals.",
+   "ru": "Для GMAW (MIG) на обычном токе в цеху ставят светофильтр #10: в таблице OSHA для промышленности (1910.133(a)(5)) #10 — минимум для GMAW от 60 до 500 A. #2 слишком светлый для любой дуги, а #8 годится только примерно до 60 A. На стройке таблица темнее: OSHA 1926.102 Table E-1 и в штате Washington WAC 296-155-215 дают для gas-shielded arc по стали shade 12, по цветным металлам — 11."
   },
   "opts": [
    {
@@ -5197,8 +5197,8 @@ const QUESTIONS = [
    "ru": "При контакте с кислородом каждый металл образует"
   },
   "why": {
-   "en": "Oxygen combines with the metal surface into an oxide: rust on steel is iron oxide, the dull gray film on aluminum is aluminum oxide, the dark film on copper is copper oxide. Carbonization and electrolysis are different processes, and carbon content is a property of steel, not something oxygen forms. Note: not confirmed by a graded key.",
-   "ru": "Кислород соединяется с поверхностью металла в оксид: ржавчина на стали — оксид железа, тусклая серая плёнка на алюминии — оксид алюминия, тёмный налёт на меди — оксид меди. Карбонизация и электролиз — другие процессы, а содержание углерода — свойство стали, его кислород не образует. Внимание: проверенного ключа нет."
+   "en": "Oxygen combines with the metal surface into an oxide: rust on steel is iron oxide, the dull gray film on aluminum is aluminum oxide, the dark film on copper is copper oxide. Carbonization and electrolysis are different processes, and carbon content is a property of steel, not something oxygen forms.",
+   "ru": "Кислород соединяется с поверхностью металла в оксид: ржавчина на стали — оксид железа, тусклая серая плёнка на алюминии — оксид алюминия, тёмный налёт на меди — оксид меди. Карбонизация и электролиз — другие процессы, а содержание углерода — свойство стали, его кислород не образует."
   },
   "opts": [
    {
@@ -5333,8 +5333,8 @@ const QUESTIONS = [
    "ru": "General ventilation (общую вентиляцию) обычно можно обеспечить:"
   },
   "why": {
-   "en": "General (dilution) ventilation moves a large volume of air through the whole work area to thin out contaminants, and a floor fan (or open doors and windows) does exactly that. Respirators, air hoses and air tanks are personal protective equipment for one wearer, not ventilation of the space. Note: not confirmed by a graded key.",
-   "ru": "General (разбавляющая) ventilation прогоняет большой объём воздуха через всё рабочее место и разбавляет загрязнения; напольный вентилятор (или открытые двери и окна) делает именно это. Респираторы, шланги и баллоны с воздухом — средства защиты одного человека (PPE), а не вентиляция помещения. Внимание: проверенного ключа нет."
+   "en": "General (dilution) ventilation moves a large volume of air through the whole work area to thin out contaminants, and a floor fan (or open doors and windows) does exactly that. Respirators, air hoses and air tanks are personal protective equipment for one wearer, not ventilation of the space.",
+   "ru": "General (разбавляющая) ventilation прогоняет большой объём воздуха через всё рабочее место и разбавляет загрязнения; напольный вентилятор (или открытые двери и окна) делает именно это. Респираторы, шланги и баллоны с воздухом — средства защиты одного человека (PPE), а не вентиляция помещения."
   },
   "opts": [
    {
@@ -5560,8 +5560,8 @@ const QUESTIONS = [
    "ru": "Что означают буквы FOB, написанные на transition?"
   },
   "why": {
-   "en": "On course sheet 2I Transition Terminology, FOB = flat on bottom: the BOTTOM (the face behind the TOP, away from the viewer) is not sloped; it stays perpendicular to the line of vision. FOT is the same for the TOP. The course term is bottom. On a graded SMY1W5 sheet the instructor also ticked \"Flat on back\" as acceptable; for points pick \"Flat on bottom\", the course term.",
-   "ru": "По листу курса 2I Transition Terminology FOB = flat on bottom: BOTTOM (грань за TOP, дальняя от смотрящего) не наклонена, она перпендикулярна линии взгляда. FOT — то же для TOP. В курсе это bottom. На проверенном листе SMY1W5 инструктор засчитал и «Flat on back»; для балла ставь «Flat on bottom» — термин курса."
+   "en": "FOB = flat on bottom: the BOTTOM of the transition (the face behind the TOP, away from the viewer) is not sloped; it stays perpendicular to the line of vision. FOT says the same about the TOP. \"Flat on back\" describes the same face in other words, but the B in FOB stands for bottom.",
+   "ru": "FOB = flat on bottom: BOTTOM у transition (грань за TOP, дальняя от смотрящего) не наклонена, она перпендикулярна линии взгляда. FOT — то же для TOP. «Flat on back» описывает ту же грань другими словами, но B в FOB — это bottom."
   },
   "opts": [
    {
@@ -6673,8 +6673,8 @@ const QUESTIONS = [
    "ru": "Рассчитайте длину wrapper для Ogee offset длиной 22\" drive to drive с offset 6\"."
   },
   "why": {
-   "en": "Treat the ogee as an S of two equal arcs (formula sheet \"OGEE OFFSET\") between the bend lines: L = 22 − 1 = 21\", CL R = (O² + L²) ÷ 4O = (36 + 441) ÷ 24 = 19.875\". Each arc: cos φ = (441 − 36) ÷ (441 + 36) → φ = 31.8908° (0.556599 rad), so the CL length = 2 × 19.875 × 0.556599 = 22.1248\". Add 1\" per end for the connections: 22.1248 + 2 = 24.1248\" → 24-1/8\"; the formula-sheet shortcut slant + (slant − L) ÷ 3 = 21.8403 + 0.2801 = 22.1204 gives the same 24-1/8\". Note: not confirmed by a graded key.",
-   "ru": "Ogee считаем как S из двух равных дуг (formula sheet «OGEE OFFSET») между линиями изгиба: L = 22 − 1 = 21\", CL R = (O² + L²) ÷ 4O = (36 + 441) ÷ 24 = 19.875\". Каждая дуга: cos φ = (441 − 36) ÷ (441 + 36) → φ = 31.8908° (0.556599 рад), значит, длина по CL = 2 × 19.875 × 0.556599 = 22.1248\". Плюс 1\" на каждый конец под соединения: 22.1248 + 2 = 24.1248\" → 24-1/8\"; короткая формула листа slant + (slant − L) ÷ 3 = 21.8403 + 0.2801 = 22.1204 даёт те же 24-1/8\". Внимание: проверенного ключа нет."
+   "en": "Treat the ogee as an S of two equal arcs (the OGEE OFFSET formula) between the bend lines, ½\" in from each drive: L = 22 − 1 = 21\", CL R = (O² + L²) ÷ 4O = (36 + 441) ÷ 24 = 19.875\". Each arc: cos φ = (441 − 36) ÷ (441 + 36) → φ = 31.8908° (0.556599 rad), so the CL length = 2 × 19.875 × 0.556599 = 22.1248\". Add 1\" per end for the connections: 22.1248 + 2 = 24.1248\" → 24-1/8\". The shortcut slant + (slant − L) ÷ 3 = 21.8403 + 0.2801 = 22.1204 gives the same 24-1/8\".",
+   "ru": "Ogee считаем как S из двух равных дуг (формула OGEE OFFSET) между линиями изгиба, по ½\" внутрь от каждого drive: L = 22 − 1 = 21\", CL R = (O² + L²) ÷ 4O = (36 + 441) ÷ 24 = 19.875\". Каждая дуга: cos φ = (441 − 36) ÷ (441 + 36) → φ = 31.8908° (0.556599 рад), значит, длина по CL = 2 × 19.875 × 0.556599 = 22.1248\". Плюс 1\" на каждый конец под соединения: 22.1248 + 2 = 24.1248\" → 24-1/8\". Короткая формула slant + (slant − L) ÷ 3 = 21.8403 + 0.2801 = 22.1204 даёт те же 24-1/8\"."
   },
   "opts": [
    {
@@ -7001,8 +7001,8 @@ const QUESTIONS = [
    "ru": "Чаще всего инструкции по формовке (forming instructions) наносят на _______________ sheet metal pattern."
   },
   "why": {
-   "en": "Forming instructions are the forming and detail stickers, and the options themselves place those on the outside of the pattern; layout marking goes on the inside. So the answer is b, Outside. Note: last year's sheet had \"Both\" picked and there is no graded key for this item.",
-   "ru": "Forming instructions — это наклейки с forming и detail, и сами варианты ответа относят их к наружной стороне (Outside); разметка layout — на внутренней. Поэтому ответ b, Outside. Внимание: на листе прошлого года выбрано «Both», проверенного ключа на этот вопрос нет."
+   "en": "Forming instructions and detail stickers go on the outside of the pattern, where they can still be read after the piece is formed and while it is assembled and installed. The inside carries the layout marking, so the scribe lines end up hidden inside the finished duct. \"Both\" is the trap: each side has its own job.",
+   "ru": "Forming instructions и detail stickers ставят на наружную сторону pattern: там их видно и после гибки, и при сборке и монтаже. На внутренней стороне — разметка layout, поэтому риски оказываются внутри готового duct и не видны. «Both» — ловушка: у каждой стороны своя задача."
   },
   "opts": [
    {
@@ -7033,8 +7033,8 @@ const QUESTIONS = [
    "ru": "В процессе GMAW shielding gases (защитные газы) используют, чтобы:"
   },
   "why": {
-   "en": "The main job of the shielding gas is to keep the oxygen and nitrogen of the air away from the molten weld, and by doing that it prevents porosity and other defects. The gas mix also sets the arc heat: CO2 and helium give a hotter arc and deeper penetration than pure argon. All three statements are true. Note: not confirmed by a graded key.",
-   "ru": "Главная задача shielding gas — не пускать кислород и азот воздуха к расплавленному шву, и тем самым он предотвращает поры и другие дефекты. Состав газа ещё и задаёт тепло дуги: CO2 и helium дают более горячую дугу и более глубокий провар, чем чистый argon. Верны все три утверждения. Внимание: проверенного ключа нет."
+   "en": "The main job of the shielding gas is to keep the oxygen and nitrogen of the air away from the molten weld, and by doing that it prevents porosity and other defects. The gas mix also sets the arc heat: CO2 and helium give a hotter arc and deeper penetration than pure argon. All three statements are true.",
+   "ru": "Главная задача shielding gas — не пускать кислород и азот воздуха к расплавленному шву, и тем самым он предотвращает поры и другие дефекты. Состав газа ещё и задаёт тепло дуги: CO2 и helium дают более горячую дугу и более глубокий провар, чем чистый argon. Верны все три утверждения."
   },
   "opts": [
    {
@@ -7251,8 +7251,8 @@ const QUESTIONS = [
    "ru": "Выберите изображение, которое обозначает линию обрыва (break-line) для прямоугольного duct."
   },
   "why": {
-   "en": "E is the long break line: a thin straight line with one zigzag that runs a little past both edges, the break drawn on rectangular duct in the course drawings. F is the S-break (figure-eight) used for round pipe, rod and tube, and the dashed line in A is a hidden line, not a break. Note: this answer comes from another student's sheet, not a graded key.",
-   "ru": "E — длинная линия обрыва: тонкая прямая с одним зигзагом, чуть выходящая за обе кромки; так обрывают прямоугольный duct на чертежах курса. F — S-образный обрыв (восьмёрка) для круглых труб, прутков и трубок, а штриховая линия в A — невидимый контур, а не обрыв. Внимание: ответ взят с листа другого ученика, проверенного ключа нет."
+   "en": "E is the long break line: a thin straight line with one zigzag that runs a little past both edges, the break used on rectangular duct in shop drawings. F is the S-break (figure-eight) used for round pipe, rod and tube, and the dashed line in A is a hidden line, not a break.",
+   "ru": "E — длинная линия обрыва: тонкая прямая с одним зигзагом, чуть выходящая за обе кромки; так обрывают прямоугольный duct на shop drawings. F — S-образный обрыв (восьмёрка) для круглых труб, прутков и трубок, а штриховая линия в A — невидимый контур, а не обрыв."
   },
   "opts": [
    {
@@ -7296,8 +7296,8 @@ const QUESTIONS = [
    "ru": "Какой металл при покупке приходит очень масляным?"
   },
   "why": {
-   "en": "Cold rolled steel has no zinc coating and no mill scale, so the mill oils it to keep it from rusting in storage. Standard hot rolled steel carries dark mill scale and is usually sold dry (only the pickled-and-oiled grade is oiled), galvanized is protected by its zinc, and copper does not rust. Note: not confirmed by a graded key.",
-   "ru": "У cold rolled steel нет ни цинкового покрытия, ни окалины, поэтому завод покрывает её маслом, чтобы она не ржавела на складе. Обычная hot rolled steel покрыта тёмной окалиной и продаётся сухой (маслом покрыт только сорт pickled and oiled), galvanized защищает цинк, а медь не ржавеет. Внимание: проверенного ключа нет."
+   "en": "Cold rolled steel has no zinc coating and no mill scale, so the mill oils it to keep it from rusting in storage. Standard hot rolled steel carries dark mill scale and is usually sold dry (only the pickled-and-oiled grade is oiled), galvanized is protected by its zinc, and copper does not rust.",
+   "ru": "У cold rolled steel нет ни цинкового покрытия, ни окалины, поэтому завод покрывает её маслом, чтобы она не ржавела на складе. Обычная hot rolled steel покрыта тёмной окалиной и продаётся сухой (маслом покрыт только сорт pickled and oiled), galvanized защищает цинк, а медь не ржавеет."
   },
   "opts": [
    {
@@ -7791,8 +7791,8 @@ const QUESTIONS = [
    "ru": "Резьба на трубах, в которых будет жидкость или пар под давлением, ____."
   },
   "why": {
-   "en": "All three are true for pressure pipe thread (NPT): it is tapered so it wedges tight, its profile is a 60° V, and the course book asks for at least seven perfect threads. Picking only 'tapered' lost the point on the TotalTrack key.",
-   "ru": "Все три верны для резьбы под давление (NPT): она коническая, чтобы затягиваться на клин, профиль — V под 60°, и учебник курса требует не меньше семи полных ниток. Ответ «только коническая» в TotalTrack не засчитан."
+   "en": "All three are true for pressure pipe thread (NPT): it is tapered so it wedges tight, its profile is a 60° V, and it needs at least seven perfect threads — the NPT effective thread length (0.8 × OD in inches + 6.8 threads) comes to just over seven threads even on the smallest sizes. Picking only \"tapered\" is the trap: the other two statements are true as well.",
+   "ru": "Все три верны для резьбы под давление (NPT): она коническая, чтобы затягиваться на клин, профиль — V под 60°, и нужно не меньше семи полных ниток — эффективная длина резьбы NPT (0.8 × наружный диаметр в дюймах + 6.8 ниток) даже на самых малых размерах чуть больше семи ниток. Ответ «только коническая» — ловушка: два других утверждения тоже верны."
   },
   "opts": [
    {
@@ -7955,8 +7955,8 @@ const QUESTIONS = [
    "ru": "Припой 95/5 tin-antimony можно использовать в любой части холодильной системы."
   },
   "why": {
-   "en": "No. 95/5 is a soft solder with low strength; the course book allows it only on the low side. High-pressure lines are brazed.",
-   "ru": "Нет. 95/5 — мягкий припой с низкой прочностью; учебник курса допускает его только на low side. Линии высокого давления паяют brazing."
+   "en": "No. 95/5 is a soft solder: it melts at about 450–465°F, has low strength and poor resistance to vibration, and weakens further as it heats up. It is used only on the low side, where pressure and temperature are low; the high-pressure lines, especially the hot discharge line, are brazed.",
+   "ru": "Нет. 95/5 — мягкий припой: плавится примерно при 450–465°F, прочность низкая, вибрацию держит плохо и при нагреве слабеет ещё сильнее. Его применяют только на low side, где давление и температура низкие; линии высокого давления, особенно горячую discharge line, паяют brazing."
   },
   "opts": [
    {
@@ -8035,8 +8035,8 @@ const QUESTIONS = [
    "ru": "Одна из причин изолировать suction line — помочь держать правильный ____________________."
   },
   "why": {
-   "en": "Superheat (the key also accepts temperature). Insulation keeps heat out of the cold suction line, so the refrigerant reaches the compressor at the intended superheat, and it stops sweating.",
-   "ru": "Superheat (ключ принимает и temperature). Изоляция не даёт холодной suction line набирать тепло, поэтому хладагент приходит к компрессору с нужным superheat, и трубка не потеет."
+   "en": "Superheat (temperature also counts). Insulation keeps heat out of the cold suction line, so the refrigerant reaches the compressor at the intended superheat, and the line does not sweat.",
+   "ru": "Superheat (засчитывается и temperature). Изоляция не даёт холодной suction line набирать тепло, поэтому хладагент приходит к компрессору с нужным superheat, и трубка не потеет."
   },
   "type": "input",
   "answer": {
@@ -8062,8 +8062,8 @@ const QUESTIONS = [
    "ru": "В обозначении резьбы 1/2-14 NPT число 1/2 — это ____________________."
   },
   "why": {
-   "en": "For points write 'thread diameter': that is the TotalTrack key ('nominal pipe size' was marked wrong). Technically the 1/2 is the nominal pipe size: the real outside diameter of 1/2\" NPT pipe and thread is 0.840\".",
-   "ru": "Для балла — «thread diameter»: это ключ TotalTrack («nominal pipe size» не засчитан). Технически 1/2 — номинальный размер трубы: реальный наружный диаметр трубы и резьбы 1/2\" NPT — 0.840\"."
+   "en": "For points pick \"thread diameter\". Technically nominal pipe size is also correct because 1/2 is a size name, not a measurement: the real outside diameter of 1/2\" NPT pipe and thread is 0.840\".",
+   "ru": "Для балла — «thread diameter». Технически nominal pipe size тоже верен, потому что 1/2 — название размера, а не замер: реальный наружный диаметр трубы и резьбы 1/2\" NPT — 0.840\"."
   },
   "type": "input",
   "answer": {
@@ -8170,8 +8170,8 @@ const QUESTIONS = [
    "ru": "Зачем изолируют некоторые холодильные трубки?"
   },
   "why": {
-   "en": "To keep the system from absorbing excess heat: a cold line picks up heat from the surrounding air. Insulation also stops condensation; TotalTrack accepted an answer naming heat gain and condensation.",
-   "ru": "Чтобы система не набирала лишнее тепло: холодная трубка забирает тепло из окружающего воздуха. Изоляция ещё и не даёт трубке потеть; TotalTrack засчитал ответ, где названы приток тепла и конденсат."
+   "en": "To keep the system from absorbing excess heat: a cold line picks up heat from the surrounding air. Insulation also stops condensation, so naming heat gain and condensation together is a complete answer.",
+   "ru": "Чтобы система не набирала лишнее тепло: холодная трубка забирает тепло из окружающего воздуха. Изоляция ещё и не даёт трубке потеть, так что ответ «приток тепла и конденсат» — полный."
   },
   "type": "input",
   "answer": {
@@ -8221,8 +8221,8 @@ const QUESTIONS = [
    "ru": "Какой глубины должна быть раздача (расширенная часть трубки) при swage-соединении?"
   },
   "why": {
-   "en": "Equal to the diameter of the original tube (TotalTrack also accepted 'OD'): the other tube of the same size slides in that far, which gives enough overlap for the brazed joint.",
-   "ru": "Равной диаметру исходной трубки (TotalTrack засчитал и «OD»): трубка того же размера входит на эту глубину, и нахлёста хватает для пайки."
+   "en": "Equal to the diameter (OD) of the original tube: the other tube of the same size slides in that far, which gives enough overlap for a strong brazed joint.",
+   "ru": "Равной диаметру (OD) исходной трубки: трубка того же размера входит на эту глубину, и нахлёста хватает для прочной пайки."
   },
   "type": "input",
   "answer": {
@@ -8399,8 +8399,8 @@ const QUESTIONS = [
    "ru": "Для зачистки медной трубки ACR перед пайкой можно использовать ____."
   },
   "why": {
-   "en": "Sand cloth. Steel wool and carborundum cloth can leave steel or abrasive particles in the tube that travel with the oil to the compressor, so 'all of the above' is wrong (it lost the point on TotalTrack).",
-   "ru": "Sand cloth. Steel wool и carborundum cloth могут оставить в трубке частицы стали или абразива, которые с маслом уйдут в компрессор, поэтому «all of the above» неверно (в TotalTrack балл снят)."
+   "en": "Sand cloth. Steel wool and carborundum cloth can leave steel or abrasive particles in the tube that travel with the oil to the compressor, so \"all of the above\" is the trap.",
+   "ru": "Sand cloth. Steel wool и carborundum cloth могут оставить в трубке частицы стали или абразива, которые с маслом уйдут в компрессор, поэтому «all of the above» — ловушка."
   },
   "opts": [
    {
@@ -8585,8 +8585,8 @@ const QUESTIONS = [
    "ru": "Стальная трубная резьба, которая в основном используется в отрасли, — коническая (tapered). Почему?"
   },
   "why": {
-   "en": "To produce a tight joint and prevent leakage: as the tapered threads are screwed in they wedge together and seal (with pipe dope or tape). TotalTrack gave full credit to 'pressure-tight seal'.",
-   "ru": "Чтобы соединение было плотным и не текло: при завинчивании конические нитки заклиниваются и уплотняются (с герметиком или лентой). TotalTrack засчитал полностью ответ «pressure-tight seal»."
+   "en": "To produce a tight joint and prevent leakage: as the tapered threads are screwed in they wedge together and seal (with pipe dope or tape) — in short, a pressure-tight seal.",
+   "ru": "Чтобы соединение было плотным и не текло: при завинчивании конические нитки заклиниваются и уплотняются (с герметиком или лентой) — коротко, pressure-tight seal."
   },
   "type": "input",
   "answer": {
@@ -10122,8 +10122,8 @@ const QUESTIONS = [
    "ru": "Strategic Organizing определяется как __________"
   },
   "why": {
-   "en": "Strategic organizing is a planned campaign for a target market that uses every tool together: top-down pressure on the contractor (where the JATC-trained workforce is the selling point), bottom-up work with the employees, and public action such as hand billing, bannering and picketing. Each of a–c is a part of it, so the answer is All of the Above. Note: not confirmed by a graded key.",
-   "ru": "Strategic organizing — спланированная кампания по целевому рынку, где все средства идут вместе: top-down давление на подрядчика (главный довод — рабочие, обученные в JATC), bottom-up работа с рабочими и публичные действия: hand billing, bannering, pickets. Каждый из вариантов a–c — часть этого, поэтому ответ — All of the Above. Внимание: проверенного ключа нет."
+   "en": "Strategic organizing is a planned campaign for a target market that uses every tool together: top-down pressure on the contractor (where the JATC-trained workforce is the selling point), bottom-up work with the employees, and public action such as hand billing, bannering and picketing. Each of a–c is a part of it, so the answer is All of the Above.",
+   "ru": "Strategic organizing — спланированная кампания по целевому рынку, где все средства идут вместе: top-down давление на подрядчика (главный довод — рабочие, обученные в JATC), bottom-up работа с рабочими и публичные действия: hand billing, bannering, pickets. Каждый из вариантов a–c — часть этого, поэтому ответ — All of the Above."
   },
   "opts": [
    {
@@ -11270,8 +11270,8 @@ const QUESTIONS = [
    "ru": "Какую марку UL получают actuators, fusible links, fans и motors?"
   },
   "why": {
-   "en": "In the course (P613-2, Unit 2) actuators, fusible links, fans and motors are complete products evaluated for their own use, so they carry the UL Listing mark. Classification is for products judged for one property, such as fire dampers; Recognition is for parts used inside another product, such as thermostats. For points pick Product Listing (course key); in practice many motors carry the UL Recognized Component mark instead.",
-   "ru": "По курсу (P613-2, Unit 2) actuators, fusible links, fans и motors — законченные изделия, которые проверяют для их собственного применения, поэтому у них марка UL Listing. Classification — для изделий, оцененных по одному свойству, как fire dampers; Recognition — для деталей внутри другого изделия, как thermostats. Для балла ставь Product Listing (ключ курса); на практике многие motors имеют марку UL Recognized Component."
+   "en": "Actuators, fusible links, fans and motors are complete products evaluated for their own use, so they carry the UL Listing mark. Classification is for products judged for one property, such as fire dampers; Recognition is for parts used inside another product, such as thermostats. For points pick Product Listing. Technically Component Recognition is also correct because many motors are built into other equipment and carry the UL Recognized Component mark.",
+   "ru": "Actuators, fusible links, fans и motors — законченные изделия, которые проверяют для их собственного применения, поэтому у них марка UL Listing. Classification — для изделий, оцененных по одному свойству, как fire dampers; Recognition — для деталей внутри другого изделия, как thermostats. Для балла — Product Listing. Технически Component Recognition тоже верен, потому что многие motors ставят внутрь другого оборудования, и они идут с маркой UL Recognized Component."
   },
   "opts": [
    {
@@ -11498,8 +11498,8 @@ const QUESTIONS = [
    "ru": "Какое оборудование UL оценивает по программе component recognition?"
   },
   "why": {
-   "en": "Component recognition is for parts that go inside a larger product and are checked as part of it; the course (P613-2, Unit 2) gives thermostats as the example. Barriers and floors are building assemblies, not components, and the course groups motors with listed products. For points pick Thermostats (course key); technically motors are often UL Recognized Components too.",
-   "ru": "Component recognition — для деталей, которые ставят внутрь более крупного изделия и проверяют в его составе; курс (P613-2, Unit 2) приводит пример — thermostats. Barriers и floors — конструкции здания, а не компоненты, а motors курс относит к listed-изделиям. Для балла ставь Thermostats (ключ курса); технически motors тоже часто идут как UL Recognized Component."
+   "en": "Component recognition is for parts that go inside a larger product and are checked as part of it; thermostats are the standard example. Barriers and floors are building assemblies, not components, and motors are usually grouped with Listed products. For points pick Thermostats. Technically Motors is also correct because many motors are built into other equipment and carry the UL Recognized Component mark.",
+   "ru": "Component recognition — для деталей, которые ставят внутрь более крупного изделия и проверяют в его составе; типичный пример — thermostats. Barriers и floors — конструкции здания, а не компоненты, а motors обычно относят к Listed-изделиям. Для балла — Thermostats. Технически Motors тоже верен, потому что многие motors ставят внутрь другого оборудования, и они идут с маркой UL Recognized Component."
   },
   "opts": [
    {
@@ -13474,8 +13474,8 @@ const QUESTIONS = [
    "ru": "Все dampers с actuator нужно прогонять (cycle) минимум один раз в каждые ___."
   },
   "why": {
-   "en": "The course key is six months: actuator-operated dampers are exercised at least every six months so the blades and actuator do not stick. This is separate from the formal periodic inspection and test of fire and smoke dampers.",
-   "ru": "По ключу курса — шесть месяцев: dampers с actuator прогоняют минимум раз в полгода, чтобы лопатки и actuator не закисли. Это отдельно от формальной периодической проверки fire и smoke dampers."
+   "en": "Six months: damper and actuator manufacturers call for cycling actuator-operated dampers at least once every six months so the blades and actuator do not stick, and NFPA 92 tests dedicated smoke control systems on the same six-month cycle. This is separate from the formal inspection and test of fire and smoke dampers (NFPA 80 and NFPA 105: one year after installation, then every 4 years, every 6 years in hospitals).",
+   "ru": "Шесть месяцев: производители dampers и actuators требуют прогонять dampers с actuator минимум раз в полгода, чтобы лопатки и actuator не закисли, и NFPA 92 с тем же интервалом проверяет dedicated smoke control systems. Это отдельно от формальной проверки fire и smoke dampers (NFPA 80 и NFPA 105: через год после монтажа, затем раз в 4 года, в больницах — раз в 6 лет)."
   },
   "opts": [
    {
@@ -13654,8 +13654,8 @@ const QUESTIONS = [
    "ru": "Right-handed aviation snips режут:"
   },
   "why": {
-   "en": "For points pick b, counter-clockwise: that is the course key (the SMY1W3 graded sheet marked clockwise wrong). Technically it depends on the term: manufacturers call green-handled right-cut snips the ones that cut straight and curve to the right, i.e. clockwise, and the same course did not take a point for clockwise on the Trade Intro final.",
-   "ru": "Для балла — b, против часовой стрелки: это ключ курса (на проверенном листе SMY1W3 «по часовой» снят). Технически ответ зависит от термина: производители называют right-cut snips (зелёные ручки) те, что режут прямо и с поворотом вправо, то есть по часовой, и тот же курс на Trade Intro final ответ «по часовой» не снял."
+   "en": "For points pick b, counter-clockwise. Technically clockwise is also correct because manufacturers make right-cut snips (green handles) to cut straight and curve to the right, and a cut that curves to the right runs clockwise. The answer depends on what \"right-handed\" is taken to mean.",
+   "ru": "Для балла — b, против часовой стрелки. Технически «по часовой» тоже верен, потому что производители делают right-cut snips (зелёные ручки) для реза прямо и с поворотом вправо, а рез с поворотом вправо идёт по часовой. Ответ зависит от того, что понимать под «right-handed»."
   },
   "opts": [
    {
@@ -13690,8 +13690,8 @@ const QUESTIONS = [
    "ru": "Системы TDC и TDF похожи на duct-mate, только они формуются прямо на кромке листа."
   },
   "why": {
-   "en": "Yes. A TDC/TDF flange is roll-formed from the edge of the duct sheet itself, while Ductmate is a separate flange profile slipped onto the duct end. Both are then joined the same way: corners, gasket, bolts and cleats. An instructor correction on the SMY1W5 Monday graded sheet confirms Yes.",
-   "ru": "Да. Flange TDC/TDF прокатывается из кромки самого листа duct, а Ductmate — отдельный профиль, который надевают на конец duct. Дальше оба соединяют одинаково: уголки, уплотнитель, болты и cleats. Исправление инструктора на проверенном листе SMY1W5 Monday подтверждает «Да»."
+   "en": "Yes. A TDC/TDF flange is roll-formed from the edge of the duct sheet itself, while Ductmate is a separate flange profile slipped onto the duct end. Both are then joined the same way: corners, gasket, bolts and cleats.",
+   "ru": "Да. Flange TDC/TDF прокатывается из кромки самого листа duct, а Ductmate — отдельный профиль, который надевают на конец duct. Дальше оба соединяют одинаково: уголки, уплотнитель, болты и cleats."
   },
   "opts": [
    {
@@ -13933,8 +13933,8 @@ const QUESTIONS = [
    "ru": "Какой инструмент лучше всего подходит для измерения размеров при bench layout?"
   },
   "why": {
-   "en": "Course key: circumference ruler (the SMY1W3 graded sheet marked tape measure wrong). It is a rigid steel bench rule that lies flat on the sheet and also has a scale for the circumference of a given diameter. A tape measure sags and its hook has play, so it is a field tool.",
-   "ru": "Ключ курса — circumference ruler (на проверенном листе SMY1W3 tape measure снят). Это жёсткая стальная линейка, которая лежит на листе плашмя и имеет ещё шкалу длины окружности по диаметру. Рулетка провисает, а её крючок ходит, поэтому это инструмент для объекта."
+   "en": "Circumference ruler: it is a rigid steel bench rule that lies flat on the sheet and also has a scale for the circumference of a given diameter. A tape measure sags and its hook has play, so it is a field tool.",
+   "ru": "Circumference ruler: это жёсткая стальная линейка для верстака, она лежит на листе плашмя и имеет ещё шкалу длины окружности по диаметру. Tape measure провисает, а её крючок ходит, поэтому это инструмент для объекта."
   },
   "opts": [
    {
@@ -13965,8 +13965,8 @@ const QUESTIONS = [
    "ru": "Какое устройство лучше всего защищает работника от удара током?"
   },
   "why": {
-   "en": "A GFCI trips when the current going out and coming back differ by about 4–6 mA, i.e. current leaking through a person, within a fraction of a second. A circuit breaker or fuse protects the wiring and opens only at many amps. On construction sites OSHA 1926.404(b)(1) requires GFCI protection or an assured equipment grounding conductor program.",
-   "ru": "GFCI отключает цепь за доли секунды, когда ток «туда» и «обратно» отличается примерно на 4–6 mA, то есть ток уходит через человека. Circuit breaker и fuse защищают проводку и срабатывают только при токе в амперы. На стройке OSHA 1926.404(b)(1) требует GFCI или программу проверки заземления инструмента (assured equipment grounding conductor program)."
+   "en": "A GFCI trips when the current going out and coming back differ by about 4–6 mA, i.e. current leaking through a person, within a fraction of a second. A circuit breaker or fuse protects the wiring and opens only at many amps. On construction sites OSHA 1926.404(b)(1) requires GFCI protection or an assured equipment grounding conductor program; Washington's WAC 296-155-447 gives the same two options.",
+   "ru": "GFCI отключает цепь за доли секунды, когда ток «туда» и «обратно» отличается примерно на 4–6 mA, то есть ток уходит через человека. Circuit breaker и fuse защищают проводку и срабатывают только при токе в амперы. На стройке OSHA 1926.404(b)(1) требует GFCI или программу проверки заземления инструмента (assured equipment grounding conductor program); в штате Washington WAC 296-155-447 даёт те же два варианта."
   },
   "opts": [
    {
@@ -14037,8 +14037,8 @@ const QUESTIONS = [
    "ru": "Больше всего царапин и вмятин на sheet metal появляется во время _________."
   },
   "why": {
-   "en": "Course answer (not marked wrong on either graded sheet): installation. On site the duct is handled, hoisted, hung and worked on next to other trades, so most dents and scratches happen there; store and handle finished duct with care.",
-   "ru": "Ответ курса (на обоих проверенных листах не снят): монтаж. На объекте duct переносят, поднимают, вешают и работают рядом с другими трейдами, поэтому большинство вмятин и царапин появляется там; готовый duct храните и переносите аккуратно."
+   "en": "Installation. On site the duct is handled, hoisted, hung and worked on next to other trades, so most dents and scratches happen there; store and handle finished duct with care.",
+   "ru": "Монтаж. На объекте duct переносят, поднимают, вешают и работают рядом с другими трейдами, поэтому большинство вмятин и царапин появляется там; готовый duct храните и переносите аккуратно."
   },
   "opts": [
    {
@@ -14245,8 +14245,8 @@ const QUESTIONS = [
    "ru": "1-1/8 x 2-1/4 ="
   },
   "why": {
-   "en": "9/8 × 9/4 = 81/32 = 2.53125 = 2-17/32 exactly, so a and b are the same number (a is rounded to 3 decimals). For points on this test pick a, 2.531: the SMY1W3 graded sheet keyed 2.531 and took the point off for 2-17/32. The same question on the SMY1W5 Monday graded sheet accepted 2-17/32. 3-3/8 = 3.375 is the sum, not the product.",
-   "ru": "9/8 × 9/4 = 81/32 = 2.53125 = ровно 2-17/32, так что a и b — одно и то же число (a округлено до 3 знаков). Для балла на этом тесте — a, 2.531: на проверенном листе SMY1W3 ключ 2.531, а за 2-17/32 балл сняли. Тот же вопрос на проверенном листе SMY1W5 Monday засчитал 2-17/32. 3-3/8 = 3.375 — это сумма, а не произведение."
+   "en": "9/8 × 9/4 = 81/32 = 2.53125. For points pick a, 2.531. Technically 2-17/32 is also correct because 81/32 = 2-17/32 exactly; a is the same number rounded to three decimals. 3-3/8 = 3.375 is the sum, not the product.",
+   "ru": "9/8 × 9/4 = 81/32 = 2.53125. Для балла — a, 2.531. Технически 2-17/32 тоже верен, потому что 81/32 = ровно 2-17/32; a — то же число, округлённое до 3 знаков. 3-3/8 = 3.375 — это сумма, а не произведение."
   },
   "opts": [
    {
@@ -14517,8 +14517,8 @@ const QUESTIONS = [
    "ru": "Вычислите площадь овала."
   },
   "why": {
-   "en": "The two R6\" ends make one full circle: π × 6² = 113.097; the rectangle between them is 1'-4\" × 12\" = 16 × 12 = 192. Total 305.0973 sq in; with π = 3.1416 (the value this test uses in №37) 305.0976 → d 305.098, the most precise option. c 305.1 is the same area rounded to one decimal and was accepted on both graded sheets, so both count here.",
-   "ru": "Два конца R6\" вместе дают полный круг: π × 6² = 113.097; прямоугольник между ними — 1'-4\" × 12\" = 16 × 12 = 192. Итого 305.0973 sq in; с π = 3.1416 (это значение задаёт сам тест в №37) 305.0976 → d 305.098, самый точный вариант. c 305.1 — та же площадь с округлением до десятых, её засчитали на обоих проверенных листах, поэтому здесь засчитываются оба."
+   "en": "The two R6\" ends make one full circle: π × 6² = 113.097; the rectangle between them is 1'-4\" × 12\" = 16 × 12 = 192. Total 305.0973 sq in; with π = 3.1416 it is 305.0976 → d 305.098, the most precise option. c 305.1 is the same area rounded to one decimal, so it counts too.",
+   "ru": "Два конца R6\" вместе дают полный круг: π × 6² = 113.097; прямоугольник между ними — 1'-4\" × 12\" = 16 × 12 = 192. Итого 305.0973 sq in; с π = 3.1416 — 305.0976 → d 305.098, самый точный вариант. c 305.1 — та же площадь с округлением до десятых, поэтому она тоже засчитывается."
   },
   "opts": [
    {
@@ -14598,8 +14598,8 @@ const QUESTIONS = [
    "ru": "Нужен duct с working length 22\", S & Drive на одном конце и flange 2\" на другом. Длина заготовки на shear будет:"
   },
   "why": {
-   "en": "Course rule: the S&D end takes 1\" of metal, a flange adds its own height: 22 + 1 + 2 = 25\". 24-1/2\" uses ½\" for the S&D end and was marked wrong on the graded sheet.",
-   "ru": "Правило курса: конец под S&D берёт 1\" металла, flange добавляет свою высоту: 22 + 1 + 2 = 25\". 24-1/2\" — это ½\" на конец под S&D, на проверенном листе этот ответ снят."
+   "en": "The S&D end takes 1\" of metal beyond the working length (the edge that goes into the S cleat or under the drive cleat), and a flange adds its own height: 22 + 1 + 2 = 25\". 24-1/2\" is the trap: it allows only ½\" for the S&D end.",
+   "ru": "Конец под S&D берёт 1\" металла сверх working length (кромка, которая заходит в S cleat или под drive cleat), а flange добавляет свою высоту: 22 + 1 + 2 = 25\". 24-1/2\" — ловушка: там на конец под S&D дано только ½\"."
   },
   "opts": [
    {
@@ -16160,8 +16160,8 @@ const QUESTIONS = [
    "ru": "Shear load тянет прямо вниз, и при нём fastener вырывает реже."
   },
   "why": {
-   "en": "False. On a graded SMY2W5 Monday sheet (the same question) the instructor circled False and took the point off for True; on this SMY2W3 sheet it was struck out. The course defines a shear load as a load at right angles to the fastener — not one that \"pulls straight down\": weight hanging straight down on a vertical fastener (screws in the bottom of a duct, a hanger rod) is tension, which pulls the fastener out.",
-   "ru": "False. На проверенном листе SMY2W5 Monday (тот же вопрос) инструктор обвёл False и снял балл за True; на этом листе SMY2W3 вопрос вычеркнут. Курс определяет shear load как нагрузку под прямым углом к fastener, а не «тянущую прямо вниз»: вес прямо вниз на вертикальный fastener (винты в дне duct, hanger rod) — это tension, он вырывает fastener."
+   "en": "False. A shear load acts at right angles to the fastener's axis, trying to slice it; it is defined by its direction relative to the fastener, not by \"pulling straight down\". Weight hanging straight down on a vertical fastener (screws in the bottom of a duct, a hanger rod) is tension, which pulls the fastener out. The second half is true — a fastener in shear is less likely to pull out — but the wrong definition in the first half makes the statement false.",
+   "ru": "False. Shear load действует под прямым углом к оси fastener и стремится его срезать; её определяет направление относительно fastener, а не «тянет прямо вниз». Вес прямо вниз на вертикальный fastener (винты в дне duct, hanger rod) — это tension, он вырывает fastener. Вторая половина утверждения верна — fastener на срез вырывается реже, — но неверное определение в первой половине делает всё утверждение ложным."
   },
   "opts": [
    {
@@ -17926,8 +17926,8 @@ const QUESTIONS = [
    "ru": "При работе на scaffold guardrails должны:"
   },
   "why": {
-   "en": "For the test pick d (6'-0\"): it is the answer accepted on the graded sheet. On a scaffold the real threshold is 10 ft, both federally (OSHA 1926.451(g)(1)) and in Washington (WAC 296-880-30030). 6 ft is OSHA's general construction fall-protection height (1926.501(b)(1)); Washington's general rule is stricter — 4 ft (WAC 296-880-20005) — but neither general rule covers scaffolds. Working in Washington, follow the stricter rule wherever WAC and OSHA differ. 15'-0\" is too high under any rule. A top rail stands 38–45\" above the platform, well above the knees. Instructor, review class Nov 19, 2026: for \"at what point is fall protection required in Washington\" he gives credit for 4 ft or 6 ft if you name the regulation — 4 ft is WAC 296-880-20005 (the stricter one, followed on the job), 6 ft is OSHA 1926.501(b)(1).",
-   "ru": "Для балла — d (6'-0\"): этот ответ засчитан на проверенном листе. На scaffold реальный порог — 10 ft, и по федеральному стандарту (OSHA 1926.451(g)(1)), и в штате Washington (WAC 296-880-30030). 6 ft — общий порог защиты от падения на стройке по OSHA (1926.501(b)(1)); общее правило Washington строже — 4 ft (WAC 296-880-20005), но ни одно из общих правил к scaffold не относится. Работая в Washington, где WAC и OSHA расходятся, выполняем более строгое. 15'-0\" слишком высоко по любому правилу. Верхний поручень стоит на 38–45\" над настилом — гораздо выше колен. Инструктор на разборе 19.11.2026: на вопрос «с какой высоты в штате Washington нужна защита от падения» он засчитывает 4 ft или 6 ft, если назвать правило — 4 ft по WAC 296-880-20005 (оно строже, на работе выполняется оно), 6 ft по OSHA 1926.501(b)(1)."
+   "en": "For points pick d, 6'-0\". Technically 10 ft is also correct because on a scaffold both OSHA 1926.451(g)(1) and WAC 296-880-30030 require guardrails or a personal fall arrest system from 10 ft up. 6 ft is OSHA's general construction fall-protection height (1926.501(b)(1)); Washington's general rule is stricter, 4 ft (WAC 296-880-20005); neither general rule covers scaffolds. Working in Washington, follow the stricter rule wherever WAC and OSHA differ: asked from what height fall protection is required in Washington, answer 4 ft and name WAC 296-880-20005. 15'-0\" is too high under any rule, and a top rail stands 38–45\" above the platform, well above the knees.",
+   "ru": "Для балла — d, 6'-0\". Технически 10 ft тоже верен, потому что на scaffold и OSHA 1926.451(g)(1), и WAC 296-880-30030 требуют guardrails или personal fall arrest system с 10 ft. 6 ft — общий порог защиты от падения на стройке по OSHA (1926.501(b)(1)); общее правило Washington строже — 4 ft (WAC 296-880-20005); ни одно из общих правил к scaffold не относится. Работая в Washington, где WAC и OSHA расходятся, выполняем более строгое: на вопрос, с какой высоты в Washington нужна защита от падения, отвечать 4 ft со ссылкой на WAC 296-880-20005. 15'-0\" слишком высоко по любому правилу, а верхний поручень стоит на 38–45\" над настилом — гораздо выше колен."
   },
   "opts": [
    {
@@ -18758,8 +18758,8 @@ const QUESTIONS = [
    "ru": "В этом типе вида предметы кажутся уходящими вдаль."
   },
   "why": {
-   "en": "In a perspective view parallel lines run together toward vanishing points, so the far parts of the object look smaller — it recedes into the distance, as in a photo. In isometric and oblique views parallel lines stay parallel and nothing shrinks with distance; \"parametric\" is not a type of view.",
-   "ru": "В perspective параллельные линии сходятся к точкам схода, и дальние части предмета выглядят меньше — он уходит вдаль, как на фото. В isometric и oblique параллельные линии остаются параллельными и ничего не уменьшается с расстоянием; «parametric» — вообще не тип вида."
+   "en": "In a perspective view parallel lines run together toward vanishing points, so the far parts of the object look smaller — it recedes into the distance, the way the eye sees it. In isometric and oblique views parallel lines stay parallel and nothing shrinks with distance; \"parametric\" is not a type of view.",
+   "ru": "В perspective параллельные линии сходятся к точкам схода, и дальние части предмета выглядят меньше — он уходит вдаль, как видит глаз. В isometric и oblique параллельные линии остаются параллельными и ничего не уменьшается с расстоянием; «parametric» — вообще не тип вида."
   },
   "opts": [
    {

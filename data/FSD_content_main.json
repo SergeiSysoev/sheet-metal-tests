@@ -337,8 +337,8 @@
    "Product Labeling",
    "Component Recognition"
   ],
-  "why_en": "In the course (P613-2, Unit 2) actuators, fusible links, fans and motors are complete products evaluated for their own use, so they carry the UL Listing mark. Classification is for products judged for one property, such as fire dampers; Recognition is for parts used inside another product, such as thermostats. For points pick Product Listing (course key); in practice many motors carry the UL Recognized Component mark instead.",
-  "why_ru": "По курсу (P613-2, Unit 2) actuators, fusible links, fans и motors — законченные изделия, которые проверяют для их собственного применения, поэтому у них марка UL Listing. Classification — для изделий, оцененных по одному свойству, как fire dampers; Recognition — для деталей внутри другого изделия, как thermostats. Для балла ставь Product Listing (ключ курса); на практике многие motors имеют марку UL Recognized Component.",
+  "why_en": "Actuators, fusible links, fans and motors are complete products evaluated for their own use, so they carry the UL Listing mark. Classification is for products judged for one property, such as fire dampers; Recognition is for parts used inside another product, such as thermostats. For points pick Product Listing. Technically Component Recognition is also correct because many motors are built into other equipment and carry the UL Recognized Component mark.",
+  "why_ru": "Actuators, fusible links, fans и motors — законченные изделия, которые проверяют для их собственного применения, поэтому у них марка UL Listing. Classification — для изделий, оцененных по одному свойству, как fire dampers; Recognition — для деталей внутри другого изделия, как thermostats. Для балла — Product Listing. Технически Component Recognition тоже верен, потому что многие motors ставят внутрь другого оборудования, и они идут с маркой UL Recognized Component.",
   "flag": "Course key Product Listing; in practice many motors carry the UL Recognized Component mark rather than a Listing. Key kept."
  },
  {
@@ -443,8 +443,8 @@
    "Thermostats",
    "Floors"
   ],
-  "why_en": "Component recognition is for parts that go inside a larger product and are checked as part of it; the course (P613-2, Unit 2) gives thermostats as the example. Barriers and floors are building assemblies, not components, and the course groups motors with listed products. For points pick Thermostats (course key); technically motors are often UL Recognized Components too.",
-  "why_ru": "Component recognition — для деталей, которые ставят внутрь более крупного изделия и проверяют в его составе; курс (P613-2, Unit 2) приводит пример — thermostats. Barriers и floors — конструкции здания, а не компоненты, а motors курс относит к listed-изделиям. Для балла ставь Thermostats (ключ курса); технически motors тоже часто идут как UL Recognized Component.",
+  "why_en": "Component recognition is for parts that go inside a larger product and are checked as part of it; thermostats are the standard example. Barriers and floors are building assemblies, not components, and motors are usually grouped with Listed products. For points pick Thermostats. Technically Motors is also correct because many motors are built into other equipment and carry the UL Recognized Component mark.",
+  "why_ru": "Component recognition — для деталей, которые ставят внутрь более крупного изделия и проверяют в его составе; типичный пример — thermostats. Barriers и floors — конструкции здания, а не компоненты, а motors обычно относят к Listed-изделиям. Для балла — Thermostats. Технически Motors тоже верен, потому что многие motors ставят внутрь другого оборудования, и они идут с маркой UL Recognized Component.",
   "flag": null
  },
  {
@@ -1329,8 +1329,8 @@
    "Шесть месяцев",
    "Двенадцать месяцев"
   ],
-  "why_en": "The course key is six months: actuator-operated dampers are exercised at least every six months so the blades and actuator do not stick. This is separate from the formal periodic inspection and test of fire and smoke dampers.",
-  "why_ru": "По ключу курса — шесть месяцев: dampers с actuator прогоняют минимум раз в полгода, чтобы лопатки и actuator не закисли. Это отдельно от формальной периодической проверки fire и smoke dampers.",
+  "why_en": "Six months: damper and actuator manufacturers call for cycling actuator-operated dampers at least once every six months so the blades and actuator do not stick, and NFPA 92 tests dedicated smoke control systems on the same six-month cycle. This is separate from the formal inspection and test of fire and smoke dampers (NFPA 80 and NFPA 105: one year after installation, then every 4 years, every 6 years in hospitals).",
+  "why_ru": "Шесть месяцев: производители dampers и actuators требуют прогонять dampers с actuator минимум раз в полгода, чтобы лопатки и actuator не закисли, и NFPA 92 с тем же интервалом проверяет dedicated smoke control systems. Это отдельно от формальной проверки fire и smoke dampers (NFPA 80 и NFPA 105: через год после монтажа, затем раз в 4 года, в больницах — раз в 6 лет).",
   "flag": null
  },
  {

@@ -43,8 +43,8 @@
    "и по часовой, и против часовой стрелки",
    "ни один из ответов не верен"
   ],
-  "why_en": "For points pick b, counter-clockwise: that is the course key (the SMY1W3 graded sheet marked clockwise wrong). Technically it depends on the term: manufacturers call green-handled right-cut snips the ones that cut straight and curve to the right, i.e. clockwise, and the same course did not take a point for clockwise on the Trade Intro final.",
-  "why_ru": "Для балла — b, против часовой стрелки: это ключ курса (на проверенном листе SMY1W3 «по часовой» снят). Технически ответ зависит от термина: производители называют right-cut snips (зелёные ручки) те, что режут прямо и с поворотом вправо, то есть по часовой, и тот же курс на Trade Intro final ответ «по часовой» не снял.",
+  "why_en": "For points pick b, counter-clockwise. Technically clockwise is also correct because manufacturers make right-cut snips (green handles) to cut straight and curve to the right, and a cut that curves to the right runs clockwise. The answer depends on what \"right-handed\" is taken to mean.",
+  "why_ru": "Для балла — b, против часовой стрелки. Технически «по часовой» тоже верен, потому что производители делают right-cut snips (зелёные ручки) для реза прямо и с поворотом вправо, а рез с поворотом вправо идёт по часовой. Ответ зависит от того, что понимать под «right-handed».",
   "flag": "Disputed key (08-testy-i-klyuchi.md, open question 2): SMY1W3 key = b counter-clockwise; Trade Intro accepted a clockwise; manufacturers describe right-cut snips as cutting to the right (clockwise)."
  },
  {
@@ -57,8 +57,8 @@
    "Да",
    "Нет"
   ],
-  "why_en": "Yes. A TDC/TDF flange is roll-formed from the edge of the duct sheet itself, while Ductmate is a separate flange profile slipped onto the duct end. Both are then joined the same way: corners, gasket, bolts and cleats. An instructor correction on the SMY1W5 Monday graded sheet confirms Yes.",
-  "why_ru": "Да. Flange TDC/TDF прокатывается из кромки самого листа duct, а Ductmate — отдельный профиль, который надевают на конец duct. Дальше оба соединяют одинаково: уголки, уплотнитель, болты и cleats. Исправление инструктора на проверенном листе SMY1W5 Monday подтверждает «Да».",
+  "why_en": "Yes. A TDC/TDF flange is roll-formed from the edge of the duct sheet itself, while Ductmate is a separate flange profile slipped onto the duct end. Both are then joined the same way: corners, gasket, bolts and cleats.",
+  "why_ru": "Да. Flange TDC/TDF прокатывается из кромки самого листа duct, а Ductmate — отдельный профиль, который надевают на конец duct. Дальше оба соединяют одинаково: уголки, уплотнитель, болты и cleats.",
   "flag": null
  },
  {
@@ -167,8 +167,8 @@
    "Tape measure",
    "Framing square"
   ],
-  "why_en": "Course key: circumference ruler (the SMY1W3 graded sheet marked tape measure wrong). It is a rigid steel bench rule that lies flat on the sheet and also has a scale for the circumference of a given diameter. A tape measure sags and its hook has play, so it is a field tool.",
-  "why_ru": "Ключ курса — circumference ruler (на проверенном листе SMY1W3 tape measure снят). Это жёсткая стальная линейка, которая лежит на листе плашмя и имеет ещё шкалу длины окружности по диаметру. Рулетка провисает, а её крючок ходит, поэтому это инструмент для объекта.",
+  "why_en": "Circumference ruler: it is a rigid steel bench rule that lies flat on the sheet and also has a scale for the circumference of a given diameter. A tape measure sags and its hook has play, so it is a field tool.",
+  "why_ru": "Circumference ruler: это жёсткая стальная линейка для верстака, она лежит на листе плашмя и имеет ещё шкалу длины окружности по диаметру. Tape measure провисает, а её крючок ходит, поэтому это инструмент для объекта.",
   "flag": null
  },
  {
@@ -183,8 +183,8 @@
    "GFCI",
    "Fuse"
   ],
-  "why_en": "A GFCI trips when the current going out and coming back differ by about 4–6 mA, i.e. current leaking through a person, within a fraction of a second. A circuit breaker or fuse protects the wiring and opens only at many amps. On construction sites OSHA 1926.404(b)(1) requires GFCI protection or an assured equipment grounding conductor program.",
-  "why_ru": "GFCI отключает цепь за доли секунды, когда ток «туда» и «обратно» отличается примерно на 4–6 mA, то есть ток уходит через человека. Circuit breaker и fuse защищают проводку и срабатывают только при токе в амперы. На стройке OSHA 1926.404(b)(1) требует GFCI или программу проверки заземления инструмента (assured equipment grounding conductor program).",
+  "why_en": "A GFCI trips when the current going out and coming back differ by about 4–6 mA, i.e. current leaking through a person, within a fraction of a second. A circuit breaker or fuse protects the wiring and opens only at many amps. On construction sites OSHA 1926.404(b)(1) requires GFCI protection or an assured equipment grounding conductor program; Washington's WAC 296-155-447 gives the same two options.",
+  "why_ru": "GFCI отключает цепь за доли секунды, когда ток «туда» и «обратно» отличается примерно на 4–6 mA, то есть ток уходит через человека. Circuit breaker и fuse защищают проводку и срабатывают только при токе в амперы. На стройке OSHA 1926.404(b)(1) требует GFCI или программу проверки заземления инструмента (assured equipment grounding conductor program); в штате Washington WAC 296-155-447 даёт те же два варианта.",
   "flag": null
  },
  {
@@ -215,8 +215,8 @@
    "монтажа",
    "ничего из перечисленного"
   ],
-  "why_en": "Course answer (not marked wrong on either graded sheet): installation. On site the duct is handled, hoisted, hung and worked on next to other trades, so most dents and scratches happen there; store and handle finished duct with care.",
-  "why_ru": "Ответ курса (на обоих проверенных листах не снят): монтаж. На объекте duct переносят, поднимают, вешают и работают рядом с другими трейдами, поэтому большинство вмятин и царапин появляется там; готовый duct храните и переносите аккуратно.",
+  "why_en": "Installation. On site the duct is handled, hoisted, hung and worked on next to other trades, so most dents and scratches happen there; store and handle finished duct with care.",
+  "why_ru": "Монтаж. На объекте duct переносят, поднимают, вешают и работают рядом с другими трейдами, поэтому большинство вмятин и царапин появляется там; готовый duct храните и переносите аккуратно.",
   "flag": null
  },
  {
@@ -309,8 +309,8 @@
    "3-3/8",
    "3.375"
   ],
-  "why_en": "9/8 × 9/4 = 81/32 = 2.53125 = 2-17/32 exactly, so a and b are the same number (a is rounded to 3 decimals). For points on this test pick a, 2.531: the SMY1W3 graded sheet keyed 2.531 and took the point off for 2-17/32. The same question on the SMY1W5 Monday graded sheet accepted 2-17/32. 3-3/8 = 3.375 is the sum, not the product.",
-  "why_ru": "9/8 × 9/4 = 81/32 = 2.53125 = ровно 2-17/32, так что a и b — одно и то же число (a округлено до 3 знаков). Для балла на этом тесте — a, 2.531: на проверенном листе SMY1W3 ключ 2.531, а за 2-17/32 балл сняли. Тот же вопрос на проверенном листе SMY1W5 Monday засчитал 2-17/32. 3-3/8 = 3.375 — это сумма, а не произведение.",
+  "why_en": "9/8 × 9/4 = 81/32 = 2.53125. For points pick a, 2.531. Technically 2-17/32 is also correct because 81/32 = 2-17/32 exactly; a is the same number rounded to three decimals. 3-3/8 = 3.375 is the sum, not the product.",
+  "why_ru": "9/8 × 9/4 = 81/32 = 2.53125. Для балла — a, 2.531. Технически 2-17/32 тоже верен, потому что 81/32 = ровно 2-17/32; a — то же число, округлённое до 3 знаков. 3-3/8 = 3.375 — это сумма, а не произведение.",
   "flag": "Disputed key: a 2.531 and b 2-17/32 are the same value (81/32 = 2.53125). SMY1W3 graded sheet keyed a and marked b wrong; SMY1W5 Monday graded sheet (its No.56) accepted 2-17/32."
  },
  {
@@ -433,8 +433,8 @@
    "305.1",
    "305.098"
   ],
-  "why_en": "The two R6\" ends make one full circle: π × 6² = 113.097; the rectangle between them is 1'-4\" × 12\" = 16 × 12 = 192. Total 305.0973 sq in; with π = 3.1416 (the value this test uses in №37) 305.0976 → d 305.098, the most precise option. c 305.1 is the same area rounded to one decimal and was accepted on both graded sheets, so both count here.",
-  "why_ru": "Два конца R6\" вместе дают полный круг: π × 6² = 113.097; прямоугольник между ними — 1'-4\" × 12\" = 16 × 12 = 192. Итого 305.0973 sq in; с π = 3.1416 (это значение задаёт сам тест в №37) 305.0976 → d 305.098, самый точный вариант. c 305.1 — та же площадь с округлением до десятых, её засчитали на обоих проверенных листах, поэтому здесь засчитываются оба.",
+  "why_en": "The two R6\" ends make one full circle: π × 6² = 113.097; the rectangle between them is 1'-4\" × 12\" = 16 × 12 = 192. Total 305.0973 sq in; with π = 3.1416 it is 305.0976 → d 305.098, the most precise option. c 305.1 is the same area rounded to one decimal, so it counts too.",
+  "why_ru": "Два конца R6\" вместе дают полный круг: π × 6² = 113.097; прямоугольник между ними — 1'-4\" × 12\" = 16 × 12 = 192. Итого 305.0973 sq in; с π = 3.1416 — 305.0976 → d 305.098, самый точный вариант. c 305.1 — та же площадь с округлением до десятых, поэтому она тоже засчитывается.",
   "flag": "Knowledge base 08 §10 lists d 305.098 ('most precise'). Set to c: c is the exact area rounded to 0.1 and was accepted on both graded sheets (Trade Intro, SMY1W3); d holds only with pi = 3.1416 (full pi gives 305.097)."
  },
  {
@@ -465,8 +465,8 @@
    "25\"",
    "22- 1/2\""
   ],
-  "why_en": "Course rule: the S&D end takes 1\" of metal, a flange adds its own height: 22 + 1 + 2 = 25\". 24-1/2\" uses ½\" for the S&D end and was marked wrong on the graded sheet.",
-  "why_ru": "Правило курса: конец под S&D берёт 1\" металла, flange добавляет свою высоту: 22 + 1 + 2 = 25\". 24-1/2\" — это ½\" на конец под S&D, на проверенном листе этот ответ снят.",
+  "why_en": "The S&D end takes 1\" of metal beyond the working length (the edge that goes into the S cleat or under the drive cleat), and a flange adds its own height: 22 + 1 + 2 = 25\". 24-1/2\" is the trap: it allows only ½\" for the S&D end.",
+  "why_ru": "Конец под S&D берёт 1\" металла сверх working length (кромка, которая заходит в S cleat или под drive cleat), а flange добавляет свою высоту: 22 + 1 + 2 = 25\". 24-1/2\" — ловушка: там на конец под S&D дано только ½\".",
   "flag": "Typo in the original: 'it's length' (= its)."
  },
  {

@@ -187,8 +187,8 @@
    "Parametric",
    "Oblique"
   ],
-  "why_en": "In a perspective view parallel lines run together toward vanishing points, so the far parts of the object look smaller — it recedes into the distance, as in a photo. In isometric and oblique views parallel lines stay parallel and nothing shrinks with distance; \"parametric\" is not a type of view.",
-  "why_ru": "В perspective параллельные линии сходятся к точкам схода, и дальние части предмета выглядят меньше — он уходит вдаль, как на фото. В isometric и oblique параллельные линии остаются параллельными и ничего не уменьшается с расстоянием; «parametric» — вообще не тип вида.",
+  "why_en": "In a perspective view parallel lines run together toward vanishing points, so the far parts of the object look smaller — it recedes into the distance, the way the eye sees it. In isometric and oblique views parallel lines stay parallel and nothing shrinks with distance; \"parametric\" is not a type of view.",
+  "why_ru": "В perspective параллельные линии сходятся к точкам схода, и дальние части предмета выглядят меньше — он уходит вдаль, как видит глаз. В isometric и oblique параллельные линии остаются параллельными и ничего не уменьшается с расстоянием; «parametric» — вообще не тип вида.",
   "flag": null
  },
  {

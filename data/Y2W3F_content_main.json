@@ -89,8 +89,8 @@
    "Верно",
    "Неверно"
   ],
-  "why_en": "False. On a graded SMY2W5 Monday sheet (the same question) the instructor circled False and took the point off for True; on this SMY2W3 sheet it was struck out. The course defines a shear load as a load at right angles to the fastener — not one that \"pulls straight down\": weight hanging straight down on a vertical fastener (screws in the bottom of a duct, a hanger rod) is tension, which pulls the fastener out.",
-  "why_ru": "False. На проверенном листе SMY2W5 Monday (тот же вопрос) инструктор обвёл False и снял балл за True; на этом листе SMY2W3 вопрос вычеркнут. Курс определяет shear load как нагрузку под прямым углом к fastener, а не «тянущую прямо вниз»: вес прямо вниз на вертикальный fastener (винты в дне duct, hanger rod) — это tension, он вырывает fastener.",
+  "why_en": "False. A shear load acts at right angles to the fastener's axis, trying to slice it; it is defined by its direction relative to the fastener, not by \"pulling straight down\". Weight hanging straight down on a vertical fastener (screws in the bottom of a duct, a hanger rod) is tension, which pulls the fastener out. The second half is true — a fastener in shear is less likely to pull out — but the wrong definition in the first half makes the statement false.",
+  "why_ru": "False. Shear load действует под прямым углом к оси fastener и стремится его срезать; её определяет направление относительно fastener, а не «тянет прямо вниз». Вес прямо вниз на вертикальный fastener (винты в дне duct, hanger rod) — это tension, он вырывает fastener. Вторая половина утверждения верна — fastener на срез вырывается реже, — но неверное определение в первой половине делает всё утверждение ложным.",
   "flag": "The instructor voided this question with a red wavy line, so there is no graded answer. True follows the course definition of shear load; 'straight down' is shear only when the fastener is horizontal (strap on the duct side)."
  },
  {

@@ -205,8 +205,8 @@
    "23-5/8\"",
    "24-1/8\""
   ],
-  "why_en": "Treat the ogee as an S of two equal arcs (formula sheet \"OGEE OFFSET\") between the bend lines: L = 22 − 1 = 21\", CL R = (O² + L²) ÷ 4O = (36 + 441) ÷ 24 = 19.875\". Each arc: cos φ = (441 − 36) ÷ (441 + 36) → φ = 31.8908° (0.556599 rad), so the CL length = 2 × 19.875 × 0.556599 = 22.1248\". Add 1\" per end for the connections: 22.1248 + 2 = 24.1248\" → 24-1/8\"; the formula-sheet shortcut slant + (slant − L) ÷ 3 = 21.8403 + 0.2801 = 22.1204 gives the same 24-1/8\". Note: not confirmed by a graded key.",
-  "why_ru": "Ogee считаем как S из двух равных дуг (formula sheet «OGEE OFFSET») между линиями изгиба: L = 22 − 1 = 21\", CL R = (O² + L²) ÷ 4O = (36 + 441) ÷ 24 = 19.875\". Каждая дуга: cos φ = (441 − 36) ÷ (441 + 36) → φ = 31.8908° (0.556599 рад), значит, длина по CL = 2 × 19.875 × 0.556599 = 22.1248\". Плюс 1\" на каждый конец под соединения: 22.1248 + 2 = 24.1248\" → 24-1/8\"; короткая формула листа slant + (slant − L) ÷ 3 = 21.8403 + 0.2801 = 22.1204 даёт те же 24-1/8\". Внимание: проверенного ключа нет.",
+  "why_en": "Treat the ogee as an S of two equal arcs (the OGEE OFFSET formula) between the bend lines, ½\" in from each drive: L = 22 − 1 = 21\", CL R = (O² + L²) ÷ 4O = (36 + 441) ÷ 24 = 19.875\". Each arc: cos φ = (441 − 36) ÷ (441 + 36) → φ = 31.8908° (0.556599 rad), so the CL length = 2 × 19.875 × 0.556599 = 22.1248\". Add 1\" per end for the connections: 22.1248 + 2 = 24.1248\" → 24-1/8\". The shortcut slant + (slant − L) ÷ 3 = 21.8403 + 0.2801 = 22.1204 gives the same 24-1/8\".",
+  "why_ru": "Ogee считаем как S из двух равных дуг (формула OGEE OFFSET) между линиями изгиба, по ½\" внутрь от каждого drive: L = 22 − 1 = 21\", CL R = (O² + L²) ÷ 4O = (36 + 441) ÷ 24 = 19.875\". Каждая дуга: cos φ = (441 − 36) ÷ (441 + 36) → φ = 31.8908° (0.556599 рад), значит, длина по CL = 2 × 19.875 × 0.556599 = 22.1248\". Плюс 1\" на каждый конец под соединения: 22.1248 + 2 = 24.1248\" → 24-1/8\". Короткая формула slant + (slant − L) ÷ 3 = 21.8403 + 0.2801 = 22.1204 даёт те же 24-1/8\".",
   "flag": "Course method for the ogee wrapper is not on any course sheet found (KB 08, open question 7). Computed by the formula-sheet ogee with L = 22 − 1 and + 2 for the ends (the transition convention); the exact arc 24.1248 and the sheet shortcut 24.1204 both give 24-1/8\", the student's pick."
  },
  {
@@ -334,8 +334,8 @@
    "Наружную сторону (forming и наклейки detail)",
    "Обе стороны"
   ],
-  "why_en": "Forming instructions are the forming and detail stickers, and the options themselves place those on the outside of the pattern; layout marking goes on the inside. So the answer is b, Outside. Note: last year's sheet had \"Both\" picked and there is no graded key for this item.",
-  "why_ru": "Forming instructions — это наклейки с forming и detail, и сами варианты ответа относят их к наружной стороне (Outside); разметка layout — на внутренней. Поэтому ответ b, Outside. Внимание: на листе прошлого года выбрано «Both», проверенного ключа на этот вопрос нет.",
+  "why_en": "Forming instructions and detail stickers go on the outside of the pattern, where they can still be read after the piece is formed and while it is assembled and installed. The inside carries the layout marking, so the scribe lines end up hidden inside the finished duct. \"Both\" is the trap: each side has its own job.",
+  "why_ru": "Forming instructions и detail stickers ставят на наружную сторону pattern: там их видно и после гибки, и при сборке и монтаже. На внутренней стороне — разметка layout, поэтому риски оказываются внутри готового duct и не видны. «Both» — ловушка: у каждой стороны своя задача.",
   "flag": "Student pick only (в); no course source found. The option text itself puts forming stickers on the outside and layout on the inside, so b (Outside) is a plausible alternative key; keep c until a graded copy settles it."
  },
  {
@@ -349,8 +349,8 @@
    "Уменьшить дефекты шва.",
    "Всё перечисленное."
   ],
-  "why_en": "The main job of the shielding gas is to keep the oxygen and nitrogen of the air away from the molten weld, and by doing that it prevents porosity and other defects. The gas mix also sets the arc heat: CO2 and helium give a hotter arc and deeper penetration than pure argon. All three statements are true. Note: not confirmed by a graded key.",
-  "why_ru": "Главная задача shielding gas — не пускать кислород и азот воздуха к расплавленному шву, и тем самым он предотвращает поры и другие дефекты. Состав газа ещё и задаёт тепло дуги: CO2 и helium дают более горячую дугу и более глубокий провар, чем чистый argon. Верны все три утверждения. Внимание: проверенного ключа нет.",
+  "why_en": "The main job of the shielding gas is to keep the oxygen and nitrogen of the air away from the molten weld, and by doing that it prevents porosity and other defects. The gas mix also sets the arc heat: CO2 and helium give a hotter arc and deeper penetration than pure argon. All three statements are true.",
+  "why_ru": "Главная задача shielding gas — не пускать кислород и азот воздуха к расплавленному шву, и тем самым он предотвращает поры и другие дефекты. Состав газа ещё и задаёт тепло дуги: CO2 и helium дают более горячую дугу и более глубокий провар, чем чистый argon. Верны все три утверждения.",
   "flag": null
  },
  {
@@ -439,8 +439,8 @@
    "E",
    "F"
   ],
-  "why_en": "E is the long break line: a thin straight line with one zigzag that runs a little past both edges, the break drawn on rectangular duct in the course drawings. F is the S-break (figure-eight) used for round pipe, rod and tube, and the dashed line in A is a hidden line, not a break. Note: this answer comes from another student's sheet, not a graded key.",
-  "why_ru": "E — длинная линия обрыва: тонкая прямая с одним зигзагом, чуть выходящая за обе кромки; так обрывают прямоугольный duct на чертежах курса. F — S-образный обрыв (восьмёрка) для круглых труб, прутков и трубок, а штриховая линия в A — невидимый контур, а не обрыв. Внимание: ответ взят с листа другого ученика, проверенного ключа нет.",
+  "why_en": "E is the long break line: a thin straight line with one zigzag that runs a little past both edges, the break used on rectangular duct in shop drawings. F is the S-break (figure-eight) used for round pipe, rod and tube, and the dashed line in A is a hidden line, not a break.",
+  "why_ru": "E — длинная линия обрыва: тонкая прямая с одним зигзагом, чуть выходящая за обе кромки; так обрывают прямоугольный duct на shop drawings. F — S-образный обрыв (восьмёрка) для круглых труб, прутков и трубок, а штриховая линия в A — невидимый контур, а не обрыв.",
   "flag": "Student pick only (в); no course symbol sheet found. E matches the break drawn on rectangular duct in this test's own figures (№42, 54, 56) and the drafting convention (zigzag long break for flat or rectangular parts, S-break F for round)."
  },
  {
@@ -454,8 +454,8 @@
    "Copper (медь)",
    "Galvanized (оцинкованная сталь)"
   ],
-  "why_en": "Cold rolled steel has no zinc coating and no mill scale, so the mill oils it to keep it from rusting in storage. Standard hot rolled steel carries dark mill scale and is usually sold dry (only the pickled-and-oiled grade is oiled), galvanized is protected by its zinc, and copper does not rust. Note: not confirmed by a graded key.",
-  "why_ru": "У cold rolled steel нет ни цинкового покрытия, ни окалины, поэтому завод покрывает её маслом, чтобы она не ржавела на складе. Обычная hot rolled steel покрыта тёмной окалиной и продаётся сухой (маслом покрыт только сорт pickled and oiled), galvanized защищает цинк, а медь не ржавеет. Внимание: проверенного ключа нет.",
+  "why_en": "Cold rolled steel has no zinc coating and no mill scale, so the mill oils it to keep it from rusting in storage. Standard hot rolled steel carries dark mill scale and is usually sold dry (only the pickled-and-oiled grade is oiled), galvanized is protected by its zinc, and copper does not rust.",
+  "why_ru": "У cold rolled steel нет ни цинкового покрытия, ни окалины, поэтому завод покрывает её маслом, чтобы она не ржавела на складе. Обычная hot rolled steel покрыта тёмной окалиной и продаётся сухой (маслом покрыт только сорт pickled and oiled), galvanized защищает цинк, а медь не ржавеет.",
   "flag": null
  },
  {

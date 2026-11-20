@@ -75,8 +75,8 @@
    "обычно имеет V-образный профиль",
    "всё перечисленное"
   ],
-  "why_en": "All three are true for pressure pipe thread (NPT): it is tapered so it wedges tight, its profile is a 60° V, and the course book asks for at least seven perfect threads. Picking only 'tapered' lost the point on the TotalTrack key.",
-  "why_ru": "Все три верны для резьбы под давление (NPT): она коническая, чтобы затягиваться на клин, профиль — V под 60°, и учебник курса требует не меньше семи полных ниток. Ответ «только коническая» в TotalTrack не засчитан.",
+  "why_en": "All three are true for pressure pipe thread (NPT): it is tapered so it wedges tight, its profile is a 60° V, and it needs at least seven perfect threads — the NPT effective thread length (0.8 × OD in inches + 6.8 threads) comes to just over seven threads even on the smallest sizes. Picking only \"tapered\" is the trap: the other two statements are true as well.",
+  "why_ru": "Все три верны для резьбы под давление (NPT): она коническая, чтобы затягиваться на клин, профиль — V под 60°, и нужно не меньше семи полных ниток — эффективная длина резьбы NPT (0.8 × наружный диаметр в дюймах + 6.8 ниток) даже на самых малых размерах чуть больше семи ниток. Ответ «только коническая» — ловушка: два других утверждения тоже верны.",
   "flag": null
  },
  {
@@ -149,8 +149,8 @@
    "Да",
    "Нет"
   ],
-  "why_en": "No. 95/5 is a soft solder with low strength; the course book allows it only on the low side. High-pressure lines are brazed.",
-  "why_ru": "Нет. 95/5 — мягкий припой с низкой прочностью; учебник курса допускает его только на low side. Линии высокого давления паяют brazing.",
+  "why_en": "No. 95/5 is a soft solder: it melts at about 450–465°F, has low strength and poor resistance to vibration, and weakens further as it heats up. It is used only on the low side, where pressure and temperature are low; the high-pressure lines, especially the hot discharge line, are brazed.",
+  "why_ru": "Нет. 95/5 — мягкий припой: плавится примерно при 450–465°F, прочность низкая, вибрацию держит плохо и при нагреве слабеет ещё сильнее. Его применяют только на low side, где давление и температура низкие; линии высокого давления, особенно горячую discharge line, паяют brazing.",
   "flag": null
  },
  {
@@ -185,8 +185,8 @@
   "ru_q": "Одна из причин изолировать suction line — помочь держать правильный ____________________.",
   "ru_hint": null,
   "ru_opts": null,
-  "why_en": "Superheat (the key also accepts temperature). Insulation keeps heat out of the cold suction line, so the refrigerant reaches the compressor at the intended superheat, and it stops sweating.",
-  "why_ru": "Superheat (ключ принимает и temperature). Изоляция не даёт холодной suction line набирать тепло, поэтому хладагент приходит к компрессору с нужным superheat, и трубка не потеет.",
+  "why_en": "Superheat (temperature also counts). Insulation keeps heat out of the cold suction line, so the refrigerant reaches the compressor at the intended superheat, and the line does not sweat.",
+  "why_ru": "Superheat (засчитывается и temperature). Изоляция не даёт холодной suction line набирать тепло, поэтому хладагент приходит к компрессору с нужным superheat, и трубка не потеет.",
   "flag": null
  },
  {
@@ -196,8 +196,8 @@
   "ru_q": "В обозначении резьбы 1/2-14 NPT число 1/2 — это ____________________.",
   "ru_hint": null,
   "ru_opts": null,
-  "why_en": "For points write 'thread diameter': that is the TotalTrack key ('nominal pipe size' was marked wrong). Technically the 1/2 is the nominal pipe size: the real outside diameter of 1/2\" NPT pipe and thread is 0.840\".",
-  "why_ru": "Для балла — «thread diameter»: это ключ TotalTrack («nominal pipe size» не засчитан). Технически 1/2 — номинальный размер трубы: реальный наружный диаметр трубы и резьбы 1/2\" NPT — 0.840\".",
+  "why_en": "For points pick \"thread diameter\". Technically nominal pipe size is also correct because 1/2 is a size name, not a measurement: the real outside diameter of 1/2\" NPT pipe and thread is 0.840\".",
+  "why_ru": "Для балла — «thread diameter». Технически nominal pipe size тоже верен, потому что 1/2 — название размера, а не замер: реальный наружный диаметр трубы и резьбы 1/2\" NPT — 0.840\".",
   "flag": "Key 'Thread Diameter' is technically imprecise: 1/2 is the nominal pipe size (thread OD 0.840\"). 'nominal pipe size' was marked wrong on TotalTrack."
  },
  {
@@ -240,8 +240,8 @@
   "ru_q": "Зачем изолируют некоторые холодильные трубки?",
   "ru_hint": null,
   "ru_opts": null,
-  "why_en": "To keep the system from absorbing excess heat: a cold line picks up heat from the surrounding air. Insulation also stops condensation; TotalTrack accepted an answer naming heat gain and condensation.",
-  "why_ru": "Чтобы система не набирала лишнее тепло: холодная трубка забирает тепло из окружающего воздуха. Изоляция ещё и не даёт трубке потеть; TotalTrack засчитал ответ, где названы приток тепла и конденсат.",
+  "why_en": "To keep the system from absorbing excess heat: a cold line picks up heat from the surrounding air. Insulation also stops condensation, so naming heat gain and condensation together is a complete answer.",
+  "why_ru": "Чтобы система не набирала лишнее тепло: холодная трубка забирает тепло из окружающего воздуха. Изоляция ещё и не даёт трубке потеть, так что ответ «приток тепла и конденсат» — полный.",
   "flag": null
  },
  {
@@ -262,8 +262,8 @@
   "ru_q": "Какой глубины должна быть раздача (расширенная часть трубки) при swage-соединении?",
   "ru_hint": null,
   "ru_opts": null,
-  "why_en": "Equal to the diameter of the original tube (TotalTrack also accepted 'OD'): the other tube of the same size slides in that far, which gives enough overlap for the brazed joint.",
-  "why_ru": "Равной диаметру исходной трубки (TotalTrack засчитал и «OD»): трубка того же размера входит на эту глубину, и нахлёста хватает для пайки.",
+  "why_en": "Equal to the diameter (OD) of the original tube: the other tube of the same size slides in that far, which gives enough overlap for a strong brazed joint.",
+  "why_ru": "Равной диаметру (OD) исходной трубки: трубка того же размера входит на эту глубину, и нахлёста хватает для прочной пайки.",
   "flag": null
  },
  {
@@ -342,8 +342,8 @@
    "sand cloth",
    "всё перечисленное"
   ],
-  "why_en": "Sand cloth. Steel wool and carborundum cloth can leave steel or abrasive particles in the tube that travel with the oil to the compressor, so 'all of the above' is wrong (it lost the point on TotalTrack).",
-  "why_ru": "Sand cloth. Steel wool и carborundum cloth могут оставить в трубке частицы стали или абразива, которые с маслом уйдут в компрессор, поэтому «all of the above» неверно (в TotalTrack балл снят).",
+  "why_en": "Sand cloth. Steel wool and carborundum cloth can leave steel or abrasive particles in the tube that travel with the oil to the compressor, so \"all of the above\" is the trap.",
+  "why_ru": "Sand cloth. Steel wool и carborundum cloth могут оставить в трубке частицы стали или абразива, которые с маслом уйдут в компрессор, поэтому «all of the above» — ловушка.",
   "flag": null
  },
  {
@@ -414,8 +414,8 @@
   "ru_q": "Стальная трубная резьба, которая в основном используется в отрасли, — коническая (tapered). Почему?",
   "ru_hint": null,
   "ru_opts": null,
-  "why_en": "To produce a tight joint and prevent leakage: as the tapered threads are screwed in they wedge together and seal (with pipe dope or tape). TotalTrack gave full credit to 'pressure-tight seal'.",
-  "why_ru": "Чтобы соединение было плотным и не текло: при завинчивании конические нитки заклиниваются и уплотняются (с герметиком или лентой). TotalTrack засчитал полностью ответ «pressure-tight seal».",
+  "why_en": "To produce a tight joint and prevent leakage: as the tapered threads are screwed in they wedge together and seal (with pipe dope or tape) — in short, a pressure-tight seal.",
+  "why_ru": "Чтобы соединение было плотным и не текло: при завинчивании конические нитки заклиниваются и уплотняются (с герметиком или лентой) — коротко, pressure-tight seal.",
   "flag": null
  },
  {
