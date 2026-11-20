@@ -196,7 +196,7 @@ button{font-family:inherit}
   <div class="sronly" id="live" aria-live="polite" role="status"></div>
 </main>
 
-<script src="questions.js?v=31"></script>
+<script src="questions.js?v=32"></script>
 <script>
 (function(){
   "use strict";
@@ -455,7 +455,9 @@ button{font-family:inherit}
     var r=load("run",null); if(!r || r.v!==1 || !r.ids || !r.ids.length) return null;
     var order=[]; r.ids.forEach(function(id){ if(id in byId) order.push(byId[id]); });
     if(!order.length) return null;
-    var curId=r.ids[r.pos], pos=(curId!=null && (curId in byId)) ? order.indexOf(byId[curId]) : order.length;
+    var curId=r.ids[r.pos], pos;
+    if(curId!=null && (curId in byId)) pos=order.indexOf(byId[curId]);
+    else { pos=0; for(var i=0;i<Math.min(r.pos,r.ids.length);i++) if(r.ids[i] in byId) pos++; }   // current question left the bank (merged): continue with the next one
     if(pos<0) pos=Math.min(r.pos, order.length);
     st.mode={m:r.m, a:r.a}; st.order=order; st.pos=pos; st.score=r.score||0; st.done=r.done||0; st.finished=!!r.finished;
     st.missed=(r.missed||[]).filter(function(id){ return id in byId; }).map(function(id){ return byId[id]; });
