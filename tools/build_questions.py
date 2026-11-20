@@ -92,7 +92,7 @@ UI = {
     'wordmark': {'en': 'SM Test Trainer', 'ru': 'Тренажёр SM'},
     'home_title': {'en': 'Sheet Metal Apprentice Test Trainer', 'ru': 'Тренажёр к тестам sheet metal apprentice'},
     'home_p1': {'en': 'Practice for the written tests of the sheet metal apprenticeship: {N} questions with explanations.',
-                'ru': 'Подготовка к письменным тестам sheet metal apprenticeship: {N} вопросов с пояснениями.'},
+                'ru': 'Подготовка к письменным тестам sheet metal apprenticeship. Вопросов с пояснениями: {N}.'},
     'mode_all': {'en': 'Start the test — all questions', 'ru': 'Начать тест — все вопросы'},
     'mode_all_sub': {'en': 'Random order. Answer as many as you like, then finish and see your result', 'ru': 'Вперемешку. Отвечай сколько хочешь, потом заверши тест и посмотри результат'},
     'finish_test': {'en': 'Finish test and show results', 'ru': 'Завершить тест и показать результат'},
@@ -126,6 +126,12 @@ UI = {
     'review_missed': {'en': 'Redo the {N} missed', 'ru': 'Перерешать ошибки ({N})'},
     'again': {'en': 'Start over', 'ru': 'Начать заново'},
 }
+
+
+def ru_plural(n, one, few, many):
+    if n % 10 == 1 and n % 100 != 11: return one
+    if 2 <= n % 10 <= 4 and not 12 <= n % 100 <= 14: return few
+    return many
 
 
 def fig_file(src, fig):
@@ -227,7 +233,7 @@ def main():
             it.setdefault('on', []).append([code, e['n']])
         SOURCES[code]['full'] = len(ex['items'])
         SOURCES[code]['sub'] = {'en': SOURCES[code]['sub']['en'].split(' · new questions only')[0] + f" · full test, {len(ex['items'])} questions",
-                                'ru': SOURCES[code]['sub']['ru'].split(' · только новые')[0] + f" · полный тест, {len(ex['items'])} вопросов"}
+                                'ru': SOURCES[code]['sub']['ru'].split(' · только новые')[0] + f" · полный тест, {len(ex['items'])} {ru_plural(len(ex['items']), 'вопрос', 'вопроса', 'вопросов')}"}
     if held:
         print('HELD BACK until the drawing exists:', ', '.join(held))
     if problems:

@@ -37,7 +37,7 @@ const SOURCES = {
   },
   "sub": {
    "en": "All questions of this week's tests in one test: Year End, Welding & Layout, Triangulation, SMY1W5, review class 11/19 · full test, 263 questions",
-   "ru": "Все вопросы тестов этой недели в одном тесте: Year End, Welding & Layout, Triangulation, SMY1W5, разбор 19.11 · полный тест, 263 вопросов"
+   "ru": "Все вопросы тестов этой недели в одном тесте: Year End, Welding & Layout, Triangulation, SMY1W5, разбор 19.11 · полный тест, 263 вопроса"
   },
   "short": {
    "en": "Friday 11/20",
@@ -314,7 +314,7 @@ const UI = {
  },
  "home_p1": {
   "en": "Practice for the written tests of the sheet metal apprenticeship: {N} questions with explanations.",
-  "ru": "Подготовка к письменным тестам sheet metal apprenticeship: {N} вопросов с пояснениями."
+  "ru": "Подготовка к письменным тестам sheet metal apprenticeship. Вопросов с пояснениями: {N}."
  },
  "mode_all": {
   "en": "Start the test — all questions",
