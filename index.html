@@ -196,7 +196,7 @@ button{font-family:inherit}
   <div class="sronly" id="live" aria-live="polite" role="status"></div>
 </main>
 
-<script src="questions.js?v=32"></script>
+<script src="questions.js?v=33"></script>
 <script>
 (function(){
   "use strict";
@@ -258,10 +258,11 @@ button{font-family:inherit}
     var order;
     if(mode==="all") order=shuffle(poolBy(function(){ return true; }));
     else if(mode==="topic") order=shuffle(poolBy(function(q){ return q.topic===arg; }));
-    else if(mode==="test"){ var ti=testItems(arg); order=ti.map(function(x){ return x[0]; }); st.testNo={}; ti.forEach(function(x){ st.testNo[x[0]]=x[1]; }); }
+    else if(mode==="test"){ var ti=testItems(arg); order=ti.map(function(x){ return x[0]; }); st.testNo={}; ti.forEach(function(x){ st.testNo[x[0]]=x[1]; }); st.testNos=ti.map(function(x){ return x[1]; }); }
     else if(mode==="mistakes") order=shuffle(mistakes().map(function(id){ return byId[id]; }));
     else if(mode==="review") order=arg;
     if(!order || !order.length) return;
+    if(mode!=="test") st.testNos=null;   // a test can print the same question twice (e.g. No. 9 and No. 112): numbers go by position
     st.mode={m:mode,a:arg}; st.order=order; st.perms={}; st.pos=0; st.score=0; st.done=0; st.missed=[]; st.finished=false;
     resetQ(); st.view="quiz"; pushQuiz(); render(); window.scrollTo({top:0});
   }
@@ -390,7 +391,8 @@ button{font-family:inherit}
     $("railfill").style.width=(n/total*100)+"%";
     var sl=$("srcline"); sl.innerHTML="";
     var chipSrc=q.src, chipN=q.n;
-    if(st.mode && st.mode.m==="test" && st.testNo && (st.order[st.pos] in st.testNo)){ chipSrc=st.mode.a; chipN=st.testNo[st.order[st.pos]]; }
+    if(st.mode && st.mode.m==="test" && st.testNos && st.testNos[st.pos]!=null){ chipSrc=st.mode.a; chipN=st.testNos[st.pos]; }
+    else if(st.mode && st.mode.m==="test" && st.testNo && (st.order[st.pos] in st.testNo)){ chipSrc=st.mode.a; chipN=st.testNo[st.order[st.pos]]; }
     [L(SOURCES[chipSrc].short)+" №"+chipN, L(TOPICS[q.topic])].forEach(function(s){ var c=document.createElement("span"); c.className="chip"; c.textContent=s; sl.appendChild(c); });
     $("question").textContent=L(q.q);
     $("hint").hidden=!q.hint; if(q.hint) $("hint").textContent=L(q.hint);
@@ -470,7 +472,7 @@ button{font-family:inherit}
     Object.keys(st.perms||{}).forEach(function(k){ perms[QUESTIONS[k].id]=st.perms[k]; });
     Object.keys(st.testNo||{}).forEach(function(k){ tno[QUESTIONS[k].id]=st.testNo[k]; });
     store("run",{v:1, m:st.mode.m, a:(st.mode.m==="review"?null:st.mode.a), ids:idsOf(st.order), pos:st.pos, score:st.score, done:st.done,
-      missed:idsOf(st.missed), perms:perms, testNo:tno, answered:st.answered, picked:st.picked, typed:st.typed, right:st.right,
+      missed:idsOf(st.missed), perms:perms, testNo:tno, testNos:st.testNos||null, answered:st.answered, picked:st.picked, typed:st.typed, right:st.right,
       finished:!!st.finished, view:st.view, at:Date.now()});
   }
   function restoreRun(){
@@ -478,13 +480,15 @@ button{font-family:inherit}
     var order=[]; r.ids.forEach(function(id){ if(id in byId) order.push(byId[id]); });
     if(!order.length) return null;
     var curId=r.ids[r.pos], pos;
-    if(curId!=null && (curId in byId)) pos=order.indexOf(byId[curId]);
+    if(order.length===r.ids.length) pos=Math.min(r.pos, order.length);   // nothing left the bank: same position (a repeated question must not jump back to its first copy)
+    else if(curId!=null && (curId in byId)) pos=order.indexOf(byId[curId]);
     else { pos=0; for(var i=0;i<Math.min(r.pos,r.ids.length);i++) if(r.ids[i] in byId) pos++; }   // current question left the bank (merged): continue with the next one
     if(pos<0) pos=Math.min(r.pos, order.length);
     st.mode={m:r.m, a:r.a}; st.order=order; st.pos=pos; st.score=r.score||0; st.done=r.done||0; st.finished=!!r.finished;
     st.missed=(r.missed||[]).filter(function(id){ return id in byId; }).map(function(id){ return byId[id]; });
     st.perms={}; Object.keys(r.perms||{}).forEach(function(id){ if((id in byId) && QUESTIONS[byId[id]].opts && r.perms[id].length===QUESTIONS[byId[id]].opts.length) st.perms[byId[id]]=r.perms[id]; });
     st.testNo={}; Object.keys(r.testNo||{}).forEach(function(id){ if(id in byId) st.testNo[byId[id]]=r.testNo[id]; });
+    st.testNos=(r.m==="test") ? ((Array.isArray(r.testNos) && r.testNos.length===order.length) ? r.testNos : order.map(function(k){ return st.testNo[k]; })) : null;
     resetQ();
     if(pos<order.length && curId===QUESTIONS[order[pos]].id && r.answered){ st.answered=true; st.picked=r.picked||[]; st.typed=r.typed||""; st.right=!!r.right; }
     return r;

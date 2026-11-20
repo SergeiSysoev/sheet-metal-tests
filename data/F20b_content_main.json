@@ -1,0 +1,436 @@
+[
+ {
+  "src": "F20",
+  "n": 91,
+  "topic": "tools",
+  "ru_q": "Shear может резать металл толще своей номинальной capacity, если лист короче длины shear.",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "False. A shear's rating is first of all a thickness limit: the heaviest gauge of mild steel it can cut over its full blade length. The upper blade is raked (set at a slight angle), so it cuts progressively, a short stretch at a time, like scissors; the force at each moment depends on the thickness and strength of the metal, not on how long the sheet is. A shorter piece only means a shorter cut with the same force, so metal heavier than the rating overloads the blades and the frame at any length: it chips the knives, opens up the blade clearance, and can jam or break the machine. Length is a separate limit: a piece longer than the blade cannot be cut in one stroke. Nothing about length makes the statement true for a shear. On the job read the capacity plate; stainless is rated several gauges lighter than mild steel.\n\nHow to use this: capacity is the heaviest gauge of mild steel the machine handles; a shorter piece never raises it, and staying under the length limit does not excuse going over the thickness limit. Compare gauges by thickness (lower number = thicker): anything heavier than the rating is a No, whatever its length.",
+  "why_ru": "False. Номинал shear — это прежде всего предел по толщине: самый толстый gauge mild steel, который она режет на всю длину ножа. Верхний нож стоит с небольшим наклоном (rake), поэтому режет постепенно, короткими участками, как ножницы; усилие в каждый момент зависит от толщины и прочности металла, а не от длины листа. Короткий кусок означает только более короткий рез с тем же усилием, поэтому металл толще номинала перегружает ножи и станину при любой длине: выкрашивает ножи, увеличивает зазор между ними, может заклинить или сломать станок. Длина — отдельный предел: лист длиннее ножа за один ход не отрезать. Для shear утверждение не становится верным ни при какой длине. На работе смотри табличку capacity; для stainless предел на несколько номеров gauge меньше, чем для mild steel.\n\nКак применять: capacity — самый толстый gauge mild steel для этого станка; короткий кусок её не поднимает, и запас по длине не оправдывает превышение по толщине. Gauge сравнивай по толщине (меньше номер — толще): всё, что толще номинала, — «нет» при любой длине.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 92,
+  "topic": "safety",
+  "ru_q": "OSHA требует ограждать или закрывать любое отверстие размером ____ или больше в диаметре.",
+  "ru_hint": null,
+  "ru_opts": [
+   "2 дюйма",
+   "1 дюйм",
+   "2 фута",
+   "3 дюйма"
+  ],
+  "why_en": "2 inches. OSHA defines a hole as a gap or void 2 inches or more in its least dimension in a floor, roof or other walking/working surface (1926.500(b)), and every hole must be protected: by covers so nobody trips or steps into it and nothing falls through onto people below, and, where the drop is more than 6 ft, by covers, guardrails or personal fall arrest so nobody falls through (1926.501(b)(4)). Washington uses the same 2-inch definition (WAC 296-880-095) but is stricter about falling through: fall protection is required from 4 ft (WAC 296-880-20005). A cover must hold at least twice the weight that may be put on it, be secured so it cannot shift, and be color-coded or marked HOLE or COVER (1926.502(i)). 1 inch is below the threshold: a gap that small is not a hole under the rule. 3 inches and 2 feet are both holes that must be covered, but neither is where the requirement starts — a 3-inch pipe penetration or a 2-ft roof opening is already well past 2 inches. The question says \"in diameter\"; the rule measures the least dimension, so a slot 2 inches wide is a hole however long it is.\n\nHow to use this: hole = 2 in or more (least dimension) in a floor or roof; cover it at once — strong (twice the load), secured, marked HOLE or COVER. When a question gives a size, compare it with 2 inches. On our jobs: cut an opening for a duct riser or a roof curb — cover it right away.",
+  "why_ru": "2 дюйма. По OSHA hole — это проём или пустота размером 2 дюйма и больше по наименьшей стороне в полу, кровле или другой рабочей поверхности (1926.500(b)), и любое такое отверстие должно быть защищено: крышкой, чтобы никто не споткнулся и не наступил в него и чтобы ничего не упало сквозь него на людей внизу, а если перепад больше 6 ft — ещё и крышкой, guardrail или personal fall arrest, чтобы никто не провалился (1926.501(b)(4)). В Washington определение то же — 2 дюйма (WAC 296-880-095), но правило о падении строже: fall protection нужна с 4 ft (WAC 296-880-20005). Крышка должна выдерживать не меньше двойного веса того, что на неё могут поставить, быть закреплена, чтобы не сдвинулась, и иметь цветную маркировку или надпись HOLE или COVER (1926.502(i)). 1 дюйм — меньше порога: такая щель по правилу не hole. 3 дюйма и 2 фута — это отверстия, которые тоже надо закрывать, но требование начинается не с них: проход трубы 3 дюйма или проём 2 фута в кровле уже далеко за порогом 2 дюйма. В вопросе написано «в диаметре», а правило меряет наименьшую сторону: щель шириной 2 дюйма — это hole при любой длине.\n\nКак применять: hole — от 2 in по наименьшей стороне в полу или кровле; закрывать сразу — крышка прочная (2 × нагрузка), закреплённая, с надписью HOLE или COVER. Если в вопросе назван размер, сравни его с 2 дюймами. На наших объектах: прорезал проём под стояк duct или roof curb — сразу закрой.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 93,
+  "topic": "safety",
+  "ru_q": "Что из перечисленного НЕ входит в personal fall arrest system?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Body harness (привязь на всё тело)",
+   "Body belt (поясной ремень)",
+   "Connectors (карабины и соединители)",
+   "Lines (стропы и тросы)",
+   "Anchors (точки крепления)"
+  ],
+  "why_en": "Body belt. OSHA defines a personal fall arrest system as an anchorage, connectors and a body harness, which may include a lanyard, a deceleration device or a lifeline; since January 1, 1998 a body belt may not be used for fall arrest (1926.500(b), 1926.502(d)). A belt puts the whole stopping force on the waist: it can injure the spine and internal organs, the worker can slip out of it, and hanging in a belt quickly makes breathing impossible. Washington requires a full body harness for both fall arrest and fall restraint (WAC 296-880-40020, 296-880-40025). The other options are the real parts, often remembered as ABC: Anchors — the tie-off point, which must hold 5,000 lb per person (1926.502(d)(15)); Body harness — straps around the thighs, pelvis, chest and shoulders with the D-ring between the shoulder blades, which spreads the force over the body; Connectors — snap hooks, carabiners and D-rings; Lines — lanyards, self-retracting lifelines and vertical or horizontal lifelines. Under OSHA a body belt is still allowed only in a positioning device system (1926.502(e)), which holds you in place so both hands are free — never to stop a fall.\n\nHow to use this: fall arrest = Anchorage + Body harness + Connectors, plus a lanyard, lifeline or deceleration device. A belt is never fall arrest. When a list asks what is NOT part of the system, look for the body belt or anything that is not an anchor, harness, connector or line.",
+  "why_ru": "Body belt. По OSHA personal fall arrest system — это anchorage (точка крепления), connectors и body harness, плюс может быть lanyard, deceleration device (амортизатор) или lifeline; с 1 января 1998 года body belt для остановки падения использовать нельзя (1926.500(b), 1926.502(d)). Пояс принимает весь рывок на талию: может повредить позвоночник и внутренние органы, из него можно выскользнуть, а вися в поясе, человек быстро перестаёт дышать. В Washington full body harness обязательна и для fall arrest, и для fall restraint (WAC 296-880-40020, 296-880-40025). Остальные варианты — настоящие части системы, их запоминают как ABC: Anchors — точка крепления, должна держать 5,000 lb на человека (1926.502(d)(15)); Body harness — лямки на бёдрах, тазе, груди и плечах с D-ring между лопатками, распределяет рывок по телу; Connectors — карабины, snap hooks, D-rings; Lines — lanyards, self-retracting lifelines, вертикальные и горизонтальные lifelines. По OSHA body belt разрешён только в positioning device system (1926.502(e)), которая держит тебя на месте, чтобы работать двумя руками, — но не для остановки падения.\n\nКак применять: fall arrest = Anchorage + Body harness + Connectors, плюс lanyard, lifeline или deceleration device. Пояс — никогда не fall arrest. Если спрашивают, что НЕ входит в систему, ищи body belt или то, что не anchor, не harness, не connector и не line.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 94,
+  "topic": "safety",
+  "ru_q": "Guardrail system должна выдерживать ______ нагрузки?",
+  "ru_hint": null,
+  "ru_opts": [
+   "100 фунтов",
+   "200 фунтов",
+   "300 фунтов",
+   "500 фунтов"
+  ],
+  "why_en": "200 pounds. OSHA 1926.502(b)(3): a guardrail system must withstand at least 200 lb applied within 2 in of the top edge, in any outward or downward direction, at any point along the top; under that load the top edge must not sag below 39 in (1926.502(b)(4)). Washington's WAC 296-880-40005 uses the same 200 lb test, with the top rail 39–45 in high (OSHA: 42 in ± 3 in, the same range), so the number does not change here. 100 pounds is only half the required load and is not a value in the guardrail rule; the lighter number in that rule is 150 lb, for midrails, screens and mesh (1926.502(b)(5)). 300 pounds and 500 pounds are more than the rule requires and are not guardrail values either; the big number in fall protection is 5,000 lb, for a personal fall arrest anchorage (1926.502(d)(15)). Temporary rails of 2×4s or wire rope must pass the same 200 lb test; a rail that only looks like a guardrail does not count.\n\nHow to use this: guardrail = top rail 42 in ± 3 in and 200 lb; midrail halfway and 150 lb; toeboard 50 lb; harness anchorage 5,000 lb. Read which part the question names — top edge or midrail — before choosing.",
+  "why_ru": "200 фунтов. OSHA 1926.502(b)(3): guardrail system должна выдерживать не меньше 200 lb, приложенных в пределах 2 in от верхней кромки, наружу или вниз, в любой точке по длине; под этой нагрузкой верх не должен опуститься ниже 39 in (1926.502(b)(4)). В Washington WAC 296-880-40005 — та же проверка 200 lb, высота верхнего поручня 39–45 in (у OSHA 42 in ± 3 in — тот же диапазон), так что цифра здесь не меняется. 100 фунтов — только половина нужной нагрузки, в правиле о guardrail такой цифры нет; меньшая цифра там — 150 lb, для midrail, сеток и экранов (1926.502(b)(5)). 300 и 500 фунтов — больше, чем требует правило, и тоже не цифры для guardrail; большая цифра в fall protection — 5,000 lb, для anchorage personal fall arrest (1926.502(d)(15)). Временный поручень из досок 2×4 или троса должен выдержать те же 200 lb; поручень, который только похож на guardrail, не считается.\n\nКак применять: guardrail — верхний поручень 42 in ± 3 in и 200 lb; midrail посередине и 150 lb; toeboard 50 lb; anchorage для привязи 5,000 lb. Сначала прочитай, про какую часть спрашивают — верхнюю кромку или midrail, — потом выбирай.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 95,
+  "topic": "safety",
+  "ru_q": "Стекло, резина, пластик и сухое дерево — всё это примеры:",
+  "ru_hint": null,
+  "ru_opts": [
+   "conductors",
+   "resisters",
+   "insulators",
+   "ground paths"
+  ],
+  "why_en": "Insulators. An insulator is a material whose electrons are tightly bound, so its resistance is very high and it lets almost no current through; glass, rubber, plastic and dry wood are the classic examples. That is why cords are covered in rubber or plastic, double-insulated tools have plastic housings, ladders for work near power are fiberglass, and electrical gloves are rubber. Conductors are the opposite: metals such as copper, aluminum and steel — and also water with minerals in it and the human body — let current flow easily, so a metal ladder or a run of duct can carry current. \"Resisters\" (the usual spelling is resistors) are parts or materials that do conduct but limit the current, like the nichrome wire in a heater — poor conductors, not insulators. A ground path is a route by which current returns to earth: the green grounding conductor in a cord, a grounded duct run, or a person touching a live tool and a grounded surface at the same time; insulators are what keep you from becoming one. The word \"dry\" matters: wet wood, wet gloves and dirty plastic can conduct, so an insulator protects only while it is clean, dry and undamaged.\n\nHow to use this: metals and water conduct; glass, rubber, plastic, dry wood and fiberglass insulate. On the job: inspect cord insulation before every use, use fiberglass ladders near power, and treat anything wet as a conductor.",
+  "why_ru": "Insulators. Insulator — материал, в котором электроны крепко связаны, поэтому сопротивление очень большое и ток почти не идёт; стекло, резина, пластик и сухое дерево — классические примеры. Поэтому кабели в резиновой или пластиковой оболочке, у инструмента с двойной изоляцией пластиковый корпус, лестницы для работы рядом с напряжением — из стеклопластика (fiberglass), а электрические перчатки — резиновые. Conductors — наоборот: металлы (медь, алюминий, сталь), а ещё вода с солями и тело человека легко проводят ток, поэтому металлическая лестница или линия duct может оказаться под током. «Resisters» (правильно пишется resistors) — детали или материалы, которые ток проводят, но ограничивают его, как нихромовая спираль нагревателя, — плохие проводники, но не изоляторы. Ground path — путь, по которому ток уходит в землю: зелёный заземляющий провод в кабеле, заземлённая линия duct или человек, который держит инструмент под током и касается заземлённой поверхности; insulators как раз не дают тебе самому стать таким путём. Слово «сухое» важно: мокрое дерево, мокрые перчатки и грязный пластик проводят ток, так что изолятор защищает, только пока он чистый, сухой и целый.\n\nКак применять: металлы и вода проводят ток; стекло, резина, пластик, сухое дерево и fiberglass — изоляторы. На работе: перед каждым использованием смотри изоляцию кабеля, рядом с напряжением бери fiberglass-лестницу, всё мокрое считай проводником.",
+  "flag": "Typo in the original: \"resisters\" (= resistors); kept verbatim."
+ },
+ {
+  "src": "F20",
+  "n": 96,
+  "topic": "offsets",
+  "ru_q": "Какая длина заготовки (shear length) у wrapper для ogee длиной 25\" от drive до drive, с offset 8\" и шириной cheek 14\"?",
+  "ru_hint": null,
+  "ru_opts": null,
+  "why_en": "27-3/4\". An ogee given only by its drive-to-drive length and its offset is an S curve: two equal arcs bending opposite ways, with no straight piece between them. The wrapper blank is the length of that curve plus the connection allowances. The curve runs between the bend lines, which sit 1/2\" inside each drive line, so L = 25 − 1 = 24\", with offset O = 8\". Centerline radius: R = (O² + L²) ÷ (4 × O) = (64 + 576) ÷ 32 = 20\". Angle of each arc: cos φ = (L² − O²) ÷ (L² + O²) = 512 ÷ 640 = 0.8, so φ = 36.8699° = 0.643501 rad. Length of the S along the centerline = 2 × R × φ = 2 × 20 × 0.643501 = 25.7400\". Add 1\" on each end for the S&D connections: 25.7400 + 2 = 27.7400\" → 27-3/4\". The 14\" cheek width does not change the total: each wrapper has one arc at R + W/2 = 27\" and one at R − W/2 = 13\" on the same angle, so (27 + 13) × 0.643501 = 25.7400\", the same as the centerline. Typical wrong results: 25-3/4\" is the bare curve with no allowances, 26-3/4\" adds only 1/2\" per end, and 26-11/16\" (26.6732) is the curve worked over the full 25\" with nothing added.\n\nHow to use this: S-ogee wrapper = 2 × R × φ + end allowances, with L measured between the bend lines (drive-to-drive − 1\" for S&D), R = (O² + L²) ÷ 4O and cos φ = (L² − O²) ÷ (L² + O²), φ in radians (degrees × π ÷ 180). The cheek width moves the two arcs of a wrapper out and in by the same amount, so it never changes the wrapper length.",
+  "why_ru": "27-3/4\". Ogee, у которого даны только длина от drive до drive и offset, — это S-кривая: две равные дуги в разные стороны без прямого куска между ними. Заготовка wrapper — это длина кривой плюс припуски на соединения. Кривая идёт между линиями изгиба, которые стоят на 1/2\" внутрь от каждой линии drive, поэтому L = 25 − 1 = 24\", offset O = 8\". Радиус по осевой: R = (O² + L²) ÷ (4 × O) = (64 + 576) ÷ 32 = 20\". Угол каждой дуги: cos φ = (L² − O²) ÷ (L² + O²) = 512 ÷ 640 = 0.8, значит φ = 36.8699° = 0.643501 радиана. Длина S по осевой = 2 × R × φ = 2 × 20 × 0.643501 = 25.7400\". Плюс 1\" на каждый конец под соединения S&D: 25.7400 + 2 = 27.7400\" → 27-3/4\". Ширина cheek 14\" сумму не меняет: у каждого wrapper одна дуга радиусом R + W/2 = 27\" и одна радиусом R − W/2 = 13\" на тот же угол, поэтому (27 + 13) × 0.643501 = 25.7400\" — столько же, сколько по осевой. Типичные неверные ответы: 25-3/4\" — голая кривая без припусков, 26-3/4\" — только по 1/2\" на конец, 26-11/16\" (26.6732) — кривая, посчитанная на все 25\" и без припусков.\n\nКак применять: wrapper S-ogee = 2 × R × φ + припуски на концы, где L — между линиями изгиба (drive-to-drive − 1\" для S&D), R = (O² + L²) ÷ 4O, cos φ = (L² − O²) ÷ (L² + O²), φ в радианах (градусы × π ÷ 180). Ширина cheek сдвигает две дуги wrapper наружу и внутрь на одну и ту же величину, поэтому длину wrapper она не меняет.",
+  "flag": "Voided on the test (options 25-3/16 / 25-3/4 / 26-3/4 / 26-5/8, none correct). Kept as a typed answer per the lead; method = course S-ogee (L = DtoD − 1, + 2\" ends), not proven by a course sheet (KB 08 open question 7)."
+ },
+ {
+  "src": "F20",
+  "n": 98,
+  "topic": "math",
+  "ru_q": "Сколько кубических дюймов в 4.5 кубических футах?",
+  "ru_hint": null,
+  "ru_opts": [
+   "1728 cu. in.",
+   "7776 cu. in.",
+   "648 cu. in.",
+   "108 cu. in."
+  ],
+  "why_en": "7776 cu. in. 1 ft = 12 in, and a cubic foot is a cube 12\" on each edge: 12 × 12 × 12 = 1728 cu. in. 4.5 × 1728 = 7776 cu. in. 1728 cu. in. is one cubic foot — the factor itself, not multiplied by 4.5. 648 cu. in. = 4.5 × 144 uses the square factor (square inches per square foot), which converts area, not volume. 108 cu. in. is far too small for any conversion of 4.5 cubic feet: it is only one-sixteenth of a single cubic foot (1728 ÷ 16 = 108).\n\nHow to use this: the length factor for length, squared for area, cubed for volume: inches ↔ feet 12, 144, 1728; feet ↔ yards 3, 9, 27. Going to the smaller unit — multiply. In the trade: cu. in. ÷ 231 = US gallons (7776 cu. in. ≈ 33.7 gal), cu. in. ÷ 1728 = cu. ft.",
+  "why_ru": "7776 cu. in. 1 ft = 12 in, а кубический фут — куб с ребром 12\": 12 × 12 × 12 = 1728 cu. in. 4.5 × 1728 = 7776 cu. in. 1728 cu. in. — это один кубический фут, сам множитель, его не умножили на 4.5. 648 cu. in. = 4.5 × 144 — квадратный множитель (квадратных дюймов в квадратном футе), он пересчитывает площадь, а не объём. 108 cu. in. слишком мало для любого пересчёта 4.5 кубических футов: это всего одна шестнадцатая одного кубического фута (1728 ÷ 16 = 108).\n\nКак применять: для длины множитель как есть, для площади — в квадрате, для объёма — в кубе: дюймы ↔ футы 12, 144, 1728; футы ↔ ярды 3, 9, 27. К меньшей единице — умножать. На работе: cu. in. ÷ 231 = американские галлоны (7776 cu. in. ≈ 33.7 gal), cu. in. ÷ 1728 = cu. ft.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 100,
+  "topic": "offsets",
+  "ru_q": "Найдите расстояние offset «D».",
+  "ru_hint": null,
+  "ru_opts": [
+   "55-1/4\"",
+   "66\"",
+   "56-15/16\"",
+   "48-5/8\""
+  ],
+  "why_en": "56-15/16\". 1) Offset: the two bottoms are at B = 12'-3\" = 147\" and B = 9'-8-1/2\" = 116.5\", so O = 147 − 116.5 = 30.5\". 2) Centerline radius: the 1'-6\" (18\") radius is marked on the throat, the inside of each bend; in this view the duct shows its 16\" side (the first number of 16\"x20\" is the side you see), so CL R = 18 + 16 ÷ 2 = 26\". 3) D runs from the start of the first elbow to the end of the second. Each 38° elbow runs CL R × sin 38° = 26 × 0.615661 = 16.0072\" and rises CL R × (1 − cos 38°) = 26 × 0.211989 = 5.5117\". The straight piece makes up the rest of the rise, 30.5 − 2 × 5.5117 = 19.4766\", and its run is 19.4766 ÷ tan 38° = 24.9289\". D = 2 × 16.0072 + 24.9289 = 56.9433\" → 56-15/16\". The same in one line: D = O ÷ tan θ + 2 × CL R × tan(θ/2) = 39.03822 + 17.90504 = 56.94326\". The ceiling height 9'-0\" is not needed. Using the 18\" throat radius as if it were the centerline gives 51-7/16\" (51.4340), and taking the 20\" side as the one shown (CL R 28\") gives 58-5/16\" (58.3206) — neither is offered. 55-1/4\", 66\" and 48-5/8\" do not come from this drawing: they would need a centerline radius of 23.5\", 39.2\" and 13.9\". 48-5/8\" would need a radius smaller than the 18\" throat itself, and 66\" one larger than the 34\" heel.\n\nHow to use this: offset with two equal elbows — O = difference of the elevations (bottom to bottom or centerline to centerline); CL R = throat radius + half the side shown in that view; run D = O ÷ tan θ + 2 × CL R × tan(θ/2); the straight piece between the elbows = O ÷ sin θ − 2 × CL R × tan(θ/2).",
+  "why_ru": "56-15/16\". 1) Offset: низ одного duct на отметке B = 12'-3\" = 147\", другого — B = 9'-8-1/2\" = 116.5\", значит O = 147 − 116.5 = 30.5\". 2) Радиус по осевой: радиус 1'-6\" (18\") указан по throat — внутренней стороне каждого поворота; на этом виде duct показан стороной 16\" (первое число в 16\"x20\" — сторона, которую видишь), поэтому CL R = 18 + 16 ÷ 2 = 26\". 3) D — от начала первого elbow до конца второго. Каждый elbow 38° даёт по горизонтали CL R × sin 38° = 26 × 0.615661 = 16.0072\" и подъём CL R × (1 − cos 38°) = 26 × 0.211989 = 5.5117\". Остаток подъёма берёт прямой кусок: 30.5 − 2 × 5.5117 = 19.4766\", его горизонталь 19.4766 ÷ tan 38° = 24.9289\". D = 2 × 16.0072 + 24.9289 = 56.9433\" → 56-15/16\". То же одной формулой: D = O ÷ tan θ + 2 × CL R × tan(θ/2) = 39.03822 + 17.90504 = 56.94326\". Высота потолка 9'-0\" не нужна. Если взять throat 18\" как радиус по осевой, выйдет 51-7/16\" (51.4340), а если считать видимой сторону 20\" (CL R 28\"), — 58-5/16\" (58.3206); ни того ни другого в вариантах нет. 55-1/4\", 66\" и 48-5/8\" из этого чертежа не получаются: для них нужен радиус по осевой 23.5\", 39.2\" и 13.9\". Для 48-5/8\" радиус должен быть меньше самого throat 18\", а для 66\" — больше heel 34\".\n\nКак применять: offset из двух одинаковых elbows — O = разница отметок (низ к низу или ось к оси); CL R = радиус throat + половина стороны, видимой на этом виде; горизонталь D = O ÷ tan θ + 2 × CL R × tan(θ/2); прямой кусок между elbows = O ÷ sin θ − 2 × CL R × tan(θ/2).",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 101,
+  "topic": "offsets",
+  "ru_q": "Найдите длину trim joint «L».",
+  "ru_hint": null,
+  "ru_opts": [
+   "27-3/8\"",
+   "26-11/16\"",
+   "25-9/16\"",
+   "24-1/2\""
+  ],
+  "why_en": "26-11/16\". 1) Offset: both dimensions run from grid line 3 to the duct centerlines, so O = 7'-9-1/2\" − 5'-7\" = 93.5 − 67 = 26.5\". The 16' between grid lines 3 and 4 is not needed. 2) This is a plan view, so the duct shows its 12\" side (the first number of 12\"x10\"), and the 14\" radius is on the throat, the inside of each bend: CL R = 14 + 12 ÷ 2 = 20\". 3) Each 40° elbow moves the centerline sideways CL R × (1 − cos 40°) = 20 × 0.233956 = 4.6791\", so the straight trim joint must cover 26.5 − 2 × 4.6791 = 17.1418\" of offset; along its own slope that is 17.1418 ÷ sin 40° = 26.6679\" → 26-11/16\". Check by the other method: travel O ÷ sin 40° = 41.2267\", minus the two tangent lengths 2 × CL R × tan 20° = 14.5588\": 41.2267 − 14.5588 = 26.6679\". 27-3/8\" is the trap of reading the 10\" side: CL R = 14 + 5 = 19\" gives 27.3958\" → 27-3/8\". 25-9/16\" and 24-1/2\" do not fit the drawing: they would need a centerline radius of 21.5\" and 23.0\", larger than the 20\" it has.\n\nHow to use this: trim joint between two equal elbows = O ÷ sin θ − 2 × CL R × tan(θ/2), with O measured between centerlines and CL R = throat radius + half the side shown in the view. In plan you see the first number of the duct size.",
+  "why_ru": "26-11/16\". 1) Offset: оба размера идут от оси 3 до осевых линий duct, значит O = 7'-9-1/2\" − 5'-7\" = 93.5 − 67 = 26.5\". Размер 16' между осями 3 и 4 не нужен. 2) Это plan, поэтому duct виден стороной 12\" (первое число в 12\"x10\"), а радиус 14\" указан по throat — внутренней стороне поворота: CL R = 14 + 12 ÷ 2 = 20\". 3) Каждый elbow 40° сдвигает осевую вбок на CL R × (1 − cos 40°) = 20 × 0.233956 = 4.6791\", значит прямой trim joint должен закрыть 26.5 − 2 × 4.6791 = 17.1418\" offset; вдоль его наклона это 17.1418 ÷ sin 40° = 26.6679\" → 26-11/16\". Проверка другим способом: travel O ÷ sin 40° = 41.2267\", минус две касательные 2 × CL R × tan 20° = 14.5588\": 41.2267 − 14.5588 = 26.6679\". 27-3/8\" — ловушка: взята сторона 10\", CL R = 14 + 5 = 19\" даёт 27.3958\" → 27-3/8\". 25-9/16\" и 24-1/2\" к чертежу не подходят: для них нужен радиус по осевой 21.5\" и 23.0\" — больше, чем 20\" на чертеже.\n\nКак применять: trim joint между двумя одинаковыми elbows = O ÷ sin θ − 2 × CL R × tan(θ/2), где O — между осевыми, CL R = радиус throat + половина стороны, видимой на виде. На plan видна сторона, записанная первой в размере duct.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 103,
+  "topic": "math",
+  "ru_q": "Если площадь сечения квадратного duct 128 sq. in., а одна сторона 16, чему равна другая сторона?",
+  "ru_hint": null,
+  "ru_opts": [
+   "8\"",
+   "16\"",
+   "9'",
+   "10\""
+  ],
+  "why_en": "8\". Area of a rectangle = side × side, so the other side = area ÷ known side = 128 ÷ 16 = 8\". Check: 16 × 8 = 128 sq. in. The question says \"square duct\", but a duct with a 16\" side and 128 sq. in. cannot be square — a 16\" square duct has 16 × 16 = 256 sq. in. — so read it as a rectangular duct. 16\" is the trap of taking \"square\" literally: it gives 256 sq. in., twice the area given. 9' has the wrong unit (feet), and even 9\" would be wrong: 16 × 9 = 144 sq. in. 10\" gives 16 × 10 = 160 sq. in.\n\nHow to use this: missing side = area ÷ known side; check by multiplying back. Keep the units: sq. in. ÷ in. = in. In the trade the same step sizes a duct for a required area — a 12\" wide duct that needs 144 sq. in. must be 144 ÷ 12 = 12\" deep.",
+  "why_ru": "8\". Площадь прямоугольника = сторона × сторона, значит другая сторона = площадь ÷ известная сторона = 128 ÷ 16 = 8\". Проверка: 16 × 8 = 128 sq. in. В вопросе написано «квадратный duct», но duct со стороной 16\" и площадью 128 sq. in. квадратным быть не может — у квадратного duct 16\" площадь 16 × 16 = 256 sq. in., — так что читай как прямоугольный. 16\" — ловушка, если понять «квадратный» буквально: получится 256 sq. in., вдвое больше заданной площади. 9' — не та единица (футы), да и 9\" было бы неверно: 16 × 9 = 144 sq. in. 10\" даёт 16 × 10 = 160 sq. in.\n\nКак применять: неизвестная сторона = площадь ÷ известная сторона; проверяй умножением. Следи за единицами: sq. in. ÷ in. = in. На работе так же подбирают duct под нужную площадь: duct шириной 12\", которому нужно 144 sq. in., должен быть глубиной 144 ÷ 12 = 12\".",
+  "flag": "Original says \"square duct\" although 16 x 8 is rectangular; kept verbatim, explained on screen."
+ },
+ {
+  "src": "F20",
+  "n": 104,
+  "topic": "math",
+  "ru_q": "У трубы какого диаметра площадь сечения 314.1593 sq. in.?",
+  "ru_hint": null,
+  "ru_opts": [
+   "16\"",
+   "10\"",
+   "12\"",
+   "20\""
+  ],
+  "why_en": "20\". Area of a circle A = π × r², so r = √(A ÷ π) = √(314.1593 ÷ 3.14159265) = √100.0000 = 10.0000\", and the diameter is twice the radius: 20\". Directly with the diameter: A = π × D² ÷ 4, so D = √(4 × 314.1593 ÷ π) = 20.0000\". 10\" is the trap — that is the radius, not the diameter; a 10\" pipe has only 78.54 sq. in. A 16\" pipe has 201.06 sq. in. and a 12\" pipe 113.10 sq. in., both far less. The number itself is a hint: 314.1593 is π × 100, so r² = 100.\n\nHow to use this: area → diameter: D = √(4 × A ÷ π), or r = √(A ÷ π) and then double it. Always check whether the question asks for the radius or the diameter. Quick estimate: area ≈ 0.7854 × D².",
+  "why_ru": "20\". Площадь круга A = π × r², значит r = √(A ÷ π) = √(314.1593 ÷ 3.14159265) = √100.0000 = 10.0000\", а диаметр вдвое больше радиуса: 20\". Сразу через диаметр: A = π × D² ÷ 4, значит D = √(4 × 314.1593 ÷ π) = 20.0000\". 10\" — ловушка: это радиус, а не диаметр; у трубы 10\" площадь всего 78.54 sq. in. У трубы 16\" — 201.06 sq. in., у 12\" — 113.10 sq. in., обе намного меньше. Само число подсказывает: 314.1593 — это π × 100, то есть r² = 100.\n\nКак применять: площадь → диаметр: D = √(4 × A ÷ π) или r = √(A ÷ π), потом удвоить. Всегда смотри, что спрашивают — радиус или диаметр. Быстрая оценка: площадь ≈ 0.7854 × D².",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 105,
+  "topic": "offsets",
+  "ru_q": "По формуле OWL выберите правильно надрезанную половину duct 16\"x12\" для offset 6\" по стороне 16\".",
+  "ru_hint": null,
+  "ru_opts": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "why_en": "C. The OWL formula gives the cut for a field offset made from a straight section: cut = Offset × Width ÷ Length, taken off each end of the side on which the offset shows. Here O = 6\", W = 16\" (the offset is on the 16\" side) and L = 60\": 6 × 16 ÷ 60 = 1.6\" → 1-5/8\" to the nearest 1/8\". On the 16\" side mark 1-5/8\" at both ends and cut from the corner at the fold line — at one end toward one edge, at the other end toward the opposite edge — so the 16\" side becomes a parallelogram with parallel ends, while the 12\" side stays square. Drawing C is exactly that. Drawing D slants the 16\" side the right way but only by 1-1/4\": that is 6 × 12 ÷ 60 = 1.2\", the 12\" width used by mistake. Drawing B slants the 12\" side by 1-1/4\": wrong side and wrong width, so the duct would shift on its 12\" side. Drawing A cuts both sides toward the fold line by 1-5/8\" in a V at each end; symmetric cuts do not shift the duct sideways, so it is not an OWL offset at all. OWL is an approximation: with a 1-5/8\" cut the real offset comes out 5.90\", slightly under 6\".\n\nHow to use this: OWL — cut = O × W ÷ L on the side where the offset shows (W = the width of that side), at both ends, toward opposite edges, so that side becomes a parallelogram and the other side stays square. Decide W by reading which side the offset is on.",
+  "why_ru": "C. Формула OWL даёт срез для field offset из прямой секции: cut = Offset × Width ÷ Length, с каждого конца той стороны, на которой виден сдвиг. Здесь O = 6\", W = 16\" (offset по стороне 16\") и L = 60\": 6 × 16 ÷ 60 = 1.6\" → 1-5/8\" с округлением до 1/8\". На стороне 16\" отмечают 1-5/8\" на обоих концах и режут от угла у линии сгиба — на одном конце к одной кромке, на другом к противоположной, — сторона 16\" становится параллелограммом с параллельными торцами, а сторона 12\" остаётся прямоугольной. Ровно так нарисован рисунок C. На рисунке D сторона 16\" срезана в нужную сторону, но на 1-1/4\": это 6 × 12 ÷ 60 = 1.2\" — по ошибке взята ширина 12\". На рисунке B срезана сторона 12\" на 1-1/4\": не та сторона и не та ширина, duct сдвинется по стороне 12\". На рисунке A обе стороны срезаны к линии сгиба на 1-5/8\" клином на каждом конце; симметричные срезы не сдвигают duct вбок, так что это вообще не OWL offset. OWL — приближение: при срезе 1-5/8\" реальный offset получается 5.90\", чуть меньше 6\".\n\nКак применять: OWL — cut = O × W ÷ L на той стороне, где виден сдвиг (W — ширина этой стороны), на обоих концах, к противоположным кромкам: сторона становится параллелограммом, другая остаётся прямоугольной. W выбирай по тому, на какой стороне offset.",
+  "flag": "Original has no space in '6\"on'; kept verbatim."
+ },
+ {
+  "src": "F20",
+  "n": 106,
+  "topic": "drawing",
+  "ru_q": "Линия, которая стоит под прямым углом к другой линии, perpendicular к ней.",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "True. Perpendicular means meeting at a right angle, 90°; the symbol is ⊥. So a line at a right angle to another is, by definition, perpendicular to it, and the relation works both ways: if one line is perpendicular to a second, the second is perpendicular to the first. A vertical line is perpendicular to a horizontal one, but two lines can be perpendicular in any orientation — the 90° corner of a rectangular duct, the square end of a straight joint, a takeoff at 90° to the main. The statement would be false only if it named another relation: parallel lines run side by side and never meet, oblique lines meet at an angle other than 90°. In layout a perpendicular is drawn with a square, checked with the 3-4-5 rule, or constructed with dividers: equal arcs from two points on the line, and a line through their crossings.\n\nHow to use this: right angle = 90° = perpendicular = square. Perpendicular, parallel and oblique describe how two lines stand to each other; vertical and horizontal describe direction.",
+  "why_ru": "True. Perpendicular — значит пересекающийся под прямым углом, 90°; знак ⊥. Поэтому линия под прямым углом к другой по определению perpendicular к ней, и это работает в обе стороны: если первая перпендикулярна второй, то и вторая перпендикулярна первой. Вертикальная линия перпендикулярна горизонтальной, но перпендикулярными могут быть линии в любом положении — угол 90° у прямоугольного duct, прямой торец прямой секции, врезка под 90° к main. Утверждение было бы неверным, только если бы в нём было другое отношение: параллельные линии идут рядом и не пересекаются, наклонные (oblique) пересекаются под углом, отличным от 90°. В разметке перпендикуляр проводят угольником, проверяют правилом 3-4-5 или строят циркулем: равные дуги из двух точек на линии и прямая через их пересечения.\n\nКак применять: прямой угол = 90° = perpendicular = «в угол» (square). Perpendicular, parallel и oblique — про то, как две линии стоят друг к другу; вертикальная и горизонтальная — про направление.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 107,
+  "topic": "materials",
+  "ru_q": "«Ductility» металлов означает их стойкость к износу.",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "False. Ductility is a metal's ability to stretch and deform permanently without breaking — to be drawn into wire or stretched in a deep draw; it is measured as the percent elongation in a tensile test. Copper, aluminum and mild steel are ductile; cast iron is not. Resistance to wear is wear (abrasion) resistance, which goes with hardness — the property of tool steel, hardened blades and abrasion-resistant plate; a very hard metal is usually less ductile, so the two are closer to opposites than to the same thing. Related terms: malleability is the ability to be hammered or rolled into sheet without cracking, toughness is the ability to absorb a blow without breaking, tensile strength is the pull a metal can take before it tears. The statement would be true if it said \"hardness\" or \"wear resistance\" instead of \"ductility\".\n\nHow to use this: ductile = stretches (wire), malleable = flattens (sheet), hard = resists scratching and wear, tough = resists impact, brittle = breaks without bending. In the shop the ductile and malleable metals are the ones you can seam, bend and stretch without cracking.",
+  "why_ru": "False. Ductility — способность металла растягиваться и необратимо деформироваться, не разрушаясь: вытягиваться в проволоку или в глубокую вытяжку; её меряют относительным удлинением (%) при испытании на разрыв. Медь, алюминий и mild steel — ductile; чугун — нет. Стойкость к износу — это wear (abrasion) resistance, она связана с твёрдостью (hardness): так ведут себя инструментальная сталь, закалённые ножи, износостойкий лист; очень твёрдый металл обычно менее ductile, так что эти свойства скорее противоположны, чем совпадают. Родственные понятия: malleability — способность расплющиваться молотком или прокаткой в лист без трещин, toughness — способность выдержать удар и не сломаться, tensile strength — усилие на разрыв. Утверждение было бы верным, если бы вместо «ductility» стояло «hardness» или «wear resistance».\n\nКак применять: ductile — тянется (проволока), malleable — плющится (лист), hard — сопротивляется царапинам и износу, tough — выдерживает удар, brittle — ломается без изгиба. В цеху ductile и malleable металлы — те, которые можно фальцевать, гнуть и тянуть без трещин.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 109,
+  "topic": "offsets",
+  "ru_q": "Ogee offsets ещё называют curved offsets.",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "False. An ogee (OG) offset takes its name from the ogee, an S-shaped curve: the duct turns off its line and then back by the same angle in the opposite direction, so it leaves parallel to where it came in, shifted sideways by the offset. It is built either as one S of two equal arcs or as two equal elbows with a straight piece between them. Its names are ogee offset and OG offset; \"curved offset\" is a description, not another name for it. An offset does not even have to be curved: it can be made with mitered or gored elbows, or from a straight section notched by the OWL formula — all of them offsets, none of them ogees. True is tempting because a radius ogee does look curved, but the statement claims a second name, and for the test that claim is false.\n\nHow to use this: OG = ogee = S-shaped offset of two equal, opposite turns, ending parallel to the start. \"Also called\" questions test names, not appearance: an answer is True only when the second name is really used for the same fitting.",
+  "why_ru": "False. Ogee (OG) offset назван по ogee — S-образной кривой: duct уходит со своей оси, а потом поворачивает обратно на тот же угол в другую сторону, так что выходит параллельно тому, как входил, сдвинутым вбок на величину offset. Его делают либо одной S из двух равных дуг, либо из двух одинаковых elbows с прямым куском между ними. Его названия — ogee offset и OG offset; «curved offset» — это описание, а не второе название. Offset вообще не обязан быть изогнутым: его делают и из mitered или gored elbows, и из прямой секции с надрезами по формуле OWL — всё это offsets, но не ogee. True соблазняет, потому что радиусный ogee действительно выглядит изогнутым, но утверждение говорит о втором названии, а для теста это неверно.\n\nКак применять: OG = ogee = S-образный offset из двух одинаковых поворотов в разные стороны, выход параллелен входу. Вопросы «also called» проверяют названия, а не внешний вид: True — только если второе название действительно используется для того же fitting.",
+  "flag": "Key = grader only (Serge True lost 1 point). No source defines \"curved offset\"; explanation argues from the names ogee / OG and does not cite a source."
+ },
+ {
+  "src": "F20",
+  "n": 110,
+  "topic": "materials",
+  "ru_q": "Меньший gauge — толще, больший gauge — тоньше.",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "True. Sheet gauge numbers run backwards: the higher the number, the thinner the sheet. Steel (Manufacturers' Standard Gauge): 10 ga = 0.1345\", 16 ga = 0.0598\", 20 ga = 0.0359\", 26 ga = 0.0179\". The numbering comes from wire drawing, where each extra pass through a smaller die made the wire thinner and added one to the count. The thickness roughly halves every 6 gauge numbers: 16 ga 0.0598\" ÷ 22 ga 0.0299\" = 2. The statement would be false only if it were turned around. Copper and lead work the other way: they are named by weight (ounces or pounds per square foot), so there a bigger number is thicker.\n\nHow to use this: lower gauge = thicker, heavier, stiffer, harder to bend and needs more machine capacity; higher gauge = thinner and lighter. For copper and lead a bigger number means heavier.",
+  "why_ru": "True. Номера gauge идут «наоборот»: чем больше номер, тем тоньше лист. Сталь (Manufacturers' Standard Gauge): 10 ga = 0.1345\", 16 ga = 0.0598\", 20 ga = 0.0359\", 26 ga = 0.0179\". Нумерация пошла от волочения проволоки: каждый лишний проход через меньшую фильеру делал проволоку тоньше и прибавлял к номеру единицу. Толщина уменьшается примерно вдвое через каждые 6 номеров: 16 ga 0.0598\" ÷ 22 ga 0.0299\" = 2. Утверждение было бы неверным, только если его перевернуть. У меди и свинца наоборот: их называют по весу (унции или фунты на квадратный фут), там больше число — толще.\n\nКак применять: меньше gauge — толще, тяжелее, жёстче, труднее гнуть и нужна большая capacity станка; больше gauge — тоньше и легче. У меди и свинца больше число — тяжелее.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 111,
+  "topic": "materials",
+  "ru_q": "Толщину свинца (lead) обозначают в",
+  "ru_hint": null,
+  "ru_opts": [
+   "унциях на квадратный фут.",
+   "десятичных долях дюйма.",
+   "толщине металла.",
+   "фунтах на квадратный фут."
+  ],
+  "why_en": "Pounds per square foot. Sheet lead is named by its weight per square foot: 4 lb lead weighs 4 lb per square foot and is about 1/16\" thick — lead weighs about 0.41 lb per cubic inch, so 4 ÷ (144 × 0.4097) = 0.0678\". 2-1/2, 3 and 4 lb lead are used for roof flashings, vent-pipe jacks, shower pans and radiation shielding. Ounces per square foot is how copper is named (16 oz, 20 oz) — a unit far too small for heavy lead. Decimals of an inch are how aluminum sheet is ordered (.032\", .040\", .063\"), and steel goes by gauge number. \"Thickness of the metal\" is what every system describes in the end, but lead is not ordered by stating its thickness — it is ordered by weight.\n\nHow to use this: steel — gauge number; copper — ounces per square foot; lead — pounds per square foot; aluminum — decimal inches. \"Per square foot\" always describes sheet.",
+  "why_ru": "Фунтах на квадратный фут. Листовой свинец называют по весу квадратного фута: 4 lb lead весит 4 фунта на квадратный фут и имеет толщину около 1/16\" — свинец весит примерно 0.41 lb на кубический дюйм, поэтому 4 ÷ (144 × 0.4097) = 0.0678\". Свинец 2-1/2, 3 и 4 lb идёт на кровельные flashings, обжимки вентиляционных труб (vent-pipe jacks), поддоны душевых и защиту от излучения. В унциях на квадратный фут обозначают медь (16 oz, 20 oz) — для тяжёлого свинца это слишком мелкая единица. В десятичных долях дюйма заказывают алюминий (.032\", .040\", .063\"), сталь — по номеру gauge. «Толщина металла» — то, что в итоге описывает любая система, но свинец не заказывают по толщине — его заказывают по весу.\n\nКак применять: сталь — номер gauge; медь — унции на квадратный фут; свинец — фунты на квадратный фут; алюминий — десятичные дюйма. «На квадратный фут» — всегда про лист.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 114,
+  "topic": "materials",
+  "ru_q": "Cast iron (чугун) более malleable, чем сталь.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "No. Cast iron is brittle: with about 2–4% carbon, much of it as graphite flakes, it cracks when hammered, bent or dropped instead of changing shape, which is why it is cast straight into its final shape (pipe and fittings, boiler sections, machine bases) rather than formed. Steel has far less carbon (mild steel about 0.05–0.25%), so it can be bent, rolled, seamed and hammered without cracking — that is what makes galvanized sheet usable for duct. Malleable means able to be hammered or rolled into shape without breaking, so steel is the more malleable of the two. The answer would be Yes only against an even more brittle material; \"malleable iron\" is cast iron heat-treated to get some of that property back, and even it does not bend like steel.\n\nHow to use this: the more carbon in iron, the harder and more brittle it gets: mild steel bends, tool steel is hard, cast iron breaks. Malleable and ductile = can be formed; brittle = cracks.",
+  "why_ru": "Нет. Чугун (cast iron) хрупкий: в нём около 2–4% углерода, большая часть в виде чешуек графита, и от удара, изгиба или падения он трескается, а не меняет форму; поэтому его сразу отливают в готовую форму (трубы и фитинги, секции котлов, станины), а не формуют. В стали углерода намного меньше (mild steel — около 0.05–0.25%), поэтому её гнут, катают, фальцуют и куют без трещин — благодаря этому оцинкованный лист годится для duct. Malleable — способный принимать форму под молотком или прокаткой, не разрушаясь, так что из двух более malleable — сталь. Ответ «да» был бы только при сравнении с ещё более хрупким материалом; «malleable iron» — это чугун, которому термообработкой вернули часть этого свойства, но и он не гнётся как сталь.\n\nКак применять: чем больше углерода в железе, тем оно твёрже и хрупче: mild steel гнётся, инструментальная сталь твёрдая, чугун ломается. Malleable и ductile — можно формовать; brittle — трескается.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 115,
+  "topic": "materials",
+  "ru_q": "A36 — распространённый тип",
+  "ru_hint": null,
+  "ru_opts": [
+   "меди",
+   "алюминия",
+   "стали",
+   "нержавеющей стали"
+  ],
+  "why_en": "Steel. A36 is the ASTM specification for ordinary carbon structural steel with a minimum yield strength of 36,000 psi (36 ksi) — the \"36\" in the name. It is the everyday steel for plate, angle, channel, flat bar and beams, so hanger angles, supports, curb frames and equipment stands are made of it, and it welds easily with common electrodes such as E7018 and E6010. Copper sheet is ordered by weight (16 oz, 20 oz) and alloy (C11000) under ASTM B152; aluminum by alloy numbers such as 3003, 5052 or 6061; stainless steel by type, such as 304 or 316 — none of them is called A36. The trap is \"stainless steel\": it is a steel, but stainless types have their own designations and contain at least 10.5% chromium.\n\nHow to use this: A36 = mild carbon structural steel (plate and shapes); 304/316 = stainless; 3003/5052/6061 = aluminum; ounces = copper sheet.",
+  "why_ru": "Стали. A36 — спецификация ASTM на обычную углеродистую конструкционную сталь с пределом текучести не меньше 36,000 psi (36 ksi) — отсюда «36» в названии. Это повседневная сталь для листа, уголка, швеллера, полосы и балок: из неё делают уголки подвесов, опоры, рамы под curb, подставки под оборудование, и она легко варится обычными электродами E7018 и E6010. Медный лист заказывают по весу (16 oz, 20 oz) и сплаву (C11000) по ASTM B152; алюминий — по номеру сплава, например 3003, 5052 или 6061; нержавейку — по типу, например 304 или 316; ни один из них не называется A36. Ловушка — «нержавеющая сталь»: это тоже сталь, но у нержавеющих марок свои обозначения и в них не меньше 10.5% хрома.\n\nКак применять: A36 — mild carbon конструкционная сталь (лист и профили); 304/316 — нержавейка; 3003/5052/6061 — алюминий; унции — медный лист.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 116,
+  "topic": "math",
+  "ru_q": "8 стальных joists стоят через 3' 4\" по центрам. Какое расстояние по центрам между двумя крайними joists?",
+  "ru_hint": null,
+  "ru_opts": [
+   "46' 0\"",
+   "53' 8\"",
+   "16'-8\"",
+   "23'-4\""
+  ],
+  "why_en": "23'-4\". Count the spaces, not the joists: 8 joists in a row have 8 − 1 = 7 spaces between them. 3'-4\" = 40\", so 7 × 40 = 280\" = 23'-4\" (280 ÷ 12 = 23 with 4 left over). Counting 8 spaces gives 320\" = 26'-8\" — the classic mistake, though it is not offered here. 16'-8\" = 200\" is only 5 spaces. 46' 0\" (552\") and 53' 8\" (644\") are not even whole numbers of 3'-4\" spaces (552 ÷ 40 = 13.8, 644 ÷ 40 = 16.1), so they cannot come from this spacing at all.\n\nHow to use this: n items in a row on equal centers make n − 1 spaces; the distance between the outside items = (n − 1) × spacing. Work in inches, then convert back to feet and inches. The same rule counts hangers on a duct run, anchors and studs.",
+  "why_ru": "23'-4\". Считай промежутки, а не joists: у 8 joists в ряд между ними 8 − 1 = 7 промежутков. 3'-4\" = 40\", значит 7 × 40 = 280\" = 23'-4\" (280 ÷ 12 = 23 и 4 в остатке). Если считать 8 промежутков, выйдет 320\" = 26'-8\" — классическая ошибка, хотя здесь такого варианта нет. 16'-8\" = 200\" — это только 5 промежутков. 46' 0\" (552\") и 53' 8\" (644\") даже не делятся на промежутки по 3'-4\" (552 ÷ 40 = 13.8, 644 ÷ 40 = 16.1), так что к этому шагу они вообще не относятся.\n\nКак применять: n предметов в ряд с одинаковым шагом дают n − 1 промежутков; расстояние между крайними = (n − 1) × шаг. Считай в дюймах, потом переводи обратно в футы и дюймы. Так же считают подвесы на линии duct, анкеры и стойки.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 117,
+  "topic": "trade",
+  "ru_q": "Примерно 2/3 всех sheet metal workers работают в HVAC.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Да",
+   "Нет"
+  ],
+  "why_en": "Yes. HVAC — making and installing duct, fittings, dampers and air-distribution systems for heating, ventilating and air conditioning — is the core of the sheet metal trade and employs roughly two-thirds of its workers, in shop fabrication, field installation and TAB (testing, adjusting and balancing). The other third is spread over the specialties: architectural sheet metal (roofing, flashing, gutters, wall panels), industrial work (dust collection, exhaust, heavy-gauge process work), service (maintaining and repairing HVAC equipment), plus signs, welding and residential work. The answer would be No if the statement put any one of those specialties at two-thirds.\n\nHow to use this: when a question asks for the largest part of the trade, the answer is HVAC duct work; the other areas are specialties around that core.",
+  "why_ru": "Да. HVAC — изготовление и монтаж duct, fittings, dampers и систем распределения воздуха для отопления, вентиляции и кондиционирования — основа профессии sheet metal, в нём занято примерно две трети работников: в цеху (shop fabrication), на монтаже и в TAB (testing, adjusting and balancing). Остальная треть распределена по специализациям: architectural sheet metal (кровля, flashing, водостоки, стеновые панели), industrial (пылеудаление, вытяжка, толстолистовые технологические системы), service (обслуживание и ремонт HVAC-оборудования), а также вывески, сварка и жилое строительство. Ответ был бы «нет», если бы на две трети претендовала любая из этих специализаций.\n\nКак применять: если спрашивают о самой большой части профессии, ответ — HVAC duct work; остальные направления — специализации вокруг этого ядра.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 120,
+  "topic": "safety",
+  "ru_q": "Инструмент с абразивным кругом должен иметь кожух (guard), который закрывает ____________.",
+  "ru_hint": null,
+  "ru_opts": [
+   "конец шпинделя (spindle end)",
+   "гайку (nut)",
+   "выступающие фланцы (flange projections)",
+   "всё перечисленное"
+  ],
+  "why_en": "All of the above. OSHA 1926.303(b)(2): the safety guard of an abrasive wheel machine must cover the spindle end, nut and flange projections; Washington's WAC 296-155-365(2)(b) uses the same words, so the rule is the same here. The spindle end is the threaded end of the shaft that sticks out past the wheel, the nut holds the wheel on, and the flanges are the metal washers that clamp the wheel; all of them spin at full speed and can catch a sleeve or a glove, and the guard also contains the pieces if the wheel bursts. The only exceptions: where the work itself protects the operator, or on machines designed as portable saws, the spindle end, nut and outer flange may be exposed (1926.303(b)(2)(i)–(ii)). Each single part is correct on its own, so the answer that names all three is the complete one. On the job: never take the guard off a grinder, check that the wheel's rated RPM is at least the tool's speed, and ring-test a bench-grinder wheel before mounting it.\n\nHow to use this: grinder guard = spindle end + nut + flange projections, plus most of the wheel. When every listed item is a real part of the rule, choose \"all of the above\".",
+  "why_ru": "Всё перечисленное. OSHA 1926.303(b)(2): кожух станка с абразивным кругом должен закрывать конец шпинделя, гайку и выступающие фланцы; в Washington WAC 296-155-365(2)(b) говорит то же самое, так что правило здесь то же. Spindle end — резьбовой конец вала, выступающий за круг, nut — гайка, которая держит круг, flanges — металлические шайбы, зажимающие круг; всё это вращается на полной скорости и может захватить рукав или перчатку, а кожух ещё и задерживает осколки, если круг разорвётся. Исключения только такие: где сама деталь защищает оператора, и на станках, сделанных как переносные пилы, конец шпинделя, гайка и наружный фланец могут быть открыты (1926.303(b)(2)(i)–(ii)). Каждая часть по отдельности верна, поэтому полный ответ — тот, где названы все три. На работе: кожух с болгарки не снимать, проверять, что допустимые обороты круга не ниже оборотов инструмента, круг для точила перед установкой проверять простукиванием (ring test).\n\nКак применять: кожух шлифмашины = конец шпинделя + гайка + выступающие фланцы плюс большая часть круга. Если каждый пункт списка — настоящая часть правила, выбирай «всё перечисленное».",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 121,
+  "topic": "tools",
+  "ru_q": "Всегда используй _______ инструмент для работы.",
+  "ru_hint": null,
+  "ru_opts": [
+   "ближайший",
+   "правильный",
+   "самый новый",
+   "самый лёгкий в работе"
+  ],
+  "why_en": "Right. The right tool is the one designed for that job and that material — snips for sheet metal, not a utility knife; a nut driver on a hex head, not pliers; a ladder, not a bucket. The wrong tool slips, breaks or damages the work, and it is one of the most common causes of hand injuries, which is why tool-safety rules start with this one. \"Nearest\" is the shortcut behind many of those injuries: grabbing whatever is close instead of walking to get the proper tool. \"Newest\" guarantees nothing — a new tool can be the wrong type, and an old one in good condition can be exactly right. \"Easiest\" is about saving effort, not about safety or quality; the right tool usually ends up easiest, but that is not how you choose it.\n\nHow to use this: pick the tool made for the job and the material, check it is in good condition, and use it the way it was designed to be used.",
+  "why_ru": "Правильный. Правильный инструмент — тот, что сделан для этой работы и этого материала: ножницы по металлу (snips) для листа, а не канцелярский нож; торцевой ключ (nut driver) на шестигранник, а не пассатижи; лестница, а не ведро. Не тот инструмент соскальзывает, ломается или портит деталь, и это одна из самых частых причин травм рук — поэтому правила безопасности с инструментом начинаются с этого. «Ближайший» — та самая спешка, из-за которой и бывают травмы: схватить то, что под рукой, вместо того чтобы сходить за нужным. «Самый новый» ничего не гарантирует: новый инструмент может быть не того типа, а старый в хорошем состоянии — как раз тем, что нужно. «Самый лёгкий в работе» — про экономию сил, а не про безопасность и качество; правильный инструмент обычно и оказывается самым удобным, но выбирают его не по этому признаку.\n\nКак применять: бери инструмент, сделанный для этой работы и этого материала, проверь, что он исправен, и работай им так, как он задуман.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 122,
+  "topic": "tools",
+  "ru_q": "Тупой инструмент может быть опаснее острого.",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "True. A dull blade or bit needs more force to cut, so it slips, binds or kicks back, and the extra force drives your hand along when the tool suddenly lets go. Dull snips tear and crush the metal instead of cutting it, leaving jagged burrs and fish hooks that cut hands later; a dull drill bit overheats, grabs and spins the work. A sharp tool cuts with little pressure and goes where you guide it. That is why tools are kept sharp and in good repair, and dull or damaged tools are taken out of use until they are fixed. The statement would be false only if it suggested sharpness alone makes a tool safe — a sharp tool still needs its guard, gloves where required, and good technique.\n\nHow to use this: sharp and maintained = less force = more control. Sharpen or replace dull blades and bits, and tag damaged tools out of service.",
+  "why_ru": "True. Тупому ножу или сверлу нужно больше усилия, поэтому инструмент соскальзывает, закусывает или отскакивает, а лишнее усилие бросает руку вперёд, когда он внезапно поддаётся. Тупые ножницы рвут и мнут металл вместо того, чтобы резать, оставляя рваные заусенцы и «крючки» (fish hooks), о которые потом режут руки; тупое сверло перегревается, закусывает и проворачивает деталь. Острый инструмент режет с малым нажимом и идёт туда, куда его ведёшь. Поэтому инструмент держат острым и исправным, а тупой или повреждённый убирают из работы до ремонта. Утверждение было бы неверным, только если бы утверждало, что острота сама по себе делает инструмент безопасным — острому инструменту всё равно нужны кожух, перчатки там, где они положены, и правильные приёмы.\n\nКак применять: острый и исправный = меньше усилия = больше контроля. Тупые ножи и свёрла — точить или менять, повреждённый инструмент — с биркой вывести из работы.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 124,
+  "topic": "safety",
+  "ru_q": "Крановщика нужно предупредить, когда работник заходит в зону поворота (swing radius) крана, и крановщику нельзя поворачивать поворотную часть крана, пока ему не сообщат, что работник в безопасном месте.",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "True. OSHA 1926.1424(a)(3): before an employee goes to a place in the hazard area that is out of the operator's view, the operator must be told, and the operator must not rotate the superstructure until informed — by a pre-arranged signal or radio — that the employee is in a safe position. Washington has the same rule in WAC 296-155-53400(42)(c). The hazard area is the swing radius of the rotating superstructure, especially the counterweight: when the crane swings, a worker caught between the counterweight and a fixed object (a wall, another machine, a stack of material) can be crushed. That is why the swing radius is marked off with control lines, warning lines or railings (1926.1424(a)(2)), and nobody steps inside without telling the operator. The statement would be false if it let the operator swing on his own judgment without that confirmation.\n\nHow to use this: the crane's swing radius is a danger zone; never enter it unannounced — tell the operator and wait for confirmation; the operator does not swing until told you are clear.",
+  "why_ru": "True. OSHA 1926.1424(a)(3): прежде чем работник зайдёт в опасную зону туда, где его не видит крановщик, крановщика нужно предупредить, и крановщик не должен поворачивать поворотную часть (superstructure), пока ему по заранее условленному сигналу или по рации не сообщат, что работник в безопасном месте. В Washington то же правило — WAC 296-155-53400(42)(c). Опасная зона — радиус поворота поворотной части, особенно противовеса: когда кран поворачивается, человека между противовесом и неподвижным предметом (стеной, другой машиной, штабелем материала) может раздавить. Поэтому зону поворота ограждают сигнальными лентами, линиями или перилами (1926.1424(a)(2)), и никто не заходит туда, не предупредив крановщика. Утверждение было бы неверным, если бы крановщику разрешалось поворачивать по своему усмотрению без такого подтверждения.\n\nКак применять: радиус поворота крана — опасная зона; не заходи туда без предупреждения — сообщи крановщику и дождись подтверждения; крановщик не поворачивает, пока ему не скажут, что ты в безопасности.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 125,
+  "topic": "drawing",
+  "ru_q": "По architect's scale можно найти действительную длину предмета на чертеже в масштабе.",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "True. An architect's scale carries scales such as 1/8\" = 1'-0\", 1/4\" = 1'-0\", 1/2\" = 1'-0\" and 1\" = 1'-0\", each read in feet and inches, so laid on a scale drawing it gives the real length directly. Match the scale to the one in the title block or under the view, start at zero, read whole feet on the main divisions and inches on the finely divided end. Example: a line 2-1/2\" long on a 1/4\" = 1'-0\" drawing is 2.5 ÷ 0.25 = 10 ft long. The engineer's scale does the same for drawings in decimal feet (1\" = 10', 20', 50'), and a metric scale for metric drawings; the architect's scale does not use decimals of an inch. The statement would be false only for a drawing marked NTS (not to scale) — there you use the written dimensions and never scale the print.\n\nHow to use this: architect's scale = feet and inches (building drawings), engineer's scale = decimal feet (site and civil), metric scale = millimeters. Written dimensions win over scaling; scale only to find a missing dimension, and never on an NTS print.",
+  "why_ru": "True. На architect's scale есть шкалы вроде 1/8\" = 1'-0\", 1/4\" = 1'-0\", 1/2\" = 1'-0\" и 1\" = 1'-0\", каждая читается в футах и дюймах, поэтому, приложив линейку к чертежу в масштабе, сразу получаешь действительную длину. Выбери шкалу, как в штампе (title block) или под видом, начинай с нуля, целые футы читай по основным делениям, а дюймы — на мелко размеченном конце. Пример: линия длиной 2-1/2\" на чертеже 1/4\" = 1'-0\" — это 2.5 ÷ 0.25 = 10 ft. Engineer's scale делает то же для чертежей в десятичных футах (1\" = 10', 20', 50'), metric scale — для метрических; десятичных долей дюйма architect's scale не использует. Утверждение было бы неверным только для чертежа с пометкой NTS (not to scale) — там берут проставленные размеры и линейкой по чертежу не меряют.\n\nКак применять: architect's scale — футы и дюймы (строительные чертежи), engineer's scale — десятичные футы (генплан, civil), metric scale — миллиметры. Проставленный размер важнее измеренного; линейкой меряют, только чтобы найти недостающий размер, и никогда — на чертеже NTS.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 126,
+  "topic": "drawing",
+  "ru_q": "Triangulation используют, чтобы разделить угол пополам и восстановить перпендикуляр к линии.",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "True. In sheet-metal geometric construction, triangulation means locating a new point from two known points by two distances: swing an arc from each point, and the crossing is the third corner of a triangle. Both constructions are done exactly that way. To bisect an angle: an arc from the vertex marks a point on each side; equal arcs from those two points cross inside the angle; the line from the vertex through the crossing splits the angle in half. To erect a perpendicular: equal arcs from two points on the line cross above and below it, and the line through the crossings is at 90° (at the end of a line, arcs of one radius step off 60° and the next 60° is halved, 60° + 30° = 90°). False is tempting because triangulation is best known as a pattern-development method, but that method uses the same arc-and-crossing move to place every point.\n\nHow to use this: two known points + two distances = one new point where the arcs cross. That single move builds triangles, angle bisectors, perpendiculars and the patterns of transitions and square-to-rounds.",
+  "why_ru": "True. В геометрических построениях sheet metal triangulation — это нахождение новой точки по двум известным точкам и двум расстояниям: из каждой точки проводят дугу, и пересечение — третья вершина треугольника. Оба построения делаются именно так. Деление угла пополам: дуга из вершины отмечает по точке на каждой стороне; равные дуги из этих двух точек пересекаются внутри угла; прямая из вершины через пересечение делит угол пополам. Перпендикуляр: равные дуги из двух точек на линии пересекаются над и под ней, и прямая через пересечения стоит под 90° (на конце линии дугами одного радиуса откладывают 60°, следующие 60° делят пополам: 60° + 30° = 90°). False соблазняет, потому что triangulation больше известна как метод развёртки, но и этот метод ставит каждую точку тем же приёмом — двумя дугами до пересечения.\n\nКак применять: две известные точки + два расстояния = новая точка на пересечении дуг. Этим одним приёмом строят треугольники, биссектрисы, перпендикуляры и развёртки transitions и square to round.",
+  "flag": "Key = grader (Serge False lost 1 point); supported by the BCcampus Pattern Development text (triangulation = locating points by intersecting arcs)."
+ },
+ {
+  "src": "F20",
+  "n": 127,
+  "topic": "transitions",
+  "ru_q": "Triangulation — это способ разметки развёртки (pattern) любого предмета с помощью ряда треугольников.",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "True. Triangulation is the pattern-development method that divides a surface into triangles, finds the true length of every side, and lays the triangles out flat one after another, each new point found by two arcs (a true length from one point, a step from the other). It is the method for surfaces that are neither parallel-line nor radial-line: square to round, rectangular and eccentric transitions, offset tapers and warped fittings. It works on any object because any surface can be broken into small triangles — which is why the statement can say \"any object\" — but where the elements are parallel (pipe, elbows, tees) parallel-line development is quicker, and where they meet at one apex (cones, concentric tapers) radial-line development is quicker. The statement would be false if it said \"parallel lines\" or \"radial lines\" instead of triangles.\n\nHow to use this: three pattern-development methods — parallel line (elements parallel: elbows, tees), radial line (elements meet at an apex: cones, concentric tapers), triangulation (everything else: square to round, transitions). Triangulation always starts with a true-length table.",
+  "why_ru": "True. Triangulation — метод развёртки, при котором поверхность делят на треугольники, находят true length каждой стороны и раскладывают треугольники на плоскости один за другим, ставя каждую новую точку двумя дугами (true length от одной точки, шаг от другой). Это метод для поверхностей, которые не разворачиваются ни parallel line, ни radial line: square to round, прямоугольные и эксцентричные transitions, offset tapers, «скрученные» (warped) fittings. Он работает для любого предмета, потому что любую поверхность можно разбить на мелкие треугольники — поэтому в утверждении и сказано «любого», — но где образующие параллельны (труба, elbows, tees), быстрее parallel line, а где они сходятся в одну вершину (конусы, концентрические tapers), быстрее radial line. Утверждение было бы неверным, если бы вместо треугольников там стояло «parallel lines» или «radial lines».\n\nКак применять: три метода развёртки — parallel line (образующие параллельны: elbows, tees), radial line (сходятся в вершину: конусы, концентрические tapers), triangulation (всё остальное: square to round, transitions). Triangulation всегда начинается с таблицы true length.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 128,
+  "topic": "safety",
+  "ru_q": "Большинство современных синтетических тканей для одежды более огнестойкие, чем старые добрые хлопок или шерсть",
+  "ru_hint": null,
+  "ru_opts": [
+   "True",
+   "False"
+  ],
+  "why_en": "False. Most synthetic fibers — polyester, nylon, acrylic, polypropylene — are thermoplastic: in heat or flame they melt and drip, and the hot melt sticks to the skin and keeps burning into it, turning a small burn into a deep one. Cotton and wool char instead of melting; wool is naturally hard to ignite and tends to put itself out, and untreated cotton does burn but does not stick. That is why welding and hot-work clothing is wool, heavy or flame-treated cotton, or leather, and synthetics are kept away from sparks, arcs and torches. The statement would be true only for synthetics engineered and labeled flame-resistant (FR), such as aramid fabrics — not for ordinary modern synthetics.\n\nHow to use this: near welding, cutting, grinding or electrical arcs wear wool, flame-treated cotton, leather or FR-labeled clothing; no polyester, nylon or fleece, and no cuffs or open pockets that catch sparks.",
+  "why_ru": "False. Большинство синтетических волокон — полиэстер, нейлон, акрил, полипропилен — термопласты: от жара или огня они плавятся и капают, а горячий расплав прилипает к коже и продолжает её жечь, превращая небольшой ожог в глубокий. Хлопок и шерсть не плавятся, а обугливаются; шерсть от природы плохо загорается и сама гаснет, а необработанный хлопок горит, но не прилипает. Поэтому одежда для сварки и огневых работ — шерсть, плотный или огнезащитно обработанный хлопок, кожа, а синтетику держат подальше от искр, дуги и резака. Утверждение было бы верным только для синтетики, специально сделанной и промаркированной как огнестойкая (FR), например арамидных тканей, — но не для обычной современной синтетики.\n\nКак применять: рядом со сваркой, резкой, шлифовкой и электрической дугой — шерсть, огнезащитный хлопок, кожа или одежда с маркировкой FR; никакого полиэстера, нейлона и флиса, никаких отворотов и открытых карманов, куда залетают искры.",
+  "flag": "No period at the end of the printed statement; kept verbatim."
+ }
+]

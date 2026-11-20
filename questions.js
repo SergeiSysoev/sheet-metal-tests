@@ -32,32 +32,18 @@ const TOPICS = {
 const SOURCES = {
  "F20": {
   "name": {
-   "en": "Friday test 11/20 — practice",
-   "ru": "Пятничный тест 20.11 — подготовка"
+   "en": "SMY2W2 Friday Written — 11/20/2026",
+   "ru": "SMY2W2 Friday Written — 20.11.2026"
   },
   "sub": {
-   "en": "This week's tests and the old-test questions the instructor went over on 11/19, in one test · full test, 257 questions",
-   "ru": "Тесты этой недели и вопросы старых тестов, которые инструктор разбирал 19.11, в одном тесте · полный тест, 257 вопросов"
+   "en": "2nd year, week 2 · No. 84 is blank in the test · full test, 127 questions",
+   "ru": "2-й год, неделя 2 · номер 84 в самом тесте пустой · полный тест, 127 вопросов"
   },
   "short": {
    "en": "Friday 11/20",
    "ru": "Пятница 20.11"
   },
-  "full": 257
- },
- "CLS": {
-  "name": {
-   "en": "Review class 11/19: law of cosines and the new-test question",
-   "ru": "Разбор 19.11: law of cosines и вопрос с нового теста"
-  },
-  "sub": {
-   "en": "Law of cosines on the formula sheet example (p. 12); the question the instructor read from the new test",
-   "ru": "Law of cosines по примеру formula sheet (стр. 12); вопрос, который инструктор зачитал с нового теста"
-  },
-  "short": {
-   "en": "Review 11/19",
-   "ru": "Разбор 19.11"
-  }
+  "full": 127
  },
  "T90": {
   "name": {
@@ -530,13 +516,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    184
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-2",
@@ -572,13 +552,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    81
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-3",
@@ -614,13 +588,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    185
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-4",
@@ -656,13 +624,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    186
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-5",
@@ -698,13 +660,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    90
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-6",
@@ -740,13 +696,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    217
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-7",
@@ -778,13 +728,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    187
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-8",
@@ -824,13 +768,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    250
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-9",
@@ -866,13 +804,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    188
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-10",
@@ -908,13 +840,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    189
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-11",
@@ -950,13 +876,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    190
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-12",
@@ -992,13 +912,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    191
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-13",
@@ -1034,13 +948,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    192
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-14",
@@ -1076,13 +984,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    193
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-15",
@@ -1122,13 +1024,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    137
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-16",
@@ -1172,7 +1068,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    31
+    108
    ]
   ]
  },
@@ -1210,13 +1106,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    138
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-18",
@@ -1256,13 +1146,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    218
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-19",
@@ -1302,13 +1186,7 @@ const QUESTIONS = [
   "answer": [
    4
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    219
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-20",
@@ -1344,13 +1222,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    194
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-21",
@@ -1422,13 +1294,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    195
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-23",
@@ -1464,13 +1330,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    79
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-24",
@@ -1508,10 +1368,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    89
-   ],
    [
     "Y2W5Y",
     46
@@ -1553,13 +1409,7 @@ const QUESTIONS = [
    2
   ],
   "type": "single",
-  "fig": "t90-q25.svg",
-  "on": [
-   [
-    "F20",
-    196
-   ]
-  ]
+  "fig": "t90-q25.svg"
  },
  {
   "id": "T90-26",
@@ -1595,13 +1445,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    197
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-27",
@@ -1638,13 +1482,7 @@ const QUESTIONS = [
    3
   ],
   "type": "single",
-  "fig": "t90-q27.svg",
-  "on": [
-   [
-    "F20",
-    122
-   ]
-  ]
+  "fig": "t90-q27.svg"
  },
  {
   "id": "T90-28",
@@ -1680,13 +1518,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    139
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-29",
@@ -1722,13 +1554,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    220
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-30",
@@ -1766,10 +1592,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    91
-   ],
    [
     "Y2W5Y",
     47
@@ -1813,10 +1635,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    92
-   ],
-   [
     "Y2W1H",
     13
    ]
@@ -1856,13 +1674,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    80
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-33",
@@ -1900,10 +1712,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    72
-   ],
    [
     "Y2W1H",
     1
@@ -1944,13 +1752,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    93
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-35",
@@ -2058,13 +1860,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    198
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-38",
@@ -2136,13 +1932,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    6
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-40",
@@ -2183,7 +1973,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    73
+    24
    ],
    [
     "Y2W5Y",
@@ -2228,10 +2018,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    94
-   ],
-   [
     "Y2W5Y",
     48
    ]
@@ -2271,13 +2057,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    119
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-43",
@@ -2386,10 +2166,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    95
-   ],
-   [
     "Y2W5Y",
     37
    ]
@@ -2429,13 +2205,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    221
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-47",
@@ -2507,13 +2277,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    56
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-49",
@@ -2549,13 +2313,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    57
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-50",
@@ -2601,13 +2359,7 @@ const QUESTIONS = [
    4
   ],
   "type": "multi",
-  "fig": "t90-q50.svg",
-  "on": [
-   [
-    "F20",
-    50
-   ]
-  ]
+  "fig": "t90-q50.svg"
  },
  {
   "id": "T90-51",
@@ -2648,7 +2400,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    45
+    97
    ],
    [
     "Y2W5Y",
@@ -2690,13 +2442,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    43
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-53",
@@ -2732,13 +2478,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    49
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-54",
@@ -2777,10 +2517,6 @@ const QUESTIONS = [
   "type": "single",
   "fig": "t90-q54.svg",
   "on": [
-   [
-    "F20",
-    54
-   ],
    [
     "Y2W5Y",
     112
@@ -2822,13 +2558,7 @@ const QUESTIONS = [
    3
   ],
   "type": "single",
-  "fig": "t90-q55.svg",
-  "on": [
-   [
-    "F20",
-    13
-   ]
-  ]
+  "fig": "t90-q55.svg"
  },
  {
   "id": "T90-56",
@@ -2869,7 +2599,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    14
+    49
    ],
    [
     "Y2W5Y",
@@ -2916,7 +2646,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    46
+    99
    ]
   ]
  },
@@ -2950,7 +2680,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    84
+    6
    ],
    [
     "Y2W5Y",
@@ -2992,13 +2722,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    169
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-60",
@@ -3030,7 +2754,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    17
+    118
    ]
   ]
  },
@@ -3060,13 +2784,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    28
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-62",
@@ -3094,13 +2812,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    104
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-63",
@@ -3136,13 +2848,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    110
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-64",
@@ -3170,13 +2876,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    222
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-65",
@@ -3212,13 +2912,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    223
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-66",
@@ -3254,13 +2948,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    125
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-67",
@@ -3288,13 +2976,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    257
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-68",
@@ -3331,13 +3013,7 @@ const QUESTIONS = [
    0,
    2
   ],
-  "type": "multi",
-  "on": [
-   [
-    "F20",
-    105
-   ]
-  ]
+  "type": "multi"
  },
  {
   "id": "T90-69",
@@ -3365,13 +3041,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    140
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-70",
@@ -3407,13 +3077,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    111
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-71",
@@ -3449,13 +3113,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    153
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-72",
@@ -3495,7 +3153,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    154
+    21
    ]
   ]
  },
@@ -3537,7 +3195,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    82
+    23
    ]
   ]
  },
@@ -3575,13 +3233,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    76
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-75",
@@ -3618,13 +3270,7 @@ const QUESTIONS = [
    2
   ],
   "type": "single",
-  "fig": "t90-q75.svg",
-  "on": [
-   [
-    "F20",
-    112
-   ]
-  ]
+  "fig": "t90-q75.svg"
  },
  {
   "id": "T90-76",
@@ -3665,7 +3311,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    59
+    34
    ]
   ]
  },
@@ -3703,13 +3349,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    61
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-78",
@@ -3741,7 +3381,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    141
+    78
    ]
   ]
  },
@@ -3771,13 +3411,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    170
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-80",
@@ -3805,13 +3439,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    12
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-81",
@@ -3839,13 +3467,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    224
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-82",
@@ -3873,13 +3495,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    35
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-83",
@@ -3907,13 +3523,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    251
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-84",
@@ -3941,13 +3551,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    252
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-85",
@@ -3975,13 +3579,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    225
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-86",
@@ -4017,13 +3615,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    171
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-87",
@@ -4059,13 +3651,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    172
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "T90-88",
@@ -4102,13 +3688,7 @@ const QUESTIONS = [
    1
   ],
   "type": "single",
-  "fig": "t90-q88.svg",
-  "on": [
-   [
-    "F20",
-    75
-   ]
-  ]
+  "fig": "t90-q88.svg"
  },
  {
   "id": "T90-89",
@@ -4145,13 +3725,7 @@ const QUESTIONS = [
    2
   ],
   "type": "single",
-  "fig": "t90-q89.svg",
-  "on": [
-   [
-    "F20",
-    63
-   ]
-  ]
+  "fig": "t90-q89.svg"
  },
  {
   "id": "T90-90",
@@ -4188,13 +3762,7 @@ const QUESTIONS = [
    1
   ],
   "type": "single",
-  "fig": "t90-q90.svg",
-  "on": [
-   [
-    "F20",
-    53
-   ]
-  ]
+  "fig": "t90-q90.svg"
  },
  {
   "id": "TRI-1",
@@ -4230,13 +3798,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    173
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "TRI-2",
@@ -4276,13 +3838,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    174
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "TRI-3",
@@ -4322,13 +3878,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    175
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "TRI-4",
@@ -4364,13 +3914,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    176
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "TRI-5",
@@ -4406,13 +3950,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    177
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "TRI-6",
@@ -4440,13 +3978,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    68
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "TRI-7",
@@ -4482,13 +4014,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    44
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "TRI-8",
@@ -4524,13 +4050,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    52
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "TRI-9",
@@ -4571,13 +4091,7 @@ const QUESTIONS = [
    1
   ],
   "type": "single",
-  "fig": "tri-q09.svg",
-  "on": [
-   [
-    "F20",
-    77
-   ]
-  ]
+  "fig": "tri-q09.svg"
  },
  {
   "id": "TRI-10",
@@ -4651,13 +4165,7 @@ const QUESTIONS = [
    3
   ],
   "type": "single",
-  "fig": "tri-q11.svg",
-  "on": [
-   [
-    "F20",
-    40
-   ]
-  ]
+  "fig": "tri-q11.svg"
  },
  {
   "id": "TRI-12",
@@ -4694,13 +4202,7 @@ const QUESTIONS = [
    2
   ],
   "type": "single",
-  "fig": "tri-q12.svg",
-  "on": [
-   [
-    "F20",
-    41
-   ]
-  ]
+  "fig": "tri-q12.svg"
  },
  {
   "id": "TRI-15",
@@ -4736,13 +4238,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    178
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "TRI-16",
@@ -4778,13 +4274,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    179
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "TRI-17",
@@ -4821,13 +4311,7 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "fig": "tri-q17.svg",
-  "on": [
-   [
-    "F20",
-    9
-   ]
-  ]
+  "fig": "tri-q17.svg"
  },
  {
   "id": "TRI-18",
@@ -4848,13 +4332,7 @@ const QUESTIONS = [
    "tol": 0.005,
    "prefix": "$",
    "text": "22.21"
-  },
-  "on": [
-   [
-    "F20",
-    66
-   ]
-  ]
+  }
  },
  {
   "id": "FRI-2",
@@ -4998,7 +4476,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    1
+   ]
+  ]
  },
  {
   "id": "MON-2",
@@ -5034,7 +4518,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    2
+   ]
+  ]
  },
  {
   "id": "MON-3",
@@ -5062,7 +4552,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    3
+   ]
+  ]
  },
  {
   "id": "MON-4",
@@ -5104,7 +4600,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    86
+    4
    ],
    [
     "Y2W5Y",
@@ -5146,7 +4642,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    5
+   ]
+  ]
  },
  {
   "id": "MON-7",
@@ -5182,7 +4684,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    7
+   ]
+  ]
  },
  {
   "id": "MON-8",
@@ -5210,7 +4718,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    8
+   ]
+  ]
  },
  {
   "id": "MON-9",
@@ -5246,7 +4760,17 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    9
+   ],
+   [
+    "F20",
+    112
+   ]
+  ]
  },
  {
   "id": "MON-10",
@@ -5282,7 +4806,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    10
+   ]
+  ]
  },
  {
   "id": "MON-11",
@@ -5322,7 +4852,11 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    15
+    11
+   ],
+   [
+    "F20",
+    113
    ]
   ]
  },
@@ -5352,7 +4886,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    12
+   ]
+  ]
  },
  {
   "id": "MON-13",
@@ -5388,7 +4928,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    13
+   ]
+  ]
  },
  {
   "id": "MON-14",
@@ -5424,7 +4970,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    14
+   ]
+  ]
  },
  {
   "id": "MON-15",
@@ -5460,7 +5012,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    15
+   ]
+  ]
  },
  {
   "id": "MON-16",
@@ -5497,7 +5055,13 @@ const QUESTIONS = [
    0,
    2
   ],
-  "type": "multi"
+  "type": "multi",
+  "on": [
+   [
+    "F20",
+    16
+   ]
+  ]
  },
  {
   "id": "MON-17",
@@ -5533,7 +5097,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    17
+   ]
+  ]
  },
  {
   "id": "MON-18",
@@ -5573,7 +5143,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    83
+    18
    ],
    [
     "Y2W5Y",
@@ -5619,7 +5189,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    8
+    19
    ]
   ]
  },
@@ -5633,8 +5203,8 @@ const QUESTIONS = [
    "ru": "Что означают буквы FOB, написанные на transition?"
   },
   "why": {
-   "en": "FOB = flat on bottom. In transition notation the TOP is the face of the fitting nearest the viewer (the face you see on the plan) and the BOTTOM is the face behind it, away from the viewer; neither has to be the physical top or bottom of the installed duct. FOB means the BOTTOM is not sloped: it stays perpendicular to the line of vision, so the whole change in depth is taken by the TOP. Example: 20\"x14\" → 20\"x10\" FOB: the BOTTOM is flat and the TOP moves 4\" away from the viewer (TOP DOWN 4\" with the arrow to the 20\"x10\" end); in the four-side formula b = 0, so t = d₂ − d₁. FOT, flat on top, says the same about the TOP. \"Flat on back\" uses \"back\", which the same notation uses as another name for the BOTTOM, so it points at the right face, but the letters FOB stand for flat on bottom, and that is the wording to give. \"Front or back\" is not a notation and says nothing about slope. \"Fold over back\" is not a sheet metal term.\n\nHow to use this: Read transition notes in two steps: first find the TOP (nearest the viewer) and the BOTTOM (behind it), then find the flat face: FOT = TOP flat, FOB = BOTTOM flat, ℄ OTHER WAY = both slope equally, ASSUMED FLAT = equal depths and no slope. The face that is not flat takes the whole change in depth.",
-   "ru": "FOB = flat on bottom. В обозначениях transition TOP — грань fitting, ближняя к смотрящему (та, которую видно на plan), а BOTTOM — грань за ней, дальняя от смотрящего; ни та ни другая не обязана быть физическим верхом или низом смонтированного duct. FOB значит, что BOTTOM не наклонена: она перпендикулярна линии взгляда, и всё изменение глубины забирает TOP. Пример: 20\"x14\" → 20\"x10\" FOB: BOTTOM плоская, а TOP уходит от смотрящего на 4\" (TOP DOWN 4\" со стрелкой к концу 20\"x10\"); по формуле четвёртой стороны b = 0, значит t = d₂ − d₁. FOT (flat on top) говорит то же про TOP. «Flat on back» использует слово back, которым в тех же обозначениях называют BOTTOM, поэтому указывает на нужную грань, но буквы FOB значат flat on bottom, и отвечать надо этими словами. «Front or back» — не обозначение и ничего не говорит о наклоне. «Fold over back» — такого термина в sheet metal нет.\n\nКак применять: обозначения transition читай в два шага: сначала найди TOP (ближняя к смотрящему) и BOTTOM (за ней), потом плоскую грань: FOT — плоская TOP, FOB — плоская BOTTOM, ℄ OTHER WAY — обе наклонены поровну, ASSUMED FLAT — глубины равны, наклона нет. Неплоская грань забирает всё изменение глубины."
+   "en": "For points pick \"Flat on back\" — that is how this question is graded; technically \"Flat on bottom\" is also right, because that is exactly how the course's transition terminology spells out FOB, and both name the same face. In transition notation the TOP is the face of the fitting nearest the viewer (the face you see on the plan) and the BOTTOM is the face behind it — the back face for the viewer; neither has to be the physical top or bottom of the installed duct. FOB means that face is not sloped: it stays perpendicular to the line of vision, so the whole change in depth is taken by the TOP. Example: 20\"x14\" → 20\"x10\" FOB: the BOTTOM is flat and the TOP moves 4\" away from the viewer (TOP DOWN 4\" with the arrow to the 20\"x10\" end); in the four-side formula b = 0, so t = d₂ − d₁. FOT, flat on top, says the same about the TOP. \"Front or back\" is not a notation and says nothing about slope. \"Fold over back\" is not a sheet metal term.\n\nHow to use this: Read transition notes in two steps: first find the TOP (nearest the viewer) and the BOTTOM (behind it), then find the flat face: FOT = TOP flat, FOB = BOTTOM (back) flat, ℄ OTHER WAY = both slope equally, ASSUMED FLAT = equal depths and no slope. The face that is not flat takes the whole change in depth.",
+   "ru": "Для балла выбирай «Flat on back» — так этот вопрос проверяют; технически верен и «Flat on bottom»: именно так FOB расшифровано в терминологии transition самого курса, и обе формулировки называют одну и ту же грань. В обозначениях transition TOP — грань fitting, ближняя к смотрящему (та, которую видно на plan), а BOTTOM — грань за ней, для смотрящего задняя (back); ни та ни другая не обязана быть физическим верхом или низом смонтированного duct. FOB значит, что эта грань не наклонена: она перпендикулярна линии взгляда, и всё изменение глубины забирает TOP. Пример: 20\"x14\" → 20\"x10\" FOB: BOTTOM плоская, а TOP уходит от смотрящего на 4\" (TOP DOWN 4\" со стрелкой к концу 20\"x10\"); по формуле четвёртой стороны b = 0, значит t = d₂ − d₁. FOT (flat on top) говорит то же про TOP. «Front or back» — не обозначение и ничего не говорит о наклоне. «Fold over back» — такого термина в sheet metal нет.\n\nКак применять: обозначения transition читай в два шага: сначала найди TOP (ближняя к смотрящему) и BOTTOM (за ней), потом плоскую грань: FOT — плоская TOP, FOB — плоская BOTTOM (задняя), ℄ OTHER WAY — обе наклонены поровну, ASSUMED FLAT — глубины равны, наклона нет. Неплоская грань забирает всё изменение глубины."
   },
   "opts": [
    {
@@ -5655,9 +5225,18 @@ const QUESTIONS = [
    }
   ],
   "answer": [
+   0
+  ],
+  "type": "single",
+  "also": [
    2
   ],
-  "type": "single"
+  "on": [
+   [
+    "F20",
+    20
+   ]
+  ]
  },
  {
   "id": "MON-22",
@@ -5697,7 +5276,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    26
+    22
    ],
    [
     "Y2W5Y",
@@ -5735,7 +5314,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    87
+    25
    ],
    [
     "Y2W5Y",
@@ -5781,7 +5360,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    19
+    26
    ],
    [
     "Y2W5Y",
@@ -5823,7 +5402,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    27
+   ]
+  ]
  },
  {
   "id": "MON-28",
@@ -5859,7 +5444,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    28
+   ]
+  ]
  },
  {
   "id": "MON-29",
@@ -5895,7 +5486,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    29
+   ]
+  ]
  },
  {
   "id": "MON-30",
@@ -5959,7 +5556,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    31
+   ]
+  ]
  },
  {
   "id": "MON-32",
@@ -5995,7 +5598,17 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    32
+   ],
+   [
+    "F20",
+    80
+   ]
+  ]
  },
  {
   "id": "MON-33",
@@ -6032,7 +5645,13 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "fig": "mon-q33.svg"
+  "fig": "mon-q33.svg",
+  "on": [
+   [
+    "F20",
+    33
+   ]
+  ]
  },
  {
   "id": "MON-35",
@@ -6068,7 +5687,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    35
+   ]
+  ]
  },
  {
   "id": "MON-36",
@@ -6104,7 +5729,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    36
+   ]
+  ]
  },
  {
   "id": "MON-37",
@@ -6132,7 +5763,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    37
+   ]
+  ]
  },
  {
   "id": "MON-38",
@@ -6168,7 +5805,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    38
+   ]
+  ]
  },
  {
   "id": "MON-39",
@@ -6241,7 +5884,13 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "fig": "mon-q40.svg"
+  "fig": "mon-q40.svg",
+  "on": [
+   [
+    "F20",
+    40
+   ]
+  ]
  },
  {
   "id": "MON-41",
@@ -6277,7 +5926,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    41
+   ]
+  ]
  },
  {
   "id": "MON-42",
@@ -6318,7 +5973,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    58
+    42
    ],
    [
     "Y2W5Y",
@@ -6402,7 +6057,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    51
+    44
    ]
   ]
  },
@@ -6481,7 +6136,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    47
+    46
    ]
   ]
  },
@@ -6519,7 +6174,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    47
+   ]
+  ]
  },
  {
   "id": "MON-48",
@@ -6555,7 +6216,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    48
+   ]
+  ]
  },
  {
   "id": "MON-50",
@@ -6591,7 +6258,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    50
+   ]
+  ]
  },
  {
   "id": "MON-51",
@@ -6627,7 +6300,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    51
+   ]
+  ]
  },
  {
   "id": "MON-52",
@@ -6663,7 +6342,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    52
+   ]
+  ]
  },
  {
   "id": "MON-53",
@@ -6703,7 +6388,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    16
+    53
    ]
   ]
  },
@@ -6746,7 +6431,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    74
+    54
    ],
    [
     "Y2W5Y",
@@ -6788,7 +6473,13 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    55
+   ]
+  ]
  },
  {
   "id": "MON-56",
@@ -6838,7 +6529,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    10
+    56
    ],
    [
     "Y2W5Y",
@@ -6894,7 +6585,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    11
+    57
    ],
    [
     "Y2W5Y",
@@ -6976,7 +6667,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    32
+    58
    ]
   ]
  },
@@ -7186,7 +6877,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    67
+    75
    ],
    [
     "Y2W5Y",
@@ -7228,7 +6919,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    65
+   ]
+  ]
  },
  {
   "id": "MON-67",
@@ -7561,13 +7258,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    22
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "MON-76",
@@ -8961,198 +8652,620 @@ const QUESTIONS = [
   "type": "single"
  },
  {
-  "id": "CLS-1",
-  "src": "CLS",
-  "n": 1,
+  "id": "F20-59",
+  "src": "F20",
+  "n": 59,
   "topic": "math",
   "q": {
-   "en": "Use the law of cosines. A triangle has sides A = 5'-11 1/2\", B = 3'-8\" and C = 3'-0 1/2\". What is angle A (the angle opposite side A)?",
-   "ru": "Используй law of cosines. У треугольника стороны A = 5'-11 1/2\", B = 3'-8\" и C = 3'-0 1/2\". Чему равен угол A (напротив стороны A)?"
+   "en": "Using the Law of Cosines, calculate the length and offset dimensions.",
+   "ru": "Используя law of cosines, найди размеры length и offset."
   },
   "why": {
-   "en": "With all three sides known, the law of cosines gives any angle; each angle sits opposite the side with the same letter. Convert to inches: A = 5'-11 1/2\" = 71.5\", B = 3'-8\" = 44\", C = 3'-0 1/2\" = 36.5\". cos A = (B² + C² − A²) ÷ (2·B·C) = (1936 + 1332.25 − 5112.25) ÷ (2 × 44 × 36.5) = −1844 ÷ 3212 = −0.57410, A = cos⁻¹(−0.57410) = 125.04°. A negative cosine means an angle over 90°, and that fits: the longest side (A) always faces the biggest angle. On the HVAC Pro: A Conv 4, B Conv 5, C Conv 6, then Conv 9 (Law Cos) — angle A shows first. The formula sheet, p. 12, prints this same triangle with these keystrokes and all three angles (A = 125.0364°, B = 30.25631°, C = 24.70727°), and p. 22 has the formula itself. The other options: 30.26° is angle B and 24.71° is angle C of the same triangle (check: 125.0364 + 30.2563 + 24.7073 = 180°); 54.96° = 180 − 125.04 is what you get if you drop the minus sign of the cosine or use the law of sines, because sin⁻¹ only returns angles under 90° (sin 54.96° = sin 125.04°).\n\nHow to use this: Three sides known (or two sides and the angle between them) → law of cosines: cos(angle) = (sum of the squares of the two sides beside it − square of the side opposite) ÷ (2 × the product of the two sides beside it). Put feet-inches into inches first. The angle across from the longest side is the biggest, and a negative cosine means an obtuse angle. Use the law of sines only for the smaller angles, and always check that the three angles add to 180°.",
-   "ru": "Когда известны все три стороны, любой угол даёт law of cosines; каждый угол лежит напротив стороны с той же буквой. Переводим в дюймы: A = 5'-11 1/2\" = 71.5\", B = 3'-8\" = 44\", C = 3'-0 1/2\" = 36.5\". cos A = (B² + C² − A²) ÷ (2·B·C) = (1936 + 1332.25 − 5112.25) ÷ (2 × 44 × 36.5) = −1844 ÷ 3212 = −0.57410, A = cos⁻¹(−0.57410) = 125.04°. Отрицательный косинус означает угол больше 90°, и это сходится: напротив самой длинной стороны (A) всегда самый большой угол. На HVAC Pro: A Conv 4, B Conv 5, C Conv 6, потом Conv 9 (Law Cos) — первым показывается угол A. На formula sheet, стр. 12, напечатан этот же треугольник с этими нажатиями и всеми тремя углами (A = 125.0364°, B = 30.25631°, C = 24.70727°), а на стр. 22 — сама формула. Остальные варианты: 30.26° — угол B, 24.71° — угол C этого же треугольника (проверка: 125.0364 + 30.2563 + 24.7073 = 180°); 54.96° = 180 − 125.04 — получается, если потерять минус у косинуса или взять law of sines: sin⁻¹ возвращает только углы меньше 90° (sin 54.96° = sin 125.04°).\n\nКак применять: известны три стороны (или две стороны и угол между ними) → law of cosines: cos угла = (сумма квадратов двух сторон рядом с ним − квадрат стороны напротив) ÷ (2 × произведение двух сторон рядом). Футы-дюймы сначала переводи в дюймы. Напротив самой длинной стороны — самый большой угол, отрицательный косинус — тупой угол. Law of sines бери только для меньших углов и всегда проверяй, что три угла дают 180°."
+   "en": "Length = 5'-2 7/16\", Offset = 3'-11 1/8\". Both diagonals are measured from one point, P: the bottom corner of the first duct's end. 7'-4 3/4\" = 88.75\" runs to the top corner of the second duct's end, 6'-6 3/16\" = 78.1875\" to its bottom corner, and the third side of that triangle is the second duct's end itself, 16\" (the side seen in the drawing). Law of cosines for the angle at the bottom corner of the second duct, between the 16\" end and the 78.1875\" diagonal (opposite the 88.75\" one): cos γ = (78.1875² + 16² − 88.75²) ÷ (2 × 78.1875 × 16), γ = 127.0441°. The end is vertical, so the lower diagonal rises α = γ − 90° = 37.0441° above level: offset = 78.1875 × sin α = 47.1024\" → 47-1/8\" = 3'-11 1/8\"; length = 78.1875 × cos α = 62.4071\" → 62-7/16\" = 5'-2 7/16\". The same without angles: offset = (88.75² − 78.1875² − 16²) ÷ (2 × 16) = 1507.2773 ÷ 32 = 47.1024, length = √(78.1875² − 47.1024²) = 62.4071. The other two angles are 44.6826° and 8.2733°; all three add up to 180°.\n\nCheck any pair by rebuilding the measured diagonals: √(length² + offset²) must give the lower diagonal (78.1875\") and √(length² + (offset + 16)²) the upper one (88.75\"). The right pair gives 78.2254\" and 88.7874\" — off only by the rounding to 1/16. 3'-4 9/16\" with 5'-9 5/8\" gives 80.5789\" and 94.7468\"; 4'-11 3/8\" with 2'-10 1/4\" gives 68.5453\" and 77.7847\", about 10\" short; 5'-11 5/16\" with 3'-3 1/8\" gives 81.3403\" and 90.1346\". None of them fits the diagonals that were measured.\n\nHow to use this: Field offset by two diagonals: from the bottom corner of the first duct's end, measure to the bottom and to the top corner of the second duct's end; the third side is the second duct's side in the drawing (the first number of its size). Offset = (top² − bottom² − side²) ÷ (2 × side), length = √(bottom² − offset²); or find the angle at the second duct with the law of cosines, rise = that angle − 90°, offset = bottom diagonal × sin rise, length = bottom diagonal × cos rise. A negative number under the root means the diagonals or the side were mixed up.",
+   "ru": "Length = 5'-2 7/16\", Offset = 3'-11 1/8\". Обе диагонали меряют от одной точки P — нижнего угла торца первого duct. 7'-4 3/4\" = 88.75\" идёт к верхнему углу торца второго duct, 6'-6 3/16\" = 78.1875\" — к его нижнему углу, а третья сторона этого треугольника — сам торец второго duct, 16\" (сторона, видимая на чертеже). Law of cosines для угла у нижнего угла второго duct, между торцом 16\" и диагональю 78.1875\" (напротив диагонали 88.75\"): cos γ = (78.1875² + 16² − 88.75²) ÷ (2 × 78.1875 × 16), γ = 127.0441°. Торец вертикальный, поэтому нижняя диагональ поднимается под α = γ − 90° = 37.0441° к горизонтали: offset = 78.1875 × sin α = 47.1024\" → 47-1/8\" = 3'-11 1/8\"; length = 78.1875 × cos α = 62.4071\" → 62-7/16\" = 5'-2 7/16\". То же без углов: offset = (88.75² − 78.1875² − 16²) ÷ (2 × 16) = 1507.2773 ÷ 32 = 47.1024, length = √(78.1875² − 47.1024²) = 62.4071. Два других угла — 44.6826° и 8.2733°; в сумме все три дают 180°.\n\nЛюбую пару проверяют, собирая обратно замеренные диагонали: √(length² + offset²) должен дать нижнюю диагональ (78.1875\"), а √(length² + (offset + 16)²) — верхнюю (88.75\"). Верная пара даёт 78.2254\" и 88.7874\" — расхождение только от округления до 1/16. 3'-4 9/16\" с 5'-9 5/8\" дают 80.5789\" и 94.7468\"; 4'-11 3/8\" с 2'-10 1/4\" — 68.5453\" и 77.7847\", примерно на 10\" меньше; 5'-11 5/16\" с 3'-3 1/8\" — 81.3403\" и 90.1346\". Ни одна из них не сходится с замеренными диагоналями.\n\nКак применять: offset по двум диагоналям на объекте: от нижнего угла торца первого duct мерить до нижнего и до верхнего угла торца второго duct; третья сторона — сторона второго duct на чертеже (первая цифра размера). Offset = (верхняя² − нижняя² − сторона²) ÷ (2 × сторона), length = √(нижняя² − offset²); или найти law of cosines угол у второго duct, подъём = этот угол − 90°, offset = нижняя диагональ × sin подъёма, length = нижняя диагональ × cos подъёма. Отрицательное число под корнем — перепутаны диагонали или сторона."
   },
   "opts": [
    {
-    "en": "125.04°",
-    "ru": "125.04°"
+    "en": "Length = 3'-4 9/16\" Offset = 5'-9 5/8\"",
+    "ru": "Length = 3'-4 9/16\" Offset = 5'-9 5/8\""
    },
    {
-    "en": "54.96°",
-    "ru": "54.96°"
+    "en": "Length = 5'-2 7/16\" Offset = 3'-11 1/8\"",
+    "ru": "Length = 5'-2 7/16\" Offset = 3'-11 1/8\""
    },
    {
-    "en": "30.26°",
-    "ru": "30.26°"
+    "en": "Length = 4'-11 3/8\" Offset = 2'-10 1/4\"",
+    "ru": "Length = 4'-11 3/8\" Offset = 2'-10 1/4\""
    },
    {
-    "en": "24.71°",
-    "ru": "24.71°"
+    "en": "Length = 5'-11 5/16\" Offset = 3'-3 1/8\"",
+    "ru": "Length = 5'-11 5/16\" Offset = 3'-3 1/8\""
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "fig": "f20-q59.svg",
+  "on": [
+   [
+    "F20",
+    59
+   ]
+  ]
+ },
+ {
+  "id": "F20-60",
+  "src": "F20",
+  "n": 60,
+  "topic": "math",
+  "q": {
+   "en": "Using the Law of Cosines, calculate the length and offset dimensions.",
+   "ru": "Используя law of cosines, найди размеры length и offset."
+  },
+  "why": {
+   "en": "Length = 5'-15/16\" (that is 5'-0 15/16\"), Offset = 2'-9 9/16\". Both diagonals start at P, the bottom corner of the 16\"x10\" duct's end: 6'-9 1/8\" = 81.125\" to the top corner of the 20\"x14\" end, 5'-9 9/16\" = 69.5625\" to its bottom corner. The third side is the 20\" side of the second duct — the first number of a duct size is the side seen in the drawing. cos γ = (69.5625² + 20² − 81.125²) ÷ (2 × 69.5625 × 20), γ = 118.8434°, rise α = γ − 90° = 28.8434°. Offset = 69.5625 × sin α = 33.5581\" → 33-9/16\" = 2'-9 9/16\"; length = 69.5625 × cos α = 60.9327\" → 60-15/16\" = 5'-0 15/16\". Without angles: offset = (81.125² − 69.5625² − 20²) ÷ 40 = 1342.3242 ÷ 40 = 33.5581, length = √(69.5625² − 33.5581²) = 60.9327.\n\nCheck by rebuilding the diagonals, √(length² + offset²) for the lower one and √(length² + (offset + 20)²) for the upper one: the right pair gives 69.5688\" and 81.1315\" (measured 69.5625 and 81.125). 5'-9 5/16\" with the same offset is the trap: that length is almost the lower diagonal itself (5'-9 9/16\"), but the length is a leg of the right triangle and must be shorter than the diagonal — this pair rebuilds 77.0108\" instead of 69.5625. 6'-4 1/2\" with 3'-6\" gives 87.2711\" and 98.4695\"; 2'-2\" with 5'-3 1/8\" gives 68.2698\" for the lower diagonal but 87.0963\" for the upper one. Using the hidden 14\" side instead of 20 would give offset 55.2259 and length 42.2971, which is not offered either.\n\nHow to use this: For a field offset take the side of the second duct that lies in the drawing — the first number of its size (20 of 20\"x14\"). Offset = (top diagonal² − bottom diagonal² − side²) ÷ (2 × side), length = √(bottom diagonal² − offset²). Both answers must be shorter than the diagonals, and rebuilding the diagonals from them is the quickest check of a picked option.",
+   "ru": "Length = 5'-15/16\" (то есть 5'-0 15/16\"), Offset = 2'-9 9/16\". Обе диагонали идут от P — нижнего угла торца duct 16\"x10\": 6'-9 1/8\" = 81.125\" к верхнему углу торца 20\"x14\", 5'-9 9/16\" = 69.5625\" — к его нижнему углу. Третья сторона — сторона 20\" второго duct: первая цифра размера duct — сторона, видимая на чертеже. cos γ = (69.5625² + 20² − 81.125²) ÷ (2 × 69.5625 × 20), γ = 118.8434°, подъём α = γ − 90° = 28.8434°. Offset = 69.5625 × sin α = 33.5581\" → 33-9/16\" = 2'-9 9/16\"; length = 69.5625 × cos α = 60.9327\" → 60-15/16\" = 5'-0 15/16\". Без углов: offset = (81.125² − 69.5625² − 20²) ÷ 40 = 1342.3242 ÷ 40 = 33.5581, length = √(69.5625² − 33.5581²) = 60.9327.\n\nПроверка — собрать диагонали обратно: √(length² + offset²) для нижней и √(length² + (offset + 20)²) для верхней. Верная пара даёт 69.5688\" и 81.1315\" (замерено 69.5625 и 81.125). 5'-9 5/16\" с тем же offset — ловушка: эта length почти равна самой нижней диагонали (5'-9 9/16\"), а length — катет прямоугольного треугольника и обязана быть короче диагонали; эта пара даёт 77.0108\" вместо 69.5625. 6'-4 1/2\" с 3'-6\" дают 87.2711\" и 98.4695\"; 2'-2\" с 5'-3 1/8\" дают 68.2698\" для нижней диагонали, но 87.0963\" для верхней. Если взять невидимую сторону 14\" вместо 20, вышло бы offset 55.2259 и length 42.2971 — такого варианта тоже нет.\n\nКак применять: для offset на объекте берут сторону второго duct, лежащую на чертеже, — первую цифру размера (20 из 20\"x14\"). Offset = (верхняя диагональ² − нижняя диагональ² − сторона²) ÷ (2 × сторона), length = √(нижняя диагональ² − offset²). Оба ответа должны быть короче диагоналей, а сборка диагоналей обратно — самая быстрая проверка выбранного варианта."
+  },
+  "opts": [
+   {
+    "en": "Length = 6'-4 1/2\" Offset = 3'-6\"",
+    "ru": "Length = 6'-4 1/2\" Offset = 3'-6\""
+   },
+   {
+    "en": "Length = 2'-2\" Offset = 5'-3 1/8\"",
+    "ru": "Length = 2'-2\" Offset = 5'-3 1/8\""
+   },
+   {
+    "en": "Length = 5'-9 5/16\" Offset = 2'-9 9/16\"",
+    "ru": "Length = 5'-9 5/16\" Offset = 2'-9 9/16\""
+   },
+   {
+    "en": "Length = 5'-15/16\" Offset = 2'-9 9/16\"",
+    "ru": "Length = 5'-15/16\" Offset = 2'-9 9/16\""
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single",
+  "fig": "f20-q60.svg",
+  "on": [
+   [
+    "F20",
+    60
+   ]
+  ]
+ },
+ {
+  "id": "F20-61",
+  "src": "F20",
+  "n": 61,
+  "topic": "math",
+  "q": {
+   "en": "Using the Law of Cosines, find angles A, B and C.",
+   "ru": "Используя law of cosines, найди углы A, B и C."
+  },
+  "why": {
+   "en": "A = 86°, B = 31°, C = 63°. Law of cosines: the cosine of an angle = (square of one side forming it + square of the other side forming it − square of the side opposite it) ÷ (2 × the two forming sides). Sides: 4'-2 3/4\" = 50.75\", 7'-2 1/2\" = 86.5\", 8'-1 1/4\" = 97.25\". A is at the top, between 50.75 and 86.5, opposite the 97.25 base: cos A = (50.75² + 86.5² − 97.25²) ÷ (2 × 50.75 × 86.5) = 600.25 ÷ 8779.75 = 0.0684, A = 86.0798° → 86°. B is at the right corner, opposite 50.75: cos B = (86.5² + 97.25² − 50.75²) ÷ (2 × 86.5 × 97.25) = 0.8538, B = 31.3745° → 31°. C is at the left corner, opposite 86.5: cos C = (50.75² + 97.25² − 86.5²) ÷ (2 × 50.75 × 97.25) = 0.4610, C = 62.5457° → 63°. Check: 86.0798 + 31.3745 + 62.5457 = 180, and the rounded 86 + 31 + 63 = 180.\n\nWrong options: 92° and 91° for A would be obtuse, but 50.75² + 86.5² = 10057.8125 is more than 97.25² = 9457.5625, so the top angle must be less than 90°. B = 63°, C = 86° and C = 31° are true values put at the wrong corner: the smallest angle always faces the shortest side (B, across from 4'-2 3/4\") and the largest faces the longest side (A, across from 8'-1 1/4\"). B = 46° fits no corner at all.\n\nHow to use this: Name each angle by the side opposite it, square the three sides, then cos = (sum of the squares of the two sides that form the angle − square of the opposite side) ÷ (2 × those two sides) and take the inverse cosine. If the opposite side squared is more than the other two squared together, the angle is obtuse (negative cosine). Always check that the three angles add up to 180° and that the biggest angle faces the longest side. On the course calculator: the side opposite A into CONV 4, opposite B into CONV 5, opposite C into CONV 6, then CONV 9 gives A, 9 again B, 9 again C.",
+   "ru": "A = 86°, B = 31°, C = 63°. Law of cosines: косинус угла = (квадрат одной стороны угла + квадрат другой стороны угла − квадрат стороны напротив) ÷ (2 × две стороны угла). Стороны: 4'-2 3/4\" = 50.75\", 7'-2 1/2\" = 86.5\", 8'-1 1/4\" = 97.25\". A — вверху, между 50.75 и 86.5, напротив основания 97.25: cos A = (50.75² + 86.5² − 97.25²) ÷ (2 × 50.75 × 86.5) = 600.25 ÷ 8779.75 = 0.0684, A = 86.0798° → 86°. B — в правом углу, напротив 50.75: cos B = (86.5² + 97.25² − 50.75²) ÷ (2 × 86.5 × 97.25) = 0.8538, B = 31.3745° → 31°. C — в левом углу, напротив 86.5: cos C = (50.75² + 97.25² − 86.5²) ÷ (2 × 50.75 × 97.25) = 0.4610, C = 62.5457° → 63°. Проверка: 86.0798 + 31.3745 + 62.5457 = 180, и округлённые 86 + 31 + 63 = 180.\n\nНеверные варианты: 92° и 91° для A — тупые углы, но 50.75² + 86.5² = 10057.8125 больше, чем 97.25² = 9457.5625, значит, верхний угол меньше 90°. B = 63°, C = 86° и C = 31° — верные значения, поставленные не к тому углу: самый маленький угол всегда лежит напротив самой короткой стороны (B, напротив 4'-2 3/4\"), самый большой — напротив самой длинной (A, напротив 8'-1 1/4\"). B = 46° не подходит ни к одному углу.\n\nКак применять: назвать каждый угол по стороне напротив, возвести три стороны в квадрат, затем cos = (сумма квадратов двух сторон угла − квадрат стороны напротив) ÷ (2 × эти две стороны) и взять арккосинус. Если квадрат стороны напротив больше суммы квадратов двух других, угол тупой (косинус отрицательный). Всегда проверять, что три угла дают 180° и что самый большой угол смотрит на самую длинную сторону. На калькуляторе курса: сторону напротив A — в CONV 4, напротив B — в CONV 5, напротив C — в CONV 6, затем CONV 9 даёт A, ещё 9 — B, ещё 9 — C."
+  },
+  "opts": [
+   {
+    "en": "A = 92 degrees",
+    "ru": "A = 92 градуса"
+   },
+   {
+    "en": "A = 91 degrees",
+    "ru": "A = 91 градус"
+   },
+   {
+    "en": "A = 86 degrees",
+    "ru": "A = 86 градусов"
+   },
+   {
+    "en": "B = 46 degrees",
+    "ru": "B = 46 градусов"
+   },
+   {
+    "en": "B = 31 degrees",
+    "ru": "B = 31 градус"
+   },
+   {
+    "en": "B = 63 degrees",
+    "ru": "B = 63 градуса"
+   },
+   {
+    "en": "C = 86 degrees",
+    "ru": "C = 86 градусов"
+   },
+   {
+    "en": "C = 63 degrees",
+    "ru": "C = 63 градуса"
+   },
+   {
+    "en": "C = 31 degrees",
+    "ru": "C = 31 градус"
+   }
+  ],
+  "answer": [
+   2,
+   4,
+   7
+  ],
+  "type": "multi",
+  "fig": "f20-q61.svg",
+  "on": [
+   [
+    "F20",
+    61
+   ]
+  ]
+ },
+ {
+  "id": "F20-62",
+  "src": "F20",
+  "n": 62,
+  "topic": "math",
+  "q": {
+   "en": "Using the Law of Cosines, find the angles of A, B and C.",
+   "ru": "Используя law of cosines, найди углы A, B и C."
+  },
+  "why": {
+   "en": "A = 34°, B = 51°, C = 95°. A is at the left corner, between 95\" and 121.5\", opposite 67.7\": cos A = (95² + 121.5² − 67.7²) ÷ (2 × 95 × 121.5) = 19203.96 ÷ 23085 = 0.8319, A = 33.7076° → 34°. B is at the right corner, opposite 95\": cos B = (67.7² + 121.5² − 95²) ÷ (2 × 67.7 × 121.5) = 10320.54 ÷ 16451.1 = 0.6273, B = 51.1454° → 51°. C is at the top, opposite 121.5\": cos C = (95² + 67.7² − 121.5²) ÷ (2 × 95 × 67.7) = -1153.96 ÷ 12863 = -0.0897, C = 95.1470° → 95°. Check: 33.7076 + 51.1454 + 95.1470 = 180; 34 + 51 + 95 = 180.\n\nWrong options: C must be obtuse, because 121.5² = 14762.25 is more than 95² + 67.7² = 13608.29 (that is why its cosine is negative), so 84° is impossible; 96° is a rounding slip (95.1470 rounds down to 95). A = 51° is the B value put at the wrong corner. A = 44°, B = 42° and B = 56° fit no corner: with C = 95°, A and B together must make 84.8530°, about 85°, and only 34 + 51 does.\n\nHow to use this: For each angle use the two sides that form it and the one opposite it: cos = (side² + side² − opposite²) ÷ (2 × side × side). A side squared that is bigger than the other two squared together means an obtuse angle across from it. Check that the angles add up to 180° and that the order of the angles matches the order of the sides opposite them.",
+   "ru": "A = 34°, B = 51°, C = 95°. A — в левом углу, между 95\" и 121.5\", напротив 67.7\": cos A = (95² + 121.5² − 67.7²) ÷ (2 × 95 × 121.5) = 19203.96 ÷ 23085 = 0.8319, A = 33.7076° → 34°. B — в правом углу, напротив 95\": cos B = (67.7² + 121.5² − 95²) ÷ (2 × 67.7 × 121.5) = 10320.54 ÷ 16451.1 = 0.6273, B = 51.1454° → 51°. C — вверху, напротив 121.5\": cos C = (95² + 67.7² − 121.5²) ÷ (2 × 95 × 67.7) = -1153.96 ÷ 12863 = -0.0897, C = 95.1470° → 95°. Проверка: 33.7076 + 51.1454 + 95.1470 = 180; 34 + 51 + 95 = 180.\n\nНеверные варианты: C обязан быть тупым, потому что 121.5² = 14762.25 больше, чем 95² + 67.7² = 13608.29 (поэтому его косинус отрицательный), так что 84° невозможно; 96° — ошибка округления (95.1470 округляется вниз, до 95). A = 51° — значение B, поставленное не к тому углу. A = 44°, B = 42° и B = 56° не подходят ни к одному углу: при C = 95° на A и B вместе остаётся 84.8530°, около 85°, и сходится только 34 + 51.\n\nКак применять: для каждого угла взять две стороны, которые его образуют, и одну напротив: cos = (сторона² + сторона² − напротив²) ÷ (2 × сторона × сторона). Если квадрат стороны больше суммы квадратов двух других, угол напротив неё тупой. Проверять, что углы дают 180° и что порядок углов по величине совпадает с порядком противолежащих сторон."
+  },
+  "opts": [
+   {
+    "en": "A = 44 degrees",
+    "ru": "A = 44 градуса"
+   },
+   {
+    "en": "A = 34 degrees",
+    "ru": "A = 34 градуса"
+   },
+   {
+    "en": "A = 51 degrees",
+    "ru": "A = 51 градус"
+   },
+   {
+    "en": "B = 51 degrees",
+    "ru": "B = 51 градус"
+   },
+   {
+    "en": "B = 42 degrees",
+    "ru": "B = 42 градуса"
+   },
+   {
+    "en": "B = 56 degrees",
+    "ru": "B = 56 градусов"
+   },
+   {
+    "en": "C = 95 degrees",
+    "ru": "C = 95 градусов"
+   },
+   {
+    "en": "C = 96 degrees",
+    "ru": "C = 96 градусов"
+   },
+   {
+    "en": "C = 84 degrees",
+    "ru": "C = 84 градуса"
+   }
+  ],
+  "answer": [
+   1,
+   3,
+   6
+  ],
+  "type": "multi",
+  "fig": "f20-q62.svg",
+  "on": [
+   [
+    "F20",
+    62
+   ]
+  ]
+ },
+ {
+  "id": "F20-63",
+  "src": "F20",
+  "n": 63,
+  "topic": "welding",
+  "q": {
+   "en": "Almost without exception GMAW is used with:",
+   "ru": "Почти без исключений GMAW используют с:"
+  },
+  "why": {
+   "en": "Reverse Polarity. GMAW (MIG) with solid wire runs on direct current, electrode positive (DCEP), and the older name for DCEP is reverse polarity: the gun cable goes to the positive terminal, the work clamp to the negative. That gives a stable arc, smooth metal transfer (short circuit or spray), little spatter and good penetration. Straight Polarity is DC electrode negative (DCEN): with solid MIG wire the arc is erratic and spattery; DCEN is used for GTAW (TIG) on steel and for some self-shielded flux-cored wires, which is a different process (FCAW). ACHF is alternating current with continuous high frequency — the GTAW setting for aluminum; GMAW does not run on AC, because the current passes through zero 120 times a second on 60 Hz and the wire arc keeps going out. DCHF is direct current with a high-frequency arc start, again a TIG feature: HF lights a tungsten arc without touching the work, while a MIG wire starts its arc by touching the work, so it needs no HF. The word \"almost\" leaves room for the flux-cored wires whose maker calls for DCEN.\n\nHow to use this: Polarity names come in pairs: DCEP = electrode positive = reverse; DCEN = electrode negative = straight. By process: GMAW → DCEP (reverse); GTAW → DCEN (straight) on steel and AC, usually with HF, on aluminum; SMAW → whatever the electrode class allows (E6010 DCEP only, E7018 AC or DCEP); flux-cored → read the wire box. HF belongs to TIG only.",
+   "ru": "Reverse Polarity. GMAW (MIG) со сплошной проволокой варят на постоянном токе с electrode на плюсе (DCEP), а старое название DCEP — reverse polarity: кабель горелки — на плюс, кабель массы (work clamp) — на минус. Это даёт устойчивую дугу, ровный перенос металла (short circuit или spray), мало брызг и хороший провар. Straight Polarity — это DC electrode negative (DCEN): со сплошной проволокой MIG дуга рваная, с брызгами; DCEN применяют в GTAW (TIG) по стали и с некоторыми самозащитными flux-cored проволоками, а это другой процесс (FCAW). ACHF — переменный ток с постоянной high frequency, режим GTAW для алюминия; GMAW на AC не работает: ток 120 раз в секунду (при 60 Hz) проходит через ноль, и дуга проволоки всё время гаснет. DCHF — постоянный ток с поджигом дуги high frequency, тоже функция TIG: HF зажигает дугу tungsten без касания детали, а проволока MIG зажигает дугу касанием, поэтому HF ей не нужен. Слово «almost» оставляет место flux-cored проволокам, для которых производитель указал DCEN.\n\nКак применять: названия полярности идут парами: DCEP = electrode на плюсе = reverse; DCEN = electrode на минусе = straight. По процессам: GMAW → DCEP (reverse); GTAW → DCEN (straight) по стали и AC, обычно с HF, по алюминию; SMAW → что разрешает класс electrode (E6010 только DCEP, E7018 AC или DCEP); flux-cored → читать коробку проволоки. HF бывает только у TIG."
+  },
+  "opts": [
+   {
+    "en": "Reverse Polarity",
+    "ru": "Reverse Polarity"
+   },
+   {
+    "en": "Straight Polarity",
+    "ru": "Straight Polarity"
+   },
+   {
+    "en": "ACHF",
+    "ru": "ACHF"
+   },
+   {
+    "en": "DCHF",
+    "ru": "DCHF"
    }
   ],
   "answer": [
    0
   ],
   "type": "single",
-  "fig": "cls-q01.svg",
   "on": [
    [
     "F20",
-    1
+    63
    ]
   ]
  },
  {
-  "id": "CLS-2",
-  "src": "CLS",
-  "n": 2,
-  "topic": "math",
+  "id": "F20-64",
+  "src": "F20",
+  "n": 64,
+  "topic": "shop",
   "q": {
-   "en": "Same triangle (A = 5'-11 1/2\", B = 3'-8\", C = 3'-0 1/2\"). What is angle C (the angle opposite side C)?",
-   "ru": "Тот же треугольник (A = 5'-11 1/2\", B = 3'-8\", C = 3'-0 1/2\"). Чему равен угол C (напротив стороны C)?"
+   "en": "What is meant by the term “Ferrous Metals”?",
+   "ru": "Что означает термин «Ferrous Metals»?"
   },
   "why": {
-   "en": "Angle C is opposite side C = 36.5\", so the two sides beside it are A = 71.5\" and B = 44\": cos C = (A² + B² − C²) ÷ (2·A·B) = (5112.25 + 1936 − 1332.25) ÷ (2 × 71.5 × 44) = 5716 ÷ 6292 = 0.90846, C = cos⁻¹(0.90846) = 24.71°. It is the smallest angle because 36.5\" is the shortest side. On the HVAC Pro, after Conv 9 shows angle A, press 9 for angle B and 9 again for angle C. The formula sheet, p. 12, prints this same triangle with the keystrokes and all three angles (A = 125.0364°, B = 30.25631°, C = 24.70727°), and p. 22 has the formula itself. A second way, once A = 125.04° is known: law of sines, sin C = 36.5 × sin 125.04° ÷ 71.5 = 0.4180, C = 24.71° (safe here, because the smallest angle of a triangle can never be obtuse). Check: 125.04 + 30.26 + 24.71 ≈ 180°. The other options: 30.26° is angle B (opposite the 44\" side); 125.04° is angle A (opposite the longest side); 65.29° = 90 − 24.71 is a right-triangle habit — in a right triangle the two small angles add to 90°, but this triangle has no 90° corner, and its three angles add to 180°.\n\nHow to use this: Find which side the asked angle faces: that side's square goes in with the minus sign, the other two sides go on top as squares and on the bottom as 2 × their product. The angles rank in the same order as the sides, so any answer can be checked at a glance. A complement (90 − x) belongs only to right triangles.",
-   "ru": "Угол C лежит напротив стороны C = 36.5\", рядом с ним стороны A = 71.5\" и B = 44\": cos C = (A² + B² − C²) ÷ (2·A·B) = (5112.25 + 1936 − 1332.25) ÷ (2 × 71.5 × 44) = 5716 ÷ 6292 = 0.90846, C = cos⁻¹(0.90846) = 24.71°. Это самый маленький угол, потому что 36.5\" — самая короткая сторона. На HVAC Pro: после того как Conv 9 показал угол A, нажать 9 — угол B, ещё раз 9 — угол C. На formula sheet, стр. 12, напечатан этот же треугольник с нажатиями и всеми тремя углами (A = 125.0364°, B = 30.25631°, C = 24.70727°), а на стр. 22 — сама формула. Второй способ, когда A = 125.04° уже известен: law of sines, sin C = 36.5 × sin 125.04° ÷ 71.5 = 0.4180, C = 24.71° (здесь безопасно: самый маленький угол треугольника тупым не бывает). Проверка: 125.04 + 30.26 + 24.71 ≈ 180°. Остальные варианты: 30.26° — угол B (напротив стороны 44\"); 125.04° — угол A (напротив самой длинной стороны); 65.29° = 90 − 24.71 — привычка из прямоугольного треугольника: там два острых угла дают 90°, но в этом треугольнике прямого угла нет, и три его угла в сумме дают 180°.\n\nКак применять: найди, напротив какой стороны спрашиваемый угол: её квадрат идёт с минусом, две другие стороны — сверху квадратами и снизу как 2 × их произведение. Углы по величине идут в том же порядке, что и стороны, — так любой ответ проверяется на глаз. Дополнение до 90 (90 − x) бывает только в прямоугольном треугольнике."
+   "en": "Metals containing iron. \"Ferrous\" comes from the Latin ferrum, iron: carbon (mild) steel, galvanized steel, stainless steel and cast iron are all ferrous, and most of them are magnetic — austenitic stainless such as 304 is the exception, ferrous but almost non-magnetic. Metals containing carbon is not the definition: carbon is the element that turns iron into steel (mild steel has less than about 0.3 %, tool steel much more), but the group is named for its iron. Metals containing aluminum describes aluminum alloys, which are non-ferrous, like copper, brass, zinc and lead. Metals containing chromium points to stainless steel (at least 10.5 % chromium, which forms the thin oxide film that stops rust); stainless is ferrous because of its iron, not because of the chromium.\n\nHow to use this: Ferrous = iron-based: steel, galvanized, stainless, cast iron. Non-ferrous = not iron-based: aluminum, copper, brass, zinc, lead. In the shop a magnet sorts most of them — it sticks to steel and cast iron, never to aluminum or copper; 304 stainless is the trap.",
+   "ru": "Metals containing iron — металлы, содержащие железо. «Ferrous» — от латинского ferrum, железо: углеродистая (mild) сталь, оцинкованная сталь, stainless и чугун — все ferrous, и большинство из них магнитятся; исключение — аустенитная stainless вроде 304: ferrous, но почти не магнитится. Углерод — не определение: это элемент, который превращает железо в сталь (в mild steel его меньше примерно 0.3 %, в инструментальной стали — много больше), но группа названа по железу. Алюминий — это алюминиевые сплавы, они non-ferrous, как медь, латунь, цинк и свинец. Хром указывает на stainless (не меньше 10.5 % хрома, он образует тонкую оксидную плёнку, которая не даёт ржаветь); stainless — ferrous из-за железа, а не из-за хрома.\n\nКак применять: ferrous = на основе железа: сталь, galvanized, stainless, чугун. Non-ferrous = не на основе железа: алюминий, медь, латунь, цинк, свинец. В мастерской большинство разделяет магнит: к стали и чугуну липнет, к алюминию и меди — никогда; ловушка — stainless 304."
   },
   "opts": [
    {
-    "en": "24.71°",
-    "ru": "24.71°"
+    "en": "Metals containing iron",
+    "ru": "Металлы, содержащие железо"
    },
    {
-    "en": "30.26°",
-    "ru": "30.26°"
+    "en": "Metals containing carbon",
+    "ru": "Металлы, содержащие углерод"
    },
    {
-    "en": "65.29°",
-    "ru": "65.29°"
+    "en": "Metals containing aluminum",
+    "ru": "Металлы, содержащие алюминий"
    },
    {
-    "en": "125.04°",
-    "ru": "125.04°"
+    "en": "Metals containing chromium",
+    "ru": "Металлы, содержащие хром"
    }
   ],
   "answer": [
    0
   ],
   "type": "single",
-  "fig": "cls-q01.svg",
   "on": [
    [
     "F20",
-    2
+    64
    ]
   ]
  },
  {
-  "id": "CLS-3",
-  "src": "CLS",
-  "n": 3,
-  "topic": "math",
+  "id": "F20-66",
+  "src": "F20",
+  "n": 66,
+  "topic": "safety",
   "q": {
-   "en": "Use the law of cosines. A duct offset connects an 18\"x20\" to a 24\"x20\". From the corner of the 18\"x20\", A = 7'-5 5/8\" runs to the far end of the 24\" side C and B = 6'-5 7/8\" to the near end. What is the OFFSET?",
-   "ru": "Используй law of cosines. Duct offset соединяет 18\"x20\" и 24\"x20\". От угла 18\"x20\" сторона A = 7'-5 5/8\" идёт к дальнему концу 24\" стороны C, сторона B = 6'-5 7/8\" — к ближнему. Чему равен OFFSET?"
+   "en": "Electrical power tools should ____.",
+   "ru": "Электроинструмент (power tools) должен ____."
   },
   "why": {
-   "en": "Lines A and B run from the corner of the 18\"x20\" to the two ends of the 24\" face (side C), so A, B and C make a triangle with all three sides known. In inches: A = 89.625\", B = 77.875\", C = 24\". Step 1, law of cosines for the angle opposite A (it is at the near end of the 24\" face, between B and C): cos = (B² + C² − A²) ÷ (2·B·C) = (6064.52 + 576 − 8032.64) ÷ 3738 = −0.37243, angle = 111.87°. On the HVAC Pro: A Conv 4, B Conv 5, C Conv 6, then Conv 9 — angle A = 111.87° shows first. The formula sheet, p. 12, gives these keystrokes, and the bottom of that page is this same offset drawing (18\"x20\" to 24\"x20\", A = 7'-5 5/8\", B = 6'-5 7/8\", OFFSET, OFFSET LENGTH). Step 2: the 24\" face is square to the duct run, so B leans 180 − 111.87 = 68.13° from the line of that face. Step 3, right triangle on B: OFFSET = 77.875 × cos 68.13° = 29.00\" → 29\"; OFFSET LENGTH = 77.875 × sin 68.13° = 72.27\". A shortcut gives the same: OFFSET = (A² − B² − C²) ÷ 2C = (8032.64 − 6064.52 − 576) ÷ 48 = 29.00\". The other options: 72-1/4\" is the OFFSET LENGTH (the horizontal distance), not the offset; 24\" is side C, the 24\" face of the 24\"x20\" duct, a given size; 53\" = 29 + 24 is the rise from the 18\"x20\" corner to the far end of the 24\" face, the vertical part of A (check: √(72.27² + 53²) = 89.62\" = A).\n\nHow to use this: In the field you often can't tape an offset directly, but you can tape two diagonals from one corner to both ends of the other opening. With those and the opening size, find an angle by the law of cosines, then split the slanted side into its vertical and horizontal parts with cos and sin — or go straight to OFFSET = (long² − short² − face²) ÷ (2 × face). The offset is measured between matching edges (bottom to bottom), so the face size is added only when the question asks about the far edge.",
-   "ru": "Линии A и B идут от угла 18\"x20\" к двум концам 24\" стороны (сторона C), так что A, B и C образуют треугольник с тремя известными сторонами. В дюймах: A = 89.625\", B = 77.875\", C = 24\". Шаг 1, law of cosines для угла напротив A (он у ближнего конца 24\" стороны, между B и C): cos = (B² + C² − A²) ÷ (2·B·C) = (6064.52 + 576 − 8032.64) ÷ 3738 = −0.37243, угол = 111.87°. На HVAC Pro: A Conv 4, B Conv 5, C Conv 6, потом Conv 9 — первым показывается угол A = 111.87°. На formula sheet, стр. 12, есть эти нажатия, а внизу той же страницы — этот же чертёж offset (18\"x20\" к 24\"x20\", A = 7'-5 5/8\", B = 6'-5 7/8\", OFFSET, OFFSET LENGTH). Шаг 2: 24\" сторона стоит под прямым углом к оси duct, поэтому B отклонена от линии этой стороны на 180 − 111.87 = 68.13°. Шаг 3, прямоугольный треугольник на B: OFFSET = 77.875 × cos 68.13° = 29.00\" → 29\"; OFFSET LENGTH = 77.875 × sin 68.13° = 72.27\". Короткий путь даёт то же: OFFSET = (A² − B² − C²) ÷ 2C = (8032.64 − 6064.52 − 576) ÷ 48 = 29.00\". Остальные варианты: 72-1/4\" — OFFSET LENGTH (расстояние по горизонтали), а не offset; 24\" — сторона C, то есть 24\" сторона duct 24\"x20\", это данный размер; 53\" = 29 + 24 — подъём от угла 18\"x20\" до дальнего конца 24\" стороны, вертикальная часть A (проверка: √(72.27² + 53²) = 89.62\" = A).\n\nКак применять: на объекте offset часто нельзя померить рулеткой напрямую, зато можно снять две диагонали от одного угла до обоих концов другого проёма. Имея их и размер проёма, найди угол по law of cosines, потом разложи наклонную сторону на вертикаль и горизонталь через cos и sin — или сразу OFFSET = (длинная² − короткая² − сторона проёма²) ÷ (2 × сторона проёма). Offset меряют между одинаковыми кромками (низ к низу), поэтому размер проёма прибавляют, только когда спрашивают про дальнюю кромку."
+   "en": "be double insulated or properly grounded. OSHA 1926.302(a)(1): electric power-operated tools must either be of the approved double-insulated type or be grounded; Washington has the same rule, WAC 296-155-360(1)(a). A grounded tool (three-prong plug) sends fault current back through the ground wire and trips the breaker; a double-insulated tool (two-prong plug, marked with a square inside a square) has a second layer of insulation, so live parts cannot reach the housing you hold. Either one is enough, so be double insulated alone and be properly grounded alone are each only half of the rule — the full answer names both. have built-in GFIC devices is wrong (GFIC is a misprint of GFCI, ground-fault circuit interrupter): the GFCI on a construction site protects the receptacle or cord the tool is plugged into, not the tool itself — OSHA 1926.404(b)(1) and WAC 296-155-447 require GFCI protection (or an assured equipment grounding conductor program) for 120-volt, 15- and 20-amp outlets that are not part of the building's permanent wiring.\n\nHow to use this: Two separate layers of protection: the tool (grounded or double insulated) and the power it plugs into (GFCI or an assured grounding program). Never cut off a ground pin or use a cheater plug; a two-prong tool is acceptable only when it is marked double insulated.",
+   "ru": "be double insulated or properly grounded — иметь двойную изоляцию или быть правильно заземлён. OSHA 1926.302(a)(1): электроинструмент должен быть либо утверждённого типа с двойной изоляцией, либо заземлён; в Washington то же правило — WAC 296-155-360(1)(a). Заземлённый инструмент (вилка с тремя штырями) уводит ток утечки по проводу заземления и выбивает автомат; инструмент с двойной изоляцией (вилка с двумя штырями, значок — квадрат в квадрате) имеет второй слой изоляции, и части под напряжением не могут попасть на корпус в руке. Достаточно одного из двух, поэтому «только двойная изоляция» и «только заземление» — каждый лишь половина правила, полный ответ называет оба. «Встроенные устройства GFIC» — неверно (GFIC — опечатка, правильно GFCI, ground-fault circuit interrupter): GFCI на стройке защищает розетку или удлинитель, куда включён инструмент, а не сам инструмент — OSHA 1926.404(b)(1) и WAC 296-155-447 требуют защиту GFCI (или программу assured equipment grounding conductor) для розеток 120 V, 15 и 20 A, которые не входят в постоянную проводку здания.\n\nКак применять: два отдельных уровня защиты — сам инструмент (заземлён или с двойной изоляцией) и питание, куда он включён (GFCI или программа assured grounding). Нельзя отламывать штырь заземления и ставить переходник без земли; инструмент с двумя штырями допустим, только если на нём знак двойной изоляции."
   },
   "opts": [
    {
-    "en": "29\"",
-    "ru": "29\""
+    "en": "be double insulated",
+    "ru": "иметь двойную изоляцию"
    },
    {
-    "en": "72-1/4\"",
-    "ru": "72-1/4\""
+    "en": "be properly grounded",
+    "ru": "быть правильно заземлён"
    },
    {
-    "en": "24\"",
-    "ru": "24\""
+    "en": "have built-in GFIC devices",
+    "ru": "иметь встроенные устройства GFIC"
    },
    {
-    "en": "53\"",
-    "ru": "53\""
+    "en": "be double insulated or properly grounded",
+    "ru": "иметь двойную изоляцию или быть правильно заземлён"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    66
+   ]
+  ]
+ },
+ {
+  "id": "F20-68",
+  "src": "F20",
+  "n": 68,
+  "topic": "shop",
+  "q": {
+   "en": "What is the minimum clearance between the bending leaf and the nose bar on a handbrake?",
+   "ru": "Какой минимальный зазор между bending leaf и nose bar на ручном brake (handbrake)?"
+  },
+  "why": {
+   "en": "1 ½ times the material thickness. On a hand (leaf) brake the clamping leaf holds the sheet, its front edge is the nose bar, and the bending leaf swings up and folds the metal around that nose. The nose bar is set back from the edge of the bending leaf to leave room for the metal to wrap around it: with too little room the sheet is pinched between nose and leaf, the bend is scarred or cracked and the brake is strained; the bigger the gap, the rounder the bend. The answer for this test is 1 ½ times the material thickness. 2 times the material thickness is a working setting that machine manuals give for heavier metal near the brake's capacity, more than the minimum; for a sharp bend in light gauge manuals go down to about one thickness. ¼ inch and ½ inch cannot be right because the clearance must follow the metal: for 16 ga (0.0598\") 1 ½ times is 0.0897\" (about 3/32\"), while ¼\" would be 4.18 times and ½\" 8.36 times the thickness — a loose, rounded bend.\n\nHow to use this: Brake settings are multiples of the metal thickness, not fixed numbers: set the nose bar back about 1 ½ thicknesses (16 ga: about 0.090\", 22 ga: about 0.045\"), check the first bend, move it in for a sharper bend on light metal and out for heavier metal. Never bend more than the rated capacity (16 ga mild steel on an 816 or 1016 brake).",
+   "ru": "1 ½ times the material thickness — полторы толщины материала. На ручном (листогибочном) brake прижимная балка (clamping leaf) держит лист, её передняя кромка — nose bar, а bending leaf поднимается и загибает металл вокруг этой кромки. Nose bar отодвигают от края bending leaf, чтобы металлу было где обогнуть кромку: если места мало, лист зажимается между nose и leaf, на гибе остаются задиры или трещина, и brake перегружается; чем больше зазор, тем круглее гиб. Ответ этого теста — 1 ½ толщины материала. 2 толщины — рабочая установка, которую руководства к станкам дают для более толстого металла близко к capacity brake, это больше минимума; для острого гиба на тонком металле руководства опускаются примерно до одной толщины. ¼ дюйма и ½ дюйма не могут быть ответом: зазор должен следовать за металлом. Для 16 ga (0.0598\") полторы толщины — 0.0897\" (около 3/32\"), а ¼\" — это 4.18 толщины и ½\" — 8.36 толщины: гиб выйдет рыхлым и круглым.\n\nКак применять: установки brake — кратные толщины металла, а не постоянные числа: nose bar отодвинуть примерно на 1 ½ толщины (16 ga — около 0.090\", 22 ga — около 0.045\"), проверить первый гиб, придвинуть для более острого гиба на тонком металле и отодвинуть для толстого. Никогда не гнуть больше номинала (capacity) — 16 ga mild steel на brake 816 или 1016."
+  },
+  "opts": [
+   {
+    "en": "1 ½ times the material thickness",
+    "ru": "1 ½ толщины материала"
+   },
+   {
+    "en": "2 times the material thickness",
+    "ru": "2 толщины материала"
+   },
+   {
+    "en": "¼ inch",
+    "ru": "¼ дюйма"
+   },
+   {
+    "en": "½ inch",
+    "ru": "½ дюйма"
    }
   ],
   "answer": [
    0
   ],
   "type": "single",
-  "fig": "cls-q03.svg",
   "on": [
    [
     "F20",
-    29
+    68
    ]
   ]
  },
  {
-  "id": "CLS-4",
-  "src": "CLS",
-  "n": 4,
+  "id": "F20-72",
+  "src": "F20",
+  "n": 72,
   "topic": "math",
   "q": {
-   "en": "Same duct offset (A = 7'-5 5/8\", B = 6'-5 7/8\", C = 24\"). What is the OFFSET LENGTH?",
-   "ru": "Тот же duct offset (A = 7'-5 5/8\", B = 6'-5 7/8\", C = 24\"). Чему равна OFFSET LENGTH?"
+   "en": "If your gross earnings for the week is $1,236.29 and your employer has a 3.5% deducted for a savings plan, how much of your gross will be going into savings for this week?",
+   "ru": "Если твой заработок до вычетов (gross) за неделю — $1,236.29 и работодатель удерживает 3.5% на сберегательный план (savings plan), сколько из gross пойдёт в сбережения за эту неделю?"
   },
   "why": {
-   "en": "Same triangle: A = 89.625\", B = 77.875\", C = 24\". Law of cosines: cos(angle opposite A) = (B² + C² − A²) ÷ (2·B·C) = −0.37243 → 111.87°, so B leans 180 − 111.87 = 68.13° from the 24\" face. On the HVAC Pro: A Conv 4, B Conv 5, C Conv 6, then Conv 9 — angle A = 111.87° shows first. The bottom of formula sheet p. 12 is this same offset drawing (A, B, C, OFFSET, OFFSET LENGTH), and the top of the page shows the keystrokes. OFFSET LENGTH, the horizontal distance between the two duct ends, = 77.875 × sin 68.13° = 72.27\"; to the nearest 16th 72.27 × 16 = 1156.4 → 1156/16 = 72-1/4\". Check two ways: from the offset, √(77.875² − 29.00²) = 72.27\"; with side A, √(72.27² + (29 + 24)²) = 89.62\" = 7'-5 5/8\". The other options: 29\" is the OFFSET (the vertical shift), not the length; 77-7/8\" is side B (6'-5 7/8\") and 89-5/8\" is side A (7'-5 5/8\") themselves — slanted diagonals, which are always longer than their horizontal part.\n\nHow to use this: A slanted measurement is a hypotenuse; its horizontal part (length) and vertical part (offset) are each shorter, and length² + offset² = slanted². So once you have the offset, length = √(diagonal² − offset²), and any option equal to a given diagonal is a trap. Convert feet-inches to inches before squaring, and round only the final answer to the 16th.",
-   "ru": "Тот же треугольник: A = 89.625\", B = 77.875\", C = 24\". Law of cosines: cos (угла напротив A) = (B² + C² − A²) ÷ (2·B·C) = −0.37243 → 111.87°, значит, B отклонена от 24\" стороны на 180 − 111.87 = 68.13°. На HVAC Pro: A Conv 4, B Conv 5, C Conv 6, потом Conv 9 — первым показывается угол A = 111.87°. Внизу formula sheet, стр. 12, — этот же чертёж offset (A, B, C, OFFSET, OFFSET LENGTH), а вверху страницы — нажатия. OFFSET LENGTH — расстояние по горизонтали между концами двух duct — = 77.875 × sin 68.13° = 72.27\"; до 1/16: 72.27 × 16 = 1156.4 → 1156/16 = 72-1/4\". Проверка двумя путями: через offset √(77.875² − 29.00²) = 72.27\"; через сторону A √(72.27² + (29 + 24)²) = 89.62\" = 7'-5 5/8\". Остальные варианты: 29\" — OFFSET (сдвиг по вертикали), а не длина; 77-7/8\" — сама сторона B (6'-5 7/8\"), 89-5/8\" — сама сторона A (7'-5 5/8\") — это наклонные диагонали, они всегда длиннее своей горизонтальной части.\n\nКак применять: наклонный размер — это гипотенуза; его горизонтальная часть (length) и вертикальная (offset) каждая короче, и length² + offset² = наклонная². Поэтому, когда offset известен, length = √(диагональ² − offset²), а вариант, равный данной диагонали, — ловушка. Футы-дюймы переводи в дюймы до возведения в квадрат, до 1/16 округляй только окончательный ответ."
+   "en": "$43.27. Percent means hundredths, so 3.5 % = 3.5 ÷ 100 = 0.035. $1,236.29 × 0.035 = $43.27015 → $43.27 (money is rounded to the cent). Wrong options: $432.70 moves the decimal point one place — it is 35 % (× 0.35 = 432.7015), ten times too much. $37.09 is 3 % (1236.29 × 0.03 = 37.0887), the half percent dropped. $35.32 comes from dividing by 35 (1236.29 ÷ 35 = 35.3226) instead of multiplying by 0.035. Quick check: 1 % of $1,236.29 is $12.3629, so 3.5 % must be about 3.5 × 12.3629 = 43.2701.\n\nHow to use this: Part = whole × percent ÷ 100. Estimate first with 1 % (move the decimal point two places left) and multiply by the percent; an answer ten times off means the decimal point slipped. The same method gives any deduction taken as a percent of gross pay.",
+   "ru": "$43.27. Процент — это сотые доли, поэтому 3.5 % = 3.5 ÷ 100 = 0.035. $1,236.29 × 0.035 = $43.27015 → $43.27 (деньги округляют до цента). Неверные варианты: $432.70 — сдвинута запятая на один знак, это 35 % (× 0.35 = 432.7015), в десять раз больше. $37.09 — это 3 % (1236.29 × 0.03 = 37.0887), потеряна половина процента. $35.32 — разделили на 35 (1236.29 ÷ 35 = 35.3226) вместо умножения на 0.035. Быстрая проверка: 1 % от $1,236.29 — $12.3629, значит, 3.5 % — около 3.5 × 12.3629 = 43.2701.\n\nКак применять: часть = целое × процент ÷ 100. Сначала прикинуть через 1 % (запятая на два знака влево) и умножить на число процентов; ответ, отличающийся в десять раз, — значит, съехала запятая. Тем же способом считается любое удержание в процентах от gross."
   },
   "opts": [
    {
-    "en": "72-1/4\"",
-    "ru": "72-1/4\""
+    "en": "$35.32",
+    "ru": "$35.32"
    },
    {
-    "en": "29\"",
-    "ru": "29\""
+    "en": "$37.09",
+    "ru": "$37.09"
    },
    {
-    "en": "77-7/8\"",
-    "ru": "77-7/8\""
+    "en": "$43.27",
+    "ru": "$43.27"
    },
    {
-    "en": "89-5/8\"",
-    "ru": "89-5/8\""
+    "en": "$432.70",
+    "ru": "$432.70"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    72
+   ]
+  ]
+ },
+ {
+  "id": "F20-74",
+  "src": "F20",
+  "n": 74,
+  "topic": "math",
+  "q": {
+   "en": "The interest payment on a used $12,000 brake is 12% per year. If the loan is for one year, what is the monthly payment? (Note: this is simple interest)",
+   "ru": "Проценты по кредиту на подержанный brake за $12,000 — 12% в год. Если кредит на один год, какой ежемесячный платёж? (Примечание: это простые проценты)"
+  },
+  "why": {
+   "en": "$1,120.00 per month. Simple interest = principal × rate × time = $12,000 × 0.12 × 1 year = $1,440. The total to pay back is $12,000 + $1,440 = $13,440, in 12 monthly payments: $13,440 ÷ 12 = $1,120.00. Wrong options: $1,000.00 is $12,000 ÷ 12 = $1,000.00 — the interest is forgotten. $1,344.00 is $13,440 ÷ 10 = $1,344.00, dividing by 10 instead of by the 12 months. $1,210.00 is what 21 % would give ($12,000 × 1.21 ÷ 12 = $1,210.00) — the digits of the rate swapped. Check: each payment is $1,000 of the price plus $120 of interest ($1,440 ÷ 12), and 1,000 + 120 = 1,120.\n\nHow to use this: Simple interest I = P × r × t (rate as a decimal, time in years); total = P + I; monthly payment = total ÷ number of months. A bank loan usually charges interest only on the balance still owed, which gives a smaller payment ($1,066.19 a month here at 1 % a month), but the question says simple interest.",
+   "ru": "$1,120.00 в месяц. Простые проценты = сумма × ставка × время = $12,000 × 0.12 × 1 год = $1,440. Вернуть всего $12,000 + $1,440 = $13,440, за 12 ежемесячных платежей: $13,440 ÷ 12 = $1,120.00. Неверные варианты: $1,000.00 — это $12,000 ÷ 12 = $1,000.00, забыли проценты. $1,344.00 — это $13,440 ÷ 10 = $1,344.00, разделили на 10 вместо 12 месяцев. $1,210.00 — так вышло бы при 21 % ($12,000 × 1.21 ÷ 12 = $1,210.00): цифры ставки переставлены. Проверка: каждый платёж — $1,000 за сам brake плюс $120 процентов ($1,440 ÷ 12), и 1,000 + 120 = 1,120.\n\nКак применять: простые проценты I = P × r × t (ставка десятичной дробью, время в годах); всего = P + I; ежемесячный платёж = всего ÷ число месяцев. Банковский кредит обычно начисляет проценты только на остаток долга, и платёж выходит меньше (здесь $1,066.19 в месяц при 1 % в месяц), но в вопросе сказано: простые проценты."
+  },
+  "opts": [
+   {
+    "en": "$1,000.00 per month",
+    "ru": "$1,000.00 в месяц"
+   },
+   {
+    "en": "$1,120.00 per month",
+    "ru": "$1,120.00 в месяц"
+   },
+   {
+    "en": "$1,210.00 per month",
+    "ru": "$1,210.00 в месяц"
+   },
+   {
+    "en": "$1,344.00 per month",
+    "ru": "$1,344.00 в месяц"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    74
+   ]
+  ]
+ },
+ {
+  "id": "F20-76",
+  "src": "F20",
+  "n": 76,
+  "topic": "safety",
+  "q": {
+   "en": "Fall protection must be used if a worker could fall ____ feet or more.",
+   "ru": "Fall protection обязательна, если работник может упасть с высоты ____ футов и больше."
+  },
+  "why": {
+   "en": "4. In Washington, WAC 296-880-20005 requires fall protection wherever a worker could fall 4 feet or more (and at any height over dangerous equipment), and this stricter state rule is the one followed on our jobs. For points — 4; 6 is also a correct number in another setting: it is the federal OSHA trigger for construction (1926.501(b)(1)), used in states without a stricter rule of their own. 10 feet is the federal height for scaffolds (1926.451(g)(1)), a different rule. 8 feet is not a construction trigger in either rule. Keep the trigger height apart from the free-fall limit: a personal fall arrest system must not let you fall freely more than 6 feet.\n\nHow to use this: Two questions, two kinds of numbers. When is protection required: Washington 4 ft, OSHA construction 6 ft, OSHA scaffolds 10 ft, any height over dangerous equipment. How far may you free-fall in an arrest system: 6 ft. A question that names OSHA wants the federal number; on a Washington test without that word, give 4.",
+   "ru": "4. В Washington WAC 296-880-20005 требует fall protection везде, где работник может упасть с 4 футов и больше (и на любой высоте над опасным оборудованием), и на наших объектах выполняется это более строгое правило штата. Для балла — 4; 6 тоже верное число, но в другом случае: это федеральный порог OSHA для стройки (1926.501(b)(1)), он действует в штатах без собственного, более строгого правила. 10 футов — федеральная высота для scaffold (1926.451(g)(1)), это другое правило. 8 футов — не порог для стройки ни в одном из правил. Порог высоты не путать с пределом свободного падения: personal fall arrest system не должна давать падать свободно больше 6 футов.\n\nКак применять: два вопроса — два вида чисел. Когда защита обязательна: Washington 4 ft, OSHA для стройки 6 ft, OSHA для scaffold 10 ft, над опасным оборудованием — на любой высоте. Сколько можно падать свободно в системе остановки падения: 6 ft. Если в вопросе названа OSHA — федеральное число; на тесте в Washington без этого слова — 4."
+  },
+  "opts": [
+   {
+    "en": "4",
+    "ru": "4"
+   },
+   {
+    "en": "6",
+    "ru": "6"
+   },
+   {
+    "en": "8",
+    "ru": "8"
+   },
+   {
+    "en": "10",
+    "ru": "10"
    }
   ],
   "answer": [
    0
   ],
   "type": "single",
-  "fig": "cls-q03.svg",
   "on": [
    [
     "F20",
-    30
+    76
    ]
   ]
  },
  {
-  "id": "CLS-8",
-  "src": "CLS",
-  "n": 8,
+  "id": "F20-77",
+  "src": "F20",
+  "n": 77,
+  "topic": "math",
+  "q": {
+   "en": "What is the stretch-out of a piece of round pipe with a 16\" diameter?",
+   "ru": "Какова stretch-out (длина развёртки) круглой трубы диаметром 16\"?"
+  },
+  "why": {
+   "en": "50-1/4\". The stretch-out of round pipe is the length of flat sheet that rolls into the circle — its circumference: π × D = π × 16 = 50.2655\". To the nearest 1/16: 50.2655 × 16 = 804.25 sixteenths → 804/16 = 50-1/4\". Wrong options: 50-3/8\" is 0.1095\" too long — rounded up to the next eighth instead of to the nearest sixteenth (50-1/4\" is only 0.0155\" off). 201-1/16\" is the area of the 16\" circle, π × r² = π × 8² = 201.0619 sq. in.: the area formula, and square inches are not a length. In the shop the seam allowance (for example the lap or the lock of the longitudinal seam) is added to this stretch-out before the blank is sheared.\n\nHow to use this: Round pipe stretch-out = π × diameter (= 2 × π × radius); round only the final number to the nearest 1/16 (× 16, round, ÷ 16). Quick check: a bit more than 3 × D (3 × 16 = 48). Area (π × r²) is in square inches and answers a different question.",
+   "ru": "50-1/4\". Stretch-out круглой трубы — длина плоского листа, который сворачивается в круг, то есть длина окружности: π × D = π × 16 = 50.2655\". До 1/16: 50.2655 × 16 = 804.25 шестнадцатых → 804/16 = 50-1/4\". Неверные варианты: 50-3/8\" длиннее на 0.1095\" — округлили вверх до восьмой вместо ближайшей шестнадцатой (50-1/4\" отличается всего на 0.0155\"). 201-1/16\" — это площадь круга 16\", π × r² = π × 8² = 201.0619 sq. in.: формула площади, а квадратные дюймы — не длина. В мастерской к этой stretch-out ещё добавляют припуск на шов (например, нахлёст или замок продольного шва), прежде чем резать заготовку.\n\nКак применять: stretch-out круглой трубы = π × диаметр (= 2 × π × радиус); округлять до 1/16 только итог (× 16, округлить, ÷ 16). Быстрая проверка: чуть больше 3 × D (3 × 16 = 48). Площадь (π × r²) — в квадратных дюймах и отвечает на другой вопрос."
+  },
+  "opts": [
+   {
+    "en": "50-1/4\"",
+    "ru": "50-1/4\""
+   },
+   {
+    "en": "50-3/8\"",
+    "ru": "50-3/8\""
+   },
+   {
+    "en": "201-1/16\"",
+    "ru": "201-1/16\""
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    77
+   ]
+  ]
+ },
+ {
+  "id": "F20-81",
+  "src": "F20",
+  "n": 81,
+  "topic": "safety",
+  "q": {
+   "en": "The rejection criteria for synthetic slings includes: (Choose the answer that best fits)",
+   "ru": "Признаки отбраковки synthetic slings включают: (выбери наиболее подходящий ответ)"
+  },
+  "why": {
+   "en": "Burns, melting or charring, holes, tears, cuts or snags, broken stitching in splices. A synthetic (nylon or polyester) web or round sling is taken out of service when inspection finds any of these. The Washington list, WAC 296-155-33820 Table 15 (the same as ASME B30.9), also names missing or unreadable identification tags, acid or caustic burns, excessive abrasive wear, knots, discoloration and brittle or stiff areas from chemicals or sunlight, and damaged fittings or hooks. Worn or stretched links belongs to alloy steel chain slings — a web sling has no links — so that option mixes two kinds of sling. 5 broken stitches in 10 inches is not a rule anywhere: any broken or worn stitching in a load-bearing splice removes a synthetic sling. Counting broken pieces over a length is how wire rope slings are judged (ASME B30.9: 10 randomly distributed broken wires in one rope lay, or 5 broken wires in one strand in one rope lay), so that option borrows the wire rope rule.\n\nHow to use this: Inspect every sling before use and remove it at the first sign from its own list: synthetic — burns, melting, holes, tears, cuts, snags, broken stitches, missing tag; chain — stretched, bent or worn links, cracks; wire rope — broken wires, kinks, birdcaging, crushing. A sling with no tag is out of service even if it looks new.",
+   "ru": "Burns, melting or charring, holes, tears, cuts or snags, broken stitching in splices — ожоги, оплавление или обугливание, дыры, разрывы, порезы или зацепы, порванная прошивка в splices. Synthetic sling (лента или round sling из nylon или polyester) снимают с работы, если при осмотре найдено любое из этого. Список Washington — WAC 296-155-33820, Table 15 (совпадает с ASME B30.9) — называет ещё: нет бирки или её не прочитать, ожоги кислотой или щёлочью, сильный износ, узлы, обесцвечивание, ломкие или жёсткие места от химии или солнца, повреждённые fittings и крюки. Изношенные или растянутые звенья (links) — признак для цепных slings из легированной стали, у ленты звеньев нет, так что этот вариант смешивает два вида slings. «5 порванных стежков на 10 дюймов» — такого правила нет нигде: любая порванная или изношенная прошивка в несущем splice снимает synthetic sling с работы. Счёт обрывов на длине — правило для wire rope slings (ASME B30.9: 10 случайных оборванных проволок на одном шаге свивки или 5 в одной пряди на одном шаге), этот вариант позаимствовал правило троса.\n\nКак применять: осматривать каждый sling перед работой и снимать по первому признаку из его собственного списка: synthetic — ожоги, оплавление, дыры, разрывы, порезы, зацепы, порванные стежки, нет бирки; цепь — растянутые, погнутые или изношенные звенья, трещины; трос — оборванные проволоки, перегибы, «корзинка» (birdcaging), смятие. Sling без бирки к работе не допускается, даже если выглядит новым."
+  },
+  "opts": [
+   {
+    "en": "Burns, melting or charring, holes, tears, cuts or snags, broken stitching in splices",
+    "ru": "Ожоги, оплавление или обугливание, дыры, разрывы, порезы или зацепы (snags), порванная прошивка в splices"
+   },
+   {
+    "en": "Burns, melting or charring, worn or stretched links, broken stitching in splices.",
+    "ru": "Ожоги, оплавление или обугливание, изношенные или растянутые звенья, порванная прошивка в splices."
+   },
+   {
+    "en": "Burns, melting or charring, holes, tears, cuts, or snags, 5 broken stitches in 10 inches.",
+    "ru": "Ожоги, оплавление или обугливание, дыры, разрывы, порезы или зацепы, 5 порванных стежков на 10 дюймов."
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    81
+   ]
+  ]
+ },
+ {
+  "id": "F20-82",
+  "src": "F20",
+  "n": 82,
   "topic": "trade",
   "q": {
-   "en": "Always use what type of tool for the job?",
-   "ru": "Каким инструментом всегда нужно пользоваться для работы?"
+   "en": "Storing duct sections near the installation site is called ____.",
+   "ru": "Хранение секций duct рядом с местом монтажа называется ____."
   },
   "why": {
-   "en": "Right: always use the tool made for the job, not the one that happens to be nearest. A tool used for work it was not designed for slips, breaks or spoils the piece: snips used as a pry bar spring their jaws, a screwdriver used as a chisel or punch chips and throws pieces, pliers used as a hammer crack, an adjustable wrench set loose rounds the nut and slips. Most hand-tool injuries come from this kind of misuse and from damaged tools. OSHA 1926.301 forbids unsafe hand tools: no wrenches with jaws sprung to the point of slipping, no chisels or drift pins with mushroomed heads, no cracked or loose wooden handles. \"Nearest\" saves a few seconds, and that is the trap.\n\nHow to use this: On safety questions the right answer is the one that matches the tool to the task and checks the tool's condition before use; convenience is never the right answer.",
-   "ru": "Right — всегда инструмент, сделанный для этой работы, а не тот, что оказался ближе (nearest). Инструмент не по назначению срывается, ломается или портит деталь: у snips, которыми поддевают как ломиком, разжимаются губки; отвёртка вместо зубила или керна скалывается, и осколки летят; пассатижи вместо молотка трескаются; разводной ключ, затянутый неплотно, скругляет гайку и срывается. Большинство травм от ручного инструмента — от такого применения и от повреждённого инструмента. OSHA 1926.301 запрещает неисправный ручной инструмент: никаких ключей с разжатыми до проскальзывания губками, зубил и drift pins с расплющенной «грибом» головкой, треснувших или болтающихся деревянных ручек. Nearest экономит пару секунд — это и есть ловушка.\n\nКак применять: в вопросах по безопасности верный ответ — тот, где инструмент подобран под задачу и проверен перед работой; удобство никогда не бывает правильным ответом."
+   "en": "staging. Staging is storing duct and fittings close to where they will be installed — on the floor or area they belong to, protected from damage and weather, sorted by system and in the order they will go up — so the crew does not walk back to the lay-down yard for every piece. planning comes first: studying the drawings, setting the sequence, choosing hangers, lifts and rigging, and coordinating with the other trades. distribution is moving the pieces from the staging area to the exact spots under each run where they will be hung. sectioning is joining several pieces on the floor into a longer section that is lifted and hung as one. Of the four, only staging means storing near the installation site.\n\nHow to use this: Remember the order: plan the job, stage material near the work, distribute pieces to their hanging spots, section them on the floor, then hang. Where material is kept → staging; moving it to each location → distribution; joining pieces before the lift → sectioning.",
+   "ru": "staging. Staging — хранение duct и fittings рядом с местом, где их будут монтировать: на том этаже или участке, куда они идут, защищёнными от повреждений и погоды, разобранными по системам и в порядке подъёма, чтобы бригада не ходила за каждой деталью на дальнюю площадку складирования. planning идёт первым: изучить чертежи, задать последовательность, выбрать подвесы, подъёмники и такелаж, согласовать работу с другими trades. distribution — разнести детали из зоны staging точно к местам под каждой трассой, где их будут вешать. sectioning — соединить несколько деталей на полу в длинную секцию, которую поднимают и вешают целиком. Из четырёх только staging означает хранение рядом с местом монтажа.\n\nКак применять: запомнить порядок: спланировать работу, разместить материал рядом с работой (staging), разнести детали к местам подвески (distribution), собрать их в секции на полу (sectioning), затем вешать. Где хранится материал → staging; доставка к каждому месту → distribution; соединение до подъёма → sectioning."
   },
   "opts": [
    {
-    "en": "Right",
-    "ru": "Right"
+    "en": "staging",
+    "ru": "staging"
    },
    {
-    "en": "Nearest",
-    "ru": "Nearest"
+    "en": "planning",
+    "ru": "planning"
+   },
+   {
+    "en": "distribution",
+    "ru": "distribution"
+   },
+   {
+    "en": "sectioning",
+    "ru": "sectioning"
    }
   ],
   "answer": [
@@ -9162,7 +9275,1386 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    5
+    82
+   ]
+  ]
+ },
+ {
+  "id": "F20-83",
+  "src": "F20",
+  "n": 83,
+  "topic": "trade",
+  "q": {
+   "en": "Joining ductwork and fittings on the floor before hanging them is called____.",
+   "ru": "Соединение duct и fittings на полу перед подвеской называется ____."
+  },
+  "why": {
+   "en": "sectioning. Sectioning is joining ductwork and fittings on the floor into longer sections before they are lifted: the joints (S&D, Pittsburgh closures, flanges, sealant) are made at a comfortable height, which is faster and safer than working from a ladder or lift, and fewer lifts are needed. The section still has to suit the lift or rigging and fit between obstacles on the way up. staging is storing material near the installation site. planning comes first: studying the drawings, setting the sequence, choosing hangers, lifts and rigging, and coordinating with the other trades. distribution is moving pieces from the staging area to the spot under each run where they will hang. Of the four, only sectioning means joining before hanging.\n\nHow to use this: The order is plan, stage, distribute, section, hang. Joining before the lift → sectioning; keeping material near the work → staging; moving pieces to their hanging spots → distribution.",
+   "ru": "sectioning. Sectioning — соединение duct и fittings на полу в длинные секции до подъёма: соединения (S&D, закрытие Pittsburgh, flanges, герметик) делают на удобной высоте, это быстрее и безопаснее, чем со стремянки или подъёмника, и подъёмов нужно меньше. Секция при этом должна подходить под подъёмник или такелаж и проходить между препятствиями. staging — хранение материала рядом с местом монтажа. planning идёт первым: изучить чертежи, задать последовательность, выбрать подвесы, подъёмники и такелаж, согласовать работу с другими trades. distribution — разнести детали из зоны staging к местам под каждой трассой, где их будут вешать. Из четырёх только sectioning означает соединение до подвески.\n\nКак применять: порядок — planning, staging, distribution, sectioning, подвеска. Соединение до подъёма → sectioning; материал рядом с работой → staging; доставка деталей к местам подвески → distribution."
+  },
+  "opts": [
+   {
+    "en": "staging",
+    "ru": "staging"
+   },
+   {
+    "en": "planning",
+    "ru": "planning"
+   },
+   {
+    "en": "distribution",
+    "ru": "distribution"
+   },
+   {
+    "en": "sectioning",
+    "ru": "sectioning"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    83
+   ]
+  ]
+ },
+ {
+  "id": "F20-85",
+  "src": "F20",
+  "n": 85,
+  "topic": "shop",
+  "q": {
+   "en": "Copper is gauged by pounds per square foot.",
+   "ru": "Толщину меди (copper) задают в фунтах на квадратный фут."
+  },
+  "why": {
+   "en": "False. Sheet copper is named by its weight in ounces per square foot: 16 oz copper weighs 16 oz (1 lb) per square foot and is about 0.0216\" thick, 20 oz is about 0.0270\". Pounds per square foot is the unit for sheet lead (for example 4 lb lead, about 1/16\" thick, used for flashing and roof jacks), so the statement gives copper the lead unit. The statement would be true for lead, or for copper if it said ounces per square foot. Steel and galvanized are called by gauge number, aluminum by decimals of an inch.\n\nHow to use this: Each metal has its own thickness language: steel and galvanized — gauge number (lower = thicker); copper — ounces per square foot; lead — pounds per square foot; aluminum — decimal inches. A true/false question that swaps the units between metals is false.",
+   "ru": "Неверно. Листовую медь называют весом квадратного фута в унциях: 16 oz copper весит 16 oz (1 lb) на квадратный фут и имеет толщину около 0.0216\", 20 oz — около 0.0270\". Фунты на квадратный фут — единица листового свинца (например, 4 lb lead, около 1/16\" толщиной, идёт на flashing и roof jacks), так что утверждение дало меди единицу свинца. Оно было бы верным для свинца или для меди со словами «ounces per square foot». Сталь и galvanized называют номером gauge, алюминий — десятичными долями дюйма.\n\nКак применять: у каждого металла свой язык толщины: сталь и galvanized — номер gauge (меньше номер — толще); медь — унции на квадратный фут; свинец — фунты на квадратный фут; алюминий — десятичные дюймы. Утверждение, где единицы перепутаны между металлами, — неверно."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "Верно"
+   },
+   {
+    "en": "False",
+    "ru": "Неверно"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    85
+   ]
+  ]
+ },
+ {
+  "id": "F20-87",
+  "src": "F20",
+  "n": 87,
+  "topic": "math",
+  "q": {
+   "en": "The two most commonly used triangles are a 45-45-90° triangle and a 30-60-90°triangle.",
+   "ru": "Два самых распространённых треугольника — 45-45-90° и 30-60-90°."
+  },
+  "why": {
+   "en": "True. These are the two special right triangles that layout and drafting use all the time. Drafting triangles (set squares) come in exactly these two shapes, so with a straightedge you draw 90°, 45°, 30° and 60° lines directly, and 15° and 75° by combining the two. Their sides follow fixed ratios: 45-45-90 is 1 : 1 : 1.4142, so the travel of a 45° offset is the offset × 1.4142; 30-60-90 is 1 : 1.7321 : 2, so the side opposite 30° is half the hypotenuse and the travel of a 30° offset is twice the offset. Other right triangles such as 3-4-5 are used to check a square corner, but they are not standard angle tools. The statement would be false only if it named some other pair.\n\nHow to use this: Remember the ratios: 45-45-90 — legs equal, hypotenuse = leg × 1.4142; 30-60-90 — short leg 1, long leg 1.7321, hypotenuse 2. With them many offset and layout problems need no trig table.",
+   "ru": "Верно. Это два особых прямоугольных треугольника, которые постоянно используют в layout и черчении. Чертёжные угольники бывают именно этих двух форм, поэтому с линейкой сразу чертят линии 90°, 45°, 30° и 60°, а 15° и 75° — сочетанием двух угольников. Стороны у них в постоянных отношениях: 45-45-90 — 1 : 1 : 1.4142, поэтому travel offset на 45° = offset × 1.4142; 30-60-90 — 1 : 1.7321 : 2, поэтому катет напротив 30° равен половине гипотенузы, а travel offset на 30° вдвое больше offset. Другие прямоугольные треугольники, например 3-4-5, служат для проверки прямого угла, но это не стандартные инструменты для углов. Утверждение было бы неверным, только если бы называло другую пару.\n\nКак применять: запомнить отношения: 45-45-90 — катеты равны, гипотенуза = катет × 1.4142; 30-60-90 — малый катет 1, большой 1.7321, гипотенуза 2. С ними многие задачи на offset и layout решаются без таблицы тригонометрии."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "Верно"
+   },
+   {
+    "en": "False",
+    "ru": "Неверно"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    87
+   ]
+  ]
+ },
+ {
+  "id": "F20-88",
+  "src": "F20",
+  "n": 88,
+  "topic": "shop",
+  "q": {
+   "en": "What does the first two numbers in a brake’s capacity rating indicate?",
+   "ru": "Что означают первые две цифры в capacity rating у brake?"
+  },
+  "why": {
+   "en": "The length of the metal that can be bent. A brake's rating reads length first, then gauge: a 1016 brake bends sheet up to 10 feet long in 16 ga mild steel, an 816 brake up to 8 feet in 16 ga. The thickness of the metal is the last two numbers (the gauge), not the first. The type of metal is not in the rating at all: capacity is always given for mild steel, and harder metals such as stainless must be lighter than the rated gauge. A shear is rated the other way round — gauge first, then length (a 1652 shear cuts 16 ga up to 52\"), so read the digits by the machine. none of the above is wrong because the length option is correct.\n\nHow to use this: Brake — feet, then gauge (816, 1016); shear — gauge, then length (1652). First check which machine the question names, then read the digits in that machine's order; on the job read the capacity plate.",
+   "ru": "The length of the metal that can be bent — длину металла, который можно согнуть. Номинал brake читают так: сначала длина, потом gauge: brake 1016 гнёт лист длиной до 10 футов из 16 ga mild steel, brake 816 — до 8 футов 16 ga. Толщина металла — это последние две цифры (gauge), а не первые. Типа металла в номинале нет вообще: capacity всегда указана для mild steel, а более твёрдые металлы, например stainless, должны быть тоньше номинального gauge. У shear наоборот — сначала gauge, потом длина (shear 1652 режет 16 ga длиной до 52\"), поэтому цифры читают по станку. «Ничего из перечисленного» неверно, потому что вариант про длину верен.\n\nКак применять: brake — футы, потом gauge (816, 1016); shear — gauge, потом длина (1652). Сначала понять, о каком станке вопрос, потом читать цифры в его порядке; на работе — смотреть табличку capacity на станке."
+  },
+  "opts": [
+   {
+    "en": "The thickness of the metal that can be bent?",
+    "ru": "Толщину металла, который можно согнуть?"
+   },
+   {
+    "en": "The length of the metal that can be bent?",
+    "ru": "Длину металла, который можно согнуть?"
+   },
+   {
+    "en": "The type of metal that can be bent?",
+    "ru": "Тип металла, который можно согнуть?"
+   },
+   {
+    "en": "none of the above",
+    "ru": "ничего из перечисленного"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    88
+   ]
+  ]
+ },
+ {
+  "id": "F20-89",
+  "src": "F20",
+  "n": 89,
+  "topic": "shop",
+  "q": {
+   "en": "The last two numbers in a brake's capacity rating indicate",
+   "ru": "Последние две цифры в capacity rating у brake означают"
+  },
+  "why": {
+   "en": "the maximum gage of metal that can be bent. In 1016 the 16 is the gauge: the brake bends mild steel up to 16 ga (0.0598\") and anything thinner — 18, 20, 22 ga; 14 ga (0.0747\") would overload it. \"Maximum\" means the heaviest metal, which is the lowest gauge number allowed (\"gage\" is an older spelling of gauge). the length of metal is the first two numbers (10 feet in 1016). type of metal is not part of the rating: the rating is for mild steel, and stainless or other harder metals must be lighter. none of the above is wrong because the gauge option is correct.\n\nHow to use this: On a brake the last digits are the heaviest mild steel gauge it takes; any higher gauge number (thinner) is fine, any lower number (thicker) is over capacity. On a shear the gauge comes first.",
+   "ru": "the maximum gage of metal that can be bent — максимальный gage металла, который можно согнуть. В 1016 число 16 — это gauge: brake гнёт mild steel до 16 ga (0.0598\") и всё, что тоньше, — 18, 20, 22 ga; 14 ga (0.0747\") его перегрузит. «Максимальный» значит самый толстый металл, то есть самый маленький допустимый номер gauge (gage — старое написание gauge). Длина металла — первые две цифры (10 футов в 1016). Типа металла в номинале нет: номинал дан для mild steel, а stainless и другие более твёрдые металлы должны быть тоньше. «Ничего из перечисленного» неверно, потому что вариант про gauge верен.\n\nКак применять: у brake последние цифры — самый толстый gauge mild steel, который он берёт; любой больший номер (тоньше) можно, любой меньший (толще) — сверх capacity. У shear gauge стоит первым."
+  },
+  "opts": [
+   {
+    "en": "the length of metal that can be bent",
+    "ru": "длину металла, который можно согнуть"
+   },
+   {
+    "en": "the maximum gage of metal that can be bent",
+    "ru": "максимальный gage металла, который можно согнуть"
+   },
+   {
+    "en": "type of metal that can be bent",
+    "ru": "тип металла, который можно согнуть"
+   },
+   {
+    "en": "none of the above",
+    "ru": "ничего из перечисленного"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    89
+   ]
+  ]
+ },
+ {
+  "id": "F20-90",
+  "src": "F20",
+  "n": 90,
+  "topic": "shop",
+  "q": {
+   "en": "The bar folder is useful when you need to make large numbers of?",
+   "ru": "Bar folder удобен, когда нужно сделать большое количество чего?"
+  },
+  "why": {
+   "en": "The same bend. A bar folder folds a narrow edge along light-gauge sheet — hems, drive edges, grooved-seam locks, edges for a wire — typically up to about 20 ga mild steel and about 1\" deep. Its depth gauge and its 45° and 90° stops are set once, and every piece pushed against the gauge gets exactly the same fold without marking: that is why it is used for large numbers of identical bends. Multiple bends on one part (a box, a channel, a duct section) are brake work, each bend lined up on its own layout line. Different lengths of bends also point to the brake: the bar folder's length is fixed, and its strength is repeating one setting. none of the above is wrong because the same-bend option is correct.\n\nHow to use this: Every gauge or stop on a machine — shear back gauge, bar folder depth gauge, brake stops — exists so identical pieces need no marking: set it once, check the first piece, then run the rest. Bar folder = narrow repeated folds near the edge on light gauge; brake = longer, deeper, heavier or varied bends on a layout line.",
+   "ru": "The same bend — одного и того же гиба. Bar folder загибает узкую кромку на тонком листе — hems, кромки под drive, замки grooved seam, кромки под проволоку — обычно до 20 ga mild steel и глубиной примерно до 1\". Его упор глубины (depth gauge) и упоры 45° и 90° выставляют один раз, и каждая деталь, прижатая к упору, получает точно такой же загиб без разметки: поэтому его берут для большого количества одинаковых гибов. Несколько гибов на одной детали (короб, швеллер, секция duct) — работа для brake, где каждый гиб ставят по своей линии разметки. Гибы разной длины — тоже brake: длина bar folder постоянная, его сила — повторение одной установки. «Ничего из перечисленного» неверно, потому что вариант про одинаковый гиб верен.\n\nКак применять: любой упор на станке — задний упор shear, depth gauge у bar folder, упоры brake — нужен, чтобы одинаковые детали не размечать: выставить один раз, проверить первую деталь, потом гнать остальные. Bar folder — узкие повторяющиеся загибы у кромки на тонком металле; brake — длинные, глубокие, толстые или разные гибы по разметке."
+  },
+  "opts": [
+   {
+    "en": "Multiple bends",
+    "ru": "Нескольких разных гибов"
+   },
+   {
+    "en": "The same bend",
+    "ru": "Одного и того же гиба"
+   },
+   {
+    "en": "Different lengths of bends",
+    "ru": "Гибов разной длины"
+   },
+   {
+    "en": "none of the above",
+    "ru": "ничего из перечисленного"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    90
+   ]
+  ]
+ },
+ {
+  "id": "F20-91",
+  "src": "F20",
+  "n": 91,
+  "topic": "shop",
+  "q": {
+   "en": "A shear can cut metal heavier than its rating if the metal is shorter than the length of the shear.",
+   "ru": "Shear может резать металл толще своей номинальной capacity, если лист короче длины shear."
+  },
+  "why": {
+   "en": "False. A shear's rating is first of all a thickness limit: the heaviest gauge of mild steel it can cut over its full blade length. The upper blade is raked (set at a slight angle), so it cuts progressively, a short stretch at a time, like scissors; the force at each moment depends on the thickness and strength of the metal, not on how long the sheet is. A shorter piece only means a shorter cut with the same force, so metal heavier than the rating overloads the blades and the frame at any length: it chips the knives, opens up the blade clearance, and can jam or break the machine. Length is a separate limit: a piece longer than the blade cannot be cut in one stroke. Nothing about length makes the statement true for a shear. On the job read the capacity plate; stainless is rated several gauges lighter than mild steel.\n\nHow to use this: capacity is the heaviest gauge of mild steel the machine handles; a shorter piece never raises it, and staying under the length limit does not excuse going over the thickness limit. Compare gauges by thickness (lower number = thicker): anything heavier than the rating is a No, whatever its length.",
+   "ru": "False. Номинал shear — это прежде всего предел по толщине: самый толстый gauge mild steel, который она режет на всю длину ножа. Верхний нож стоит с небольшим наклоном (rake), поэтому режет постепенно, короткими участками, как ножницы; усилие в каждый момент зависит от толщины и прочности металла, а не от длины листа. Короткий кусок означает только более короткий рез с тем же усилием, поэтому металл толще номинала перегружает ножи и станину при любой длине: выкрашивает ножи, увеличивает зазор между ними, может заклинить или сломать станок. Длина — отдельный предел: лист длиннее ножа за один ход не отрезать. Для shear утверждение не становится верным ни при какой длине. На работе смотри табличку capacity; для stainless предел на несколько номеров gauge меньше, чем для mild steel.\n\nКак применять: capacity — самый толстый gauge mild steel для этого станка; короткий кусок её не поднимает, и запас по длине не оправдывает превышение по толщине. Gauge сравнивай по толщине (меньше номер — толще): всё, что толще номинала, — «нет» при любой длине."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "True"
+   },
+   {
+    "en": "False",
+    "ru": "False"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    91
+   ]
+  ]
+ },
+ {
+  "id": "F20-92",
+  "src": "F20",
+  "n": 92,
+  "topic": "safety",
+  "q": {
+   "en": "OSHA requires guarding or covering on any hole that is ____or more in diameter.",
+   "ru": "OSHA требует ограждать или закрывать любое отверстие размером ____ или больше в диаметре."
+  },
+  "why": {
+   "en": "2 inches. OSHA defines a hole as a gap or void 2 inches or more in its least dimension in a floor, roof or other walking/working surface (1926.500(b)), and every hole must be protected: by covers so nobody trips or steps into it and nothing falls through onto people below, and, where the drop is more than 6 ft, by covers, guardrails or personal fall arrest so nobody falls through (1926.501(b)(4)). Washington uses the same 2-inch definition (WAC 296-880-095) but is stricter about falling through: fall protection is required from 4 ft (WAC 296-880-20005). A cover must hold at least twice the weight that may be put on it, be secured so it cannot shift, and be color-coded or marked HOLE or COVER (1926.502(i)). 1 inch is below the threshold: a gap that small is not a hole under the rule. 3 inches and 2 feet are both holes that must be covered, but neither is where the requirement starts — a 3-inch pipe penetration or a 2-ft roof opening is already well past 2 inches. The question says \"in diameter\"; the rule measures the least dimension, so a slot 2 inches wide is a hole however long it is.\n\nHow to use this: hole = 2 in or more (least dimension) in a floor or roof; cover it at once — strong (twice the load), secured, marked HOLE or COVER. When a question gives a size, compare it with 2 inches. On our jobs: cut an opening for a duct riser or a roof curb — cover it right away.",
+   "ru": "2 дюйма. По OSHA hole — это проём или пустота размером 2 дюйма и больше по наименьшей стороне в полу, кровле или другой рабочей поверхности (1926.500(b)), и любое такое отверстие должно быть защищено: крышкой, чтобы никто не споткнулся и не наступил в него и чтобы ничего не упало сквозь него на людей внизу, а если перепад больше 6 ft — ещё и крышкой, guardrail или personal fall arrest, чтобы никто не провалился (1926.501(b)(4)). В Washington определение то же — 2 дюйма (WAC 296-880-095), но правило о падении строже: fall protection нужна с 4 ft (WAC 296-880-20005). Крышка должна выдерживать не меньше двойного веса того, что на неё могут поставить, быть закреплена, чтобы не сдвинулась, и иметь цветную маркировку или надпись HOLE или COVER (1926.502(i)). 1 дюйм — меньше порога: такая щель по правилу не hole. 3 дюйма и 2 фута — это отверстия, которые тоже надо закрывать, но требование начинается не с них: проход трубы 3 дюйма или проём 2 фута в кровле уже далеко за порогом 2 дюйма. В вопросе написано «в диаметре», а правило меряет наименьшую сторону: щель шириной 2 дюйма — это hole при любой длине.\n\nКак применять: hole — от 2 in по наименьшей стороне в полу или кровле; закрывать сразу — крышка прочная (2 × нагрузка), закреплённая, с надписью HOLE или COVER. Если в вопросе назван размер, сравни его с 2 дюймами. На наших объектах: прорезал проём под стояк duct или roof curb — сразу закрой."
+  },
+  "opts": [
+   {
+    "en": "2 inches",
+    "ru": "2 дюйма"
+   },
+   {
+    "en": "1 inch",
+    "ru": "1 дюйм"
+   },
+   {
+    "en": "2 feet",
+    "ru": "2 фута"
+   },
+   {
+    "en": "3 inches",
+    "ru": "3 дюйма"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    92
+   ]
+  ]
+ },
+ {
+  "id": "F20-93",
+  "src": "F20",
+  "n": 93,
+  "topic": "safety",
+  "q": {
+   "en": "Which of the following is NOT part of a personal fall arrest system?",
+   "ru": "Что из перечисленного НЕ входит в personal fall arrest system?"
+  },
+  "why": {
+   "en": "Body belt. OSHA defines a personal fall arrest system as an anchorage, connectors and a body harness, which may include a lanyard, a deceleration device or a lifeline; since January 1, 1998 a body belt may not be used for fall arrest (1926.500(b), 1926.502(d)). A belt puts the whole stopping force on the waist: it can injure the spine and internal organs, the worker can slip out of it, and hanging in a belt quickly makes breathing impossible. Washington requires a full body harness for both fall arrest and fall restraint (WAC 296-880-40020, 296-880-40025). The other options are the real parts, often remembered as ABC: Anchors — the tie-off point, which must hold 5,000 lb per person (1926.502(d)(15)); Body harness — straps around the thighs, pelvis, chest and shoulders with the D-ring between the shoulder blades, which spreads the force over the body; Connectors — snap hooks, carabiners and D-rings; Lines — lanyards, self-retracting lifelines and vertical or horizontal lifelines. Under OSHA a body belt is still allowed only in a positioning device system (1926.502(e)), which holds you in place so both hands are free — never to stop a fall.\n\nHow to use this: fall arrest = Anchorage + Body harness + Connectors, plus a lanyard, lifeline or deceleration device. A belt is never fall arrest. When a list asks what is NOT part of the system, look for the body belt or anything that is not an anchor, harness, connector or line.",
+   "ru": "Body belt. По OSHA personal fall arrest system — это anchorage (точка крепления), connectors и body harness, плюс может быть lanyard, deceleration device (амортизатор) или lifeline; с 1 января 1998 года body belt для остановки падения использовать нельзя (1926.500(b), 1926.502(d)). Пояс принимает весь рывок на талию: может повредить позвоночник и внутренние органы, из него можно выскользнуть, а вися в поясе, человек быстро перестаёт дышать. В Washington full body harness обязательна и для fall arrest, и для fall restraint (WAC 296-880-40020, 296-880-40025). Остальные варианты — настоящие части системы, их запоминают как ABC: Anchors — точка крепления, должна держать 5,000 lb на человека (1926.502(d)(15)); Body harness — лямки на бёдрах, тазе, груди и плечах с D-ring между лопатками, распределяет рывок по телу; Connectors — карабины, snap hooks, D-rings; Lines — lanyards, self-retracting lifelines, вертикальные и горизонтальные lifelines. По OSHA body belt разрешён только в positioning device system (1926.502(e)), которая держит тебя на месте, чтобы работать двумя руками, — но не для остановки падения.\n\nКак применять: fall arrest = Anchorage + Body harness + Connectors, плюс lanyard, lifeline или deceleration device. Пояс — никогда не fall arrest. Если спрашивают, что НЕ входит в систему, ищи body belt или то, что не anchor, не harness, не connector и не line."
+  },
+  "opts": [
+   {
+    "en": "Body harness",
+    "ru": "Body harness (привязь на всё тело)"
+   },
+   {
+    "en": "Body belt",
+    "ru": "Body belt (поясной ремень)"
+   },
+   {
+    "en": "Connectors",
+    "ru": "Connectors (карабины и соединители)"
+   },
+   {
+    "en": "Lines",
+    "ru": "Lines (стропы и тросы)"
+   },
+   {
+    "en": "Anchors",
+    "ru": "Anchors (точки крепления)"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    93
+   ]
+  ]
+ },
+ {
+  "id": "F20-94",
+  "src": "F20",
+  "n": 94,
+  "topic": "safety",
+  "q": {
+   "en": "A guardrail system must withstand ______ of force?",
+   "ru": "Guardrail system должна выдерживать ______ нагрузки?"
+  },
+  "why": {
+   "en": "200 pounds. OSHA 1926.502(b)(3): a guardrail system must withstand at least 200 lb applied within 2 in of the top edge, in any outward or downward direction, at any point along the top; under that load the top edge must not sag below 39 in (1926.502(b)(4)). Washington's WAC 296-880-40005 uses the same 200 lb test, with the top rail 39–45 in high (OSHA: 42 in ± 3 in, the same range), so the number does not change here. 100 pounds is only half the required load and is not a value in the guardrail rule; the lighter number in that rule is 150 lb, for midrails, screens and mesh (1926.502(b)(5)). 300 pounds and 500 pounds are more than the rule requires and are not guardrail values either; the big number in fall protection is 5,000 lb, for a personal fall arrest anchorage (1926.502(d)(15)). Temporary rails of 2×4s or wire rope must pass the same 200 lb test; a rail that only looks like a guardrail does not count.\n\nHow to use this: guardrail = top rail 42 in ± 3 in and 200 lb; midrail halfway and 150 lb; toeboard 50 lb; harness anchorage 5,000 lb. Read which part the question names — top edge or midrail — before choosing.",
+   "ru": "200 фунтов. OSHA 1926.502(b)(3): guardrail system должна выдерживать не меньше 200 lb, приложенных в пределах 2 in от верхней кромки, наружу или вниз, в любой точке по длине; под этой нагрузкой верх не должен опуститься ниже 39 in (1926.502(b)(4)). В Washington WAC 296-880-40005 — та же проверка 200 lb, высота верхнего поручня 39–45 in (у OSHA 42 in ± 3 in — тот же диапазон), так что цифра здесь не меняется. 100 фунтов — только половина нужной нагрузки, в правиле о guardrail такой цифры нет; меньшая цифра там — 150 lb, для midrail, сеток и экранов (1926.502(b)(5)). 300 и 500 фунтов — больше, чем требует правило, и тоже не цифры для guardrail; большая цифра в fall protection — 5,000 lb, для anchorage personal fall arrest (1926.502(d)(15)). Временный поручень из досок 2×4 или троса должен выдержать те же 200 lb; поручень, который только похож на guardrail, не считается.\n\nКак применять: guardrail — верхний поручень 42 in ± 3 in и 200 lb; midrail посередине и 150 lb; toeboard 50 lb; anchorage для привязи 5,000 lb. Сначала прочитай, про какую часть спрашивают — верхнюю кромку или midrail, — потом выбирай."
+  },
+  "opts": [
+   {
+    "en": "100 pounds",
+    "ru": "100 фунтов"
+   },
+   {
+    "en": "200 pounds",
+    "ru": "200 фунтов"
+   },
+   {
+    "en": "300 pounds",
+    "ru": "300 фунтов"
+   },
+   {
+    "en": "500 pounds",
+    "ru": "500 фунтов"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    94
+   ]
+  ]
+ },
+ {
+  "id": "F20-95",
+  "src": "F20",
+  "n": 95,
+  "topic": "safety",
+  "q": {
+   "en": "Glass, rubber, plastic and dry wood are all examples of:",
+   "ru": "Стекло, резина, пластик и сухое дерево — всё это примеры:"
+  },
+  "why": {
+   "en": "Insulators. An insulator is a material whose electrons are tightly bound, so its resistance is very high and it lets almost no current through; glass, rubber, plastic and dry wood are the classic examples. That is why cords are covered in rubber or plastic, double-insulated tools have plastic housings, ladders for work near power are fiberglass, and electrical gloves are rubber. Conductors are the opposite: metals such as copper, aluminum and steel — and also water with minerals in it and the human body — let current flow easily, so a metal ladder or a run of duct can carry current. \"Resisters\" (the usual spelling is resistors) are parts or materials that do conduct but limit the current, like the nichrome wire in a heater — poor conductors, not insulators. A ground path is a route by which current returns to earth: the green grounding conductor in a cord, a grounded duct run, or a person touching a live tool and a grounded surface at the same time; insulators are what keep you from becoming one. The word \"dry\" matters: wet wood, wet gloves and dirty plastic can conduct, so an insulator protects only while it is clean, dry and undamaged.\n\nHow to use this: metals and water conduct; glass, rubber, plastic, dry wood and fiberglass insulate. On the job: inspect cord insulation before every use, use fiberglass ladders near power, and treat anything wet as a conductor.",
+   "ru": "Insulators. Insulator — материал, в котором электроны крепко связаны, поэтому сопротивление очень большое и ток почти не идёт; стекло, резина, пластик и сухое дерево — классические примеры. Поэтому кабели в резиновой или пластиковой оболочке, у инструмента с двойной изоляцией пластиковый корпус, лестницы для работы рядом с напряжением — из стеклопластика (fiberglass), а электрические перчатки — резиновые. Conductors — наоборот: металлы (медь, алюминий, сталь), а ещё вода с солями и тело человека легко проводят ток, поэтому металлическая лестница или линия duct может оказаться под током. «Resisters» (правильно пишется resistors) — детали или материалы, которые ток проводят, но ограничивают его, как нихромовая спираль нагревателя, — плохие проводники, но не изоляторы. Ground path — путь, по которому ток уходит в землю: зелёный заземляющий провод в кабеле, заземлённая линия duct или человек, который держит инструмент под током и касается заземлённой поверхности; insulators как раз не дают тебе самому стать таким путём. Слово «сухое» важно: мокрое дерево, мокрые перчатки и грязный пластик проводят ток, так что изолятор защищает, только пока он чистый, сухой и целый.\n\nКак применять: металлы и вода проводят ток; стекло, резина, пластик, сухое дерево и fiberglass — изоляторы. На работе: перед каждым использованием смотри изоляцию кабеля, рядом с напряжением бери fiberglass-лестницу, всё мокрое считай проводником."
+  },
+  "opts": [
+   {
+    "en": "conductors",
+    "ru": "conductors"
+   },
+   {
+    "en": "resisters",
+    "ru": "resisters"
+   },
+   {
+    "en": "insulators",
+    "ru": "insulators"
+   },
+   {
+    "en": "ground paths",
+    "ru": "ground paths"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    95
+   ]
+  ]
+ },
+ {
+  "id": "F20-96",
+  "src": "F20",
+  "n": 96,
+  "topic": "layout",
+  "q": {
+   "en": "What is the shear length for the wrapper on an ogee that is 25\" from drive-to-drive with an 8\" offset and a 14\" cheek width?",
+   "ru": "Какая длина заготовки (shear length) у wrapper для ogee длиной 25\" от drive до drive, с offset 8\" и шириной cheek 14\"?"
+  },
+  "why": {
+   "en": "27-3/4\". An ogee given only by its drive-to-drive length and its offset is an S curve: two equal arcs bending opposite ways, with no straight piece between them. The wrapper blank is the length of that curve plus the connection allowances. The curve runs between the bend lines, which sit 1/2\" inside each drive line, so L = 25 − 1 = 24\", with offset O = 8\". Centerline radius: R = (O² + L²) ÷ (4 × O) = (64 + 576) ÷ 32 = 20\". Angle of each arc: cos φ = (L² − O²) ÷ (L² + O²) = 512 ÷ 640 = 0.8, so φ = 36.8699° = 0.643501 rad. Length of the S along the centerline = 2 × R × φ = 2 × 20 × 0.643501 = 25.7400\". Add 1\" on each end for the S&D connections: 25.7400 + 2 = 27.7400\" → 27-3/4\". The 14\" cheek width does not change the total: each wrapper has one arc at R + W/2 = 27\" and one at R − W/2 = 13\" on the same angle, so (27 + 13) × 0.643501 = 25.7400\", the same as the centerline. Typical wrong results: 25-3/4\" is the bare curve with no allowances, 26-3/4\" adds only 1/2\" per end, and 26-11/16\" (26.6732) is the curve worked over the full 25\" with nothing added.\n\nHow to use this: S-ogee wrapper = 2 × R × φ + end allowances, with L measured between the bend lines (drive-to-drive − 1\" for S&D), R = (O² + L²) ÷ 4O and cos φ = (L² − O²) ÷ (L² + O²), φ in radians (degrees × π ÷ 180). The cheek width moves the two arcs of a wrapper out and in by the same amount, so it never changes the wrapper length.",
+   "ru": "27-3/4\". Ogee, у которого даны только длина от drive до drive и offset, — это S-кривая: две равные дуги в разные стороны без прямого куска между ними. Заготовка wrapper — это длина кривой плюс припуски на соединения. Кривая идёт между линиями изгиба, которые стоят на 1/2\" внутрь от каждой линии drive, поэтому L = 25 − 1 = 24\", offset O = 8\". Радиус по осевой: R = (O² + L²) ÷ (4 × O) = (64 + 576) ÷ 32 = 20\". Угол каждой дуги: cos φ = (L² − O²) ÷ (L² + O²) = 512 ÷ 640 = 0.8, значит φ = 36.8699° = 0.643501 радиана. Длина S по осевой = 2 × R × φ = 2 × 20 × 0.643501 = 25.7400\". Плюс 1\" на каждый конец под соединения S&D: 25.7400 + 2 = 27.7400\" → 27-3/4\". Ширина cheek 14\" сумму не меняет: у каждого wrapper одна дуга радиусом R + W/2 = 27\" и одна радиусом R − W/2 = 13\" на тот же угол, поэтому (27 + 13) × 0.643501 = 25.7400\" — столько же, сколько по осевой. Типичные неверные ответы: 25-3/4\" — голая кривая без припусков, 26-3/4\" — только по 1/2\" на конец, 26-11/16\" (26.6732) — кривая, посчитанная на все 25\" и без припусков.\n\nКак применять: wrapper S-ogee = 2 × R × φ + припуски на концы, где L — между линиями изгиба (drive-to-drive − 1\" для S&D), R = (O² + L²) ÷ 4O, cos φ = (L² − O²) ÷ (L² + O²), φ в радианах (градусы × π ÷ 180). Ширина cheek сдвигает две дуги wrapper наружу и внутрь на одну и ту же величину, поэтому длину wrapper она не меняет."
+  },
+  "type": "input",
+  "answer": {
+   "accept": [
+    "27-3/4",
+    "27 3/4",
+    "27.75",
+    "27.74",
+    "27.740",
+    "27.7400",
+    "27.750",
+    "27¾",
+    "27-¾",
+    "2'-3 3/4",
+    "2'-3-3/4",
+    "2' 3 3/4",
+    "2'3 3/4",
+    "2'-3¾",
+    "2’-3 3/4",
+    "2’-3-3/4",
+    "2’ 3 3/4"
+   ],
+   "all": [],
+   "reject": [
+    "25-3/4",
+    "25 3/4",
+    "25.75",
+    "25.74",
+    "26-3/4",
+    "26 3/4",
+    "26.75",
+    "26.74",
+    "25-3/16",
+    "25 3/16",
+    "26-5/8",
+    "26 5/8",
+    "26-11/16",
+    "26 11/16",
+    "26.67",
+    "28-11/16",
+    "28.67"
+   ],
+   "text": "27-3/4\"",
+   "prefix": ""
+  },
+  "on": [
+   [
+    "F20",
+    96
+   ]
+  ]
+ },
+ {
+  "id": "F20-98",
+  "src": "F20",
+  "n": 98,
+  "topic": "math",
+  "q": {
+   "en": "How many cubic inches in 4.5 cubic feet?",
+   "ru": "Сколько кубических дюймов в 4.5 кубических футах?"
+  },
+  "why": {
+   "en": "7776 cu. in. 1 ft = 12 in, and a cubic foot is a cube 12\" on each edge: 12 × 12 × 12 = 1728 cu. in. 4.5 × 1728 = 7776 cu. in. 1728 cu. in. is one cubic foot — the factor itself, not multiplied by 4.5. 648 cu. in. = 4.5 × 144 uses the square factor (square inches per square foot), which converts area, not volume. 108 cu. in. is far too small for any conversion of 4.5 cubic feet: it is only one-sixteenth of a single cubic foot (1728 ÷ 16 = 108).\n\nHow to use this: the length factor for length, squared for area, cubed for volume: inches ↔ feet 12, 144, 1728; feet ↔ yards 3, 9, 27. Going to the smaller unit — multiply. In the trade: cu. in. ÷ 231 = US gallons (7776 cu. in. ≈ 33.7 gal), cu. in. ÷ 1728 = cu. ft.",
+   "ru": "7776 cu. in. 1 ft = 12 in, а кубический фут — куб с ребром 12\": 12 × 12 × 12 = 1728 cu. in. 4.5 × 1728 = 7776 cu. in. 1728 cu. in. — это один кубический фут, сам множитель, его не умножили на 4.5. 648 cu. in. = 4.5 × 144 — квадратный множитель (квадратных дюймов в квадратном футе), он пересчитывает площадь, а не объём. 108 cu. in. слишком мало для любого пересчёта 4.5 кубических футов: это всего одна шестнадцатая одного кубического фута (1728 ÷ 16 = 108).\n\nКак применять: для длины множитель как есть, для площади — в квадрате, для объёма — в кубе: дюймы ↔ футы 12, 144, 1728; футы ↔ ярды 3, 9, 27. К меньшей единице — умножать. На работе: cu. in. ÷ 231 = американские галлоны (7776 cu. in. ≈ 33.7 gal), cu. in. ÷ 1728 = cu. ft."
+  },
+  "opts": [
+   {
+    "en": "1728 cu. in.",
+    "ru": "1728 cu. in."
+   },
+   {
+    "en": "7776 cu. in.",
+    "ru": "7776 cu. in."
+   },
+   {
+    "en": "648 cu. in.",
+    "ru": "648 cu. in."
+   },
+   {
+    "en": "108 cu. in.",
+    "ru": "108 cu. in."
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    98
+   ]
+  ]
+ },
+ {
+  "id": "F20-100",
+  "src": "F20",
+  "n": 100,
+  "topic": "layout",
+  "q": {
+   "en": "Solve the offset distance \"D\".",
+   "ru": "Найдите расстояние offset «D»."
+  },
+  "why": {
+   "en": "56-15/16\". 1) Offset: the two bottoms are at B = 12'-3\" = 147\" and B = 9'-8-1/2\" = 116.5\", so O = 147 − 116.5 = 30.5\". 2) Centerline radius: the 1'-6\" (18\") radius is marked on the throat, the inside of each bend; in this view the duct shows its 16\" side (the first number of 16\"x20\" is the side you see), so CL R = 18 + 16 ÷ 2 = 26\". 3) D runs from the start of the first elbow to the end of the second. Each 38° elbow runs CL R × sin 38° = 26 × 0.615661 = 16.0072\" and rises CL R × (1 − cos 38°) = 26 × 0.211989 = 5.5117\". The straight piece makes up the rest of the rise, 30.5 − 2 × 5.5117 = 19.4766\", and its run is 19.4766 ÷ tan 38° = 24.9289\". D = 2 × 16.0072 + 24.9289 = 56.9433\" → 56-15/16\". The same in one line: D = O ÷ tan θ + 2 × CL R × tan(θ/2) = 39.03822 + 17.90504 = 56.94326\". The ceiling height 9'-0\" is not needed. Using the 18\" throat radius as if it were the centerline gives 51-7/16\" (51.4340), and taking the 20\" side as the one shown (CL R 28\") gives 58-5/16\" (58.3206) — neither is offered. 55-1/4\", 66\" and 48-5/8\" do not come from this drawing: they would need a centerline radius of 23.5\", 39.2\" and 13.9\". 48-5/8\" would need a radius smaller than the 18\" throat itself, and 66\" one larger than the 34\" heel.\n\nHow to use this: offset with two equal elbows — O = difference of the elevations (bottom to bottom or centerline to centerline); CL R = throat radius + half the side shown in that view; run D = O ÷ tan θ + 2 × CL R × tan(θ/2); the straight piece between the elbows = O ÷ sin θ − 2 × CL R × tan(θ/2).",
+   "ru": "56-15/16\". 1) Offset: низ одного duct на отметке B = 12'-3\" = 147\", другого — B = 9'-8-1/2\" = 116.5\", значит O = 147 − 116.5 = 30.5\". 2) Радиус по осевой: радиус 1'-6\" (18\") указан по throat — внутренней стороне каждого поворота; на этом виде duct показан стороной 16\" (первое число в 16\"x20\" — сторона, которую видишь), поэтому CL R = 18 + 16 ÷ 2 = 26\". 3) D — от начала первого elbow до конца второго. Каждый elbow 38° даёт по горизонтали CL R × sin 38° = 26 × 0.615661 = 16.0072\" и подъём CL R × (1 − cos 38°) = 26 × 0.211989 = 5.5117\". Остаток подъёма берёт прямой кусок: 30.5 − 2 × 5.5117 = 19.4766\", его горизонталь 19.4766 ÷ tan 38° = 24.9289\". D = 2 × 16.0072 + 24.9289 = 56.9433\" → 56-15/16\". То же одной формулой: D = O ÷ tan θ + 2 × CL R × tan(θ/2) = 39.03822 + 17.90504 = 56.94326\". Высота потолка 9'-0\" не нужна. Если взять throat 18\" как радиус по осевой, выйдет 51-7/16\" (51.4340), а если считать видимой сторону 20\" (CL R 28\"), — 58-5/16\" (58.3206); ни того ни другого в вариантах нет. 55-1/4\", 66\" и 48-5/8\" из этого чертежа не получаются: для них нужен радиус по осевой 23.5\", 39.2\" и 13.9\". Для 48-5/8\" радиус должен быть меньше самого throat 18\", а для 66\" — больше heel 34\".\n\nКак применять: offset из двух одинаковых elbows — O = разница отметок (низ к низу или ось к оси); CL R = радиус throat + половина стороны, видимой на этом виде; горизонталь D = O ÷ tan θ + 2 × CL R × tan(θ/2); прямой кусок между elbows = O ÷ sin θ − 2 × CL R × tan(θ/2)."
+  },
+  "opts": [
+   {
+    "en": "55-1/4\"",
+    "ru": "55-1/4\""
+   },
+   {
+    "en": "66\"",
+    "ru": "66\""
+   },
+   {
+    "en": "56-15/16\"",
+    "ru": "56-15/16\""
+   },
+   {
+    "en": "48-5/8\"",
+    "ru": "48-5/8\""
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single",
+  "fig": "f20-q100.svg",
+  "on": [
+   [
+    "F20",
+    100
+   ]
+  ]
+ },
+ {
+  "id": "F20-101",
+  "src": "F20",
+  "n": 101,
+  "topic": "layout",
+  "q": {
+   "en": "Solve the trim joint length \"L\".",
+   "ru": "Найдите длину trim joint «L»."
+  },
+  "why": {
+   "en": "26-11/16\". 1) Offset: both dimensions run from grid line 3 to the duct centerlines, so O = 7'-9-1/2\" − 5'-7\" = 93.5 − 67 = 26.5\". The 16' between grid lines 3 and 4 is not needed. 2) This is a plan view, so the duct shows its 12\" side (the first number of 12\"x10\"), and the 14\" radius is on the throat, the inside of each bend: CL R = 14 + 12 ÷ 2 = 20\". 3) Each 40° elbow moves the centerline sideways CL R × (1 − cos 40°) = 20 × 0.233956 = 4.6791\", so the straight trim joint must cover 26.5 − 2 × 4.6791 = 17.1418\" of offset; along its own slope that is 17.1418 ÷ sin 40° = 26.6679\" → 26-11/16\". Check by the other method: travel O ÷ sin 40° = 41.2267\", minus the two tangent lengths 2 × CL R × tan 20° = 14.5588\": 41.2267 − 14.5588 = 26.6679\". 27-3/8\" is the trap of reading the 10\" side: CL R = 14 + 5 = 19\" gives 27.3958\" → 27-3/8\". 25-9/16\" and 24-1/2\" do not fit the drawing: they would need a centerline radius of 21.5\" and 23.0\", larger than the 20\" it has.\n\nHow to use this: trim joint between two equal elbows = O ÷ sin θ − 2 × CL R × tan(θ/2), with O measured between centerlines and CL R = throat radius + half the side shown in the view. In plan you see the first number of the duct size.",
+   "ru": "26-11/16\". 1) Offset: оба размера идут от оси 3 до осевых линий duct, значит O = 7'-9-1/2\" − 5'-7\" = 93.5 − 67 = 26.5\". Размер 16' между осями 3 и 4 не нужен. 2) Это plan, поэтому duct виден стороной 12\" (первое число в 12\"x10\"), а радиус 14\" указан по throat — внутренней стороне поворота: CL R = 14 + 12 ÷ 2 = 20\". 3) Каждый elbow 40° сдвигает осевую вбок на CL R × (1 − cos 40°) = 20 × 0.233956 = 4.6791\", значит прямой trim joint должен закрыть 26.5 − 2 × 4.6791 = 17.1418\" offset; вдоль его наклона это 17.1418 ÷ sin 40° = 26.6679\" → 26-11/16\". Проверка другим способом: travel O ÷ sin 40° = 41.2267\", минус две касательные 2 × CL R × tan 20° = 14.5588\": 41.2267 − 14.5588 = 26.6679\". 27-3/8\" — ловушка: взята сторона 10\", CL R = 14 + 5 = 19\" даёт 27.3958\" → 27-3/8\". 25-9/16\" и 24-1/2\" к чертежу не подходят: для них нужен радиус по осевой 21.5\" и 23.0\" — больше, чем 20\" на чертеже.\n\nКак применять: trim joint между двумя одинаковыми elbows = O ÷ sin θ − 2 × CL R × tan(θ/2), где O — между осевыми, CL R = радиус throat + половина стороны, видимой на виде. На plan видна сторона, записанная первой в размере duct."
+  },
+  "opts": [
+   {
+    "en": "27-3/8\"",
+    "ru": "27-3/8\""
+   },
+   {
+    "en": "26-11/16\"",
+    "ru": "26-11/16\""
+   },
+   {
+    "en": "25-9/16\"",
+    "ru": "25-9/16\""
+   },
+   {
+    "en": "24-1/2\"",
+    "ru": "24-1/2\""
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "fig": "f20-q101.svg",
+  "on": [
+   [
+    "F20",
+    101
+   ]
+  ]
+ },
+ {
+  "id": "F20-103",
+  "src": "F20",
+  "n": 103,
+  "topic": "math",
+  "q": {
+   "en": "If the area of a square duct is 128 sq. in. and one side is 16 what is the other side?",
+   "ru": "Если площадь сечения квадратного duct 128 sq. in., а одна сторона 16, чему равна другая сторона?"
+  },
+  "why": {
+   "en": "8\". Area of a rectangle = side × side, so the other side = area ÷ known side = 128 ÷ 16 = 8\". Check: 16 × 8 = 128 sq. in. The question says \"square duct\", but a duct with a 16\" side and 128 sq. in. cannot be square — a 16\" square duct has 16 × 16 = 256 sq. in. — so read it as a rectangular duct. 16\" is the trap of taking \"square\" literally: it gives 256 sq. in., twice the area given. 9' has the wrong unit (feet), and even 9\" would be wrong: 16 × 9 = 144 sq. in. 10\" gives 16 × 10 = 160 sq. in.\n\nHow to use this: missing side = area ÷ known side; check by multiplying back. Keep the units: sq. in. ÷ in. = in. In the trade the same step sizes a duct for a required area — a 12\" wide duct that needs 144 sq. in. must be 144 ÷ 12 = 12\" deep.",
+   "ru": "8\". Площадь прямоугольника = сторона × сторона, значит другая сторона = площадь ÷ известная сторона = 128 ÷ 16 = 8\". Проверка: 16 × 8 = 128 sq. in. В вопросе написано «квадратный duct», но duct со стороной 16\" и площадью 128 sq. in. квадратным быть не может — у квадратного duct 16\" площадь 16 × 16 = 256 sq. in., — так что читай как прямоугольный. 16\" — ловушка, если понять «квадратный» буквально: получится 256 sq. in., вдвое больше заданной площади. 9' — не та единица (футы), да и 9\" было бы неверно: 16 × 9 = 144 sq. in. 10\" даёт 16 × 10 = 160 sq. in.\n\nКак применять: неизвестная сторона = площадь ÷ известная сторона; проверяй умножением. Следи за единицами: sq. in. ÷ in. = in. На работе так же подбирают duct под нужную площадь: duct шириной 12\", которому нужно 144 sq. in., должен быть глубиной 144 ÷ 12 = 12\"."
+  },
+  "opts": [
+   {
+    "en": "8\"",
+    "ru": "8\""
+   },
+   {
+    "en": "16\"",
+    "ru": "16\""
+   },
+   {
+    "en": "9'",
+    "ru": "9'"
+   },
+   {
+    "en": "10\"",
+    "ru": "10\""
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    103
+   ]
+  ]
+ },
+ {
+  "id": "F20-104",
+  "src": "F20",
+  "n": 104,
+  "topic": "math",
+  "q": {
+   "en": "What diameter pipe has an area of 314.1593 sq. in.?",
+   "ru": "У трубы какого диаметра площадь сечения 314.1593 sq. in.?"
+  },
+  "why": {
+   "en": "20\". Area of a circle A = π × r², so r = √(A ÷ π) = √(314.1593 ÷ 3.14159265) = √100.0000 = 10.0000\", and the diameter is twice the radius: 20\". Directly with the diameter: A = π × D² ÷ 4, so D = √(4 × 314.1593 ÷ π) = 20.0000\". 10\" is the trap — that is the radius, not the diameter; a 10\" pipe has only 78.54 sq. in. A 16\" pipe has 201.06 sq. in. and a 12\" pipe 113.10 sq. in., both far less. The number itself is a hint: 314.1593 is π × 100, so r² = 100.\n\nHow to use this: area → diameter: D = √(4 × A ÷ π), or r = √(A ÷ π) and then double it. Always check whether the question asks for the radius or the diameter. Quick estimate: area ≈ 0.7854 × D².",
+   "ru": "20\". Площадь круга A = π × r², значит r = √(A ÷ π) = √(314.1593 ÷ 3.14159265) = √100.0000 = 10.0000\", а диаметр вдвое больше радиуса: 20\". Сразу через диаметр: A = π × D² ÷ 4, значит D = √(4 × 314.1593 ÷ π) = 20.0000\". 10\" — ловушка: это радиус, а не диаметр; у трубы 10\" площадь всего 78.54 sq. in. У трубы 16\" — 201.06 sq. in., у 12\" — 113.10 sq. in., обе намного меньше. Само число подсказывает: 314.1593 — это π × 100, то есть r² = 100.\n\nКак применять: площадь → диаметр: D = √(4 × A ÷ π) или r = √(A ÷ π), потом удвоить. Всегда смотри, что спрашивают — радиус или диаметр. Быстрая оценка: площадь ≈ 0.7854 × D²."
+  },
+  "opts": [
+   {
+    "en": "16\"",
+    "ru": "16\""
+   },
+   {
+    "en": "10\"",
+    "ru": "10\""
+   },
+   {
+    "en": "12\"",
+    "ru": "12\""
+   },
+   {
+    "en": "20\"",
+    "ru": "20\""
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    104
+   ]
+  ]
+ },
+ {
+  "id": "F20-105",
+  "src": "F20",
+  "n": 105,
+  "topic": "layout",
+  "q": {
+   "en": "Using the OWL formula select the correctly notched 16\"x12\" duct half for offsetting 6\"on the 16\" side.",
+   "ru": "По формуле OWL выберите правильно надрезанную половину duct 16\"x12\" для offset 6\" по стороне 16\"."
+  },
+  "why": {
+   "en": "C. The OWL formula gives the cut for a field offset made from a straight section: cut = Offset × Width ÷ Length, taken off each end of the side on which the offset shows. Here O = 6\", W = 16\" (the offset is on the 16\" side) and L = 60\": 6 × 16 ÷ 60 = 1.6\" → 1-5/8\" to the nearest 1/8\". On the 16\" side mark 1-5/8\" at both ends and cut from the corner at the fold line — at one end toward one edge, at the other end toward the opposite edge — so the 16\" side becomes a parallelogram with parallel ends, while the 12\" side stays square. Drawing C is exactly that. Drawing D slants the 16\" side the right way but only by 1-1/4\": that is 6 × 12 ÷ 60 = 1.2\", the 12\" width used by mistake. Drawing B slants the 12\" side by 1-1/4\": wrong side and wrong width, so the duct would shift on its 12\" side. Drawing A cuts both sides toward the fold line by 1-5/8\" in a V at each end; symmetric cuts do not shift the duct sideways, so it is not an OWL offset at all. OWL is an approximation: with a 1-5/8\" cut the real offset comes out 5.90\", slightly under 6\".\n\nHow to use this: OWL — cut = O × W ÷ L on the side where the offset shows (W = the width of that side), at both ends, toward opposite edges, so that side becomes a parallelogram and the other side stays square. Decide W by reading which side the offset is on.",
+   "ru": "C. Формула OWL даёт срез для field offset из прямой секции: cut = Offset × Width ÷ Length, с каждого конца той стороны, на которой виден сдвиг. Здесь O = 6\", W = 16\" (offset по стороне 16\") и L = 60\": 6 × 16 ÷ 60 = 1.6\" → 1-5/8\" с округлением до 1/8\". На стороне 16\" отмечают 1-5/8\" на обоих концах и режут от угла у линии сгиба — на одном конце к одной кромке, на другом к противоположной, — сторона 16\" становится параллелограммом с параллельными торцами, а сторона 12\" остаётся прямоугольной. Ровно так нарисован рисунок C. На рисунке D сторона 16\" срезана в нужную сторону, но на 1-1/4\": это 6 × 12 ÷ 60 = 1.2\" — по ошибке взята ширина 12\". На рисунке B срезана сторона 12\" на 1-1/4\": не та сторона и не та ширина, duct сдвинется по стороне 12\". На рисунке A обе стороны срезаны к линии сгиба на 1-5/8\" клином на каждом конце; симметричные срезы не сдвигают duct вбок, так что это вообще не OWL offset. OWL — приближение: при срезе 1-5/8\" реальный offset получается 5.90\", чуть меньше 6\".\n\nКак применять: OWL — cut = O × W ÷ L на той стороне, где виден сдвиг (W — ширина этой стороны), на обоих концах, к противоположным кромкам: сторона становится параллелограммом, другая остаётся прямоугольной. W выбирай по тому, на какой стороне offset."
+  },
+  "opts": [
+   {
+    "en": "A",
+    "ru": "A"
+   },
+   {
+    "en": "B",
+    "ru": "B"
+   },
+   {
+    "en": "C",
+    "ru": "C"
+   },
+   {
+    "en": "D",
+    "ru": "D"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single",
+  "fig": "f20-q105.svg",
+  "on": [
+   [
+    "F20",
+    105
+   ]
+  ]
+ },
+ {
+  "id": "F20-106",
+  "src": "F20",
+  "n": 106,
+  "topic": "layout",
+  "q": {
+   "en": "A line that is at a right angle to another line is perpendicular to it.",
+   "ru": "Линия, которая стоит под прямым углом к другой линии, perpendicular к ней."
+  },
+  "why": {
+   "en": "True. Perpendicular means meeting at a right angle, 90°; the symbol is ⊥. So a line at a right angle to another is, by definition, perpendicular to it, and the relation works both ways: if one line is perpendicular to a second, the second is perpendicular to the first. A vertical line is perpendicular to a horizontal one, but two lines can be perpendicular in any orientation — the 90° corner of a rectangular duct, the square end of a straight joint, a takeoff at 90° to the main. The statement would be false only if it named another relation: parallel lines run side by side and never meet, oblique lines meet at an angle other than 90°. In layout a perpendicular is drawn with a square, checked with the 3-4-5 rule, or constructed with dividers: equal arcs from two points on the line, and a line through their crossings.\n\nHow to use this: right angle = 90° = perpendicular = square. Perpendicular, parallel and oblique describe how two lines stand to each other; vertical and horizontal describe direction.",
+   "ru": "True. Perpendicular — значит пересекающийся под прямым углом, 90°; знак ⊥. Поэтому линия под прямым углом к другой по определению perpendicular к ней, и это работает в обе стороны: если первая перпендикулярна второй, то и вторая перпендикулярна первой. Вертикальная линия перпендикулярна горизонтальной, но перпендикулярными могут быть линии в любом положении — угол 90° у прямоугольного duct, прямой торец прямой секции, врезка под 90° к main. Утверждение было бы неверным, только если бы в нём было другое отношение: параллельные линии идут рядом и не пересекаются, наклонные (oblique) пересекаются под углом, отличным от 90°. В разметке перпендикуляр проводят угольником, проверяют правилом 3-4-5 или строят циркулем: равные дуги из двух точек на линии и прямая через их пересечения.\n\nКак применять: прямой угол = 90° = perpendicular = «в угол» (square). Perpendicular, parallel и oblique — про то, как две линии стоят друг к другу; вертикальная и горизонтальная — про направление."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "True"
+   },
+   {
+    "en": "False",
+    "ru": "False"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    106
+   ]
+  ]
+ },
+ {
+  "id": "F20-107",
+  "src": "F20",
+  "n": 107,
+  "topic": "shop",
+  "q": {
+   "en": "\"Ductility\" of metals means their resistance to wear.",
+   "ru": "«Ductility» металлов означает их стойкость к износу."
+  },
+  "why": {
+   "en": "False. Ductility is a metal's ability to stretch and deform permanently without breaking — to be drawn into wire or stretched in a deep draw; it is measured as the percent elongation in a tensile test. Copper, aluminum and mild steel are ductile; cast iron is not. Resistance to wear is wear (abrasion) resistance, which goes with hardness — the property of tool steel, hardened blades and abrasion-resistant plate; a very hard metal is usually less ductile, so the two are closer to opposites than to the same thing. Related terms: malleability is the ability to be hammered or rolled into sheet without cracking, toughness is the ability to absorb a blow without breaking, tensile strength is the pull a metal can take before it tears. The statement would be true if it said \"hardness\" or \"wear resistance\" instead of \"ductility\".\n\nHow to use this: ductile = stretches (wire), malleable = flattens (sheet), hard = resists scratching and wear, tough = resists impact, brittle = breaks without bending. In the shop the ductile and malleable metals are the ones you can seam, bend and stretch without cracking.",
+   "ru": "False. Ductility — способность металла растягиваться и необратимо деформироваться, не разрушаясь: вытягиваться в проволоку или в глубокую вытяжку; её меряют относительным удлинением (%) при испытании на разрыв. Медь, алюминий и mild steel — ductile; чугун — нет. Стойкость к износу — это wear (abrasion) resistance, она связана с твёрдостью (hardness): так ведут себя инструментальная сталь, закалённые ножи, износостойкий лист; очень твёрдый металл обычно менее ductile, так что эти свойства скорее противоположны, чем совпадают. Родственные понятия: malleability — способность расплющиваться молотком или прокаткой в лист без трещин, toughness — способность выдержать удар и не сломаться, tensile strength — усилие на разрыв. Утверждение было бы верным, если бы вместо «ductility» стояло «hardness» или «wear resistance».\n\nКак применять: ductile — тянется (проволока), malleable — плющится (лист), hard — сопротивляется царапинам и износу, tough — выдерживает удар, brittle — ломается без изгиба. В цеху ductile и malleable металлы — те, которые можно фальцевать, гнуть и тянуть без трещин."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "True"
+   },
+   {
+    "en": "False",
+    "ru": "False"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    107
+   ]
+  ]
+ },
+ {
+  "id": "F20-109",
+  "src": "F20",
+  "n": 109,
+  "topic": "layout",
+  "q": {
+   "en": "Ogee offsets are also called curved offsets.",
+   "ru": "Ogee offsets ещё называют curved offsets."
+  },
+  "why": {
+   "en": "False. An ogee (OG) offset takes its name from the ogee, an S-shaped curve: the duct turns off its line and then back by the same angle in the opposite direction, so it leaves parallel to where it came in, shifted sideways by the offset. It is built either as one S of two equal arcs or as two equal elbows with a straight piece between them. Its names are ogee offset and OG offset; \"curved offset\" is a description, not another name for it. An offset does not even have to be curved: it can be made with mitered or gored elbows, or from a straight section notched by the OWL formula — all of them offsets, none of them ogees. True is tempting because a radius ogee does look curved, but the statement claims a second name, and for the test that claim is false.\n\nHow to use this: OG = ogee = S-shaped offset of two equal, opposite turns, ending parallel to the start. \"Also called\" questions test names, not appearance: an answer is True only when the second name is really used for the same fitting.",
+   "ru": "False. Ogee (OG) offset назван по ogee — S-образной кривой: duct уходит со своей оси, а потом поворачивает обратно на тот же угол в другую сторону, так что выходит параллельно тому, как входил, сдвинутым вбок на величину offset. Его делают либо одной S из двух равных дуг, либо из двух одинаковых elbows с прямым куском между ними. Его названия — ogee offset и OG offset; «curved offset» — это описание, а не второе название. Offset вообще не обязан быть изогнутым: его делают и из mitered или gored elbows, и из прямой секции с надрезами по формуле OWL — всё это offsets, но не ogee. True соблазняет, потому что радиусный ogee действительно выглядит изогнутым, но утверждение говорит о втором названии, а для теста это неверно.\n\nКак применять: OG = ogee = S-образный offset из двух одинаковых поворотов в разные стороны, выход параллелен входу. Вопросы «also called» проверяют названия, а не внешний вид: True — только если второе название действительно используется для того же fitting."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "True"
+   },
+   {
+    "en": "False",
+    "ru": "False"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    109
+   ]
+  ]
+ },
+ {
+  "id": "F20-110",
+  "src": "F20",
+  "n": 110,
+  "topic": "shop",
+  "q": {
+   "en": "A lower gauge is thicker, and a higher gauge is thinner.",
+   "ru": "Меньший gauge — толще, больший gauge — тоньше."
+  },
+  "why": {
+   "en": "True. Sheet gauge numbers run backwards: the higher the number, the thinner the sheet. Steel (Manufacturers' Standard Gauge): 10 ga = 0.1345\", 16 ga = 0.0598\", 20 ga = 0.0359\", 26 ga = 0.0179\". The numbering comes from wire drawing, where each extra pass through a smaller die made the wire thinner and added one to the count. The thickness roughly halves every 6 gauge numbers: 16 ga 0.0598\" ÷ 22 ga 0.0299\" = 2. The statement would be false only if it were turned around. Copper and lead work the other way: they are named by weight (ounces or pounds per square foot), so there a bigger number is thicker.\n\nHow to use this: lower gauge = thicker, heavier, stiffer, harder to bend and needs more machine capacity; higher gauge = thinner and lighter. For copper and lead a bigger number means heavier.",
+   "ru": "True. Номера gauge идут «наоборот»: чем больше номер, тем тоньше лист. Сталь (Manufacturers' Standard Gauge): 10 ga = 0.1345\", 16 ga = 0.0598\", 20 ga = 0.0359\", 26 ga = 0.0179\". Нумерация пошла от волочения проволоки: каждый лишний проход через меньшую фильеру делал проволоку тоньше и прибавлял к номеру единицу. Толщина уменьшается примерно вдвое через каждые 6 номеров: 16 ga 0.0598\" ÷ 22 ga 0.0299\" = 2. Утверждение было бы неверным, только если его перевернуть. У меди и свинца наоборот: их называют по весу (унции или фунты на квадратный фут), там больше число — толще.\n\nКак применять: меньше gauge — толще, тяжелее, жёстче, труднее гнуть и нужна большая capacity станка; больше gauge — тоньше и легче. У меди и свинца больше число — тяжелее."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "True"
+   },
+   {
+    "en": "False",
+    "ru": "False"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    110
+   ]
+  ]
+ },
+ {
+  "id": "F20-111",
+  "src": "F20",
+  "n": 111,
+  "topic": "shop",
+  "q": {
+   "en": "Lead is gauged by",
+   "ru": "Толщину свинца (lead) обозначают в"
+  },
+  "why": {
+   "en": "Pounds per square foot. Sheet lead is named by its weight per square foot: 4 lb lead weighs 4 lb per square foot and is about 1/16\" thick — lead weighs about 0.41 lb per cubic inch, so 4 ÷ (144 × 0.4097) = 0.0678\". 2-1/2, 3 and 4 lb lead are used for roof flashings, vent-pipe jacks, shower pans and radiation shielding. Ounces per square foot is how copper is named (16 oz, 20 oz) — a unit far too small for heavy lead. Decimals of an inch are how aluminum sheet is ordered (.032\", .040\", .063\"), and steel goes by gauge number. \"Thickness of the metal\" is what every system describes in the end, but lead is not ordered by stating its thickness — it is ordered by weight.\n\nHow to use this: steel — gauge number; copper — ounces per square foot; lead — pounds per square foot; aluminum — decimal inches. \"Per square foot\" always describes sheet.",
+   "ru": "Фунтах на квадратный фут. Листовой свинец называют по весу квадратного фута: 4 lb lead весит 4 фунта на квадратный фут и имеет толщину около 1/16\" — свинец весит примерно 0.41 lb на кубический дюйм, поэтому 4 ÷ (144 × 0.4097) = 0.0678\". Свинец 2-1/2, 3 и 4 lb идёт на кровельные flashings, обжимки вентиляционных труб (vent-pipe jacks), поддоны душевых и защиту от излучения. В унциях на квадратный фут обозначают медь (16 oz, 20 oz) — для тяжёлого свинца это слишком мелкая единица. В десятичных долях дюйма заказывают алюминий (.032\", .040\", .063\"), сталь — по номеру gauge. «Толщина металла» — то, что в итоге описывает любая система, но свинец не заказывают по толщине — его заказывают по весу.\n\nКак применять: сталь — номер gauge; медь — унции на квадратный фут; свинец — фунты на квадратный фут; алюминий — десятичные дюйма. «На квадратный фут» — всегда про лист."
+  },
+  "opts": [
+   {
+    "en": "ounces per square foot.",
+    "ru": "унциях на квадратный фут."
+   },
+   {
+    "en": "decimals of an inch.",
+    "ru": "десятичных долях дюйма."
+   },
+   {
+    "en": "thickness of the metal.",
+    "ru": "толщине металла."
+   },
+   {
+    "en": "pounds per square foot.",
+    "ru": "фунтах на квадратный фут."
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    111
+   ]
+  ]
+ },
+ {
+  "id": "F20-114",
+  "src": "F20",
+  "n": 114,
+  "topic": "shop",
+  "q": {
+   "en": "Cast Iron is more malleable than steel.",
+   "ru": "Cast iron (чугун) более malleable, чем сталь."
+  },
+  "why": {
+   "en": "No. Cast iron is brittle: with about 2–4% carbon, much of it as graphite flakes, it cracks when hammered, bent or dropped instead of changing shape, which is why it is cast straight into its final shape (pipe and fittings, boiler sections, machine bases) rather than formed. Steel has far less carbon (mild steel about 0.05–0.25%), so it can be bent, rolled, seamed and hammered without cracking — that is what makes galvanized sheet usable for duct. Malleable means able to be hammered or rolled into shape without breaking, so steel is the more malleable of the two. The answer would be Yes only against an even more brittle material; \"malleable iron\" is cast iron heat-treated to get some of that property back, and even it does not bend like steel.\n\nHow to use this: the more carbon in iron, the harder and more brittle it gets: mild steel bends, tool steel is hard, cast iron breaks. Malleable and ductile = can be formed; brittle = cracks.",
+   "ru": "Нет. Чугун (cast iron) хрупкий: в нём около 2–4% углерода, большая часть в виде чешуек графита, и от удара, изгиба или падения он трескается, а не меняет форму; поэтому его сразу отливают в готовую форму (трубы и фитинги, секции котлов, станины), а не формуют. В стали углерода намного меньше (mild steel — около 0.05–0.25%), поэтому её гнут, катают, фальцуют и куют без трещин — благодаря этому оцинкованный лист годится для duct. Malleable — способный принимать форму под молотком или прокаткой, не разрушаясь, так что из двух более malleable — сталь. Ответ «да» был бы только при сравнении с ещё более хрупким материалом; «malleable iron» — это чугун, которому термообработкой вернули часть этого свойства, но и он не гнётся как сталь.\n\nКак применять: чем больше углерода в железе, тем оно твёрже и хрупче: mild steel гнётся, инструментальная сталь твёрдая, чугун ломается. Malleable и ductile — можно формовать; brittle — трескается."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    114
+   ]
+  ]
+ },
+ {
+  "id": "F20-115",
+  "src": "F20",
+  "n": 115,
+  "topic": "shop",
+  "q": {
+   "en": "A36 is a common type of",
+   "ru": "A36 — распространённый тип"
+  },
+  "why": {
+   "en": "Steel. A36 is the ASTM specification for ordinary carbon structural steel with a minimum yield strength of 36,000 psi (36 ksi) — the \"36\" in the name. It is the everyday steel for plate, angle, channel, flat bar and beams, so hanger angles, supports, curb frames and equipment stands are made of it, and it welds easily with common electrodes such as E7018 and E6010. Copper sheet is ordered by weight (16 oz, 20 oz) and alloy (C11000) under ASTM B152; aluminum by alloy numbers such as 3003, 5052 or 6061; stainless steel by type, such as 304 or 316 — none of them is called A36. The trap is \"stainless steel\": it is a steel, but stainless types have their own designations and contain at least 10.5% chromium.\n\nHow to use this: A36 = mild carbon structural steel (plate and shapes); 304/316 = stainless; 3003/5052/6061 = aluminum; ounces = copper sheet.",
+   "ru": "Стали. A36 — спецификация ASTM на обычную углеродистую конструкционную сталь с пределом текучести не меньше 36,000 psi (36 ksi) — отсюда «36» в названии. Это повседневная сталь для листа, уголка, швеллера, полосы и балок: из неё делают уголки подвесов, опоры, рамы под curb, подставки под оборудование, и она легко варится обычными электродами E7018 и E6010. Медный лист заказывают по весу (16 oz, 20 oz) и сплаву (C11000) по ASTM B152; алюминий — по номеру сплава, например 3003, 5052 или 6061; нержавейку — по типу, например 304 или 316; ни один из них не называется A36. Ловушка — «нержавеющая сталь»: это тоже сталь, но у нержавеющих марок свои обозначения и в них не меньше 10.5% хрома.\n\nКак применять: A36 — mild carbon конструкционная сталь (лист и профили); 304/316 — нержавейка; 3003/5052/6061 — алюминий; унции — медный лист."
+  },
+  "opts": [
+   {
+    "en": "copper",
+    "ru": "меди"
+   },
+   {
+    "en": "aluminum",
+    "ru": "алюминия"
+   },
+   {
+    "en": "steel",
+    "ru": "стали"
+   },
+   {
+    "en": "stainless steel",
+    "ru": "нержавеющей стали"
+   }
+  ],
+  "answer": [
+   2
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    115
+   ]
+  ]
+ },
+ {
+  "id": "F20-116",
+  "src": "F20",
+  "n": 116,
+  "topic": "math",
+  "q": {
+   "en": "8 steel joists are 3' 4\" apart, center to center. What is the distance, center to center, between the two outside joists?",
+   "ru": "8 стальных joists стоят через 3' 4\" по центрам. Какое расстояние по центрам между двумя крайними joists?"
+  },
+  "why": {
+   "en": "23'-4\". Count the spaces, not the joists: 8 joists in a row have 8 − 1 = 7 spaces between them. 3'-4\" = 40\", so 7 × 40 = 280\" = 23'-4\" (280 ÷ 12 = 23 with 4 left over). Counting 8 spaces gives 320\" = 26'-8\" — the classic mistake, though it is not offered here. 16'-8\" = 200\" is only 5 spaces. 46' 0\" (552\") and 53' 8\" (644\") are not even whole numbers of 3'-4\" spaces (552 ÷ 40 = 13.8, 644 ÷ 40 = 16.1), so they cannot come from this spacing at all.\n\nHow to use this: n items in a row on equal centers make n − 1 spaces; the distance between the outside items = (n − 1) × spacing. Work in inches, then convert back to feet and inches. The same rule counts hangers on a duct run, anchors and studs.",
+   "ru": "23'-4\". Считай промежутки, а не joists: у 8 joists в ряд между ними 8 − 1 = 7 промежутков. 3'-4\" = 40\", значит 7 × 40 = 280\" = 23'-4\" (280 ÷ 12 = 23 и 4 в остатке). Если считать 8 промежутков, выйдет 320\" = 26'-8\" — классическая ошибка, хотя здесь такого варианта нет. 16'-8\" = 200\" — это только 5 промежутков. 46' 0\" (552\") и 53' 8\" (644\") даже не делятся на промежутки по 3'-4\" (552 ÷ 40 = 13.8, 644 ÷ 40 = 16.1), так что к этому шагу они вообще не относятся.\n\nКак применять: n предметов в ряд с одинаковым шагом дают n − 1 промежутков; расстояние между крайними = (n − 1) × шаг. Считай в дюймах, потом переводи обратно в футы и дюймы. Так же считают подвесы на линии duct, анкеры и стойки."
+  },
+  "opts": [
+   {
+    "en": "46' 0\"",
+    "ru": "46' 0\""
+   },
+   {
+    "en": "53' 8\"",
+    "ru": "53' 8\""
+   },
+   {
+    "en": "16'-8\"",
+    "ru": "16'-8\""
+   },
+   {
+    "en": "23'-4\"",
+    "ru": "23'-4\""
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    116
+   ]
+  ]
+ },
+ {
+  "id": "F20-117",
+  "src": "F20",
+  "n": 117,
+  "topic": "trade",
+  "q": {
+   "en": "Roughly 2/3 of all sheet metal workers are employed in HVAC.",
+   "ru": "Примерно 2/3 всех sheet metal workers работают в HVAC."
+  },
+  "why": {
+   "en": "Yes. HVAC — making and installing duct, fittings, dampers and air-distribution systems for heating, ventilating and air conditioning — is the core of the sheet metal trade and employs roughly two-thirds of its workers, in shop fabrication, field installation and TAB (testing, adjusting and balancing). The other third is spread over the specialties: architectural sheet metal (roofing, flashing, gutters, wall panels), industrial work (dust collection, exhaust, heavy-gauge process work), service (maintaining and repairing HVAC equipment), plus signs, welding and residential work. The answer would be No if the statement put any one of those specialties at two-thirds.\n\nHow to use this: when a question asks for the largest part of the trade, the answer is HVAC duct work; the other areas are specialties around that core.",
+   "ru": "Да. HVAC — изготовление и монтаж duct, fittings, dampers и систем распределения воздуха для отопления, вентиляции и кондиционирования — основа профессии sheet metal, в нём занято примерно две трети работников: в цеху (shop fabrication), на монтаже и в TAB (testing, adjusting and balancing). Остальная треть распределена по специализациям: architectural sheet metal (кровля, flashing, водостоки, стеновые панели), industrial (пылеудаление, вытяжка, толстолистовые технологические системы), service (обслуживание и ремонт HVAC-оборудования), а также вывески, сварка и жилое строительство. Ответ был бы «нет», если бы на две трети претендовала любая из этих специализаций.\n\nКак применять: если спрашивают о самой большой части профессии, ответ — HVAC duct work; остальные направления — специализации вокруг этого ядра."
+  },
+  "opts": [
+   {
+    "en": "Yes",
+    "ru": "Да"
+   },
+   {
+    "en": "No",
+    "ru": "Нет"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    117
+   ]
+  ]
+ },
+ {
+  "id": "F20-120",
+  "src": "F20",
+  "n": 120,
+  "topic": "safety",
+  "q": {
+   "en": "Abrasive wheel tools must be equipped with guards that cover the ____________.",
+   "ru": "Инструмент с абразивным кругом должен иметь кожух (guard), который закрывает ____________."
+  },
+  "why": {
+   "en": "All of the above. OSHA 1926.303(b)(2): the safety guard of an abrasive wheel machine must cover the spindle end, nut and flange projections; Washington's WAC 296-155-365(2)(b) uses the same words, so the rule is the same here. The spindle end is the threaded end of the shaft that sticks out past the wheel, the nut holds the wheel on, and the flanges are the metal washers that clamp the wheel; all of them spin at full speed and can catch a sleeve or a glove, and the guard also contains the pieces if the wheel bursts. The only exceptions: where the work itself protects the operator, or on machines designed as portable saws, the spindle end, nut and outer flange may be exposed (1926.303(b)(2)(i)–(ii)). Each single part is correct on its own, so the answer that names all three is the complete one. On the job: never take the guard off a grinder, check that the wheel's rated RPM is at least the tool's speed, and ring-test a bench-grinder wheel before mounting it.\n\nHow to use this: grinder guard = spindle end + nut + flange projections, plus most of the wheel. When every listed item is a real part of the rule, choose \"all of the above\".",
+   "ru": "Всё перечисленное. OSHA 1926.303(b)(2): кожух станка с абразивным кругом должен закрывать конец шпинделя, гайку и выступающие фланцы; в Washington WAC 296-155-365(2)(b) говорит то же самое, так что правило здесь то же. Spindle end — резьбовой конец вала, выступающий за круг, nut — гайка, которая держит круг, flanges — металлические шайбы, зажимающие круг; всё это вращается на полной скорости и может захватить рукав или перчатку, а кожух ещё и задерживает осколки, если круг разорвётся. Исключения только такие: где сама деталь защищает оператора, и на станках, сделанных как переносные пилы, конец шпинделя, гайка и наружный фланец могут быть открыты (1926.303(b)(2)(i)–(ii)). Каждая часть по отдельности верна, поэтому полный ответ — тот, где названы все три. На работе: кожух с болгарки не снимать, проверять, что допустимые обороты круга не ниже оборотов инструмента, круг для точила перед установкой проверять простукиванием (ring test).\n\nКак применять: кожух шлифмашины = конец шпинделя + гайка + выступающие фланцы плюс большая часть круга. Если каждый пункт списка — настоящая часть правила, выбирай «всё перечисленное»."
+  },
+  "opts": [
+   {
+    "en": "spindle end",
+    "ru": "конец шпинделя (spindle end)"
+   },
+   {
+    "en": "nut",
+    "ru": "гайку (nut)"
+   },
+   {
+    "en": "flange projections",
+    "ru": "выступающие фланцы (flange projections)"
+   },
+   {
+    "en": "all of the above",
+    "ru": "всё перечисленное"
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    120
+   ]
+  ]
+ },
+ {
+  "id": "F20-121",
+  "src": "F20",
+  "n": 121,
+  "topic": "shop",
+  "q": {
+   "en": "Always use the _______ tool for the job.",
+   "ru": "Всегда используй _______ инструмент для работы."
+  },
+  "why": {
+   "en": "Right. The right tool is the one designed for that job and that material — snips for sheet metal, not a utility knife; a nut driver on a hex head, not pliers; a ladder, not a bucket. The wrong tool slips, breaks or damages the work, and it is one of the most common causes of hand injuries, which is why tool-safety rules start with this one. \"Nearest\" is the shortcut behind many of those injuries: grabbing whatever is close instead of walking to get the proper tool. \"Newest\" guarantees nothing — a new tool can be the wrong type, and an old one in good condition can be exactly right. \"Easiest\" is about saving effort, not about safety or quality; the right tool usually ends up easiest, but that is not how you choose it.\n\nHow to use this: pick the tool made for the job and the material, check it is in good condition, and use it the way it was designed to be used.",
+   "ru": "Правильный. Правильный инструмент — тот, что сделан для этой работы и этого материала: ножницы по металлу (snips) для листа, а не канцелярский нож; торцевой ключ (nut driver) на шестигранник, а не пассатижи; лестница, а не ведро. Не тот инструмент соскальзывает, ломается или портит деталь, и это одна из самых частых причин травм рук — поэтому правила безопасности с инструментом начинаются с этого. «Ближайший» — та самая спешка, из-за которой и бывают травмы: схватить то, что под рукой, вместо того чтобы сходить за нужным. «Самый новый» ничего не гарантирует: новый инструмент может быть не того типа, а старый в хорошем состоянии — как раз тем, что нужно. «Самый лёгкий в работе» — про экономию сил, а не про безопасность и качество; правильный инструмент обычно и оказывается самым удобным, но выбирают его не по этому признаку.\n\nКак применять: бери инструмент, сделанный для этой работы и этого материала, проверь, что он исправен, и работай им так, как он задуман."
+  },
+  "opts": [
+   {
+    "en": "nearest",
+    "ru": "ближайший"
+   },
+   {
+    "en": "right",
+    "ru": "правильный"
+   },
+   {
+    "en": "newest",
+    "ru": "самый новый"
+   },
+   {
+    "en": "easiest",
+    "ru": "самый лёгкий в работе"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    121
+   ]
+  ]
+ },
+ {
+  "id": "F20-122",
+  "src": "F20",
+  "n": 122,
+  "topic": "shop",
+  "q": {
+   "en": "Dull tools can cause more hazards than sharp ones.",
+   "ru": "Тупой инструмент может быть опаснее острого."
+  },
+  "why": {
+   "en": "True. A dull blade or bit needs more force to cut, so it slips, binds or kicks back, and the extra force drives your hand along when the tool suddenly lets go. Dull snips tear and crush the metal instead of cutting it, leaving jagged burrs and fish hooks that cut hands later; a dull drill bit overheats, grabs and spins the work. A sharp tool cuts with little pressure and goes where you guide it. That is why tools are kept sharp and in good repair, and dull or damaged tools are taken out of use until they are fixed. The statement would be false only if it suggested sharpness alone makes a tool safe — a sharp tool still needs its guard, gloves where required, and good technique.\n\nHow to use this: sharp and maintained = less force = more control. Sharpen or replace dull blades and bits, and tag damaged tools out of service.",
+   "ru": "True. Тупому ножу или сверлу нужно больше усилия, поэтому инструмент соскальзывает, закусывает или отскакивает, а лишнее усилие бросает руку вперёд, когда он внезапно поддаётся. Тупые ножницы рвут и мнут металл вместо того, чтобы резать, оставляя рваные заусенцы и «крючки» (fish hooks), о которые потом режут руки; тупое сверло перегревается, закусывает и проворачивает деталь. Острый инструмент режет с малым нажимом и идёт туда, куда его ведёшь. Поэтому инструмент держат острым и исправным, а тупой или повреждённый убирают из работы до ремонта. Утверждение было бы неверным, только если бы утверждало, что острота сама по себе делает инструмент безопасным — острому инструменту всё равно нужны кожух, перчатки там, где они положены, и правильные приёмы.\n\nКак применять: острый и исправный = меньше усилия = больше контроля. Тупые ножи и свёрла — точить или менять, повреждённый инструмент — с биркой вывести из работы."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "True"
+   },
+   {
+    "en": "False",
+    "ru": "False"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    122
+   ]
+  ]
+ },
+ {
+  "id": "F20-124",
+  "src": "F20",
+  "n": 124,
+  "topic": "safety",
+  "q": {
+   "en": "The crane operator must be informed when an employee enters the swing radius of the crane and is not permitted to rotate the superstructure of the crane until informed that the employee is in a safe position.",
+   "ru": "Крановщика нужно предупредить, когда работник заходит в зону поворота (swing radius) крана, и крановщику нельзя поворачивать поворотную часть крана, пока ему не сообщат, что работник в безопасном месте."
+  },
+  "why": {
+   "en": "True. OSHA 1926.1424(a)(3): before an employee goes to a place in the hazard area that is out of the operator's view, the operator must be told, and the operator must not rotate the superstructure until informed — by a pre-arranged signal or radio — that the employee is in a safe position. Washington has the same rule in WAC 296-155-53400(42)(c). The hazard area is the swing radius of the rotating superstructure, especially the counterweight: when the crane swings, a worker caught between the counterweight and a fixed object (a wall, another machine, a stack of material) can be crushed. That is why the swing radius is marked off with control lines, warning lines or railings (1926.1424(a)(2)), and nobody steps inside without telling the operator. The statement would be false if it let the operator swing on his own judgment without that confirmation.\n\nHow to use this: the crane's swing radius is a danger zone; never enter it unannounced — tell the operator and wait for confirmation; the operator does not swing until told you are clear.",
+   "ru": "True. OSHA 1926.1424(a)(3): прежде чем работник зайдёт в опасную зону туда, где его не видит крановщик, крановщика нужно предупредить, и крановщик не должен поворачивать поворотную часть (superstructure), пока ему по заранее условленному сигналу или по рации не сообщат, что работник в безопасном месте. В Washington то же правило — WAC 296-155-53400(42)(c). Опасная зона — радиус поворота поворотной части, особенно противовеса: когда кран поворачивается, человека между противовесом и неподвижным предметом (стеной, другой машиной, штабелем материала) может раздавить. Поэтому зону поворота ограждают сигнальными лентами, линиями или перилами (1926.1424(a)(2)), и никто не заходит туда, не предупредив крановщика. Утверждение было бы неверным, если бы крановщику разрешалось поворачивать по своему усмотрению без такого подтверждения.\n\nКак применять: радиус поворота крана — опасная зона; не заходи туда без предупреждения — сообщи крановщику и дождись подтверждения; крановщик не поворачивает, пока ему не скажут, что ты в безопасности."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "True"
+   },
+   {
+    "en": "False",
+    "ru": "False"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    124
+   ]
+  ]
+ },
+ {
+  "id": "F20-125",
+  "src": "F20",
+  "n": 125,
+  "topic": "layout",
+  "q": {
+   "en": "The architect's scale can be used to find an actual length of an object from a scale drawing.",
+   "ru": "По architect's scale можно найти действительную длину предмета на чертеже в масштабе."
+  },
+  "why": {
+   "en": "True. An architect's scale carries scales such as 1/8\" = 1'-0\", 1/4\" = 1'-0\", 1/2\" = 1'-0\" and 1\" = 1'-0\", each read in feet and inches, so laid on a scale drawing it gives the real length directly. Match the scale to the one in the title block or under the view, start at zero, read whole feet on the main divisions and inches on the finely divided end. Example: a line 2-1/2\" long on a 1/4\" = 1'-0\" drawing is 2.5 ÷ 0.25 = 10 ft long. The engineer's scale does the same for drawings in decimal feet (1\" = 10', 20', 50'), and a metric scale for metric drawings; the architect's scale does not use decimals of an inch. The statement would be false only for a drawing marked NTS (not to scale) — there you use the written dimensions and never scale the print.\n\nHow to use this: architect's scale = feet and inches (building drawings), engineer's scale = decimal feet (site and civil), metric scale = millimeters. Written dimensions win over scaling; scale only to find a missing dimension, and never on an NTS print.",
+   "ru": "True. На architect's scale есть шкалы вроде 1/8\" = 1'-0\", 1/4\" = 1'-0\", 1/2\" = 1'-0\" и 1\" = 1'-0\", каждая читается в футах и дюймах, поэтому, приложив линейку к чертежу в масштабе, сразу получаешь действительную длину. Выбери шкалу, как в штампе (title block) или под видом, начинай с нуля, целые футы читай по основным делениям, а дюймы — на мелко размеченном конце. Пример: линия длиной 2-1/2\" на чертеже 1/4\" = 1'-0\" — это 2.5 ÷ 0.25 = 10 ft. Engineer's scale делает то же для чертежей в десятичных футах (1\" = 10', 20', 50'), metric scale — для метрических; десятичных долей дюйма architect's scale не использует. Утверждение было бы неверным только для чертежа с пометкой NTS (not to scale) — там берут проставленные размеры и линейкой по чертежу не меряют.\n\nКак применять: architect's scale — футы и дюймы (строительные чертежи), engineer's scale — десятичные футы (генплан, civil), metric scale — миллиметры. Проставленный размер важнее измеренного; линейкой меряют, только чтобы найти недостающий размер, и никогда — на чертеже NTS."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "True"
+   },
+   {
+    "en": "False",
+    "ru": "False"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    125
+   ]
+  ]
+ },
+ {
+  "id": "F20-126",
+  "src": "F20",
+  "n": 126,
+  "topic": "layout",
+  "q": {
+   "en": "Triangulation is used to bisect an angle and to erect a perpendicular to a line.",
+   "ru": "Triangulation используют, чтобы разделить угол пополам и восстановить перпендикуляр к линии."
+  },
+  "why": {
+   "en": "True. In sheet-metal geometric construction, triangulation means locating a new point from two known points by two distances: swing an arc from each point, and the crossing is the third corner of a triangle. Both constructions are done exactly that way. To bisect an angle: an arc from the vertex marks a point on each side; equal arcs from those two points cross inside the angle; the line from the vertex through the crossing splits the angle in half. To erect a perpendicular: equal arcs from two points on the line cross above and below it, and the line through the crossings is at 90° (at the end of a line, arcs of one radius step off 60° and the next 60° is halved, 60° + 30° = 90°). False is tempting because triangulation is best known as a pattern-development method, but that method uses the same arc-and-crossing move to place every point.\n\nHow to use this: two known points + two distances = one new point where the arcs cross. That single move builds triangles, angle bisectors, perpendiculars and the patterns of transitions and square-to-rounds.",
+   "ru": "True. В геометрических построениях sheet metal triangulation — это нахождение новой точки по двум известным точкам и двум расстояниям: из каждой точки проводят дугу, и пересечение — третья вершина треугольника. Оба построения делаются именно так. Деление угла пополам: дуга из вершины отмечает по точке на каждой стороне; равные дуги из этих двух точек пересекаются внутри угла; прямая из вершины через пересечение делит угол пополам. Перпендикуляр: равные дуги из двух точек на линии пересекаются над и под ней, и прямая через пересечения стоит под 90° (на конце линии дугами одного радиуса откладывают 60°, следующие 60° делят пополам: 60° + 30° = 90°). False соблазняет, потому что triangulation больше известна как метод развёртки, но и этот метод ставит каждую точку тем же приёмом — двумя дугами до пересечения.\n\nКак применять: две известные точки + два расстояния = новая точка на пересечении дуг. Этим одним приёмом строят треугольники, биссектрисы, перпендикуляры и развёртки transitions и square to round."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "True"
+   },
+   {
+    "en": "False",
+    "ru": "False"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    126
+   ]
+  ]
+ },
+ {
+  "id": "F20-127",
+  "src": "F20",
+  "n": 127,
+  "topic": "layout",
+  "q": {
+   "en": "Triangulation is the process of laying out the pattern of any object by using a series of triangles.",
+   "ru": "Triangulation — это способ разметки развёртки (pattern) любого предмета с помощью ряда треугольников."
+  },
+  "why": {
+   "en": "True. Triangulation is the pattern-development method that divides a surface into triangles, finds the true length of every side, and lays the triangles out flat one after another, each new point found by two arcs (a true length from one point, a step from the other). It is the method for surfaces that are neither parallel-line nor radial-line: square to round, rectangular and eccentric transitions, offset tapers and warped fittings. It works on any object because any surface can be broken into small triangles — which is why the statement can say \"any object\" — but where the elements are parallel (pipe, elbows, tees) parallel-line development is quicker, and where they meet at one apex (cones, concentric tapers) radial-line development is quicker. The statement would be false if it said \"parallel lines\" or \"radial lines\" instead of triangles.\n\nHow to use this: three pattern-development methods — parallel line (elements parallel: elbows, tees), radial line (elements meet at an apex: cones, concentric tapers), triangulation (everything else: square to round, transitions). Triangulation always starts with a true-length table.",
+   "ru": "True. Triangulation — метод развёртки, при котором поверхность делят на треугольники, находят true length каждой стороны и раскладывают треугольники на плоскости один за другим, ставя каждую новую точку двумя дугами (true length от одной точки, шаг от другой). Это метод для поверхностей, которые не разворачиваются ни parallel line, ни radial line: square to round, прямоугольные и эксцентричные transitions, offset tapers, «скрученные» (warped) fittings. Он работает для любого предмета, потому что любую поверхность можно разбить на мелкие треугольники — поэтому в утверждении и сказано «любого», — но где образующие параллельны (труба, elbows, tees), быстрее parallel line, а где они сходятся в одну вершину (конусы, концентрические tapers), быстрее radial line. Утверждение было бы неверным, если бы вместо треугольников там стояло «parallel lines» или «radial lines».\n\nКак применять: три метода развёртки — parallel line (образующие параллельны: elbows, tees), radial line (сходятся в вершину: конусы, концентрические tapers), triangulation (всё остальное: square to round, transitions). Triangulation всегда начинается с таблицы true length."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "True"
+   },
+   {
+    "en": "False",
+    "ru": "False"
+   }
+  ],
+  "answer": [
+   0
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    127
+   ]
+  ]
+ },
+ {
+  "id": "F20-128",
+  "src": "F20",
+  "n": 128,
+  "topic": "safety",
+  "q": {
+   "en": "Most modern synthetic materials for clothing are more fire resistant than old fashioned cotton or wool",
+   "ru": "Большинство современных синтетических тканей для одежды более огнестойкие, чем старые добрые хлопок или шерсть"
+  },
+  "why": {
+   "en": "False. Most synthetic fibers — polyester, nylon, acrylic, polypropylene — are thermoplastic: in heat or flame they melt and drip, and the hot melt sticks to the skin and keeps burning into it, turning a small burn into a deep one. Cotton and wool char instead of melting; wool is naturally hard to ignite and tends to put itself out, and untreated cotton does burn but does not stick. That is why welding and hot-work clothing is wool, heavy or flame-treated cotton, or leather, and synthetics are kept away from sparks, arcs and torches. The statement would be true only for synthetics engineered and labeled flame-resistant (FR), such as aramid fabrics — not for ordinary modern synthetics.\n\nHow to use this: near welding, cutting, grinding or electrical arcs wear wool, flame-treated cotton, leather or FR-labeled clothing; no polyester, nylon or fleece, and no cuffs or open pockets that catch sparks.",
+   "ru": "False. Большинство синтетических волокон — полиэстер, нейлон, акрил, полипропилен — термопласты: от жара или огня они плавятся и капают, а горячий расплав прилипает к коже и продолжает её жечь, превращая небольшой ожог в глубокий. Хлопок и шерсть не плавятся, а обугливаются; шерсть от природы плохо загорается и сама гаснет, а необработанный хлопок горит, но не прилипает. Поэтому одежда для сварки и огневых работ — шерсть, плотный или огнезащитно обработанный хлопок, кожа, а синтетику держат подальше от искр, дуги и резака. Утверждение было бы верным только для синтетики, специально сделанной и промаркированной как огнестойкая (FR), например арамидных тканей, — но не для обычной современной синтетики.\n\nКак применять: рядом со сваркой, резкой, шлифовкой и электрической дугой — шерсть, огнезащитный хлопок, кожа или одежда с маркировкой FR; никакого полиэстера, нейлона и флиса, никаких отворотов и открытых карманов, куда залетают искры."
+  },
+  "opts": [
+   {
+    "en": "True",
+    "ru": "True"
+   },
+   {
+    "en": "False",
+    "ru": "False"
+   }
+  ],
+  "answer": [
+   1
+  ],
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    128
    ]
   ]
  },
@@ -10184,7 +11676,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    70
+   ]
+  ]
  },
  {
   "id": "FSD-206",
@@ -10312,7 +11810,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    67
+   ]
+  ]
  },
  {
   "id": "FSD-210",
@@ -10576,7 +12080,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    73
+   ]
+  ]
  },
  {
   "id": "FSD-218",
@@ -11020,7 +12530,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    71
+   ]
+  ]
  },
  {
   "id": "FSD-402",
@@ -12120,7 +13636,13 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    69
+   ]
+  ]
  },
  {
   "id": "FSD-509",
@@ -13395,7 +14917,16 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single"
+  "type": "single",
+  "also": [
+   1
+  ],
+  "on": [
+   [
+    "F20",
+    79
+   ]
+  ]
  },
  {
   "id": "Y1W3-34",
@@ -13495,7 +15026,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    30
+   ]
+  ]
  },
  {
   "id": "Y1W3-46",
@@ -13748,13 +15285,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    34
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W3-55",
@@ -13939,13 +15470,7 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "fig": "y1w3-q60.svg",
-  "on": [
-   [
-    "F20",
-    20
-   ]
-  ]
+  "fig": "y1w3-q60.svg"
  },
  {
   "id": "Y1W5F-39",
@@ -13985,7 +15510,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    62
+    39
    ]
   ]
  },
@@ -14017,10 +15542,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    85
-   ],
    [
     "Y1W5H",
     40
@@ -14061,13 +15582,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    107
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W5F-61",
@@ -14097,10 +15612,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    69
-   ],
    [
     "Y1W5H",
     42
@@ -14140,10 +15651,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    71
-   ],
-   [
     "Y1W5H",
     43
    ]
@@ -14175,13 +15682,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    160
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W5F-64",
@@ -14209,13 +15710,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    161
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W5F-65",
@@ -14245,10 +15740,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    70
-   ],
    [
     "Y1W5H",
     41
@@ -14285,13 +15776,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    162
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W5H-1",
@@ -14403,10 +15888,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    38
-   ],
    [
     "Y1W5H",
     14
@@ -14702,10 +16183,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    3
-   ],
-   [
     "Y1W5H",
     21
    ]
@@ -14938,10 +16415,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    21
-   ],
-   [
     "Y1W5H",
     27
    ]
@@ -15154,10 +16627,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    39
-   ],
-   [
     "Y1W5H",
     33
    ]
@@ -15197,7 +16666,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    24
+    123
    ],
    [
     "Y1W5H",
@@ -16294,13 +17763,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    253
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W5M-4",
@@ -16328,13 +17791,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    142
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W5M-7",
@@ -16370,13 +17827,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    143
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W5M-8",
@@ -16404,13 +17855,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    144
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W5M-9",
@@ -16438,13 +17883,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    25
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W5M-14",
@@ -16472,13 +17911,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    226
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W5M-19",
@@ -16506,13 +17939,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    254
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W5M-23",
@@ -16540,13 +17967,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    155
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W5M-29",
@@ -16574,13 +17995,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    102
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W5M-42",
@@ -16616,13 +18031,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    156
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W5M-45",
@@ -16686,13 +18095,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    157
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W5M-47",
@@ -16756,13 +18159,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    158
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W5M-49",
@@ -16798,13 +18195,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    106
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W5M-50",
@@ -16840,13 +18231,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    159
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W5M-51",
@@ -16882,13 +18267,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    113
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W5M-52",
@@ -16916,13 +18295,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    227
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W5M-53",
@@ -16950,13 +18323,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    228
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W5M-54",
@@ -16984,13 +18351,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    229
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W5M-57",
@@ -17026,13 +18387,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    78
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y1W5M-64",
@@ -17073,13 +18428,7 @@ const QUESTIONS = [
    3
   ],
   "type": "single",
-  "fig": "y1w5m-q64.svg",
-  "on": [
-   [
-    "F20",
-    60
-   ]
-  ]
+  "fig": "y1w5m-q64.svg"
  },
  {
   "id": "Y2W1H-2",
@@ -17495,10 +18844,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    96
-   ],
    [
     "Y2W1H",
     11
@@ -18315,10 +19660,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    101
-   ],
-   [
     "Y2W5Y",
     50
    ]
@@ -18424,10 +19765,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    100
-   ],
    [
     "Y2W5Y",
     53
@@ -18576,13 +19913,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    42
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y2W3F-14",
@@ -18910,10 +20241,6 @@ const QUESTIONS = [
   "fig": "y2w3f-q23.svg",
   "on": [
    [
-    "F20",
-    88
-   ],
-   [
     "Y2W5Y",
     58
    ]
@@ -18991,7 +20318,13 @@ const QUESTIONS = [
    3
   ],
   "type": "single",
-  "fig": "y2w3f-q25.svg"
+  "fig": "y2w3f-q25.svg",
+  "on": [
+   [
+    "F20",
+    43
+   ]
+  ]
  },
  {
   "id": "Y2W3F-26",
@@ -19065,7 +20398,13 @@ const QUESTIONS = [
    2
   ],
   "type": "single",
-  "fig": "y2w3f-q27.svg"
+  "fig": "y2w3f-q27.svg",
+  "on": [
+   [
+    "F20",
+    45
+   ]
+  ]
  },
  {
   "id": "Y2W3F-29",
@@ -19151,10 +20490,6 @@ const QUESTIONS = [
   "fig": "y2w3f-q30.svg",
   "on": [
    [
-    "F20",
-    36
-   ],
-   [
     "Y2W5Y",
     60
    ]
@@ -19218,10 +20553,6 @@ const QUESTIONS = [
   "type": "multi",
   "fig": "y2w3f-q31.svg",
   "on": [
-   [
-    "F20",
-    37
-   ],
    [
     "Y2W5Y",
     61
@@ -19300,10 +20631,6 @@ const QUESTIONS = [
   "type": "multi",
   "fig": "y2w3f-q32.svg",
   "on": [
-   [
-    "F20",
-    4
-   ],
    [
     "Y2W5Y",
     62
@@ -19468,7 +20795,7 @@ const QUESTIONS = [
   "on": [
    [
     "F20",
-    23
+    119
    ]
   ]
  },
@@ -19841,13 +21168,7 @@ const QUESTIONS = [
    "reject": [],
    "text": "Mild",
    "prefix": ""
-  },
-  "on": [
-   [
-    "F20",
-    33
-   ]
-  ]
+  }
  },
  {
   "id": "Y2W3M-55",
@@ -20435,7 +21756,13 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    102
+   ]
+  ]
  },
  {
   "id": "Y2W4F-72",
@@ -21604,7 +22931,13 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single"
+  "type": "single",
+  "on": [
+   [
+    "F20",
+    86
+   ]
+  ]
  },
  {
   "id": "Y2W4M-59",
@@ -21750,13 +23083,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    255
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y2W5M-7",
@@ -21792,13 +23119,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    256
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y2W5M-11",
@@ -21836,10 +23157,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    97
-   ],
    [
     "Y2W5Y",
     52
@@ -21884,13 +23201,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    213
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y2W5M-13",
@@ -21926,13 +23237,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    214
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y2W5M-15",
@@ -21972,13 +23277,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    215
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y2W5M-18",
@@ -22014,13 +23313,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    216
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y2W5M-20",
@@ -22059,10 +23352,6 @@ const QUESTIONS = [
   "type": "single",
   "fig": "y2w5m-q20.svg",
   "on": [
-   [
-    "F20",
-    98
-   ],
    [
     "Y2W5Y",
     55
@@ -22107,10 +23396,6 @@ const QUESTIONS = [
   "fig": "y2w5m-q21.svg",
   "on": [
    [
-    "F20",
-    99
-   ],
-   [
     "Y2W5Y",
     56
    ]
@@ -22150,13 +23435,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    249
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y2W5M-30",
@@ -22192,13 +23471,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "on": [
-   [
-    "F20",
-    183
-   ]
-  ]
+  "type": "single"
  },
  {
   "id": "Y2W5Y-21",
@@ -22236,10 +23509,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    55
-   ],
    [
     "Y2W5Y",
     21
@@ -22326,10 +23595,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    7
-   ],
-   [
     "Y2W5Y",
     26
    ]
@@ -22372,10 +23637,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    115
-   ],
-   [
     "Y2W5Y",
     36
    ]
@@ -22417,10 +23678,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    126
-   ],
    [
     "Y2W5Y",
     51
@@ -22494,10 +23751,6 @@ const QUESTIONS = [
   },
   "fig": "y2w5y-q63.svg",
   "on": [
-   [
-    "F20",
-    18
-   ],
    [
     "Y2W5Y",
     63
@@ -22584,10 +23837,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    127
-   ],
-   [
     "Y2W5Y",
     3
    ]
@@ -22629,10 +23878,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    128
-   ],
    [
     "Y2W5Y",
     4
@@ -22676,10 +23921,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    129
-   ],
-   [
     "Y2W5Y",
     5
    ]
@@ -22721,10 +23962,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    130
-   ],
    [
     "Y2W5Y",
     6
@@ -22768,10 +24005,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    131
-   ],
-   [
     "Y2W5Y",
     7
    ]
@@ -22813,10 +24046,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    132
-   ],
    [
     "Y2W5Y",
     8
@@ -22860,10 +24089,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    133
-   ],
-   [
     "Y2W5Y",
     9
    ]
@@ -22905,10 +24130,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    134
-   ],
    [
     "Y2W5Y",
     10
@@ -22952,10 +24173,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    135
-   ],
-   [
     "Y2W5Y",
     11
    ]
@@ -22989,10 +24206,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    103
-   ],
    [
     "Y2W5Y",
     14
@@ -23036,10 +24249,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    27
-   ],
-   [
     "Y2W5Y",
     15
    ]
@@ -23066,10 +24275,6 @@ const QUESTIONS = [
    "text": "19-1/4\""
   },
   "on": [
-   [
-    "F20",
-    108
-   ],
    [
     "Y2W5Y",
     23
@@ -23113,10 +24318,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    48
-   ],
-   [
     "Y2W5Y",
     25
    ]
@@ -23150,10 +24351,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    199
-   ],
    [
     "Y2W5Y",
     32
@@ -23196,10 +24393,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    180
-   ],
    [
     "Y2W5Y",
     34
@@ -23247,10 +24440,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    114
-   ],
-   [
     "Y2W5Y",
     35
    ]
@@ -23292,10 +24481,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    116
-   ],
    [
     "Y2W5Y",
     38
@@ -23339,10 +24524,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    117
-   ],
-   [
     "Y2W5Y",
     39
    ]
@@ -23385,10 +24566,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    181
-   ],
-   [
     "Y2W5Y",
     40
    ]
@@ -23426,10 +24603,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    118
-   ],
    [
     "Y2W5Y",
     41
@@ -23473,10 +24646,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    120
-   ],
-   [
     "Y2W5Y",
     42
    ]
@@ -23514,10 +24683,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    182
-   ],
    [
     "Y2W5Y",
     43
@@ -23561,10 +24726,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    121
-   ],
-   [
     "Y2W5Y",
     44
    ]
@@ -23607,10 +24768,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    123
-   ],
-   [
     "Y2W5Y",
     45
    ]
@@ -23648,10 +24805,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    124
-   ],
    [
     "Y2W5Y",
     54
@@ -23694,10 +24847,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    109
-   ],
    [
     "Y2W5Y",
     57
@@ -23742,10 +24891,6 @@ const QUESTIONS = [
   "fig": "y2w5y-q59.svg",
   "on": [
    [
-    "F20",
-    65
-   ],
-   [
     "Y2W5Y",
     59
    ]
@@ -23783,10 +24928,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    200
-   ],
    [
     "Y2W5Y",
     64
@@ -23826,10 +24967,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    201
-   ],
-   [
     "Y2W5Y",
     65
    ]
@@ -23867,10 +25004,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    202
-   ],
    [
     "Y2W5Y",
     66
@@ -23910,10 +25043,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    203
-   ],
-   [
     "Y2W5Y",
     67
    ]
@@ -23951,10 +25080,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    204
-   ],
    [
     "Y2W5Y",
     68
@@ -23994,10 +25119,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    205
-   ],
-   [
     "Y2W5Y",
     69
    ]
@@ -24035,10 +25156,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    206
-   ],
    [
     "Y2W5Y",
     70
@@ -24078,10 +25195,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    207
-   ],
-   [
     "Y2W5Y",
     71
    ]
@@ -24119,10 +25232,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    208
-   ],
    [
     "Y2W5Y",
     72
@@ -24162,10 +25271,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    209
-   ],
-   [
     "Y2W5Y",
     73
    ]
@@ -24203,10 +25308,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    210
-   ],
    [
     "Y2W5Y",
     74
@@ -24246,10 +25347,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    211
-   ],
-   [
     "Y2W5Y",
     75
    ]
@@ -24288,10 +25385,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    212
-   ],
-   [
     "Y2W5Y",
     76
    ]
@@ -24325,10 +25418,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    230
-   ],
    [
     "Y2W5Y",
     77
@@ -24364,10 +25453,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    231
-   ],
-   [
     "Y2W5Y",
     78
    ]
@@ -24401,10 +25486,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    232
-   ],
    [
     "Y2W5Y",
     79
@@ -24440,10 +25521,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    233
-   ],
-   [
     "Y2W5Y",
     80
    ]
@@ -24477,10 +25554,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    234
-   ],
    [
     "Y2W5Y",
     81
@@ -24516,10 +25589,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    235
-   ],
-   [
     "Y2W5Y",
     82
    ]
@@ -24553,10 +25622,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    236
-   ],
    [
     "Y2W5Y",
     83
@@ -24592,10 +25657,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    237
-   ],
-   [
     "Y2W5Y",
     84
    ]
@@ -24629,10 +25690,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    238
-   ],
    [
     "Y2W5Y",
     85
@@ -24668,10 +25725,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    239
-   ],
-   [
     "Y2W5Y",
     86
    ]
@@ -24705,10 +25758,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    240
-   ],
    [
     "Y2W5Y",
     87
@@ -24744,10 +25793,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    241
-   ],
-   [
     "Y2W5Y",
     88
    ]
@@ -24781,10 +25826,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    242
-   ],
    [
     "Y2W5Y",
     89
@@ -24832,10 +25873,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    243
-   ],
-   [
     "Y2W5Y",
     90
    ]
@@ -24881,10 +25918,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    244
-   ],
    [
     "Y2W5Y",
     91
@@ -24932,10 +25965,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    145
-   ],
-   [
     "Y2W5Y",
     92
    ]
@@ -24981,10 +26010,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    245
-   ],
    [
     "Y2W5Y",
     93
@@ -25032,10 +26057,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    246
-   ],
-   [
     "Y2W5Y",
     94
    ]
@@ -25077,10 +26098,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    247
-   ],
    [
     "Y2W5Y",
     95
@@ -25125,10 +26142,6 @@ const QUESTIONS = [
   },
   "on": [
    [
-    "F20",
-    146
-   ],
-   [
     "Y2W5Y",
     96
    ]
@@ -25162,10 +26175,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    248
-   ],
    [
     "Y2W5Y",
     97
@@ -25201,10 +26210,6 @@ const QUESTIONS = [
   "type": "single",
   "on": [
    [
-    "F20",
-    147
-   ],
-   [
     "Y2W5Y",
     98
    ]
@@ -25238,10 +26243,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    136
-   ],
    [
     "Y2W5Y",
     99
@@ -25294,10 +26295,6 @@ const QUESTIONS = [
   "type": "multi",
   "on": [
    [
-    "F20",
-    163
-   ],
-   [
     "Y2W5Y",
     100
    ]
@@ -25339,10 +26336,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    148
-   ],
    [
     "Y2W5Y",
     101
@@ -25387,10 +26380,6 @@ const QUESTIONS = [
   "fig": "y2w5y-q102.svg",
   "on": [
    [
-    "F20",
-    164
-   ],
-   [
     "Y2W5Y",
     102
    ]
@@ -25432,10 +26421,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "on": [
-   [
-    "F20",
-    149
-   ],
    [
     "Y2W5Y",
     103
@@ -25496,10 +26481,6 @@ const QUESTIONS = [
   "fig": "y2w5y-q104.svg",
   "on": [
    [
-    "F20",
-    150
-   ],
-   [
     "Y2W5Y",
     104
    ]
@@ -25558,10 +26539,6 @@ const QUESTIONS = [
   "type": "single",
   "fig": "y2w5y-q105.svg",
   "on": [
-   [
-    "F20",
-    151
-   ],
    [
     "Y2W5Y",
     105
@@ -25622,10 +26599,6 @@ const QUESTIONS = [
   "fig": "y2w5y-q106.svg",
   "on": [
    [
-    "F20",
-    152
-   ],
-   [
     "Y2W5Y",
     106
    ]
@@ -25668,10 +26641,6 @@ const QUESTIONS = [
   "type": "single",
   "fig": "y2w5y-q107.svg",
   "on": [
-   [
-    "F20",
-    165
-   ],
    [
     "Y2W5Y",
     107
@@ -25716,10 +26685,6 @@ const QUESTIONS = [
   "fig": "y2w5y-q108.svg",
   "on": [
    [
-    "F20",
-    166
-   ],
-   [
     "Y2W5Y",
     108
    ]
@@ -25762,10 +26727,6 @@ const QUESTIONS = [
   "type": "single",
   "fig": "y2w5y-q109.svg",
   "on": [
-   [
-    "F20",
-    167
-   ],
    [
     "Y2W5Y",
     109
@@ -25810,10 +26771,6 @@ const QUESTIONS = [
   "fig": "y2w5y-q110.svg",
   "on": [
    [
-    "F20",
-    168
-   ],
-   [
     "Y2W5Y",
     110
    ]
@@ -25841,10 +26798,6 @@ const QUESTIONS = [
   },
   "fig": "y2w5y-q111.svg",
   "on": [
-   [
-    "F20",
-    64
-   ],
    [
     "Y2W5Y",
     111

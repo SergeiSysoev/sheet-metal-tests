@@ -1,0 +1,326 @@
+[
+ {
+  "src": "F20",
+  "n": 59,
+  "topic": "trig",
+  "ru_q": "Используя law of cosines, найди размеры length и offset.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Length = 3'-4 9/16\" Offset = 5'-9 5/8\"",
+   "Length = 5'-2 7/16\" Offset = 3'-11 1/8\"",
+   "Length = 4'-11 3/8\" Offset = 2'-10 1/4\"",
+   "Length = 5'-11 5/16\" Offset = 3'-3 1/8\""
+  ],
+  "why_en": "Length = 5'-2 7/16\", Offset = 3'-11 1/8\". Both diagonals are measured from one point, P: the bottom corner of the first duct's end. 7'-4 3/4\" = 88.75\" runs to the top corner of the second duct's end, 6'-6 3/16\" = 78.1875\" to its bottom corner, and the third side of that triangle is the second duct's end itself, 16\" (the side seen in the drawing). Law of cosines for the angle at the bottom corner of the second duct, between the 16\" end and the 78.1875\" diagonal (opposite the 88.75\" one): cos γ = (78.1875² + 16² − 88.75²) ÷ (2 × 78.1875 × 16), γ = 127.0441°. The end is vertical, so the lower diagonal rises α = γ − 90° = 37.0441° above level: offset = 78.1875 × sin α = 47.1024\" → 47-1/8\" = 3'-11 1/8\"; length = 78.1875 × cos α = 62.4071\" → 62-7/16\" = 5'-2 7/16\". The same without angles: offset = (88.75² − 78.1875² − 16²) ÷ (2 × 16) = 1507.2773 ÷ 32 = 47.1024, length = √(78.1875² − 47.1024²) = 62.4071. The other two angles are 44.6826° and 8.2733°; all three add up to 180°.\n\nCheck any pair by rebuilding the measured diagonals: √(length² + offset²) must give the lower diagonal (78.1875\") and √(length² + (offset + 16)²) the upper one (88.75\"). The right pair gives 78.2254\" and 88.7874\" — off only by the rounding to 1/16. 3'-4 9/16\" with 5'-9 5/8\" gives 80.5789\" and 94.7468\"; 4'-11 3/8\" with 2'-10 1/4\" gives 68.5453\" and 77.7847\", about 10\" short; 5'-11 5/16\" with 3'-3 1/8\" gives 81.3403\" and 90.1346\". None of them fits the diagonals that were measured.\n\nHow to use this: Field offset by two diagonals: from the bottom corner of the first duct's end, measure to the bottom and to the top corner of the second duct's end; the third side is the second duct's side in the drawing (the first number of its size). Offset = (top² − bottom² − side²) ÷ (2 × side), length = √(bottom² − offset²); or find the angle at the second duct with the law of cosines, rise = that angle − 90°, offset = bottom diagonal × sin rise, length = bottom diagonal × cos rise. A negative number under the root means the diagonals or the side were mixed up.",
+  "why_ru": "Length = 5'-2 7/16\", Offset = 3'-11 1/8\". Обе диагонали меряют от одной точки P — нижнего угла торца первого duct. 7'-4 3/4\" = 88.75\" идёт к верхнему углу торца второго duct, 6'-6 3/16\" = 78.1875\" — к его нижнему углу, а третья сторона этого треугольника — сам торец второго duct, 16\" (сторона, видимая на чертеже). Law of cosines для угла у нижнего угла второго duct, между торцом 16\" и диагональю 78.1875\" (напротив диагонали 88.75\"): cos γ = (78.1875² + 16² − 88.75²) ÷ (2 × 78.1875 × 16), γ = 127.0441°. Торец вертикальный, поэтому нижняя диагональ поднимается под α = γ − 90° = 37.0441° к горизонтали: offset = 78.1875 × sin α = 47.1024\" → 47-1/8\" = 3'-11 1/8\"; length = 78.1875 × cos α = 62.4071\" → 62-7/16\" = 5'-2 7/16\". То же без углов: offset = (88.75² − 78.1875² − 16²) ÷ (2 × 16) = 1507.2773 ÷ 32 = 47.1024, length = √(78.1875² − 47.1024²) = 62.4071. Два других угла — 44.6826° и 8.2733°; в сумме все три дают 180°.\n\nЛюбую пару проверяют, собирая обратно замеренные диагонали: √(length² + offset²) должен дать нижнюю диагональ (78.1875\"), а √(length² + (offset + 16)²) — верхнюю (88.75\"). Верная пара даёт 78.2254\" и 88.7874\" — расхождение только от округления до 1/16. 3'-4 9/16\" с 5'-9 5/8\" дают 80.5789\" и 94.7468\"; 4'-11 3/8\" с 2'-10 1/4\" — 68.5453\" и 77.7847\", примерно на 10\" меньше; 5'-11 5/16\" с 3'-3 1/8\" — 81.3403\" и 90.1346\". Ни одна из них не сходится с замеренными диагоналями.\n\nКак применять: offset по двум диагоналям на объекте: от нижнего угла торца первого duct мерить до нижнего и до верхнего угла торца второго duct; третья сторона — сторона второго duct на чертеже (первая цифра размера). Offset = (верхняя² − нижняя² − сторона²) ÷ (2 × сторона), length = √(нижняя² − offset²); или найти law of cosines угол у второго duct, подъём = этот угол − 90°, offset = нижняя диагональ × sin подъёма, length = нижняя диагональ × cos подъёма. Отрицательное число под корнем — перепутаны диагонали или сторона.",
+  "flag": "Drawing not to scale (as printed). No formula slip found that produces the three wrong pairs; the explanation rules them out by rebuilding the diagonals."
+ },
+ {
+  "src": "F20",
+  "n": 60,
+  "topic": "trig",
+  "ru_q": "Используя law of cosines, найди размеры length и offset.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Length = 6'-4 1/2\" Offset = 3'-6\"",
+   "Length = 2'-2\" Offset = 5'-3 1/8\"",
+   "Length = 5'-9 5/16\" Offset = 2'-9 9/16\"",
+   "Length = 5'-15/16\" Offset = 2'-9 9/16\""
+  ],
+  "why_en": "Length = 5'-15/16\" (that is 5'-0 15/16\"), Offset = 2'-9 9/16\". Both diagonals start at P, the bottom corner of the 16\"x10\" duct's end: 6'-9 1/8\" = 81.125\" to the top corner of the 20\"x14\" end, 5'-9 9/16\" = 69.5625\" to its bottom corner. The third side is the 20\" side of the second duct — the first number of a duct size is the side seen in the drawing. cos γ = (69.5625² + 20² − 81.125²) ÷ (2 × 69.5625 × 20), γ = 118.8434°, rise α = γ − 90° = 28.8434°. Offset = 69.5625 × sin α = 33.5581\" → 33-9/16\" = 2'-9 9/16\"; length = 69.5625 × cos α = 60.9327\" → 60-15/16\" = 5'-0 15/16\". Without angles: offset = (81.125² − 69.5625² − 20²) ÷ 40 = 1342.3242 ÷ 40 = 33.5581, length = √(69.5625² − 33.5581²) = 60.9327.\n\nCheck by rebuilding the diagonals, √(length² + offset²) for the lower one and √(length² + (offset + 20)²) for the upper one: the right pair gives 69.5688\" and 81.1315\" (measured 69.5625 and 81.125). 5'-9 5/16\" with the same offset is the trap: that length is almost the lower diagonal itself (5'-9 9/16\"), but the length is a leg of the right triangle and must be shorter than the diagonal — this pair rebuilds 77.0108\" instead of 69.5625. 6'-4 1/2\" with 3'-6\" gives 87.2711\" and 98.4695\"; 2'-2\" with 5'-3 1/8\" gives 68.2698\" for the lower diagonal but 87.0963\" for the upper one. Using the hidden 14\" side instead of 20 would give offset 55.2259 and length 42.2971, which is not offered either.\n\nHow to use this: For a field offset take the side of the second duct that lies in the drawing — the first number of its size (20 of 20\"x14\"). Offset = (top diagonal² − bottom diagonal² − side²) ÷ (2 × side), length = √(bottom diagonal² − offset²). Both answers must be shorter than the diagonals, and rebuilding the diagonals from them is the quickest check of a picked option.",
+  "why_ru": "Length = 5'-15/16\" (то есть 5'-0 15/16\"), Offset = 2'-9 9/16\". Обе диагонали идут от P — нижнего угла торца duct 16\"x10\": 6'-9 1/8\" = 81.125\" к верхнему углу торца 20\"x14\", 5'-9 9/16\" = 69.5625\" — к его нижнему углу. Третья сторона — сторона 20\" второго duct: первая цифра размера duct — сторона, видимая на чертеже. cos γ = (69.5625² + 20² − 81.125²) ÷ (2 × 69.5625 × 20), γ = 118.8434°, подъём α = γ − 90° = 28.8434°. Offset = 69.5625 × sin α = 33.5581\" → 33-9/16\" = 2'-9 9/16\"; length = 69.5625 × cos α = 60.9327\" → 60-15/16\" = 5'-0 15/16\". Без углов: offset = (81.125² − 69.5625² − 20²) ÷ 40 = 1342.3242 ÷ 40 = 33.5581, length = √(69.5625² − 33.5581²) = 60.9327.\n\nПроверка — собрать диагонали обратно: √(length² + offset²) для нижней и √(length² + (offset + 20)²) для верхней. Верная пара даёт 69.5688\" и 81.1315\" (замерено 69.5625 и 81.125). 5'-9 5/16\" с тем же offset — ловушка: эта length почти равна самой нижней диагонали (5'-9 9/16\"), а length — катет прямоугольного треугольника и обязана быть короче диагонали; эта пара даёт 77.0108\" вместо 69.5625. 6'-4 1/2\" с 3'-6\" дают 87.2711\" и 98.4695\"; 2'-2\" с 5'-3 1/8\" дают 68.2698\" для нижней диагонали, но 87.0963\" для верхней. Если взять невидимую сторону 14\" вместо 20, вышло бы offset 55.2259 и length 42.2971 — такого варианта тоже нет.\n\nКак применять: для offset на объекте берут сторону второго duct, лежащую на чертеже, — первую цифру размера (20 из 20\"x14\"). Offset = (верхняя диагональ² − нижняя диагональ² − сторона²) ÷ (2 × сторона), length = √(нижняя диагональ² − offset²). Оба ответа должны быть короче диагоналей, а сборка диагоналей обратно — самая быстрая проверка выбранного варианта.",
+  "flag": "Printed 'Length = 5'-15/16\"' means 5'-0 15/16\". Drawing not to scale (as printed)."
+ },
+ {
+  "src": "F20",
+  "n": 61,
+  "topic": "trig",
+  "ru_q": "Используя law of cosines, найди углы A, B и C.",
+  "ru_hint": null,
+  "ru_opts": [
+   "A = 92 градуса",
+   "A = 91 градус",
+   "A = 86 градусов",
+   "B = 46 градусов",
+   "B = 31 градус",
+   "B = 63 градуса",
+   "C = 86 градусов",
+   "C = 63 градуса",
+   "C = 31 градус"
+  ],
+  "why_en": "A = 86°, B = 31°, C = 63°. Law of cosines: the cosine of an angle = (square of one side forming it + square of the other side forming it − square of the side opposite it) ÷ (2 × the two forming sides). Sides: 4'-2 3/4\" = 50.75\", 7'-2 1/2\" = 86.5\", 8'-1 1/4\" = 97.25\". A is at the top, between 50.75 and 86.5, opposite the 97.25 base: cos A = (50.75² + 86.5² − 97.25²) ÷ (2 × 50.75 × 86.5) = 600.25 ÷ 8779.75 = 0.0684, A = 86.0798° → 86°. B is at the right corner, opposite 50.75: cos B = (86.5² + 97.25² − 50.75²) ÷ (2 × 86.5 × 97.25) = 0.8538, B = 31.3745° → 31°. C is at the left corner, opposite 86.5: cos C = (50.75² + 97.25² − 86.5²) ÷ (2 × 50.75 × 97.25) = 0.4610, C = 62.5457° → 63°. Check: 86.0798 + 31.3745 + 62.5457 = 180, and the rounded 86 + 31 + 63 = 180.\n\nWrong options: 92° and 91° for A would be obtuse, but 50.75² + 86.5² = 10057.8125 is more than 97.25² = 9457.5625, so the top angle must be less than 90°. B = 63°, C = 86° and C = 31° are true values put at the wrong corner: the smallest angle always faces the shortest side (B, across from 4'-2 3/4\") and the largest faces the longest side (A, across from 8'-1 1/4\"). B = 46° fits no corner at all.\n\nHow to use this: Name each angle by the side opposite it, square the three sides, then cos = (sum of the squares of the two sides that form the angle − square of the opposite side) ÷ (2 × those two sides) and take the inverse cosine. If the opposite side squared is more than the other two squared together, the angle is obtuse (negative cosine). Always check that the three angles add up to 180° and that the biggest angle faces the longest side. On the course calculator: the side opposite A into CONV 4, opposite B into CONV 5, opposite C into CONV 6, then CONV 9 gives A, 9 again B, 9 again C.",
+  "why_ru": "A = 86°, B = 31°, C = 63°. Law of cosines: косинус угла = (квадрат одной стороны угла + квадрат другой стороны угла − квадрат стороны напротив) ÷ (2 × две стороны угла). Стороны: 4'-2 3/4\" = 50.75\", 7'-2 1/2\" = 86.5\", 8'-1 1/4\" = 97.25\". A — вверху, между 50.75 и 86.5, напротив основания 97.25: cos A = (50.75² + 86.5² − 97.25²) ÷ (2 × 50.75 × 86.5) = 600.25 ÷ 8779.75 = 0.0684, A = 86.0798° → 86°. B — в правом углу, напротив 50.75: cos B = (86.5² + 97.25² − 50.75²) ÷ (2 × 86.5 × 97.25) = 0.8538, B = 31.3745° → 31°. C — в левом углу, напротив 86.5: cos C = (50.75² + 97.25² − 86.5²) ÷ (2 × 50.75 × 97.25) = 0.4610, C = 62.5457° → 63°. Проверка: 86.0798 + 31.3745 + 62.5457 = 180, и округлённые 86 + 31 + 63 = 180.\n\nНеверные варианты: 92° и 91° для A — тупые углы, но 50.75² + 86.5² = 10057.8125 больше, чем 97.25² = 9457.5625, значит, верхний угол меньше 90°. B = 63°, C = 86° и C = 31° — верные значения, поставленные не к тому углу: самый маленький угол всегда лежит напротив самой короткой стороны (B, напротив 4'-2 3/4\"), самый большой — напротив самой длинной (A, напротив 8'-1 1/4\"). B = 46° не подходит ни к одному углу.\n\nКак применять: назвать каждый угол по стороне напротив, возвести три стороны в квадрат, затем cos = (сумма квадратов двух сторон угла − квадрат стороны напротив) ÷ (2 × эти две стороны) и взять арккосинус. Если квадрат стороны напротив больше суммы квадратов двух других, угол тупой (косинус отрицательный). Всегда проверять, что три угла дают 180° и что самый большой угол смотрит на самую длинную сторону. На калькуляторе курса: сторону напротив A — в CONV 4, напротив B — в CONV 5, напротив C — в CONV 6, затем CONV 9 даёт A, ещё 9 — B, ещё 9 — C.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 62,
+  "topic": "trig",
+  "ru_q": "Используя law of cosines, найди углы A, B и C.",
+  "ru_hint": null,
+  "ru_opts": [
+   "A = 44 градуса",
+   "A = 34 градуса",
+   "A = 51 градус",
+   "B = 51 градус",
+   "B = 42 градуса",
+   "B = 56 градусов",
+   "C = 95 градусов",
+   "C = 96 градусов",
+   "C = 84 градуса"
+  ],
+  "why_en": "A = 34°, B = 51°, C = 95°. A is at the left corner, between 95\" and 121.5\", opposite 67.7\": cos A = (95² + 121.5² − 67.7²) ÷ (2 × 95 × 121.5) = 19203.96 ÷ 23085 = 0.8319, A = 33.7076° → 34°. B is at the right corner, opposite 95\": cos B = (67.7² + 121.5² − 95²) ÷ (2 × 67.7 × 121.5) = 10320.54 ÷ 16451.1 = 0.6273, B = 51.1454° → 51°. C is at the top, opposite 121.5\": cos C = (95² + 67.7² − 121.5²) ÷ (2 × 95 × 67.7) = -1153.96 ÷ 12863 = -0.0897, C = 95.1470° → 95°. Check: 33.7076 + 51.1454 + 95.1470 = 180; 34 + 51 + 95 = 180.\n\nWrong options: C must be obtuse, because 121.5² = 14762.25 is more than 95² + 67.7² = 13608.29 (that is why its cosine is negative), so 84° is impossible; 96° is a rounding slip (95.1470 rounds down to 95). A = 51° is the B value put at the wrong corner. A = 44°, B = 42° and B = 56° fit no corner: with C = 95°, A and B together must make 84.8530°, about 85°, and only 34 + 51 does.\n\nHow to use this: For each angle use the two sides that form it and the one opposite it: cos = (side² + side² − opposite²) ÷ (2 × side × side). A side squared that is bigger than the other two squared together means an obtuse angle across from it. Check that the angles add up to 180° and that the order of the angles matches the order of the sides opposite them.",
+  "why_ru": "A = 34°, B = 51°, C = 95°. A — в левом углу, между 95\" и 121.5\", напротив 67.7\": cos A = (95² + 121.5² − 67.7²) ÷ (2 × 95 × 121.5) = 19203.96 ÷ 23085 = 0.8319, A = 33.7076° → 34°. B — в правом углу, напротив 95\": cos B = (67.7² + 121.5² − 95²) ÷ (2 × 67.7 × 121.5) = 10320.54 ÷ 16451.1 = 0.6273, B = 51.1454° → 51°. C — вверху, напротив 121.5\": cos C = (95² + 67.7² − 121.5²) ÷ (2 × 95 × 67.7) = -1153.96 ÷ 12863 = -0.0897, C = 95.1470° → 95°. Проверка: 33.7076 + 51.1454 + 95.1470 = 180; 34 + 51 + 95 = 180.\n\nНеверные варианты: C обязан быть тупым, потому что 121.5² = 14762.25 больше, чем 95² + 67.7² = 13608.29 (поэтому его косинус отрицательный), так что 84° невозможно; 96° — ошибка округления (95.1470 округляется вниз, до 95). A = 51° — значение B, поставленное не к тому углу. A = 44°, B = 42° и B = 56° не подходят ни к одному углу: при C = 95° на A и B вместе остаётся 84.8530°, около 85°, и сходится только 34 + 51.\n\nКак применять: для каждого угла взять две стороны, которые его образуют, и одну напротив: cos = (сторона² + сторона² − напротив²) ÷ (2 × сторона × сторона). Если квадрат стороны больше суммы квадратов двух других, угол напротив неё тупой. Проверять, что углы дают 180° и что порядок углов по величине совпадает с порядком противолежащих сторон.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 63,
+  "topic": "welding",
+  "ru_q": "Почти без исключений GMAW используют с:",
+  "ru_hint": null,
+  "ru_opts": [
+   "Reverse Polarity",
+   "Straight Polarity",
+   "ACHF",
+   "DCHF"
+  ],
+  "why_en": "Reverse Polarity. GMAW (MIG) with solid wire runs on direct current, electrode positive (DCEP), and the older name for DCEP is reverse polarity: the gun cable goes to the positive terminal, the work clamp to the negative. That gives a stable arc, smooth metal transfer (short circuit or spray), little spatter and good penetration. Straight Polarity is DC electrode negative (DCEN): with solid MIG wire the arc is erratic and spattery; DCEN is used for GTAW (TIG) on steel and for some self-shielded flux-cored wires, which is a different process (FCAW). ACHF is alternating current with continuous high frequency — the GTAW setting for aluminum; GMAW does not run on AC, because the current passes through zero 120 times a second on 60 Hz and the wire arc keeps going out. DCHF is direct current with a high-frequency arc start, again a TIG feature: HF lights a tungsten arc without touching the work, while a MIG wire starts its arc by touching the work, so it needs no HF. The word \"almost\" leaves room for the flux-cored wires whose maker calls for DCEN.\n\nHow to use this: Polarity names come in pairs: DCEP = electrode positive = reverse; DCEN = electrode negative = straight. By process: GMAW → DCEP (reverse); GTAW → DCEN (straight) on steel and AC, usually with HF, on aluminum; SMAW → whatever the electrode class allows (E6010 DCEP only, E7018 AC or DCEP); flux-cored → read the wire box. HF belongs to TIG only.",
+  "why_ru": "Reverse Polarity. GMAW (MIG) со сплошной проволокой варят на постоянном токе с electrode на плюсе (DCEP), а старое название DCEP — reverse polarity: кабель горелки — на плюс, кабель массы (work clamp) — на минус. Это даёт устойчивую дугу, ровный перенос металла (short circuit или spray), мало брызг и хороший провар. Straight Polarity — это DC electrode negative (DCEN): со сплошной проволокой MIG дуга рваная, с брызгами; DCEN применяют в GTAW (TIG) по стали и с некоторыми самозащитными flux-cored проволоками, а это другой процесс (FCAW). ACHF — переменный ток с постоянной high frequency, режим GTAW для алюминия; GMAW на AC не работает: ток 120 раз в секунду (при 60 Hz) проходит через ноль, и дуга проволоки всё время гаснет. DCHF — постоянный ток с поджигом дуги high frequency, тоже функция TIG: HF зажигает дугу tungsten без касания детали, а проволока MIG зажигает дугу касанием, поэтому HF ей не нужен. Слово «almost» оставляет место flux-cored проволокам, для которых производитель указал DCEN.\n\nКак применять: названия полярности идут парами: DCEP = electrode на плюсе = reverse; DCEN = electrode на минусе = straight. По процессам: GMAW → DCEP (reverse); GTAW → DCEN (straight) по стали и AC, обычно с HF, по алюминию; SMAW → что разрешает класс electrode (E6010 только DCEP, E7018 AC или DCEP); flux-cored → читать коробку проволоки. HF бывает только у TIG.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 64,
+  "topic": "materials",
+  "ru_q": "Что означает термин «Ferrous Metals»?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Металлы, содержащие железо",
+   "Металлы, содержащие углерод",
+   "Металлы, содержащие алюминий",
+   "Металлы, содержащие хром"
+  ],
+  "why_en": "Metals containing iron. \"Ferrous\" comes from the Latin ferrum, iron: carbon (mild) steel, galvanized steel, stainless steel and cast iron are all ferrous, and most of them are magnetic — austenitic stainless such as 304 is the exception, ferrous but almost non-magnetic. Metals containing carbon is not the definition: carbon is the element that turns iron into steel (mild steel has less than about 0.3 %, tool steel much more), but the group is named for its iron. Metals containing aluminum describes aluminum alloys, which are non-ferrous, like copper, brass, zinc and lead. Metals containing chromium points to stainless steel (at least 10.5 % chromium, which forms the thin oxide film that stops rust); stainless is ferrous because of its iron, not because of the chromium.\n\nHow to use this: Ferrous = iron-based: steel, galvanized, stainless, cast iron. Non-ferrous = not iron-based: aluminum, copper, brass, zinc, lead. In the shop a magnet sorts most of them — it sticks to steel and cast iron, never to aluminum or copper; 304 stainless is the trap.",
+  "why_ru": "Metals containing iron — металлы, содержащие железо. «Ferrous» — от латинского ferrum, железо: углеродистая (mild) сталь, оцинкованная сталь, stainless и чугун — все ferrous, и большинство из них магнитятся; исключение — аустенитная stainless вроде 304: ferrous, но почти не магнитится. Углерод — не определение: это элемент, который превращает железо в сталь (в mild steel его меньше примерно 0.3 %, в инструментальной стали — много больше), но группа названа по железу. Алюминий — это алюминиевые сплавы, они non-ferrous, как медь, латунь, цинк и свинец. Хром указывает на stainless (не меньше 10.5 % хрома, он образует тонкую оксидную плёнку, которая не даёт ржаветь); stainless — ferrous из-за железа, а не из-за хрома.\n\nКак применять: ferrous = на основе железа: сталь, galvanized, stainless, чугун. Non-ferrous = не на основе железа: алюминий, медь, латунь, цинк, свинец. В мастерской большинство разделяет магнит: к стали и чугуну липнет, к алюминию и меди — никогда; ловушка — stainless 304.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 66,
+  "topic": "safety",
+  "ru_q": "Электроинструмент (power tools) должен ____.",
+  "ru_hint": null,
+  "ru_opts": [
+   "иметь двойную изоляцию",
+   "быть правильно заземлён",
+   "иметь встроенные устройства GFIC",
+   "иметь двойную изоляцию или быть правильно заземлён"
+  ],
+  "why_en": "be double insulated or properly grounded. OSHA 1926.302(a)(1): electric power-operated tools must either be of the approved double-insulated type or be grounded; Washington has the same rule, WAC 296-155-360(1)(a). A grounded tool (three-prong plug) sends fault current back through the ground wire and trips the breaker; a double-insulated tool (two-prong plug, marked with a square inside a square) has a second layer of insulation, so live parts cannot reach the housing you hold. Either one is enough, so be double insulated alone and be properly grounded alone are each only half of the rule — the full answer names both. have built-in GFIC devices is wrong (GFIC is a misprint of GFCI, ground-fault circuit interrupter): the GFCI on a construction site protects the receptacle or cord the tool is plugged into, not the tool itself — OSHA 1926.404(b)(1) and WAC 296-155-447 require GFCI protection (or an assured equipment grounding conductor program) for 120-volt, 15- and 20-amp outlets that are not part of the building's permanent wiring.\n\nHow to use this: Two separate layers of protection: the tool (grounded or double insulated) and the power it plugs into (GFCI or an assured grounding program). Never cut off a ground pin or use a cheater plug; a two-prong tool is acceptable only when it is marked double insulated.",
+  "why_ru": "be double insulated or properly grounded — иметь двойную изоляцию или быть правильно заземлён. OSHA 1926.302(a)(1): электроинструмент должен быть либо утверждённого типа с двойной изоляцией, либо заземлён; в Washington то же правило — WAC 296-155-360(1)(a). Заземлённый инструмент (вилка с тремя штырями) уводит ток утечки по проводу заземления и выбивает автомат; инструмент с двойной изоляцией (вилка с двумя штырями, значок — квадрат в квадрате) имеет второй слой изоляции, и части под напряжением не могут попасть на корпус в руке. Достаточно одного из двух, поэтому «только двойная изоляция» и «только заземление» — каждый лишь половина правила, полный ответ называет оба. «Встроенные устройства GFIC» — неверно (GFIC — опечатка, правильно GFCI, ground-fault circuit interrupter): GFCI на стройке защищает розетку или удлинитель, куда включён инструмент, а не сам инструмент — OSHA 1926.404(b)(1) и WAC 296-155-447 требуют защиту GFCI (или программу assured equipment grounding conductor) для розеток 120 V, 15 и 20 A, которые не входят в постоянную проводку здания.\n\nКак применять: два отдельных уровня защиты — сам инструмент (заземлён или с двойной изоляцией) и питание, куда он включён (GFCI или программа assured grounding). Нельзя отламывать штырь заземления и ставить переходник без земли; инструмент с двумя штырями допустим, только если на нём знак двойной изоляции.",
+  "flag": "Option c prints 'GFIC' (misprint of GFCI); kept verbatim."
+ },
+ {
+  "src": "F20",
+  "n": 68,
+  "topic": "tools",
+  "ru_q": "Какой минимальный зазор между bending leaf и nose bar на ручном brake (handbrake)?",
+  "ru_hint": null,
+  "ru_opts": [
+   "1 ½ толщины материала",
+   "2 толщины материала",
+   "¼ дюйма",
+   "½ дюйма"
+  ],
+  "why_en": "1 ½ times the material thickness. On a hand (leaf) brake the clamping leaf holds the sheet, its front edge is the nose bar, and the bending leaf swings up and folds the metal around that nose. The nose bar is set back from the edge of the bending leaf to leave room for the metal to wrap around it: with too little room the sheet is pinched between nose and leaf, the bend is scarred or cracked and the brake is strained; the bigger the gap, the rounder the bend. The answer for this test is 1 ½ times the material thickness. 2 times the material thickness is a working setting that machine manuals give for heavier metal near the brake's capacity, more than the minimum; for a sharp bend in light gauge manuals go down to about one thickness. ¼ inch and ½ inch cannot be right because the clearance must follow the metal: for 16 ga (0.0598\") 1 ½ times is 0.0897\" (about 3/32\"), while ¼\" would be 4.18 times and ½\" 8.36 times the thickness — a loose, rounded bend.\n\nHow to use this: Brake settings are multiples of the metal thickness, not fixed numbers: set the nose bar back about 1 ½ thicknesses (16 ga: about 0.090\", 22 ga: about 0.045\"), check the first bend, move it in for a sharper bend on light metal and out for heavier metal. Never bend more than the rated capacity (16 ga mild steel on an 816 or 1016 brake).",
+  "why_ru": "1 ½ times the material thickness — полторы толщины материала. На ручном (листогибочном) brake прижимная балка (clamping leaf) держит лист, её передняя кромка — nose bar, а bending leaf поднимается и загибает металл вокруг этой кромки. Nose bar отодвигают от края bending leaf, чтобы металлу было где обогнуть кромку: если места мало, лист зажимается между nose и leaf, на гибе остаются задиры или трещина, и brake перегружается; чем больше зазор, тем круглее гиб. Ответ этого теста — 1 ½ толщины материала. 2 толщины — рабочая установка, которую руководства к станкам дают для более толстого металла близко к capacity brake, это больше минимума; для острого гиба на тонком металле руководства опускаются примерно до одной толщины. ¼ дюйма и ½ дюйма не могут быть ответом: зазор должен следовать за металлом. Для 16 ga (0.0598\") полторы толщины — 0.0897\" (около 3/32\"), а ¼\" — это 4.18 толщины и ½\" — 8.36 толщины: гиб выйдет рыхлым и круглым.\n\nКак применять: установки brake — кратные толщины металла, а не постоянные числа: nose bar отодвинуть примерно на 1 ½ толщины (16 ga — около 0.090\", 22 ga — около 0.045\"), проверить первый гиб, придвинуть для более острого гиба на тонком металле и отодвинуть для толстого. Никогда не гнуть больше номинала (capacity) — 16 ga mild steel на brake 816 или 1016.",
+  "flag": "Key from the graded sheet only; no written source found for '1 1/2 times' (manuals range ~1x to ~2x)."
+ },
+ {
+  "src": "F20",
+  "n": 72,
+  "topic": "math",
+  "ru_q": "Если твой заработок до вычетов (gross) за неделю — $1,236.29 и работодатель удерживает 3.5% на сберегательный план (savings plan), сколько из gross пойдёт в сбережения за эту неделю?",
+  "ru_hint": null,
+  "ru_opts": [
+   "$35.32",
+   "$37.09",
+   "$43.27",
+   "$432.70"
+  ],
+  "why_en": "$43.27. Percent means hundredths, so 3.5 % = 3.5 ÷ 100 = 0.035. $1,236.29 × 0.035 = $43.27015 → $43.27 (money is rounded to the cent). Wrong options: $432.70 moves the decimal point one place — it is 35 % (× 0.35 = 432.7015), ten times too much. $37.09 is 3 % (1236.29 × 0.03 = 37.0887), the half percent dropped. $35.32 comes from dividing by 35 (1236.29 ÷ 35 = 35.3226) instead of multiplying by 0.035. Quick check: 1 % of $1,236.29 is $12.3629, so 3.5 % must be about 3.5 × 12.3629 = 43.2701.\n\nHow to use this: Part = whole × percent ÷ 100. Estimate first with 1 % (move the decimal point two places left) and multiply by the percent; an answer ten times off means the decimal point slipped. The same method gives any deduction taken as a percent of gross pay.",
+  "why_ru": "$43.27. Процент — это сотые доли, поэтому 3.5 % = 3.5 ÷ 100 = 0.035. $1,236.29 × 0.035 = $43.27015 → $43.27 (деньги округляют до цента). Неверные варианты: $432.70 — сдвинута запятая на один знак, это 35 % (× 0.35 = 432.7015), в десять раз больше. $37.09 — это 3 % (1236.29 × 0.03 = 37.0887), потеряна половина процента. $35.32 — разделили на 35 (1236.29 ÷ 35 = 35.3226) вместо умножения на 0.035. Быстрая проверка: 1 % от $1,236.29 — $12.3629, значит, 3.5 % — около 3.5 × 12.3629 = 43.2701.\n\nКак применять: часть = целое × процент ÷ 100. Сначала прикинуть через 1 % (запятая на два знака влево) и умножить на число процентов; ответ, отличающийся в десять раз, — значит, съехала запятая. Тем же способом считается любое удержание в процентах от gross.",
+  "flag": "Printed grammar ('earnings for the week is', 'has a 3.5% deducted') kept verbatim."
+ },
+ {
+  "src": "F20",
+  "n": 74,
+  "topic": "math",
+  "ru_q": "Проценты по кредиту на подержанный brake за $12,000 — 12% в год. Если кредит на один год, какой ежемесячный платёж? (Примечание: это простые проценты)",
+  "ru_hint": null,
+  "ru_opts": [
+   "$1,000.00 в месяц",
+   "$1,120.00 в месяц",
+   "$1,210.00 в месяц",
+   "$1,344.00 в месяц"
+  ],
+  "why_en": "$1,120.00 per month. Simple interest = principal × rate × time = $12,000 × 0.12 × 1 year = $1,440. The total to pay back is $12,000 + $1,440 = $13,440, in 12 monthly payments: $13,440 ÷ 12 = $1,120.00. Wrong options: $1,000.00 is $12,000 ÷ 12 = $1,000.00 — the interest is forgotten. $1,344.00 is $13,440 ÷ 10 = $1,344.00, dividing by 10 instead of by the 12 months. $1,210.00 is what 21 % would give ($12,000 × 1.21 ÷ 12 = $1,210.00) — the digits of the rate swapped. Check: each payment is $1,000 of the price plus $120 of interest ($1,440 ÷ 12), and 1,000 + 120 = 1,120.\n\nHow to use this: Simple interest I = P × r × t (rate as a decimal, time in years); total = P + I; monthly payment = total ÷ number of months. A bank loan usually charges interest only on the balance still owed, which gives a smaller payment ($1,066.19 a month here at 1 % a month), but the question says simple interest.",
+  "why_ru": "$1,120.00 в месяц. Простые проценты = сумма × ставка × время = $12,000 × 0.12 × 1 год = $1,440. Вернуть всего $12,000 + $1,440 = $13,440, за 12 ежемесячных платежей: $13,440 ÷ 12 = $1,120.00. Неверные варианты: $1,000.00 — это $12,000 ÷ 12 = $1,000.00, забыли проценты. $1,344.00 — это $13,440 ÷ 10 = $1,344.00, разделили на 10 вместо 12 месяцев. $1,210.00 — так вышло бы при 21 % ($12,000 × 1.21 ÷ 12 = $1,210.00): цифры ставки переставлены. Проверка: каждый платёж — $1,000 за сам brake плюс $120 процентов ($1,440 ÷ 12), и 1,000 + 120 = 1,120.\n\nКак применять: простые проценты I = P × r × t (ставка десятичной дробью, время в годах); всего = P + I; ежемесячный платёж = всего ÷ число месяцев. Банковский кредит обычно начисляет проценты только на остаток долга, и платёж выходит меньше (здесь $1,066.19 в месяц при 1 % в месяц), но в вопросе сказано: простые проценты.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 76,
+  "topic": "safety",
+  "ru_q": "Fall protection обязательна, если работник может упасть с высоты ____ футов и больше.",
+  "ru_hint": null,
+  "ru_opts": [
+   "4",
+   "6",
+   "8",
+   "10"
+  ],
+  "why_en": "4. In Washington, WAC 296-880-20005 requires fall protection wherever a worker could fall 4 feet or more (and at any height over dangerous equipment), and this stricter state rule is the one followed on our jobs. For points — 4; 6 is also a correct number in another setting: it is the federal OSHA trigger for construction (1926.501(b)(1)), used in states without a stricter rule of their own. 10 feet is the federal height for scaffolds (1926.451(g)(1)), a different rule. 8 feet is not a construction trigger in either rule. Keep the trigger height apart from the free-fall limit: a personal fall arrest system must not let you fall freely more than 6 feet.\n\nHow to use this: Two questions, two kinds of numbers. When is protection required: Washington 4 ft, OSHA construction 6 ft, OSHA scaffolds 10 ft, any height over dangerous equipment. How far may you free-fall in an arrest system: 6 ft. A question that names OSHA wants the federal number; on a Washington test without that word, give 4.",
+  "why_ru": "4. В Washington WAC 296-880-20005 требует fall protection везде, где работник может упасть с 4 футов и больше (и на любой высоте над опасным оборудованием), и на наших объектах выполняется это более строгое правило штата. Для балла — 4; 6 тоже верное число, но в другом случае: это федеральный порог OSHA для стройки (1926.501(b)(1)), он действует в штатах без собственного, более строгого правила. 10 футов — федеральная высота для scaffold (1926.451(g)(1)), это другое правило. 8 футов — не порог для стройки ни в одном из правил. Порог высоты не путать с пределом свободного падения: personal fall arrest system не должна давать падать свободно больше 6 футов.\n\nКак применять: два вопроса — два вида чисел. Когда защита обязательна: Washington 4 ft, OSHA для стройки 6 ft, OSHA для scaffold 10 ft, над опасным оборудованием — на любой высоте. Сколько можно падать свободно в системе остановки падения: 6 ft. Если в вопросе названа OSHA — федеральное число; на тесте в Washington без этого слова — 4.",
+  "flag": "Graded key 4 (WA rule). 6 = federal OSHA construction; no 'also' set, the question does not name OSHA."
+ },
+ {
+  "src": "F20",
+  "n": 77,
+  "topic": "math",
+  "ru_q": "Какова stretch-out (длина развёртки) круглой трубы диаметром 16\"?",
+  "ru_hint": null,
+  "ru_opts": [
+   "50-1/4\"",
+   "50-3/8\"",
+   "201-1/16\""
+  ],
+  "why_en": "50-1/4\". The stretch-out of round pipe is the length of flat sheet that rolls into the circle — its circumference: π × D = π × 16 = 50.2655\". To the nearest 1/16: 50.2655 × 16 = 804.25 sixteenths → 804/16 = 50-1/4\". Wrong options: 50-3/8\" is 0.1095\" too long — rounded up to the next eighth instead of to the nearest sixteenth (50-1/4\" is only 0.0155\" off). 201-1/16\" is the area of the 16\" circle, π × r² = π × 8² = 201.0619 sq. in.: the area formula, and square inches are not a length. In the shop the seam allowance (for example the lap or the lock of the longitudinal seam) is added to this stretch-out before the blank is sheared.\n\nHow to use this: Round pipe stretch-out = π × diameter (= 2 × π × radius); round only the final number to the nearest 1/16 (× 16, round, ÷ 16). Quick check: a bit more than 3 × D (3 × 16 = 48). Area (π × r²) is in square inches and answers a different question.",
+  "why_ru": "50-1/4\". Stretch-out круглой трубы — длина плоского листа, который сворачивается в круг, то есть длина окружности: π × D = π × 16 = 50.2655\". До 1/16: 50.2655 × 16 = 804.25 шестнадцатых → 804/16 = 50-1/4\". Неверные варианты: 50-3/8\" длиннее на 0.1095\" — округлили вверх до восьмой вместо ближайшей шестнадцатой (50-1/4\" отличается всего на 0.0155\"). 201-1/16\" — это площадь круга 16\", π × r² = π × 8² = 201.0619 sq. in.: формула площади, а квадратные дюймы — не длина. В мастерской к этой stretch-out ещё добавляют припуск на шов (например, нахлёст или замок продольного шва), прежде чем резать заготовку.\n\nКак применять: stretch-out круглой трубы = π × диаметр (= 2 × π × радиус); округлять до 1/16 только итог (× 16, округлить, ÷ 16). Быстрая проверка: чуть больше 3 × D (3 × 16 = 48). Площадь (π × r²) — в квадратных дюймах и отвечает на другой вопрос.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 81,
+  "topic": "safety",
+  "ru_q": "Признаки отбраковки synthetic slings включают: (выбери наиболее подходящий ответ)",
+  "ru_hint": null,
+  "ru_opts": [
+   "Ожоги, оплавление или обугливание, дыры, разрывы, порезы или зацепы (snags), порванная прошивка в splices",
+   "Ожоги, оплавление или обугливание, изношенные или растянутые звенья, порванная прошивка в splices.",
+   "Ожоги, оплавление или обугливание, дыры, разрывы, порезы или зацепы, 5 порванных стежков на 10 дюймов."
+  ],
+  "why_en": "Burns, melting or charring, holes, tears, cuts or snags, broken stitching in splices. A synthetic (nylon or polyester) web or round sling is taken out of service when inspection finds any of these. The Washington list, WAC 296-155-33820 Table 15 (the same as ASME B30.9), also names missing or unreadable identification tags, acid or caustic burns, excessive abrasive wear, knots, discoloration and brittle or stiff areas from chemicals or sunlight, and damaged fittings or hooks. Worn or stretched links belongs to alloy steel chain slings — a web sling has no links — so that option mixes two kinds of sling. 5 broken stitches in 10 inches is not a rule anywhere: any broken or worn stitching in a load-bearing splice removes a synthetic sling. Counting broken pieces over a length is how wire rope slings are judged (ASME B30.9: 10 randomly distributed broken wires in one rope lay, or 5 broken wires in one strand in one rope lay), so that option borrows the wire rope rule.\n\nHow to use this: Inspect every sling before use and remove it at the first sign from its own list: synthetic — burns, melting, holes, tears, cuts, snags, broken stitches, missing tag; chain — stretched, bent or worn links, cracks; wire rope — broken wires, kinks, birdcaging, crushing. A sling with no tag is out of service even if it looks new.",
+  "why_ru": "Burns, melting or charring, holes, tears, cuts or snags, broken stitching in splices — ожоги, оплавление или обугливание, дыры, разрывы, порезы или зацепы, порванная прошивка в splices. Synthetic sling (лента или round sling из nylon или polyester) снимают с работы, если при осмотре найдено любое из этого. Список Washington — WAC 296-155-33820, Table 15 (совпадает с ASME B30.9) — называет ещё: нет бирки или её не прочитать, ожоги кислотой или щёлочью, сильный износ, узлы, обесцвечивание, ломкие или жёсткие места от химии или солнца, повреждённые fittings и крюки. Изношенные или растянутые звенья (links) — признак для цепных slings из легированной стали, у ленты звеньев нет, так что этот вариант смешивает два вида slings. «5 порванных стежков на 10 дюймов» — такого правила нет нигде: любая порванная или изношенная прошивка в несущем splice снимает synthetic sling с работы. Счёт обрывов на длине — правило для wire rope slings (ASME B30.9: 10 случайных оборванных проволок на одном шаге свивки или 5 в одной пряди на одном шаге), этот вариант позаимствовал правило троса.\n\nКак применять: осматривать каждый sling перед работой и снимать по первому признаку из его собственного списка: synthetic — ожоги, оплавление, дыры, разрывы, порезы, зацепы, порванные стежки, нет бирки; цепь — растянутые, погнутые или изношенные звенья, трещины; трос — оборванные проволоки, перегибы, «корзинка» (birdcaging), смятие. Sling без бирки к работе не допускается, даже если выглядит новым.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 82,
+  "topic": "trade",
+  "ru_q": "Хранение секций duct рядом с местом монтажа называется ____.",
+  "ru_hint": null,
+  "ru_opts": [
+   "staging",
+   "planning",
+   "distribution",
+   "sectioning"
+  ],
+  "why_en": "staging. Staging is storing duct and fittings close to where they will be installed — on the floor or area they belong to, protected from damage and weather, sorted by system and in the order they will go up — so the crew does not walk back to the lay-down yard for every piece. planning comes first: studying the drawings, setting the sequence, choosing hangers, lifts and rigging, and coordinating with the other trades. distribution is moving the pieces from the staging area to the exact spots under each run where they will be hung. sectioning is joining several pieces on the floor into a longer section that is lifted and hung as one. Of the four, only staging means storing near the installation site.\n\nHow to use this: Remember the order: plan the job, stage material near the work, distribute pieces to their hanging spots, section them on the floor, then hang. Where material is kept → staging; moving it to each location → distribution; joining pieces before the lift → sectioning.",
+  "why_ru": "staging. Staging — хранение duct и fittings рядом с местом, где их будут монтировать: на том этаже или участке, куда они идут, защищёнными от повреждений и погоды, разобранными по системам и в порядке подъёма, чтобы бригада не ходила за каждой деталью на дальнюю площадку складирования. planning идёт первым: изучить чертежи, задать последовательность, выбрать подвесы, подъёмники и такелаж, согласовать работу с другими trades. distribution — разнести детали из зоны staging точно к местам под каждой трассой, где их будут вешать. sectioning — соединить несколько деталей на полу в длинную секцию, которую поднимают и вешают целиком. Из четырёх только staging означает хранение рядом с местом монтажа.\n\nКак применять: запомнить порядок: спланировать работу, разместить материал рядом с работой (staging), разнести детали к местам подвески (distribution), собрать их в секции на полу (sectioning), затем вешать. Где хранится материал → staging; доставка к каждому месту → distribution; соединение до подъёма → sectioning.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 83,
+  "topic": "trade",
+  "ru_q": "Соединение duct и fittings на полу перед подвеской называется ____.",
+  "ru_hint": null,
+  "ru_opts": [
+   "staging",
+   "planning",
+   "distribution",
+   "sectioning"
+  ],
+  "why_en": "sectioning. Sectioning is joining ductwork and fittings on the floor into longer sections before they are lifted: the joints (S&D, Pittsburgh closures, flanges, sealant) are made at a comfortable height, which is faster and safer than working from a ladder or lift, and fewer lifts are needed. The section still has to suit the lift or rigging and fit between obstacles on the way up. staging is storing material near the installation site. planning comes first: studying the drawings, setting the sequence, choosing hangers, lifts and rigging, and coordinating with the other trades. distribution is moving pieces from the staging area to the spot under each run where they will hang. Of the four, only sectioning means joining before hanging.\n\nHow to use this: The order is plan, stage, distribute, section, hang. Joining before the lift → sectioning; keeping material near the work → staging; moving pieces to their hanging spots → distribution.",
+  "why_ru": "sectioning. Sectioning — соединение duct и fittings на полу в длинные секции до подъёма: соединения (S&D, закрытие Pittsburgh, flanges, герметик) делают на удобной высоте, это быстрее и безопаснее, чем со стремянки или подъёмника, и подъёмов нужно меньше. Секция при этом должна подходить под подъёмник или такелаж и проходить между препятствиями. staging — хранение материала рядом с местом монтажа. planning идёт первым: изучить чертежи, задать последовательность, выбрать подвесы, подъёмники и такелаж, согласовать работу с другими trades. distribution — разнести детали из зоны staging к местам под каждой трассой, где их будут вешать. Из четырёх только sectioning означает соединение до подвески.\n\nКак применять: порядок — planning, staging, distribution, sectioning, подвеска. Соединение до подъёма → sectioning; материал рядом с работой → staging; доставка деталей к местам подвески → distribution.",
+  "flag": "Printed 'called____.' without a space; kept verbatim."
+ },
+ {
+  "src": "F20",
+  "n": 85,
+  "topic": "materials",
+  "ru_q": "Толщину меди (copper) задают в фунтах на квадратный фут.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Верно",
+   "Неверно"
+  ],
+  "why_en": "False. Sheet copper is named by its weight in ounces per square foot: 16 oz copper weighs 16 oz (1 lb) per square foot and is about 0.0216\" thick, 20 oz is about 0.0270\". Pounds per square foot is the unit for sheet lead (for example 4 lb lead, about 1/16\" thick, used for flashing and roof jacks), so the statement gives copper the lead unit. The statement would be true for lead, or for copper if it said ounces per square foot. Steel and galvanized are called by gauge number, aluminum by decimals of an inch.\n\nHow to use this: Each metal has its own thickness language: steel and galvanized — gauge number (lower = thicker); copper — ounces per square foot; lead — pounds per square foot; aluminum — decimal inches. A true/false question that swaps the units between metals is false.",
+  "why_ru": "Неверно. Листовую медь называют весом квадратного фута в унциях: 16 oz copper весит 16 oz (1 lb) на квадратный фут и имеет толщину около 0.0216\", 20 oz — около 0.0270\". Фунты на квадратный фут — единица листового свинца (например, 4 lb lead, около 1/16\" толщиной, идёт на flashing и roof jacks), так что утверждение дало меди единицу свинца. Оно было бы верным для свинца или для меди со словами «ounces per square foot». Сталь и galvanized называют номером gauge, алюминий — десятичными долями дюйма.\n\nКак применять: у каждого металла свой язык толщины: сталь и galvanized — номер gauge (меньше номер — толще); медь — унции на квадратный фут; свинец — фунты на квадратный фут; алюминий — десятичные дюймы. Утверждение, где единицы перепутаны между металлами, — неверно.",
+  "flag": null
+ },
+ {
+  "src": "F20",
+  "n": 87,
+  "topic": "trig",
+  "ru_q": "Два самых распространённых треугольника — 45-45-90° и 30-60-90°.",
+  "ru_hint": null,
+  "ru_opts": [
+   "Верно",
+   "Неверно"
+  ],
+  "why_en": "True. These are the two special right triangles that layout and drafting use all the time. Drafting triangles (set squares) come in exactly these two shapes, so with a straightedge you draw 90°, 45°, 30° and 60° lines directly, and 15° and 75° by combining the two. Their sides follow fixed ratios: 45-45-90 is 1 : 1 : 1.4142, so the travel of a 45° offset is the offset × 1.4142; 30-60-90 is 1 : 1.7321 : 2, so the side opposite 30° is half the hypotenuse and the travel of a 30° offset is twice the offset. Other right triangles such as 3-4-5 are used to check a square corner, but they are not standard angle tools. The statement would be false only if it named some other pair.\n\nHow to use this: Remember the ratios: 45-45-90 — legs equal, hypotenuse = leg × 1.4142; 30-60-90 — short leg 1, long leg 1.7321, hypotenuse 2. With them many offset and layout problems need no trig table.",
+  "why_ru": "Верно. Это два особых прямоугольных треугольника, которые постоянно используют в layout и черчении. Чертёжные угольники бывают именно этих двух форм, поэтому с линейкой сразу чертят линии 90°, 45°, 30° и 60°, а 15° и 75° — сочетанием двух угольников. Стороны у них в постоянных отношениях: 45-45-90 — 1 : 1 : 1.4142, поэтому travel offset на 45° = offset × 1.4142; 30-60-90 — 1 : 1.7321 : 2, поэтому катет напротив 30° равен половине гипотенузы, а travel offset на 30° вдвое больше offset. Другие прямоугольные треугольники, например 3-4-5, служат для проверки прямого угла, но это не стандартные инструменты для углов. Утверждение было бы неверным, только если бы называло другую пару.\n\nКак применять: запомнить отношения: 45-45-90 — катеты равны, гипотенуза = катет × 1.4142; 30-60-90 — малый катет 1, большой 1.7321, гипотенуза 2. С ними многие задачи на offset и layout решаются без таблицы тригонометрии.",
+  "flag": "Printed '30-60-90°triangle' without a space; kept verbatim."
+ },
+ {
+  "src": "F20",
+  "n": 88,
+  "topic": "tools",
+  "ru_q": "Что означают первые две цифры в capacity rating у brake?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Толщину металла, который можно согнуть?",
+   "Длину металла, который можно согнуть?",
+   "Тип металла, который можно согнуть?",
+   "ничего из перечисленного"
+  ],
+  "why_en": "The length of the metal that can be bent. A brake's rating reads length first, then gauge: a 1016 brake bends sheet up to 10 feet long in 16 ga mild steel, an 816 brake up to 8 feet in 16 ga. The thickness of the metal is the last two numbers (the gauge), not the first. The type of metal is not in the rating at all: capacity is always given for mild steel, and harder metals such as stainless must be lighter than the rated gauge. A shear is rated the other way round — gauge first, then length (a 1652 shear cuts 16 ga up to 52\"), so read the digits by the machine. none of the above is wrong because the length option is correct.\n\nHow to use this: Brake — feet, then gauge (816, 1016); shear — gauge, then length (1652). First check which machine the question names, then read the digits in that machine's order; on the job read the capacity plate.",
+  "why_ru": "The length of the metal that can be bent — длину металла, который можно согнуть. Номинал brake читают так: сначала длина, потом gauge: brake 1016 гнёт лист длиной до 10 футов из 16 ga mild steel, brake 816 — до 8 футов 16 ga. Толщина металла — это последние две цифры (gauge), а не первые. Типа металла в номинале нет вообще: capacity всегда указана для mild steel, а более твёрдые металлы, например stainless, должны быть тоньше номинального gauge. У shear наоборот — сначала gauge, потом длина (shear 1652 режет 16 ga длиной до 52\"), поэтому цифры читают по станку. «Ничего из перечисленного» неверно, потому что вариант про длину верен.\n\nКак применять: brake — футы, потом gauge (816, 1016); shear — gauge, потом длина (1652). Сначала понять, о каком станке вопрос, потом читать цифры в его порядке; на работе — смотреть табличку capacity на станке.",
+  "flag": "Printed grammar 'What does the first two numbers' kept verbatim."
+ },
+ {
+  "src": "F20",
+  "n": 89,
+  "topic": "tools",
+  "ru_q": "Последние две цифры в capacity rating у brake означают",
+  "ru_hint": null,
+  "ru_opts": [
+   "длину металла, который можно согнуть",
+   "максимальный gage металла, который можно согнуть",
+   "тип металла, который можно согнуть",
+   "ничего из перечисленного"
+  ],
+  "why_en": "the maximum gage of metal that can be bent. In 1016 the 16 is the gauge: the brake bends mild steel up to 16 ga (0.0598\") and anything thinner — 18, 20, 22 ga; 14 ga (0.0747\") would overload it. \"Maximum\" means the heaviest metal, which is the lowest gauge number allowed (\"gage\" is an older spelling of gauge). the length of metal is the first two numbers (10 feet in 1016). type of metal is not part of the rating: the rating is for mild steel, and stainless or other harder metals must be lighter. none of the above is wrong because the gauge option is correct.\n\nHow to use this: On a brake the last digits are the heaviest mild steel gauge it takes; any higher gauge number (thinner) is fine, any lower number (thicker) is over capacity. On a shear the gauge comes first.",
+  "why_ru": "the maximum gage of metal that can be bent — максимальный gage металла, который можно согнуть. В 1016 число 16 — это gauge: brake гнёт mild steel до 16 ga (0.0598\") и всё, что тоньше, — 18, 20, 22 ga; 14 ga (0.0747\") его перегрузит. «Максимальный» значит самый толстый металл, то есть самый маленький допустимый номер gauge (gage — старое написание gauge). Длина металла — первые две цифры (10 футов в 1016). Типа металла в номинале нет: номинал дан для mild steel, а stainless и другие более твёрдые металлы должны быть тоньше. «Ничего из перечисленного» неверно, потому что вариант про gauge верен.\n\nКак применять: у brake последние цифры — самый толстый gauge mild steel, который он берёт; любой больший номер (тоньше) можно, любой меньший (толще) — сверх capacity. У shear gauge стоит первым.",
+  "flag": "'gage' spelling as printed."
+ },
+ {
+  "src": "F20",
+  "n": 90,
+  "topic": "tools",
+  "ru_q": "Bar folder удобен, когда нужно сделать большое количество чего?",
+  "ru_hint": null,
+  "ru_opts": [
+   "Нескольких разных гибов",
+   "Одного и того же гиба",
+   "Гибов разной длины",
+   "ничего из перечисленного"
+  ],
+  "why_en": "The same bend. A bar folder folds a narrow edge along light-gauge sheet — hems, drive edges, grooved-seam locks, edges for a wire — typically up to about 20 ga mild steel and about 1\" deep. Its depth gauge and its 45° and 90° stops are set once, and every piece pushed against the gauge gets exactly the same fold without marking: that is why it is used for large numbers of identical bends. Multiple bends on one part (a box, a channel, a duct section) are brake work, each bend lined up on its own layout line. Different lengths of bends also point to the brake: the bar folder's length is fixed, and its strength is repeating one setting. none of the above is wrong because the same-bend option is correct.\n\nHow to use this: Every gauge or stop on a machine — shear back gauge, bar folder depth gauge, brake stops — exists so identical pieces need no marking: set it once, check the first piece, then run the rest. Bar folder = narrow repeated folds near the edge on light gauge; brake = longer, deeper, heavier or varied bends on a layout line.",
+  "why_ru": "The same bend — одного и того же гиба. Bar folder загибает узкую кромку на тонком листе — hems, кромки под drive, замки grooved seam, кромки под проволоку — обычно до 20 ga mild steel и глубиной примерно до 1\". Его упор глубины (depth gauge) и упоры 45° и 90° выставляют один раз, и каждая деталь, прижатая к упору, получает точно такой же загиб без разметки: поэтому его берут для большого количества одинаковых гибов. Несколько гибов на одной детали (короб, швеллер, секция duct) — работа для brake, где каждый гиб ставят по своей линии разметки. Гибы разной длины — тоже brake: длина bar folder постоянная, его сила — повторение одной установки. «Ничего из перечисленного» неверно, потому что вариант про одинаковый гиб верен.\n\nКак применять: любой упор на станке — задний упор shear, depth gauge у bar folder, упоры brake — нужен, чтобы одинаковые детали не размечать: выставить один раз, проверить первую деталь, потом гнать остальные. Bar folder — узкие повторяющиеся загибы у кромки на тонком металле; brake — длинные, глубокие, толстые или разные гибы по разметке.",
+  "flag": null
+ }
+]

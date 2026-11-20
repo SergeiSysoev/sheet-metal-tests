@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 386.42" font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="640" height="386.42" fill="#fff"/>
+<line x1="82.52" y1="261.64" x2="173.89" y2="261.64" fill="none" stroke="#111" stroke-width="2.35" stroke-linecap="butt"/>
+<line x1="82.52" y1="335.3" x2="173.89" y2="335.3" fill="none" stroke="#111" stroke-width="2.35" stroke-linecap="butt"/>
+<line x1="173.89" y1="261.64" x2="173.89" y2="335.3" fill="none" stroke="#111" stroke-width="2.35" stroke-linecap="butt"/>
+<polyline points="82.52,261.64 82.52,286.47 70.52,294.47 94.52,302.47 82.52,310.47 82.52,335.3" fill="none" stroke="#111" stroke-width="2.35" stroke-linejoin="miter"/>
+<line x1="547.42" y1="81.71" x2="454.04" y2="81.71" fill="none" stroke="#111" stroke-width="2.35" stroke-linecap="butt"/>
+<line x1="547.42" y1="175.09" x2="454.04" y2="175.09" fill="none" stroke="#111" stroke-width="2.35" stroke-linecap="butt"/>
+<line x1="454.04" y1="81.71" x2="454.04" y2="175.09" fill="none" stroke="#111" stroke-width="2.35" stroke-linecap="butt"/>
+<polyline points="547.42,81.71 547.42,116.4 535.42,124.4 559.42,132.4 547.42,140.4 547.42,175.09" fill="none" stroke="#111" stroke-width="2.35" stroke-linejoin="miter"/>
+<text x="73.26" y="313.53" font-size="19.2" text-anchor="end" fill="#111">16"x10"</text>
+<text x="553.86" y="118.31" font-size="19.2" text-anchor="start" fill="#111">20"x14"</text>
+<line x1="173.89" y1="251.64" x2="173.89" y2="9.44" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>
+<line x1="454.04" y1="71.71" x2="454.04" y2="9.44" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>
+<line x1="173.89" y1="16.91" x2="268.88" y2="16.91" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>
+<line x1="359.04" y1="16.91" x2="454.04" y2="16.91" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>
+<polygon points="173.89,16.91 187.75,13.17 187.75,20.64" fill="#111" stroke="none"/>
+<polygon points="454.04,16.91 440.17,20.64 440.17,13.17" fill="#111" stroke="none"/>
+<text x="313.96" y="23.72" font-size="19.2" text-anchor="middle" fill="#111">LENGTH</text>
+<line x1="183.14" y1="335.3" x2="521.34" y2="335.3" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>
+<line x1="510.07" y1="175.09" x2="510.07" y2="245.34" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>
+<line x1="510.07" y1="271.45" x2="510.07" y2="335.3" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>
+<polygon points="510.07,175.09 513.8,188.96 506.33,188.96" fill="#111" stroke="none"/>
+<polygon points="510.07,335.3 506.33,321.43 513.8,321.43" fill="#111" stroke="none"/>
+<text x="510.07" y="265.21" font-size="19.2" text-anchor="middle" fill="#111">OFFSET</text>
+<line x1="167.18" y1="327.88" x2="142.4" y2="300.51" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>
+<line x1="447.33" y1="74.3" x2="422.56" y2="46.93" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>
+<line x1="147.41" y1="306.05" x2="273.07" y2="192.31" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>
+<line x1="301.91" y1="166.2" x2="427.57" y2="52.47" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>
+<polygon points="147.41,306.05 155.19,293.98 160.2,299.51" fill="#111" stroke="none"/>
+<polygon points="427.57,52.47 419.79,64.54 414.78,59" fill="#111" stroke="none"/>
+<text x="287.49" y="186.07" font-size="19.2" text-anchor="middle" fill="#111">6'-9 1/8"</text>
+<line x1="178.85" y1="343.98" x2="195.58" y2="373.23" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>
+<line x1="459" y1="183.78" x2="475.73" y2="213.02" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>
+<line x1="191.87" y1="366.74" x2="309.11" y2="299.7" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>
+<line x1="354.78" y1="273.59" x2="472.02" y2="206.54" fill="none" stroke="#111" stroke-width="1.23" stroke-linecap="butt"/>
+<polygon points="191.87,366.74 202.05,356.62 205.76,363.1" fill="#111" stroke="none"/>
+<polygon points="472.02,206.54 461.84,216.67 458.13,210.18" fill="#111" stroke="none"/>
+<text x="331.95" y="293.46" font-size="19.2" text-anchor="middle" fill="#111">5'-9 9/16"</text>
+</svg>

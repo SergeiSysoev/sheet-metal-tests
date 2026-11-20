@@ -1,0 +1,370 @@
+[
+ {
+  "src": "F20",
+  "n": 59,
+  "q": "Using the Law of Cosines, calculate the length and offset dimensions.",
+  "hint": null,
+  "opts": [
+   "Length = 3'-4 9/16\" Offset = 5'-9 5/8\"",
+   "Length = 5'-2 7/16\" Offset = 3'-11 1/8\"",
+   "Length = 4'-11 3/8\" Offset = 2'-10 1/4\"",
+   "Length = 5'-11 5/16\" Offset = 3'-3 1/8\""
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": "q59",
+  "evidence": "Graded test SMY2W2 Friday Written 11/20/2026 (score 122.5/126, photos 21b0bef5 p14): pick not marked wrong. Calculation (Formula Sheets p12-13 field offset by two diagonals, knowledge 03 §7): offset 47.1024 -> 47-1/8, length 62.4071 -> 62-7/16."
+ },
+ {
+  "src": "F20",
+  "n": 60,
+  "q": "Using the Law of Cosines, calculate the length and offset dimensions.",
+  "hint": null,
+  "opts": [
+   "Length = 6'-4 1/2\" Offset = 3'-6\"",
+   "Length = 2'-2\" Offset = 5'-3 1/8\"",
+   "Length = 5'-9 5/16\" Offset = 2'-9 9/16\"",
+   "Length = 5'-15/16\" Offset = 2'-9 9/16\""
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": "q60",
+  "evidence": "Graded test SMY2W2 Friday Written 11/20/2026 (score 122.5/126, photos 21b0bef5 p15): pick not marked wrong. Calculation (field offset by two diagonals, s = 20): offset 33.5581 -> 33-9/16, length 60.9327 -> 60-15/16."
+ },
+ {
+  "src": "F20",
+  "n": 61,
+  "q": "Using the Law of Cosines, find angles A, B and C.",
+  "hint": null,
+  "opts": [
+   "A = 92 degrees",
+   "A = 91 degrees",
+   "A = 86 degrees",
+   "B = 46 degrees",
+   "B = 31 degrees",
+   "B = 63 degrees",
+   "C = 86 degrees",
+   "C = 63 degrees",
+   "C = 31 degrees"
+  ],
+  "answer": [
+   2,
+   4,
+   7
+  ],
+  "kind": null,
+  "fig": "q61",
+  "evidence": "Graded test SMY2W2 Friday Written 11/20/2026 (score 122.5/126, photos 21b0bef5 p15): pick not marked wrong. Calculation: A 86.0798, B 31.3745, C 62.5457."
+ },
+ {
+  "src": "F20",
+  "n": 62,
+  "q": "Using the Law of Cosines, find the angles of A, B and C.",
+  "hint": null,
+  "opts": [
+   "A = 44 degrees",
+   "A = 34 degrees",
+   "A = 51 degrees",
+   "B = 51 degrees",
+   "B = 42 degrees",
+   "B = 56 degrees",
+   "C = 95 degrees",
+   "C = 96 degrees",
+   "C = 84 degrees"
+  ],
+  "answer": [
+   1,
+   3,
+   6
+  ],
+  "kind": null,
+  "fig": "q62",
+  "evidence": "Graded test SMY2W2 Friday Written 11/20/2026 (score 122.5/126, photos 21b0bef5 p16): pick not marked wrong. Calculation: A 33.7076, B 51.1454, C 95.1470."
+ },
+ {
+  "src": "F20",
+  "n": 63,
+  "q": "Almost without exception GMAW is used with:",
+  "hint": null,
+  "opts": [
+   "Reverse Polarity",
+   "Straight Polarity",
+   "ACHF",
+   "DCHF"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded test SMY2W2 Friday Written 11/20/2026 (score 122.5/126, photos 21b0bef5 p16): pick not marked wrong. Same stem as T90-38 / Y2W5Y-39 with different options (Reverse/Straight/ACHF/DCHF). Course knowledge 07: GMAW = DCEP = reverse polarity."
+ },
+ {
+  "src": "F20",
+  "n": 64,
+  "q": "What is meant by the term “Ferrous Metals”?",
+  "hint": null,
+  "opts": [
+   "Metals containing iron",
+   "Metals containing carbon",
+   "Metals containing aluminum",
+   "Metals containing chromium"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded test SMY2W2 Friday Written 11/20/2026 (score 122.5/126, photos 21b0bef5 p16): pick not marked wrong. Definition (Latin ferrum); Y2W5Y-3 'Metal that contains iron' = Ferrous metal."
+ },
+ {
+  "src": "F20",
+  "n": 66,
+  "q": "Electrical power tools should ____.",
+  "hint": null,
+  "opts": [
+   "be double insulated",
+   "be properly grounded",
+   "have built-in GFIC devices",
+   "be double insulated or properly grounded"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded test SMY2W2 Friday Written 11/20/2026 (score 122.5/126, photos 21b0bef5 p16): pick not marked wrong. OSHA 1926.302(a)(1); WAC 296-155-360(1)(a) (same); GFCI: OSHA 1926.404(b)(1), WAC 296-155-447(2)(a)."
+ },
+ {
+  "src": "F20",
+  "n": 68,
+  "q": "What is the minimum clearance between the bending leaf and the nose bar on a handbrake?",
+  "hint": null,
+  "opts": [
+   "1 ½ times the material thickness",
+   "2 times the material thickness",
+   "¼ inch",
+   "½ inch"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded test SMY2W2 Friday Written 11/20/2026 (score 122.5/126, photos 21b0bef5 p17): pick not marked wrong. Graded pick a not marked wrong (student wrote '?' next to it). Web: Tennsmith hand brake manual ~2x thickness for heavier stock; The Fabricator ~1x thickness for a sharp bend; no written source found for 1 1/2x."
+ },
+ {
+  "src": "F20",
+  "n": 72,
+  "q": "If your gross earnings for the week is $1,236.29 and your employer has a 3.5% deducted for a savings plan, how much of your gross will be going into savings for this week?",
+  "hint": null,
+  "opts": [
+   "$35.32",
+   "$37.09",
+   "$43.27",
+   "$432.70"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded test SMY2W2 Friday Written 11/20/2026 (score 122.5/126, photos 21b0bef5 p17): pick not marked wrong. Calculation 1236.29 x 0.035 = 43.27015."
+ },
+ {
+  "src": "F20",
+  "n": 74,
+  "q": "The interest payment on a used $12,000 brake is 12% per year. If the loan is for one year, what is the monthly payment? (Note: this is simple interest)",
+  "hint": null,
+  "opts": [
+   "$1,000.00 per month",
+   "$1,120.00 per month",
+   "$1,210.00 per month",
+   "$1,344.00 per month"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded test SMY2W2 Friday Written 11/20/2026 (score 122.5/126, photos 21b0bef5 p18): pick not marked wrong. Calculation: 12000 x 1.12 / 12 = 1120.00."
+ },
+ {
+  "src": "F20",
+  "n": 76,
+  "q": "Fall protection must be used if a worker could fall ____ feet or more.",
+  "hint": null,
+  "opts": [
+   "4",
+   "6",
+   "8",
+   "10"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded test SMY2W2 Friday Written 11/20/2026 (score 122.5/126, photos 21b0bef5 p18): pick not marked wrong. WAC 296-880-20005 (4 ft); OSHA 1926.501(b)(1) 6 ft; instructor's review 11/19: answer 4 in WA."
+ },
+ {
+  "src": "F20",
+  "n": 77,
+  "q": "What is the stretch-out of a piece of round pipe with a 16\" diameter?",
+  "hint": null,
+  "opts": [
+   "50-1/4\"",
+   "50-3/8\"",
+   "201-1/16\""
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded test SMY2W2 Friday Written 11/20/2026 (score 122.5/126, photos 21b0bef5 p18): pick not marked wrong. Calculation pi x 16 = 50.2655 -> 50-1/4."
+ },
+ {
+  "src": "F20",
+  "n": 81,
+  "q": "The rejection criteria for synthetic slings includes: (Choose the answer that best fits)",
+  "hint": null,
+  "opts": [
+   "Burns, melting or charring, holes, tears, cuts or snags, broken stitching in splices",
+   "Burns, melting or charring, worn or stretched links, broken stitching in splices.",
+   "Burns, melting or charring, holes, tears, cuts, or snags, 5 broken stitches in 10 inches."
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded test SMY2W2 Friday Written 11/20/2026 (score 122.5/126, photos 21b0bef5 p19): pick not marked wrong. WAC 296-155-33820 Table 15 (synthetic webbing slings removal criteria); ASME B30.9."
+ },
+ {
+  "src": "F20",
+  "n": 82,
+  "q": "Storing duct sections near the installation site is called ____.",
+  "hint": null,
+  "opts": [
+   "staging",
+   "planning",
+   "distribution",
+   "sectioning"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded test SMY2W2 Friday Written 11/20/2026 (score 122.5/126, photos 21b0bef5 p19): pick not marked wrong. Same terms as Y2W5M-23 (staging = storing near the installation site), worded differently."
+ },
+ {
+  "src": "F20",
+  "n": 83,
+  "q": "Joining ductwork and fittings on the floor before hanging them is called____.",
+  "hint": null,
+  "opts": [
+   "staging",
+   "planning",
+   "distribution",
+   "sectioning"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded test SMY2W2 Friday Written 11/20/2026 (score 122.5/126, photos 21b0bef5 p19): pick not marked wrong. Duct preparation terms as in Y2W5M-23 explanation (sectioning = joining on the floor before hanging)."
+ },
+ {
+  "src": "F20",
+  "n": 85,
+  "q": "Copper is gauged by pounds per square foot.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded test SMY2W2 Friday Written 11/20/2026 (score 122.5/126, photos 21b0bef5 p19): pick not marked wrong. Course: copper oz/sq ft, lead lb/sq ft (instructor review 11/19; MON-11)."
+ },
+ {
+  "src": "F20",
+  "n": 87,
+  "q": "The two most commonly used triangles are a 45-45-90° triangle and a 30-60-90°triangle.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded test SMY2W2 Friday Written 11/20/2026 (score 122.5/126, photos 21b0bef5 p19): pick not marked wrong. Course sheet 2A 30-60-90 Triangle Intro; standard drafting triangles."
+ },
+ {
+  "src": "F20",
+  "n": 88,
+  "q": "What does the first two numbers in a brake’s capacity rating indicate?",
+  "hint": null,
+  "opts": [
+   "The thickness of the metal that can be bent?",
+   "The length of the metal that can be bent?",
+   "The type of metal that can be bent?",
+   "none of the above"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded test SMY2W2 Friday Written 11/20/2026 (score 122.5/126, photos 21b0bef5 p20): pick not marked wrong. Instructor review 11/19: brake = length then gauge (816 = 8 ft x 16 ga); knowledge 06."
+ },
+ {
+  "src": "F20",
+  "n": 89,
+  "q": "The last two numbers in a brake's capacity rating indicate",
+  "hint": null,
+  "opts": [
+   "the length of metal that can be bent",
+   "the maximum gage of metal that can be bent",
+   "type of metal that can be bent",
+   "none of the above"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded test SMY2W2 Friday Written 11/20/2026 (score 122.5/126, photos 21b0bef5 p20): pick not marked wrong. Instructor review 11/19: brake = length then gauge; knowledge 06 (MSG 16 ga 0.0598, 14 ga 0.0747)."
+ },
+ {
+  "src": "F20",
+  "n": 90,
+  "q": "The bar folder is useful when you need to make large numbers of?",
+  "hint": null,
+  "opts": [
+   "Multiple bends",
+   "The same bend",
+   "Different lengths of bends",
+   "none of the above"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "Graded test SMY2W2 Friday Written 11/20/2026 (score 122.5/126, photos 21b0bef5 p20): pick not marked wrong. Instructor review 11/19: bar folder = many identical bends; Y1W5M-9."
+ }
+]

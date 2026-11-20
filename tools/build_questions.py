@@ -22,9 +22,8 @@ TOPICS = {
     'dampers':     {'en': 'Fire & smoke dampers',          'ru': 'Fire & smoke dampers'},
 }
 SOURCES = {
-    'F20': {'name': {'en': 'Friday test 11/20 — practice', 'ru': 'Пятничный тест 20.11 — подготовка'},
-            'sub': {'en': "This week's tests and the old-test questions the instructor went over on 11/19, in one test",
-                    'ru': 'Тесты этой недели и вопросы старых тестов, которые инструктор разбирал 19.11, в одном тесте'},
+    'F20': {'name': {'en': 'SMY2W2 Friday Written — 11/20/2026', 'ru': 'SMY2W2 Friday Written — 20.11.2026'},
+            'sub': {'en': '2nd year, week 2 · No. 84 is blank in the test', 'ru': '2-й год, неделя 2 · номер 84 в самом тесте пустой'},
             'short': {'en': 'Friday 11/20', 'ru': 'Пятница 20.11'}},
     'T90': {'name': {'en': 'Welding & Layout test', 'ru': 'Тест Welding & Layout'},
             'sub': {'en': '2nd year: welding, layout, safety, math', 'ru': '2-й год: сварка, layout, безопасность, математика'},
@@ -48,9 +47,6 @@ SOURCES = {
     'Y2W5Y': {'name': {'en': 'SMY2W5 Year End Cumulative Written Exam', 'ru': 'SMY2W5 Year End Cumulative Written Exam'}, 'sub': {'en': '2nd year, end of year', 'ru': '2-й год, итоговый экзамен года'}, 'short': {'en': 'Year End', 'ru': 'Year End'}},
     'FIN5': {'name': {'en': '005 Final Written Test', 'ru': '005 Final Written Test'}, 'sub': {'en': 'Final written test', 'ru': 'Итоговый письменный тест'}, 'short': {'en': '005 Final', 'ru': '005 Final'}},
     'APR': {'name': {'en': 'Written test, April 2026', 'ru': 'Письменный тест, апрель 2026'}, 'sub': {'en': 'Shop standards, tools, math', 'ru': 'Shop standards, инструменты, математика'}, 'short': {'en': 'April test', 'ru': 'April test'}},
-    'CLS': {'name': {'en': 'Review class 11/19: law of cosines and the new-test question', 'ru': 'Разбор 19.11: law of cosines и вопрос с нового теста'},
-            'sub': {'en': 'Law of cosines on the formula sheet example (p. 12); the question the instructor read from the new test', 'ru': 'Law of cosines по примеру formula sheet (стр. 12); вопрос, который инструктор зачитал с нового теста'},
-            'short': {'en': 'Review 11/19', 'ru': 'Разбор 19.11'}},
     'Y1W5H': {'name': {'en': 'SMY1W5 Orthographics & Ogee Offsets — homework', 'ru': 'SMY1W5 Orthographics & Ogee Offsets — домашнее задание'},
               'sub': {'en': '1st year, week 5: homework', 'ru': '1-й год, неделя 5: домашнее задание'},
               'short': {'en': 'SMY1W5 homework', 'ru': 'SMY1W5 домашнее'}},
@@ -77,13 +73,13 @@ GROUP_OF = {'welding': 'welding', 'weldsym': 'welding', 'math': 'math', 'trig': 
             'materials': 'shop', 'tools': 'shop', 'safety': 'safety', 'trade': 'trade', 'dampers': 'dampers'}
 # Fire & smoke dampers are their own topic (owner, 2026-11-19): the whole FSD course, plus damper questions in any test.
 DAMPER_RE = re.compile(r'\bdampers?\b|fusible link|UL ?555|smoke detector', re.I)
-SRC_ORDER = ['F20', 'CLS', 'T90', 'FRI', 'MON', 'TRI', 'Y2W3M', 'Y2W3F', 'Y2W4M', 'Y2W4F', 'Y2W5M', 'Y2W5Y', 'Y1W3', 'Y1W5M', 'Y1W5F', 'Y1W5H', 'Y2W1H',
+SRC_ORDER = ['F20', 'T90', 'FRI', 'MON', 'TRI', 'Y2W3M', 'Y2W3F', 'Y2W4M', 'Y2W4F', 'Y2W5M', 'Y2W5Y', 'Y1W3', 'Y1W5M', 'Y1W5F', 'Y1W5H', 'Y2W1H',
              'APR', 'BRZ', 'FSD', 'FIN5']
 SOURCES = {k: SOURCES[k] for k in SRC_ORDER + [k for k in SOURCES if k not in SRC_ORDER]}
 # Tests after the first one repeat many questions; the bank keeps each question once, under the first test it
 # appeared in. Say so on every later test card, so a small count is not mistaken for a missing test.
 for _k, _v in SOURCES.items():
-    if _k in ('F20', 'T90', 'FRI', 'MON', 'CLS'):
+    if _k in ('F20', 'T90', 'FRI', 'MON'):
         continue
     if 'only new' not in _v['sub']['en']:
         _v['sub'] = {'en': _v['sub']['en'] + ' · new questions only',

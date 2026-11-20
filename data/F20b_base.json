@@ -1,0 +1,531 @@
+[
+ {
+  "src": "F20",
+  "n": 91,
+  "q": "A shear can cut metal heavier than its rating if the metal is shorter than the length of the shear.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick False not marked wrong. Proof: shear rating = max thickness of mild steel (course KB 06, instructor 19.11); raked blade cuts progressively, force depends on thickness."
+ },
+ {
+  "src": "F20",
+  "n": 92,
+  "q": "OSHA requires guarding or covering on any hole that is ____or more in diameter.",
+  "hint": null,
+  "opts": [
+   "2 inches",
+   "1 inch",
+   "2 feet",
+   "3 inches"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick 2 inches not marked wrong. Proof: 29 CFR 1926.500(b) hole = 2 in least dimension; WAC 296-880-095 same."
+ },
+ {
+  "src": "F20",
+  "n": 93,
+  "q": "Which of the following is NOT part of a personal fall arrest system?",
+  "hint": null,
+  "opts": [
+   "Body harness",
+   "Body belt",
+   "Connectors",
+   "Lines",
+   "Anchors"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick Body belt not marked wrong. Proof: 29 CFR 1926.500(b) PFAS definition (body belt prohibited since 1/1/1998); WAC 296-880-40020(1), -40025(1) full body harness."
+ },
+ {
+  "src": "F20",
+  "n": 94,
+  "q": "A guardrail system must withstand ______ of force?",
+  "hint": null,
+  "opts": [
+   "100 pounds",
+   "200 pounds",
+   "300 pounds",
+   "500 pounds"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick 200 pounds not marked wrong. Proof: 29 CFR 1926.502(b)(3); WAC 296-880-40005 same 200 lb."
+ },
+ {
+  "src": "F20",
+  "n": 95,
+  "q": "Glass, rubber, plastic and dry wood are all examples of:",
+  "hint": null,
+  "opts": [
+   "conductors",
+   "resisters",
+   "insulators",
+   "ground paths"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick insulators not marked wrong. Basic electrical safety definition."
+ },
+ {
+  "src": "F20",
+  "n": 96,
+  "q": "What is the shear length for the wrapper on an ogee that is 25\" from drive-to-drive with an 8\" offset and a 14\" cheek width?",
+  "hint": null,
+  "opts": null,
+  "answer": null,
+  "kind": "text",
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); No. 96 voided by the instructor in red (\"Correct answer not listed\"; printed options 25-3/16, 25-3/4, 26-3/4, 26-5/8). Lead decision 20.11: typed answer 27-3/4 by the course S-ogee method (KB 03 §5b; same method gives 24-1/8 for MON-55).",
+  "accept": [
+   "27-3/4",
+   "27 3/4",
+   "27.75",
+   "27.74",
+   "27.740",
+   "27.7400",
+   "27.750",
+   "27¾",
+   "27-¾",
+   "2'-3 3/4",
+   "2'-3-3/4",
+   "2' 3 3/4",
+   "2'3 3/4",
+   "2'-3¾",
+   "2’-3 3/4",
+   "2’-3-3/4",
+   "2’ 3 3/4"
+  ],
+  "reject": [
+   "25-3/4",
+   "25 3/4",
+   "25.75",
+   "25.74",
+   "26-3/4",
+   "26 3/4",
+   "26.75",
+   "26.74",
+   "25-3/16",
+   "25 3/16",
+   "26-5/8",
+   "26 5/8",
+   "26-11/16",
+   "26 11/16",
+   "26.67",
+   "28-11/16",
+   "28.67"
+  ],
+  "answer_text": "27-3/4\""
+ },
+ {
+  "src": "F20",
+  "n": 98,
+  "q": "How many cubic inches in 4.5 cubic feet?",
+  "hint": null,
+  "opts": [
+   "1728 cu. in.",
+   "7776 cu. in.",
+   "648 cu. in.",
+   "108 cu. in."
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick 7776 not marked wrong. Calculation 4.5 x 1728."
+ },
+ {
+  "src": "F20",
+  "n": 100,
+  "q": "Solve the offset distance \"D\".",
+  "hint": null,
+  "opts": [
+   "55-1/4\"",
+   "66\"",
+   "56-15/16\"",
+   "48-5/8\""
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": "q100",
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick 56-15/16 not marked wrong (owner note on the sheet: CLR = 26, offset = 30 1/2). Calculation: O = 147 - 116.5, CL R = 18 + 8."
+ },
+ {
+  "src": "F20",
+  "n": 101,
+  "q": "Solve the trim joint length \"L\".",
+  "hint": null,
+  "opts": [
+   "27-3/8\"",
+   "26-11/16\"",
+   "25-9/16\"",
+   "24-1/2\""
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": "q101",
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick 26-11/16 not marked wrong. Calculation: O = 93.5 - 67, CL R = 14 + 6."
+ },
+ {
+  "src": "F20",
+  "n": 103,
+  "q": "If the area of a square duct is 128 sq. in. and one side is 16 what is the other side?",
+  "hint": null,
+  "opts": [
+   "8\"",
+   "16\"",
+   "9'",
+   "10\""
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick 8\" not marked wrong. Calculation 128 / 16."
+ },
+ {
+  "src": "F20",
+  "n": 104,
+  "q": "What diameter pipe has an area of 314.1593 sq. in.?",
+  "hint": null,
+  "opts": [
+   "16\"",
+   "10\"",
+   "12\"",
+   "20\""
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick 20\" not marked wrong. Calculation sqrt(4A/pi)."
+ },
+ {
+  "src": "F20",
+  "n": 105,
+  "q": "Using the OWL formula select the correctly notched 16\"x12\" duct half for offsetting 6\"on the 16\" side.",
+  "hint": null,
+  "opts": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": "q105",
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick C not marked wrong. Calculation OWL 6 x 16 / 60 = 1.6 -> 1-5/8 (formula sheet p23, KB 03 §4)."
+ },
+ {
+  "src": "F20",
+  "n": 106,
+  "q": "A line that is at a right angle to another line is perpendicular to it.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick True not marked wrong. Definition."
+ },
+ {
+  "src": "F20",
+  "n": 107,
+  "q": "\"Ductility\" of metals means their resistance to wear.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick False not marked wrong. Definition of ductility."
+ },
+ {
+  "src": "F20",
+  "n": 109,
+  "q": "Ogee offsets are also called curved offsets.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); owner picked True, marked wrong (-1): graded key False. No course sheet or standard found that defines \"curved offset\" (KB 08 F20 §; web search 20.11 found none)."
+ },
+ {
+  "src": "F20",
+  "n": 110,
+  "q": "A lower gauge is thicker, and a higher gauge is thinner.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick True not marked wrong. Gauge table."
+ },
+ {
+  "src": "F20",
+  "n": 111,
+  "q": "Lead is gauged by",
+  "hint": null,
+  "opts": [
+   "ounces per square foot.",
+   "decimals of an inch.",
+   "thickness of the metal.",
+   "pounds per square foot."
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick pounds per square foot not marked wrong. Lead sheet is specified in lb/sq ft (density 11.34 g/cc)."
+ },
+ {
+  "src": "F20",
+  "n": 114,
+  "q": "Cast Iron is more malleable than steel.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick No not marked wrong. Material property."
+ },
+ {
+  "src": "F20",
+  "n": 115,
+  "q": "A36 is a common type of",
+  "hint": null,
+  "opts": [
+   "copper",
+   "aluminum",
+   "steel",
+   "stainless steel"
+  ],
+  "answer": [
+   2
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick steel not marked wrong. ASTM A36 = carbon structural steel."
+ },
+ {
+  "src": "F20",
+  "n": 116,
+  "q": "8 steel joists are 3' 4\" apart, center to center. What is the distance, center to center, between the two outside joists?",
+  "hint": null,
+  "opts": [
+   "46' 0\"",
+   "53' 8\"",
+   "16'-8\"",
+   "23'-4\""
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick 23'-4\" not marked wrong. Calculation 7 x 40."
+ },
+ {
+  "src": "F20",
+  "n": 117,
+  "q": "Roughly 2/3 of all sheet metal workers are employed in HVAC.",
+  "hint": null,
+  "opts": [
+   "Yes",
+   "No"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick Yes not marked wrong. Same fact as Y1W5M-3 (HVAC = largest area)."
+ },
+ {
+  "src": "F20",
+  "n": 120,
+  "q": "Abrasive wheel tools must be equipped with guards that cover the ____________.",
+  "hint": null,
+  "opts": [
+   "spindle end",
+   "nut",
+   "flange projections",
+   "all of the above"
+  ],
+  "answer": [
+   3
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick all of the above not marked wrong. Proof: 29 CFR 1926.303(b)(2); WAC 296-155-365(2)(b)."
+ },
+ {
+  "src": "F20",
+  "n": 121,
+  "q": "Always use the _______ tool for the job.",
+  "hint": null,
+  "opts": [
+   "nearest",
+   "right",
+   "newest",
+   "easiest"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick right not marked wrong. Basic tool safety rule."
+ },
+ {
+  "src": "F20",
+  "n": 122,
+  "q": "Dull tools can cause more hazards than sharp ones.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick True not marked wrong. Basic tool safety."
+ },
+ {
+  "src": "F20",
+  "n": 124,
+  "q": "The crane operator must be informed when an employee enters the swing radius of the crane and is not permitted to rotate the superstructure of the crane until informed that the employee is in a safe position.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick True not marked wrong. Proof: 29 CFR 1926.1424(a)(3); WAC 296-155-53400(42)(c)."
+ },
+ {
+  "src": "F20",
+  "n": 125,
+  "q": "The architect's scale can be used to find an actual length of an object from a scale drawing.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick True not marked wrong. Drafting fundamentals."
+ },
+ {
+  "src": "F20",
+  "n": 126,
+  "q": "Triangulation is used to bisect an angle and to erect a perpendicular to a line.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); owner picked False, marked wrong (-1): graded key True. Support: opentextbc.ca/patterndevelopment (parts Triangulation, Geometric Construction: bisect an angle, create a perpendicular line)."
+ },
+ {
+  "src": "F20",
+  "n": 127,
+  "q": "Triangulation is the process of laying out the pattern of any object by using a series of triangles.",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   0
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick True not marked wrong. Pattern development methods (KB 05 §1)."
+ },
+ {
+  "src": "F20",
+  "n": 128,
+  "q": "Most modern synthetic materials for clothing are more fire resistant than old fashioned cotton or wool",
+  "hint": null,
+  "opts": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "kind": null,
+  "fig": null,
+  "evidence": "SMY2W2 Friday Written 11/20/2026, graded sheet (122.5/126; points lost only on No. 20, 47, 109, 126; No. 96 voided); pick False not marked wrong. Synthetic fibers melt (welding PPE guidance)."
+ }
+]
