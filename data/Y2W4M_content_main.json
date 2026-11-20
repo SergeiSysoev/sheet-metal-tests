@@ -349,8 +349,8 @@
    "проверить, прямой ли угол, и найти третью сторону прямоугольного треугольника.",
    "проверить, прямой ли угол, и посчитать площадь треугольника."
   ],
-  "why_en": "a² + b² = c² works for a right triangle: it gives the third side, and it checks a corner for square (3-4-5: if the diagonal is 5, the corner is 90°). Option e names both uses, so it is the best answer; a and d alone are incomplete. It does not give the area of a circle or of a triangle.",
-  "why_ru": "a² + b² = c² работает для прямоугольного треугольника: даёт третью сторону и проверяет угол на 90° (3-4-5: если диагональ 5, угол прямой). Вариант e называет оба применения — это лучший ответ; a и d по отдельности неполные. Площадь круга или треугольника теорема не даёт.",
+  "why_en": "a² + b² = c² works for a right triangle: it gives the third side, and it checks a corner for square (3-4-5: if the diagonal is 5, the corner is 90°). The option \"check if a corner is square and to find the measurement of a third side\" names both uses, so it is the best answer; \"check if a corner is square\" and \"find the measurement of a third side\" alone are incomplete. It does not give the area of a circle or of a triangle.",
+  "why_ru": "a² + b² = c² работает для прямоугольного треугольника: даёт третью сторону и проверяет угол на 90° (3-4-5: если диагональ 5, угол прямой). Вариант «проверить, прямой ли угол, и найти третью сторону» называет оба применения — это лучший ответ; «проверить, прямой ли угол» и «найти третью сторону прямоугольного треугольника» по отдельности неполные. Площадь круга или треугольника теорема не даёт.",
   "flag": null
  },
  {
@@ -397,8 +397,8 @@
    "33-15/16\" x 31-15/16\"",
    "33.94\" x 31.925\""
   ],
-  "why_en": "Miter = 90 ÷ (2 × (7 − 1)) = 7.5°; K = 18 × tan 7.5° = 2.3697\". Height = 12K (2n − 2 = 12) + 6 gore laps × 1/4\" + 2 × 2\" = 28.4369 + 1.5 + 4 = 33.9369\" → 33-15/16\". Width = π × 10 + 1/2\" = 31.9159\" → 31-15/16\". Option a is the same numbers cut off (truncated), not a size you can shear.",
-  "why_ru": "Miter = 90 ÷ (2 × (7 − 1)) = 7.5°; K = 18 × tan 7.5° = 2.3697\". Высота = 12K (2n − 2 = 12) + 6 gore laps × 1/4\" + 2 × 2\" = 28.4369 + 1.5 + 4 = 33.9369\" → 33-15/16\". Ширина = π × 10 + 1/2\" = 31.9159\" → 31-15/16\". Вариант a — те же числа, обрезанные, а не размер под shear.",
+  "why_en": "Miter = 90 ÷ (2 × (7 − 1)) = 7.5°; K = 18 × tan 7.5° = 2.3697\". Height = 12K (2n − 2 = 12) + 6 gore laps × 1/4\" + 2 × 2\" = 28.4369 + 1.5 + 4 = 33.9369\" → 33-15/16\". Width = π × 10 + 1/2\" = 31.9159\" → 31-15/16\". 33.936\" x 31.915\" is the same numbers cut off (truncated), not a size you can shear.",
+  "why_ru": "Miter = 90 ÷ (2 × (7 − 1)) = 7.5°; K = 18 × tan 7.5° = 2.3697\". Высота = 12K (2n − 2 = 12) + 6 gore laps × 1/4\" + 2 × 2\" = 28.4369 + 1.5 + 4 = 33.9369\" → 33-15/16\". Ширина = π × 10 + 1/2\" = 31.9159\" → 31-15/16\". 33.936\" x 31.915\" — те же числа, обрезанные, а не размер под shear.",
   "flag": null
  },
  {
@@ -429,8 +429,8 @@
    "A = 45 degrees , B = 45 degrees",
    "A = 46.7 degrees , B = 43.3 degrees"
   ],
-  "why_en": "Throat R = 12\" (the pipe Ø), so CL R = 12 + 6 = 18\". Take one CL R off each run: X = 9'-8\" − 18 = 116 − 18 = 98\", Y = 8'-9\" − 18 = 105 − 18 = 87\". The straight pipe runs parallel to the line between the two elbow radius points: elbow A = atan(87 ÷ 98) = 41.597° → 41.6°, elbow B = 90 − 41.597 = 48.403° → 48.4° (together they turn 90°). Option a (48.3° / 41.7°) swaps the angles between A and B and rounds them off.",
-  "why_ru": "Throat R = 12\" (Ø трубы), значит CL R = 12 + 6 = 18\". С каждого хода снимаем по одному CL R: X = 9'-8\" − 18 = 116 − 18 = 98\", Y = 8'-9\" − 18 = 105 − 18 = 87\". Прямая труба параллельна линии между radius points двух elbows: elbow A = atan(87 ÷ 98) = 41.597° → 41.6°, elbow B = 90 − 41.597 = 48.403° → 48.4° (вместе — поворот на 90°). В варианте a (48.3° / 41.7°) углы A и B переставлены и округлены неверно.",
+  "why_en": "Throat R = 12\" (the pipe Ø), so CL R = 12 + 6 = 18\". Take one CL R off each run: X = 9'-8\" − 18 = 116 − 18 = 98\", Y = 8'-9\" − 18 = 105 − 18 = 87\". The straight pipe runs parallel to the line between the two elbow radius points: elbow A = atan(87 ÷ 98) = 41.597° → 41.6°, elbow B = 90 − 41.597 = 48.403° → 48.4° (together they turn 90°). 48.3° for A and 41.7° for B swaps the two angles and rounds them off.",
+  "why_ru": "Throat R = 12\" (Ø трубы), значит CL R = 12 + 6 = 18\". С каждого хода снимаем по одному CL R: X = 9'-8\" − 18 = 116 − 18 = 98\", Y = 8'-9\" − 18 = 105 − 18 = 87\". Прямая труба параллельна линии между radius points двух elbows: elbow A = atan(87 ÷ 98) = 41.597° → 41.6°, elbow B = 90 − 41.597 = 48.403° → 48.4° (вместе — поворот на 90°). 48.3° для A и 41.7° для B — углы переставлены и округлены неверно.",
   "flag": "Dimension labels are blurred in the photo: read as 8'-9\" (vertical) and 9'-8\" (horizontal). Only this reading gives an offered option (5'-9\" or 6'-9\" would give 27.49° or 32.74°), and it matches the yellow key b."
  },
  {

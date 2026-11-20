@@ -523,7 +523,6 @@ const QUESTIONS = [
    2
   ],
   "type": "single",
-  "keep": 1,
   "on": [
    [
     "F20",
@@ -625,8 +624,8 @@ const QUESTIONS = [
    "ru": "В SMAW, если electrode требует straight polarity, нужно ____."
   },
   "why": {
-   "en": "For points pick d: straight polarity is DCEN, so the electrode lead goes to the negative terminal and the work (ground) clamp goes on the base metal. Technically b is also correct, because DCEN by definition means electrode lead to negative and work lead to positive (ITI SMAW manual, p. 13), just as reverse polarity is electrode to positive, ground to negative. \"Ground to base metal\" is true for any polarity; a is reverse polarity (DCEP), and c mixes AC with DC, which is impossible.",
-   "ru": "Для балла — d: straight polarity — это DCEN, electrode подключают к отрицательной клемме, а ground (work clamp) — на base metal. Технически b тоже верен: DCEN по определению — electrode на минус, work clamp на плюс (учебник ITI по SMAW, стр. 13), так же как reverse polarity — electrode на плюс, ground на минус. «Ground на base metal» верно при любой полярности; a — это reverse polarity (DCEP), а c смешивает AC и DC, так не бывает."
+   "en": "For points pick \"electrode to negative terminal and ground to base metal\": straight polarity is DCEN, so the electrode lead goes to the negative terminal and the work (ground) clamp goes on the base metal. Technically \"electrode to the negative terminal and ground to positive\" is also correct, because DCEN by definition means electrode lead to negative and work lead to positive (ITI SMAW manual, p. 13), just as reverse polarity is electrode to positive, ground to negative. \"Ground to base metal\" is true for any polarity; \"electrode to the positive terminal and ground to negative\" is reverse polarity (DCEP), and \"electrode to AC terminal and ground to DC\" mixes AC with DC, which is impossible.",
+   "ru": "Для балла — «electrode к отрицательной клемме, а ground — к base metal»: straight polarity — это DCEN, electrode подключают к отрицательной клемме, а ground (work clamp) — на base metal. Технически вариант «electrode к отрицательной клемме, а ground — к положительной» тоже верен: DCEN по определению — electrode на минус, work clamp на плюс (учебник ITI по SMAW, стр. 13), так же как reverse polarity — electrode на плюс, ground на минус. «Ground на base metal» верно при любой полярности; «electrode к положительной клемме, а ground — к отрицательной» — это reverse polarity (DCEP), а «electrode к клемме AC, а ground — к DC» смешивает AC и DC, так не бывает."
   },
   "opts": [
    {
@@ -653,7 +652,6 @@ const QUESTIONS = [
   "also": [
    1
   ],
-  "keep": 1,
   "on": [
    [
     "F20",
@@ -1437,8 +1435,8 @@ const QUESTIONS = [
    "ru": "В SMAW, если electrode требует reverse polarity, нужно ____."
   },
   "why": {
-   "en": "Reverse polarity = DCEP: the electrode lead goes to the positive terminal and the work (ground) lead to the negative terminal. b and d are straight polarity (DCEN), and c is impossible: AC and DC are not mixed in one circuit.",
-   "ru": "Reverse polarity = DCEP: electrode — на положительную клемму, ground (work clamp) — на отрицательную. b и d — это straight polarity (DCEN), а c невозможен: AC и DC в одной цепи не смешивают."
+   "en": "Reverse polarity = DCEP: the electrode lead goes to the positive terminal and the work (ground) lead to the negative terminal. \"Electrode to the negative terminal and ground to positive\" and \"electrode to negative terminal and ground to base metal\" are straight polarity (DCEN), and \"electrode to AC terminal and ground to DC\" is impossible: AC and DC are not mixed in one circuit.",
+   "ru": "Reverse polarity = DCEP: electrode — на положительную клемму, ground (work clamp) — на отрицательную. Варианты «electrode к отрицательной клемме, а ground — к положительной» и «electrode к отрицательной клемме, а ground — к base metal» — это straight polarity (DCEN), а вариант «electrode к клемме AC, а ground — к DC» невозможен: AC и DC в одной цепи не смешивают."
   },
   "opts": [
    {
@@ -1462,7 +1460,6 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "keep": 1,
   "on": [
    [
     "F20",
@@ -1679,7 +1676,6 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "keep": 1,
   "on": [
    [
     "F20",
@@ -1971,8 +1967,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "keep": 1
+  "type": "single"
  },
  {
   "id": "T90-37",
@@ -2130,7 +2125,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "fig": "t90-q40.svg",
-  "keep": 1,
   "on": [
    [
     "F20",
@@ -2375,7 +2369,6 @@ const QUESTIONS = [
    2
   ],
   "type": "single",
-  "keep": 1,
   "on": [
    [
     "F20",
@@ -2679,7 +2672,6 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "keep": 1,
   "on": [
    [
     "F20",
@@ -4743,8 +4735,8 @@ const QUESTIONS = [
    "ru": "Рассчитайте недостающие размеры \"L\" и \"D\" для offset системы duct."
   },
   "why": {
-   "en": "Rise = 12'-1\" − 9'-5\" = 145 − 113 = 32\". R1'-4\" (16\") is the throat radius and the 28\" side lies in the plane of the turn, so CL R = 16 + 14 = 30\"; the two 37° elbows rise 2 × 30 × (1 − cos 37°) = 12.0819\", so the straight piece L = (32 − 12.0819) ÷ sin 37° = 33.0968\" → 33.10\". D = 2 × 30 × sin 37° + L × cos 37° = 36.1089 + 26.4323 = 62.5412\" → 62.54\". Trap: the second option swaps L and D (and cuts 33.0968 to 33.09); read on the drawing which letter is the straight piece, because it changes from problem to problem.",
-   "ru": "Подъём = 12'-1\" − 9'-5\" = 145 − 113 = 32\". R1'-4\" (16\") — throat radius, а в плоскости поворота лежит сторона 28\", поэтому CL R = 16 + 14 = 30\"; два elbow по 37° поднимают на 2 × 30 × (1 − cos 37°) = 12.0819\", значит прямой кусок L = (32 − 12.0819) ÷ sin 37° = 33.0968\" → 33.10\". D = 2 × 30 × sin 37° + L × cos 37° = 36.1089 + 26.4323 = 62.5412\" → 62.54\". Ловушка: во втором варианте L и D переставлены (и 33.0968 обрезано до 33.09); какая буква — прямой кусок, смотреть по чертежу, от задачи к задаче это меняется."
+   "en": "Rise = 12'-1\" − 9'-5\" = 145 − 113 = 32\". R1'-4\" (16\") is the throat radius and the 28\" side lies in the plane of the turn, so CL R = 16 + 14 = 30\"; the two 37° elbows rise 2 × 30 × (1 − cos 37°) = 12.0819\", so the straight piece L = (32 − 12.0819) ÷ sin 37° = 33.0968\" → 33.10\". D = 2 × 30 × sin 37° + L × cos 37° = 36.1089 + 26.4323 = 62.5412\" → 62.54\". Trap: the option L = 62.54\" D = 33.09\" swaps L and D (and cuts 33.0968 to 33.09); read on the drawing which letter is the straight piece, because it changes from problem to problem.",
+   "ru": "Подъём = 12'-1\" − 9'-5\" = 145 − 113 = 32\". R1'-4\" (16\") — throat radius, а в плоскости поворота лежит сторона 28\", поэтому CL R = 16 + 14 = 30\"; два elbow по 37° поднимают на 2 × 30 × (1 − cos 37°) = 12.0819\", значит прямой кусок L = (32 − 12.0819) ÷ sin 37° = 33.0968\" → 33.10\". D = 2 × 30 × sin 37° + L × cos 37° = 36.1089 + 26.4323 = 62.5412\" → 62.54\". Ловушка: в варианте L = 62.54\" D = 33.09\" значения L и D переставлены (и 33.0968 обрезано до 33.09); какая буква — прямой кусок, смотреть по чертежу, от задачи к задаче это меняется."
   },
   "opts": [
    {
@@ -4769,7 +4761,6 @@ const QUESTIONS = [
   ],
   "type": "single",
   "fig": "tri-q17.svg",
-  "keep": 1,
   "on": [
    [
     "F20",
@@ -4838,8 +4829,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "keep": 1
+  "type": "single"
  },
  {
   "id": "FRI-21",
@@ -6754,7 +6744,6 @@ const QUESTIONS = [
   ],
   "type": "multi",
   "fig": "mon-q56.svg",
-  "keep": 1,
   "on": [
    [
     "F20",
@@ -6811,7 +6800,6 @@ const QUESTIONS = [
   ],
   "type": "multi",
   "fig": "mon-q57.svg",
-  "keep": 1,
   "on": [
    [
     "F20",
@@ -7143,8 +7131,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "keep": 1
+  "type": "single"
  },
  {
   "id": "MON-67",
@@ -7477,8 +7464,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "keep": 1
+  "type": "single"
  },
  {
   "id": "MON-76",
@@ -7515,8 +7501,7 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "fig": "mon-q76.svg",
-  "keep": 1
+  "fig": "mon-q76.svg"
  },
  {
   "id": "MON-77",
@@ -7758,8 +7743,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "keep": 1
+  "type": "single"
  },
  {
   "id": "BRZ-4",
@@ -9080,7 +9064,6 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "keep": 1,
   "on": [
    [
     "F20",
@@ -9123,7 +9106,6 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "keep": 1,
   "on": [
    [
     "F20",
@@ -9250,7 +9232,6 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "keep": 1,
   "on": [
    [
     "F20",
@@ -10381,8 +10362,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "keep": 1
+  "type": "single"
  },
  {
   "id": "FIN5-10",
@@ -10454,8 +10434,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "keep": 1
+  "type": "single"
  },
  {
   "id": "FIN5-12",
@@ -12131,8 +12110,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "keep": 1
+  "type": "single"
  },
  {
   "id": "FSD-408",
@@ -12276,8 +12254,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "keep": 1
+  "type": "single"
  },
  {
   "id": "FSD-412",
@@ -12629,8 +12606,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "keep": 1
+  "type": "single"
  },
  {
   "id": "FSD-422",
@@ -13678,8 +13654,8 @@ const QUESTIONS = [
    "ru": "Right-handed aviation snips режут:"
   },
   "why": {
-   "en": "For points pick b, counter-clockwise. Technically clockwise is also correct because manufacturers make right-cut snips (green handles) to cut straight and curve to the right, and a cut that curves to the right runs clockwise. The answer depends on what \"right-handed\" is taken to mean.",
-   "ru": "Для балла — b, против часовой стрелки. Технически «по часовой» тоже верен, потому что производители делают right-cut snips (зелёные ручки) для реза прямо и с поворотом вправо, а рез с поворотом вправо идёт по часовой. Ответ зависит от того, что понимать под «right-handed»."
+   "en": "For points pick \"counter-clockwise\". Technically \"clockwise\" is also correct because manufacturers make right-cut snips (green handles) to cut straight and curve to the right, and a cut that curves to the right runs clockwise. The answer depends on what \"right-handed\" is taken to mean.",
+   "ru": "Для балла — «против часовой стрелки». Технически «по часовой» тоже верен, потому что производители делают right-cut snips (зелёные ручки) для реза прямо и с поворотом вправо, а рез с поворотом вправо идёт по часовой. Ответ зависит от того, что понимать под «right-handed»."
   },
   "opts": [
    {
@@ -13702,8 +13678,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "keep": 1
+  "type": "single"
  },
  {
   "id": "Y1W3-7",
@@ -14014,8 +13989,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "keep": 1
+  "type": "single"
  },
  {
   "id": "Y1W3-21",
@@ -14271,8 +14245,8 @@ const QUESTIONS = [
    "ru": "1-1/8 x 2-1/4 ="
   },
   "why": {
-   "en": "9/8 × 9/4 = 81/32 = 2.53125. For points pick a, 2.531. Technically 2-17/32 is also correct because 81/32 = 2-17/32 exactly; a is the same number rounded to three decimals. 3-3/8 = 3.375 is the sum, not the product.",
-   "ru": "9/8 × 9/4 = 81/32 = 2.53125. Для балла — a, 2.531. Технически 2-17/32 тоже верен, потому что 81/32 = ровно 2-17/32; a — то же число, округлённое до 3 знаков. 3-3/8 = 3.375 — это сумма, а не произведение."
+   "en": "9/8 × 9/4 = 81/32 = 2.53125. For points pick 2.531. Technically 2-17/32 is also correct because 81/32 = 2-17/32 exactly; 2.531 is the same number rounded to three decimals. 3-3/8 = 3.375 is the sum, not the product.",
+   "ru": "9/8 × 9/4 = 81/32 = 2.53125. Для балла — 2.531. Технически 2-17/32 тоже верен, потому что 81/32 = ровно 2-17/32; 2.531 — то же число, округлённое до 3 знаков. 3-3/8 = 3.375 — это сумма, а не произведение."
   },
   "opts": [
    {
@@ -14295,8 +14269,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "keep": 1
+  "type": "single"
  },
  {
   "id": "Y1W3-34",
@@ -14308,8 +14281,8 @@ const QUESTIONS = [
    "ru": "7/16"
   },
   "why": {
-   "en": "7 ÷ 16 = 0.4375 (a). 14/32 is the same value written as an unreduced fraction, not a conversion; .4385 and .3875 are wrong decimals.",
-   "ru": "7 ÷ 16 = 0.4375 (a). 14/32 — то же число, но это несокращённая дробь, а не перевод в десятичную; .4385 и .3875 — неверные десятичные."
+   "en": "7 ÷ 16 = 0.4375 → .4375. 14/32 is the same value written as an unreduced fraction, not a conversion; .4385 and .3875 are wrong decimals.",
+   "ru": "7 ÷ 16 = 0.4375 → .4375. 14/32 — то же число, но это несокращённая дробь, а не перевод в десятичную; .4385 и .3875 — неверные десятичные."
   },
   "opts": [
    {
@@ -14332,8 +14305,7 @@ const QUESTIONS = [
   "answer": [
    0
   ],
-  "type": "single",
-  "keep": 1
+  "type": "single"
  },
  {
   "id": "Y1W3-37",
@@ -14369,8 +14341,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "keep": 1
+  "type": "single"
  },
  {
   "id": "Y1W3-40",
@@ -14546,8 +14517,8 @@ const QUESTIONS = [
    "ru": "Вычислите площадь овала."
   },
   "why": {
-   "en": "The two R6\" ends make one full circle: π × 6² = 113.097; the rectangle between them is 1'-4\" × 12\" = 16 × 12 = 192. Total 305.0973 sq in; with π = 3.1416 it is 305.0976 → d 305.098, the most precise option. c 305.1 is the same area rounded to one decimal, so it counts too.",
-   "ru": "Два конца R6\" вместе дают полный круг: π × 6² = 113.097; прямоугольник между ними — 1'-4\" × 12\" = 16 × 12 = 192. Итого 305.0973 sq in; с π = 3.1416 — 305.0976 → d 305.098, самый точный вариант. c 305.1 — та же площадь с округлением до десятых, поэтому она тоже засчитывается."
+   "en": "The two R6\" ends make one full circle: π × 6² = 113.097; the rectangle between them is 1'-4\" × 12\" = 16 × 12 = 192. Total 305.0973 sq in; with π = 3.1416 it is 305.0976 → 305.098, the most precise option. 305.1 is the same area rounded to one decimal, so it counts too.",
+   "ru": "Два конца R6\" вместе дают полный круг: π × 6² = 113.097; прямоугольник между ними — 1'-4\" × 12\" = 16 × 12 = 192. Итого 305.0973 sq in; с π = 3.1416 — 305.0976 → 305.098, самый точный вариант. 305.1 — та же площадь с округлением до десятых, поэтому она тоже засчитывается."
   },
   "opts": [
    {
@@ -14574,8 +14545,7 @@ const QUESTIONS = [
   "also": [
    2
   ],
-  "fig": "y1w3-q51.svg",
-  "keep": 1
+  "fig": "y1w3-q51.svg"
  },
  {
   "id": "Y1W3-52",
@@ -16324,8 +16294,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "keep": 1
+  "type": "single"
  },
  {
   "id": "Y2W3F-12",
@@ -16541,8 +16510,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "keep": 1
+  "type": "single"
  },
  {
   "id": "Y2W3F-18",
@@ -16965,7 +16933,6 @@ const QUESTIONS = [
   ],
   "type": "multi",
   "fig": "y2w3f-q30.svg",
-  "keep": 1,
   "on": [
    [
     "F20",
@@ -17034,7 +17001,6 @@ const QUESTIONS = [
   ],
   "type": "multi",
   "fig": "y2w3f-q31.svg",
-  "keep": 1,
   "on": [
    [
     "F20",
@@ -17960,8 +17926,8 @@ const QUESTIONS = [
    "ru": "При работе на scaffold guardrails должны:"
   },
   "why": {
-   "en": "For points pick d, 6'-0\". Technically 10 ft is also correct because on a scaffold both OSHA 1926.451(g)(1) and WAC 296-880-30030 require guardrails or a personal fall arrest system from 10 ft up. 6 ft is OSHA's general construction fall-protection height (1926.501(b)(1)); Washington's general rule is stricter, 4 ft (WAC 296-880-20005); neither general rule covers scaffolds. Working in Washington, follow the stricter rule wherever WAC and OSHA differ: asked from what height fall protection is required in Washington, answer 4 ft and name WAC 296-880-20005. 15'-0\" is too high under any rule, and a top rail stands 38–45\" above the platform, well above the knees.",
-   "ru": "Для балла — d, 6'-0\". Технически 10 ft тоже верен, потому что на scaffold и OSHA 1926.451(g)(1), и WAC 296-880-30030 требуют guardrails или personal fall arrest system с 10 ft. 6 ft — общий порог защиты от падения на стройке по OSHA (1926.501(b)(1)); общее правило Washington строже — 4 ft (WAC 296-880-20005); ни одно из общих правил к scaffold не относится. Работая в Washington, где WAC и OSHA расходятся, выполняем более строгое: на вопрос, с какой высоты в Washington нужна защита от падения, отвечать 4 ft со ссылкой на WAC 296-880-20005. 15'-0\" слишком высоко по любому правилу, а верхний поручень стоит на 38–45\" над настилом — гораздо выше колен."
+   "en": "For points pick “be installed if you are working over 6'-0\" up”. Technically 10 ft is also correct because on a scaffold both OSHA 1926.451(g)(1) and WAC 296-880-30030 require guardrails or a personal fall arrest system from 10 ft up. 6 ft is OSHA's general construction fall-protection height (1926.501(b)(1)); Washington's general rule is stricter, 4 ft (WAC 296-880-20005); neither general rule covers scaffolds. Working in Washington, follow the stricter rule wherever WAC and OSHA differ: asked from what height fall protection is required in Washington, answer 4 ft and name WAC 296-880-20005. 15'-0\" is too high under any rule, and a top rail stands 38–45\" above the platform, well above the knees.",
+   "ru": "Для балла — «быть установлены, если работаешь выше 6'-0\"». Технически 10 ft тоже верен, потому что на scaffold и OSHA 1926.451(g)(1), и WAC 296-880-30030 требуют guardrails или personal fall arrest system с 10 ft. 6 ft — общий порог защиты от падения на стройке по OSHA (1926.501(b)(1)); общее правило Washington строже — 4 ft (WAC 296-880-20005); ни одно из общих правил к scaffold не относится. Работая в Washington, где WAC и OSHA расходятся, выполняем более строгое: на вопрос, с какой высоты в Washington нужна защита от падения, отвечать 4 ft со ссылкой на WAC 296-880-20005. 15'-0\" слишком высоко по любому правилу, а верхний поручень стоит на 38–45\" над настилом — гораздо выше колен."
   },
   "opts": [
    {
@@ -17984,8 +17950,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "keep": 1
+  "type": "single"
  },
  {
   "id": "Y2W4F-25",
@@ -18021,8 +17986,7 @@ const QUESTIONS = [
   "answer": [
    1
   ],
-  "type": "single",
-  "keep": 1
+  "type": "single"
  },
  {
   "id": "Y2W4F-26",
@@ -18926,8 +18890,7 @@ const QUESTIONS = [
   "answer": [
    3
   ],
-  "type": "single",
-  "keep": 1
+  "type": "single"
  },
  {
   "id": "Y2W4M-25",
@@ -18963,8 +18926,7 @@ const QUESTIONS = [
   "answer": [
    2
   ],
-  "type": "single",
-  "keep": 1
+  "type": "single"
  },
  {
   "id": "Y2W4M-26",
@@ -19156,8 +19118,8 @@ const QUESTIONS = [
    "ru": "Теорему Пифагора в sheet metal можно использовать, чтобы:"
   },
   "why": {
-   "en": "a² + b² = c² works for a right triangle: it gives the third side, and it checks a corner for square (3-4-5: if the diagonal is 5, the corner is 90°). Option e names both uses, so it is the best answer; a and d alone are incomplete. It does not give the area of a circle or of a triangle.",
-   "ru": "a² + b² = c² работает для прямоугольного треугольника: даёт третью сторону и проверяет угол на 90° (3-4-5: если диагональ 5, угол прямой). Вариант e называет оба применения — это лучший ответ; a и d по отдельности неполные. Площадь круга или треугольника теорема не даёт."
+   "en": "a² + b² = c² works for a right triangle: it gives the third side, and it checks a corner for square (3-4-5: if the diagonal is 5, the corner is 90°). The option \"check if a corner is square and to find the measurement of a third side\" names both uses, so it is the best answer; \"check if a corner is square\" and \"find the measurement of a third side\" alone are incomplete. It does not give the area of a circle or of a triangle.",
+   "ru": "a² + b² = c² работает для прямоугольного треугольника: даёт третью сторону и проверяет угол на 90° (3-4-5: если диагональ 5, угол прямой). Вариант «проверить, прямой ли угол, и найти третью сторону» называет оба применения — это лучший ответ; «проверить, прямой ли угол» и «найти третью сторону прямоугольного треугольника» по отдельности неполные. Площадь круга или треугольника теорема не даёт."
   },
   "opts": [
    {
@@ -19188,8 +19150,7 @@ const QUESTIONS = [
   "answer": [
    4
   ],
-  "type": "single",
-  "keep": 1
+  "type": "single"
  },
  {
   "id": "Y2W4M-36",
@@ -19273,8 +19234,8 @@ const QUESTIONS = [
    "ru": "Посчитай и выбери shear list для 10\" round 7-piece elbow на 90 градусов с center-line radius 18\". Учесть припуски (1/2\" на seams и 1/4\" на gore laps) и 2\" прямого участка на каждом конце."
   },
   "why": {
-   "en": "Miter = 90 ÷ (2 × (7 − 1)) = 7.5°; K = 18 × tan 7.5° = 2.3697\". Height = 12K (2n − 2 = 12) + 6 gore laps × 1/4\" + 2 × 2\" = 28.4369 + 1.5 + 4 = 33.9369\" → 33-15/16\". Width = π × 10 + 1/2\" = 31.9159\" → 31-15/16\". Option a is the same numbers cut off (truncated), not a size you can shear.",
-   "ru": "Miter = 90 ÷ (2 × (7 − 1)) = 7.5°; K = 18 × tan 7.5° = 2.3697\". Высота = 12K (2n − 2 = 12) + 6 gore laps × 1/4\" + 2 × 2\" = 28.4369 + 1.5 + 4 = 33.9369\" → 33-15/16\". Ширина = π × 10 + 1/2\" = 31.9159\" → 31-15/16\". Вариант a — те же числа, обрезанные, а не размер под shear."
+   "en": "Miter = 90 ÷ (2 × (7 − 1)) = 7.5°; K = 18 × tan 7.5° = 2.3697\". Height = 12K (2n − 2 = 12) + 6 gore laps × 1/4\" + 2 × 2\" = 28.4369 + 1.5 + 4 = 33.9369\" → 33-15/16\". Width = π × 10 + 1/2\" = 31.9159\" → 31-15/16\". 33.936\" x 31.915\" is the same numbers cut off (truncated), not a size you can shear.",
+   "ru": "Miter = 90 ÷ (2 × (7 − 1)) = 7.5°; K = 18 × tan 7.5° = 2.3697\". Высота = 12K (2n − 2 = 12) + 6 gore laps × 1/4\" + 2 × 2\" = 28.4369 + 1.5 + 4 = 33.9369\" → 33-15/16\". Ширина = π × 10 + 1/2\" = 31.9159\" → 31-15/16\". 33.936\" x 31.915\" — те же числа, обрезанные, а не размер под shear."
   },
   "opts": [
    {
@@ -19345,8 +19306,8 @@ const QUESTIONS = [
    "ru": "Посчитай, сколько градусов нужно elbows A и B, чтобы замкнуть систему duct. Throat radius elbow равен диаметру трубы."
   },
   "why": {
-   "en": "Throat R = 12\" (the pipe Ø), so CL R = 12 + 6 = 18\". Take one CL R off each run: X = 9'-8\" − 18 = 116 − 18 = 98\", Y = 8'-9\" − 18 = 105 − 18 = 87\". The straight pipe runs parallel to the line between the two elbow radius points: elbow A = atan(87 ÷ 98) = 41.597° → 41.6°, elbow B = 90 − 41.597 = 48.403° → 48.4° (together they turn 90°). Option a (48.3° / 41.7°) swaps the angles between A and B and rounds them off.",
-   "ru": "Throat R = 12\" (Ø трубы), значит CL R = 12 + 6 = 18\". С каждого хода снимаем по одному CL R: X = 9'-8\" − 18 = 116 − 18 = 98\", Y = 8'-9\" − 18 = 105 − 18 = 87\". Прямая труба параллельна линии между radius points двух elbows: elbow A = atan(87 ÷ 98) = 41.597° → 41.6°, elbow B = 90 − 41.597 = 48.403° → 48.4° (вместе — поворот на 90°). В варианте a (48.3° / 41.7°) углы A и B переставлены и округлены неверно."
+   "en": "Throat R = 12\" (the pipe Ø), so CL R = 12 + 6 = 18\". Take one CL R off each run: X = 9'-8\" − 18 = 116 − 18 = 98\", Y = 8'-9\" − 18 = 105 − 18 = 87\". The straight pipe runs parallel to the line between the two elbow radius points: elbow A = atan(87 ÷ 98) = 41.597° → 41.6°, elbow B = 90 − 41.597 = 48.403° → 48.4° (together they turn 90°). 48.3° for A and 41.7° for B swaps the two angles and rounds them off.",
+   "ru": "Throat R = 12\" (Ø трубы), значит CL R = 12 + 6 = 18\". С каждого хода снимаем по одному CL R: X = 9'-8\" − 18 = 116 − 18 = 98\", Y = 8'-9\" − 18 = 105 − 18 = 87\". Прямая труба параллельна линии между radius points двух elbows: elbow A = atan(87 ÷ 98) = 41.597° → 41.6°, elbow B = 90 − 41.597 = 48.403° → 48.4° (вместе — поворот на 90°). 48.3° для A и 41.7° для B — углы переставлены и округлены неверно."
   },
   "opts": [
    {
@@ -19517,8 +19478,7 @@ const QUESTIONS = [
    1
   ],
   "type": "single",
-  "fig": "y2w4m-q59.svg",
-  "keep": 1
+  "fig": "y2w4m-q59.svg"
  },
  {
   "id": "Y2W4M-60",
@@ -19850,7 +19810,6 @@ const QUESTIONS = [
    1
   ],
   "type": "single",
-  "keep": 1,
   "on": [
    [
     "F20",
@@ -21035,7 +20994,6 @@ const QUESTIONS = [
    1
   ],
   "type": "single",
-  "keep": 1,
   "on": [
    [
     "F20",
@@ -21329,8 +21287,8 @@ const QUESTIONS = [
    "ru": "Для GTAW обратная полярность (reverse polarity) даёт"
   },
   "why": {
-   "en": "For points pick a: \"reverse polarity gives deep penetration\" is the rule for GMAW and SMAW. Technically c is also correct for GTAW (TIG), because on DCEP about 70% of the arc heat goes into the tungsten electrode and only about 30% into the work, so the weld is wide and shallow; in GTAW it is DCEN that gives deep penetration.",
-   "ru": "Для балла — a: «reverse polarity даёт глубокий провар» — правило для GMAW и SMAW. Технически для GTAW (TIG) c тоже верен, потому что на DCEP около 70% тепла дуги уходит в вольфрамовый electrode и только около 30% — в деталь, поэтому шов широкий и мелкий; глубокий провар в GTAW даёт как раз DCEN."
+   "en": "For points pick \"deep penetration\": \"reverse polarity gives deep penetration\" is the rule for GMAW and SMAW. Technically \"shallow penetration\" is also correct for GTAW (TIG), because on DCEP about 70% of the arc heat goes into the tungsten electrode and only about 30% into the work, so the weld is wide and shallow; in GTAW it is DCEN that gives deep penetration.",
+   "ru": "Для балла — «глубокое проплавление»: «reverse polarity даёт глубокий провар» — правило для GMAW и SMAW. Технически для GTAW (TIG) вариант «мелкое проплавление» тоже верен, потому что на DCEP около 70% тепла дуги уходит в вольфрамовый electrode и только около 30% — в деталь, поэтому шов широкий и мелкий; глубокий провар в GTAW даёт как раз DCEN."
   },
   "opts": [
    {
@@ -21353,7 +21311,6 @@ const QUESTIONS = [
   "also": [
    2
   ],
-  "keep": 1,
   "on": [
    [
     "F20",
@@ -21534,7 +21491,6 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "keep": 1,
   "on": [
    [
     "F20",
@@ -21964,7 +21920,6 @@ const QUESTIONS = [
    0
   ],
   "type": "single",
-  "keep": 1,
   "on": [
    [
     "F20",
@@ -22811,7 +22766,6 @@ const QUESTIONS = [
    3
   ],
   "type": "single",
-  "keep": 1,
   "on": [
    [
     "F20",

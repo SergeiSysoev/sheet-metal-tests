@@ -322,8 +322,8 @@
    "Среднее проплавление",
    "Мелкое проплавление"
   ],
-  "why_en": "For points pick a: \"reverse polarity gives deep penetration\" is the rule for GMAW and SMAW. Technically c is also correct for GTAW (TIG), because on DCEP about 70% of the arc heat goes into the tungsten electrode and only about 30% into the work, so the weld is wide and shallow; in GTAW it is DCEN that gives deep penetration.",
-  "why_ru": "Для балла — a: «reverse polarity даёт глубокий провар» — правило для GMAW и SMAW. Технически для GTAW (TIG) c тоже верен, потому что на DCEP около 70% тепла дуги уходит в вольфрамовый electrode и только около 30% — в деталь, поэтому шов широкий и мелкий; глубокий провар в GTAW даёт как раз DCEN.",
+  "why_en": "For points pick \"deep penetration\": \"reverse polarity gives deep penetration\" is the rule for GMAW and SMAW. Technically \"shallow penetration\" is also correct for GTAW (TIG), because on DCEP about 70% of the arc heat goes into the tungsten electrode and only about 30% into the work, so the weld is wide and shallow; in GTAW it is DCEN that gives deep penetration.",
+  "why_ru": "Для балла — «глубокое проплавление»: «reverse polarity даёт глубокий провар» — правило для GMAW и SMAW. Технически для GTAW (TIG) вариант «мелкое проплавление» тоже верен, потому что на DCEP около 70% тепла дуги уходит в вольфрамовый electrode и только около 30% — в деталь, поэтому шов широкий и мелкий; глубокий провар в GTAW даёт как раз DCEN.",
   "flag": "Answer differs from the instructor's mark: key a (Deep penetration), kept c (Shallow) - correct for GTAW as printed; the key fits GMAW (likely misprint)."
  },
  {

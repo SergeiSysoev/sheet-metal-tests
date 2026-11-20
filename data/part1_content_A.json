@@ -70,8 +70,8 @@
    "подключить electrode к клемме AC, а ground — к DC",
    "подключить electrode к отрицательной клемме, а ground — к base metal"
   ],
-  "why_en": "For points pick d: straight polarity is DCEN, so the electrode lead goes to the negative terminal and the work (ground) clamp goes on the base metal. Technically b is also correct, because DCEN by definition means electrode lead to negative and work lead to positive (ITI SMAW manual, p. 13), just as reverse polarity is electrode to positive, ground to negative. \"Ground to base metal\" is true for any polarity; a is reverse polarity (DCEP), and c mixes AC with DC, which is impossible.",
-  "why_ru": "Для балла — d: straight polarity — это DCEN, electrode подключают к отрицательной клемме, а ground (work clamp) — на base metal. Технически b тоже верен: DCEN по определению — electrode на минус, work clamp на плюс (учебник ITI по SMAW, стр. 13), так же как reverse polarity — electrode на плюс, ground на минус. «Ground на base metal» верно при любой полярности; a — это reverse polarity (DCEP), а c смешивает AC и DC, так не бывает.",
+  "why_en": "For points pick \"electrode to negative terminal and ground to base metal\": straight polarity is DCEN, so the electrode lead goes to the negative terminal and the work (ground) clamp goes on the base metal. Technically \"electrode to the negative terminal and ground to positive\" is also correct, because DCEN by definition means electrode lead to negative and work lead to positive (ITI SMAW manual, p. 13), just as reverse polarity is electrode to positive, ground to negative. \"Ground to base metal\" is true for any polarity; \"electrode to the positive terminal and ground to negative\" is reverse polarity (DCEP), and \"electrode to AC terminal and ground to DC\" mixes AC with DC, which is impossible.",
+  "why_ru": "Для балла — «electrode к отрицательной клемме, а ground — к base metal»: straight polarity — это DCEN, electrode подключают к отрицательной клемме, а ground (work clamp) — на base metal. Технически вариант «electrode к отрицательной клемме, а ground — к положительной» тоже верен: DCEN по определению — electrode на минус, work clamp на плюс (учебник ITI по SMAW, стр. 13), так же как reverse polarity — electrode на плюс, ground на минус. «Ground на base metal» верно при любой полярности; «electrode к положительной клемме, а ground — к отрицательной» — это reverse polarity (DCEP), а «electrode к клемме AC, а ground — к DC» смешивает AC и DC, так не бывает.",
   "flag": "Disputed: key d. b is technically also correct (ITI manual p. 13: DCEN = holder to −, work clamp to +; the key accepts the same wording for reverse polarity in №24). Points were taken off for b on 16.11.2026."
  },
  {
@@ -359,8 +359,8 @@
    "подключить electrode к клемме AC, а ground — к DC",
    "подключить electrode к отрицательной клемме, а ground — к base metal"
   ],
-  "why_en": "Reverse polarity = DCEP: the electrode lead goes to the positive terminal and the work (ground) lead to the negative terminal. b and d are straight polarity (DCEN), and c is impossible: AC and DC are not mixed in one circuit.",
-  "why_ru": "Reverse polarity = DCEP: electrode — на положительную клемму, ground (work clamp) — на отрицательную. b и d — это straight polarity (DCEN), а c невозможен: AC и DC в одной цепи не смешивают.",
+  "why_en": "Reverse polarity = DCEP: the electrode lead goes to the positive terminal and the work (ground) lead to the negative terminal. \"Electrode to the negative terminal and ground to positive\" and \"electrode to negative terminal and ground to base metal\" are straight polarity (DCEN), and \"electrode to AC terminal and ground to DC\" is impossible: AC and DC are not mixed in one circuit.",
+  "why_ru": "Reverse polarity = DCEP: electrode — на положительную клемму, ground (work clamp) — на отрицательную. Варианты «electrode к отрицательной клемме, а ground — к положительной» и «electrode к отрицательной клемме, а ground — к base metal» — это straight polarity (DCEN), а вариант «electrode к клемме AC, а ground — к DC» невозможен: AC и DC в одной цепи не смешивают.",
   "flag": null
  },
  {

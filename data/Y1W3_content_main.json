@@ -43,8 +43,8 @@
    "и по часовой, и против часовой стрелки",
    "ни один из ответов не верен"
   ],
-  "why_en": "For points pick b, counter-clockwise. Technically clockwise is also correct because manufacturers make right-cut snips (green handles) to cut straight and curve to the right, and a cut that curves to the right runs clockwise. The answer depends on what \"right-handed\" is taken to mean.",
-  "why_ru": "Для балла — b, против часовой стрелки. Технически «по часовой» тоже верен, потому что производители делают right-cut snips (зелёные ручки) для реза прямо и с поворотом вправо, а рез с поворотом вправо идёт по часовой. Ответ зависит от того, что понимать под «right-handed».",
+  "why_en": "For points pick \"counter-clockwise\". Technically \"clockwise\" is also correct because manufacturers make right-cut snips (green handles) to cut straight and curve to the right, and a cut that curves to the right runs clockwise. The answer depends on what \"right-handed\" is taken to mean.",
+  "why_ru": "Для балла — «против часовой стрелки». Технически «по часовой» тоже верен, потому что производители делают right-cut snips (зелёные ручки) для реза прямо и с поворотом вправо, а рез с поворотом вправо идёт по часовой. Ответ зависит от того, что понимать под «right-handed».",
   "flag": "Disputed key (08-testy-i-klyuchi.md, open question 2): SMY1W3 key = b counter-clockwise; Trade Intro accepted a clockwise; manufacturers describe right-cut snips as cutting to the right (clockwise)."
  },
  {
@@ -309,8 +309,8 @@
    "3-3/8",
    "3.375"
   ],
-  "why_en": "9/8 × 9/4 = 81/32 = 2.53125. For points pick a, 2.531. Technically 2-17/32 is also correct because 81/32 = 2-17/32 exactly; a is the same number rounded to three decimals. 3-3/8 = 3.375 is the sum, not the product.",
-  "why_ru": "9/8 × 9/4 = 81/32 = 2.53125. Для балла — a, 2.531. Технически 2-17/32 тоже верен, потому что 81/32 = ровно 2-17/32; a — то же число, округлённое до 3 знаков. 3-3/8 = 3.375 — это сумма, а не произведение.",
+  "why_en": "9/8 × 9/4 = 81/32 = 2.53125. For points pick 2.531. Technically 2-17/32 is also correct because 81/32 = 2-17/32 exactly; 2.531 is the same number rounded to three decimals. 3-3/8 = 3.375 is the sum, not the product.",
+  "why_ru": "9/8 × 9/4 = 81/32 = 2.53125. Для балла — 2.531. Технически 2-17/32 тоже верен, потому что 81/32 = ровно 2-17/32; 2.531 — то же число, округлённое до 3 знаков. 3-3/8 = 3.375 — это сумма, а не произведение.",
   "flag": "Disputed key: a 2.531 and b 2-17/32 are the same value (81/32 = 2.53125). SMY1W3 graded sheet keyed a and marked b wrong; SMY1W5 Monday graded sheet (its No.56) accepted 2-17/32."
  },
  {
@@ -325,8 +325,8 @@
    "14/32",
    ".3875"
   ],
-  "why_en": "7 ÷ 16 = 0.4375 (a). 14/32 is the same value written as an unreduced fraction, not a conversion; .4385 and .3875 are wrong decimals.",
-  "why_ru": "7 ÷ 16 = 0.4375 (a). 14/32 — то же число, но это несокращённая дробь, а не перевод в десятичную; .4385 и .3875 — неверные десятичные.",
+  "why_en": "7 ÷ 16 = 0.4375 → .4375. 14/32 is the same value written as an unreduced fraction, not a conversion; .4385 and .3875 are wrong decimals.",
+  "why_ru": "7 ÷ 16 = 0.4375 → .4375. 14/32 — то же число, но это несокращённая дробь, а не перевод в десятичную; .4385 и .3875 — неверные десятичные.",
   "flag": "c 14/32 equals 7/16 numerically; the printed question has no instruction, decimal conversion is implied. Key a from the graded sheets (a not marked wrong)."
  },
  {
@@ -433,8 +433,8 @@
    "305.1",
    "305.098"
   ],
-  "why_en": "The two R6\" ends make one full circle: π × 6² = 113.097; the rectangle between them is 1'-4\" × 12\" = 16 × 12 = 192. Total 305.0973 sq in; with π = 3.1416 it is 305.0976 → d 305.098, the most precise option. c 305.1 is the same area rounded to one decimal, so it counts too.",
-  "why_ru": "Два конца R6\" вместе дают полный круг: π × 6² = 113.097; прямоугольник между ними — 1'-4\" × 12\" = 16 × 12 = 192. Итого 305.0973 sq in; с π = 3.1416 — 305.0976 → d 305.098, самый точный вариант. c 305.1 — та же площадь с округлением до десятых, поэтому она тоже засчитывается.",
+  "why_en": "The two R6\" ends make one full circle: π × 6² = 113.097; the rectangle between them is 1'-4\" × 12\" = 16 × 12 = 192. Total 305.0973 sq in; with π = 3.1416 it is 305.0976 → 305.098, the most precise option. 305.1 is the same area rounded to one decimal, so it counts too.",
+  "why_ru": "Два конца R6\" вместе дают полный круг: π × 6² = 113.097; прямоугольник между ними — 1'-4\" × 12\" = 16 × 12 = 192. Итого 305.0973 sq in; с π = 3.1416 — 305.0976 → 305.098, самый точный вариант. 305.1 — та же площадь с округлением до десятых, поэтому она тоже засчитывается.",
   "flag": "Knowledge base 08 §10 lists d 305.098 ('most precise'). Set to c: c is the exact area rounded to 0.1 and was accepted on both graded sheets (Trade Intro, SMY1W3); d holds only with pi = 3.1416 (full pi gives 305.097)."
  },
  {
